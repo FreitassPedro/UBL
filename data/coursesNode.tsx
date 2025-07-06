@@ -1,4 +1,4 @@
-const courses = [
+const coursesNode = [
   [
     "Circuitos Digitais",
     "Matemática Discreta",
@@ -44,4 +44,4 @@ const courses = [
   ["Teoria da Computação", "Deep Learning", "Compiladores", "Computação Quantica", "Metodologia da Pesquisa"],
 ];
 
-export default courses;
+export default coursesNode;
