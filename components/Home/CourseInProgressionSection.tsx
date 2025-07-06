@@ -1,0 +1,50 @@
+import { Link } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Progress } from "@radix-ui/react-progress";
+import { useCourseProgress } from "../course-progress";
+
+const coursesMock = [
+    {
+        id: "circuitos-digitais",
+        title: "Circuitos Digitais",
+        description: "Introdução aos conceitos fundamentais de circuitos digitais",
+        videos: [],
+    },
+    {
+        id: "matematica-discreta",
+        title: "Matemática Discreta",
+        description: "Aulas e Provas do Curso de Matemática Discreta voltada para computação",
+        videos: [],
+    },
+]
+
+const CoursesInProgressSection = () => {
+    const { getProgress } = useCourseProgress()
+
+    return (
+        <section>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {coursesMock.map((course) => (
+                    <Link to={`/curso/${course.id}`} key={course.id}>
+                        <Card className="hover:shadow-lg transition-shadow">
+                            <CardHeader>
+                                <CardTitle>{course.title}</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <div className="space-y-2">
+                                    <Progress value={getProgress(course.id, course.videos)} />
+                                    <p className="text-sm text-muted-foreground">
+                                        {Math.round(getProgress(course.id, course.videos))}% concluído
+                                    </p>
+                                    <p className="text-sm">{course.description}</p>
+                                </div>
+                            </CardContent>
+                        </Card>
+                    </Link>
+                ))}
+            </div>
+        </section >
+    )
+}
+
+export default CoursesInProgressSection;
