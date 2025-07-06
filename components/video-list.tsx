@@ -18,9 +18,11 @@ export function VideoList({ videos, selectedVideo, onSelectVideo }: VideoListPro
       {videos.map((video) => (
         <div
           key={video.id}
-          className={`flex items-start gap-2 p-3 rounded-lg cursor-pointer hover:bg-accent transition-colors ${
-            selectedVideo.id === video.id ? "bg-accent" : ""
-          }`}
+          className={
+            `flex items-start gap-2 p-3 rounded-lg cursor-pointer transition-colors 
+            ${completedVideos.has(video.id) ? "bg-purple-200/30 border-purple-300 border-2" : "bg-white hover:bg-gray-100"}
+            ${selectedVideo.id === video.id ? "border-2 border-purple-500 bg-purple-200" : "border border-gray-200"}
+          `}
           onClick={() => onSelectVideo(video)}
         >
           <button
