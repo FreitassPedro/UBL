@@ -2,21 +2,19 @@
 
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { VideoPlayer } from "@/components/video-player";
-import { VideoList } from "@/components/video-list";
+
+import { VideoPlayer } from "@/components/curso/VideoPlayer";
 import { useCourseProgress } from "@/components/course-progress";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import { coursesData } from "@/data/coursesData";
+import { CourseSidebar } from "./curso/CourseSidebar";
 
 export function CoursePage({ id }: { id: string }) {
   const courseData = coursesData[id];
-  const [selectedVideo, setSelectedVideo] = useState(courseData?.videos[0] || null);
   const { getProgress } = useCourseProgress();
   const [progress, setProgress] = useState(0);
+  const [selectedVideo, setSelectedVideo] = useState(courseData?.videos[0] || null);
 
   useEffect(() => {
     if (courseData) {
@@ -29,9 +27,9 @@ export function CoursePage({ id }: { id: string }) {
   }
 
   return (
-    <div className="container mx-auto py-6 max-w-[1400px]">
+    <div className="container mx-auto py-6 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        <div className="lg:col-span-9">
+        <div className="lg:col-span-8">
           <div className="space-y-6">
             <Link href="/" passHref>
               <button className="px-4 py-2 text-white bg-blue-900 rounded-md hover:bg-blue-700 focus:outline-none">
@@ -61,26 +59,13 @@ export function CoursePage({ id }: { id: string }) {
             </Card>
           </div>
         </div>
-        <div className="lg:col-span-3">
-          <Card className="h-full">
-            <CardHeader>
-              <CardTitle className="text-lg">Aulas</CardTitle>
-              <div className="space-y-2">
-                <Progress value={progress} />
-                <p className="text-sm text-muted-foreground">
-                  {Math.round(progress)}% concluído
-                </p>
-              </div>
-            </CardHeader>
-            <Separator />
-            <ScrollArea className="h-[500px]">
-              <VideoList
-                videos={courseData.videos}
-                selectedVideo={selectedVideo}
-                onSelectVideo={setSelectedVideo}
-              />
-            </ScrollArea>
-          </Card>
+        <div className="lg:col-span-4">
+          <CourseSidebar 
+            courseData={courseData}
+            progress={progress}
+            selectedVideo={selectedVideo}
+            onSelectVideo={setSelectedVideo}
+          />
         </div>
       </div>
     </div>

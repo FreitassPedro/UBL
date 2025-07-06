@@ -14,13 +14,13 @@ import ReactFlow, {
 } from "reactflow"
 import "reactflow/dist/style.css"
 import CourseNode, { type CourseStatus } from "@/components/CourseNode"
-import courses from "@/data/courses"
+import coursesNode from "@/data/coursesNode"
 
 const nodeTypes = {
   course: CourseNode,
 }
 
-const initialNodes: Node[] = courses.flatMap((semester, semesterIndex) =>
+const initialNodes: Node[] = coursesNode.flatMap((semester, semesterIndex) =>
   semester.map((course, courseIndex) => ({
     id: `${semesterIndex + 1}-${courseIndex + 1}`,
     type: "course",
