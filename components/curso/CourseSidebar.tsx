@@ -3,7 +3,7 @@ import { Card, CardHeader, CardTitle } from "../ui/card";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { VideoList } from "../video-list";
+import { VideoList } from "./VideoList";
 import { Course } from "@/types/course";
 import React from "react";
 import type { Video } from "@/types/course"
