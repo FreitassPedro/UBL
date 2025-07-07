@@ -20,7 +20,7 @@ export default function RootLayout({
         <CourseProgressProvider>
           <header className="bg-primary text-primary-foreground p-4">
             <div className="container mx-auto">
-              <h1 className="text-2xl font-bold">Cursos de Universidade</h1>
+              <h1 className="text-2xl font-bold">Universidade Brasileira Livre</h1>
             </div>
           </header>
           <main className="container mx-auto py-8">{children}</main>

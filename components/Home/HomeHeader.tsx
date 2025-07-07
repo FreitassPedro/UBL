@@ -2,6 +2,7 @@
 
 import { GraduationCap } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export function HomeHeader() {
     return (
@@ -18,6 +19,11 @@ export function HomeHeader() {
                         Contribua no GitHub
                     </Button>
                 </a>
+                <Button>
+                    <Link href="/grade-curricular" passHref>
+                        Ver Grade Curricular
+                    </Link>
+                </Button>
             </div>
         </header>
     )

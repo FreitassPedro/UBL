@@ -1,12 +1,11 @@
 import { Card, CardContent } from "../ui/card";
 
-import { BookOpen, Users} from "lucide-react";
+import { BookOpen, Users } from "lucide-react";
 
 export const AboutProject = () => {
     return (
         <>
             <section className="mb-16">
-
                 <h2 className="text-3xl font-bold mb-6">Sobre o Projeto</h2>
                 <Card>
                     <CardContent className="p-6">
