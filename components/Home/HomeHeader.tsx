@@ -1,4 +1,6 @@
-import { Github, GraduationCap } from "lucide-react";
+"use client";
+
+import { GraduationCap } from "lucide-react";
 import { Button } from "../ui/button";
 
 export function HomeHeader() {
@@ -13,7 +15,6 @@ export function HomeHeader() {
                 </Button>
                 <a href="https://github.com/MarlonJerold/universidade" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline">
-                        <Github className="mr-2 h-4 w-4" />
                         Contribua no GitHub
                     </Button>
                 </a>

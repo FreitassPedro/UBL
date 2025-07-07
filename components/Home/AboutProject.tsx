@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../ui/card";
 
-import { BookOpen, Users, Github } from "lucide-react";
+import { BookOpen, Users} from "lucide-react";
 
 export const AboutProject = () => {
     return (
@@ -36,7 +36,6 @@ export const AboutProject = () => {
                             </Card>
                             <Card>
                                 <CardContent className="flex flex-col items-center p-4">
-                                    <Github className="h-12 w-12 text-primary mb-2" />
                                     <h3 className="text-lg font-semibold">Open Source</h3>
                                     <p className="text-center text-sm text-muted-foreground">
                                         Contribua para o desenvolvimento do projeto

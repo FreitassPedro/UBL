@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import AboutProject from "@/components/Home/AboutProject";
 import AllAvailableCoursesSection from "@/components/Home/AllAvailableCoursesSection";

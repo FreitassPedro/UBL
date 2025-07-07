@@ -1,6 +1,6 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
-import { CourseProgressProvider } from "@/components/course-progress"
+import { CourseProgressProvider } from "@/contexts/CourseProgressContext"
 
 const inter = Inter({ subsets: ["latin"] })
 

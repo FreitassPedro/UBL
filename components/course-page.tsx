@@ -4,11 +4,12 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import { VideoPlayer } from "@/components/curso/VideoPlayer";
-import { useCourseProgress } from "@/components/course-progress";
+
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import { coursesData } from "@/data/coursesData";
 import { CourseSidebar } from "./curso/CourseSidebar";
+import { useCourseProgress } from "@/contexts/CourseProgressContext";
 
 export function CoursePage({ id }: { id: string }) {
   const courseData = coursesData[id];
