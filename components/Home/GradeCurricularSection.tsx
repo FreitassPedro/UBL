@@ -1,4 +1,4 @@
-import { CourseGrid } from "../CourserGrid";
+import { CourseGrid } from "../GradeGraph/CourserGrid";
 
 export function GradeCurricularSection() {
     return (

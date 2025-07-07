@@ -13,7 +13,7 @@ import ReactFlow, {
   Controls,
 } from "reactflow"
 import "reactflow/dist/style.css"
-import CourseNode, { type CourseStatus } from "@/components/CourseNode"
+import CourseNode, { type CourseStatus } from "@/components/GradeGraph/CourseNode"
 import coursesNode from "@/data/coursesNode"
 
 const nodeTypes = {

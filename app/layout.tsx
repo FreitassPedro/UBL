@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { CourseProgressProvider } from "@/contexts/CourseProgressContext"
+import Link from "next/link"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,7 +21,7 @@ export default function RootLayout({
         <CourseProgressProvider>
           <header className="bg-primary text-primary-foreground p-4">
             <div className="container mx-auto">
-              <h1 className="text-2xl font-bold">Universidade Brasileira Livre</h1>
+              <Link href={"/"} className="text-2xl font-bold">Universidade Brasileira Livre</Link>
             </div>
           </header>
           <main className="container mx-auto py-8">{children}</main>
