@@ -1,4 +1,4 @@
-import { CourseProgressProvider } from "@/components/course-progress"
+import { CourseProgressProvider } from "@/contexts/CourseProgressContext"
 
 export default function CourseLayout({
   children,

@@ -1,7 +1,9 @@
-import { Link } from "lucide-react";
+import { useCourseProgress } from "@/contexts/CourseProgressContext";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Progress } from "@radix-ui/react-progress";
-import { useCourseProgress } from "../course-progress";
+
+import Link from "next/link";
+
 
 const coursesMock = [
     {
@@ -25,7 +27,7 @@ const CoursesInProgressSection = () => {
         <section>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {coursesMock.map((course) => (
-                    <Link to={`/curso/${course.id}`} key={course.id}>
+                    <Link href={`/curso/${course.id}`} key={course.id}>
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
                                 <CardTitle>{course.title}</CardTitle>
