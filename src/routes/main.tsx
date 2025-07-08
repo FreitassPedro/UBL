@@ -4,6 +4,7 @@ import '../index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from '../assets/pages/HomePage/HomePage.tsx'
 import { CourseProgressProvider } from '../contexts/CourseProgressContext.tsx'
+import GradeCurricularPage from '../assets/pages/GradePage/GradeCurricularPage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path='/grade-curricular' element={<GradeCurricularPage />} />
         </Routes>
       </BrowserRouter>
     </CourseProgressProvider>

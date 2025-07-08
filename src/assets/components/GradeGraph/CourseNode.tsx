@@ -1,8 +1,8 @@
 import type React from "react"
 import { Handle, Position } from "reactflow"
-import { Card, CardContent } from "@/components/ui/card"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { MoreHorizontal } from "lucide-react"
+import { Card, CardContent } from "../ui/card"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu"
 
 export type CourseStatus = "default" | "completed" | "in-progress"
 

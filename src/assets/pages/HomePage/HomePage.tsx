@@ -8,9 +8,7 @@ import { HomeHeader } from "../../components/Home/HomeHeader";
 export default function HomePage() {
 
     return (
-        <div className="container mx-auto px-4 py-8">
-
-
+        <div className="container mx-auto px-6 py-8 min-h-screen">
             <HomeHeader />
 
             <CoursesInProgressSection />

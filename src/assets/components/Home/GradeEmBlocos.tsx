@@ -6,11 +6,11 @@ export function GradeEmBlocos() {
 
     return (
         <section className="mb-16">
-            <h2 className="text-3xl font-bold">Currículo em etapas</h2>
+            <h2 className="text-3xl text-gray-700 font-bold">Currículo em etapas</h2>
             <div className="space-y-6">
                 {semesters.map((semester) => (
                     <div key={semester.number} className="bg-white shadow-md rounded-lg p-6">
-                        <h4 className="text-xl font-semibold mb-4">Semestre {semester.number}</h4>
+                        <h4 className="text-xl font-semibold text-gray-900 mb-4">Semestre {semester.number}</h4>
                         <span className="font-medium">Disciplina / </span>
                         <span className="text-gray-700">Pré-requisitos</span>
                         <ul className="mt-4 space-y-4">

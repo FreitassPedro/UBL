@@ -12,7 +12,7 @@ export function SubjectItem({ subject }: SujectItemProps) {
     const [showBooks, setShowBooks] = useState(false);
 
     return (
-        <li className="flex flex-col border p-4 rounded-md hover:bg-gray-50 transition-colors">
+        <li className="flex flex-col border p-4 rounded-md text-gray-600 hover:bg-gray-50 transition-colors">
             <div className="flex justify-between items-center">
                 <div className="flex flex-col">
                     <span className="font-medium text-lg">{subject.name}</span>

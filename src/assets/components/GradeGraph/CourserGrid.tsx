@@ -11,7 +11,7 @@ import ReactFlow, {
   Controls,
 } from "reactflow"
 import "reactflow/dist/style.css"
-import CourseNode, { type CourseStatus } from "../GradePage/CourseNode"
+import CourseNode, { type CourseStatus } from "./CourseNode"
 import coursesNode from "../../../data/coursesNode"
 
 const nodeTypes = {
