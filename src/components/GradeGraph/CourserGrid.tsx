@@ -12,7 +12,7 @@ import ReactFlow, {
 } from "reactflow"
 import "reactflow/dist/style.css"
 import CourseNode, { type CourseStatus } from "./CourseNode"
-import coursesNode from "../../../data/coursesNode"
+import coursesNode from "../../data/coursesNode"
 
 const nodeTypes = {
   course: CourseNode,

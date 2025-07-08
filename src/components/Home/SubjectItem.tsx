@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { BookOpen, ChevronDown, ChevronUp } from "lucide-react";
-import type { Subject } from "../../../data/curriculum";
+import type { Subject } from "../../data/curriculum";
 
 
 interface SujectItemProps {

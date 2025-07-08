@@ -6,7 +6,8 @@ import { VideoList } from "./VideoList";
 import { Separator } from "@radix-ui/react-separator";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { Progress } from "@radix-ui/react-progress";
-import type { Course, Video } from "../../../types/course";
+import type { Course, Video } from "../../types/course";
+
 
 interface CourseSidebarProps {
     courseData: Course;

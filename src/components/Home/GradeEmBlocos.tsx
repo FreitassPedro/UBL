@@ -1,4 +1,4 @@
-import { curriculum } from "../../../data/curriculum";
+import { curriculum } from "../../data/curriculum";
 import { SubjectItem } from "./SubjectItem";
 
 export function GradeEmBlocos() {

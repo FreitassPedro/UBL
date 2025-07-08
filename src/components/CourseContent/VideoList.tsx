@@ -1,8 +1,6 @@
-"use client"
-
 import { CheckCircle, Circle } from "lucide-react"
-import type { Video } from "../../../types/course";
-import { useCourseProgress } from "../../../contexts/CourseProgressContext";
+import type { Video } from "../../types/course";
+import { useCourseProgress } from "../../contexts/CourseProgressContext";
 
 
 interface VideoListProps {

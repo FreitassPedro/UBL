@@ -1,4 +1,4 @@
-import { useCourseProgress } from "../../../contexts/CourseProgressContext";
+import { useCourseProgress } from "../../contexts/CourseProgressContext";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Progress } from "@radix-ui/react-progress";
 

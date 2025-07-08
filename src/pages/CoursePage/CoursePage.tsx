@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import { useCourseProgress } from "../../../contexts/CourseProgressContext";
-import type { Course, Video } from "../../../types/course";
-import { coursesData } from "../../../data/coursesData";
+import { useCourseProgress } from "../../contexts/CourseProgressContext";
+import type { Course, Video } from "../../types/course";
+import { coursesData } from "../../data/coursesData";
 import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card";
 import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
 import { CourseSidebar } from "../../components/CourseContent/CourseSidebar";
