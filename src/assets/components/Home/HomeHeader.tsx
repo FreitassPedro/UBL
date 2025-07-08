@@ -13,11 +13,11 @@ export function HomeHeader() {
                     <GraduationCap className="mr-2 h-4 w-4" />
                     Comece a Aprender
                 </Button>
-                <a href="https://github.com/MarlonJerold/universidade" target="_blank" rel="noopener noreferrer">
+                <Link to="https://github.com/Universidade-Livre/universidade" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline">
                         Contribua no GitHub
                     </Button>
-                </a>
+                </Link>
                 <Button>
                     <Link to="/grade-curricular">
                         Ver Grade Curricular
