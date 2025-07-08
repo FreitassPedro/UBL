@@ -19,66 +19,83 @@ Atualmente, temos disponível a grade curricular do curso da UBL
 O site não tem objetivo de cobrar nada para funcionar, estou usando ferramentas gratuitas de hospedagem e nenhum conteúdo presente é de minha propriedade, se trata de um projeto aberto
 
 ## Como contribuir?
+Estamos agora utilizando **React, Vite e TypeScript** para o desenvolvimento frontend, o que proporciona um ambiente de desenvolvimento mais rápido e leve.
 
-```git
-git checkout -b feature/adicionar-cursos-embutidos
-```
+### Requisitos Mínimos:
+* Node.js (versão 18.x ou superior recomendada)
+* npm (gerenciador de pacotes do Node.js) ou Yarn
 
-Realize commits pequenos e com frequência. Isso ajuda a manter o histórico de mudanças limpo e fácil de entender. Cada commit deve ser uma unidade lógica de trabalho.
+1.  **Crie uma Nova Branch:**
+    Sempre crie uma nova branch para cada funcionalidade, correção de bug ou refatoração. Isso mantém as mudanças isoladas.
+    ```bash
+    git checkout main # Certifique-se de estar na branch principal atualizada
+    git pull origin main # Sincronize sua main local com seu fork remoto
+    git checkout -b feature/minha-nova-funcionalidade
+    # Exemplo: git checkout -b feature/adicionar-cursos-embutidos
+    ```
 
-```git
-git add .
-git commit -m "Adiciona estrutura para exibir cursos com vídeos embutidos"
-git push origin feature/adicionar-cursos-embutidos
-````
+2.  **Realize seus Commits:**
+    Faça commits pequenos e com frequência. Isso ajuda a manter o histórico de mudanças limpo e fácil de entender. Cada commit deve ser uma unidade lógica de trabalho.
 
-As mensagens de commit devem ser descritivas e claras, explicando o que foi feito. A convenção recomendada é:
-1. Primeira linha: Resumo curto do que foi feito (máximo 50 caracteres).
-2. Linhas seguintes: Descrição detalhada, se necessário, explicando o motivo da mudança.
+    As mensagens de commit devem ser descritivas e claras, explicando o que foi feito. A convenção recomendada é:
+    1.  Primeira linha: Resumo curto do que foi feito (máximo 50 caracteres).
+    2.  Linhas seguintes: Descrição detalhada, se necessário, explicando o motivo da mudança.
 
-```git
-git commit -m "Adiciona suporte a vídeos embutidos para os cursos"
-```
+    Exemplo:
+    ```bash
+    git add .
+    git commit -m "feat: Adiciona estrutura para exibir cursos com vídeos embutidos"
+    # ou
+    git commit -m "fix: Corrige erro de NaN no cálculo de progresso"
+    ```
 
-Sempre que estiver trabalhando em uma branch e for fazer o git pull, utilize a opção --rebase para evitar merges desnecessários. Isso mantém o histórico linear e limpo.
+3.  **Sincronize com o Repositório Original (Opcional, mas Recomendado):**
+    Para manter sua branch atualizada com as últimas mudanças do repositório principal da Universidade Livre e evitar conflitos futuros, adicione o repositório original como um `upstream` remoto e puxe as mudanças regularmente:
+    ```bash
+    # Apenas uma vez:
+    git remote add upstream [https://github.com/Universidade-Livre/universidade.git](https://github.com/Universidade-Livre/universidade.git)
 
-```git
-git pull --rebase origin master
-```
+    # Para atualizar sua branch de trabalho:
+    git pull --rebase upstream main
+    ```
+    Sempre que estiver trabalhando em uma branch e for fazer o `git pull`, utilize a opção `--rebase` para evitar merges desnecessários. Isso mantém o histórico linear e limpo.
 
-Para adicionar os cursos do YouTube manualmente na plataforma, sem utilizar a API do YouTube, você pode configurar um processo para embutir os vídeos diretamente em sua aplicação. Vou te mostrar um exemplo básico de como isso poderia ser feito, além de algumas sugestões para organizar o código.
+4.  **Envie sua Branch para o SEU Fork:**
+    Quando suas mudanças estiverem prontas, envie sua branch para o seu fork no GitHub:
+    ```bash
+    git push --set-upstream origin feature/minha-nova-funcionalidade
+    ```
 
-1. Estrutura para Adicionar Cursos Manualmente
-Você pode criar um arquivo de dados ou estrutura para armazenar as informações dos cursos, como título, descrição, e o ID do vídeo do YouTube (para o embed). Vamos supor que você armazene isso em um arquivo de configuração no seu projeto, como um array de objetos.
+5.  **Abra um Pull Request (PR):**
+    Vá para a página do **seu fork** no GitHub (`https://github.com/SEU_USUARIO/UBL`). O GitHub deve exibir um botão "Compare & pull request" ou um banner.
+    * Certifique-se de que o Pull Request está sendo feito da sua branch (`feature/minha-nova-funcionalidade`) para a branch `main` do repositório **original** (`Universidade-Livre/universidade`).
+    * Forneça um título e uma descrição claros para o seu PR, explicando o que foi implementado e por que.
 
-2. Exemplo de Código
-Aqui está um exemplo de como você pode adicionar os cursos manualmente no seu projeto:
+### Estrutura de Dados para Cursos (Exemplo para Contribuição):
+Para adicionar cursos, você pode estender a estrutura de dados existente, tipicamente encontrada em `src/data/coursesData.ts` (ou similar). Um exemplo de entrada para um curso e seus vídeos:
 
-```Typescript
+```typescript
   "2": {
-    id: "2" <- Id do curso,
-    title: "Nome Do curso",
+    id: "2", // ID do curso
+    title: "Nome Do Curso",
     description: "Descrição do Curso",
     professor: {
-      name: "Nome do Projeto",
-      bio: "Professor de Matemática Discreta",
-      imageUrl: "/douglasmaioli.jpg?height=200&width=200"
+      name: "Nome do Professor",
+      bio: "Biografia do Professor",
+      imageUrl: "/caminho/para/imagem_professor.jpg"
     },
     "videos": [
       {
         id: "1",
-        title: "Aula #01 - Tabela Verdade dos Conectivos (Parte I de Lógica) | Fundamentos Matemáticos para Computação",
-        videoId: "QE6ruiq632o",
-        completed": false
+        title: "Aula #01 - Título da Aula",
+        videoId: "ID_DO_VIDEO_YOUTUBE", // O ID do vídeo do YouTube para embed
+        completed: false // O status 'completed' é gerenciado pelo sistema de progresso do usuário no frontend.
       },
+      // ... mais vídeos
     ]
   }
 ```
 
-No componente ```course-page``` adicione a playlist referente ao curso, prioridade aos cursos que tem linkado na UBL.
-
-
-O projeto é em Next, tendo node instalado e clonado o projeto, você pode mandar o ```npm run dev``` e acessar a localhost:3000 que irá encontrar o projeto rodando em sua máquina
 
 Referências
 https://github.com/Universidade-Livre/ciencia-da-computacao
