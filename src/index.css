@@ -21,6 +21,14 @@ body {
     background-color: #3B82F6; /* Um azul vibrante */
 }
 
+.bg-ubl-green {
+    background-color: #34D399; /* Um verde suave */
+}
+.bg-ubl-blue {
+    background-color: #3B82F6; /* Um azul vibrante */
+}
+
+
 /* Cores de texto */
 .ubl-text-gradient {
     background: linear-gradient(to right, #6EE7B7, #3B82F6);

@@ -15,7 +15,7 @@ export function TesteProgress({ value }: TesteProgressProps) {
         value={value}
       >
         <ProgressPrimitive.Indicator
-          className="h-full bg-green-500 transition-transform duration-500 ease-in-out" // Estilo da barra de preenchimento
+          className="h-full bg-ubl-blue transition-transform duration-500 ease-in-out" // Estilo da barra de preenchimento
           style={{ transform: `translateX(-${100 - (value || 0)}%)` }}
         />
       </ProgressPrimitive.Root>

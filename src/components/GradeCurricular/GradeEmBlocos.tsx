@@ -6,13 +6,10 @@ export function GradeEmBlocos() {
 
     return (
         <section className="mb-16">
-            {/* Título com texto branco */}
             <h2 className="text-3xl text-white font-bold">Currículo em etapas</h2>
             <div className="space-y-6 ">
                 {semesters.map((semester) => (
-                    // Fundo do bloco do semestre ajustado para cinza escuro, sombra
                     <div key={semester.number} className="bg-gray-800/20 shadow-xl rounded-xl p-6">
-                        {/* Título do semestre com texto branco */}
                         <h4 className="text-xl font-semibold text-white mb-4">Semestre {semester.number}</h4>
                         <span className="font-medium text-white">Disciplina / </span>
                         <span className="text-gray-300">Pré-requisitos</span>
