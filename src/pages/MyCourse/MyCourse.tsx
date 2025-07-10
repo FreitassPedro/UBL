@@ -1,5 +1,5 @@
 import { BookOpen, Info } from "lucide-react";
-import { TesteProgress } from "../../components/ui/TesteProgress"; // Certifique-se de que este componente está configurado para cores escuras também
+import { TesteProgress } from "../../components/ui/TesteProgress";
 import React from "react";
 
 interface Subject {
@@ -31,7 +31,7 @@ interface Semester {
 const MyCourse = () => {
 
     const [expandedSemesters, setExpandedSemesters] = React.useState<string[]>([]);
-    
+
     const sampleData: Semester[] = [
         {
             id: '1',
@@ -130,6 +130,17 @@ const MyCourse = () => {
         }
     ];
 
+    const toggleSemester = (semesterId: string) => {
+        setExpandedSemesters((prev) => {
+            if (prev.includes(semesterId)) {
+                return prev.filter(id => id !== semesterId);
+            } else {
+                return [...prev, semesterId];
+            }
+        });
+    };
+
+
     return (
         <div className="min-h-screen bg-gray-800 text-white">
             <div className="bg-gray-700 shadow-xl border-b border-gray-700">
@@ -157,7 +168,9 @@ const MyCourse = () => {
                         semester.isActive ? (
                             <div key={semester.id} className="bg-zinc-800 shadow-xl rounded-lg overflow-hidden">
                                 {/* Header do curso/semestre */}
-                                <div className="px-8 py-6 cursor-pointer hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700">
+                                <div className="px-8 py-6 cursor-pointer hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700"
+                                    onClick={() => toggleSemester(semester.id)}
+                                >
                                     <div className="">
                                         <div className="flex items-center justify-between">
                                             <div className="flex items-center space-x-4">
@@ -174,7 +187,6 @@ const MyCourse = () => {
                                             </div>
                                             <div className="flex items-center space-x-6">
                                                 <div className="">
-                                                    {/* Texto de Matérias com cores claras */}
                                                     <div className="text-sm text-gray-400">Matérias</div>
                                                     <div className="text-lg font-bold text-gray-200">
                                                         {semester.completedSubjects}/{semester.totalSubjects}
@@ -184,56 +196,59 @@ const MyCourse = () => {
                                         </div>
                                     </div>
                                 </div>
+                                {expandedSemesters.includes(semester.id) && (
+                                    <>
+                                        {semester.modules.map((module) => (
+                                            <div key={module.id} className="border-t border-gray-700 last:border-b-0"> {/* Adiciona borda superior para separar módulos, remove a última */}
+                                                {/* Fundo do módulo levemente mais escuro, com padding e hover */}
+                                                <div className="px-8 py-6 space-y-4 bg-zinc-900/50 hover:bg-zinc-900 transition-all duration-300">
+                                                    <div className="flex items-center space-x-4">
+                                                        <img
+                                                            src={`https://placehold.co/60x60/31343C/EEE?text=${module.name.substring(0, 3)}`}
+                                                            alt={`Imagem do curso ${module.name}`}
+                                                            className="w-16 h-16 rounded object-cover flex-shrink-0 border border-gray-700"
+                                                        />
+                                                        <div className="">
+                                                            <h3 className="text-xl font-bold text-white">{module.name}</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex flex-col space-y-2">
+                                                        <div className="flex items-center space-x-4">
 
-                                {/* Módulos do curso */}
-                                {semester.modules.map((module) => (
-                                    <div key={module.id} className="border-t border-gray-700 last:border-b-0"> {/* Adiciona borda superior para separar módulos, remove a última */}
-                                        {/* Fundo do módulo levemente mais escuro, com padding e hover */}
-                                        <div className="px-8 py-6 space-y-4 bg-zinc-900/50 hover:bg-zinc-900 transition-all duration-300">
-                                            <div className="flex items-center space-x-4">
-                                                <img
-                                                    src={`https://placehold.co/60x60/31343C/EEE?text=${module.name.substring(0, 3)}`}
-                                                    alt={`Imagem do curso ${module.name}`}
-                                                    className="w-16 h-16 rounded object-cover flex-shrink-0 border border-gray-700"
-                                                />
-                                                <div className="">
-                                                    <h3 className="text-xl font-bold text-white">{module.name}</h3>
+                                                            <TesteProgress value={module.progress} />
+                                                            <span className="text-sm text-gray-400">{module.progress}%</span>
+                                                        </div>
+                                                        <div className="text-sm text-gray-400">{module.subjects.filter(s => s.completed).length} de {module.subjects.length} Aulas Concluídas</div>
+                                                    </div>
+                                                    <div className="mt-4 border-t border-gray-700 pt-4">
+                                                        <h4 className="text-lg font-semibold text-gray-200 mb-3">Tópicos:</h4>
+                                                        <ul className="space-y-2">
+                                                            {module.subjects.map((subject) => (
+                                                                <li key={subject.id} className="flex items-center space-x-2 text-gray-300">
+                                                                    {subject.completed ? (
+                                                                        <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                                                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                                                        </svg>
+                                                                    ) : (
+                                                                        <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+                                                                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                                                                        </svg>
+                                                                    )}
+                                                                    <span>{subject.name} ({subject.duration})</span>
+                                                                    {subject.type === 'video' && <span className="text-xs text-blue-400">[Vídeo]</span>}
+                                                                    {subject.type === 'text' && <span className="text-xs text-yellow-400">[Texto]</span>}
+                                                                    {subject.type === 'exercise' && <span className="text-xs text-purple-400">[Exercício]</span>}
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="flex flex-col space-y-2">
-                                                <div className="flex items-center space-x-4">
-
-                                                    <TesteProgress value={module.progress} />
-                                                    <span className="text-sm text-gray-400">{module.progress}%</span>
-                                                </div>
-                                                <div className="text-sm text-gray-400">{module.subjects.filter(s => s.completed).length} de {module.subjects.length} Aulas Concluídas</div>
-                                            </div>
-                                            <div className="mt-4 border-t border-gray-700 pt-4">
-                                                <h4 className="text-lg font-semibold text-gray-200 mb-3">Tópicos:</h4>
-                                                <ul className="space-y-2">
-                                                    {module.subjects.map((subject) => (
-                                                        <li key={subject.id} className="flex items-center space-x-2 text-gray-300">
-                                                            {subject.completed ? (
-                                                                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                                                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                                                                </svg>
-                                                            ) : (
-                                                                <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                                                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                                                                </svg>
-                                                            )}
-                                                            <span>{subject.name} ({subject.duration})</span>
-                                                            {subject.type === 'video' && <span className="text-xs text-blue-400">[Vídeo]</span>}
-                                                            {subject.type === 'text' && <span className="text-xs text-yellow-400">[Texto]</span>}
-                                                            {subject.type === 'exercise' && <span className="text-xs text-purple-400">[Exercício]</span>}
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
+                                        ))}
+                                    </>
+                                )}
                             </div>
+
                         ) : (
                             <div className="bg-zinc-800 shadow-xl rounded-lg overflow-hidden scale_up">
                                 {/* Header do card, similar ao semestre ativo mas sem hover de ativação */}
@@ -249,7 +264,6 @@ const MyCourse = () => {
                                         </div>
                                         <div className="flex items-center space-x-6">
                                             <div>
-                                                {/* Texto de Matérias com cores claras */}
                                                 <div className="text-sm text-gray-400">Matérias Previstas</div>
                                                 <div className="text-lg font-bold text-gray-200">
                                                     {semester.totalSubjects}
