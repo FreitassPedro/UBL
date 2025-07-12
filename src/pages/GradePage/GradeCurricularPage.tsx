@@ -1,5 +1,5 @@
 import React from 'react';
-import { SemesterCard } from '../../components/GradeCurricular/SemesterCard';
+import { SemesterContainer } from '../../components/GradeCurricular/SemesterContainer';
 import { Navbar } from '../../components/Navbar';
 import { GradeHeader } from '../../components/GradeCurricular/GradeHeader';
 import BackgroundAnimation from '../../components/BackgroundAnimation';
@@ -18,7 +18,7 @@ export default function GradeCurricularPage() {
                 <BackgroundAnimation />
 
                 <GradeHeader />
-                <SemesterCard />
+                <SemesterContainer />
 
             </div>
         </div>
