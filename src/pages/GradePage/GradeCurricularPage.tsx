@@ -1,6 +1,8 @@
 import React from 'react';
-import { GradeEmBlocos } from '../../components/GradeCurricular/GradeEmBlocos';
+import { SemesterCard } from '../../components/GradeCurricular/SemesterCard';
 import { Navbar } from '../../components/Navbar';
+import { GradeHeader } from '../../components/GradeCurricular/GradeHeader';
+import BackgroundAnimation from '../../components/BackgroundAnimation';
 
 export default function GradeCurricularPage() {
     return (
@@ -13,7 +15,11 @@ export default function GradeCurricularPage() {
                 <p className="text-lg text-muted-foreground mb-8 text-center">
                     Você pode fazer os cursos na ordem, onde, e como preferir. Este é o maior benefício da liberdade. Entretanto, por fins didáticos e de organização, recomendamos que tente respeitar os pré-requisitos. Você perceberá que não cumprir com estes poderá criar obstáculos em sua jornada.
                 </p>
-                <GradeEmBlocos />
+                <BackgroundAnimation />
+
+                <GradeHeader />
+                <SemesterCard />
+
             </div>
         </div>
     );
