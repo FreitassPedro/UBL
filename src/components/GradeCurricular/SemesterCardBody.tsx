@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SubjectCard } from "./SubjectCard";
 
-interface SubjectListSectionProps {
+interface SemesterCardBodyProps {
 
     semester: {
         subjects: {
@@ -10,10 +10,14 @@ interface SubjectListSectionProps {
             books?: { name: string; url: string }[];
         }[];
     };
+    colors: {
+        gradient: string;
+        bg: string;
+        border: string;
+        icon: string;
+    };
 }
-export const SubjectListSection: React.FC<SubjectListSectionProps> = ({ semester }) => {
-
-    const [isHovered, setIsHovered] = useState(false);
+export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ semester, colors }) => {
 
     return (
         <div className="px-8 pb-8 animate-in slide-in-from-top-4 duration-500">

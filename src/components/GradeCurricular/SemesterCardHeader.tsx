@@ -1,6 +1,6 @@
 import { BookOpen, ChevronRight, Clock } from "lucide-react";
 
-interface SemesterHeaderProps {
+interface SemesterCardHeaderPros {
     semester: {
         number: number;
         subjects: { name: string; prerequisites: string[] }[];
@@ -14,7 +14,7 @@ interface SemesterHeaderProps {
     };
     onToggle: (semesterNumber: number) => void;
 }
-export const SemesterHeader: React.FC<SemesterHeaderProps> = ({ semester, isActive, colors, onToggle }) => {
+export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ semester, isActive, colors, onToggle }) => {
     return (
         <div
             className="p-8 cursor-pointer"

@@ -69,9 +69,9 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
 
                 {/* Books Section */}
                 {showBooks && (
-                    <BookRecomendation subject={
-                        subject
-                    } />
+                    <BookRecomendation
+                        subject={subject}
+                    />
                 )}
             </div>
         </li>
