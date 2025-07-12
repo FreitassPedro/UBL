@@ -5,7 +5,6 @@ import { Navbar } from '../../components/Navbar';
 export default function GradeCurricularPage() {
     return (
         <div className='bg-gray-900 text-white min-h-screen'>
-            <Navbar />
             <div className="container mx-auto px-4 py-8 min-h-screen">
                 <h1 className="text-4xl font-bold mb-8 text-center">Grade Curricular</h1>
                 <h1 className="text-3xl text-center font-bold mb-4">
