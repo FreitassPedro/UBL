@@ -1,15 +1,9 @@
 import { useState } from "react";
 import { SubjectCard } from "./SubjectCard";
+import type { Grade } from "../../data/gradeCurricular";
 
 interface SemesterCardBodyProps {
-
-    semester: {
-        subjects: {
-            name: string;
-            prerequisites: string[];
-            books?: { name: string; url: string }[];
-        }[];
-    };
+    grade: Grade;
     colors: {
         gradient: string;
         bg: string;
@@ -17,7 +11,7 @@ interface SemesterCardBodyProps {
         icon: string;
     };
 }
-export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ semester, colors }) => {
+export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ grade, colors }) => {
 
     return (
         <div className="px-8 pb-8 animate-in slide-in-from-top-4 duration-500">
@@ -27,7 +21,7 @@ export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ semester, co
                     <span className="text-gray-400">/ Pré-requisitos</span>
                 </div>
                 <ul className="space-y-6">
-                    {semester.subjects.map((subject, subjectIndex) => (
+                    {grade.materias.map((subject, subjectIndex) => (
                         <SubjectCard
                             key={subjectIndex}
                             subject={subject}

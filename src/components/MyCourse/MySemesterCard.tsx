@@ -73,7 +73,7 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                 <div className="relative bg-white/5 backdrop-blur-2xl overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
                     
                     <div className={`h-1 bg-gradient-to-r ${getColors().gradient}`} />
-                    <TesteProgress value={50} />
+                    <TesteProgress value={50} color={getColors().gradient} />
 
                     {/* Header do curso/semestre */}
                     <div

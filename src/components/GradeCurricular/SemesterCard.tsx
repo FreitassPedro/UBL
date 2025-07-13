@@ -1,11 +1,9 @@
+import type { Grade } from "../../data/gradeCurricular";
 import { SemesterCardBody } from "./SemesterCardBody";
 import { SemesterCardHeader } from "./SemesterCardHeader";
 
 interface SemesterCardProps {
-    semester: {
-        number: number;
-        subjects: { name: string; prerequisites: string[]; books?: { name: string; url: string }[] }[];
-    };
+    grade: Grade;
     isActive: boolean;
     colors: {
         gradient: string;
@@ -15,9 +13,9 @@ interface SemesterCardProps {
     };
     onToggle: () => void;
 }
-export const SemesterCard: React.FC<SemesterCardProps> = ({ semester, isActive, colors, onToggle }) => {
+export const SemesterCard: React.FC<SemesterCardProps> = ({ grade, isActive, colors, onToggle }) => {
     return (
-        <div key={semester.number} className="group">
+        <div key={grade.number} className="group">
             {/* Semester Card */}
             <div
                 className={`relative transition-all duration-500 ${isActive ? 'scale-[1.02]' : 'hover:scale-[1.01]'
@@ -33,7 +31,7 @@ export const SemesterCard: React.FC<SemesterCardProps> = ({ semester, isActive, 
 
                     {/* Header */}
                     <SemesterCardHeader
-                        semester={semester}
+                        grade={grade}
                         isActive={isActive}
                         colors={colors}
                         onToggle={onToggle}
@@ -41,7 +39,7 @@ export const SemesterCard: React.FC<SemesterCardProps> = ({ semester, isActive, 
 
                     {isActive && (
                         <SemesterCardBody
-                            semester={semester}
+                            grade={grade}
                             colors={colors}
                         />
                     )

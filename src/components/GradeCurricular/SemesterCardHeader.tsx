@@ -1,10 +1,8 @@
 import { BookOpen, ChevronRight, Clock } from "lucide-react";
+import type { Grade } from "../../data/gradeCurricular";
 
 interface SemesterCardHeaderPros {
-    semester: {
-        number: number;
-        subjects: { name: string; prerequisites: string[] }[];
-    };
+    grade: Grade;
     isActive: boolean;
     colors: {
         gradient: string;
@@ -12,30 +10,30 @@ interface SemesterCardHeaderPros {
         border: string;
         icon: string;
     };
-    onToggle: (semesterNumber: number) => void;
+    onToggle: (gradeNumber: number) => void;
 }
-export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ semester, isActive, colors, onToggle }) => {
+export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ grade, isActive, colors, onToggle }) => {
     return (
         <div
             className="p-8 cursor-pointer"
-            onClick={() => onToggle(semester.number)}
+            onClick={() => onToggle(grade.number)}
         >
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     <div>
                         <h3 className="text-3xl font-bold text-white mb-2">
-                            Etapa {semester.number}
+                            Etapa {grade.number}
                         </h3>
                         <div className="flex items-center gap-4 text-gray-300">
                             <span className="flex items-center gap-1">
                                 <BookOpen className="w-4 h-4" />
-                                {semester.subjects.length} disciplinas
+                                {grade.materias.length} disciplinas
                             </span>
                             {/* Ajustar a lógica da duração se 'index + 1' não for o tempo real */}
                             <span className="flex items-center gap-1">
                                 <Clock className="w-4 h-4" />
                                 {/* Aqui você pode calcular a duração total do semestre se tiver os dados */}
-                                {semester.number}h {/* Placeholder, ajuste conforme sua lógica de 'duration' */}
+                                {grade.number}h {/* Placeholder, ajuste conforme sua lógica de 'duration' */}
                             </span>
                         </div>
                     </div>

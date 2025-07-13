@@ -8,11 +8,14 @@ import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import CourseLayout from '../pages/MyCourse/MyCourse copy.tsx'
+import { Navbar } from '../components/Navbar.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <CourseProgressProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Navbar />
+      <CourseProgressProvider>
+
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path='/grade-curricular' element={<GradeCurricularPage />} />
@@ -20,7 +23,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path='/meu-curso' element={<MyCourse />} />
           <Route path='/meu-curso-copy' element={<CourseLayout />} />
         </Routes>
-      </BrowserRouter>
-    </CourseProgressProvider>
-  </StrictMode>
+      </CourseProgressProvider>
+
+    </BrowserRouter>
+  </StrictMode >
 )

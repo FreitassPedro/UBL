@@ -1,10 +1,13 @@
-import { useState } from "react";
-import { curriculum } from "../../data/curriculum";
+import React, { useState } from "react";
+import { CurriculoCC, type Grade } from "../../data/gradeCurricular";
 import { SemesterCard } from "./SemesterCard";
 
 
-export function SemesterContainer() {
-    const semesters = curriculum;
+interface SemesterContainerProps {
+    selectedCourse: Grade[];
+}
+
+export const SemesterContainer: React.FC<SemesterContainerProps> = ({ selectedCourse }) => {
     const [activeSemester, setActiveSemester] = useState<number | null>(null);
     const [showBooks, setShowBooks] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
@@ -46,14 +49,14 @@ export function SemesterContainer() {
         <section className="mb-16 relative">
             {/* Semesters Grid */}
             <div className="relative z-10 space-y-8">
-                {semesters.map((semester, index) => {
+                {selectedCourse.map((semester, index) => {
                     const colors = semesterColors[index % semesterColors.length];
                     const isActive = activeSemester === semester.number;
 
                     return (
                         <SemesterCard
                             key={semester.number}
-                            semester={semester}
+                            grade={semester}
                             isActive={isActive}
                             colors={colors}
                             onToggle={() => setActiveSemester(isActive ? null : semester.number)}
