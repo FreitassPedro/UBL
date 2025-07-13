@@ -9,6 +9,8 @@ export default function GradeCurricularPage() {
 
     const [selecteCourse, setSelectedCourse] = React.useState<Grade[]>();
 
+    const gradeContainerRef = React.useRef<HTMLDivElement>(null);
+
     const handleCourseSelection = (index: number) => {
         console.log(`Curso selecionado: ${index}`);
         if (index === 1) {
@@ -17,6 +19,13 @@ export default function GradeCurricularPage() {
         else {
             setSelectedCourse(CurriculoMatematica);
         }
+
+        setTimeout(() => {
+            if (gradeContainerRef.current) {
+                gradeContainerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 100);
+
     }
 
     const cursos = [
@@ -85,11 +94,13 @@ export default function GradeCurricularPage() {
                 <BackgroundAnimation />
 
                 <GradeHeader />
-                {selecteCourse && (
-                    <SemesterContainer
-                        selectedCourse={selecteCourse}
-                    />
-                )}
+                <div ref={gradeContainerRef} >
+                    {selecteCourse && (
+                        <SemesterContainer
+                            selectedCourse={selecteCourse}
+                        />
+                    )}
+                </div>
 
             </div>
         </div>
