@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CurriculoCC, type Grade } from "../../data/gradeCurricular";
+import { type Grade } from "../../data/gradeCurricular";
 import { SemesterCard } from "./SemesterCard";
 
 
@@ -9,8 +9,6 @@ interface SemesterContainerProps {
 
 export const SemesterContainer: React.FC<SemesterContainerProps> = ({ selectedCourse }) => {
     const [activeSemester, setActiveSemester] = useState<number | null>(null);
-    const [showBooks, setShowBooks] = useState(false);
-    const [isHovered, setIsHovered] = useState(false);
 
     const semesterColors = [
         {

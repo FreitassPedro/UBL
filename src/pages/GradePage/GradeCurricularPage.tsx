@@ -33,18 +33,20 @@ export default function GradeCurricularPage() {
             "curso": "Ciência da Computação",
             "descricao": "Curso de Ciência da Computação da Universidade Brasileira Livre (UBL).",
             "imgSrc": "https://placehold.co/60x60/31343C/EEE?text=Ciencia+da+Computacao",
+            "color": "bg-gradient-to-r from-blue-600 to-green-700"
         },
         {
             "curso": "Matemática",
             "descricao": "Curso de Matemática da Universidade Brasileira Livre (UBL).",
             "imgSrc": "https://placehold.co/60x60/31343C/EEE?text=Matematica",
+            "color": "bg-gradient-to-r from-blue-600 to-purple-500"
         }
     ]
 
     return (
         <div className='bg-gray-900 text-white min-h-screen'>
             <div className="container mx-auto px-4 py-8 min-h-screen">
-                <header className="relative h-96 shadow-xl">
+                <div className="relative h-96 shadow-xl">
                     <div className="absolute inset-0 z-0 overflow-hidden">
                         <img
                             src={`https://placehold.co/60x60/31343C/EEE?text=Teste`}
@@ -64,14 +66,14 @@ export default function GradeCurricularPage() {
                             </p>
                         </div>
                     </div>
-                </header>
-                <section className='bg-radial from-secondary to-thirtiary py-10'>
-                    <div className='mx-auto px-6 py-10 container'>
+                </div>
+                <section className='py-10 ' >
+                    <div className='mx-auto px-6 py-10 '>
                         <h2 className='md:text-3xl text-4xl font-bold text-white text-center mb-10'>Escolha o curso desejado</h2>
                         <div className='grid grid-cols-5 gap-12'>
                             {cursos.map((curso, index) => (
                                 <div key={index}
-                                    className='bg-quaternary rounded-xl shadow-lg overflow-hidden col-span-2 hover:scale-110 transition duration-300 ease-in-out cursor-pointer'
+                                    className='bg-white/5 rounded-xl shadow-lg overflow-hidden col-span-2 hover:scale-110 transition duration-300 ease-in-out cursor-pointer'
                                     onClick={() => handleCourseSelection(index + 1)}
                                 >
                                     <div className='h-128 overflow-hidden'>
@@ -81,9 +83,10 @@ export default function GradeCurricularPage() {
                                             className='w-full h-full object-cover'
                                         />
                                     </div>
-                                    <div className='p-8 border-t-4 border-secondary '>
-                                        <h3 className='text-2xl font-bold'>{curso.curso}</h3>
-                                        <p className='text-lg'>{curso.descricao}</p>
+                                    <div className={`h-1 ${curso.color}`}></div>
+                                    <div className='p-8 '>
+                                        <h3 className='text-2xl font-bold text-gray-100'>{curso.curso}</h3>
+                                        <p className='text-xl text-gray-300'>{curso.descricao}</p>
                                     </div>
                                 </div>
                             ))}
@@ -93,16 +96,20 @@ export default function GradeCurricularPage() {
 
                 <BackgroundAnimation />
 
-                <GradeHeader />
-                <div ref={gradeContainerRef} >
-                    {selecteCourse && (
+
+
+
+                {selecteCourse && (
+                    <div ref={gradeContainerRef} >
+                        <GradeHeader />
                         <SemesterContainer
                             selectedCourse={selecteCourse}
                         />
-                    )}
-                </div>
+                    </div>
 
+                )}
             </div>
+
         </div>
     );
 }

@@ -12,7 +12,7 @@ export const GradeHeader = () => {
                 <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-white via-blue-200 to-green-200 bg-clip-text text-transparent">
                     Currículo em Etapas
                 </h2>
-                <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                <p className="text-xl text-gray-300 ">
                     Jornada completa de aprendizado estruturada por semestres
                 </p>
             </div>
