@@ -22,7 +22,7 @@ export const MySemesterCardBody: React.FC<MySemesterCardBodyProps> = ({ semester
         <div>
             {semester.modules.map((module) => (
                 <div key={module.id} className="border-t border-gray-700 last:border-b-0 cursor-pointer">
-                    <div className="px-8 py-6 space-y-4 bg-black/30 hover:bg-zinc-900 transition-all duration-300">
+                    <div className="px-8 py-6 space-y-4 bg-black/30 hover:bg-black/60 transition-all duration-300"                    >
                         <div className="flex items-center space-x-4">
                             <img
                                 src={`https://placehold.co/60x60/31343C/EEE?text=${module.name.substring(0, 3)}`}

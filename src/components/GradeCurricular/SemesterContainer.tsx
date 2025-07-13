@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { type Grade } from "../../data/gradeCurricular";
 import { SemesterCard } from "./SemesterCard";
-
+import BackgroundAnimation from "../BackgroundAnimation";
 
 interface SemesterContainerProps {
     selectedCourse: Grade[];
@@ -45,6 +45,7 @@ export const SemesterContainer: React.FC<SemesterContainerProps> = ({ selectedCo
 
     return (
         <section className="mb-16 relative">
+            <BackgroundAnimation />
             {/* Semesters Grid */}
             <div className="relative z-10 space-y-8">
                 {selectedCourse.map((semester, index) => {

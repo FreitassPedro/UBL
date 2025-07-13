@@ -1,4 +1,4 @@
-import { BookOpen, ChevronRight, Clock, Info } from "lucide-react"
+import { BookOpen, ChevronRight, Clock } from "lucide-react"
 import { TesteProgress } from "../ui/TesteProgress"
 import { MySemesterCardBody } from "./MySemesterCardBody";
 
@@ -71,9 +71,8 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
 
                 { /* Container Principal */}
                 <div className="relative bg-white/5 backdrop-blur-2xl overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
-                    
-                    <div className={`h-1 bg-gradient-to-r ${getColors().gradient}`} />
-                    <TesteProgress value={50} color={getColors().gradient} />
+
+                    <TesteProgress value={50} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
 
                     {/* Header do curso/semestre */}
                     <div
@@ -81,17 +80,18 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                         onClick={() => toggleSemester(semester.id)}
                     >
 
+
                         <div className="flex items-center justify-between">
                             <div className="flex items-center space-x-4">
                                 <div className="flex flex-col space-y-1">
                                     <h2 className="text-2xl font-semibold text-white">{semester.name}</h2>
 
                                     <div className="flex items-center gap-4 text-gray-300">
-                                        <span className="flex items-center gap-1">
+                                        <span className="flex items-center gap-2">
                                             <BookOpen className="w-4 h-4" />
-                                            {semester.modules.length} de {semester.completedSubjects}
+                                            {semester.completedSubjects} de {semester.modules.length}
                                         </span>
-                                        <span className="flex items-center gap-1">
+                                        <span className="flex items-center gap-2">
                                             <Clock className="w-4 h-4" />
                                             {99}h
                                         </span>
@@ -114,9 +114,6 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                                 <ChevronRight className={`w-6 h-6 text-gray-400 transition-transform duration-300 ${isExpanded ? 'rotate-90' : 'group-hover:translate-x-1'}`} />
                             </div>
                         </div>
-
-
-
                     </div>
 
                     {/* Corpo do semestre */}

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { SubjectCard } from "./SubjectCard";
 import type { Grade } from "../../data/gradeCurricular";
 

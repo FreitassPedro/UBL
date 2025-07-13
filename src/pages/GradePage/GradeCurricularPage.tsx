@@ -1,6 +1,5 @@
 import React from 'react';
 import { SemesterContainer } from '../../components/GradeCurricular/SemesterContainer';
-import { Navbar } from '../../components/Navbar';
 import { GradeHeader } from '../../components/GradeCurricular/GradeHeader';
 import BackgroundAnimation from '../../components/BackgroundAnimation';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
