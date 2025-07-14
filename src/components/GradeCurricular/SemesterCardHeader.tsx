@@ -4,15 +4,9 @@ import type { Grade } from "../../data/gradeCurricular";
 interface SemesterCardHeaderPros {
     grade: Grade;
     isActive: boolean;
-    colors: {
-        gradient: string;
-        bg: string;
-        border: string;
-        icon: string;
-    };
     onToggle: (gradeNumber: number) => void;
 }
-export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ grade, isActive, colors, onToggle }) => {
+export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ grade, isActive, onToggle }) => {
     return (
         <div
             className="p-8 cursor-pointer"

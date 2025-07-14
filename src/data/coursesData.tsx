@@ -1,7 +1,8 @@
-import type { Course } from "@/types/course";
+import type { Course } from "../types/course";
+
 
 export const coursesData: Record<string, Course> = {
-    "circuitos-digitais": {
+    "1": {
         id: "1",
         title: "Circuitos Digitais",
         description: "Fundamentos de Circuitos Digitais e Sistemas Digitais",
@@ -572,7 +573,7 @@ export const coursesData: Record<string, Course> = {
     
         ],
       },
-      "matematica-discreta": {
+      "2": {
         id: "2",
         title: "Matemática Discreta",
         description: "Fundamentos Matemáticos para Computação",

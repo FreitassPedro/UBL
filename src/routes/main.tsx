@@ -7,7 +7,6 @@ import { CourseProgressProvider } from '../contexts/CourseProgressContext.tsx'
 import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
-import CourseLayout from '../pages/MyCourse/MyCourse copy.tsx'
 import { Navbar } from '../components/Navbar.tsx'
 
 
@@ -19,11 +18,9 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path='/grade-curricular' element={<GradeCurricularPage />} />
-          <Route path='/grade-curricular-copy' element={<CoursePageCopy />} />
 
           <Route path="/curso/:id" element={<CoursePage />} />
           <Route path='/meu-curso' element={<MyCourse />} />
-          <Route path='/meu-curso-copy' element={<CourseLayout />} />
         </Routes>
       </CourseProgressProvider>
 

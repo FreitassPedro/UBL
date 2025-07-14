@@ -1,5 +1,3 @@
-import { BookOpen, Info } from "lucide-react";
-import { TesteProgress } from "../../components/ui/TesteProgress";
 import React from "react";
 import BackgroundAnimation from "../../components/BackgroundAnimation";
 import { MySemesterCard } from "../../components/MyCourse/MySemesterCard";
@@ -74,7 +72,7 @@ const MyCourse = () => {
             completedSubjects: 4,
             modules: [
                 {
-                    id: '1-1',
+                    id: '1',
                     name: 'Fundamentos de Programação',
                     progress: 85,
                     color: 'blue',
@@ -86,7 +84,7 @@ const MyCourse = () => {
                     ]
                 },
                 {
-                    id: '1-2',
+                    id: '2',
                     name: 'Matemática Aplicada',
                     progress: 60,
                     color: 'green',
@@ -107,7 +105,7 @@ const MyCourse = () => {
             completedSubjects: 0,
             modules: [
                 {
-                    id: '2-1',
+                    id: '3',
                     name: 'Desenvolvimento Web',
                     progress: 0,
                     color: 'blue',
@@ -118,7 +116,7 @@ const MyCourse = () => {
                     ]
                 },
                 {
-                    id: '2-2',
+                    id: '4',
                     name: 'Banco de Dados',
                     progress: 0,
                     color: 'green',
@@ -138,7 +136,7 @@ const MyCourse = () => {
             completedSubjects: 0,
             modules: [
                 {
-                    id: '3-1',
+                    id: '5',
                     name: 'Programação Orientada a Objetos',
                     progress: 0,
                     color: 'blue',
@@ -149,7 +147,7 @@ const MyCourse = () => {
                     ]
                 },
                 {
-                    id: '3-2',
+                    id: '6',
                     name: 'Desenvolvimento Mobile',
                     progress: 0,
                     color: 'green',
@@ -169,7 +167,7 @@ const MyCourse = () => {
             completedSubjects: 0,
             modules: [
                 {
-                    id: '4-1',
+                    id: '7',
                     name: 'Inteligência Artificial',
                     progress: 0,
                     color: 'blue',
@@ -179,7 +177,7 @@ const MyCourse = () => {
                     ]
                 },
                 {
-                    id: '4-2',
+                    id: '4',
                     name: 'Segurança da Informação',
                     progress: 0,
                     color: 'green',

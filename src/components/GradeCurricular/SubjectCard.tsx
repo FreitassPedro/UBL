@@ -13,13 +13,10 @@ interface SubjectCardProps {
 }
 export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
     const [showBooks, setShowBooks] = useState(false);
-    const [isHovered, setIsHovered] = useState(false);
 
     return (
         <li
             className="relative group"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
         >
 
             {/* Main Card */}

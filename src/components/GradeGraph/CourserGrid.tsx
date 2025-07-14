@@ -77,7 +77,7 @@ export function CourseGrid() {
     const onConnect = useCallback((params: Edge | Connection) => setEdges((eds) => addEdge(params, eds)), [setEdges])
   
     const onNodeClick = useCallback(
-      (event: React.MouseEvent, node: Node) => {
+      (_event: React.MouseEvent, node: Node) => {
         
         const connectedEdges = initialEdges.filter(
           (edge) => edge.source === node.id || edge.target === node.id

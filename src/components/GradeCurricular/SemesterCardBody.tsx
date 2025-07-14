@@ -3,14 +3,9 @@ import type { Grade } from "../../data/gradeCurricular";
 
 interface SemesterCardBodyProps {
     grade: Grade;
-    colors: {
-        gradient: string;
-        bg: string;
-        border: string;
-        icon: string;
-    };
+
 }
-export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ grade, colors }) => {
+export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ grade }) => {
 
     return (
         <div className="px-8 pb-8 animate-in slide-in-from-top-4 duration-500">

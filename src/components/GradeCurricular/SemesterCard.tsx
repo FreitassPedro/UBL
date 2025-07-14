@@ -33,14 +33,12 @@ export const SemesterCard: React.FC<SemesterCardProps> = ({ grade, isActive, col
                     <SemesterCardHeader
                         grade={grade}
                         isActive={isActive}
-                        colors={colors}
                         onToggle={onToggle}
                     />
 
                     {isActive && (
                         <SemesterCardBody
                             grade={grade}
-                            colors={colors}
                         />
                     )
 
