@@ -1,33 +1,32 @@
 import { BookOpen, ChevronRight, Clock } from "lucide-react";
-import type { Grade } from "../../data/gradeCurricular";
+import type { Etapa } from "../../data/gradeCurricular";
 
-interface SemesterCardHeaderPros {
-    grade: Grade;
+interface StepCardHeaderProps {
+    stage: Etapa;
     isActive: boolean;
     onToggle: (gradeNumber: number) => void;
 }
-export const SemesterCardHeader: React.FC<SemesterCardHeaderPros> = ({ grade, isActive, onToggle }) => {
+export const StepCardHeader: React.FC<StepCardHeaderProps> = ({ stage, isActive, onToggle }) => {
     return (
         <div
             className="p-8 cursor-pointer"
-            onClick={() => onToggle(grade.number)}
+            onClick={() => onToggle(stage.number)}
         >
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     <div>
                         <h3 className="text-3xl font-bold text-white mb-2">
-                            Etapa {grade.number}
+                            Etapa {stage.number}
                         </h3>
                         <div className="flex items-center gap-4 text-gray-300">
                             <span className="flex items-center gap-1">
                                 <BookOpen className="w-4 h-4" />
-                                {grade.materias.length} disciplinas
+                                {stage.cadeiras.length} disciplinas
                             </span>
                             {/* Ajustar a lógica da duração se 'index + 1' não for o tempo real */}
                             <span className="flex items-center gap-1">
                                 <Clock className="w-4 h-4" />
-                                {/* Aqui você pode calcular a duração total do semestre se tiver os dados */}
-                                {grade.number}h {/* Placeholder, ajuste conforme sua lógica de 'duration' */}
+                                {stage.number}h 
                             </span>
                         </div>
                     </div>

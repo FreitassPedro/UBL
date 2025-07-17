@@ -1,9 +1,9 @@
-import type { Grade } from "../../data/gradeCurricular";
-import { SemesterCardBody } from "./SemesterCardBody";
-import { SemesterCardHeader } from "./SemesterCardHeader";
+import type { Etapa } from "../../data/gradeCurricular";
+import { StepCardBody } from "./StepCardBody";
+import { StepCardHeader } from "./StepCardHeader";
 
-interface SemesterCardProps {
-    grade: Grade;
+interface StepCardProrps {
+    stage: Etapa;
     isActive: boolean;
     colors: {
         gradient: string;
@@ -13,9 +13,9 @@ interface SemesterCardProps {
     };
     onToggle: () => void;
 }
-export const SemesterCard: React.FC<SemesterCardProps> = ({ grade, isActive, colors, onToggle }) => {
+export const StepCard: React.FC<StepCardProrps> = ({ stage, isActive, colors, onToggle }) => {
     return (
-        <div key={grade.number} className="group">
+        <div key={stage.id} className="group">
             {/* Semester Card */}
             <div
                 className={`relative transition-all duration-500 ${isActive ? 'scale-[1.02]' : 'hover:scale-[1.01]'
@@ -30,20 +30,17 @@ export const SemesterCard: React.FC<SemesterCardProps> = ({ grade, isActive, col
                     <div className={`h-1 bg-gradient-to-r ${colors.gradient}`}></div>
 
                     {/* Header */}
-                    <SemesterCardHeader
-                        grade={grade}
+                    <StepCardHeader
+                        stage={stage}
                         isActive={isActive}
                         onToggle={onToggle}
                     />
 
                     {isActive && (
-                        <SemesterCardBody
-                            grade={grade}
+                        <StepCardBody
+                            stage={stage}
                         />
-                    )
-
-
-                    }
+                    )}
                 </div>
             </div>
         </div>

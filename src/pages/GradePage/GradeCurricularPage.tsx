@@ -1,22 +1,22 @@
 import React from 'react';
-import { SemesterContainer } from '../../components/GradeCurricular/SemesterContainer';
+import { StepContainer } from '../../components/GradeCurricular/StepContainer';
 import { GradeHeader } from '../../components/GradeCurricular/GradeHeader';
 import BackgroundAnimation from '../../components/BackgroundAnimation';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 
 export default function GradeCurricularPage() {
 
-    const [selecteCourse, setSelectedCourse] = React.useState<Grade[]>();
+    const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);
 
     const gradeContainerRef = React.useRef<HTMLDivElement>(null);
 
     const handleCourseSelection = (index: number) => {
         console.log(`Curso selecionado: ${index}`);
         if (index === 1) {
-            setSelectedCourse(CurriculoCC);
+            setSelectedGrade(CurriculoCC);
         }
         else {
-            setSelectedCourse(CurriculoMatematica);
+            setSelectedGrade(CurriculoMatematica);
         }
 
         setTimeout(() => {
@@ -96,13 +96,11 @@ export default function GradeCurricularPage() {
                 <BackgroundAnimation />
 
 
-
-
-                {selecteCourse && (
+                {selectedGrade && (
                     <div ref={gradeContainerRef} >
                         <GradeHeader />
-                        <SemesterContainer
-                            selectedCourse={selecteCourse}
+                        <StepContainer
+                            selectedCourse={selectedGrade}
                         />
                     </div>
 

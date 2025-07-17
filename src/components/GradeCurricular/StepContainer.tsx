@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { type Grade } from "../../data/gradeCurricular";
-import { SemesterCard } from "./SemesterCard";
+import { StepCard } from "./StepCard";
 import BackgroundAnimation from "../BackgroundAnimation";
 
-interface SemesterContainerProps {
-    selectedCourse: Grade[];
+interface StepContainerProps {
+    selectedCourse: Grade;
 }
 
-export const SemesterContainer: React.FC<SemesterContainerProps> = ({ selectedCourse }) => {
-    const [activeSemester, setActiveSemester] = useState<number | null>(null);
+export const StepContainer: React.FC<StepContainerProps> = ({ selectedCourse }) => {
+    const [activeStage, setActiveStage] = useState<number | null>(null);
 
-    const semesterColors = [
+    const stageColors = [
         {
             gradient: "from-blue-500 via-blue-600 to-cyan-500",
             bg: "from-blue-500/20 via-blue-600/10 to-cyan-500/20",
@@ -46,19 +46,19 @@ export const SemesterContainer: React.FC<SemesterContainerProps> = ({ selectedCo
     return (
         <section className="mb-16 relative">
             <BackgroundAnimation />
-            {/* Semesters Grid */}
             <div className="relative z-10 space-y-8">
-                {selectedCourse.map((semester, index) => {
-                    const colors = semesterColors[index % semesterColors.length];
-                    const isActive = activeSemester === semester.number;
+
+                {selectedCourse.etapas.map((stage, index) => {
+                    const colors = stageColors[index % stageColors.length];
+                    const isActive = activeStage === stage.id;
 
                     return (
-                        <SemesterCard
-                            key={semester.number}
-                            grade={semester}
+                        <StepCard
+                            key={stage.id}
+                            stage={stage}
                             isActive={isActive}
                             colors={colors}
-                            onToggle={() => setActiveSemester(isActive ? null : semester.number)}
+                            onToggle={() => setActiveStage(isActive ? null : stage.id)}
                         />
                     );
                 })}

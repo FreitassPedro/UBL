@@ -1,11 +1,10 @@
 import { SubjectCard } from "./SubjectCard";
-import type { Grade } from "../../data/gradeCurricular";
+import type { Etapa } from "../../data/gradeCurricular";
 
-interface SemesterCardBodyProps {
-    grade: Grade;
-
+interface StepCardBodyProps {
+    stage: Etapa;
 }
-export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ grade }) => {
+export const StepCardBody: React.FC<StepCardBodyProps> = ({ stage }) => {
 
     return (
         <div className="px-8 pb-8 animate-in slide-in-from-top-4 duration-500">
@@ -15,7 +14,7 @@ export const SemesterCardBody: React.FC<SemesterCardBodyProps> = ({ grade }) => 
                     <span className="text-gray-400">/ Pré-requisitos</span>
                 </div>
                 <ul className="space-y-6">
-                    {grade.materias.map((subject, subjectIndex) => (
+                    {stage.cadeiras.map((subject, subjectIndex) => (
                         <SubjectCard
                             key={subjectIndex}
                             subject={subject}
