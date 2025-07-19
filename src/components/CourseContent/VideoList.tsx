@@ -10,7 +10,7 @@ interface VideoListProps {
 }
 
 export function VideoList({ videos, selectedVideo, onSelectVideo }: VideoListProps) {
-  const { completedVideos, toggleVideoCompletion } = useCourseProgress()
+  const { completedLessonIds: completedVideos, toggleLessonCompletion: toggleVideoCompletion } = useCourseProgress()
 
   return (
     <div className="space-y-1 p-4">

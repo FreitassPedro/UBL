@@ -1,54 +1,43 @@
 import { BookOpen, ChevronRight, Clock } from "lucide-react"
 import { TesteProgress } from "../ui/TesteProgress"
-import { MySemesterCardBody } from "./MySemesterCardBody";
+import { MyStepCardBody } from "./MyStepCardBody";
+import type { MyEtapaProgress } from "../../data/myCourseProgress";
 
-interface MySemesterCardProps {
-    semester: {
-        id: string;
-        name: string;
-        isActive: boolean;
-        completedSubjects: number;
-        totalSubjects: number;
-        modules: {
-            id: string;
-            name: string;
-            progress: number;
-            subjects: { id: string; name: string; duration: string; type: string; completed: boolean }[];
-        }[];
-    };
-    expandedSemesters: string[];
-    toggleSemester: (id: string) => void;
+interface MyStepCardProps {
+    step: MyEtapaProgress;
+    expandedSteps: number[];
+    toggleStep: (id: number) => void;
 }
 
 
 
-export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expandedSemesters, toggleSemester }) => {
-
-    const isExpanded = expandedSemesters.includes(semester.id);
+export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, toggleStep }) => {
+    const isExpanded = expandedSteps.includes(step.id);
+    
     const getColors = () => {
-        switch (semester.id) {
-            case '0':
+        switch (step.id) {
+            case 0:
                 return {
                     gradient: "from-blue-500 via-blue-600 to-cyan-500",
                     bg: "from-blue-500/20 via-blue-600/10 to-cyan-500/20",
                     border: "from-blue-500/30 to-cyan-500/30",
                     icon: "🎯"
                 };
-            case '1':
+            case 1:
                 return {
                     gradient: "from-green-500 via-emerald-600 to-teal-500",
                     bg: "from-green-500/20 via-emerald-600/10 to-teal-500/20",
                     border: "from-green-500/30 to-teal-500/30",
                     icon: "🚀"
                 };
-            case '2':
+            case 2:
                 return {
                     gradient: "from-purple-500 via-violet-600 to-indigo-500",
                     bg: "from-purple-500/20 via-violet-600/10 to-indigo-500/20",
                     border: "from-purple-500/30 to-indigo-500/30",
                     icon: "⚡"
                 };
-            case '3':
+            case 3:
                 return {
                     gradient: "from-orange-500 via-red-600 to-pink-500",
                     bg: "from-orange-500/20 via-red-600/10 to-pink-500/20",
@@ -64,8 +53,9 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                 };
         }
     }
+
     return (
-        <div key={semester.id} className="group">
+        <div key={step.id} className="group">
             {/* Card Principal */}
             <div className="relative transition-all duration-500 hover:scale-[1.01]">
 
@@ -77,19 +67,17 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                     {/* Header do curso/semestre */}
                     <div
                         className="px-8 py-6 cursor-pointer hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700"
-                        onClick={() => toggleSemester(semester.id)}
+                        onClick={() => toggleStep(step.id)}
                     >
-
-
                         <div className="flex items-center justify-between">
                             <div className="flex items-center space-x-4">
                                 <div className="flex flex-col space-y-1">
-                                    <h2 className="text-2xl font-semibold text-white">{semester.name}</h2>
+                                    <h2 className="text-2xl font-semibold text-white">{step.name}</h2>
 
                                     <div className="flex items-center gap-4 text-gray-300">
                                         <span className="flex items-center gap-2">
                                             <BookOpen className="w-4 h-4" />
-                                            {semester.completedSubjects} de {semester.modules.length}
+                                            {step.totalCompleted} de {step.cadeiras.length} Cadeiras
                                         </span>
                                         <span className="flex items-center gap-2">
                                             <Clock className="w-4 h-4" />
@@ -97,11 +85,7 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                                         </span>
                                     </div>
                                 </div>
-                                {semester.isActive && (
-                                    <span className="items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-600 text-white">
-                                        Em progresso
-                                    </span>
-                                )}
+                                
                             </div>
 
                             <div className="flex items-center gap-4">
@@ -117,9 +101,9 @@ export const MySemesterCard: React.FC<MySemesterCardProps> = ({ semester, expand
                     </div>
 
                     {/* Corpo do semestre */}
-                    {expandedSemesters.includes(semester.id) && (
-                        <MySemesterCardBody
-                            semester={semester}
+                    {expandedSteps.includes(step.id) && (
+                        <MyStepCardBody
+                            step={step}
                         />
                     )}
                 </div>

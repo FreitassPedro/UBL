@@ -1,23 +1,23 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
-import type { Video } from "../types/course"; 
+
+const DATA_KEY = "completedLessons";
 
 interface CourseProgressContextType {
-  completedVideos: Set<string>;
-  toggleVideoCompletion: (videoId: string) => void;
-  getProgress: (courseId: string, videos: Video[]) => number;
+  completedLessons: Set<string>;
+  toggleLessonStatus: (lessonId: string) => void;
 }
 
 const CourseProgressContext = createContext<CourseProgressContextType | undefined>(undefined);
 
 export function CourseProgressProvider({ children }: { children: React.ReactNode }) {
-  const [completedVideos, setCompletedVideos] = useState<Set<string>>(() => {
+  const [completedLessons, setCompletedLessons] = useState<Set<string>>(() => {
     if (typeof window === "undefined") {
       return new Set();
     }
 
     try {
-      const saved = localStorage.getItem("completedVideos");
+      const saved = localStorage.getItem(DATA_KEY);
       return saved ? new Set(JSON.parse(saved)) : new Set();
     } catch (error) {
       console.error("Failed to parse completed videos from localStorage", error);
@@ -28,15 +28,15 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
-        localStorage.setItem("completedVideos", JSON.stringify(Array.from(completedVideos)));
+        localStorage.setItem(DATA_KEY, JSON.stringify(Array.from(completedLessons)));
       } catch (error) {
         console.error("Error writing completedVideos to localStorage:", error);
       }
     }
-  }, [completedVideos]);
+  }, [completedLessons]);
 
   const toggleVideoCompletion = (videoId: string) => {
-    setCompletedVideos((prev) => {
+    setCompletedLessons((prev) => {
       const next = new Set(prev);
       if (next.has(videoId)) {
         next.delete(videoId);
@@ -47,17 +47,10 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
     });
   };
 
-  const getProgress = (courseId: string, videos: Video[]) => {
-    if (!courseId || !videos || videos.length === 0) {
-      return 0;
-    }
-    const completedVideosInCourse = videos.filter((video) => completedVideos.has(video.id)).length;
-    const progressPercentage = (completedVideosInCourse / videos.length) * 100;
-    return isNaN(progressPercentage) ? 0 : progressPercentage;
-  };
+
 
   return (
-    <CourseProgressContext.Provider value={{ completedVideos, toggleVideoCompletion, getProgress }}>
+    <CourseProgressContext.Provider value={{ completedLessons: completedLessons, toggleLessonStatus: toggleVideoCompletion }}>
       {children}
     </CourseProgressContext.Provider>
   )

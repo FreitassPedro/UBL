@@ -18,7 +18,6 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path='/grade-curricular' element={<GradeCurricularPage />} />
-
           <Route path="/curso/:id" element={<CoursePage />} />
           <Route path='/meu-curso' element={<MyCourse />} />
         </Routes>

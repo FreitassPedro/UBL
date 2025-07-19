@@ -13,7 +13,7 @@ export default function CoursePage() {
   const { id } = useParams<{ id: string }>();
   const courseData: Course = coursesData[id || ''];
 
-  const { completedVideos, getProgress } = useCourseProgress();
+  const { completedLessonIds: completedVideos, getProgress } = useCourseProgress();
 
   const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
 
