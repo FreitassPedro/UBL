@@ -5,7 +5,7 @@ const DATA_KEY = "completedLessons";
 
 interface CourseProgressContextType {
   completedLessons: Set<string>;
-  toggleLessonStatus: (lessonId: string) => void;
+  toggleCompletion: (lessonId: string) => void;
 }
 
 const CourseProgressContext = createContext<CourseProgressContextType | undefined>(undefined);
@@ -50,7 +50,7 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
 
 
   return (
-    <CourseProgressContext.Provider value={{ completedLessons: completedLessons, toggleLessonStatus: toggleVideoCompletion }}>
+    <CourseProgressContext.Provider value={{ completedLessons: completedLessons, toggleCompletion: toggleVideoCompletion }}>
       {children}
     </CourseProgressContext.Provider>
   )

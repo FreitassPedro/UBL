@@ -1,4 +1,3 @@
-import { useCourseProgress } from "../../contexts/CourseProgressContext";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Progress } from "@radix-ui/react-progress";
 
@@ -21,7 +20,8 @@ const coursesMock = [
 ]
 
 const CoursesInProgressSection = () => {
-    const { getProgress } = useCourseProgress()
+   // const { getProgress } = useCourseProgress()
+       
 
     return (
         <section className="mb-16"> 
@@ -37,9 +37,9 @@ const CoursesInProgressSection = () => {
                             </CardHeader>
                             <CardContent>
                                 <div className="space-y-2">
-                                    <Progress value={getProgress(course.id, course.videos)} />
+                                    <Progress value={52} />
                                     <p className="text-sm text-muted-foreground">
-                                        {Math.round(getProgress(course.id, course.videos))}% concluído
+                                        {Math.round(20)}% concluído
                                     </p>
                                     <p className="text-sm">{course.description}</p>
                                 </div>
