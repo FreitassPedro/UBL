@@ -23,7 +23,7 @@ export function mapCadeiraToMyCadeira(cadeira: Cadeira, completedLessons: Set<st
   const totalLessonsInCadeira = myLessons.length;
 
   const cadeiraProgress = totalLessonsInCadeira > 0
-    ? (completedLessonsInCadeira / totalLessonsInCadeira) * 100
+    ? Math.round((completedLessonsInCadeira / totalLessonsInCadeira) * 100)
     : 0;
 
   const isCadeiraCompleted = totalLessonsInCadeira > 0 && completedLessonsInCadeira === totalLessonsInCadeira;
@@ -47,7 +47,7 @@ export function mapEtapaToMyEtapa(
   const totalCadeirasInEtapa = myCadeiras.length;
 
   const etapaProgress = totalCadeirasInEtapa > 0
-    ? (completedCadeirasInEtapa / totalCadeirasInEtapa) * 100
+    ? Math.round((completedCadeirasInEtapa / totalCadeirasInEtapa) * 100)
     : 0;
 
   return {
@@ -63,17 +63,15 @@ export function mapGradeToMyGradeProgress(
   grade: Grade,
   completedLessons: Set<string>
 ): MyGradeProgress {
-  // 1. Usa a função auxiliar para transformar cada etapa
   const myEtapas = grade.etapas.map(e => mapEtapaToMyEtapa(e, completedLessons));
 
-  // 2. Calcula o progresso geral da Grade (usando o total de lições para maior precisão)
   let totalLessonsInGrade = 0;
   let completedLessonsInGrade = 0;
 
   myEtapas.forEach(etapa => {
     etapa.cadeiras.forEach(cadeira => {
       totalLessonsInGrade += cadeira.lessons.length;
-      completedLessonsInGrade += cadeira.totalCompleted; // Reutiliza o valor já calculado
+      completedLessonsInGrade += cadeira.totalCompleted;
     });
   });
 

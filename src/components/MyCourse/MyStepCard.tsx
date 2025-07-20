@@ -62,7 +62,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
                 { /* Container Principal */}
                 <div className="relative bg-white/5 backdrop-blur-2xl overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
 
-                    <TesteProgress value={50} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
+                    <TesteProgress value={step.progress} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
 
                     {/* Header do curso/semestre */}
                     <div

@@ -1,49 +1,40 @@
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import { useCourseProgress } from "../../contexts/CourseProgressContext";
-import type { Course, Video } from "../../types/course";
-import { coursesData } from "../../data/coursesData";
+
 import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card";
 import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
 import { CourseSidebar } from "../../components/CourseContent/CourseSidebar";
+import { CurriculoCC } from "../../data/gradeCurricular";
+import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
+import { mapCadeiraToMyCadeira } from "../../lib/utils";
 
 
 export default function CoursePage() {
   const { id } = useParams<{ id: string }>();
-  const courseData: Course = coursesData[id || ''];
+  const { completedLessons } = useCourseProgress();
 
-  const { completedLessonIds: completedVideos, getProgress } = useCourseProgress();
+  const myCadeira: MyCadeiraProgress | undefined = useMemo(() => {
+    if (!id) return;
 
-  const [selectedVideo, setSelectedVideo] = useState<Video | null>(null);
+    const cadeiraEncontrada = CurriculoCC.etapas.flatMap(etapa => etapa.cadeiras).find(c => c.id.toString() === id);
+    if (!cadeiraEncontrada) return;
 
-  useEffect(() => {
-    if (courseData && courseData.videos && courseData.videos.length > 0) {
-      let videoToSelect: Video | undefined;
+    return mapCadeiraToMyCadeira(cadeiraEncontrada, completedLessons);
+  }, [completedLessons, id]);
 
-      for (let i = courseData.videos.length - 1; i >= 0; i--) {
-        const video = courseData.videos[i];
-        if (completedVideos.has(video.id)) {
-          videoToSelect = video;
-          break;
-        }
-      }
+  const [selectedLesson, setSelectedLesson] = useState<MyLesson | undefined>(() => {
+    if (!myCadeira || myCadeira.lessons.length === 0) return undefined;
+    return myCadeira.lessons[0];
+  });
 
-      setSelectedVideo(videoToSelect || courseData.videos[0]);
-    } else {
-      setSelectedVideo(null);
-    }
-  }, [courseData, completedVideos]);
-
-  const handleSelectVideo = (video: Video) => {
-    setSelectedVideo(video);
+  const handleSelectLesson = (lesson: MyLesson) => {
+    setSelectedLesson(lesson);
   };
 
-  if (!courseData) {
-    return <div className="text-center py-10 text-xl">Curso não encontrado</div>;
-  }
 
-  if (!courseData.videos || courseData.videos.length === 0) {
+  if (!myCadeira || myCadeira.lessons.length === 0) {
     return (
       <div className="container mx-auto py-6 max-w-[1400px] text-center">
         <Link to="/" >
@@ -69,45 +60,39 @@ export default function CoursePage() {
               </button>
             </Link>
             <div>
-              <h1 className="text-3xl font-bold mb-2">{courseData.title}</h1>
-              <p className="text-muted-foreground">{courseData.description}</p>
+              <h1 className="text-3xl font-bold mb-2">{myCadeira.name}</h1>
+              <p className="text-muted-foreground">Descrição Cadeira </p>
             </div>
 
-            {selectedVideo && (
-              <>
+            <VideoPlayer
+              videoId={selectedLesson!.id}
+            />
+            <Card>
+              <CardHeader>
+                <CardTitle>Sobre o Professor</CardTitle>
+              </CardHeader>
+              <CardContent className="flex items-start space-x-4">
+                <img
+                  src={"/placeholder.svg"}
+                  alt={"/placeholder.svg"}
+                  className="w-24 h-24 rounded-full object-cover"
+                />
+                <div>
+                  <h3 className="font-semibold">{"courseData.professor.name"}</h3>
+                  <p className="text-sm text-muted-foreground">{"courseData.professor.bio"}</p>
+                </div>
+              </CardContent>
+            </Card>
 
-                <VideoPlayer videoId={selectedVideo?.videoId || ''} />
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Sobre o Professor</CardTitle>
-                  </CardHeader>
-                  <CardContent className="flex items-start space-x-4">
-                    <img
-                      src={courseData.professor.imageUrl || "/placeholder.svg"}
-                      alt={courseData.professor.name}
-                      className="w-24 h-24 rounded-full object-cover"
-                    />
-                    <div>
-                      <h3 className="font-semibold">{courseData.professor.name}</h3>
-                      <p className="text-sm text-muted-foreground">{courseData.professor.bio}</p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </>
-            )}
           </div>
         </div>
 
         <div className="lg:col-span-4">
-          {selectedVideo && (
-            <CourseSidebar
-              courseData={courseData}
-              progress={courseData.videos.length > 0 ? getProgress(courseData.id, courseData.videos) : 0}
-              selectedVideo={selectedVideo}
-              onSelectVideo={handleSelectVideo}
-            />
-          )}
+          <CourseSidebar
+            cadeira={myCadeira}
+            selectedLesson={selectedLesson!}
+            onSelectLesson={handleSelectLesson}
+          />
         </div>
       </div>
     </div>
