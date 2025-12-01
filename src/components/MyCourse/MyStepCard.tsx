@@ -51,45 +51,35 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
     }
 
     return (
-        <div key={step.id} className="">
-            {/* Card Principal */}
-            <div className="">
-                <h2 className="font-bold text-2xl">{step.name}</h2>
-                { /* Container Principal */}
-                <div className="overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
+        <div key={step.id} className="overflow-hidden">
+            {/* Header do curso/semestre */}
+            <div
+                className="px-8 py-7 cursor-pointer bg-zinc-600 hover:bg-zinc-700 transition-all duration-300 border-gray-700"
+            >
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-4">
+                        <div className="flex flex-col space-y-1">
+                            <h2 className="text-3xl font-semibold text-white">{step.name}</h2>
 
-                    <TesteProgress value={step.progress} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
-
-                    {/* Header do curso/semestre */}
-                    <div
-                        className="px-8 py-6 cursor-pointer bg-zinc-600 hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700"
-                    >
-                        <div className="flex items-center justify-between">
-                            <div className="flex items-center space-x-4">
-                                <div className="flex flex-col space-y-1">
-                                    <h2 className="text-2xl font-semibold text-white">{step.name}</h2>
-
-                                    <div className="flex items-center gap-4 text-gray-300">
-                                        <span className="flex items-center gap-2">
-                                            <BookOpen className="w-4 h-4" />
-                                            {step.totalCompleted} de {step.cadeiras.length} Cadeiras
-                                        </span>
-                                        <span className="flex items-center gap-2">
-                                            <Clock className="w-4 h-4" />
-                                            {99}h
-                                        </span>
-                                    </div>
-                                </div>
+                            <div className="flex items-center gap-4 text-gray-300">
+                                <span className="flex items-center gap-2">
+                                    <BookOpen className="w-4 h-4" />
+                                    {step.totalCompleted} de {step.cadeiras.length} Cadeiras
+                                </span>
+                                <span className="flex items-center gap-2">
+                                    <Clock className="w-4 h-4" />
+                                    {99}h
+                                </span>
                             </div>
-
                         </div>
                     </div>
 
-                    <MyStepCardBody
-                        step={step}
-                    />
                 </div>
             </div>
+
+            <MyStepCardBody
+                step={step}
+            />
         </div >
     )
 }

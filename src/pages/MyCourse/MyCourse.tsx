@@ -21,9 +21,11 @@ const MyCourse = () => {
     return (
         <div className="min-h-screen bg-zinc-300 text-white ">
             <div className="container mx-auto px-4 py-8 min-h-screen">
+              
+                {/* Main */}
                 <main className="flex flex-col md:flex-row gap-6">
                     {/* Filtro */}
-                    <MyCourseRoutes />
+                    <MyCourseRoutes /> 
                     {/* Conteúdo Principal contendo cada Etapa */}
                     <MyStepContainer
                         grade={sampleData}

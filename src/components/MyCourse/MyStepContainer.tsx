@@ -18,7 +18,7 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
                     <button
                         key={step.id}
                         onClick={() => setActiveStep(step.id)}
-                        className={`px-4 py-2 mr-2 mb-4 rounded ${activeStep === step.id ? 'bg-blue-600 text-white' : 'bg-gray-300 text-black'}`}
+                        className={`px-4 py-2 mr-2 mb-4 rounded cursor-pointer ${activeStep === step.id ? 'bg-blue-600 text-white' : 'bg-gray-300 text-black'}`}
                     >
                         {step.name}
                     </button>

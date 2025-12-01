@@ -17,7 +17,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                         key={cadeira.id} 
                         className="block mt-4 px-2 border-gray-700"
                     >
-                        <div className="px-8 py-6 space-y-4 px-2 bg-gray-500 rounded border border-white/10 hover:bg-black/60 transition-all duration-300 ">
+                        <div className="px-8 py-6 space-y-4 bg-gray-500 rounded border border-white/10 hover:bg-gray-700 hover:scale-102 transition-all duration-300 ">
                             <div className="flex items-center space-x-4">
                                 <img
                                     src={`https://placehold.co/60x60/31343C/EEE?text=${cadeira.name.substring(0, 3)}`}

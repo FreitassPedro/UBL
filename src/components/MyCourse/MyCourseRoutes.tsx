@@ -45,55 +45,9 @@ export const MyCourseRoutes = () => {
                 <h3 className="text-bold text-xl mt-2 text-white">{selectedRoute.name}</h3> {/* Adicionado text-white */}
                 <span className="text-sm text-gray-300">{selectedRoute.description}</span>
             </div>
-            <div className="bg-zinc-900 border-l-1 border-blue-600 sticky top-4 p-5 rounded ">
-                <div className="space-y-2 ">
-                    <h3 className="text-lg font-semibold text-white">Rota de estudos</h3> {/* Adicionado text-white */}
-                    <label className="flex items-center space-x-2 cursor-pointer hover:text-gray-200 transition-colors">
-                        <input
-                            type="radio"
-                            name="studyRoute"
-                            value="1"
-                            checked={selectedRoute.id === "1"}
-                            onChange={handleRouteChange}
-                            className="form-radio h-5 w-5 text-blue-600 bg-zinc-700 border-gray-600 focus:ring-blue-500"
-                        />
-                        <span className="text-gray-300">Rumo à Ciência</span>
-                    </label>
-                    <label className="flex items-center space-x-2 cursor-pointer hover:text-gray-200 transition-colors">
-                        <input
-                            type="radio"
-                            name="studyRoute"
-                            value="2"
-                            checked={selectedRoute.id === "2"}
-                            onChange={handleRouteChange}
-                            className="form-radio h-5 w-5 text-blue-600 bg-zinc-700 border-gray-600 focus:ring-blue-500"
-                        />
-                        <span className="text-gray-300">Foco em Programação</span>
-                    </label>
-                    <label className="flex items-center space-x-2 cursor-pointer hover:text-gray-200 transition-colors">
-                        <input
-                            type="radio"
-                            name="studyRoute"
-                            value="3"
-                            checked={selectedRoute.id === "3"}
-                            onChange={handleRouteChange}
-                            className="form-radio h-5 w-5 text-blue-600 bg-zinc-700 border-gray-600 focus:ring-blue-500"
-                        />
-                        <span className="text-gray-300">Foco na Matemática</span>
-                    </label>
-                    <label className="flex items-center space-x-2 cursor-pointer hover:text-gray-200 transition-colors">
-                        <input
-                            type="radio"
-                            name="studyRoute"
-                            value="4"
-                            checked={selectedRoute.id === "4"}
-                            onChange={handleRouteChange}
-                            className="form-radio h-5 w-5 text-blue-600 bg-zinc-700 border-gray-600 focus:ring-blue-500"
-                        />
-                        <span className="text-gray-300">Meu próprio caminho</span>
-                    </label>
-                </div>
-            </div>
-        </div>
+
+
+
+        </div >
     )
 }
