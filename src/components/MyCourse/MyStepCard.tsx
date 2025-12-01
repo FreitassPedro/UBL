@@ -13,7 +13,7 @@ interface MyStepCardProps {
 
 export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, toggleStep }) => {
     const isExpanded = expandedSteps.includes(step.id);
-    
+
     const getColors = () => {
         switch (step.id) {
             case 0:
@@ -57,10 +57,10 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
     return (
         <div key={step.id} className="group">
             {/* Card Principal */}
-            <div className="relative transition-all duration-500 hover:scale-[1.01]">
-
+            <div className="transition-all duration-500 hover:scale-[1.01]">
+                <h2 className="font-bold text-2xl">{step.name}</h2>
                 { /* Container Principal */}
-                <div className="relative bg-white/5 backdrop-blur-2xl overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
+                <div className="bg-zinc-700 overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
 
                     <TesteProgress value={step.progress} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
 
@@ -85,9 +85,8 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
                                         </span>
                                     </div>
                                 </div>
-                                
-                            </div>
 
+                            </div>
                             <div className="flex items-center gap-4">
                                 <div className="text-right">
                                     <p className="text-sm text-gray-400">Clique para</p>
@@ -97,6 +96,19 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
                                 </div>
                                 <ChevronRight className={`w-6 h-6 text-gray-400 transition-transform duration-300 ${isExpanded ? 'rotate-90' : 'group-hover:translate-x-1'}`} />
                             </div>
+                        </div>
+
+                        <div>
+                            {
+                                step.cadeiras.map((cadeira) => {
+                                    return (
+                                        <div key={cadeira.id}>
+                                            <h3 className="text-md  text-white">{cadeira.name}</h3>
+
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
                     </div>
 
@@ -108,6 +120,6 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
                     )}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
