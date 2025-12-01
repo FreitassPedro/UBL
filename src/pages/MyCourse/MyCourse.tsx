@@ -5,6 +5,7 @@ import { useCourseProgress } from "../../contexts/CourseProgressContext.tsx";
 import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
+import { useState } from "react";
 
 
 
@@ -18,11 +19,8 @@ const MyCourse = () => {
 
 
     return (
-        <div className="min-h-screen bg-gray-950 text-white ">
+        <div className="min-h-screen bg-zinc-300 text-white ">
             <div className="container mx-auto px-4 py-8 min-h-screen">
-                <BackgroundAnimation />
-
-                {/* Main */}
                 <main className="flex flex-col md:flex-row gap-6">
                     {/* Filtro */}
                     <MyCourseRoutes />

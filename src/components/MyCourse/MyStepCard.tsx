@@ -5,15 +5,11 @@ import type { MyEtapaProgress } from "../../data/myCourseProgress";
 
 interface MyStepCardProps {
     step: MyEtapaProgress;
-    expandedSteps: number[];
-    toggleStep: (id: number) => void;
 }
 
 
 
-export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, toggleStep }) => {
-    const isExpanded = expandedSteps.includes(step.id);
-    
+export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
     const getColors = () => {
         switch (step.id) {
             case 0:
@@ -55,19 +51,18 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
     }
 
     return (
-        <div key={step.id} className="group">
+        <div key={step.id} className="">
             {/* Card Principal */}
-            <div className="relative transition-all duration-500 hover:scale-[1.01]">
-
+            <div className="">
+                <h2 className="font-bold text-2xl">{step.name}</h2>
                 { /* Container Principal */}
-                <div className="relative bg-white/5 backdrop-blur-2xl overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
+                <div className="overflow-hidden transition-all duration-300 rounded-xl border border-white/10">
 
                     <TesteProgress value={step.progress} color={getColors().gradient + ' ' + 'bg-gradient-to-r'} />
 
                     {/* Header do curso/semestre */}
                     <div
-                        className="px-8 py-6 cursor-pointer hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700"
-                        onClick={() => toggleStep(step.id)}
+                        className="px-8 py-6 cursor-pointer bg-zinc-600 hover:bg-zinc-700 transition-all duration-300 border-b border-gray-700"
                     >
                         <div className="flex items-center justify-between">
                             <div className="flex items-center space-x-4">
@@ -85,29 +80,16 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step, expandedSteps, tog
                                         </span>
                                     </div>
                                 </div>
-                                
                             </div>
 
-                            <div className="flex items-center gap-4">
-                                <div className="text-right">
-                                    <p className="text-sm text-gray-400">Clique para</p>
-                                    <p className="text-white font-medium">
-                                        {isExpanded ? 'Recolher' : 'Expandir'}
-                                    </p>
-                                </div>
-                                <ChevronRight className={`w-6 h-6 text-gray-400 transition-transform duration-300 ${isExpanded ? 'rotate-90' : 'group-hover:translate-x-1'}`} />
-                            </div>
                         </div>
                     </div>
 
-                    {/* Corpo do semestre */}
-                    {expandedSteps.includes(step.id) && (
-                        <MyStepCardBody
-                            step={step}
-                        />
-                    )}
+                    <MyStepCardBody
+                        step={step}
+                    />
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

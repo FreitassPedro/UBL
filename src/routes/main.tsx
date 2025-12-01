@@ -8,6 +8,7 @@ import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import { Navbar } from '../components/Navbar.tsx'
+import CoursePageCopy from '../pages/MyCourse/MyCourseCopy.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -20,6 +21,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path='/grade-curricular' element={<GradeCurricularPage />} />
           <Route path="/curso/:id" element={<CoursePage />} />
           <Route path='/meu-curso' element={<MyCourse />} />
+          <Route path='/meu-curso-1' element={<CoursePageCopy />} />
+
         </Routes>
       </CourseProgressProvider>
 
