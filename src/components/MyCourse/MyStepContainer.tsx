@@ -8,24 +8,12 @@ interface MyStepContainerProps {
 }
 
 export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
-    const [expandedSteps, setExpandedSteps] = React.useState<number[]>([]);
     const [activeStep, setActiveStep] = useState<number>(1);
-
-
-    const toggleStep = (stepId: number) => {
-        setExpandedSteps((prev) => {
-            if (prev.includes(stepId)) {
-                return prev.filter(id => id !== stepId);
-            } else {
-                return [...prev, stepId];
-            }
-        });
-    };
 
     return (
         <div className="flex-1">
             { /* NAvegação */}
-            <div>
+            <div className="flex justify-center">
                 {grade.etapas.map((step) => (
                     <button
                         key={step.id}
@@ -42,8 +30,6 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
                     <MyStepCard
                         key={step.id}
                         step={step}
-                        expandedSteps={expandedSteps}
-                        toggleStep={toggleStep}
                     />
                 ))}
             </div>
