@@ -4,13 +4,13 @@ import { MyStepCard } from "./MyStepCard";
 
 interface MyStepContainerProps {
     grade: MyGradeProgress;
-
 }
 
 export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
     const [activeStep, setActiveStep] = useState<number>(1);
 
     return (
+
         <div className="flex-1">
             { /* NAvegação */}
             <div className="flex justify-center">
@@ -37,4 +37,3 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
 
     )
 }
-
