@@ -6,10 +6,12 @@ import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import { useState } from "react";
+import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
 
 
 
 const MyCourse = () => {
+    useTituloDaPagina('Meu Curso');
 
     const curriculoOriginal = CurriculoCC;
     const { completedLessons } = useCourseProgress();
@@ -19,13 +21,12 @@ const MyCourse = () => {
 
 
     return (
-        <div className="min-h-screen bg-zinc-300 text-white ">
+        <div className="min-h-screen bg-bg-body text-white ">
             <div className="container mx-auto px-4 py-8 min-h-screen">
-              
                 {/* Main */}
                 <main className="flex flex-col md:flex-row gap-6">
                     {/* Filtro */}
-                    <MyCourseRoutes /> 
+                    <MyCourseRoutes />
                     {/* Conteúdo Principal contendo cada Etapa */}
                     <MyStepContainer
                         grade={sampleData}
