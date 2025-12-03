@@ -76,8 +76,11 @@ export default function CoursePage() {
             <h3>Aulas</h3>
             <ul>
               {myCadeira.lessons.map((lesson) => (
-                <li className="flex items-center cursor-pointer">
-                  <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'}`}>{lesson.title}</span>
+                <li className="flex items-center cursor-pointer"
+                  key={lesson.id}
+                  onClick={() => handleSelectLesson(lesson)}
+                >
+                  <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200`}>{lesson.title}</span>
                   <span>{lesson.duration}</span>
                 </li>
               ))}
