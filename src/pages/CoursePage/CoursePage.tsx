@@ -9,9 +9,12 @@ import { CourseSidebar } from "../../components/CourseContent/CourseSidebar";
 import { CurriculoCC } from "../../data/gradeCurricular";
 import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
 import { mapCadeiraToMyCadeira } from "../../lib/utils";
+import useTituloDaPagina from "../../contexts/useTitlePage";
 
 
 export default function CoursePage() {
+  useTituloDaPagina('Curso');
+
   const { id } = useParams<{ id: string }>();
   const { completedLessons } = useCourseProgress();
 
@@ -50,50 +53,37 @@ export default function CoursePage() {
 
 
   return (
-    <div className="container mx-auto py-6 max-w-[1400px]">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        <div className="lg:col-span-8">
-          <div className="space-y-6">
-            <Link to="/" >
-              <button className="px-4 py-2 text-white bg-blue-900 rounded-md hover:bg-blue-700 focus:outline-none">
-                Voltar
-              </button>
-            </Link>
-            <div>
-              <h1 className="text-3xl font-bold mb-2">{myCadeira.name}</h1>
-              <p className="text-muted-foreground">Descrição Cadeira </p>
-            </div>
+    <div className="min-h-screen bg-bg-body text-text-main flex justify-center overflow-hidden font-inter p-6">
+      <div className="w-full max-w-6xl h-[85vh] grid grid-cols-1 lg:grid-cols-[2.5fr_1fr] gap-6">
+        <main className="flex flex-col p-8 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 overflow-hidden">
+          { /* video player */}
+          <VideoPlayer videoId={selectedLesson!.videoId} />
 
-            <VideoPlayer
-              videoId={selectedLesson!.id}
-            />
-            <Card>
-              <CardHeader>
-                <CardTitle>Sobre o Professor</CardTitle>
-              </CardHeader>
-              <CardContent className="flex items-start space-x-4">
-                <img
-                  src={"/placeholder.svg"}
-                  alt={"/placeholder.svg"}
-                  className="w-24 h-24 rounded-full object-cover"
-                />
-                <div>
-                  <h3 className="font-semibold">{"courseData.professor.name"}</h3>
-                  <p className="text-sm text-muted-foreground">{"courseData.professor.bio"}</p>
-                </div>
-              </CardContent>
-            </Card>
+          { /* professor infos */}
+          <div>
 
           </div>
-        </div>
+        </main>
 
-        <div className="lg:col-span-4">
-          <CourseSidebar
-            cadeira={myCadeira}
-            selectedLesson={selectedLesson!}
-            onSelectLesson={handleSelectLesson}
-          />
-        </div>
+        { /* sidebar com lista de aulas */}
+        <aside className="flex flex-col gap-6 p-8 bg-bg-card border border-zinc-800 rounded-xl">
+          {/* Progress */}
+          <div>
+            80% concluído
+          </div>
+          {/* Videos */}
+          <div className="flex flex-col h-full overflow-hidden">
+            <h3>Aulas</h3>
+            <ul>
+              {myCadeira.lessons.map((lesson) => (
+                <li className="flex items-center cursor-pointer">
+                  <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'}`}>{lesson.title}</span>
+                  <span>{lesson.duration}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
       </div>
     </div>
   );
