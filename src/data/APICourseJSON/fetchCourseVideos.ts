@@ -17,7 +17,6 @@ interface YouTubeApiResponse {
 }
 
 const mapYtbJsonToLesson = (apiResponse: YouTubeApiResponse) => {
-
     const lessons: Lesson[] = [];
     for (const item of apiResponse.items) {
         const lesson: Lesson = {

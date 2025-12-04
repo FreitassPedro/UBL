@@ -4,12 +4,9 @@ import '../index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from '../pages/HomePage/HomePage.tsx'
 import { CourseProgressProvider } from '../contexts/CourseProgressContext.tsx'
-import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import { Navbar } from '../components/Navbar.tsx'
-import CoursePageCopy from '../pages/MyCourse/MyCourseCopy.tsx'
-import TestePage from '../pages/Testepage/TestePage.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -21,10 +18,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/" element={<HomePage />} />
           <Route path="/curso/:id" element={<CoursePage />} />
           <Route path='/meu-curso' element={<MyCourse />} />
-    
         </Routes>
       </CourseProgressProvider>
-
     </BrowserRouter>
   </StrictMode >
 )
