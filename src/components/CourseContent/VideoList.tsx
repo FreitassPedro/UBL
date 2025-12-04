@@ -35,7 +35,7 @@ export function VideoList({ lessons, selectedLesson, onSelectLesson }: VideoList
             {completedLessons.has(lesson.id) ? <CheckCircle className="h-4 w-4" /> : <Circle className="h-4 w-4" />}
           </button>
           <div className="flex flex-col">
-            <span className="text-sm font-medium leading-tight">{lesson.name}</span>
+            <span className="text-sm font-medium leading-tight">{lesson.title}</span>
             <span className="text-xs text-muted-foreground">Aula {lesson.id}</span>
           </div>
         </div>
