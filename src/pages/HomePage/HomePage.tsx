@@ -8,7 +8,7 @@ export const HomePage: React.FC = () => {
             
             {/* Background Effects (Grid + Glow) */}
             <div className="fixed inset-0 z-0 pointer-events-none">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[24px_24px]"></div>
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-blue-500/20 blur-[120px] rounded-full opacity-50"></div>
             </div>
 
@@ -35,7 +35,7 @@ export const HomePage: React.FC = () => {
                 </div>
 
                 {/* Título Principal */}
-                <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500 mb-6">
+                <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
                     Universidade Brasileira Livre
                 </h1>
 
@@ -52,7 +52,7 @@ export const HomePage: React.FC = () => {
                     >
                         <span className="mr-2">Acessar Meu Progresso</span>
                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                        <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                     </Link>
 
                     <button className="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900/50 px-8 font-medium text-zinc-300 hover:bg-zinc-800 transition-colors">

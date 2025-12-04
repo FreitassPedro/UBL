@@ -90,11 +90,11 @@ export default function CoursePage() {
           { /* video player */}
           <span className="text-sm font-medium text-gray-300">{`Aula > ${myCadeira.id} > ${myCadeira.name}`}</span>
           <div className="w-full  ">
-            <VideoPlayer videoId={selectedLesson!.videoId} />
+            <VideoPlayer videoId={selectedLesson!.url} />
           </div>
           { /* professor infos */}
           <div className="flex items-center gap-4 mb-4"
-            onClick={() => toggleCompletion(selectedLesson?.id)}>
+            onClick={() => toggleCompletion(selectedLesson!.id)}>
             <input type="checkbox" />
             <span>Aula Concluída</span>
           </div>

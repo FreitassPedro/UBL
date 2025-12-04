@@ -23,7 +23,7 @@ const mapYtbJsonToLesson = (apiResponse: YouTubeApiResponse) => {
         const lesson: Lesson = {
             id: item.id,
             title: item.snippet.title,
-            videoId: item.snippet.resourceId.videoId,
+            url: item.snippet.resourceId.videoId,
             type: "video"
         }
         lessons.push(lesson);
