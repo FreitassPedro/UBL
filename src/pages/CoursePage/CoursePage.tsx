@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 
 import { useCourseProgress } from "../../contexts/CourseProgressContext";
 
-import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card";
 import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
 import { CourseSidebar } from "../../components/CourseContent/CourseSidebar";
 import { CurriculoCC } from "../../data/gradeCurricular";
@@ -57,31 +56,34 @@ export default function CoursePage() {
       <div className="w-full max-w-6xl h-[85vh] grid grid-cols-1 lg:grid-cols-[2.5fr_1fr] gap-6">
         <main className="flex flex-col p-8 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 overflow-hidden">
           { /* video player */}
-          <VideoPlayer videoId={selectedLesson!.videoId} />
-
-          { /* professor infos */}
-          <div>
-
+          <span className="text-sm font-medium text-gray-300">{`Aula > ${myCadeira.id} > ${myCadeira.name}`}</span>
+          <div className="w-full  ">
+            <VideoPlayer videoId={selectedLesson!.videoId} />
           </div>
+          { /* professor infos */}
+          <div className="flex items-center gap-4 mb-4">
+            <input type="checkbox" />
+            <span>Aula Concluída</span>
+          </div>
+
+          <h1 className="mb-2 text-2xl font-light">{selectedLesson?.title}</h1>
         </main>
 
         { /* sidebar com lista de aulas */}
-        <aside className="flex flex-col gap-6 p-8 bg-bg-card border border-zinc-800 rounded-xl">
-          {/* Progress */}
-          <div>
-            80% concluído
-          </div>
-          {/* Videos */}
+        <aside className="flex flex-col gap-6 p-8 bg-bg-card border border-zinc-800 rounded-xl">          {/* Videos */}
           <div className="flex flex-col h-full overflow-hidden">
-            <h3>Aulas</h3>
-            <ul>
+            <h3>Playlist de Aulas</h3>
+            <ul className="overflow-y-auto pr-2">
               {myCadeira.lessons.map((lesson) => (
-                <li className="flex items-center cursor-pointer"
+                <li className="flex items-center cursor-pointer py-2 border-b border-white/10 "
                   key={lesson.id}
                   onClick={() => handleSelectLesson(lesson)}
                 >
-                  <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200`}>{lesson.title}</span>
-                  <span>{lesson.duration}</span>
+                  <div>
+                    {lesson.id === selectedLesson?.id ? '▶️' : '•'}
+                  </div>
+                  <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm px-2`}>{lesson.title}</span>
+                  <span className="text-xs text-zinc-800">{lesson.duration}</span>
                 </li>
               ))}
             </ul>
