@@ -87,7 +87,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                         {/* AQUI: Assumindo que TesteProgress renderiza a barra. 
                                             Se puder estilizar direto aqui é melhor, mas mantendo seu componente: */}
                                         <div className="h-full w-full">
-                                            <TesteProgress value={cadeira.progress} className="h-full" />
+                                            <TesteProgress value={cadeira.progress} />
                                         </div>
                                     </div>
                                     

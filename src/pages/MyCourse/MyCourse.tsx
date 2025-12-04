@@ -1,11 +1,7 @@
-import BackgroundAnimation from "../../components/BackgroundAnimation";
-
-import { MyCourseRoutes } from "../../components/MyCourse/MyCourseRoutes.tsx";
 import { useCourseProgress } from "../../contexts/CourseProgressContext.tsx";
 import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
-import { useState } from "react";
 import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
 
 
@@ -25,8 +21,6 @@ const MyCourse = () => {
             <div className="container mx-auto px-4 py-8 min-h-screen">
                 {/* Main */}
                 <main className="flex flex-col md:flex-row gap-6">
-                    {/* Filtro */}
-                    <MyCourseRoutes />
                     {/* Conteúdo Principal contendo cada Etapa */}
                     <MyStepContainer
                         grade={sampleData}
