@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, BookOpen, BarChart2, Zap, Layers } from "lucide-react";
+import { ArrowRight, Layers } from "lucide-react";
 
 export const HomePage: React.FC = () => {
     return (
