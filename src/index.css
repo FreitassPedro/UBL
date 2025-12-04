@@ -1,45 +1,31 @@
+/* src/index.css */
+
 @import "tailwindcss";
 
-:root {
-
+/* 
+  1. Traduzindo 'theme.extend.colors' usando @theme 
+  
+  -- Backgrounds --
+  -- Typography Colors --
+  -- Accents --
+  -- Extra for text/elements --
+*/
+@theme {
+  --color-bg-body: #09090b;
+  --color-bg-card: #18181b;
+  --color-bg-card-1: "";
+  --color-bg-hover: #27272a;
+  --color-border-subtle: #3f3f46;
+  
+  --color-text-main: #f4f4f5;
+  --color-text-muted: #a1a1aa;
+  
+  --color-accent-primary: #818cf8;
+  --color-accent-glow-bg: rgba(129, 140, 248, 0.15);
+  --color-success: #34d399;
+  
+  --color-zinc-300-light: #d4d4d8;
+  --color-zinc-700-dark: #52525b;
 }
 
-
-body {
-  margin: 0;
-
-  min-width: 320px;
-  min-height: 100vh;
-  width: 100%; 
-}
-
-.ubl-bg-green {
-    background-color: #34D399; /* Um verde suave */
-}
-
-.ubl-bg-blue {
-    background-color: #3B82F6; /* Um azul vibrante */
-}
-
-.bg-ubl-green {
-    background-color: #34D399; /* Um verde suave */
-}
-.bg-ubl-blue {
-    background-color: #3B82F6; /* Um azul vibrante */
-}
-
-
-/* Cores de texto */
-.ubl-text-gradient {
-    background: linear-gradient(to right, #6EE7B7, #3B82F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.ubl-text-green {
-    color: #34D399;
-}
-
-.ubl-text-blue {
-    color: #3B82F6;
-}
+/* ... o restante das configurações virá abaixo ... */

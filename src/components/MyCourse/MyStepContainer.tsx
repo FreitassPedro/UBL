@@ -1,39 +1,64 @@
 import React, { useState } from "react";
 import type { MyGradeProgress } from "../../data/myCourseProgress";
 import { MyStepCard } from "./MyStepCard";
+import { LayoutGrid } from "lucide-react";
 
 interface MyStepContainerProps {
     grade: MyGradeProgress;
 }
 
 export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
-    const [activeStep, setActiveStep] = useState<number>(1);
+    // Definindo o primeiro passo como padrão ou 1 se não houver
+    const [activeStep, setActiveStep] = useState<number>(grade.etapas[0]?.id || 1);
 
     return (
-
-        <div className="flex-1">
-            { /* NAvegação */}
-            <div className="flex justify-center">
-                {grade.etapas.map((step) => (
-                    <button
-                        key={step.id}
-                        onClick={() => setActiveStep(step.id)}
-                        className={`px-4 py-2 mr-2 mb-4 rounded cursor-pointer ${activeStep === step.id ? 'bg-blue-600 text-white' : 'bg-gray-300 text-black'}`}
-                    >
-                        {step.name}
-                    </button>
-                ))}
+        <div className="flex flex-col w-full max-w-5xl mx-auto space-y-8">
+            {/* Header da Seção */}
+            <div className="flex items-center gap-3 px-1">
+                <div className="p-2 bg-zinc-800 rounded-lg border border-zinc-700">
+                    <LayoutGrid className="w-5 h-5 text-zinc-300" />
+                </div>
+                <h1 className="text-2xl font-bold text-zinc-100 tracking-tight">Sua Jornada</h1>
             </div>
-            { /* All Steps */}
-            <div className="w-full">
-                {grade.etapas.filter(gr => gr.id == activeStep).map((step) => (
-                    <MyStepCard
-                        key={step.id}
-                        step={step}
-                    />
-                ))}
-            </div>
-        </div >
 
-    )
-}
+            {/* Navegação por Abas (Tabs) */}
+            <div className="w-full overflow-x-auto pb-2 scrollbar-hide flex justify-center">
+                <div className="flex p-1 space-x-2 bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-xl w-max min-w-full lg:min-w-0">
+                    {grade.etapas.map((step) => {
+                        const isActive = activeStep === step.id;
+                        return (
+                            <button
+                                key={step.id}
+                                onClick={() => setActiveStep(step.id)}
+                                className={`
+                                    relative px-6 py-2.5 rounded-lg text-sm font-medium transition-all duration-300 whitespace-nowrap
+                                    ${isActive 
+                                        ? 'bg-zinc-800 text-white shadow-lg shadow-black/20 border border-zinc-700' 
+                                        : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50'
+                                    }
+                                `}
+                            >
+                                {step.name}
+                                {isActive && (
+                                    <span className="absolute bottom-[-1px] left-1/2 -translate-x-1/2 w-1/3 h-[2px] bg-blue-500 rounded-full opacity-70"></span>
+                                )}
+                            </button>
+                        );
+                    })}
+                </div>
+            </div>
+
+            {/* Conteúdo do Passo Ativo */}
+            <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                {grade.etapas
+                    .filter(gr => gr.id === activeStep)
+                    .map((step) => (
+                        <MyStepCard
+                            key={step.id}
+                            step={step}
+                        />
+                    ))}
+            </div>
+        </div>
+    );
+};
