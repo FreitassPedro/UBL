@@ -20,14 +20,14 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
         >
 
             {/* Main Card */}
-            <div key={index} className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-white/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
+            <div key={index} className="relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
                 {/* Content Container */}
                 <div className="flex justify-between items-start">
                     <div className="flex-1">
                         {/* Subject Header */}
                         <div className="flex items-center gap-3 mb-3">
-                            <div className="w-3 h-3 bg-gradient-to-r from-blue-400 to-green-400 rounded-full animate-pulse"></div>
-                            <h3 className="font-semibold text-xl text-white">
+                            <div className="w-3 h-3 bg-linear-to-r from-blue-400 to-green-400 rounded-full animate-pulse"></div>
+                            <h3 className="font-semibold text-xl text-text-main">
                                 {subject.name}
                             </h3>
                         </div>

@@ -1,7 +1,5 @@
 import React from 'react';
 import { StepContainer } from '../../components/GradeCurricular/StepContainer';
-import { GradeHeader } from '../../components/GradeCurricular/GradeHeader';
-import BackgroundAnimation from '../../components/BackgroundAnimation';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 
 export default function GradeCurricularPage() {
@@ -43,7 +41,7 @@ export default function GradeCurricularPage() {
     ]
 
     return (
-        <div className='bg-gray-900 text-white min-h-screen'>
+        <div className='bg-bg-body text-white min-h-screen'>
             <div className="container mx-auto px-4 py-8 min-h-screen">
                 <div className="relative h-96 shadow-xl">
                     <div className="absolute inset-0 z-0 overflow-hidden">
@@ -57,7 +55,7 @@ export default function GradeCurricularPage() {
 
                     <div className="relative h-full flex items-center justify-center px-6">
                         <div className={`max-w-2xl text-center transition-all duration-1000 ease-out `}>
-                            <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-4">
+                            <h1 className="text-4xl md:text5xl font-bold text-white leading-tight mb-4">
                                 Nossos Cursos
                             </h1>
                             <p className="text-xl text-white mb-6 font-light">
@@ -68,7 +66,7 @@ export default function GradeCurricularPage() {
                 </div>
                 <section className='py-10 ' >
                     <div className='mx-auto px-6 py-10 '>
-                        <h2 className='md:text-3xl text-4xl font-bold text-white text-center mb-10'>Escolha o curso desejado</h2>
+                        <h2 className='md:text-3xl text-3xl font-semibold text-white text-center mb-6 '>Visualize uma Grade Curricular</h2>
                         <div className='grid grid-cols-5 gap-12'>
                             {cursos.map((curso, index) => (
                                 <div key={index}
@@ -93,12 +91,9 @@ export default function GradeCurricularPage() {
                     </div>
                 </section>
 
-                <BackgroundAnimation />
-
 
                 {selectedGrade && (
                     <div ref={gradeContainerRef} >
-                        <GradeHeader />
                         <StepContainer
                             selectedCourse={selectedGrade}
                         />
