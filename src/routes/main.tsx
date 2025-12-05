@@ -7,7 +7,7 @@ import { CourseProgressProvider } from '../contexts/CourseProgressContext.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import { Navbar } from '../components/Navbar.tsx'
-
+import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,6 +18,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/" element={<HomePage />} />
           <Route path="/curso/:id" element={<CoursePage />} />
           <Route path='/meu-curso' element={<MyCourse />} />
+          <Route path='/grade-curricular' element={<GradeCurricularPage />} />
+
         </Routes>
       </CourseProgressProvider>
     </BrowserRouter>

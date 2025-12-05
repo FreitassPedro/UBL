@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { type Grade } from "../../data/gradeCurricular";
 import { StepCard } from "./StepCard";
-import BackgroundAnimation from "../BackgroundAnimation";
 
 interface StepContainerProps {
     selectedCourse: Grade;
@@ -44,9 +43,8 @@ export const StepContainer: React.FC<StepContainerProps> = ({ selectedCourse }) 
     ];
 
     return (
-        <section className="mb-16 relative">
-            <BackgroundAnimation />
-            <div className="relative z-10 space-y-8">
+        <section className="mb-16">
+            <div className="space-y-8">
 
                 {selectedCourse.etapas.map((stage, index) => {
                     const colors = stageColors[index % stageColors.length];
