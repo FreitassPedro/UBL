@@ -44,7 +44,7 @@ export default function CoursePage() {
 
 
     return (
-      <li className="flex items-center cursor-pointer py-2 border-b border-white/10 "
+      <li className={`flex items-center cursor-pointer py-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover my-2 " : ""} `}
         key={lesson.id}
       >
         <div>
@@ -103,14 +103,20 @@ export default function CoursePage() {
         </main>
 
         { /* sidebar com lista de aulas */}
-        <aside className="flex flex-col gap-6 p-8 overflow-hidden bg-bg-card border border-zinc-800 rounded-xl">
+        <aside className="flex flex-col gap-6 py-6 pl-6 pr-4 overflow-hidden bg-bg-card border border-zinc-800 rounded-xl">
           <h3>Playlist de Aulas</h3>
 
           {/* Videos */}
 
           <div className="flex flex-col h-full overflow-hidden">
             <span className="text-sm text-text-muted">{`999 de ${myCadeira.lessons.length}`}</span>
-            <ul className="overflow-y-auto pr-2">
+            <ul className="overflow-y-auto pr-2 [&::-webkit-scrollbar]:w-2
+  [&::-webkit-scrollbar-track]:rounded-full
+  [&::-webkit-scrollbar-track]:bg-gray-100
+  [&::-webkit-scrollbar-thumb]:rounded-full
+  [&::-webkit-scrollbar-thumb]:bg-gray-300
+  dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+  dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
               {myCadeira.lessons.map((lesson) => (
                 <ClassSideBarItem key={lesson.id} lesson={lesson} isSelected={selectedLesson?.id === lesson.id} onSelect={handleSelectLesson} />
               ))}
