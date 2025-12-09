@@ -4,8 +4,6 @@ import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
 
-
-
 const MyCourse = () => {
     useTituloDaPagina('Meu Curso');
 
@@ -15,7 +13,7 @@ const MyCourse = () => {
     console.log('Curriculo:', curriculoOriginal);
     console.log('Sample Data:', sampleData);
 
-
+  
     return (
         <div className="min-h-screen bg-bg-body text-white ">
             <div className="container mx-auto px-4 py-8 min-h-screen">
