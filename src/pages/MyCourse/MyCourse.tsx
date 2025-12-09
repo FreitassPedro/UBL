@@ -4,6 +4,7 @@ import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
 
+
 const MyCourse = () => {
     useTituloDaPagina('Meu Curso');
 
