@@ -3,6 +3,8 @@ import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
+import { useLoading } from "../../contexts/LoadingContext/LoadingContext.tsx";
+import { useEffect } from "react";
 
 const MyCourse = () => {
     useTituloDaPagina('Meu Curso');
