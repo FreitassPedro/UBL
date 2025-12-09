@@ -98,14 +98,14 @@ export default function CoursePage() {
             <VideoPlayer videoId={selectedLesson!.url} />
           </div>
           { /* professor infos */}
-          <div className="flex items-center  gap-4 mb-4 bg-bg-card-1 rounded-lg border border-white/20">
+          <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-bg-card rounded-lg border border-white/20">
             <input
               type="checkbox"
-              className="cursor-pointer"
+              className="cursor-pointer w-4 h-4 accent-success"
               checked={selectedLesson?.isCompleted || false}
               onChange={() => toggleCompletion(selectedLesson!.id)}
             />
-            <span>
+            <span className="text-md text-shadow-text-main">
               {selectedLesson?.isCompleted ? "Concluída" : "Pendente"}
             </span>
           </div>
