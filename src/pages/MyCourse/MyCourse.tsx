@@ -3,6 +3,8 @@ import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../contexts/useTitlePage.tsx";
+import { useLoading } from "../../contexts/LoadingContext/LoadingContext.tsx";
+import { useEffect } from "react";
 
 
 
@@ -15,7 +17,7 @@ const MyCourse = () => {
     console.log('Curriculo:', curriculoOriginal);
     console.log('Sample Data:', sampleData);
 
-
+  
     return (
         <div className="min-h-screen bg-bg-body text-white ">
             <div className="container mx-auto px-4 py-8 min-h-screen">
