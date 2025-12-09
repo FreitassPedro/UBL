@@ -18,16 +18,21 @@ export default function CoursePage() {
   const myCadeira: MyCadeiraProgress | undefined = useMemo(() => {
     if (!id) return;
 
-    const cadeiraEncontrada = CurriculoCC.etapas.flatMap(etapa => etapa.cadeiras).find(c => c.id.toString() === id);
+    const cadeiraEncontrada = CurriculoCC.etapas
+      .flatMap(etapa => etapa.cadeiras)
+      .find(c => c.id.toString() === id);
     if (!cadeiraEncontrada) return;
 
     return mapCadeiraToMyCadeira(cadeiraEncontrada, completedLessons);
   }, [completedLessons, id]);
 
-  const [selectedLesson, setSelectedLesson] = useState<MyLesson | undefined>(() => {
-    if (!myCadeira || myCadeira.lessons.length === 0) return undefined;
-    return myCadeira.lessons[0];
+  const [selectedLessonId, setSelectedLessonId] = useState<string | number | undefined>(() => {
+    return myCadeira?.lessons[0]?.id || undefined;
   });
+
+  const selectedLesson = useMemo(() => {
+    return myCadeira?.lessons.find(lesson => lesson.id === selectedLessonId);
+  }, [myCadeira, selectedLessonId]);
 
 
   const ClassSideBarItem: React.FC<{ lesson: MyLesson; isSelected: boolean; onSelect: (lesson: MyLesson) => void }> = ({ lesson }) => {
@@ -61,10 +66,10 @@ export default function CoursePage() {
         </div>
       </li>
     )
-
   }
+
   const handleSelectLesson = (lesson: MyLesson) => {
-    setSelectedLesson(lesson);
+    setSelectedLessonId(lesson.id);
   };
 
 
@@ -93,10 +98,16 @@ export default function CoursePage() {
             <VideoPlayer videoId={selectedLesson!.url} />
           </div>
           { /* professor infos */}
-          <div className="flex items-center gap-4 mb-4"
-            onClick={() => toggleCompletion(selectedLesson!.id)}>
-            <input type="checkbox" />
-            <span>Aula Concluída</span>
+          <div className="flex items-center  gap-4 mb-4 bg-bg-card-1 rounded-lg border border-white/20">
+            <input
+              type="checkbox"
+              className="cursor-pointer"
+              checked={selectedLesson?.isCompleted || false}
+              onChange={() => toggleCompletion(selectedLesson!.id)}
+            />
+            <span>
+              {selectedLesson?.isCompleted ? "Concluída" : "Pendente"}
+            </span>
           </div>
 
           <h1 className="mb-2 text-2xl font-light">{selectedLesson?.title}</h1>
