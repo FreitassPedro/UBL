@@ -1,13 +1,13 @@
 import { useState, useMemo, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import { useCourseProgress } from "../../contexts/CourseProgressContext";
+import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
 
 import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
 import { CurriculoCC } from "../../data/gradeCurricular";
 import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
 import { mapCadeiraToMyCadeira } from "../../lib/utils";
-import useTituloDaPagina from "../../contexts/useTitlePage";
+import useTituloDaPagina from "../../components/useTitlePage";
 import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
 
 export default function CoursePage() {
@@ -42,7 +42,7 @@ export default function CoursePage() {
 
   useEffect(() => {
     if (selectedLessonId) showLoader();
-    
+
     return () => {
       hideLoader();
     }
@@ -60,19 +60,18 @@ export default function CoursePage() {
     }
 
     return (
-      <li className={`flex items-center cursor-pointer py-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover my-2 " : ""} `}
+      <li className={`flex items-center cursor-pointer py-2 px-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover my-2 " : ""} `}
         key={lesson.id}
       >
-        <div>
-          <button className={`w-4 h-4 flex items-center justify-center rounded-full border ${statusClass} mr-3`}
-            onClick={() => toggleCompletion(lesson.id)}
-          >
-            <span className="text-xs text-black font-bold">{statusContent}</span>
-          </button>
-        </div>
-        <div onClick={() => handleSelectLesson(lesson)}
+        {/* Marcar como assistida */}
+        <button className={`w-4 h-4 flex items-center mr-2 justify-center rounded-full border ${statusClass} `}
+          onClick={() => toggleCompletion(lesson.id)}
         >
-          <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm px-2`}>{lesson.title}</span>
+          <span className="text-xs text-black font-bold">{statusContent}</span>
+        </button>
+        {/* Título e duração da aula */}
+        <div onClick={() => handleSelectLesson(lesson)} className="flex-1">
+          <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm block`}>{lesson.title}</span>
           <span className="text-xs text-zinc-800">{lesson.duration}</span>
         </div>
       </li>
@@ -100,7 +99,7 @@ export default function CoursePage() {
         <main className="flex flex-col p-8 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 overflow-hidden">
           { /* video player */}
           <span className="text-sm font-medium text-gray-300">{`Aula > ${myCadeira.id} > ${myCadeira.name}`}</span>
-          <div className="w-full  ">
+          <div className="w-full">
             <VideoPlayer
               videoId={selectedLesson!.url}
               key={selectedLesson?.id}
@@ -124,13 +123,13 @@ export default function CoursePage() {
 
         { /* sidebar com lista de aulas */}
         <aside className="flex flex-col gap-6 py-6 pl-6 pr-4 overflow-hidden bg-bg-card border border-zinc-800 rounded-xl">
-          <h3>Playlist de Aulas</h3>
+          <h3 className="text-md">Playlist de Aulas</h3>
 
           {/* Videos */}
 
           <div className="flex flex-col h-full overflow-hidden">
-            <span className="text-sm text-text-muted">{`999 de ${myCadeira.lessons.length}`}</span>
-            <ul className="overflow-y-auto pr-2 [&::-webkit-scrollbar]:w-2
+            <span className="text-sm text-text-muted">{`Concluído: ${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
+            <ul className="overflow-y-auto pr-1 [&::-webkit-scrollbar]:w-2
                   [&::-webkit-scrollbar-track]:rounded-full
                   [&::-webkit-scrollbar-track]:bg-gray-100
                   [&::-webkit-scrollbar-thumb]:rounded-full
