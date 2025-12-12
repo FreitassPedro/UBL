@@ -5,42 +5,30 @@ import { StepCardHeader } from "./StepCardHeader";
 interface StepCardProrps {
     stage: Etapa;
     isActive: boolean;
-    colors: {
-        gradient: string;
-        bg: string;
-        border: string;
-        icon: string;
-    };
     onToggle: () => void;
 }
 export const StepCard: React.FC<StepCardProrps> = ({ stage, isActive, onToggle }) => {
-    
+
     return (
-        <div key={stage.id} className="group">
-            {/* Semester Card */}
-            <div
-                className={`transition-all duration-400 ${isActive ? 'scale-[1.02]' : 'hover:scale-[1.01]'
-                    }`}
-            >
-                {/* Main Container */}
-                <div className="bg-bg-card rounded-2xl border overflow-hidden border-white/20">
-                    {/* Gradient Top Border */}
-                    { /* <div className={`h-0.5 bg-linear-to-r ${colors.gradient}`}></div> */}
+        <div key={stage.id} className={`
+                relative bg-bg-card rounded-2xl border overflow-hidden border-white/10 hover:border-white/20
+                hover:my-6 duration-500 transition-all ease-in-out
+                hover:bg-zinc-800/80 hover:translate-x-2
+                ${isActive ? 'border-blue/20 shadow-lg shadow-black/20 translate-x-2' : ''}
+                `}>
 
-                    {/* Header */}
-                    <StepCardHeader
-                        stage={stage}
-                        isActive={isActive}
-                        onToggle={onToggle}
-                    />
+            {/* Header */}
+            <StepCardHeader
+                stage={stage}
+                isActive={isActive}
+                onToggle={onToggle}
+            />
 
-                    {isActive && (
-                        <StepCardBody
-                            stage={stage}
-                        />
-                    )}
-                </div>
-            </div>
+            {isActive && (
+                <StepCardBody
+                    stage={stage}
+                />
+            )}
         </div>
     )
 }

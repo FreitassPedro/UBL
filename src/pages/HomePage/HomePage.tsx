@@ -1,22 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Layers } from "lucide-react";
+import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
 
 export const HomePage: React.FC = () => {
     return (
-        <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-x-hidden">
-
+        <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
             {/* Background Effects (Grid + Glow) */}
-            <div className="fixed inset-0 z-0 pointer-events-none">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[24px_24px]"></div>
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-blue-500/20 blur-[120px] rounded-full opacity-50"></div>
-            </div>
-
+           <BackgroundGrid />
+           
             {/* HERO SECTION */}
             <main className="relative z-10 max-w-5xl mx-auto px-6 pt-20 pb-32 flex flex-col items-center text-center">
-
-
-
                 {/* Título Principal */}
                 <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
                     Universidade Brasileira Livre

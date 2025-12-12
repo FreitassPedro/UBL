@@ -3,6 +3,7 @@ import { CurriculoCC } from "../../data/gradeCurricular.ts";
 import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../components/useTitlePage.tsx";
+import { BackgroundGrid } from "../../components/ui/BackgroundGrid.tsx";
 
 
 const MyCourse = () => {
@@ -16,10 +17,12 @@ const MyCourse = () => {
 
 
     return (
-        <div className="min-h-screen bg-bg-body text-white ">
-            <div className="container mx-auto px-4 py-8 min-h-screen">
+        <div className="min-h-screen bg-bg-body text-white w-full">
+            <div className="container mx-auto px-4 py-8">
                 {/* Main */}
-                <main className="flex flex-col md:flex-row gap-6">
+                <BackgroundGrid />
+
+                <main className="w-full">
                     {/* Conteúdo Principal contendo cada Etapa */}
                     <MyStepContainer
                         grade={sampleData}

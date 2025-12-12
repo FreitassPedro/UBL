@@ -56,7 +56,7 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
                 </div>
             </div>
 
-            {/* Conteúdo do Passo Ativo */}
+            {/* Conteúdo */}
             <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
                 {grade.etapas
                     .filter(gr => gr.id === activeStep)

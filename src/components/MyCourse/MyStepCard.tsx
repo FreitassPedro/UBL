@@ -7,7 +7,7 @@ interface MyStepCardProps {
 }
 
 export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
-    
+
     // Lógica de Cores refinada para ser mais sutil
     const getTheme = () => {
         switch (step.id) {
@@ -55,7 +55,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                                 </span>
                             </div>
                         </div>
-                        
+
                         <div className="w-px h-8 bg-zinc-800" />
 
                         <div className="flex items-center gap-2.5">
