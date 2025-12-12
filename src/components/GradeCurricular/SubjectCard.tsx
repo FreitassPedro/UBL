@@ -40,7 +40,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
                             {subject.prerequisites.length > 0 && (
                                 <ul className="flex flex-wrap gap-2" >
                                     {subject.prerequisites.map((prereq, i) => (
-                                        <li key={i} className="text-xs bg-gradient-to-r from-purple-500/10 to-pink-800/20 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">
+                                        <li key={i} className="text-xs bg-linear-to-r from-purple-500/10 to-pink-800/20 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">
                                             {prereq}
                                         </li>
                                     ))}

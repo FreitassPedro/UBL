@@ -15,7 +15,7 @@ export const StepCardHeader: React.FC<StepCardHeaderProps> = ({ stage, isActive,
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     <div>
-                        <h3 className="text-3xl text-text-main  mb-2">
+                        <h3 className="text-3xl text-text-main mb-2">
                             Etapa {stage.number}
                         </h3>
                         <div className="flex items-center gap-4 text-gray-300">

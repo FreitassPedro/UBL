@@ -8,22 +8,22 @@ interface MyStepCardBodyProps {
 }
 
 export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
-    
+
     const getStatusStyle = (progress: number) => {
-        if (progress === 100) return { 
-            color: "text-emerald-400", 
+        if (progress === 100) return {
+            color: "text-emerald-400",
             border: "group-hover:border-emerald-500/30",
-            icon: <CheckCircle2 className="w-5 h-5" /> 
+            icon: <CheckCircle2 className="w-5 h-5" />
         };
-        if (progress > 0) return { 
-            color: "text-amber-400", 
+        if (progress > 0) return {
+            color: "text-amber-400",
             border: "group-hover:border-amber-500/30",
-            icon: <PlayCircle className="w-5 h-5" /> 
+            icon: <PlayCircle className="w-5 h-5" />
         };
-        return { 
-            color: "text-zinc-500", 
+        return {
+            color: "text-zinc-500",
             border: "group-hover:border-zinc-600",
-            icon: <Circle className="w-5 h-5" /> 
+            icon: <Circle className="w-5 h-5" />
         };
     };
 
@@ -45,7 +45,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                             hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
                             ${status.border}
                         `}>
-                            
+
                             {/* Ícone / Imagem */}
                             <div className="relative shrink-0">
                                 <div className="w-14 h-14 rounded-lg overflow-hidden border border-zinc-700 bg-zinc-950 shadow-inner">
@@ -67,7 +67,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                     <h3 className="text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
                                         {cadeira.name}
                                     </h3>
-                                    
+
                                     {/* Botão Call to Action (visível no hover ou sempre visível desktop) */}
                                     <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-500 group-hover:text-white transition-colors">
                                         {cadeira.progress === 100 ? "Revisar" : cadeira.progress > 0 ? "Continuar" : "Começar"}
@@ -81,16 +81,14 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                         <span>Progresso</span>
                                         <span className={status.color}>{cadeira.progress}%</span>
                                     </div>
-                                    
+
                                     {/* Container da barra de progresso ajustada */}
                                     <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
-                                        {/* AQUI: Assumindo que TesteProgress renderiza a barra. 
-                                            Se puder estilizar direto aqui é melhor, mas mantendo seu componente: */}
                                         <div className="h-full w-full">
                                             <TesteProgress value={cadeira.progress} />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="text-xs text-zinc-600 pt-0.5">
                                         {cadeira.totalCompleted} de {cadeira.lessons.length} aulas concluídas
                                     </div>
