@@ -1,8 +1,4 @@
 import type { Lesson } from "../gradeCurricular";
-import { circuitosDigitais } from "./Step1/CircuitosDigitais"
-import { introducaoComputacaoI } from "./Step1/IntroducaoComputacaoI";
-import { linguagensProgramacao } from "./Step1/LinguagensProgramacao";
-import { matematicaDiscreta } from "./Step1/MatematicaDiscreta";
 
 interface YouTubeApiResponse {
     items: {
@@ -30,20 +26,6 @@ const mapYtbJsonToLesson = (apiResponse: YouTubeApiResponse) => {
     return lessons;
 }
 
-export const fetchCourseLessons = (course: string) => {
-    switch (course) {
-        case "circuitos-digitais":
-            return mapYtbJsonToLesson(circuitosDigitais);
-        case "linguagens-de-programacao":
-            return mapYtbJsonToLesson(linguagensProgramacao);
-        case "matematica-discreta":
-            return mapYtbJsonToLesson(matematicaDiscreta);
-
-        case "introducao-a-computacao":
-            return mapYtbJsonToLesson(introducaoComputacaoI);
-        default:
-            return [];
-    }
-
-
+export const fetchCourseLessons = (course: any) => {
+   return mapYtbJsonToLesson(course);
 }

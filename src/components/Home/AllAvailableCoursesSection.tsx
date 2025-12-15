@@ -1,9 +1,9 @@
-import { allCourses } from "../../data/allCourses"
+import { CoursesList } from "../../data/CoursesList"
 import { Button } from "../ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 
 const AllAvailableCoursesSection = () => {
-    const filteredCourses = allCourses;
+    const filteredCourses = CoursesList;
 
     return (
         <section className="mb-16">
