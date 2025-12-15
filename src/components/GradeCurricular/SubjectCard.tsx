@@ -18,7 +18,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
         <li className="relative group"
         >
             {/* Main Card */}
-            < div key={index} className="relative border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl" >
+            < div key={index} className="relative bg-gray-800 border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl" >
                 {/* Content Container */}
                 <div className="flex justify-between items-start" >
                     <div className="flex-1">

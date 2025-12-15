@@ -15,7 +15,7 @@ export const StepContainer: React.FC<StepContainerProps> = ({ selectedCourse }) 
 
             {/* Etapas (Stages) */}
             <div className="space-y-4">
-                {selectedCourse.etapas.map((stage, index) => {
+                {selectedCourse.etapas.map((stage) => {
                     const isActive = activeStage === stage.id;
                     return (
                         <StepCard

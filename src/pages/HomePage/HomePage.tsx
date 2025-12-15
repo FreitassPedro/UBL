@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Layers } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
 
 export const HomePage: React.FC = () => {
