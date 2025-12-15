@@ -1,5 +1,5 @@
 
-export const allCourses = [
+export const CoursesList = [
     "Circuitos Digitais",
     "Matemática Discreta",
     "Linguagens de Programação",

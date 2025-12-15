@@ -1,6 +1,7 @@
 import React from 'react';
 import { StepContainer } from '../../components/GradeCurricular/StepContainer';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
+import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
 
 export default function GradeCurricularPage() {
 
@@ -41,9 +42,13 @@ export default function GradeCurricularPage() {
     ]
 
     return (
-        <div className='bg-bg-body text-white min-h-screen'>
-            <div className="container mx-auto px-4 py-8 min-h-screen">
-                <div className="relative h-96 shadow-xl">
+        <div className='min-h-screen bg-bg-body text-white'>
+            {/* Main */}
+            <main className="max-w-5xl mx-auto flex flex-col items-center py-10 space-y-4">
+                <BackgroundGrid />
+
+                {/* Banner */}
+                <div className="relative h-96 shadow-lg w-full mb-16 rounded-xl overflow-hidden">
                     <div className="absolute inset-0 z-0 overflow-hidden">
                         <img
                             src={`https://placehold.co/60x60/31343C/EEE?text=Teste`}
@@ -64,43 +69,45 @@ export default function GradeCurricularPage() {
                         </div>
                     </div>
                 </div>
-                <section className='py-10 ' >
-                    <div className='mx-auto px-6 py-10 '>
-                        <h2 className='md:text-3xl text-3xl font-semibold text-white text-center mb-6 '>Visualize uma Grade Curricular</h2>
-                        <div className='grid grid-cols-5 gap-12'>
-                            {cursos.map((curso, index) => (
-                                <div key={index}
-                                    className='bg-white/5 rounded-xl shadow-lg overflow-hidden col-span-2 hover:scale-110 transition duration-300 ease-in-out cursor-pointer'
-                                    onClick={() => handleCourseSelection(index + 1)}
-                                >
-                                    <div className='h-128 overflow-hidden'>
-                                        <img
-                                            src={curso.imgSrc}
-                                            alt={curso.curso}
-                                            className='w-full h-full object-cover'
-                                        />
-                                    </div>
-                                    <div className={`h-1 ${curso.color}`}></div>
-                                    <div className='p-8 '>
-                                        <h3 className='text-2xl font-bold text-gray-100'>{curso.curso}</h3>
-                                        <p className='text-xl text-gray-300'>{curso.descricao}</p>
-                                    </div>
+
+                {/* Seção de Seleção de Curso */}
+                <section className='flex flex-col items-center w-full' >
+                    <h2 className='md:text-3xl text-3xl font-semibold text-white text-center mb-6 '>Visualize uma Grade Curricular</h2>
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+                        {cursos.map((curso, index) => (
+                            <div key={index}
+                                className='bg-white/5 rounded-xl shadow-lg overflow-hidden col-span-2 hover:scale-110 transition duration-300 ease-in-out cursor-pointer'
+                                onClick={() => handleCourseSelection(index + 1)}
+                            >
+                                <div className='h-128 overflow-hidden'>
+                                    <img
+                                        src={curso.imgSrc}
+                                        alt={curso.curso}
+                                        className='w-full h-full object-cover'
+                                    />
                                 </div>
-                            ))}
-                        </div>
+                                <div className={`h-1 ${curso.color}`}></div>
+                                <div className='p-8'>
+                                    <h3 className='text-2xl font-bold text-gray-100'>{curso.curso}</h3>
+                                    <p className='text-md text-text-muted'>{curso.descricao}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </section>
 
-
+                {/* Seção de Conteúdo da Grade Curricular */}
                 {selectedGrade && (
-                    <div ref={gradeContainerRef} >
+                    <div
+                        className="w-full mt-10"
+                        ref={gradeContainerRef} >
                         <StepContainer
                             selectedCourse={selectedGrade}
                         />
                     </div>
 
                 )}
-            </div>
+            </main>
 
         </div>
     );

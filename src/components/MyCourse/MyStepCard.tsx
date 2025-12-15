@@ -7,7 +7,7 @@ interface MyStepCardProps {
 }
 
 export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
-    
+
     // Lógica de Cores refinada para ser mais sutil
     const getTheme = () => {
         switch (step.id) {
@@ -29,7 +29,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                 ${theme.accent} border-zinc-800
             `}>
                 {/* Glow de Fundo */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${theme.glow} to-transparent opacity-50 pointer-events-none`} />
+                <div className={`absolute inset-0 bg-linear-to-br ${theme.glow} to-transparent opacity-50 pointer-events-none`} />
 
                 <div className="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
                     <div className="space-y-2">
@@ -55,7 +55,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                                 </span>
                             </div>
                         </div>
-                        
+
                         <div className="w-px h-8 bg-zinc-800" />
 
                         <div className="flex items-center gap-2.5">

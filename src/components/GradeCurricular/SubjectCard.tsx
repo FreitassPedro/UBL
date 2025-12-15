@@ -15,14 +15,12 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
     const [showBooks, setShowBooks] = useState(false);
 
     return (
-        <li
-            className="relative group"
+        <li className="relative group"
         >
-
             {/* Main Card */}
-            <div key={index} className="relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
+            < div key={index} className="relative bg-gray-800 border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl" >
                 {/* Content Container */}
-                <div className="flex justify-between items-start">
+                <div className="flex justify-between items-start" >
                     <div className="flex-1">
                         {/* Subject Header */}
                         <div className="flex items-center gap-3 mb-3">
@@ -40,7 +38,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
                             {subject.prerequisites.length > 0 && (
                                 <ul className="flex flex-wrap gap-2" >
                                     {subject.prerequisites.map((prereq, i) => (
-                                        <li key={i} className="text-xs bg-gradient-to-r from-purple-500/10 to-pink-800/20 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">
+                                        <li key={i} className="text-xs bg-linear-to-r from-purple-500/10 to-pink-800/20 text-purple-200 px-2 py-1 rounded-full border border-purple-500/30">
                                             {prereq}
                                         </li>
                                     ))}
@@ -62,15 +60,17 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
                             {showBooks ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                         </div>
                     </Button>
-                </div>
+                </div >
 
                 {/* Books Section */}
-                {showBooks && (
-                    <BookRecomendation
-                        subject={subject}
-                    />
-                )}
-            </div>
+                {
+                    showBooks && (
+                        <BookRecomendation
+                            subject={subject}
+                        />
+                    )
+                }
+            </div >
         </li>
     )
 }

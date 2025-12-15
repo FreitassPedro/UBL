@@ -1,0 +1,1030 @@
+export const MetodologiaDaPesquisa = {
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "aVmVqQKrcX7_pUnlOj1kY0QQj6w",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "FEyK7U6i3yIDSI5R3xhJkRkjsrE",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:39:58Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "O Método Científico (Módulo 1/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor Clodis Boscarioli, da UNIOESTE, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Esta palestra teve por objetivo caracterizar o método científico como a aplicação da lógica à busca do conhecimento, introduzindo, de forma geral, os processos do método científico para pesquisas, e evidenciando a importância da apropriação pelos pós-graduandos da metodologia da pesquisa.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wfb3QmYWVVg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wfb3QmYWVVg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wfb3QmYWVVg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wfb3QmYWVVg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/wfb3QmYWVVg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wfb3QmYWVVg"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "wfb3QmYWVVg",
+                "videoPublishedAt": "2020-08-10T12:38:37Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "g8Tp8ClIxaJ3wGg_x_spWOqd02w",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:39:35Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Pesquisa como Resolução de Problemas (Módulo 2/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor Roberto Pereira, da UFPR, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Com base em ideias vindas da Filosofia da Ciência, este módulo convida os participantes a pensar na sua pesquisa como um processo de resolução de problemas. Neste processo, entender a natureza do seu problema é um ponto crítico e capaz de mudar o seu entendimento de todo o restante da sua pesquisa.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W0kcg-lHmis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W0kcg-lHmis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W0kcg-lHmis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/W0kcg-lHmis/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/W0kcg-lHmis/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "W0kcg-lHmis"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "W0kcg-lHmis",
+                "videoPublishedAt": "2020-08-10T14:00:51Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "vVywpw50FJD8MXnXPOVDBxJnQcs",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:39:05Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Design de Pesquisas (Módulo 3/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Renata Araujo durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Renata é professora, pesquisadora e Representante de Inovação e Empreendedorismo na Faculdade de Computação e Informática da Universidade Presbiteriana Mackenzie. Pesquisadora do Programa de Pós-Graduação em Sistemas de Informação da EACH-USP e pesquisadora convidada do LUDES-Laboratório de Ludologia, Engenharia e Simulação da COPPE/UFRJ. Nesta palestra, ela discutiu os caminhos de um projeto de pesquisa científica, a organização do pensamento a respeito dos principais elementos que compõem a trajetória de um projeto de pesquisa, e as estratégias para lidar com os desafios com os quais os pesquisadores podem topar neste caminho.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZZ53FvZ7YYE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZZ53FvZ7YYE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZZ53FvZ7YYE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZZ53FvZ7YYE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZZ53FvZ7YYE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "ZZ53FvZ7YYE"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "ZZ53FvZ7YYE",
+                "videoPublishedAt": "2020-08-10T15:12:43Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4ou8mxPPxVh2WXlCtkpbkJHuNVI",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:38:42Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Design de Experimentos (Módulo 4/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelas professoras Andreia Malucelli e Sheila Reinehr, da PUCPR, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Nesta palestra, elas discutiram a importância da experimentação, os seus objetivos, assim como os passos para conduzi-la.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WpJ1skhVKkg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WpJ1skhVKkg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WpJ1skhVKkg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WpJ1skhVKkg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/WpJ1skhVKkg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WpJ1skhVKkg"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "WpJ1skhVKkg",
+                "videoPublishedAt": "2020-08-10T18:31:13Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "KgcgqIblBQwb6wf1HZP4ZF8trLw",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:38:23Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Ética, diversidade e responsabilidade na pesquisa (Módulo 5/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Flávia Maria Santoro, que tem posição de pós-doc na UERJ, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Nesta palestra, ela abordou o conceito de ética e sua relevância na pesquisa científica. Foram apresentadas questões práticas, tais como submissão da pesquisa aos comitês de ética, e discutidos temas e questões éticas atuais na Computação.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kK7tOsITmOk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kK7tOsITmOk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kK7tOsITmOk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/kK7tOsITmOk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/kK7tOsITmOk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "kK7tOsITmOk"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "kK7tOsITmOk",
+                "videoPublishedAt": "2020-08-11T12:43:39Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "kIqml68iReaw2zKtMzyCuGMj3n8",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:37:59Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Revisão Sistemática da Literatura (Módulo 6/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Erica Mourão, doutoranda no PPGC-UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Nesta palestra foi apresentada a importância, a origem, o que é e porque realizar uma Revisão Sistemática da Literatura (RSL) em Computação; as fases de planejamento, condução e publicação do processo de uma RSL e suas respectivas atividades; quais são as estratégias de busca existentes para uma RSL; um exemplo de um protocolo e de condução e publicação; e sugestões de ferramentas.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XFRmnjh7Ph0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XFRmnjh7Ph0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XFRmnjh7Ph0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XFRmnjh7Ph0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/XFRmnjh7Ph0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XFRmnjh7Ph0"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "XFRmnjh7Ph0",
+                "videoPublishedAt": "2020-08-11T14:00:39Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "0l6Hisra0VuJ1dz_9FI8zCL7oHI",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:37:41Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Como ler um artigo científico? (Módulo 7/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor Guilherme Galante, da UNIOESTE, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Um pesquisador provavelmente passará centenas de horas todos os anos lendo artigos científicos. Aprender a ler com eficiência um artigo é uma habilidade importante na área acadêmica, no entanto, é raramente ensinada. Nesse contexto, a palestra teve como objetivo apresentar dicas para a leitura eficiente de publicações científicas, visando evitar esforços desnecessários e perda de tempo nesse processo.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eadVmuwEuAI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eadVmuwEuAI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eadVmuwEuAI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/eadVmuwEuAI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/eadVmuwEuAI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "eadVmuwEuAI"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "eadVmuwEuAI",
+                "videoPublishedAt": "2020-08-11T15:16:47Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "aInrggK4JcRwXJ1QwlIC3lK89OU",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:37:24Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Avaliação de Algoritmos, Prototipação e Simulação (Módulo 8/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelos professores Bruno Lopes e Igor Coelho, do PPGC-UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Nesta palestra eles discutiram perspectivas sobre avaliação de algoritmos, incluindo temas e avanços recentes na prototipação, bem como algoritmos de simulação. A palestra contou com um viés duplo, experimental e teórico, para o público geral da área de computação.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Qvrvic7_zGk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Qvrvic7_zGk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Qvrvic7_zGk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Qvrvic7_zGk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Qvrvic7_zGk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Qvrvic7_zGk"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "Qvrvic7_zGk",
+                "videoPublishedAt": "2020-08-11T17:50:48Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7geCb8P9Jr2kSrKfR3oP_ukltHk",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:37:00Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Estudos de Caso (Módulo 9/20)",
+                "description": "Gravação da palestra apresentada ao vivo por Márcia Regina Kaminski, doutoranda em Educação em Ciências e Educação Matemática na Unioeste, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Nesta palestra ela discutiu as principais características do Estudo de Caso enquanto metodologia de pesquisa científica, o processo de elaboração de protocolos para sua condução, potencialidades e possibilidades de abordagem em conformidade com os objetivos estabelecidos para a pesquisa.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mkNjeqobt9Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mkNjeqobt9Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mkNjeqobt9Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mkNjeqobt9Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/mkNjeqobt9Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mkNjeqobt9Y"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "mkNjeqobt9Y",
+                "videoPublishedAt": "2020-08-12T14:23:55Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MY3rBq5Q88pKV6euML-wZ2ad35g",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:36:40Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Instrumentos de Coleta de Dados (Módulo 10/20)",
+                "description": "Gravação da palestra apresentada ao vivo por Cristiano Maciel e Sabrina Bourscheid Sassi durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Cristiano Maciel é Professor do Instituto de Computação e do Programa de Pós-Graduação em Educação da Universidade Federal do Mato Grosso (UFMT) e Sabrina Bourscheid Sassi é doutoranda em Educação na mesma universidade. Nesta palestra eles abordaram os principais instrumentos utilizados para pesquisas quantitativas e qualitativas no contexto da Ciência da Computação, sendo úteis também às demais áreas. A decisão sobre qual(ais) instrumento(s) de coleta de dados utilizar para cada contexto depende do objetivo da pesquisa. Muitas questões interferem no sucesso ou fracasso quanto à obtenção dos dados, a depender das estratégias adotadas, e com impacto na análise dos resultados.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WnIgO7vbaKY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WnIgO7vbaKY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WnIgO7vbaKY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WnIgO7vbaKY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/WnIgO7vbaKY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WnIgO7vbaKY"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "WnIgO7vbaKY",
+                "videoPublishedAt": "2020-08-12T14:27:52Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "srahJs7mInLBV1mvjIBSBZ_8mfY",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:36:21Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Métodos Quantitativos - Parte I (Módulo 11/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Ana Paula Sobral, da UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Essa palestra é a primeira de duas em que foram apresentadas algumas possibilidades de análise que podem ser seguidas a partir das características dos dados estudados, visando desmistificar o uso da análise estatística.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8QVtn-3EdKc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8QVtn-3EdKc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8QVtn-3EdKc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8QVtn-3EdKc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8QVtn-3EdKc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8QVtn-3EdKc"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "8QVtn-3EdKc",
+                "videoPublishedAt": "2020-08-12T15:32:06Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "m5tTq-2p35OzxInwTc2J8Slu7ao",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:36:00Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Métodos Quantitativos - Parte II (Módulo 12/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Ana Paula Sobral, da UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Essa palestra é a segunda de duas em que foram apresentadas algumas possibilidades de análise que podem ser seguidas a partir das características dos dados estudados, visando desmistificar o uso da análise estatística.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MSd7cx3dmDI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MSd7cx3dmDI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MSd7cx3dmDI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/MSd7cx3dmDI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/MSd7cx3dmDI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "MSd7cx3dmDI"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "MSd7cx3dmDI",
+                "videoPublishedAt": "2020-08-12T18:09:08Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "j3nUQtor2ei9AXuCYuMsQGXL9cY",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:35:31Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Análise Qualitativa I (Módulo 13/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Luciana Salgado, do PPGC-UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Essa palestra é a primeira de duas em que foram apresentadas as diferenças entre os paradigmas qualitativo e quantitativo; as características principais e quando devemos usar os métodos qualitativos; as etapas básicas das metodologias qualitativas; e, alguns exemplos e indicações de técnicas e métodos de coleta de dados e inspeção de tecnologia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1feCpvpb4ns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1feCpvpb4ns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1feCpvpb4ns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1feCpvpb4ns/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/1feCpvpb4ns/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1feCpvpb4ns"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "1feCpvpb4ns",
+                "videoPublishedAt": "2020-08-13T12:53:51Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zRGtJI8rG7HBgY4JXYF4lXunS7A",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:34:54Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Análise Qualitativa II (Módulo 14/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Luciana Salgado, do PPGC-UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Essa palestra é a segunda de duas em que foram apresentadas as diferenças entre os paradigmas qualitativo e quantitativo; as características principais e quando devemos usar os métodos qualitativos; as etapas básicas das metodologias qualitativas; e, alguns exemplos e indicações de técnicas e métodos de coleta de dados e inspeção de tecnologia.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aK4Npnkimhg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aK4Npnkimhg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aK4Npnkimhg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/aK4Npnkimhg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/aK4Npnkimhg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "aK4Npnkimhg"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "aK4Npnkimhg",
+                "videoPublishedAt": "2020-08-13T14:01:51Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4aF0SZS5Zu6PN1Te5C4-XHBb2pc",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:34:39Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Análise de Dados com Grounded Theory (Módulo 15/20)",
+                "description": "Gravação da palestra apresentada ao vivo pela professora Tânia Pinheiro, da UFC, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Para a palestrante, a análise qualitativa de dados pode seguir dois movimentos distintos - da teoria ao campo ou do campo à teoria. A Grouded Theory, ou Teoria Fundamentada no Campo, se enquadra no segundo caso: compreensões surgem a partir de regularidades que emergem nos dados de campo, e não de teorias já conhecidas. Na palestra foram abordadas suas origens e etapas, situando-a em princípios da filosofia da ciência. A partir de uma descrição comparada com métodos de análise qualitativa mais utilizados, procurou-se tornar possível compreender como algumas de suas diretrizes podem contribuir para outras abordagens de categorização e análise de dados.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/E4BQhy34u1g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/E4BQhy34u1g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/E4BQhy34u1g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/E4BQhy34u1g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/E4BQhy34u1g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "E4BQhy34u1g"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "E4BQhy34u1g",
+                "videoPublishedAt": "2020-08-13T17:37:14Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "g6ygPaHnELiJCfocBti967w7Tww",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:34:21Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Boas Práticas para Compartilhamento de Dados de Pesquisas (Módulo 16/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor Troy Kohwalter, da UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2).",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/57A6-2xUxjo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/57A6-2xUxjo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/57A6-2xUxjo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/57A6-2xUxjo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/57A6-2xUxjo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "57A6-2xUxjo"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "57A6-2xUxjo",
+                "videoPublishedAt": "2020-08-13T17:43:42Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "7PxVA56u0PcutOdADRSa-4-yzs0",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:33:25Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "A Escrita Acadêmica (Módulo 17/20)",
+                "description": "Gravação da palestra apresentada ao vivo, pelo professor Roberto Pereira, da UFPR, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Para o palestrante, escrever é uma arte e o nosso estilo pessoal é um fator diferencial… desde que o estilo seja bom. Problemas de escrita impedem a pessoa que lê seu texto de dedicar a devida atenção ao conteúdo, diminuindo a qualidade do seu texto e aumentando desnecessariamente a carga de trabalho de quem te orienta. Neste módulo, o palestrante apresentou, na forma de tópicos, alguns dos problemas mais comuns que identificou em atividades de revisão de artigos e de orientação, mostrando exemplos e dicas de como evitá-los.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qAprWJ0DRZQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qAprWJ0DRZQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qAprWJ0DRZQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qAprWJ0DRZQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qAprWJ0DRZQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qAprWJ0DRZQ"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "qAprWJ0DRZQ",
+                "videoPublishedAt": "2020-08-14T12:55:05Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "L16Df4LrKR1YP_BeIGQ6kMmtBJU",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:32:46Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Publicação e divulgação científica (Módulo 18/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor José Viterbo, da UFF, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). O foco dessa palestra recaiu sobre o processo de publicação de artigos como etapa fundamental da divulgação de resultados de pesquisa. Foram discutidos os diferentes tipos de veículos e suas peculiaridades na submissão e avaliação de trabalhos. Foram apresentadas as características que indicam a qualidade de diferentes periódicos e as métricas que permitem compará-los. Foram discutidas as métricas alternativas que vêm sendo utilizadas.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6lXf4HzNOfU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6lXf4HzNOfU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6lXf4HzNOfU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6lXf4HzNOfU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/6lXf4HzNOfU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6lXf4HzNOfU"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "6lXf4HzNOfU",
+                "videoPublishedAt": "2020-08-14T14:11:33Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MTjNGC67JU-Rjgsr58NnoJaXAR0",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:32:19Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Como apresentar um artigo (Módulo 19/20)",
+                "description": "Gravação da palestra apresentada ao vivo por Alane Marie de Lima, doutoranda do Grupo de Teoria da Computação, Otimização e Combinatória (TEORIA) da UFPR, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). Para a palestrante, apresentar um artigo científico em um evento é uma tarefa que exige preparação e dedicação, pois deve refletir o conteúdo de uma pesquisa de meses (e até anos) de maneira justa e profissional. Nesta palestra, ela abordou dicas de como preparar uma apresentação de um artigo científico que atendesse a esses requisitos. Foram vistos exemplos de problemas que podem tornar a apresentação uma experiência ruim para quem está assistindo, bem como dicas de como evitá-los.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8XpO2LLOhDw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8XpO2LLOhDw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8XpO2LLOhDw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8XpO2LLOhDw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8XpO2LLOhDw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "8XpO2LLOhDw"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "8XpO2LLOhDw",
+                "videoPublishedAt": "2020-08-14T15:32:04Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "lZMdGIj2h6_z5tLTkMOyy0vFkGw",
+            "id": "UExjbFVRbm82UE1wUU8wLVhyRHdXc1B6UnpFdmp3cDFfXy41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2020-08-16T22:34:02Z",
+                "channelId": "UChW1_qGA-ey9hTPRG3qvtKg",
+                "title": "Ciência Aberta (Módulo 20/20)",
+                "description": "Gravação da palestra apresentada ao vivo pelo professor Marcos Sunye, da UFPR, durante o Curso de Metodologia da Pesquisa em Computação, parte da edição de 2020 da Escola de Inverno do PPGC-UFF (http://ev-ppgc.ic.uff.br/2020-2). A palestra abordou as Bases de Dados Científicos, os problemas relacionados com o projeto especificação e implantação das bases. Como garantir a qualidade do Acervo, a Reusabilidade dos dados, a Autoria dos pesquisadores. Qual o impacto na produção científica da Instituição e do pesquisador.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KjiL-xeJZV0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KjiL-xeJZV0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KjiL-xeJZV0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KjiL-xeJZV0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/KjiL-xeJZV0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Instituto de Computação - UFF",
+                "playlistId": "PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "KjiL-xeJZV0"
+                },
+                "videoOwnerChannelTitle": "Instituto de Computação - UFF",
+                "videoOwnerChannelId": "UChW1_qGA-ey9hTPRG3qvtKg"
+            },
+            "contentDetails": {
+                "videoId": "KjiL-xeJZV0",
+                "videoPublishedAt": "2020-08-14T17:50:41Z"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 20,
+        "resultsPerPage": 50
+    }
+}

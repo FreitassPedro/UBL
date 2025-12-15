@@ -1,5 +1,5 @@
 import { CheckCircle, Circle } from "lucide-react"
-import { useCourseProgress } from "../../contexts/CourseProgressContext";
+import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
 import type { MyLesson } from "../../data/myCourseProgress";
 
 
@@ -11,7 +11,6 @@ interface VideoListProps {
 
 export function VideoList({ lessons, selectedLesson, onSelectLesson }: VideoListProps) {
   const { toggleCompletion, completedLessons } = useCourseProgress()
-  console.log("Completed Lessons:", completedLessons)
   
   return (
     <div className="space-y-1 p-4">
@@ -30,7 +29,7 @@ export function VideoList({ lessons, selectedLesson, onSelectLesson }: VideoList
               e.stopPropagation()
               toggleCompletion(lesson.id)
             }}
-            className="text-primary mt-1 flex-shrink-0"
+            className="text-primary mt-1"
           >
             {completedLessons.has(lesson.id) ? <CheckCircle className="h-4 w-4" /> : <Circle className="h-4 w-4" />}
           </button>

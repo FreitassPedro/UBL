@@ -1,4 +1,45 @@
 import { fetchCourseLessons } from "./APICourseJSON/fetchCourseVideos";
+import { circuitosDigitais } from "./APICourseJSON/Step1/CircuitosDigitais";
+import { introducaoComputacaoI } from "./APICourseJSON/Step1/IntroducaoComputacaoI";
+import { linguagensProgramacao } from "./APICourseJSON/Step1/LinguagensProgramacao";
+import { matematicaDiscreta } from "./APICourseJSON/Step1/MatematicaDiscreta";
+import { GeometriaAnalitica } from "./APICourseJSON/Step1/GeometriaAnalitica";
+
+import { CalculoI } from "./APICourseJSON/Step2/CalculoI";
+import { AlgebraLinear } from "./APICourseJSON/Step2/AlgebraLinear";
+import { EstruturaDeDaddos } from "./APICourseJSON/Step2/EstruturaDeDados";
+import { IntroducaoComputacaoII } from "./APICourseJSON/Step2/IntroducaoComputacaoII";
+import { ProgramacaoOrientadaObjeto } from "./APICourseJSON/Step2/ProgramacaoOrientadaObjeto";
+
+import { AlgoritmoEmGrafos } from "./APICourseJSON/Step3/AlgoritimoEmGrafos";
+import { ArquiteturaComputadoresI } from "./APICourseJSON/Step3/ArquiteturaComputadoresI";
+import { ProbabilidadeEstatistica } from "./APICourseJSON/Step3/ProbabilidadeEstatistica";
+import { CalculoII } from "./APICourseJSON/Step3/CalculoII";
+import { ProgramacaoFuncionaHuskel } from "./APICourseJSON/Step3/ProgramacaoFuncionalHuskel";
+
+import { AnaliseAlgoritmos } from "./APICourseJSON/Step4/AnaliseAlgoritmos";
+import { ArquiteturaComputadoresII } from "./APICourseJSON/Step4/ArquiteturaComputadoresII";
+import { BancoDeDados } from "./APICourseJSON/Step4/BancoDeDados";
+import { MetodosNumericosI } from "./APICourseJSON/Step4/MetodosNumericosI";
+import { ProgramacaoLogica } from "./APICourseJSON/Step4/ProgramacaoLogica";
+
+import { RedeDeComputadores } from "./APICourseJSON/Step5/RedeDeComputadores";
+import { IntroducaoEngenhariaSoftware } from "./APICourseJSON/Step5/IntroducaoEngenhariaSoftware";
+import { SistemaOperacionais } from "./APICourseJSON/Step5/SistemaOperacionais";
+import { ProgramacaoMatematica } from "./APICourseJSON/Step5/ProgramacaoMatematica";
+import { FundamentosComputacaoGrafica } from "./APICourseJSON/Step5/FundamentosComputacaoGrafica";
+
+import { LinguagensFormaisAutomatos } from "./APICourseJSON/Step6/LinguagensFormaisAutomatos";
+import { InteligenciaArtifical } from "./APICourseJSON/Step6/InteligenciaArtifical";
+import { SistemasDistruibuidos } from "./APICourseJSON/Step6/SistemasDistruibuidos";
+import { TeoriaDosGrafos } from "./APICourseJSON/Step6/TeoriaDosGrafos";
+import { CalculoIII } from "./APICourseJSON/Step6/CalculoIII";
+
+import { TeoriaDaComputacao } from "./APICourseJSON/Step7/TeoriaDaComputacao";
+import { DeepLearning } from "./APICourseJSON/Step7/DeepLearning";
+import { COmputacaoQuantica } from "./APICourseJSON/Step7/ComputacaoQuantica";
+import { MetodologiaDaPesquisa } from "./APICourseJSON/Step7/MetodologiaDaPesquisa";
+import { Compiladores } from "./APICourseJSON/Step7/Compiladores";
 
 export interface Lesson {
   id: string;
@@ -44,35 +85,35 @@ export const CurriculoCC: Grade = {
           id: 1,
           name: "Circuitos Digitais",
           url: "",
-          lessons: fetchCourseLessons("circuitos-digitais"),
+          lessons: fetchCourseLessons(circuitosDigitais),
           prerequisites: [],
           books: [{ name: "Livros sobre Circuitos Digitais", url: "extras/bibliography/01_digital_circuits.md" }],
         },
         {
           id: 2,
           name: "Matemática Discreta",
-          lessons: fetchCourseLessons("matematica-discreta"),
+          lessons: fetchCourseLessons(matematicaDiscreta),
           prerequisites: [],
           books: [{ name: "Livros sobre Matemática Discreta", url: "extras/bibliography/02_discrete_mathematics.md" }],
         },
         {
           id: 3,
           name: "Linguagens de Programação",
-          lessons: fetchCourseLessons("linguagens-de-programacao"),
+          lessons: fetchCourseLessons(linguagensProgramacao),
           prerequisites: [],
           books: [{ name: "Livros sobre Linguagens de Programação", url: "extras/bibliography/03_programming_languages.md" }],
         },
         {
           id: 4,
           name: "Introdução à Ciência da Computação com Python I",
-          lessons: fetchCourseLessons("introducao-a-computacao"),
+          lessons: fetchCourseLessons(introducaoComputacaoI),
           prerequisites: [],
           books: [{ name: "Livros sobre Introdução a CC", url: "extras/bibliography/04_intro_python.md" }],
         },
         {
           id: 5,
           name: "Geometria Analítica",
-          lessons: [{ id: "5", title: "Geometria Analítica", type: "video", url: "https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L" }],
+          lessons: fetchCourseLessons(GeometriaAnalitica),
           prerequisites: [],
           books: [{ name: "Livros sobre Geometria Analítica", url: "extras/bibliography/05_analytic_geometry.md" }],
         },
@@ -85,35 +126,35 @@ export const CurriculoCC: Grade = {
         {
           id: 6,
           name: "Cálculo I",
-          lessons: [{ id: "6", title: "Cálculo I", type: "video", url: "https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx" }],
+          lessons: fetchCourseLessons(CalculoI),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros de Cálculo I", url: "extras/bibliography/06_intro_calculus.md" }],
         },
         {
           id: 7,
           name: "Álgebra Linear I",
-          lessons: [{ id: "7", title: "Álgebra Linear I", type: "video", url: "https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI" }],
+          lessons: fetchCourseLessons(AlgebraLinear),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros de Álgebra Linear", url: "extras/bibliography/07_intro_linear_algebra.md" }],
         },
         {
           id: 8,
           name: "Estruturas de Dados",
-          lessons: [{ id: "8", title: "Estruturas de Dados", type: "video", url: "https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW" }],
+          lessons: fetchCourseLessons(EstruturaDeDaddos),
           prerequisites: ["Matemática Discreta", "Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros de Estruturas de Dados", url: "extras/bibliography/08_data_structure.md" }],
         },
         {
           id: 9,
           name: "Introdução à Ciência da Computação com Python II",
-          lessons: [{ id: "9", title: "Introdução à Ciência da Computação com Python II", type: "video", url: "https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2" }],
+          lessons: fetchCourseLessons(IntroducaoComputacaoII),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros de Introdução a Programação", url: "extras/bibliography/09_python.md" }],
         },
         {
           id: 10,
           name: "Laboratório de Programação Orientada a Objetos I",
-          lessons: [{ id: "10", title: "Laboratório de Programação Orientada a Objetos I", type: "video", url: "https://pt.coursera.org/learn/lab-poo-parte-1" }],
+          lessons: fetchCourseLessons(ProgramacaoOrientadaObjeto),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros sobre Orientação a Objetos", url: "extras/bibliography/10_object_orientation.md" }],
         },
@@ -126,35 +167,35 @@ export const CurriculoCC: Grade = {
         {
           id: 11,
           name: "Algoritmos em Grafos",
-          lessons: [{ id: "11", title: "Algoritmos em Grafos", type: "video", url: "https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk" }],
+          lessons: fetchCourseLessons(AlgoritmoEmGrafos),
           prerequisites: ["Estruturas de Dados"],
           books: [{ name: "Livros sobre Algoritmos em Grafos", url: "extras/bibliography/11_graph_algorithms.md" }],
         },
         {
           id: 12,
           name: "Arquitetura de Computadores I",
-          lessons: [{ id: "12", title: "Arquitetura de Computadores I", type: "video", url: "https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6" }],
+          lessons: fetchCourseLessons(ArquiteturaComputadoresI),
           prerequisites: ["Circuitos Digitais"],
           books: [{ name: "Livros sobre Arquitetura de Computadores I", url: "extras/bibliography/12_computer_architecture.md" }],
         },
         {
           id: 13,
           name: "Probabilidade e Estatística",
-          lessons: [{ id: "13", title: "Probabilidade e Estatística", type: "video", url: "https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm" }],
+          lessons: fetchCourseLessons(ProbabilidadeEstatistica),
           prerequisites: ["Cálculo I"],
           books: [{ name: "Livros sobre Probabilidade e Estatística", url: "extras/bibliography/13_statistics_probability.md" }],
         },
         {
           id: 14,
           name: "Cálculo II",
-          lessons: [{ id: "14", title: "Cálculo II", type: "video", url: "https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN" }],
+          lessons: fetchCourseLessons(CalculoII),
           prerequisites: ["Cálculo I"],
           books: [{ name: "Livros sobre Cálculo II", url: "extras/bibliography/14_advanced_calculus.md" }],
         },
         {
           id: 15,
           name: "Programação Funcional em Haskell",
-          lessons: [{ id: "15", title: "Programação Funcional em Haskell", type: "video", url: "https://www.youtube.com/watch?v=eTisiy5FB7k&list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ&index=1" }],
+          lessons: fetchCourseLessons(ProgramacaoFuncionaHuskel),
           prerequisites: [],
           books: [{ name: "Livros sobre Programação Funcional", url: "extras/bibliography/15_haskell.md" }],
         },
@@ -167,35 +208,35 @@ export const CurriculoCC: Grade = {
         {
           id: 16,
           name: "Análise de Algoritmos",
-          lessons: [{ id: "16", title: "Análise de Algoritmos", type: "video", url: "https://www.youtube.com/watch?v=_HBTCUNPxOg&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha" }],
+          lessons: fetchCourseLessons(AnaliseAlgoritmos),
           prerequisites: ["Algoritmos em Grafos"],
           books: [{ name: "Livros sobre Análise de Algoritmos", url: "extras/bibliography/16_analysis_of_algorithms.md" }],
         },
         {
           id: 17,
           name: "Métodos Numéricos I",
-          lessons: [{ id: "17", title: "Métodos Numéricos I", type: "video", url: "https://www.youtube.com/watch?v=a6nNQ6qKgiY&list=PLI9WiBCz67cPTTRER4CrsN0wpRN-NmjGA" }],
+          lessons: fetchCourseLessons(MetodosNumericosI),
           prerequisites: ["Introdução à Ciência da Computação com Python I", "Cálculo I"],
           books: [{ name: "Livros sobre Métodos Numéricos", url: "extras/bibliography/17_numeric_methods.md" }],
         },
         {
           id: 18,
           name: "Banco de Dados",
-          lessons: [{ id: "18", title: "Banco de Dados", type: "video", url: "https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq" }],
+          lessons: fetchCourseLessons(BancoDeDados),
           prerequisites: [],
           books: [{ name: "Livros sobre Bancos de Dados", url: "extras/bibliography/18_database.md" }],
         },
         {
           id: 19,
           name: "Arquitetura de Computadores II",
-          lessons: [{ id: "19", title: "Arquitetura de Computadores II", type: "video", url: "https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ" }],
+          lessons: fetchCourseLessons(ArquiteturaComputadoresII),
           prerequisites: ["Introdução à Ciência da Computação com Python II", "Arquitetura de Computadores I"],
           books: [{ name: "Livros sobre Arquitetura de Computadores", url: "extras/bibliography/19_computer_architecture_II.md" }],
         },
         {
           id: 20,
           name: "Programação Lógica",
-          lessons: [{ id: "20", title: "Programação Lógica", type: "video", url: "https://youtube.com/playlist?list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx&si=Y52_w6CQPYEE2fLN" }],
+          lessons: fetchCourseLessons(ProgramacaoLogica),
           prerequisites: [],
           books: [{ name: "Livros sobre Programação Lógica", url: "extras/bibliography/20_logical_programming.md" }],
         },
@@ -208,35 +249,35 @@ export const CurriculoCC: Grade = {
         {
           id: 21,
           name: "Redes de Computadores",
-          lessons: [{ id: "21", title: "Redes de Computadores", type: "video", url: "https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR" }],
+          lessons: fetchCourseLessons(RedeDeComputadores),
           prerequisites: [],
           books: [{ name: "Livros sobre Rede de Computadores", url: "extras/bibliography/21_computer_network.md" }],
         },
         {
           id: 22,
           name: "Introdução à Engenharia de Software",
-          lessons: [{ id: "22", title: "Introdução à Engenharia de Software", type: "video", url: "https://www.youtube.com/watch?v=h_hEI1Kfm2U&list=PLhBaeEzs3d7lsn_Mq2n3R4_api16Wkp1Q" }],
+          lessons: fetchCourseLessons(IntroducaoEngenhariaSoftware),
           prerequisites: ["Introdução à Ciência da Computação com Python II"],
           books: [{ name: "Livros sobre Engenharia de Software", url: "extras/bibliography/22_software_engineering.md" }],
         },
         {
           id: 23,
           name: "Sistemas Operacionais",
-          lessons: [{ id: "23", title: "Sistemas Operacionais", type: "video", url: "https://www.youtube.com/watch?v=EGn8fOf7zE0&list=PLSmh8AKk_aUn9HxFs5FnjQupdQnV56MXV" }],
+          lessons: fetchCourseLessons(SistemaOperacionais),
           prerequisites: ["Arquitetura de Computadores II"],
           books: [{ name: "Livros sobre Sistemas Operacionais", url: "extras/bibliography/23_operating_system.md" }],
         },
         {
           id: 24,
           name: "Programação Matemática",
-          lessons: [{ id: "24", title: "Programação Matemática", type: "video", url: "https://www.youtube.com/watch?v=8rrgnFCL9LM&list=PL2peXovwG2kuqXC6sECjFSiG-MT1yXMQ-" }],
+          lessons: fetchCourseLessons(ProgramacaoMatematica),
           prerequisites: ["Álgebra Linear I"],
           books: [{ name: "Livros sobre Programação Matemática/Pesquisa Operacional", url: "extras/bibliography/24_math_optimization.md" }],
         },
         {
           id: 25,
           name: "Fundamentos de Computação Gráfica",
-          lessons: [{ id: "25", title: "Fundamentos de Computação Gráfica", type: "video", url: "https://www.youtube.com/watch?v=AVSAesOiKYY&list=PLE51fUFkeIwLXwe4rvG4EMgw7zgjP-tDx" }],
+          lessons: fetchCourseLessons(FundamentosComputacaoGrafica),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros sobre Computação Gráfica", url: "extras/bibliography/25_fundamentals_computer_graphics.md" }],
         },
@@ -249,35 +290,35 @@ export const CurriculoCC: Grade = {
         {
           id: 26,
           name: "Linguagens Formais e Autômatos",
-          lessons: [{ id: "26", title: "Linguagens Formais e Autômatos", type: "video", url: "https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4&pp=iAQB" }],
+          lessons: fetchCourseLessons(LinguagensFormaisAutomatos),
           prerequisites: ["Matemática Discreta"],
           books: [{ name: "Livros sobre Linguagens Formais e Autômatos", url: "extras/bibliography/26_automata_theory.md" }],
         },
         {
           id: 27,
           name: "Inteligência Artificial",
-          lessons: [{ id: "27", title: "Inteligência Artificial", type: "video", url: "https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0" }],
+          lessons: fetchCourseLessons(InteligenciaArtifical),
           prerequisites: ["Estruturas de Dados", "Probabilidade e Estatística"],
           books: [{ name: "Livros sobre Inteligência Artificial", url: "extras/bibliography/27_artificial_intelligence.md" }],
         },
         {
           id: 28,
           name: "Sistemas Distribuídos",
-          lessons: [{ id: "28", title: "Sistemas Distribuídos", type: "video", url: "https://www.youtube.com/watch?v=TEEy5f46h_Q&list=PLP0bYj2MTFcuXa4-EbBKhvehr-rkxpeR8&index=1" }],
+          lessons: fetchCourseLessons(SistemasDistruibuidos),
           prerequisites: ["Redes de Computadores"],
           books: [{ name: "Livros sobre Sistemas Distríbuidos", url: "extras/bibliography/28_distributed_computing.md" }],
         },
         {
           id: 29,
           name: "Teoria dos Grafos",
-          lessons: [{ id: "29", title: "Teoria dos Grafos", type: "video", url: "https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX" }],
+          lessons: fetchCourseLessons(TeoriaDosGrafos),
           prerequisites: ["Matemática Discreta"],
           books: [{ name: "Livros sobre Teoria dos Grafos", url: "extras/bibliography/29_graphs.md" }],
         },
         {
           id: 30,
           name: "Cálculo III",
-          lessons: [{ id: "30", title: "Cálculo III", type: "video", url: "https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W" }],
+          lessons: fetchCourseLessons(CalculoIII),
           prerequisites: ["Cálculo II"],
           books: [{ name: "Livros sobre Cálculo III", url: "extras/bibliography/30_multivariable_calculus.md" }],
         },
@@ -290,35 +331,35 @@ export const CurriculoCC: Grade = {
         {
           id: 31,
           name: "Teoria da Computação",
-          lessons: [{ id: "31", title: "Teoria da Computação", type: "video", url: "https://www.youtube.com/watch?v=dWRxL30aoes&list=PLYLYA7XrlskNgCeSpJf9PQHHb8Z4WpRm4" }],
+          lessons: fetchCourseLessons(TeoriaDaComputacao),
           prerequisites: ["Linguagens Formais e Autômatos"],
           books: [{ name: "Livros sobre Teoria da Computação", url: "extras/bibliography/31_theory_of_computation.md" }],
         },
         {
           id: 32,
           name: "Deep Learning",
-          lessons: [{ id: "32", title: "Deep Learning", type: "video", url: "https://www.youtube.com/watch?v=0VD_2t6EdS4&list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-" }],
+          lessons: fetchCourseLessons(DeepLearning),
           prerequisites: ["Inteligência Artificial"],
           books: [{ name: "Livros sobre Deep Learning", url: "extras/bibliography/32_deep_learning.md" }],
         },
         {
           id: 33,
           name: "Compiladores",
-          lessons: [{ id: "33", title: "Compiladores", type: "video", url: "https://youtube.com/playlist?list=PLX6Nyaq0ebfhI396WlWN6WlBm-tp7vDtV&si=LoaU9lzLMuSVikgi" }],
+          lessons: fetchCourseLessons(Compiladores),
           prerequisites: ["Estruturas de Dados", "Teoria dos Grafos"],
           books: [{ name: "Livros sobre Compiladores", url: "extras/bibliography/33_compilers.md" }],
         },
         {
           id: 34,
           name: "Computação Quântica",
-          lessons: [{ id: "34", title: "Computação Quântica", type: "video", url: "https://youtube.com/playlist?list=PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R&si=hLYHhS2BTKRgNwMJ" }],
+          lessons: fetchCourseLessons(COmputacaoQuantica),
           prerequisites: ["Cálculo III", "Arquitetura de Computadores II"],
           books: [{ name: "Livros sobre Computação Quântica", url: "extras/bibliography/34_quantum_copmputing.md" }],
         },
         {
           id: 35,
           name: "Metodologia da Pesquisa",
-          lessons: [{ id: "35", title: "Metodologia da Pesquisa", type: "video", url: "https://youtube.com/playlist?list=PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__&si=0dXojlZV5EisMB6s" }],
+          lessons: fetchCourseLessons(MetodologiaDaPesquisa),
           prerequisites: [],
           books: [{ name: "Livros sobre Metodologia de Pesquisa", url: "extras/bibliography/35_methodology.md" }],
         },
