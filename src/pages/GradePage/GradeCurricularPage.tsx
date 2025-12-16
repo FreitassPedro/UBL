@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepContainer } from '../../components/GradeCurricular/StepContainer';
+import { StepSection } from '../../components/GradeCurricular/StepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
 
@@ -101,7 +101,7 @@ export default function GradeCurricularPage() {
                     <div
                         className="w-full mt-10"
                         ref={gradeContainerRef} >
-                        <StepContainer
+                        <StepSection
                             selectedCourse={selectedGrade}
                         />
                     </div>
