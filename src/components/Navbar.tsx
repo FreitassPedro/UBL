@@ -1,3 +1,4 @@
+import { BookMarked, Home, Map } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -7,25 +8,28 @@ export const Navbar = () => {
                 {/* Logo e Título */}
                 <div className="flex flex-col">
                     <Link to={"/"} className="flex items-center space-x-2">
-                        <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent">
+                        <h1 className="text-4xl font-bold bg-linear-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent">
                             UBL
                         </h1>
                     </Link>
                 </div>
 
                 <nav>
-                    <ul className="flex space-x-4">
-                        <li>
-                            <Link to="/" className="font-medium hover:text-white text-zinc-300/90 duration-300 transition-all">Home</Link>
+                    <ul className="flex space-x-6">
+                        <li className="cursor-pointer text-zinc-400 text-md font-medium hover:border-b hover:text-blue-400 duration-300 transition-all ease-out text-center justify-between flex items-center space-x-1">
+                            <Home size={18} />
+                            <Link to="/">Home</Link>
                         </li>
-                        <li>
-                            <Link to="/grade-curricular" className="font-medium hover:text-white text-zinc-300/90 duration-300 transition-all">Grade Curricular</Link>
+                        <li className="cursor-pointer text-zinc-400 font-medium text-md hover:text-blue-400 duration-300 transition-all text-center justify-between flex items-center space-x-1">
+                            <Map size={18} />
+                            <Link to="/grade-curricular">Grade Curricular</Link>
                         </li>
-                        <li className="border border-zinc-400 px-2 rounded-md bg-zinc-800">
-                            <Link to="/meu-curso" className="font-medium hover:text-white text-zinc-300/90 duration-300 transition-all">Meu Curso</Link>
+                        <li className="cursor-pointer text-zinc-400 text-md font-medium hover:text-blue-400 duration-300 transition-all text-center justify-between flex items-center space-x-1">
+                            <BookMarked size={18} />
+                            <Link to="/meu-curso" >Meu Curso</Link>
                         </li>
-                        <li className="">
-                            <Link to="https://github.com/Universidade-Livre" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-white text-zinc-300 duration-300 transition-all">Github</Link>
+                        <li className="cursor-pointer text-zinc-400 text-md font-medium hover:text-blue-400 duration-300 transition-all text-center justify-between  flex items-center space-x-1">
+                            <Link to="https://github.com/Universidade-Livre" target="_blank" rel="noopener noreferrer">Github</Link>
                         </li>
                     </ul>
                 </nav>
