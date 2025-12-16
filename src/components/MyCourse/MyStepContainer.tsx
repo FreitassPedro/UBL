@@ -12,7 +12,7 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
     const [activeStep, setActiveStep] = useState<number>(grade.etapas[0]?.id || 1);
 
     return (
-        <div className="flex flex-col w-full max-w-5xl mx-auto space-y-8">
+        <div className="flex flex-col w-full space-y-8">
             {/* Header da Seção */}
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">

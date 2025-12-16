@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
+import Footer from "../../components/Footer";
 
 export const HomePage: React.FC = () => {
     return (
         <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
             {/* Background Effects (Grid + Glow) */}
-           <BackgroundGrid />
-           
+            <BackgroundGrid />
+
             {/* HERO SECTION */}
             <main className="relative z-10 max-w-5xl mx-auto px-6 pt-20 pb-32 flex flex-col items-center text-center">
                 {/* Título Principal */}
@@ -63,11 +64,7 @@ export const HomePage: React.FC = () => {
             </section>
 
             {/* Footer Simples */}
-            <footer className="w-full border-t border-zinc-900 py-8 text-center">
-                <p className="text-xs text-zinc-600">
-                    © 2025 Universidade Brasileira Livre.
-                </p>
-            </footer>
+            <Footer />
         </div>
     );
 };

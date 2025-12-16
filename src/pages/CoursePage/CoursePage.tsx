@@ -10,6 +10,7 @@ import { mapCadeiraToMyCadeira } from "../../lib/utils";
 import useTituloDaPagina from "../../components/useTitlePage";
 import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
 import { ChevronRight, HomeIcon } from "lucide-react";
+import Footer from "../../components/Footer";
 
 export default function CoursePage() {
   useTituloDaPagina('Curso');
@@ -94,11 +95,11 @@ export default function CoursePage() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-body text-text-main flex justify-center overflow-hidden font-inter p-4">
-      <div className="w-full my-6 max-w-7xl h-[85vh] grid grid-cols-1 lg:grid-cols-6 gap-6">
-        <main className="flex flex-col p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
+    <div className="min-h-screen bg-bg-body text-text-main overflow-hidden font-inter">
+      <div className="w-full my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6">
 
-          { /* Breadcrumbs */}
+        {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
+        <main className="flex flex-col p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">            { /* Breadcrumbs */}
           <nav aria-label="breadcrumb">
             <ol className="flex items-center space-x-1 text-gray-400 text-sm text-center ">
               <li>
@@ -129,7 +130,8 @@ export default function CoursePage() {
               key={selectedLesson?.id}
               onLoaded={hideLoader} />
           </div>
-          { /* professor infos */}
+
+          { /* Checkbox */}
           <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-bg-card rounded-lg border border-white/20">
             <input
               type="checkbox"
@@ -146,15 +148,18 @@ export default function CoursePage() {
         </main>
 
         { /* sidebar com lista de aulas */}
-        <aside className="flex flex-col gap-3 py-6 pl-6 pr-4 overflow-hidden bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
+        <aside className="flex flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
+
+          {/* Header da sidebar */}
           <div className="flex justify-between items-center">
             <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
             <span className="text-xs text-text-muted px-2 py-1 bg-zinc-600/20 rounded-full border ">{`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
           </div>
 
           {/* Videos List */}
-          <div className="flex flex-col h-full overflow-hidden">
-            <ul className="overflow-y-auto pr-1 [&::-webkit-scrollbar]:w-2
+          <div className="flex flex-col flex-1 overflow-hidden">
+            <ul className="overflow-y-auto pr-1 h-full
+                  [&::-webkit-scrollbar]:w-2
                   [&::-webkit-scrollbar-track]:rounded-full
                   [&::-webkit-scrollbar-track]:bg-gray-100
                   [&::-webkit-scrollbar-thumb]:rounded-full
@@ -163,12 +168,18 @@ export default function CoursePage() {
                   dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
             >
               {myCadeira.lessons.map((lesson) => (
-                <ClassSideBarItem key={lesson.id} lesson={lesson} isSelected={selectedLesson?.id === lesson.id} onSelect={handleSelectLesson} />
+                <ClassSideBarItem
+                  key={lesson.id}
+                  lesson={lesson}
+                  isSelected={selectedLesson?.id === lesson.id}
+                  onSelect={handleSelectLesson} />
               ))}
             </ul>
           </div>
         </aside>
       </div>
+
+      <Footer />
     </div>
   );
 }
