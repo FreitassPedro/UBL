@@ -9,6 +9,8 @@ import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
 import { mapCadeiraToMyCadeira } from "../../lib/utils";
 import useTituloDaPagina from "../../components/useTitlePage";
 import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
+import { ChevronRight, HomeIcon } from "lucide-react";
+import Footer from "../../components/Footer";
 
 export default function CoursePage() {
   useTituloDaPagina('Curso');
@@ -60,18 +62,18 @@ export default function CoursePage() {
     }
 
     return (
-      <li className={`flex items-center cursor-pointer py-2 px-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover my-2 " : ""} `}
+      <li className={`flex items-center gap-2 py-2 my-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover" : ""} `}
         key={lesson.id}
       >
         {/* Marcar como assistida */}
-        <button className={`w-4 h-4 flex items-center mr-2 justify-center rounded-full border ${statusClass} `}
+        <button className={`w-4 h-4 flex items-center mr-2 justify-center rounded-full border cursor-pointer ${statusClass} `}
           onClick={() => toggleCompletion(lesson.id)}
         >
-          <span className="text-xs text-black font-bold">{statusContent}</span>
+          <span className="text-xs text-black font-bold ">{statusContent}</span>
         </button>
         {/* Título e duração da aula */}
         <div onClick={() => handleSelectLesson(lesson)} className="flex-1">
-          <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm block`}>{lesson.title}</span>
+          <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm block cursor-pointer`}>{lesson.title}</span>
           <span className="text-xs text-zinc-800">{lesson.duration}</span>
         </div>
       </li>
@@ -93,19 +95,43 @@ export default function CoursePage() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-body text-text-main flex justify-center overflow-hidden font-inter p-6">
+    <div className="min-h-screen bg-bg-body text-text-main overflow-hidden font-inter">
+      <div className="w-full my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6">
 
-      <div className="w-full my-6 max-w-6xl h-[85vh] grid grid-cols-1 lg:grid-cols-[2.5fr_1fr] gap-6">
-        <main className="flex flex-col p-8 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 overflow-hidden">
-          { /* video player */}
-          <span className="text-sm font-medium text-gray-300">{`Aula > ${myCadeira.id} > ${myCadeira.name}`}</span>
+        {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
+        <main className="flex flex-col p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">            { /* Breadcrumbs */}
+          <nav aria-label="breadcrumb">
+            <ol className="flex items-center space-x-1 text-gray-400 text-sm text-center ">
+              <li>
+                <Link to="/" className="hover:text-gray-200 cursor-pointer"><HomeIcon size={14} /></Link>
+              </li>
+              <ChevronRight size={14} />
+
+              <li>
+                <Link to="/meu-curso" className="hover:text-gray-200 cursor-pointer">
+                  Cadeira
+                </Link>
+              </li>
+              <ChevronRight size={14} />
+              <li>
+                <Link to="/meu-curso" className="hover:text-gray-200 cursor-pointer">{myCadeira.name}</Link>
+              </li>
+              <ChevronRight size={14} />
+              <li>
+                <button className="text-gray-200 font-medium cursor-pointer">{selectedLesson?.title}</button>
+              </li>
+            </ol>
+          </nav>
+
+          { /* Video player */}
           <div className="w-full">
             <VideoPlayer
               videoId={selectedLesson!.url}
               key={selectedLesson?.id}
               onLoaded={hideLoader} />
           </div>
-          { /* professor infos */}
+
+          { /* Checkbox */}
           <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-bg-card rounded-lg border border-white/20">
             <input
               type="checkbox"
@@ -122,14 +148,18 @@ export default function CoursePage() {
         </main>
 
         { /* sidebar com lista de aulas */}
-        <aside className="flex flex-col gap-6 py-6 pl-6 pr-4 overflow-hidden bg-bg-card border border-zinc-800 rounded-xl">
-          <h3 className="text-md">Playlist de Aulas</h3>
+        <aside className="flex flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
 
-          {/* Videos */}
+          {/* Header da sidebar */}
+          <div className="flex justify-between items-center">
+            <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
+            <span className="text-xs text-text-muted px-2 py-1 bg-zinc-600/20 rounded-full border ">{`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
+          </div>
 
-          <div className="flex flex-col h-full overflow-hidden">
-            <span className="text-sm text-text-muted">{`Concluído: ${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
-            <ul className="overflow-y-auto pr-1 [&::-webkit-scrollbar]:w-2
+          {/* Videos List */}
+          <div className="flex flex-col flex-1 overflow-hidden">
+            <ul className="overflow-y-auto pr-1 h-full
+                  [&::-webkit-scrollbar]:w-2
                   [&::-webkit-scrollbar-track]:rounded-full
                   [&::-webkit-scrollbar-track]:bg-gray-100
                   [&::-webkit-scrollbar-thumb]:rounded-full
@@ -138,12 +168,18 @@ export default function CoursePage() {
                   dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
             >
               {myCadeira.lessons.map((lesson) => (
-                <ClassSideBarItem key={lesson.id} lesson={lesson} isSelected={selectedLesson?.id === lesson.id} onSelect={handleSelectLesson} />
+                <ClassSideBarItem
+                  key={lesson.id}
+                  lesson={lesson}
+                  isSelected={selectedLesson?.id === lesson.id}
+                  onSelect={handleSelectLesson} />
               ))}
             </ul>
           </div>
         </aside>
       </div>
+
+      <Footer />
     </div>
   );
 }

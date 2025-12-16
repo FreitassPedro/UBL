@@ -10,7 +10,8 @@ interface StepCardProrps {
 export const StepCard: React.FC<StepCardProrps> = ({ stage, isActive, onToggle }) => {
 
     return (
-        <div key={stage.id} className={`
+        <div key={stage.id} id={`${stage.id}`}
+            className={`
                 relative bg-bg-card rounded-2xl border overflow-hidden border-white/10 hover:border-white/20
                 hover:my-6 duration-500 transition-all ease-in-out
                 hover:bg-zinc-800/80 hover:translate-x-2

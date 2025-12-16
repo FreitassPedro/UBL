@@ -1,7 +1,8 @@
 import React from 'react';
-import { StepContainer } from '../../components/GradeCurricular/StepContainer';
+import { StepSection } from '../../components/GradeCurricular/StepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
+import Footer from '../../components/Footer';
 
 export default function GradeCurricularPage() {
 
@@ -30,26 +31,26 @@ export default function GradeCurricularPage() {
         {
             "curso": "Ciência da Computação",
             "descricao": "Curso de Ciência da Computação da Universidade Brasileira Livre (UBL).",
-            "imgSrc": "https://placehold.co/60x60/31343C/EEE?text=Ciencia+da+Computacao",
+            "imgSrc": "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
             "color": "bg-gradient-to-r from-blue-600 to-green-700"
         },
         {
             "curso": "Matemática",
             "descricao": "Curso de Matemática da Universidade Brasileira Livre (UBL).",
-            "imgSrc": "https://placehold.co/60x60/31343C/EEE?text=Matematica",
+            "imgSrc": "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
             "color": "bg-gradient-to-r from-blue-600 to-purple-500"
         }
     ]
 
     return (
-        <div className='min-h-screen bg-bg-body text-white'>
+        <div className='min-h-screen bg-bg-body text-white px-4'>
             {/* Main */}
-            <main className="max-w-5xl mx-auto flex flex-col items-center py-10 space-y-4">
-                <BackgroundGrid />
+            <BackgroundGrid />
 
+            <main className="relative z-10 max-w-5xl mx-auto flex flex-col items-center py-10 space-y-4">
                 {/* Banner */}
                 <div className="relative h-96 shadow-lg w-full mb-16 rounded-xl overflow-hidden">
-                    <div className="absolute inset-0 z-0 overflow-hidden">
+                    <div className="absolute inset-0 z-1 overflow-hidden w-full h-full">
                         <img
                             src={`https://placehold.co/60x60/31343C/EEE?text=Teste`}
                             alt=""
@@ -58,7 +59,7 @@ export default function GradeCurricularPage() {
                         <div className="absolute inset-0 bg-black opacity-50"></div>
                     </div>
 
-                    <div className="relative h-full flex items-center justify-center px-6">
+                    <div className="h-full z-10 relative flex items-center justify-center px-6">
                         <div className={`max-w-2xl text-center transition-all duration-1000 ease-out `}>
                             <h1 className="text-4xl md:text5xl font-bold text-white leading-tight mb-4">
                                 Nossos Cursos
@@ -71,24 +72,24 @@ export default function GradeCurricularPage() {
                 </div>
 
                 {/* Seção de Seleção de Curso */}
-                <section className='flex flex-col items-center w-full' >
-                    <h2 className='md:text-3xl text-3xl font-semibold text-white text-center mb-6 '>Visualize uma Grade Curricular</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+                <section className='relative flex flex-col items-center' >
+                    <h2 className='md:text-3xl text-2xl font-semibold text-white text-center mb-6'>Visualize uma Grade Curricular</h2>
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
                         {cursos.map((curso, index) => (
                             <div key={index}
-                                className='bg-white/5 rounded-xl shadow-lg overflow-hidden col-span-2 hover:scale-110 transition duration-300 ease-in-out cursor-pointer'
+                                className='bg-bg-card rounded-lg hover:shadow-xl shadow-blue-500 overflow-hidden col-span-2 hover:scale-105 transition duration-300 ease-in-out cursor-pointer group'
                                 onClick={() => handleCourseSelection(index + 1)}
                             >
-                                <div className='h-128 overflow-hidden'>
+                                <div className='h-96 overflow-hidden'>
                                     <img
                                         src={curso.imgSrc}
                                         alt={curso.curso}
                                         className='w-full h-full object-cover'
                                     />
                                 </div>
-                                <div className={`h-1 ${curso.color}`}></div>
+                                <div className={`h-1 ${curso.color} group-hover:animate-pulse`}></div>
                                 <div className='p-8'>
-                                    <h3 className='text-2xl font-bold text-gray-100'>{curso.curso}</h3>
+                                    <h3 className='text-2xl group-hover:text-3xl font-bold text-gray-100 transition-all duration-300'>{curso.curso}</h3>
                                     <p className='text-md text-text-muted'>{curso.descricao}</p>
                                 </div>
                             </div>
@@ -99,9 +100,9 @@ export default function GradeCurricularPage() {
                 {/* Seção de Conteúdo da Grade Curricular */}
                 {selectedGrade && (
                     <div
-                        className="w-full mt-10"
+                        className="w-full mt-12"
                         ref={gradeContainerRef} >
-                        <StepContainer
+                        <StepSection
                             selectedCourse={selectedGrade}
                         />
                     </div>
@@ -109,6 +110,8 @@ export default function GradeCurricularPage() {
                 )}
             </main>
 
+
+            <Footer />
         </div>
     );
 }

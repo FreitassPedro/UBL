@@ -31,7 +31,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
                         </div>
 
                         <div className="flex flex-wrap items-center gap-2">
-                            <div className={`flex items-center gap-1 px-3 py-1 ${subject.prerequisites.length > 0 ? 'from-purple-400/20 to-pink-600/20' : ''} bg-gradient-to-r  rounded-full  border-white/20`}>
+                            <div className={`flex items-center gap-1 px-3 py-1 ${subject.prerequisites.length > 0 ? 'from-purple-400/20 to-pink-600/20' : ''} bg-linear-to-r  rounded-full  border-white/20`}>
                                 <Asterisk className="h-3 w-3 text-yellow-400" />
                                 <span className="text-sm text-gray-200">{subject.prerequisites.length > 0 ? 'Pré-requisitos' : 'Sem pré-requisitos'} </span>
                             </div>

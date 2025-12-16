@@ -4,6 +4,7 @@ import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
 import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
 import useTituloDaPagina from "../../components/useTitlePage.tsx";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid.tsx";
+import Footer from "../../components/Footer.tsx";
 
 
 const MyCourse = () => {
@@ -17,18 +18,16 @@ const MyCourse = () => {
 
 
     return (
-        <div className="min-h-screen bg-bg-body text-white w-full">
-            <div className="container mx-auto px-4 py-8">
-                {/* Main */}
-                <BackgroundGrid />
-
-                <main className="w-full">
-                    {/* Conteúdo Principal contendo cada Etapa */}
-                    <MyStepContainer
-                        grade={sampleData}
-                    />
-                </main >
-            </div>
+        <div className="min-h-screen bg-bg-body text-white">
+            {/* Main */}
+            <BackgroundGrid />
+            <main className="relative max-w-6xl mx-auto z-10 px-4 md:px-6 py-6">
+                {/* Conteúdo Principal contendo cada Etapa */}
+                <MyStepContainer
+                    grade={sampleData}
+                />
+            </main >
+            <Footer />
         </div >
     );
 };
