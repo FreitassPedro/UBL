@@ -1,71 +1,138 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowUp } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
 import Footer from "../../components/Footer";
+import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
+import { CurriculoCC } from "../../data/gradeCurricular";
+import { mapGradeToMyGradeProgress } from "../../lib/utils";
+import type { MyCadeiraProgress } from "../../data/myCourseProgress";
+import { TesteProgress } from "../../components/ui/TesteProgress";
+
+type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
 
 export const HomePage: React.FC = () => {
+    const { completedLessons } = useCourseProgress();
+
+    const watchedCourses = useMemo<WatchedCourse[]>(() => {
+        const mappedGrade = mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
+
+        const allCourses = mappedGrade.etapas.flatMap((etapa) =>
+            etapa.cadeiras.map((cadeira) => ({
+                ...cadeira,
+                etapaName: etapa.name,
+                etapaNumber: etapa.number,
+            }))
+        );
+
+        return allCourses
+            .filter((cadeira) => cadeira.progress > 0 && !cadeira.isCompleted)
+            .sort((a, b) => b.totalCompleted - a.totalCompleted || b.progress - a.progress)
+            .slice(0, 4);
+    }, [completedLessons]);
+
     return (
         <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
             {/* Background Effects (Grid + Glow) */}
             <BackgroundGrid />
 
             {/* HERO SECTION */}
-            <main className="relative z-10 max-w-5xl mx-auto px-6 pt-20 pb-32 flex flex-col items-center text-center">
-                {/* Título Principal */}
-                <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
-                    Universidade Brasileira Livre
-                </h1>
+            <main className="relative z-10 max-w-5xl mx-auto px-6 pt-20 pb-32">
 
-                {/* Subtítulo */}
-                <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10 leading-relaxed font-light">
-                    Uma plataforma sem fins lucrativos de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto. Organize seus estudos, acompanhe métricas e evolua sem distrações visuais.
-                </p>
+                <div className="flex flex-col items-center justify-center text-center mb-32">
+                    {/* Título Principal */}
+                    <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
+                        Universidade Brasileira Livre
+                    </h1>
 
-                {/* Botões de Ação */}
-                <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                    <Link
-                        to="/meu-curso"
-                        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-                    >
-                        <span className="mr-2">Acessar Meu Progresso</span>
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                    </Link>
-
-                    <Link
-                        to="/grade-curricular"
-                        className="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900/50 px-8 font-medium text-zinc-300 hover:bg-zinc-800 transition-colors">
-                        Explorar Grade
-                    </Link>
-                </div>
-            </main>
-
-
-
-            {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
-            <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20">
-                <div className="relative overflow-hidden rounded-3xl bg-bg-card border border-zinc-800 p-8 md:p-12 text-center">
-                    <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full"></div>
-                    <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
-
-                    <h2 className="relative text-3xl font-semibold text-white mb-4">Pronto para continuar?</h2>
-                    <p className="relative text-zinc-400 mb-8 max-w-lg mx-auto">
-                        Você tem cadeiras pendentes na etapa atual. Volte aos estudos agora mesmo.
+                    {/* Subtítulo */}
+                    <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10 leading-relaxed font-light">
+                        Uma plataforma sem fins lucrativos de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto. Organize seus estudos, acompanhe métricas e evolua sem distrações visuais.
                     </p>
 
-                    <Link
-                        to="/meu-curso"
-                        className="relative inline-flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-6 text-sm font-semibold text-zinc-900 hover:bg-white transition-colors"
-                    >
-                        Ir para meu Dashboard
-                    </Link>
-                </div>
-            </section>
+                    {/* Botões de Ação */}
+                    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <Link
+                            to="/meu-curso"
+                            className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
+                        >
+                            <span className="mr-2">Acessar Meu Progresso</span>
+                            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                            <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                        </Link>
 
-            {/* Footer Simples */}
+                        <Link
+                            to="/grade-curricular"
+                            className="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900/50 px-8 font-medium text-zinc-300 hover:bg-zinc-800 transition-colors">
+                            Explorar Grade
+                        </Link>
+                    </div>
+                </div>
+
+                {/* Back to courses */}
+                <section className="">
+                    <div className="flex items-center justify-between mb-8">
+                        <div className="">
+                            <h2 className="text-4xl font-white font-semibold">Continue onde parou</h2>
+                            <span className="text-zinc-400 mt-2">Retome rapidamente os cursos em andamento.</span>
+                        </div>
+                        <div className="flex gap-4">
+                            <div>
+                                <button>Etapas</button>
+                            </div>
+                            <button>Progresso</button>
+                        </div>
+                    </div>
+
+                    {watchedCourses.length !== 0 && (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                            {watchedCourses.map((course) => (
+                                <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
+                                    <span className="font-semibold text-gray-400 mb-4">Etapa 999</span>
+                                    <h3 className="text-xl text-white font-semibold">{course.name}</h3>
+
+                                    <div className="my-4 space-y-1">
+                                        <div className="flex items-center justify-between text-gray-400 text-sm">
+                                            <span>Progresso</span>
+                                            <span>{course.progress}%</span>
+                                        </div>
+                                        <TesteProgress value={course.progress} />
+                                    </div>
+                                    <div className="mt-6 w-full flex">
+                                        <Link to={""}
+                                            className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors">
+                                            Retomar
+                                        </Link>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </section>
+
+                {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
+                <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20 mt-10">
+                    <div className="relative overflow-hidden rounded-3xl bg-bg-card border border-zinc-800 p-8 md:p-12 text-center">
+                        <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full"></div>
+                        <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
+
+                        <h2 className="relative text-3xl font-semibold text-white mb-4">Pronto para continuar?</h2>
+                        <p className="relative text-zinc-400 mb-8 max-w-lg mx-auto">
+                            Você tem cadeiras pendentes na etapa atual. Volte aos estudos agora mesmo.
+                        </p>
+
+                        <Link
+                            to="/meu-curso"
+                            className="relative inline-flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-6 text-sm font-semibold text-zinc-900 hover:bg-white transition-colors"
+                        >
+                            Ir para meu Dashboard
+                        </Link>
+                    </div>
+                </section>
+            </main>
+
             <Footer />
-        </div>
+        </div >
     );
 };
 
