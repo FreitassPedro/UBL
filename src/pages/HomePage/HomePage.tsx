@@ -1,6 +1,6 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowUp, ChevronDown, ChevronUp } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
 import Footer from "../../components/Footer";
 import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
@@ -13,6 +13,9 @@ type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: numbe
 
 const sortOptions = ["etapas", "progresso"];
 
+
+
+
 export const HomePage: React.FC = () => {
     const { completedLessons } = useCourseProgress();
 
@@ -21,19 +24,27 @@ export const HomePage: React.FC = () => {
     const watchedCourses = useMemo<WatchedCourse[]>(() => {
         const mappedGrade = mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
 
-        const allCourses = mappedGrade.etapas.flatMap((etapa) =>
-            etapa.cadeiras.map((cadeira) => ({
-                ...cadeira,
-                etapaName: etapa.name,
-                etapaNumber: etapa.number,
-            }))
+        const filtered = mappedGrade.etapas.flatMap((etapa) =>
+            etapa.cadeiras
+                .filter((cadeira) => cadeira.progress > 0)
+                .map((cadeira) => ({
+                    ...cadeira,
+                    etapaName: etapa.name,
+                    etapaNumber: etapa.number,
+                }))
         );
 
-        return allCourses
-            .filter((cadeira) => cadeira.progress > 0 && !cadeira.isCompleted)
-            .sort((a, b) => b.totalCompleted - a.totalCompleted || b.progress - a.progress)
-            .slice(0, 4);
-    }, [completedLessons]);
+
+
+        return filtered.sort((a, b) => {
+            if (sortBy === "etapas") {
+                return a.etapaNumber - b.etapaNumber;
+            } else if (sortBy === "progresso") {
+                return b.progress - a.progress;
+            }
+            return 0;
+        });
+    }, [completedLessons, sortBy]);
 
     return (
         <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
@@ -92,7 +103,7 @@ export const HomePage: React.FC = () => {
                                     `}
                                 >
                                     <span>{option.charAt(0).toUpperCase() + option.slice(1)}</span>
-                                    {sortBy === option ? <ChevronDown className="ml-1 w-4 h-4" /> : '' }
+                                    {sortBy === option ? <ChevronDown className="ml-1 w-4 h-4" /> : ''}
                                 </div>
                             ))}
 
@@ -103,7 +114,7 @@ export const HomePage: React.FC = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                             {watchedCourses.map((course) => (
                                 <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
-                                    <span className="font-semibold text-gray-400 mb-4">Etapa 999</span>
+                                    <span className="font-semibold text-gray-400 mb-4">Etapa {course.etapaNumber}</span>
                                     <h3 className="text-xl text-white font-semibold">{course.name}</h3>
 
                                     <div className="my-4 space-y-1">
