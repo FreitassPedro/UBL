@@ -1,6 +1,6 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowUp } from "lucide-react";
+import { ArrowRight, ArrowUp, ChevronDown, ChevronUp } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
 import Footer from "../../components/Footer";
 import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
@@ -11,8 +11,12 @@ import { TesteProgress } from "../../components/ui/TesteProgress";
 
 type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
 
+const sortOptions = ["etapas", "progresso"];
+
 export const HomePage: React.FC = () => {
     const { completedLessons } = useCourseProgress();
+
+    const [sortBy, setSortBy] = useState("etapas");
 
     const watchedCourses = useMemo<WatchedCourse[]>(() => {
         const mappedGrade = mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
@@ -76,11 +80,22 @@ export const HomePage: React.FC = () => {
                             <h2 className="text-4xl font-white font-semibold">Continue onde parou</h2>
                             <span className="text-zinc-400 mt-2">Retome rapidamente os cursos em andamento.</span>
                         </div>
-                        <div className="flex gap-4">
-                            <div>
-                                <button>Etapas</button>
-                            </div>
-                            <button>Progresso</button>
+
+                        <div className="space-x-2">
+                            {sortOptions.map((option) => (
+                                <div
+                                    key={option}
+                                    onClick={() => setSortBy(option)}
+                                    className={`px-3 py-2 select-none text-gray-800 rounded-lg cursor-pointer font-semibold text-md inline-flex items-center justify-center
+                                    transition duration-200 
+                                    ${sortBy === option ? 'bg-ubl-green' : 'bg-zinc-100 font-normal hover:bg-gray-200'}
+                                    `}
+                                >
+                                    <span>{option.charAt(0).toUpperCase() + option.slice(1)}</span>
+                                    {sortBy === option ? <ChevronDown className="ml-1 w-4 h-4" /> : '' }
+                                </div>
+                            ))}
+
                         </div>
                     </div>
 
