@@ -1,24 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { type Grade } from "../../data/gradeCurricular";
-import { StepCard } from "./StepCard";
+import { StepCardItem } from "./StepCardItem";
 import { GraduationCap } from "lucide-react";
 
 interface StepContainerProps {
     selectedCourse: Grade;
 }
 
-export const StepSection: React.FC<StepContainerProps> = ({ selectedCourse }) => {
-    const [activedStageId, setActivedStageId] = useState<number | null>(null);
+export const StepSectionByCadeira: React.FC<StepContainerProps> = ({ selectedCourse }) => {
+
+    const sectionRef = React.useRef<HTMLElement>(null);
 
     useEffect(() => {
-        const element = document.getElementById(`${activedStageId}`);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (sectionRef.current) {
+            sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-    }, [activedStageId]);
+
+    }, [selectedCourse]);
 
     return (
-        <section>
+        <section className="w-full mt-10" ref={sectionRef} >
             <div className="flex items-center justify-between gap-4 mb-4">
                 <div className="flex items-center gap-4">
                     <GraduationCap className="w-14 h-14" />
@@ -29,13 +30,10 @@ export const StepSection: React.FC<StepContainerProps> = ({ selectedCourse }) =>
             {/* Etapas (Stages) */}
             <ul className="space-y-4">
                 {selectedCourse.etapas.map((stage) => {
-                    const isActive = activedStageId === stage.id;
                     return (
-                        <StepCard
+                        <StepCardItem
                             key={stage.id}
                             stage={stage}
-                            isActive={isActive}
-                            onToggle={() => setActivedStageId(isActive ? null : stage.id)}
                         />
                     );
                 })}

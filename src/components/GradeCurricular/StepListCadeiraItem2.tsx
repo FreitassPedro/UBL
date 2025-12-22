@@ -11,29 +11,31 @@ interface SubjectCardProps {
     };
     index: number;
 }
-export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
+export const StepListCadeiraItem2: React.FC<SubjectCardProps> = ({ subject, index }) => {
     const [showBooks, setShowBooks] = useState(false);
 
+    const getColorBackground = () => {
+        return index % 2 === 0 ? 'bg-zinc-800' : 'bg-zinc-800/60';
+    }
+
     return (
-        <li className="relative group"
-        >
-            {/* Main Card */}
-            < div key={index} className="relative bg-gray-800 border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl" >
+        <li key={index} className="relative group">
+            <div className={`relative ${getColorBackground()} border border-white/10 hover:border-white/20 px-3 py-2 transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl`} >
                 {/* Content Container */}
-                <div className="flex justify-between items-start" >
+                <div className="flex justify-between" >
                     <div className="flex-1">
                         {/* Subject Header */}
-                        <div className="flex items-center gap-3 mb-3">
-                            <div className="w-3 h-3 bg-linear-to-r from-blue-400 to-green-400 rounded-full animate-pulse"></div>
+                        <div className="flex items-center gap-3">
+                            { /* Animated Pulse Dot */}
+                            <div className="w-3 h-3 bg-linear-to-r from-ubl-blue to-ubl-green rounded-full animate-pulse" />
                             <h3 className="font-semibold text-xl text-text-main">
                                 {subject.name}
                             </h3>
                         </div>
-
-                        <div className="flex flex-wrap items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2 mt-2">
                             <div className={`flex items-center gap-1 px-3 py-1 ${subject.prerequisites.length > 0 ? 'from-purple-400/20 to-pink-600/20' : ''} bg-linear-to-r  rounded-full  border-white/20`}>
                                 <Asterisk className="h-3 w-3 text-yellow-400" />
-                                <span className="text-sm text-gray-200">{subject.prerequisites.length > 0 ? 'Pré-requisitos' : 'Sem pré-requisitos'} </span>
+                                <span className="text-xs text-gray-200">{subject.prerequisites.length > 0 ? 'Pré-requisitos' : 'Sem pré-requisitos'} </span>
                             </div>
                             {subject.prerequisites.length > 0 && (
                                 <ul className="flex flex-wrap gap-2" >
@@ -47,7 +49,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, index }) => {
                         </div>
                     </div>
 
-                    {/* Action Button */}
+                    {/* Show Books Button */}
                     <Button
                         variant="outline"
                         size="sm"

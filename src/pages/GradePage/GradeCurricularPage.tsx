@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepSection } from '../../components/GradeCurricular/StepSection';
+import { StepSectionByCadeira } from '../../components/GradeCurricular/StepSectionByCadeira';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
 import Footer from '../../components/Footer';
@@ -7,8 +7,6 @@ import Footer from '../../components/Footer';
 export default function GradeCurricularPage() {
 
     const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);
-
-    const gradeContainerRef = React.useRef<HTMLDivElement>(null);
 
     const handleCourseSelection = (index: number) => {
         console.log(`Curso selecionado: ${index}`);
@@ -19,11 +17,6 @@ export default function GradeCurricularPage() {
             setSelectedGrade(CurriculoMatematica);
         }
 
-        setTimeout(() => {
-            if (gradeContainerRef.current) {
-                gradeContainerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        }, 100);
 
     }
 
@@ -99,14 +92,9 @@ export default function GradeCurricularPage() {
 
                 {/* Seção de Conteúdo da Grade Curricular */}
                 {selectedGrade && (
-                    <div
-                        className="w-full mt-12"
-                        ref={gradeContainerRef} >
-                        <StepSection
-                            selectedCourse={selectedGrade}
-                        />
-                    </div>
-
+                    <StepSectionByCadeira
+                        selectedCourse={selectedGrade}
+                    />
                 )}
             </main>
 
