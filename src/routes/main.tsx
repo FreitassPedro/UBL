@@ -10,6 +10,7 @@ import { Navbar } from '../components/Navbar.tsx'
 import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import { LoadingProvider } from '../contexts/LoadingContext/LoadingProvider.tsx'
 import TestePage from '../pages/Testepage/TestePage.tsx'
+import TesteNodeCourse from '../pages/Testepage/TesteNodeCourse.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -24,6 +25,8 @@ createRoot(document.getElementById('root')!).render(
             <Route path='/meu-curso' element={<MyCourse />} />
             <Route path='/grade-curricular' element={<GradeCurricularPage />} />
             <Route path='/teste' element={<TestePage />} />
+
+            <Route path='/teste/node' element={<TesteNodeCourse />} />
           </Routes>
 
         </CourseProgressProvider>
