@@ -6,18 +6,19 @@ import CustomNode from '../../components/CurriculoNode/CustomNode';
 import { data } from 'react-router-dom';
 
 interface customNode extends Node {
-
     data: {
         name: string;
         preReq: string[];
         etapa: number;
+        isSelected?: boolean;
+        isClicked?: boolean;
+        hasActiveSelection?: boolean;
     };
     position: {
         x: number;
         y: number;
     };
 }
-
 
 
 const nodeTypes = {
@@ -36,7 +37,7 @@ const generateFlow = () => {
                     id: nodeId,
                     type: 'customNode',
                     data: { name: cadeira.name, preReq: cadeira.prerequisites, etapa: etapa.number },
-                    position: { x: etapa.number * 250, y: 200 * cadeiraIndex },
+                    position: { x: etapa.number * 250 + cadeiraIndex * 10, y: 200 * cadeiraIndex },
                 });
         });
     });
@@ -54,6 +55,7 @@ const generateFlow = () => {
                         type: 'smoothstep',
                         markerEnd: MarkerType.ArrowClosed,
                         animated: false,
+                        style: { strokeWidth: 0.4 },
                     });
                 })
             }
@@ -73,6 +75,19 @@ const TesteNodeCourse = () => {
     const onNodeClick = (event: React.MouseEvent, selectedNode: customNode) => {
         console.log('Node clicked:', selectedNode);
         if (!selectedNode) return;
+
+        const connectedNodesId = new Set<string>();
+        edges.forEach((edge) => {
+            if (edge.source === selectedNode.id) {
+                connectedNodesId.add(edge.target);
+            } else if (edge.target === selectedNode.id) {
+                connectedNodesId.add(edge.source);
+            }
+        });
+
+        console.log('Connected nodes to highlight:', Array.from(connectedNodesId));
+
+
         setEdges((eds) =>
             eds.map((edge) => {
                 const isConnected = edge.source === selectedNode.id || edge.target === selectedNode.id;
@@ -80,10 +95,24 @@ const TesteNodeCourse = () => {
                     ...edge,
                     animated: isConnected,
                     style: {
-                        stroke: isConnected ? '#FF5733' : '#222222',
-                        strokeWidth: isConnected ? 2 : 0.3
-                    },
+                        stroke: isConnected ? '#FF5733' : '',
+                        strokeWidth: isConnected ? 3 : 0.4,
+                    }
                 }
+            })
+        );
+
+        setNodes((nds) =>
+            nds.map((node) => {
+                return {
+                    ...node,
+                    data: {
+                        ...node.data,
+                        isClicked: node.id === selectedNode.id,
+                        isSelected: connectedNodesId.has(node.id),
+                        hasActiveSelection: true,
+                    }
+                };
             })
         );
     };
@@ -93,7 +122,19 @@ const TesteNodeCourse = () => {
             eds.map((edge) => ({
                 ...edge,
                 animated: false,
-                style: { stroke: '#222222', strokeWidth: 0.3 },
+                style: { strokeWidth: 0.4, stroke: '' },
+            }))
+        );
+
+        setNodes((nds) =>
+            nds.map((node) => ({
+                ...node,
+                data: {
+                    ...node.data,
+                    isSelected: false,
+                    isClicked: false,
+                    hasActiveSelection: false,
+                }
             }))
         );
     };
