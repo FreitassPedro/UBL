@@ -3,7 +3,6 @@ import React from 'react';
 import '@xyflow/react/dist/style.css';
 import { CurriculoCC } from '../../data/gradeCurricular';
 import CustomNode from '../../components/CurriculoNode/CustomNode';
-import { data } from 'react-router-dom';
 
 interface customNode extends Node {
     data: {
@@ -29,7 +28,7 @@ const generateFlow = () => {
     const nodes: customNode[] = [];
     const edges: Edge[] = [];
 
-    CurriculoCC.etapas.forEach((etapa, etapaIndex) => {
+    CurriculoCC.etapas.forEach((etapa) => {
         etapa.cadeiras.forEach((cadeira, cadeiraIndex) => {
             const nodeId = cadeira.name;
             nodes.push(
@@ -72,7 +71,7 @@ const TesteNodeCourse = () => {
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
     const [edges, setEdges] = useEdgesState(initialEdges);
 
-    const onNodeClick = (event: React.MouseEvent, selectedNode: customNode) => {
+    const onNodeClick = (_event: React.MouseEvent, selectedNode: customNode) => {
         console.log('Node clicked:', selectedNode);
         if (!selectedNode) return;
 
