@@ -1,7 +1,6 @@
 import React from 'react';
 import { CurriculumStepSection } from '../../components/GradeCurricular/CurriculumStepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
-import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
 
 export default function GradeCurricularPage() {
 
@@ -11,12 +10,9 @@ export default function GradeCurricularPage() {
         console.log(`Curso selecionado: ${index}`);
         if (index === 1) {
             setSelectedGrade(CurriculoCC);
-        }
-        else {
+        } else {
             setSelectedGrade(CurriculoMatematica);
         }
-
-
     }
 
     const cursos = [
@@ -35,13 +31,10 @@ export default function GradeCurricularPage() {
     ]
 
     return (
-        <div className='min-h-screen bg-bg-body text-white px-4'>
-            {/* Main */}
-            <BackgroundGrid />
-
-            <main className="relative z-10 max-w-5xl mx-auto flex flex-col items-center py-10 space-y-4">
+        <div className='min-h-screen bg-bg-body text-white'>
+            <main className="relative z-10 flex flex-col items-center space-y-4">
                 {/* Banner */}
-                <div className="relative h-96 shadow-lg w-full mb-16 rounded-xl overflow-hidden">
+                <div className="relative h-96 shadow-lg w-full mb-16 overflow-hidden">
                     <div className="absolute inset-0 z-1 overflow-hidden w-full h-full">
                         <img
                             src={`https://placehold.co/60x60/31343C/EEE?text=Teste`}
@@ -64,12 +57,16 @@ export default function GradeCurricularPage() {
                 </div>
 
                 {/* Seção de Seleção de Curso */}
-                <section className='relative flex flex-col items-center' >
-                    <h2 className='md:text-3xl text-2xl font-semibold text-white text-center mb-6'>Visualize uma Grade Curricular</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
+                <section className='relative flex flex-col items-center bg-zinc-900 rounded-xl p-10 border border-zinc-800' >
+                    <div>
+                        <h2 className='md:text-3xl text-2xl font-bold text-white text-center '>Catálogo de Cursos</h2>
+                        <span className='text-gray-400 text-md font-semibold'>Escolha um curso para explorar sua grade curricular detalhada.</span>
+                    </div>
+                    <div className='absolute inset-0 bg-linear-to-b from-emerald-800/10 via-transparent to-transparent opacity-50 pointer-events-none'></div>
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-10 mt-10'>
                         {cursos.map((curso, index) => (
                             <div key={index}
-                                className='bg-bg-card rounded-lg hover:shadow-xl shadow-blue-500 overflow-hidden col-span-2 hover:scale-105 transition duration-300 ease-in-out cursor-pointer group'
+                                className='bg-zinc-950/80 rounded-lg hover:shadow-xl shadow-blue-500 overflow-hidden col-span-2 hover:scale-105 transition duration-300 ease-in-out cursor-pointer group'
                                 onClick={() => handleCourseSelection(index + 1)}
                             >
                                 <div className='h-96 overflow-hidden'>

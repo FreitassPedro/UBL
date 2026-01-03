@@ -66,20 +66,20 @@ export const HomePage: React.FC = () => {
                                 Uma plataforma <span className="font-serif">sem fins lucrativos (Gratis)</span> de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.
                             </p>
                             <p className="text-xl font-semibold text-blue-200">
-                                <span className="text-blue-400">Planeje</span>,
-                                <span className="text-blue-400"> acompanhe </span> e
-                                <span className="text-blue-400"> aprenda</span>.
+                                <span className="text-blue-400 text-2xl">Planeje</span>,
+                                <span className="text-blue-400 text-2xl"> acompanhe </span> e
+                                <span className="text-blue-400 text-2xl"> aprenda</span>.
                             </p>
                         </div>
                         {/* Botões de Ação */}
                         <Link to="/grade-curricular"
                             className="bg-ubl-green text-4xl font-extralight text-white rounded-xl px-6 py-3 my-4 shadow-lg shadow-b shadow-black/50 items-center justify-center inline-flex hover:scale-105 transition-transform">
                             <span>Começar a estudar</span>
-                            <ArrowRight className="w-8 h-8 ml-2" />
+                            <ArrowRight className="w-8 h-8 ml-2 mt-2" />
                         </Link>
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                             <Link
-                                to="/meu-curso"
+                                to="/grade-curricular"
                                 className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
                             >
                                 <span className="mr-2">Explorar Grade</span>
@@ -127,7 +127,6 @@ export const HomePage: React.FC = () => {
                                     <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
                                         <span className="font-semibold text-gray-400 mb-4">Etapa {course.etapaNumber}</span>
                                         <h3 className="text-xl text-white font-semibold">{course.name}</h3>
-
                                         <div className="my-4 space-y-1">
                                             <div className="flex items-center justify-between text-gray-400 text-sm">
                                                 <span>Progresso</span>
