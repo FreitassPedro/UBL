@@ -7,7 +7,7 @@ interface TesteProgressProps {
 }
 
 // Componente antigo de progresso NextJS não funciona bem
-export function TesteProgress({ value, color, height }: TesteProgressProps) {
+export function ProgressBar({ value, color, height }: TesteProgressProps) {
 
   return (
     <div className={`w-full bg-gray-300 rounded-full overflow-hidden ${height ? height : 'h-2'}`}>

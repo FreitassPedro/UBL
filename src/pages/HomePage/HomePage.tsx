@@ -6,7 +6,7 @@ import { useCourseProgress } from "../../contexts/CourseProgressContext/CoursePr
 import { CurriculoCC } from "../../data/gradeCurricular";
 import { mapGradeToMyGradeProgress } from "../../lib/utils";
 import type { MyCadeiraProgress } from "../../data/myCourseProgress";
-import { TesteProgress } from "../../components/ui/TesteProgress";
+import { ProgressBar } from "../../components/ui/ProgressBar";
 
 type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
 
@@ -118,7 +118,7 @@ export const HomePage: React.FC = () => {
                                                 <span>Progresso</span>
                                                 <span>{course.progress}%</span>
                                             </div>
-                                            <TesteProgress value={course.progress} />
+                                            <ProgressBar value={course.progress} />
                                         </div>
                                         <div className="mt-6 w-full flex">
                                             <Link to={""}

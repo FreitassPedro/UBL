@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ProgressBar } from "../ui/TesteProgress";
+import { ProgressBar } from "../ui/ProgressBar";
 import type { MyEtapaProgress } from "../../data/myCourseProgress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
 

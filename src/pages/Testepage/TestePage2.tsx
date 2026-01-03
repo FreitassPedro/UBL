@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TesteProgress } from "../../components/ui/TesteProgress";
+import { ProgressBar } from "../../components/ui/ProgressBar";
 import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
 import { mapGradeToMyGradeProgress } from "../../lib/utils";
 import { CurriculoCC } from "../../data/gradeCurricular";
@@ -61,7 +61,7 @@ const TestePage2 = () => {
                   <span>Progresso</span>
                   <span>{course.progress}%</span>
                 </div>
-                <TesteProgress value={course.progress} />
+                <ProgressBar value={course.progress} />
               </div>
               <div className="mt-6 w-full flex">
                 <Link to={""}
@@ -130,7 +130,7 @@ const TestePage2 = () => {
                     <span>{course.progress}%</span>
                   </div>
                   <div className="h-2 w-full rounded-full bg-zinc-900 overflow-hidden">
-                    <TesteProgress value={course.progress} />
+                    <ProgressBar value={course.progress} />
                   </div>
                 </div>
 

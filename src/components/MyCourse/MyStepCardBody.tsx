@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TesteProgress } from "../ui/TesteProgress";
+import { ProgressBar } from "../ui/ProgressBar";
 import type { MyEtapaProgress } from "../../data/myCourseProgress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
 
@@ -91,7 +91,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                     {cadeira.progress > 0 && (
                                     <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                                         <div className="h-full w-full">
-                                            <TesteProgress value={cadeira.progress} />
+                                            <ProgressBar value={cadeira.progress} />
                                         </div>
                                     </div>
                                     )}
