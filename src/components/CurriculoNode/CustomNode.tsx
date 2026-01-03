@@ -35,7 +35,7 @@ const getEtapaColor = (etapa: number) => {
 const CustomNode = ({ data }: CustomNodeProps) => {
     const isClicked = data.isClicked;
     const isDark = data.isSelected || isClicked;
-    const background = isClicked ? 'bg-gray-800' : data.isSelected ? 'bg-gray-600' : getEtapaColor(data.etapa);
+    const background = isClicked ? 'bg-gray-800' : data.isSelected ? 'bg-gray-700' : getEtapaColor(data.etapa);
     const textColor = isDark ? 'text-white' : 'text-black';
     const subTextColor = isDark ? 'text-gray-300' : 'text-gray-600';
 

@@ -36,7 +36,7 @@ const generateFlow = () => {
                     id: nodeId,
                     type: 'customNode',
                     data: { name: cadeira.name, preReq: cadeira.prerequisites, etapa: etapa.number },
-                    position: { x: etapa.number * 250 + cadeiraIndex * 10, y: 200 * cadeiraIndex },
+                    position: { x: (etapa.number - 1) * 250 + cadeiraIndex * 10, y: 200 * cadeiraIndex },
                 });
         });
     });
@@ -70,6 +70,12 @@ const initialEdges = generateFlow().initialEdges;
 const TesteNodeCourse = () => {
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
     const [edges, setEdges] = useEdgesState(initialEdges);
+
+    const fitViewOptions = {
+        padding: 0.2,
+        maxZoom: 0.8,
+        minZoom: 0.5,
+    };
 
     const onNodeClick = (_event: React.MouseEvent, selectedNode: customNode) => {
         console.log('Node clicked:', selectedNode);
@@ -147,7 +153,11 @@ const TesteNodeCourse = () => {
                 onNodeClick={onNodeClick}
                 onPaneClick={onPaneClick}
                 nodeTypes={nodeTypes}
+                minZoom={0.2}
+                maxZoom={1}
                 fitView
+                fitViewOptions={fitViewOptions}
+
             >
                 <Background />
             </ReactFlow>

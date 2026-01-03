@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepSectionByCadeira } from '../../components/GradeCurricular/StepSectionByCadeira';
+import { CurriculumStepSection } from '../../components/GradeCurricular/CurriculumStepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
 import Footer from '../../components/Footer';
@@ -92,7 +92,7 @@ export default function GradeCurricularPage() {
 
                 {/* Seção de Conteúdo da Grade Curricular */}
                 {selectedGrade && (
-                    <StepSectionByCadeira
+                    <CurriculumStepSection
                         selectedCourse={selectedGrade}
                     />
                 )}
