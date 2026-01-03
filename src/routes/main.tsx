@@ -28,9 +28,8 @@ createRoot(document.getElementById('root')!).render(
             </Route>
 
             {/* Teste Routes */}
-            <Route element={<></>}>
+            <Route>
               <Route path='/teste' element={<TestePage />} />
-
               <Route path='/teste/node' element={<TesteNodeCourse />} />
             </Route>
           </Routes>
