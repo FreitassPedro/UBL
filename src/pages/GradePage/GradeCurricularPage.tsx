@@ -2,7 +2,6 @@ import React from 'react';
 import { CurriculumStepSection } from '../../components/GradeCurricular/CurriculumStepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 import { BackgroundGrid } from '../../components/ui/BackgroundGrid';
-import Footer from '../../components/Footer';
 
 export default function GradeCurricularPage() {
 
@@ -97,9 +96,6 @@ export default function GradeCurricularPage() {
                     />
                 )}
             </main>
-
-
-            <Footer />
         </div>
     );
 }

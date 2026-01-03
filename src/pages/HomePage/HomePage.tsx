@@ -2,7 +2,6 @@ import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
-import Footer from "../../components/Footer";
 import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "../../data/gradeCurricular";
 import { mapGradeToMyGradeProgress } from "../../lib/utils";
@@ -12,9 +11,6 @@ import { TesteProgress } from "../../components/ui/TesteProgress";
 type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
 
 const sortOptions = ["etapas", "progresso"];
-
-
-
 
 export const HomePage: React.FC = () => {
     const { completedLessons } = useCourseProgress();
@@ -156,8 +152,6 @@ export const HomePage: React.FC = () => {
                     </div>
                 </section>
             </main>
-
-            <Footer />
         </div >
     );
 };

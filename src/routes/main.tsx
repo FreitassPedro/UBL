@@ -6,29 +6,34 @@ import HomePage from '../pages/HomePage/HomePage.tsx'
 import { CourseProgressProvider } from '../contexts/CourseProgressContext/CourseProgressContext.tsx'
 import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
-import { Navbar } from '../components/Navbar.tsx'
 import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import { LoadingProvider } from '../contexts/LoadingContext/LoadingProvider.tsx'
 import TestePage from '../pages/Testepage/TestePage.tsx'
 import TesteNodeCourse from '../pages/Testepage/TesteNodeCourse.tsx'
+import { MainLayout } from './MainLayout.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <Navbar />
       <LoadingProvider>
         <CourseProgressProvider>
 
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/curso/:id" element={<CoursePage />} />
-            <Route path='/meu-curso' element={<MyCourse />} />
-            <Route path='/grade-curricular' element={<GradeCurricularPage />} />
-            <Route path='/teste' element={<TestePage />} />
+          <Routes >
+            {/* Main Routes */}
+            <Route element={<MainLayout />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/curso/:id" element={<CoursePage />} />
+              <Route path='/meu-curso' element={<MyCourse />} />
+              <Route path='/grade-curricular' element={<GradeCurricularPage />} />
+            </Route>
 
-            <Route path='/teste/node' element={<TesteNodeCourse />} />
+            {/* Teste Routes */}
+            <Route element={<></>}>
+              <Route path='/teste' element={<TestePage />} />
+
+              <Route path='/teste/node' element={<TesteNodeCourse />} />
+            </Route>
           </Routes>
-
         </CourseProgressProvider>
       </LoadingProvider>
     </BrowserRouter>

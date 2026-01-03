@@ -10,7 +10,6 @@ import { mapCadeiraToMyCadeira } from "../../lib/utils";
 import useTituloDaPagina from "../../components/useTitlePage";
 import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
 import { ChevronRight, HomeIcon } from "lucide-react";
-import Footer from "../../components/Footer";
 
 export default function CoursePage() {
   useTituloDaPagina('Curso');
@@ -179,8 +178,6 @@ export default function CoursePage() {
           </div>
         </aside>
       </div>
-
-      <Footer />
     </div>
   );
 }
