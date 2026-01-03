@@ -8,7 +8,7 @@ import CoursePage from '../pages/CoursePage/CoursePage.tsx'
 import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import { LoadingProvider } from '../contexts/LoadingContext/LoadingProvider.tsx'
-import TestePage from '../pages/Testepage/TestePage.tsx'
+import TestePage from '../pages/Testepage/TestePage1.tsx'
 import TesteNodeCourse from '../pages/Testepage/TesteNodeCourse.tsx'
 import { MainLayout } from './MainLayout.tsx'
 

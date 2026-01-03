@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
-        <header className="sticky top-0 left-0 z-50 py-2 bg-gray-950 shadow-xl border-b border-gray-700 ">
+        <header className="sticky top-0 left-0 z-50 py-2  bg-gray-950 shadow-xl border-b border-gray-700 ">
             <div className="flex justify-between max-w-7xl mx-auto px-6 py items-center">
                 {/* Logo e Título */}
                 <div className="flex flex-col">

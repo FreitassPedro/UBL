@@ -48,8 +48,7 @@ export const HomePage: React.FC = () => {
             <BackgroundGrid />
 
             {/* HERO SECTION */}
-            <main className="relative z-10 max-w-5xl mx-auto px-6 pt-20 pb-32">
-
+            <main className="relative z-10 mx-auto pt-20 pb-32">
                 <div className="flex flex-col items-center justify-center text-center mb-32">
                     {/* Título Principal */}
                     <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
@@ -81,8 +80,8 @@ export const HomePage: React.FC = () => {
                 </div>
 
                 {/* Back to courses */}
-                <section className="">
-                    <div className="flex items-center justify-between mb-8">
+                <section className="bg-bg-body  px-8 py-2 pb-8 mb-16">
+                    <div className="mx-auto container py-8 border-emerald-500/50 flex items-center justify-between mb-8">
                         <div className="">
                             <h2 className="text-4xl font-white font-semibold">Continue onde parou</h2>
                             <span className="text-zinc-400 mt-2">Retome rapidamente os cursos em andamento.</span>
@@ -93,7 +92,7 @@ export const HomePage: React.FC = () => {
                                 <div
                                     key={option}
                                     onClick={() => setSortBy(option)}
-                                    className={`px-3 py-2 select-none text-gray-800 rounded-lg cursor-pointer font-semibold text-md inline-flex items-center justify-center
+                                    className={`px-3 py-2 select-none text-black rounded-lg cursor-pointer font-semibold text-md inline-flex items-center justify-center
                                     transition duration-200 
                                     ${sortBy === option ? 'bg-ubl-green' : 'bg-zinc-100 font-normal hover:bg-gray-200'}
                                     `}
@@ -107,27 +106,29 @@ export const HomePage: React.FC = () => {
                     </div>
 
                     {watchedCourses.length !== 0 && (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {watchedCourses.map((course) => (
-                                <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
-                                    <span className="font-semibold text-gray-400 mb-4">Etapa {course.etapaNumber}</span>
-                                    <h3 className="text-xl text-white font-semibold">{course.name}</h3>
+                        <div className="mx-auto container">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                                {watchedCourses.map((course) => (
+                                    <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
+                                        <span className="font-semibold text-gray-400 mb-4">Etapa {course.etapaNumber}</span>
+                                        <h3 className="text-xl text-white font-semibold">{course.name}</h3>
 
-                                    <div className="my-4 space-y-1">
-                                        <div className="flex items-center justify-between text-gray-400 text-sm">
-                                            <span>Progresso</span>
-                                            <span>{course.progress}%</span>
+                                        <div className="my-4 space-y-1">
+                                            <div className="flex items-center justify-between text-gray-400 text-sm">
+                                                <span>Progresso</span>
+                                                <span>{course.progress}%</span>
+                                            </div>
+                                            <TesteProgress value={course.progress} />
                                         </div>
-                                        <TesteProgress value={course.progress} />
+                                        <div className="mt-6 w-full flex">
+                                            <Link to={""}
+                                                className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors">
+                                                Retomar
+                                            </Link>
+                                        </div>
                                     </div>
-                                    <div className="mt-6 w-full flex">
-                                        <Link to={""}
-                                            className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors">
-                                            Retomar
-                                        </Link>
-                                    </div>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
                         </div>
                     )}
                 </section>
