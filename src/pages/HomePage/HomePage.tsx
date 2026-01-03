@@ -49,33 +49,48 @@ export const HomePage: React.FC = () => {
 
             {/* HERO SECTION */}
             <main className="relative z-10 mx-auto pt-20 pb-32">
-                <div className="flex flex-col items-center justify-center text-center mb-32">
-                    {/* Título Principal */}
-                    <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-b from-white to-zinc-500 mb-6">
-                        Universidade Brasileira Livre
-                    </h1>
+                <div className="flex md:flex-row flex-col mx-auto container mb-20">
+                    <div>
+                        <img src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true" alt="" />
+                    </div>
+                    <div className="flex flex-col items-center justify-center text-center mb-32">
 
-                    {/* Subtítulo */}
-                    <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10 leading-relaxed font-light">
-                        Uma plataforma sem fins lucrativos de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto. Organize seus estudos, acompanhe métricas e evolua sem distrações visuais.
-                    </p>
+                        {/* Título Principal */}
+                        <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green mb-6">
+                            Universidade Brasileira Livre
+                        </h1>
 
-                    {/* Botões de Ação */}
-                    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                        <Link
-                            to="/meu-curso"
-                            className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-                        >
-                            <span className="mr-2">Acessar Meu Progresso</span>
-                            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                            <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                        {/* Subtítulo */}
+                        <div className="space-y-4 mb-4">
+                            <p className="text-lg md:text-xl text-zinc-300 max-w-2xl mb- font-light">
+                                Uma plataforma <span className="font-serif">sem fins lucrativos (Gratis)</span> de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.
+                            </p>
+                            <p className="text-xl font-semibold text-blue-200">
+                                <span className="text-blue-400 text-2xl">Planeje</span>,
+                                <span className="text-blue-400 text-2xl"> acompanhe </span> e
+                                <span className="text-blue-400 text-2xl"> aprenda</span>.
+                            </p>
+                        </div>
+                        {/* Botões de Ação */}
+                        <Link to="/grade-curricular"
+                            className="bg-ubl-green text-4xl font-extralight text-white rounded-xl px-6 py-3 my-4 shadow-lg shadow-b shadow-black/50 items-center justify-center inline-flex hover:scale-105 transition-transform">
+                            <span>Começar a estudar</span>
+                            <ArrowRight className="w-8 h-8 ml-2 mt-2" />
                         </Link>
+                        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                            <Link
+                                to="/grade-curricular"
+                                className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
+                            >
+                                <span className="mr-2">Explorar Grade</span>
+                                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                                <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                            </Link>
+                            <Link to={""} className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg">
+                                Sobre nós
+                            </Link>
+                        </div>
 
-                        <Link
-                            to="/grade-curricular"
-                            className="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900/50 px-8 font-medium text-zinc-300 hover:bg-zinc-800 transition-colors">
-                            Explorar Grade
-                        </Link>
                     </div>
                 </div>
 
@@ -112,7 +127,6 @@ export const HomePage: React.FC = () => {
                                     <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
                                         <span className="font-semibold text-gray-400 mb-4">Etapa {course.etapaNumber}</span>
                                         <h3 className="text-xl text-white font-semibold">{course.name}</h3>
-
                                         <div className="my-4 space-y-1">
                                             <div className="flex items-center justify-between text-gray-400 text-sm">
                                                 <span>Progresso</span>
@@ -121,7 +135,7 @@ export const HomePage: React.FC = () => {
                                             <ProgressBar value={course.progress} />
                                         </div>
                                         <div className="mt-6 w-full flex">
-                                            <Link to={""}
+                                            <Link to={`/curso/${course.id}`}
                                                 className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors">
                                                 Retomar
                                             </Link>
