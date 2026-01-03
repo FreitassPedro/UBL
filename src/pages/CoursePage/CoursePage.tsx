@@ -10,7 +10,6 @@ import { mapCadeiraToMyCadeira } from "../../lib/utils";
 import useTituloDaPagina from "../../components/useTitlePage";
 import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
 import { ChevronRight, HomeIcon } from "lucide-react";
-import Footer from "../../components/Footer";
 
 export default function CoursePage() {
   useTituloDaPagina('Curso');
@@ -62,11 +61,11 @@ export default function CoursePage() {
     }
 
     return (
-      <li className={`flex items-center gap-2 py-2 my-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover" : ""} `}
+      <li className={`px-2 my-1 flex items-center justify-between gap-2 py-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover" : ""} `}
         key={lesson.id}
       >
         {/* Marcar como assistida */}
-        <button className={`w-4 h-4 flex items-center mr-2 justify-center rounded-full border cursor-pointer ${statusClass} `}
+        <button className={`w-4 h-4 flex items-center justify-center rounded-full border cursor-pointer ${statusClass} `}
           onClick={() => toggleCompletion(lesson.id)}
         >
           <span className="text-xs text-black font-bold ">{statusContent}</span>
@@ -158,7 +157,8 @@ export default function CoursePage() {
 
           {/* Videos List */}
           <div className="flex flex-col flex-1 overflow-hidden">
-            <ul className="overflow-y-auto pr-1 h-full
+            <ul className="overflow-y-auto space-y-2
+                  pr-1 h-full
                   [&::-webkit-scrollbar]:w-2
                   [&::-webkit-scrollbar-track]:rounded-full
                   [&::-webkit-scrollbar-track]:bg-gray-100
@@ -178,8 +178,6 @@ export default function CoursePage() {
           </div>
         </aside>
       </div>
-
-      <Footer />
     </div>
   );
 }

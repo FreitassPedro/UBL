@@ -7,29 +7,25 @@ interface MyStepCardBodyProps {
     step: MyEtapaProgress;
 }
 
-export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
+export const MyStepCardItem: React.FC<MyStepCardBodyProps> = ({ step }) => {
 
     const getStatusStyle = (progress: number) => {
         if (progress === 100) return {
             color: "text-emerald-400",
-            border: "group-hover:border-emerald-700/30 border-emerald-500/50",
-            bg: "bg-linear-to-r from-emerald-900/5 to-emerald-700/60",
+            border: "group-hover:border-emerald-500/30",
             icon: <CheckCircle2 className="w-5 h-5" />
         };
         if (progress > 0) return {
             color: "text-amber-400",
-            border: "group-hover:border-blue-700/60  border-blue-500/50",
-            bg: "bg-linear-to-r from-blue-900/10 to-blue-700/25",
+            border: "group-hover:border-amber-500/30",
             icon: <PlayCircle className="w-5 h-5" />
         };
         return {
             color: "text-zinc-500",
-            border: "group-hover:border-zinc-400 border-zinc-800",
-            bg: "bg-linear-to-r from-zinc-950/10 to-zinc-900/10",
+            border: "group-hover:border-zinc-600",
             icon: <Circle className="w-5 h-5" />
         };
     };
-    console.log(step.cadeiras);
 
     return (
         <div className="grid grid-cols-1 gap-3">
@@ -44,11 +40,10 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                     >
                         <div className={`
                             relative flex flex-col sm:flex-row items-start sm:items-center gap-5 
-                            p-5 rounded-xl bg-bg-card border  
+                            p-5 rounded-xl bg-bg-card border border-zinc-800 
                             transition-all duration-300 ease-out
                             hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
                             ${status.border}
-                            ${status.bg}
                         `}>
 
                             {/* Ícone / Imagem */}
@@ -74,8 +69,8 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                     </h3>
 
                                     {/* Botão Call to Action (visível no hover ou sempre visível desktop) */}
-                                    <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-500 group-hover:text-white transition-colors border border-zinc-700 rounded-full px-3 py-1 bg-zinc-800/50 hover:bg-blue-600/80 group-hover:border-blue-500 cursor-pointer">
-                                        {cadeira.progress === 100 ? "Revisar" : cadeira.progress > 0 ? "Continuar" : "Iniciar"}
+                                    <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-500 group-hover:text-white transition-colors">
+                                        {cadeira.progress === 100 ? "Revisar" : cadeira.progress > 0 ? "Continuar" : "Começar"}
                                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                                     </div>
                                 </div>
@@ -83,18 +78,16 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                 {/* Barra de Progresso e Meta info */}
                                 <div className="space-y-1.5">
                                     <div className="flex items-center justify-between text-xs text-zinc-500">
-                                        <span>{cadeira.progress === 100 ? "Concluído" : cadeira.progress > 0 ? "Progresso" : "Comece a assistir"}</span>
+                                        <span>Progresso</span>
                                         <span className={status.color}>{cadeira.progress}%</span>
                                     </div>
 
                                     {/* Container da barra de progresso ajustada */}
-                                    {cadeira.progress > 0 && (
                                     <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                                         <div className="h-full w-full">
                                             <ProgressBar value={cadeira.progress} />
                                         </div>
                                     </div>
-                                    )}
 
                                     <div className="text-xs text-zinc-600 pt-0.5">
                                         {cadeira.totalCompleted} de {cadeira.lessons.length} aulas concluídas

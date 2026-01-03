@@ -51,7 +51,8 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                             <div className="flex flex-col">
                                 <span className="text-xs text-zinc-500 uppercase font-bold">Cadeiras</span>
                                 <span className="text-zinc-200 font-medium">
-                                    {step.totalCompleted} <span className="text-zinc-600">/</span> {step.cadeiras.length}
+                                    {step.totalCompleted}
+                                    <span className="text-zinc-600">/</span> {step.cadeiras.length}
                                 </span>
                             </div>
                         </div>

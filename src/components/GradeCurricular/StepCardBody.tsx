@@ -1,5 +1,5 @@
-import { SubjectCard } from "./SubjectCard";
 import type { Etapa } from "../../data/gradeCurricular";
+import { StepListCadeiraItem2 } from "./StepListCadeiraItem2";
 
 interface StepCardBodyProps {
     stage: Etapa;
@@ -7,14 +7,16 @@ interface StepCardBodyProps {
 export const StepCardBody: React.FC<StepCardBodyProps> = ({ stage }) => {
 
     return (
-        <div className="border-t border-white/10 pt-6 px-6">
-            <div className="flex items-center gap-2 mb-6">
+        <div className="border-t border-white/20 bg-bg-card">
+            {/* 
+            <div className="flex items-center gap-2 mb-2">
                 <span className="font-bold text-white text-lg">Disciplinas</span>
                 <span className="text-gray-400">/ Pré-requisitos</span>
             </div>
-            <ul className="space-y-6 my-6">
+            */}
+            <ul className="flex flex-col ">
                 {stage.cadeiras.map((subject, subjectIndex) => (
-                    <SubjectCard
+                    <StepListCadeiraItem2
                         key={subjectIndex}
                         subject={subject}
                         index={subjectIndex}

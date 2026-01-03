@@ -5,11 +5,11 @@ export const GradeHeader = () => {
     return (
         <div className="relative z-10 mb-12">
             <div className="text-center mb-8">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-full border border-white/10 mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-linear-to-r from-blue-500/20 to-green-500/20 rounded-full border border-white/10 mb-6">
                     <Sparkles className="w-4 h-4 text-yellow-400" />
                     <span className="text-sm font-medium text-gray-300">Currículo Estruturado</span>
                 </div>
-                <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-white via-blue-200 to-green-200 bg-clip-text text-transparent">
+                <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-white via-blue-200 to-green-200 bg-clip-text text-transparent">
                     Currículo em Etapas
                 </h2>
                 <p className="text-xl text-gray-300 ">
