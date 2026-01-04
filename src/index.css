@@ -1,4 +1,6 @@
 /* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
 
@@ -26,10 +28,10 @@
 
   --color-ubl-green: #29ad7a;
   --color-ubl-blue: #406fb5;
-
   
   --color-zinc-300-light: #d4d4d8;
   --color-zinc-700-dark: #52525b;
-}
 
-/* ... o restante das configurações virá abaixo ... */
+  --font-sans: 'Exo 2', sans-serif;
+  --font-auxiliary: 'Roboto', sans-serif;
+}

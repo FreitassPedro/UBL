@@ -52,11 +52,10 @@ export const StepCardHeader: React.FC<StepCardHeaderProps> = ({ stage, isActive,
 
     return (
         <div
-            className={`p-4 cursor-pointer relative bg-bg-card ${isActive ? 'border-b border-white/70' : ''} `}
+            className={`p-4 cursor-pointer relative bg-bg-card ${isActive ? 'border-b border-white/70' : ''} 
+            absolute inset-0 bg-linear-to-r ${getColor().from} ${getColor().to}`}
             onClick={() => onToggle(stage.number)}
         >
-            <div className={`absolute inset-0 bg-linear-to-r ${getColor().from} ${getColor().to} pointer-events-none`} />
-
             <div className="relative flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     <h3 className="text-2xl  tracking-tight text-text-main mb-2">

@@ -131,14 +131,14 @@ export default function CoursePage() {
           </div>
 
           { /* Checkbox */}
-          <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-bg-card rounded-lg border border-white/20">
+          <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-zinc-900/80 rounded-lg border border-white/20">
             <input
               type="checkbox"
               className="cursor-pointer w-4 h-4 accent-success"
               checked={selectedLesson?.isCompleted || false}
               onChange={() => toggleCompletion(selectedLesson!.id)}
             />
-            <span className="text-md text-shadow-text-main">
+            <span className="text-md font-inter">
               {selectedLesson?.isCompleted ? "Concluída" : "Pendente"}
             </span>
           </div>

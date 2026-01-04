@@ -2,8 +2,9 @@ import React from 'react';
 import { CurriculumStepSection } from '../../components/GradeCurricular/CurriculumStepSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 
-export default function GradeCurricularPage() {
+import bannerstudy from "../../assets/imgs/bannerstudy.jpeg";
 
+export default function GradeCurricularPage() {
     const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);
 
     const handleCourseSelection = (index: number) => {
@@ -34,10 +35,11 @@ export default function GradeCurricularPage() {
         <div className='min-h-screen bg-bg-body text-white'>
             <main className="relative z-10 flex flex-col items-center space-y-4">
                 {/* Banner */}
-                <div className="relative h-96 shadow-lg w-full mb-16 overflow-hidden">
+
+                <div className="relative h-112 shadow-lg w-full mb-8 overflow-hidden">
                     <div className="absolute inset-0 z-1 overflow-hidden w-full h-full">
                         <img
-                            src={`https://placehold.co/60x60/31343C/EEE?text=Teste`}
+                            src={bannerstudy}
                             alt=""
                             className="w-full h-full object-cover"
                         />
@@ -46,8 +48,8 @@ export default function GradeCurricularPage() {
 
                     <div className="h-full z-10 relative flex items-center justify-center px-6">
                         <div className={`max-w-2xl text-center transition-all duration-1000 ease-out `}>
-                            <h1 className="text-4xl md:text5xl font-bold text-white leading-tight mb-4">
-                                Nossos Cursos
+                            <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+                                Sua jornada começa aqui
                             </h1>
                             <p className="text-xl text-white mb-6 font-light">
                                 Descubra a liberdade de aprender com nossos cursos online gratuitos, desenvolvidos para todos os níveis de conhecimento. Aprenda no seu ritmo, onde e quando quiser.
@@ -56,17 +58,17 @@ export default function GradeCurricularPage() {
                     </div>
                 </div>
 
+
                 {/* Seção de Seleção de Curso */}
-                <section className='relative flex flex-col items-center bg-zinc-900 rounded-xl p-10 border border-zinc-800' >
-                    <div>
+                <section className='relative mx-auto max-w-6xl flex flex-col items-center my-4 p-8' >
+                    <div className='mb-4'>
                         <h2 className='md:text-3xl text-2xl font-bold text-white text-center '>Catálogo de Cursos</h2>
                         <span className='text-gray-400 text-md font-semibold'>Escolha um curso para explorar sua grade curricular detalhada.</span>
                     </div>
-                    <div className='absolute inset-0 bg-linear-to-b from-emerald-800/10 via-transparent to-transparent opacity-50 pointer-events-none'></div>
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-10 mt-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-12'>
                         {cursos.map((curso, index) => (
                             <div key={index}
-                                className='bg-zinc-950/80 rounded-lg hover:shadow-xl shadow-blue-500 overflow-hidden col-span-2 hover:scale-105 transition duration-300 ease-in-out cursor-pointer group'
+                                className='bg-zinc-900 rounded-lg hover:shadow-xl shadow-ubl-blue/40 overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group'
                                 onClick={() => handleCourseSelection(index + 1)}
                             >
                                 <div className='h-96 overflow-hidden'>
