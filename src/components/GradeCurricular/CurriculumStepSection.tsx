@@ -21,8 +21,8 @@ export const CurriculumStepSection: React.FC<StepContainerProps> = ({ selectedCo
     }, [selectedCourse]);
 
     return (
-        <section className="w-full mt-10 py-8 border border-zinc-800/80 bg-bg-card " ref={sectionRef}>
-            <div className="mx-auto container">
+        <section className="w-full mt-10 py-8" ref={sectionRef}>
+            <div className="mx-auto max-w-6xl container">
                 <div className="flex items-center justify-between gap-4 mb-4">
                     <div className="flex items-center gap-4">
                         <GraduationCap className="w-14 h-14" />

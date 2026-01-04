@@ -49,7 +49,8 @@ export const HomePage: React.FC = () => {
 
             {/* HERO SECTION */}
             <main className="relative z-10 mx-auto pt-20 pb-32">
-                <div className="flex md:flex-row flex-col mx-auto container mb-20">
+                <div className="flex md:flex-row flex-col mx-auto container max-w-6xl ">
+                    {/* Logo da UBL */}
                     <div>
                         <img src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true" alt="" />
                     </div>
@@ -62,8 +63,8 @@ export const HomePage: React.FC = () => {
 
                         {/* Subtítulo */}
                         <div className="space-y-4 mb-4">
-                            <p className="text-lg md:text-xl text-zinc-300 max-w-2xl mb- font-light">
-                                Uma plataforma <span className="font-serif">sem fins lucrativos (Gratis)</span> de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.
+                            <p className="text-lg md:text-xl text-zinc-100 font-light">
+                                Uma plataforma <span className="font-semibold">sem fins lucrativos (Gratis)</span> de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.
                             </p>
                             <p className="text-xl font-semibold text-blue-200">
                                 <span className="text-blue-400 text-2xl">Planeje</span>,
@@ -72,25 +73,26 @@ export const HomePage: React.FC = () => {
                             </p>
                         </div>
                         {/* Botões de Ação */}
-                        <Link to="/grade-curricular"
-                            className="bg-ubl-green text-4xl font-extralight text-white rounded-xl px-6 py-3 my-4 shadow-lg shadow-b shadow-black/50 items-center justify-center inline-flex hover:scale-105 transition-transform">
-                            <span>Começar a estudar</span>
-                            <ArrowRight className="w-8 h-8 ml-2 mt-2" />
-                        </Link>
-                        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                            <Link
-                                to="/grade-curricular"
-                                className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-white px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-                            >
-                                <span className="mr-2">Explorar Grade</span>
-                                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                                <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                        <div>
+                            <Link to="/grade-curricular"
+                                className="bg-linear-to-br from-ubl-green to-green-400 text-white rounded-xl px-6 py-3 my-4 shadow-lg shadow-b shadow-black/50 items-center justify-center inline-flex hover:scale-105 transition-transform">
+                                <span className="text-4xl font-mono">Começar a estudar</span>
+                                <ArrowRight className="w-8 h-8 ml-2 mt-2" />
                             </Link>
-                            <Link to={""} className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg">
-                                Sobre nós
-                            </Link>
+                            <div className="flex flex-col sm:flex-row justify-around w-full sm:w-auto">
+                                <Link
+                                    to="/grade-curricular"
+                                    className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-gray-200 px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
+                                >
+                                    <span className="mr-2">Explorar Grade</span>
+                                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                                    <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                                </Link>
+                                <Link to={""} className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg">
+                                    Sobre nós
+                                </Link>
+                            </div>
                         </div>
-
                     </div>
                 </div>
 

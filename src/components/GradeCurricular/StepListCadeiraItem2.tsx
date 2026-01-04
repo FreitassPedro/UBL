@@ -28,7 +28,7 @@ export const StepListCadeiraItem2: React.FC<SubjectCardProps> = ({ subject, inde
                         <div className="flex items-center gap-3">
                             { /* Animated Pulse Dot */}
                             <div className="w-3 h-3 bg-linear-to-r from-ubl-blue to-ubl-green rounded-full animate-pulse" />
-                            <h3 className="font-semibold text-xl text-text-main">
+                            <h3 className="font-md text-xl text-white tracking-tight">
                                 {subject.name}
                             </h3>
                         </div>
