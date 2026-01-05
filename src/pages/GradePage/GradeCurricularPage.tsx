@@ -1,5 +1,5 @@
 import React from 'react';
-import { CurriculumStepSection } from '../../components/GradeCurricular/CurriculumStepSection';
+import { CurriculumSection } from '../../components/GradeCurricular/CurriculumSection';
 import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
 
 import bannerstudy from "../../assets/imgs/bannerstudy.jpeg";
@@ -19,13 +19,13 @@ export default function GradeCurricularPage() {
     const cursos = [
         {
             "curso": "Ciência da Computação",
-            "descricao": "Curso de Ciência da Computação da Universidade Brasileira Livre (UBL).",
+            "descricao": "Um caminho para a educação autodidata em Ciência da Computação",
             "imgSrc": "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
             "color": "bg-gradient-to-r from-blue-600 to-green-700"
         },
         {
             "curso": "Matemática",
-            "descricao": "Curso de Matemática da Universidade Brasileira Livre (UBL).",
+            "descricao": "Um caminho para a educação autodidata em Matemática.",
             "imgSrc": "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
             "color": "bg-gradient-to-r from-blue-600 to-purple-500"
         }
@@ -63,7 +63,7 @@ export default function GradeCurricularPage() {
                 <section className='relative mx-auto max-w-6xl flex flex-col items-center my-4 p-8' >
                     <div className='mb-4'>
                         <h2 className='md:text-3xl text-2xl font-bold text-white text-center '>Catálogo de Cursos</h2>
-                        <span className='text-gray-400 text-md font-semibold'>Escolha um curso para explorar sua grade curricular detalhada.</span>
+                        <span className='text-gray-400 text-md'>Escolha um curso para explorar sua grade curricular detalhada.</span>
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-12'>
                         {cursos.map((curso, index) => (
@@ -90,7 +90,7 @@ export default function GradeCurricularPage() {
 
                 {/* Seção de Conteúdo da Grade Curricular */}
                 {selectedGrade && (
-                    <CurriculumStepSection
+                    <CurriculumSection
                         selectedCourse={selectedGrade}
                     />
                 )}

@@ -1,13 +1,13 @@
 import { ExternalLink, LibraryBig } from "lucide-react"
 import type React from "react"
 
-interface BookRecomendationProps {
+interface BookRecommendationProps {
     subject: {
         books?: { name: string; url: string }[]
     }
 }
 
-export const BookRecomendation: React.FC<BookRecomendationProps> = ({ subject }) => {
+export const BookRecommendation: React.FC<BookRecommendationProps> = ({ subject }) => {
 
     return (
         <div className="mt-4 pt-2 border-t border-white/10">

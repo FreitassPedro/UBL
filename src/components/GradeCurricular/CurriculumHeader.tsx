@@ -1,6 +1,6 @@
 import { BookOpen, Clock, GraduationCap, Sparkles } from "lucide-react";
 
-export const GradeHeader = () => {
+export const CurriculumHeader = () => {
 
     return (
         <div className="relative z-10 mb-12">
