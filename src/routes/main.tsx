@@ -9,7 +9,7 @@ import MyCourse from '../pages/MyCourse/MyCourse.tsx'
 import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
 import { LoadingProvider } from '../contexts/LoadingContext/LoadingProvider.tsx'
 import TestePage from '../pages/Testepage/TestePage1.tsx'
-import TesteNodeCourse from '../pages/Testepage/TesteNodeCourse.tsx'
+import NodeGraphVisualization from '../components/NodeGraph/NodeGraphVisualization.tsx'
 import { MainLayout } from './MainLayout.tsx'
 
 createRoot(document.getElementById('root')!).render(
@@ -30,7 +30,7 @@ createRoot(document.getElementById('root')!).render(
             {/* Teste Routes */}
             <Route>
               <Route path='/teste' element={<TestePage />} />
-              <Route path='/teste/node' element={<TesteNodeCourse />} />
+              <Route path='/teste/node' element={<NodeGraphVisualization />} />
             </Route>
           </Routes>
         </CourseProgressProvider>

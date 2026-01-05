@@ -2,7 +2,7 @@ import { Background, MarkerType, ReactFlow, useEdgesState, useNodesState, type E
 import React from 'react';
 import '@xyflow/react/dist/style.css';
 import { CurriculoCC } from '../../data/gradeCurricular';
-import CustomNode from '../../components/CurriculoNode/CustomNode';
+import CustomNode from '../CurriculoNode/CustomNode';
 
 interface customNode extends Node {
     data: {
@@ -67,7 +67,7 @@ const generateFlow = () => {
 const initialNodes = generateFlow().initialNodes;
 const initialEdges = generateFlow().initialEdges;
 
-const TesteNodeCourse = () => {
+const NodeGraphVisualization = () => {
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
     const [edges, setEdges] = useEdgesState(initialEdges);
 
@@ -165,4 +165,4 @@ const TesteNodeCourse = () => {
     );
 }
 
-export default TesteNodeCourse
+export default NodeGraphVisualization

@@ -1,51 +1,51 @@
 import { BookOpen, ChevronRight, Clock } from "lucide-react";
 import type { Etapa } from "../../data/gradeCurricular";
 
-interface StepCardHeaderProps {
+interface SemesterHeaderProps {
     stage: Etapa;
     isActive: boolean;
     onToggle: (gradeNumber: number) => void;
 }
 
-export const StepCardHeader: React.FC<StepCardHeaderProps> = ({ stage, isActive, onToggle }) => {
+export const SemesterHeader: React.FC<SemesterHeaderProps> = ({ stage, isActive, onToggle }) => {
 
     const getColor = () => {
         switch (stage.number) {
             case 1: return {
-                from: 'from-blue-600/20',
-                to: 'to-blue-800/40'
+                from: 'from-blue-600/30',
+                to: 'to-blue-800/20'
             }
             case 2: return {
-                from: 'from-green-600/20',
-                to: 'to-green-800/40'
+                from: 'from-green-600/30',
+                to: 'to-green-800/20'
 
             }
             case 3: return {
-                from: 'from-purple-600/20',
-                to: 'to-purple-800/40'
+                from: 'from-purple-600/30',
+                to: 'to-purple-800/20'
             }
             case 4: return {
-                from: 'from-amber-600/20',
-                to: 'to-amber-800/40'
+                from: 'from-amber-600/30',
+                to: 'to-amber-800/20'
             }
             case 5:
                 return {
-                    from: 'from-pink-600/20',
-                    to: 'to-pink-800/40'
+                    from: 'from-pink-600/30',
+                    to: 'to-pink-800/20'
                 }
             case 6:
                 return {
-                    from: 'from-red-600/20',
-                    to: 'to-red-800/40'
+                    from: 'from-red-600/30',
+                    to: 'to-red-800/20'
                 }
             case 7:
                 return {
-                    from: 'from-teal-600/20 ',
-                    to: 'to-teal-800/40'
+                    from: 'from-teal-600/30',
+                    to: 'to-teal-800/20'
                 }
             default: return {
-                from: 'from-zinc-600/20',
-                to: 'to-zinc-800/40'
+                from: 'from-zinc-600/30',
+                to: 'to-zinc-800/20'
             }
         }
     };

@@ -1,13 +1,13 @@
 import React from "react";
 import type { Etapa } from "../../data/gradeCurricular";
-import { StepCardBody } from "./StepCardBody";
-import { StepCardHeader } from "./StepCardHeader";
+import { SemesterBody } from "./SemesterBody";
+import { SemesterHeader } from "./SemesterHeader";
 
-interface StepCardProrps {
+interface SemesterCardProps {
     stage: Etapa;
 }
 
-export const StepCardItem: React.FC<StepCardProrps> = ({ stage }) => {
+export const SemesterCard: React.FC<SemesterCardProps> = ({ stage }) => {
     const [isActive, setIsActive] = React.useState<boolean>(false);
 
     return (
@@ -20,14 +20,14 @@ export const StepCardItem: React.FC<StepCardProrps> = ({ stage }) => {
                 `}>
 
             {/* Header */}
-            <StepCardHeader
+            <SemesterHeader
                 stage={stage}
                 isActive={isActive}
                 onToggle={() => setIsActive(!isActive)}
             />
 
             {isActive && (
-                <StepCardBody
+                <SemesterBody
                     stage={stage}
                 />
             )}

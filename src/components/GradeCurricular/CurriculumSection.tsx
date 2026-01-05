@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { type Grade } from "../../data/gradeCurricular";
-import { StepCardItem } from "./StepCardItem";
+import { SemesterCard } from "./SemesterCard";
 import { GraduationCap } from "lucide-react";
-import TesteNodeCourse from "../../pages/Testepage/TesteNodeCourse";
+import NodeGraphVisualization from "../NodeGraph/NodeGraphVisualization";
 
-interface StepContainerProps {
+interface CurriculumSectionProps {
     selectedCourse: Grade;
 }
 
-export const CurriculumStepSection: React.FC<StepContainerProps> = ({ selectedCourse }) => {
+export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ selectedCourse }) => {
 
     const [nodeView, setNodeView] = React.useState<boolean>(false);
     const sectionRef = React.useRef<HTMLElement>(null);
@@ -45,7 +45,7 @@ export const CurriculumStepSection: React.FC<StepContainerProps> = ({ selectedCo
                                         onClick={() => setNodeView(false)}>Fechar</button>
                                 </div>
                                 <div className="flex-1 w-full overflow-hidden flex items-center justify-center h-full">
-                                    <TesteNodeCourse />
+                                    <NodeGraphVisualization />
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export const CurriculumStepSection: React.FC<StepContainerProps> = ({ selectedCo
                 <ul className="space-y-4">
                     {selectedCourse.etapas.map((stage) => {
                         return (
-                            <StepCardItem
+                            <SemesterCard
                                 key={stage.id}
                                 stage={stage}
                             />

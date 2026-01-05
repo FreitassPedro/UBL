@@ -1,6 +1,6 @@
 import { Asterisk, BookOpen, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "../ui/button"
-import { BookRecomendation } from "./BookRecomendation"
+import { BookRecommendation } from "./BookRecommendation"
 import { useState } from "react";
 
 interface SubjectCardProps {
@@ -11,7 +11,7 @@ interface SubjectCardProps {
     };
     index: number;
 }
-export const StepListCadeiraItem2: React.FC<SubjectCardProps> = ({ subject, index }) => {
+export const SemesterSubjectItem: React.FC<SubjectCardProps> = ({ subject, index }) => {
     const [showBooks, setShowBooks] = useState(false);
 
     const getColorBackground = () => {
@@ -67,7 +67,7 @@ export const StepListCadeiraItem2: React.FC<SubjectCardProps> = ({ subject, inde
                 {/* Books Section */}
                 {
                     showBooks && (
-                        <BookRecomendation
+                        <BookRecommendation
                             subject={subject}
                         />
                     )
