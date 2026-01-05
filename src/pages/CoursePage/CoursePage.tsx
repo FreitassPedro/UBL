@@ -1,15 +1,15 @@
-import { useState, useMemo, useEffect } from "react";
+import { ChevronRight, HomeIcon } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
-
 import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
+import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
+import { ProgressBar } from "../../components/ui/ProgressBar";
+import useTituloDaPagina from "../../components/useTitlePage";
+import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
+import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
 import { CurriculoCC } from "../../data/gradeCurricular";
 import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
 import { mapCadeiraToMyCadeira } from "../../lib/utils";
-import useTituloDaPagina from "../../components/useTitlePage";
-import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
-import { ChevronRight, HomeIcon } from "lucide-react";
 
 export default function CoursePage() {
   useTituloDaPagina('Curso');
@@ -76,7 +76,7 @@ export default function CoursePage() {
           <span className="text-xs text-zinc-800">{lesson.duration}</span>
         </div>
       </li>
-    )
+    );
   }
 
   if (!myCadeira || myCadeira.lessons.length === 0) {
@@ -94,12 +94,17 @@ export default function CoursePage() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-body text-text-main overflow-hidden font-inter">
-      <div className="w-full my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6">
+    <div className="min-h-screen bg-bg-body text-text-main overflow-hidden relative font-inter">
+      {/* Background Effects (Grid + Glow) */}
+      <BackgroundGrid />
+
+      <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
 
         {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
-        <main className="flex flex-col p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">            { /* Breadcrumbs */}
-          <nav aria-label="breadcrumb">
+        <main className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4"> 
+
+          { /* Breadcrumbs */}
+          <nav aria-label="breadcrumb" className="shrink-0">
             <ol className="flex items-center space-x-1 text-gray-400 text-sm text-center ">
               <li>
                 <Link to="/" className="hover:text-gray-200 cursor-pointer"><HomeIcon size={14} /></Link>
@@ -123,49 +128,71 @@ export default function CoursePage() {
           </nav>
 
           { /* Video player */}
-          <div className="w-full">
+          <div className="w-full flex-1 min-h-0">
             <VideoPlayer
               videoId={selectedLesson!.url}
               key={selectedLesson?.id}
               onLoaded={hideLoader} />
           </div>
 
-          { /* Checkbox */}
-          <div className="flex items-center w-max px-3 py-2 space-x-2 mb-4 bg-zinc-900/80 rounded-lg border border-white/20">
-            <input
-              type="checkbox"
-              className="cursor-pointer w-4 h-4 accent-success"
-              checked={selectedLesson?.isCompleted || false}
-              onChange={() => toggleCompletion(selectedLesson!.id)}
-            />
-            <span className="text-md font-inter">
-              {selectedLesson?.isCompleted ? "Concluída" : "Pendente"}
-            </span>
+          {/* Title */}
+          <div className="shrink-0">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-zinc-400">Aula Gravada</span>
+              <span className="h-px flex-1 bg-linear-to-r from-ubl-green/80 to-transparent via-zinc-700/50" />
+            </div>
+            <h2 className="text-2xl font-semibold leading-snug text-zinc-100">
+              {selectedLesson?.title}
+            </h2>
           </div>
-
-          <h1 className="mb-2 text-2xl font-light">{selectedLesson?.title}</h1>
         </main>
 
-        { /* sidebar com lista de aulas */}
-        <aside className="flex flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
+        { /* Sidebar com lista de aulas */}
+        <aside className="flex h-full min-h-0 flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
 
           {/* Header da sidebar */}
           <div className="flex justify-between items-center">
-            <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
-            <span className="text-xs text-text-muted px-2 py-1 bg-zinc-600/20 rounded-full border ">{`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
+            <h3 className="text-xl font-semibold bg-linear-to-r from-ubl-blue to-ubl-green bg-clip-text text-transparent">
+              Título do Curso
+            </h3>
+            <span
+              className="
+                px-2
+                py-1
+                text-xs
+                font-semibold
+                rounded-full
+                bg-linear-to-r
+                from-ubl-blue
+                to-ubl-green
+                bg-clip-text
+                text-transparent
+                ring-1
+                ring-ubl-blue/60
+              "
+            >
+              {`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}
+            </span>
           </div>
 
+          {/* Progress Bar */}
+          <ProgressBar value={myCadeira.totalCompleted / myCadeira.lessons.length * 100} />
+
           {/* Videos List */}
-          <div className="flex flex-col flex-1 overflow-hidden">
-            <ul className="overflow-y-auto space-y-2
-                  pr-1 h-full
-                  [&::-webkit-scrollbar]:w-2
-                  [&::-webkit-scrollbar-track]:rounded-full
-                  [&::-webkit-scrollbar-track]:bg-gray-100
-                  [&::-webkit-scrollbar-thumb]:rounded-full
-                  [&::-webkit-scrollbar-thumb]:bg-gray-300
-                  dark:[&::-webkit-scrollbar-track]:bg-neutral-700
-                  dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+          <div className="flex min-h-0 flex-col flex-1 overflow-hidden">
+            <ul className="
+                overflow-y-auto
+                space-y-2
+                pr-1
+                h-full
+                [&::-webkit-scrollbar]:w-2
+                [&::-webkit-scrollbar-track]:rounded-full
+                [&::-webkit-scrollbar-track]:bg-gray-100
+                [&::-webkit-scrollbar-thumb]:rounded-full
+                [&::-webkit-scrollbar-thumb]:bg-gray-300
+                dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500
+              "
             >
               {myCadeira.lessons.map((lesson) => (
                 <ClassSideBarItem
