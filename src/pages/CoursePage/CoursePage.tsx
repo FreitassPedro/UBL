@@ -152,27 +152,8 @@ export default function CoursePage() {
 
           {/* Header da sidebar */}
           <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold bg-linear-to-r from-ubl-blue to-ubl-green bg-clip-text text-transparent">
-              Título do Curso
-            </h3>
-            <span
-              className="
-                px-2
-                py-1
-                text-xs
-                font-semibold
-                rounded-full
-                bg-linear-to-r
-                from-ubl-blue
-                to-ubl-green
-                bg-clip-text
-                text-transparent
-                ring-1
-                ring-ubl-blue/60
-              "
-            >
-              {`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}
-            </span>
+            <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
+            <span className="text-xs text-text-muted px-2 py-1 bg-zinc-600/20 rounded-full border ">{`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}</span>
           </div>
 
           {/* Progress Bar */}
