@@ -6,6 +6,7 @@ export interface Cadeira {
   lessons: Lesson[];
   prerequisites: string[];
   url?: string;
+  duration?: number;
   books: {
     name: string;
     url: string;

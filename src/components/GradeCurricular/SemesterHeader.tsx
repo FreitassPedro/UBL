@@ -50,6 +50,12 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({ stage, isActive,
         }
     };
 
+    const totalDurationHours = Math.round(
+        stage.cadeiras
+            .flatMap((cadeira) => cadeira.lessons)
+            .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600
+    );
+
     return (
         <div
             className={`p-4 cursor-pointer relative bg-bg-card ${isActive ? 'border-b border-white/70' : ''} 
@@ -69,7 +75,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({ stage, isActive,
                         {/* Ajustar a lógica da duração se 'index + 1' não for o tempo real */}
                         <span className="flex items-center gap-1">
                             <Clock className="w-4 h-4" />
-                            {999}h
+                            {totalDurationHours}h
                         </span>
                     </div>
                 </div>
