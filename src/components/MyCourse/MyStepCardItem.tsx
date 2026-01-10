@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { ProgressBar } from "../ui/ProgressBar";
-import type { MyEtapaProgress } from "../../data/myCourseProgress";
+import { Progress } from "@/components/ui/progress";
+import type { MyEtapaProgress } from "@/data/myCourseProgress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface MyStepCardBodyProps {
     step: MyEtapaProgress;
@@ -85,7 +85,7 @@ export const MyStepCardItem: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                     {/* Container da barra de progresso ajustada */}
                                     <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                                         <div className="h-full w-full">
-                                            <ProgressBar value={cadeira.progress} />
+                                            <Progress value={cadeira.progress} />
                                         </div>
                                     </div>
 

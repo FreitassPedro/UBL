@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import type { MyGradeProgress } from "../../data/myCourseProgress";
-import { MyStepCard } from "./MyStepCard";
+import { MyStepCard } from "@/components/MyCourse/MyStepCard";
+import type { MyGradeProgress } from "@/data/myCourseProgress";
 import { LayoutGrid } from "lucide-react";
+import React, { useState } from "react";
 
 interface MyStepContainerProps {
     grade: MyGradeProgress;

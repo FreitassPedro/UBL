@@ -1,5 +1,5 @@
-import { ExternalLink, LibraryBig } from "lucide-react"
-import type React from "react"
+import { ExternalLink, LibraryBig } from "lucide-react";
+import type React from "react";
 
 interface BookRecommendationProps {
     subject: {

@@ -1,8 +1,11 @@
-import React from 'react';
-import { CurriculumSection } from '../../components/GradeCurricular/CurriculumSection';
-import { CurriculoCC, CurriculoMatematica, type Grade } from '../../data/gradeCurricular';
-
-import bannerstudy from "../../assets/imgs/bannerstudy.jpeg";
+import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
+import { CurriculumSection } from "@/components/GradeCurricular/CurriculumSection";
+import {
+  CurriculoCC,
+  CurriculoMatematica,
+  type Grade,
+} from "@/data/gradeCurricular";
+import React from "react";
 
 export default function GradeCurricularPage() {
     const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);

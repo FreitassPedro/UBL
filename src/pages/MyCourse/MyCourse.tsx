@@ -1,9 +1,8 @@
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext.tsx";
-import { CurriculoCC } from "../../data/gradeCurricular.ts";
-import { MyStepContainer } from "../../components/MyCourse/MyStepContainer.tsx";
-import { mapGradeToMyGradeProgress } from "../../lib/utils.ts";
-import useTituloDaPagina from "../../components/useTitlePage.tsx";
-
+import { MyStepContainer } from "@/components/MyCourse/MyStepContainer";
+import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { CurriculoCC } from "@/data/gradeCurricular";
+import useTituloDaPagina from "@/hooks/useTitlePage";
+import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 
 const MyCourse = () => {
     useTituloDaPagina('Meu Curso');

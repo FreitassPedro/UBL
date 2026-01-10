@@ -1,7 +1,6 @@
-import { CheckCircle, Circle } from "lucide-react"
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
-import type { MyLesson } from "../../data/myCourseProgress";
-
+import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import type { MyLesson } from "@/data/myCourseProgress";
+import { CheckCircle, Circle } from "lucide-react";
 
 interface VideoListProps {
   lessons: MyLesson[]

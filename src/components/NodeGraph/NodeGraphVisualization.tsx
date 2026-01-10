@@ -1,8 +1,16 @@
-import { Background, MarkerType, ReactFlow, useEdgesState, useNodesState, type Edge, type Node } from '@xyflow/react';
-import React from 'react';
-import '@xyflow/react/dist/style.css';
-import { CurriculoCC } from '../../data/gradeCurricular';
-import CustomNode from '../CurriculoNode/CustomNode';
+import {
+  Background,
+  MarkerType,
+  ReactFlow,
+  useEdgesState,
+  useNodesState,
+  type Edge,
+  type Node,
+} from "@xyflow/react";
+import React from "react";
+import "@xyflow/react/dist/style.css";
+import { CurriculoCC } from "@/data/gradeCurricular";
+import CustomNode from "@/components/CurriculoNode/CustomNode";
 
 interface customNode extends Node {
     data: {

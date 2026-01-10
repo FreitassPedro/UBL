@@ -1,7 +1,7 @@
+import { SemesterBody } from "@/components/GradeCurricular/SemesterBody";
+import { SemesterHeader } from "@/components/GradeCurricular/SemesterHeader";
+import type { Etapa } from "@/data/gradeCurricular";
 import React from "react";
-import type { Etapa } from "../../data/gradeCurricular";
-import { SemesterBody } from "./SemesterBody";
-import { SemesterHeader } from "./SemesterHeader";
 
 interface SemesterCardProps {
     stage: Etapa;

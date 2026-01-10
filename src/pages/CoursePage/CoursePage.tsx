@@ -1,40 +1,54 @@
+import { VideoPlayer } from "@/components/CourseContent/VideoPlayer";
+import { BackgroundGrid } from "@/components/BackgroundGrid";
+import { Badge } from "@/components/ui/badge";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Progress } from "@/components/ui/progress";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
+import { CurriculoCC } from "@/data/gradeCurricular";
+import type { MyCadeiraProgress, MyLesson } from "@/data/myCourseProgress";
+import useTituloDaPagina from "@/hooks/useTitlePage";
+import { mapCadeiraToMyCadeira } from "@/lib/mappers";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { VideoPlayer } from "../../components/CourseContent/VideoPlayer";
-import { BackgroundGrid } from "../../components/ui/BackgroundGrid";
-import { ProgressBar } from "../../components/ui/ProgressBar";
-import useTituloDaPagina from "../../components/useTitlePage";
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
-import { useLoading } from "../../contexts/LoadingContext/LoadingContext";
-import { CurriculoCC } from "../../data/gradeCurricular";
-import type { MyCadeiraProgress, MyLesson } from "../../data/myCourseProgress";
-import { mapCadeiraToMyCadeira } from "../../lib/utils";
 
 export default function CoursePage() {
-  useTituloDaPagina('Curso');
+  useTituloDaPagina("Curso");
+
   const { id } = useParams<{ id: string }>();
   const { toggleCompletion, completedLessons } = useCourseProgress();
-
   const { showLoader, hideLoader } = useLoading();
 
   const myCadeira: MyCadeiraProgress | undefined = useMemo(() => {
     if (!id) return;
 
     const cadeiraEncontrada = CurriculoCC.etapas
-      .flatMap(etapa => etapa.cadeiras)
-      .find(c => c.id.toString() === id);
+      .flatMap((etapa) => etapa.cadeiras)
+      .find((c) => c.id.toString() === id);
+
     if (!cadeiraEncontrada) return;
 
     return mapCadeiraToMyCadeira(cadeiraEncontrada, completedLessons);
   }, [completedLessons, id]);
 
-  const [selectedLessonId, setSelectedLessonId] = useState<string | number | undefined>(() => {
+  const [selectedLessonId, setSelectedLessonId] = useState<
+    string | number | undefined
+  >(() => {
     return myCadeira?.lessons[0]?.id || undefined;
   });
 
   const selectedLesson = useMemo(() => {
-    return myCadeira?.lessons.find(lesson => lesson.id === selectedLessonId);
+    return myCadeira?.lessons.find((lesson) => lesson.id === selectedLessonId);
   }, [myCadeira, selectedLessonId]);
 
   const handleSelectLesson = (lesson: MyLesson) => {
@@ -46,162 +60,187 @@ export default function CoursePage() {
 
     return () => {
       hideLoader();
-    }
+    };
   }, [selectedLessonId]);
 
-  const ClassSideBarItem: React.FC<{ lesson: MyLesson; isSelected: boolean; onSelect: (lesson: MyLesson) => void }> = ({ lesson }) => {
-    let statusClass = '';
-    let statusContent = '';
-
-    if (lesson.isCompleted) {
-      statusClass = 'bg-success border-success';
-      statusContent = '✓';
-    } else {
-      statusClass = 'border-border-subtle';
-    }
-
+  const ClassSideBarItem: React.FC<{
+    lesson: MyLesson;
+    isSelected: boolean;
+    onSelect: (lesson: MyLesson) => void;
+  }> = ({ lesson, isSelected, onSelect }) => {
     return (
-      <li className={`px-2 my-1 flex items-center justify-between gap-2 py-2 border-b rounded-lg border-white/10 ${lesson.isCompleted ? "bg-bg-hover" : ""} `}
-        key={lesson.id}
-      >
-        {/* Marcar como assistida */}
-        <button className={`w-4 h-4 flex items-center justify-center rounded-full border cursor-pointer ${statusClass} `}
-          onClick={() => toggleCompletion(lesson.id)}
+      <li>
+        <div
+          role="button"
+          onClick={() => onSelect(lesson)}
+          className={`
+            w-full
+            flex
+            items-start
+            gap-3
+            px-3
+            py-2
+            rounded-lg
+            cursor-pointer
+            transition-colors
+            hover:bg-accent/50
+            ${isSelected ? "bg-accent text-accent-foreground" : ""}
+          `}
         >
-          <span className="text-xs text-black font-bold ">{statusContent}</span>
-        </button>
-        {/* Título e duração da aula */}
-        <div onClick={() => handleSelectLesson(lesson)} className="flex-1">
-          <span className={`${lesson.id === selectedLesson?.id ? 'text-text-main font-medium' : 'font-light text-text-muted'} hover:text-gray-200 text-sm block cursor-pointer`}>{lesson.title}</span>
-          <span className="text-xs text-zinc-800">{lesson.duration}</span>
+          <Checkbox
+            checked={lesson.isCompleted}
+            onCheckedChange={() => toggleCompletion(lesson.id)}
+            onClick={(e) => e.stopPropagation()}
+            className="
+              mt-0.5
+              data-[state=checked]:text-white
+              data-[state=checked]:bg-ubl-green
+              dark:data-[state=checked]:bg-ubl-green
+              data-[state=checked]:border-ubl-green
+            "
+          />
+
+          <div className="flex flex-col items-start gap-0.5">
+            <span className="text-sm font-medium leading-tight">
+              {lesson.title}
+            </span>
+            <span className="text-xs text-muted-foreground">
+              {lesson.duration}
+            </span>
+          </div>
         </div>
       </li>
     );
-  }
+  };
 
   if (!myCadeira || myCadeira.lessons.length === 0) {
     return (
       <div className="container mx-auto py-6 max-w-[1400px] text-center">
-        <Link to="/" >
+        <Link to="/">
           <button className="px-4 py-2 text-white bg-blue-900 rounded-md hover:bg-blue-700 focus:outline-none">
             Voltar
           </button>
         </Link>
-        <h1 className="text-3xl font-bold mt-8">Este curso não possui vídeos disponíveis ainda.</h1>
-        <p className="text-muted-foreground mt-2">Por favor, volte mais tarde ou confira outros cursos.</p>
+
+        <h1 className="text-3xl font-bold mt-8">
+          Este curso não possui vídeos disponíveis ainda.
+        </h1>
+
+        <p className="text-muted-foreground mt-2">
+          Por favor, volte mais tarde ou confira outros cursos.
+        </p>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-bg-body text-text-main overflow-hidden relative font-inter">
+    <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
       {/* Background Effects (Grid + Glow) */}
       <BackgroundGrid />
 
       <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
-
         {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
-        <main className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4"> 
+        <main className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
+          {/* Breadcrumbs */}
+          <Breadcrumb className="shrink-0">
+            <BreadcrumbList className="text-sm text-gray-400">
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link to="/" className="hover:text-gray-200">
+                    <HomeIcon size={14} />
+                  </Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
 
-          { /* Breadcrumbs */}
-          <nav aria-label="breadcrumb" className="shrink-0">
-            <ol className="flex items-center space-x-1 text-gray-400 text-sm text-center ">
-              <li>
-                <Link to="/" className="hover:text-gray-200 cursor-pointer"><HomeIcon size={14} /></Link>
-              </li>
-              <ChevronRight size={14} />
+              <BreadcrumbSeparator>
+                <ChevronRight size={14} />
+              </BreadcrumbSeparator>
 
-              <li>
-                <Link to="/meu-curso" className="hover:text-gray-200 cursor-pointer">
-                  Cadeira
-                </Link>
-              </li>
-              <ChevronRight size={14} />
-              <li>
-                <Link to="/meu-curso" className="hover:text-gray-200 cursor-pointer">{myCadeira.name}</Link>
-              </li>
-              <ChevronRight size={14} />
-              <li>
-                <button className="text-gray-200 font-medium cursor-pointer">{selectedLesson?.title}</button>
-              </li>
-            </ol>
-          </nav>
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link to="/meu-curso" className="hover:text-gray-200">
+                    Cadeira
+                  </Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
 
-          { /* Video player */}
+              <BreadcrumbSeparator>
+                <ChevronRight size={14} />
+              </BreadcrumbSeparator>
+
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link to="/meu-curso" className="hover:text-gray-200">
+                    {myCadeira.name}
+                  </Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+
+              <BreadcrumbSeparator>
+                <ChevronRight size={14} />
+              </BreadcrumbSeparator>
+
+              <BreadcrumbItem>
+                <BreadcrumbPage className="text-gray-200 font-medium">
+                  {selectedLesson?.title}
+                </BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+
+          {/* Video player */}
           <div className="w-full flex-1 min-h-0">
             <VideoPlayer
               videoId={selectedLesson!.url}
               key={selectedLesson?.id}
-              onLoaded={hideLoader} />
+              onLoaded={hideLoader}
+            />
           </div>
 
           {/* Title */}
           <div className="shrink-0">
             <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase tracking-[0.3em] text-zinc-400">Aula Gravada</span>
+              <span className="mb-2 text-[10px] uppercase tracking-[0.3em] text-zinc-400">
+                Aula Gravada
+              </span>
               <span className="h-px flex-1 bg-linear-to-r from-ubl-green/80 to-transparent via-zinc-700/50" />
             </div>
+
             <h2 className="text-2xl font-semibold leading-snug text-zinc-100">
               {selectedLesson?.title}
             </h2>
           </div>
         </main>
 
-        { /* Sidebar com lista de aulas */}
+        {/* Sidebar com lista de aulas */}
         <aside className="flex h-full min-h-0 flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
-
           {/* Header da sidebar */}
           <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold bg-linear-to-r from-ubl-blue to-ubl-green bg-clip-text text-transparent">
-              Título do Curso
-            </h3>
-            <span
-              className="
-                px-2
-                py-1
-                text-xs
-                font-semibold
-                rounded-full
-                bg-linear-to-r
-                from-ubl-blue
-                to-ubl-green
-                bg-clip-text
-                text-transparent
-                ring-1
-                ring-ubl-blue/60
-              "
-            >
+            <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
+            <Badge variant="outline">
               {`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}
-            </span>
+            </Badge>
           </div>
 
           {/* Progress Bar */}
-          <ProgressBar value={myCadeira.totalCompleted / myCadeira.lessons.length * 100} />
+          <Progress
+            value={(myCadeira.totalCompleted / myCadeira.lessons.length) * 100}
+          />
 
           {/* Videos List */}
-          <div className="flex min-h-0 flex-col flex-1 overflow-hidden">
-            <ul className="
-                overflow-y-auto
-                space-y-2
-                pr-1
-                h-full
-                [&::-webkit-scrollbar]:w-2
-                [&::-webkit-scrollbar-track]:rounded-full
-                [&::-webkit-scrollbar-track]:bg-gray-100
-                [&::-webkit-scrollbar-thumb]:rounded-full
-                [&::-webkit-scrollbar-thumb]:bg-gray-300
-                dark:[&::-webkit-scrollbar-track]:bg-neutral-700
-                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500
-              "
-            >
-              {myCadeira.lessons.map((lesson) => (
-                <ClassSideBarItem
-                  key={lesson.id}
-                  lesson={lesson}
-                  isSelected={selectedLesson?.id === lesson.id}
-                  onSelect={handleSelectLesson} />
-              ))}
-            </ul>
+          <div className="flex min-h-0 flex-col flex-1">
+            <ScrollArea className="h-full pr-2">
+              <ul className="space-y-2">
+                {myCadeira.lessons.map((lesson) => (
+                  <ClassSideBarItem
+                    key={lesson.id}
+                    lesson={lesson}
+                    isSelected={selectedLesson?.id === lesson.id}
+                    onSelect={handleSelectLesson}
+                  />
+                ))}
+              </ul>
+            </ScrollArea>
           </div>
         </aside>
       </div>
