@@ -1,20 +1,25 @@
-import { Link } from "react-router-dom";
-import { ProgressBar } from "../../components/ui/ProgressBar";
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
-import { mapGradeToMyGradeProgress } from "../../lib/utils";
-import { CurriculoCC } from "../../data/gradeCurricular";
-import type { MyCadeiraProgress } from "../../data/myCourseProgress";
-import { useMemo } from "react";
+import { Progress } from "@/components/ui/progress";
+import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { CurriculoCC } from "@/data/gradeCurricular";
+import type { MyCadeiraProgress } from "@/data/myCourseProgress";
+import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import { ArrowRight } from "lucide-react";
+import { useMemo } from "react";
+import { Link } from "react-router-dom";
 
-type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
+type WatchedCourse = MyCadeiraProgress & {
+  etapaName: string;
+  etapaNumber: number;
+};
 
 const TestePage2 = () => {
-
   const { completedLessons } = useCourseProgress();
 
   const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
+    const mappedGrade = mapGradeToMyGradeProgress(
+      CurriculoCC,
+      completedLessons
+    );
 
     const allCourses = mappedGrade.etapas.flatMap((etapa) =>
       etapa.cadeiras.map((cadeira) => ({
@@ -26,19 +31,25 @@ const TestePage2 = () => {
 
     return allCourses
       .filter((cadeira) => cadeira.progress > 0 && !cadeira.isCompleted)
-      .sort((a, b) => b.totalCompleted - a.totalCompleted || b.progress - a.progress)
+      .sort(
+        (a, b) => b.totalCompleted - a.totalCompleted || b.progress - a.progress
+      )
       .slice(0, 4);
   }, [completedLessons]);
 
   return (
-
     <div className="bg-black text-text-main min-h-screen flex flex-col items-center justify-center p-6">
-
       <div className="flex items-center justify-between mb-8">
         <div>
-          <p className="text-sm uppercase tracking-[0.2em] text-blue-300/70 font-semibold">Continuar assistindo</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-white mt-2 tracking-tight">Cursos em andamento</h2>
-          <p className="text-zinc-400 mt-2 max-w-2xl">Retome rapidamente as cadeiras que você já começou a assistir.</p>
+          <p className="text-sm uppercase tracking-[0.2em] text-blue-300/70 font-semibold">
+            Continuar assistindo
+          </p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-white mt-2 tracking-tight">
+            Cursos em andamento
+          </h2>
+          <p className="text-zinc-400 mt-2 max-w-2xl">
+            Retome rapidamente as cadeiras que você já começou a assistir.
+          </p>
         </div>
 
         <Link
@@ -54,18 +65,22 @@ const TestePage2 = () => {
           {watchedCourses.map((course) => (
             <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
               <span className="font-semibold text-gray-400 mb-4">Etapa XX</span>
-              <h3 className="text-xl text-white font-semibold">{course.name}</h3>
+              <h3 className="text-xl text-white font-semibold">
+                {course.name}
+              </h3>
 
               <div className="my-4 space-y-1">
                 <div className="flex items-center justify-between text-gray-400 text-sm">
                   <span>Progresso</span>
                   <span>{course.progress}%</span>
                 </div>
-                <ProgressBar value={course.progress} />
+                <Progress value={course.progress} />
               </div>
               <div className="mt-6 w-full flex">
-                <Link to={""}
-                  className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors">
+                <Link
+                  to={""}
+                  className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors"
+                >
                   Retomar
                 </Link>
               </div>
@@ -76,9 +91,15 @@ const TestePage2 = () => {
       <section className="relative z-10 max-w-6xl mx-auto px-6 pb-16">
         <div className="flex items-center justify-between mb-8">
           <div>
-            <p className="text-sm uppercase tracking-[0.2em] text-blue-300/70 font-semibold">Continuar assistindo</p>
-            <h2 className="text-3xl md:text-4xl font-semibold text-white mt-2 tracking-tight">Cursos em andamento</h2>
-            <p className="text-zinc-400 mt-2 max-w-2xl">Retome rapidamente as cadeiras que você já começou a assistir.</p>
+            <p className="text-sm uppercase tracking-[0.2em] text-blue-300/70 font-semibold">
+              Continuar assistindo
+            </p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-white mt-2 tracking-tight">
+              Cursos em andamento
+            </h2>
+            <p className="text-zinc-400 mt-2 max-w-2xl">
+              Retome rapidamente as cadeiras que você já começou a assistir.
+            </p>
           </div>
 
           <Link
@@ -92,8 +113,12 @@ const TestePage2 = () => {
 
         {watchedCourses.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-zinc-800 bg-zinc-900/40 p-8 text-center">
-            <p className="text-lg font-semibold text-white">Nenhum curso iniciado ainda</p>
-            <p className="text-zinc-400 mt-2">Comece uma cadeira para vê-la aqui e continuar de onde parou.</p>
+            <p className="text-lg font-semibold text-white">
+              Nenhum curso iniciado ainda
+            </p>
+            <p className="text-zinc-400 mt-2">
+              Comece uma cadeira para vê-la aqui e continuar de onde parou.
+            </p>
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
                 to="/meu-curso"
@@ -118,11 +143,20 @@ const TestePage2 = () => {
               >
                 <div className="relative flex items-start justify-between gap-4">
                   <div>
-                    <span className="text-xs font-semibold uppercase tracking-wide text-blue-200/80">{course.etapaName}</span>
-                    <h3 className="mt-1 text-xl font-semibold text-white leading-tight">{course.name}</h3>
-                    <p className="text-sm text-zinc-400 mt-1">{course.totalCompleted} de {course.lessons.length} aulas concluídas</p>
+                    <span className="text-xs font-semibold uppercase tracking-wide text-blue-200/80">
+                      {course.etapaName}
+                    </span>
+                    <h3 className="mt-1 text-xl font-semibold text-white leading-tight">
+                      {course.name}
+                    </h3>
+                    <p className="text-sm text-zinc-400 mt-1">
+                      {course.totalCompleted} de {course.lessons.length} aulas
+                      concluídas
+                    </p>
                   </div>
-                  <span className="rounded-full bg-zinc-900/70 border border-white/5 px-3 py-1 text-sm font-semibold text-white">{course.progress}%</span>
+                  <span className="rounded-full bg-zinc-900/70 border border-white/5 px-3 py-1 text-sm font-semibold text-white">
+                    {course.progress}%
+                  </span>
                 </div>
                 <div className="relative mt-4 space-y-2">
                   <div className="flex items-center justify-between text-xs text-zinc-400">
@@ -130,7 +164,7 @@ const TestePage2 = () => {
                     <span>{course.progress}%</span>
                   </div>
                   <div className="h-2 w-full rounded-full bg-zinc-900 overflow-hidden">
-                    <ProgressBar value={course.progress} />
+                    <Progress value={course.progress} />
                   </div>
                 </div>
 
@@ -155,7 +189,7 @@ const TestePage2 = () => {
         )}
       </section>
     </div>
-  )
+  );
 };
 
 /*
@@ -241,6 +275,5 @@ const TestePage2 = () => {
   )}
 </section>
 */
-
 
 export default TestePage2;

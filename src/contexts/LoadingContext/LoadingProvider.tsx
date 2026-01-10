@@ -1,6 +1,6 @@
+import GlobalLoader from "@/contexts/GlobalLoader/GlobalLoader";
+import { LoadingContext } from "@/contexts/LoadingContext/LoadingContext";
 import React from "react";
-import { LoadingContext } from "./LoadingContext";
-import GlobalLoader from "../GlobalLoader/GlobalLoader";
 
 export const LoadingProvider = ({ children }: { children: React.ReactNode }) => {
     const [loadingCount, setLoadingCount] = React.useState(0);
