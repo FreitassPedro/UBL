@@ -1,4 +1,4 @@
-export const GeometriaAnalitica = {
+export const geometriaAnalitica = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "tIMPJpmngEZri1vkvZ3Xx1fTk34",
     "nextPageToken": "EAAaHlBUOkNESWlFREpCUVRaRFFrUXhPVGcxTXpkRk5rSQ",
@@ -52,7 +52,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "ijkDjQT7UPM",
                 "videoPublishedAt": "2021-01-16T15:30:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3pEZJceQrynTokvhGNaEJ6Z26g0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pIT0DEJazT4Xsu7U1eOMKuKWXYA",
+                        "id": "ijkDjQT7UPM",
+                        "contentDetails": {
+                            "duration": "PT18M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M3S",
+            "durationSeconds": 1083
         },
         {
             "kind": "youtube#playlistItem",
@@ -103,7 +129,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "2L_YvWVVeRM",
                 "videoPublishedAt": "2021-01-16T15:30:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CEEwYmT8brzUi4U5IctLNAG7dI4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "octjWDqdOwgbjQ4U7SdAqBnn4dY",
+                        "id": "2L_YvWVVeRM",
+                        "contentDetails": {
+                            "duration": "PT20M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M16S",
+            "durationSeconds": 1216
         },
         {
             "kind": "youtube#playlistItem",
@@ -154,7 +206,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "TjmBMVbZfTw",
                 "videoPublishedAt": "2021-01-16T15:31:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "aXI5RXgSmcH5zx9VAELS40z6B84",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yKb0CJhRug2kdiLjAvTIEBzYNDQ",
+                        "id": "TjmBMVbZfTw",
+                        "contentDetails": {
+                            "duration": "PT13M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M8S",
+            "durationSeconds": 788
         },
         {
             "kind": "youtube#playlistItem",
@@ -205,7 +283,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "QW5-C-FNPks",
                 "videoPublishedAt": "2021-01-16T15:32:28Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "p3bNOMyIbGf7FH0KJnosfY5d9gU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_ms1u3unN6NWJkjRJ6C9d5eTyqQ",
+                        "id": "QW5-C-FNPks",
+                        "contentDetails": {
+                            "duration": "PT7M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M26S",
+            "durationSeconds": 446
         },
         {
             "kind": "youtube#playlistItem",
@@ -256,7 +360,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "E_Q07YaURYA",
                 "videoPublishedAt": "2021-01-16T15:33:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FoE3DGq0Qlw-qcN65tVGiKPIORE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "P6R6lsqJobiShZXgOtohcTmPKjI",
+                        "id": "E_Q07YaURYA",
+                        "contentDetails": {
+                            "duration": "PT16M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M34S",
+            "durationSeconds": 994
         },
         {
             "kind": "youtube#playlistItem",
@@ -307,7 +437,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "6JBqIBqix9Q",
                 "videoPublishedAt": "2021-01-16T15:37:25Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "XVBbEXaaFZjhz2mAFt2ezdV545Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Fot-AwRvNCGcXJwrQzoJn2YcMHU",
+                        "id": "6JBqIBqix9Q",
+                        "contentDetails": {
+                            "duration": "PT8M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT8M52S",
+            "durationSeconds": 532
         },
         {
             "kind": "youtube#playlistItem",
@@ -353,7 +509,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "8UiVBX_JvsI",
                 "videoPublishedAt": "2021-01-11T01:44:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ucSBVtCXueCyX7LOLyeKiQ8A2o0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ohj_GbTyLCUAykw9SFcwKVUed_Q",
+                        "id": "8UiVBX_JvsI",
+                        "contentDetails": {
+                            "duration": "PT15M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M47S",
+            "durationSeconds": 947
         },
         {
             "kind": "youtube#playlistItem",
@@ -399,7 +581,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "-pUjC3U7OHs",
                 "videoPublishedAt": "2021-01-11T01:44:54Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "L_1USoXbDfCWutNCREYILhAUrQY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5E63eSIjr30XFQxmiar7a846CvE",
+                        "id": "-pUjC3U7OHs",
+                        "contentDetails": {
+                            "duration": "PT13M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M32S",
+            "durationSeconds": 812
         },
         {
             "kind": "youtube#playlistItem",
@@ -440,7 +648,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "PmJnUI1VD_o",
                 "videoPublishedAt": "2021-01-11T01:44:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4hEKPq33qQ4e9E_UBmPxxRU9ZEs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fqHzZ2vm4hKVz88TbAtgmG8YiAc",
+                        "id": "PmJnUI1VD_o",
+                        "contentDetails": {
+                            "duration": "PT7M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M20S",
+            "durationSeconds": 440
         },
         {
             "kind": "youtube#playlistItem",
@@ -481,7 +715,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "QsbCxntMaVU",
                 "videoPublishedAt": "2021-01-11T01:44:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pA0gvxVexCZW_QX-lEaP9td44Ug",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HYYKhdIgKjHUGtaBlqlPU3jYm3c",
+                        "id": "QsbCxntMaVU",
+                        "contentDetails": {
+                            "duration": "PT4M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M41S",
+            "durationSeconds": 281
         },
         {
             "kind": "youtube#playlistItem",
@@ -527,7 +787,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "OnZNoofF7XY",
                 "videoPublishedAt": "2021-01-11T01:44:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "khvAMVm_VKuuMO_hkjtjYoz9P5A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CxOx44Y0M74xYlgljsWrMfgug-Y",
+                        "id": "OnZNoofF7XY",
+                        "contentDetails": {
+                            "duration": "PT25M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M48S",
+            "durationSeconds": 1548
         },
         {
             "kind": "youtube#playlistItem",
@@ -578,7 +864,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "x76nLi42YMQ",
                 "videoPublishedAt": "2021-01-11T01:44:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xrdOYmYfRrA0fpnCb5KVVz9rPTQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YTAgFPgrljNwAZ_pH7v6HlhhIyY",
+                        "id": "x76nLi42YMQ",
+                        "contentDetails": {
+                            "duration": "PT14M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M22S",
+            "durationSeconds": 862
         },
         {
             "kind": "youtube#playlistItem",
@@ -629,7 +941,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "GP97sL-f9ow",
                 "videoPublishedAt": "2021-01-11T01:44:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ErI4otBIu86raQP7Dx4jd2XzQZQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "JdBNaFFGbOzXcp0x0FTg2SU_nxs",
+                        "id": "GP97sL-f9ow",
+                        "contentDetails": {
+                            "duration": "PT11M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M49S",
+            "durationSeconds": 709
         },
         {
             "kind": "youtube#playlistItem",
@@ -680,7 +1018,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "_Vqaj8FGlvQ",
                 "videoPublishedAt": "2021-01-16T15:53:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "v5aTa1Rsx7Zqx5hFWPsxySc3jpI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "XQwcwx2FOpdZMlMq0BgYIt6gxhs",
+                        "id": "_Vqaj8FGlvQ",
+                        "contentDetails": {
+                            "duration": "PT14M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M51S",
+            "durationSeconds": 891
         },
         {
             "kind": "youtube#playlistItem",
@@ -731,7 +1095,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "DQZnZMeZ32E",
                 "videoPublishedAt": "2021-01-16T15:54:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LhkS-9Sfgv3Aw0k8mRcQy9Mv2gw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Z-P8Lp6fUWreIrQNP_3UflknL40",
+                        "id": "DQZnZMeZ32E",
+                        "contentDetails": {
+                            "duration": "PT15M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M34S",
+            "durationSeconds": 934
         },
         {
             "kind": "youtube#playlistItem",
@@ -782,7 +1172,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "Hwj8K3iYRu8",
                 "videoPublishedAt": "2021-01-16T15:54:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FrR2gOowVPMHWnF2J62PYoVaP8A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qoJ8b4jRkN5dNGI3V6JdmEngroo",
+                        "id": "Hwj8K3iYRu8",
+                        "contentDetails": {
+                            "duration": "PT5M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M59S",
+            "durationSeconds": 359
         },
         {
             "kind": "youtube#playlistItem",
@@ -833,7 +1249,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "9CeEr9MqY6Q",
                 "videoPublishedAt": "2021-01-16T15:56:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ZYxOl8AcicxGjneni9rolSuVpKQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nUeEYYvBpq9mgXtw3uPFRDJgmGI",
+                        "id": "9CeEr9MqY6Q",
+                        "contentDetails": {
+                            "duration": "PT15M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M31S",
+            "durationSeconds": 931
         },
         {
             "kind": "youtube#playlistItem",
@@ -884,7 +1326,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "bypDImbUY2I",
                 "videoPublishedAt": "2021-01-16T15:57:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dTFq8ssLXuWEaWlP7PmzqruYQWM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mZLeKm4SLVgGKjFgwadpAAxjljU",
+                        "id": "bypDImbUY2I",
+                        "contentDetails": {
+                            "duration": "PT19M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M22S",
+            "durationSeconds": 1162
         },
         {
             "kind": "youtube#playlistItem",
@@ -935,7 +1403,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "5uWllVV95ps",
                 "videoPublishedAt": "2021-01-16T15:58:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "B-ZZuNUtbALpqVbIVKk-9jFZBWY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xxEwRWr9bP1bIIlPZZ88tYU-Ue4",
+                        "id": "5uWllVV95ps",
+                        "contentDetails": {
+                            "duration": "PT8M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT8M33S",
+            "durationSeconds": 513
         },
         {
             "kind": "youtube#playlistItem",
@@ -986,7 +1480,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "ghkOpnk9vM4",
                 "videoPublishedAt": "2021-01-16T15:59:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pkaYe4-_SFQZtOFPhmqK3Zbcljo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "i0NUnz3vFeNaWXCkKuqDJUWuutw",
+                        "id": "ghkOpnk9vM4",
+                        "contentDetails": {
+                            "duration": "PT25M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M11S",
+            "durationSeconds": 1511
         },
         {
             "kind": "youtube#playlistItem",
@@ -1037,7 +1557,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "ENEuaqObL3E",
                 "videoPublishedAt": "2021-01-16T17:27:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MYDmhGzPrHPc13eG9kCafQC7zfM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pEzDNcMWRuGVSs8AAdkf8-vOAcc",
+                        "id": "ENEuaqObL3E",
+                        "contentDetails": {
+                            "duration": "PT22M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M",
+            "durationSeconds": 1320
         },
         {
             "kind": "youtube#playlistItem",
@@ -1088,7 +1634,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "zCgbNqxDyWQ",
                 "videoPublishedAt": "2021-01-11T01:44:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "iQmIMtZaQIFw_b6bJBHr3N6DUtU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-oD0pE3Ndu1J65m4dpg76B_vZ1c",
+                        "id": "zCgbNqxDyWQ",
+                        "contentDetails": {
+                            "duration": "PT21M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M2S",
+            "durationSeconds": 1262
         },
         {
             "kind": "youtube#playlistItem",
@@ -1139,7 +1711,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "tHa5CE-rFts",
                 "videoPublishedAt": "2021-01-11T01:44:25Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CPTMhmgL8eufJcMsCtSfmvt2H9Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bYi-X1r_3zuL5UcpKCabtN1WsMY",
+                        "id": "tHa5CE-rFts",
+                        "contentDetails": {
+                            "duration": "PT18M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M37S",
+            "durationSeconds": 1117
         },
         {
             "kind": "youtube#playlistItem",
@@ -1190,7 +1788,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "Cwhpy9UouiE",
                 "videoPublishedAt": "2021-01-11T01:44:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2roPRc_GX3ioLLy6jGoif5o8yC0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3Ieao4jj9UFqSnf5_X8EYAuSlIg",
+                        "id": "Cwhpy9UouiE",
+                        "contentDetails": {
+                            "duration": "PT10M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M41S",
+            "durationSeconds": 641
         },
         {
             "kind": "youtube#playlistItem",
@@ -1241,7 +1865,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "KZusqyXfck4",
                 "videoPublishedAt": "2021-01-11T01:44:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1Vo4Agldr9qn1NkKtF-2WrgDn68",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "t6v4qtDVtkCFrHF42Ex_6leY2xk",
+                        "id": "KZusqyXfck4",
+                        "contentDetails": {
+                            "duration": "PT22M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M41S",
+            "durationSeconds": 1361
         },
         {
             "kind": "youtube#playlistItem",
@@ -1292,7 +1942,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "ZdpXpLSCH5I",
                 "videoPublishedAt": "2021-01-11T01:44:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DZvh7NssF28ih1mq49GGaU_4OeY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "__Bj3PA1rAOGKB44WgltQhPRZG8",
+                        "id": "ZdpXpLSCH5I",
+                        "contentDetails": {
+                            "duration": "PT11M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M3S",
+            "durationSeconds": 663
         },
         {
             "kind": "youtube#playlistItem",
@@ -1343,7 +2019,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "ZobaOzWIKbo",
                 "videoPublishedAt": "2021-01-16T17:28:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CqPCP4xZEURm0El3ipSZrvSTPAY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0SeMIm_aq30LFxDdpyS7JTKhPBM",
+                        "id": "ZobaOzWIKbo",
+                        "contentDetails": {
+                            "duration": "PT22M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M30S",
+            "durationSeconds": 1350
         },
         {
             "kind": "youtube#playlistItem",
@@ -1394,7 +2096,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "LvGoCRqaqMk",
                 "videoPublishedAt": "2021-01-16T17:29:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "KQU-4Bm1WMoZHtiNHU7iSak22CY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fwufk-DW-Xm6qQ0VHmpuw-udL9k",
+                        "id": "LvGoCRqaqMk",
+                        "contentDetails": {
+                            "duration": "PT24M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M7S",
+            "durationSeconds": 1447
         },
         {
             "kind": "youtube#playlistItem",
@@ -1445,7 +2173,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "lpGrX7qiaWg",
                 "videoPublishedAt": "2021-01-16T17:29:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-fgUHu1ilsb7wwafekMAGpTbpFk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "g7FchT_X76bY-1-VEoC9mKjr7-Y",
+                        "id": "lpGrX7qiaWg",
+                        "contentDetails": {
+                            "duration": "PT15M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M14S",
+            "durationSeconds": 914
         },
         {
             "kind": "youtube#playlistItem",
@@ -1496,7 +2250,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "D4H1iSO9j_M",
                 "videoPublishedAt": "2021-01-16T17:30:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xZBKem-948nNcTpU3tpzO7mJohk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "VxCoVfbErqOhSye4IGqmfDa_5ps",
+                        "id": "D4H1iSO9j_M",
+                        "contentDetails": {
+                            "duration": "PT14M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M",
+            "durationSeconds": 840
         },
         {
             "kind": "youtube#playlistItem",
@@ -1547,7 +2327,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "jWReRVloI5k",
                 "videoPublishedAt": "2021-01-16T17:31:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "d3Hz0u_VOcJ5vD-YumfsMJ19r3o",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8NL8D0IlxX4yFBeGu0Mw5LqS9-k",
+                        "id": "jWReRVloI5k",
+                        "contentDetails": {
+                            "duration": "PT14M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M15S",
+            "durationSeconds": 855
         },
         {
             "kind": "youtube#playlistItem",
@@ -1598,7 +2404,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "zW40la8QplE",
                 "videoPublishedAt": "2021-01-16T17:32:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "D_TYCfgG1zTF7F9W_qy8IPqBzLY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "z1yuwQBp53fVwiaUwGYPh1e-99o",
+                        "id": "zW40la8QplE",
+                        "contentDetails": {
+                            "duration": "PT29M17S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M17S",
+            "durationSeconds": 1757
         },
         {
             "kind": "youtube#playlistItem",
@@ -1649,7 +2481,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "HhgxsFww8e4",
                 "videoPublishedAt": "2021-01-16T17:33:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MAiETSc3w9WJDafHhMgv9wXSQTA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mtaXoIA_dPOOhWyCyAqo9EfAJ2k",
+                        "id": "HhgxsFww8e4",
+                        "contentDetails": {
+                            "duration": "PT27M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M50S",
+            "durationSeconds": 1670
         },
         {
             "kind": "youtube#playlistItem",
@@ -1700,7 +2558,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "GVBFgwItxg4",
                 "videoPublishedAt": "2021-01-11T01:43:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WQiTz6bPZCvkcqNsUN7d1vfH9tY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "IG8IKG1wRkN1ynFtPKVdykcIdVU",
+                        "id": "GVBFgwItxg4",
+                        "contentDetails": {
+                            "duration": "PT17M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M6S",
+            "durationSeconds": 1026
         },
         {
             "kind": "youtube#playlistItem",
@@ -1751,7 +2635,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "t4wxeCcH0Xw",
                 "videoPublishedAt": "2021-01-11T01:43:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fxGYQhOoTALonR3P5PdZOu45VbQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "dIshG5QoD_CDsiJlif-TSfdITZE",
+                        "id": "t4wxeCcH0Xw",
+                        "contentDetails": {
+                            "duration": "PT18M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M50S",
+            "durationSeconds": 1130
         },
         {
             "kind": "youtube#playlistItem",
@@ -1802,7 +2712,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "VoTEPBtrTSQ",
                 "videoPublishedAt": "2021-01-11T01:43:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dirNntKaRHnyGjPW0t_crLitcQM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9o8y_xHR5FGcIHXd-wNXapIRTUQ",
+                        "id": "VoTEPBtrTSQ",
+                        "contentDetails": {
+                            "duration": "PT9M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M7S",
+            "durationSeconds": 547
         },
         {
             "kind": "youtube#playlistItem",
@@ -1853,7 +2789,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "aGOadzkIOXM",
                 "videoPublishedAt": "2021-01-11T01:43:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2YaaMAzZ0j0VrOwmNa7Ct7BT57w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TWrI5n9EshxU934_dJXUo2g_SBw",
+                        "id": "aGOadzkIOXM",
+                        "contentDetails": {
+                            "duration": "PT17M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M30S",
+            "durationSeconds": 1050
         },
         {
             "kind": "youtube#playlistItem",
@@ -1904,7 +2866,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "6O8yLZdx9Ls",
                 "videoPublishedAt": "2021-01-16T17:33:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "e2im705IRFWaK17oopBo6ihkVXk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6kOEYmKllnOk4FeNocKb-DmCGNc",
+                        "id": "6O8yLZdx9Ls",
+                        "contentDetails": {
+                            "duration": "PT25M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M23S",
+            "durationSeconds": 1523
         },
         {
             "kind": "youtube#playlistItem",
@@ -1955,7 +2943,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "YE8BtUckLxc",
                 "videoPublishedAt": "2021-01-16T17:34:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "XHKNm-KJm2FGu4uVy6QQet5QIQ4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "JdQcPtld6EbDPrtXM69Ye-SgG4w",
+                        "id": "YE8BtUckLxc",
+                        "contentDetails": {
+                            "duration": "PT26M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M47S",
+            "durationSeconds": 1607
         },
         {
             "kind": "youtube#playlistItem",
@@ -2006,7 +3020,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "j2TNWi21s0A",
                 "videoPublishedAt": "2021-01-16T17:36:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gALJLVDc2htFrZB8j8oyFs_Ma4E",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vcczet0IkzteAeraChM9kaCmeoo",
+                        "id": "j2TNWi21s0A",
+                        "contentDetails": {
+                            "duration": "PT32M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M52S",
+            "durationSeconds": 1972
         },
         {
             "kind": "youtube#playlistItem",
@@ -2057,7 +3097,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "n61XO0sfRNo",
                 "videoPublishedAt": "2021-01-16T17:36:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ym8LCQB9sLN7HP9UnQSS7ODRxTw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "h2EKDoPWA46E3K5GdU42TObvVKI",
+                        "id": "n61XO0sfRNo",
+                        "contentDetails": {
+                            "duration": "PT32M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M52S",
+            "durationSeconds": 1972
         },
         {
             "kind": "youtube#playlistItem",
@@ -2108,7 +3174,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "bjP_SlTO9O0",
                 "videoPublishedAt": "2021-01-16T17:38:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_ZiCAyit_OFfqSG8UcQn5EXz3CI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yNOfnjvbITVPGVZYO-ei2Hit1hQ",
+                        "id": "bjP_SlTO9O0",
+                        "contentDetails": {
+                            "duration": "PT21M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M21S",
+            "durationSeconds": 1281
         },
         {
             "kind": "youtube#playlistItem",
@@ -2159,7 +3251,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "JobGfgGoRB0",
                 "videoPublishedAt": "2021-01-16T17:38:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xMEENG2X_Soy9M5BcqEYEfX2dpw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mhUqsGYsSCFpL_E4s-kuOVxsV4I",
+                        "id": "JobGfgGoRB0",
+                        "contentDetails": {
+                            "duration": "PT27M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M38S",
+            "durationSeconds": 1658
         },
         {
             "kind": "youtube#playlistItem",
@@ -2210,7 +3328,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "Cv8I-qboXDY",
                 "videoPublishedAt": "2021-01-11T01:43:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "O9y-yxLOGZFXjzaQBwyz1U9DBfY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "U3yKvvix--1IEZuaH7i6PO_hOAw",
+                        "id": "Cv8I-qboXDY",
+                        "contentDetails": {
+                            "duration": "PT14M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M2S",
+            "durationSeconds": 842
         },
         {
             "kind": "youtube#playlistItem",
@@ -2261,7 +3405,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "Y-qnKWrYJwk",
                 "videoPublishedAt": "2021-01-11T01:43:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tmPT4CZ2ZUzMMyRN4yqCdfLb8Wo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mo_Ksm5qRZ9U4NMmTfH1yKgHI3Y",
+                        "id": "Y-qnKWrYJwk",
+                        "contentDetails": {
+                            "duration": "PT5M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M34S",
+            "durationSeconds": 334
         },
         {
             "kind": "youtube#playlistItem",
@@ -2312,7 +3482,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "BdsnjJy350g",
                 "videoPublishedAt": "2021-01-11T01:43:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CzYUlvBZdWLxErEQWx48a46MGjc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "s6E5lxWwS0yZRo4gCsbOn5An50A",
+                        "id": "BdsnjJy350g",
+                        "contentDetails": {
+                            "duration": "PT12M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M47S",
+            "durationSeconds": 767
         },
         {
             "kind": "youtube#playlistItem",
@@ -2363,7 +3559,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "NbSWyJSrPn8",
                 "videoPublishedAt": "2021-01-11T01:43:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ojSFSW13DZC_SF5yjsI8Vxl2Tyk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "n5S8KEQF9801FB9cmQRxI7L5gF4",
+                        "id": "NbSWyJSrPn8",
+                        "contentDetails": {
+                            "duration": "PT19M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M40S",
+            "durationSeconds": 1180
         },
         {
             "kind": "youtube#playlistItem",
@@ -2414,7 +3636,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "Wnm3lp1sdNM",
                 "videoPublishedAt": "2021-01-11T01:43:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_9Xcd4XtFJ9ubx7lbU5oB8py4mo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2GcZOhQQ719B5Ybp761wCZBgq9o",
+                        "id": "Wnm3lp1sdNM",
+                        "contentDetails": {
+                            "duration": "PT15M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M59S",
+            "durationSeconds": 959
         },
         {
             "kind": "youtube#playlistItem",
@@ -2465,7 +3713,33 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "AjXWqDaGKSA",
                 "videoPublishedAt": "2021-01-11T01:43:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2esHZhXLDVLtR0ZlWDnMbyvtimA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Qu16lSQ5kXxNy20nYwtb3F3b3gs",
+                        "id": "AjXWqDaGKSA",
+                        "contentDetails": {
+                            "duration": "PT21M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M4S",
+            "durationSeconds": 1264
         },
         {
             "kind": "youtube#playlistItem",
@@ -2516,11 +3790,40 @@ export const GeometriaAnalitica = {
             "contentDetails": {
                 "videoId": "HPqtmIhXrOk",
                 "videoPublishedAt": "2021-01-11T01:43:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7HeAIzrLnVd1dHtYyOdJiMuEL-w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "C7RxBVKeDuF_eSKESemAhLAO9o0",
+                        "id": "HPqtmIhXrOk",
+                        "contentDetails": {
+                            "duration": "PT14M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M",
+            "durationSeconds": 840
         }
     ],
     "pageInfo": {
         "totalResults": 55,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 52108
     }
 }

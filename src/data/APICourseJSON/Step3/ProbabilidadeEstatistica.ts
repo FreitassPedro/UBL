@@ -1,4 +1,4 @@
-export const ProbabilidadeEstatistica = {
+export const probabilidadeEstatistica = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "1Qj2FqaaGALo5xfp9NzT8N2GRZY",
     "items": [
@@ -51,7 +51,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "snXf8YT7L3U",
                 "videoPublishedAt": "2021-04-28T15:11:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IDbJENSps7KB5mUm242byUa5-Kg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "W0LKfP0NfGsHR3nXSt7xTzMszwE",
+                        "id": "snXf8YT7L3U",
+                        "contentDetails": {
+                            "duration": "PT15M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M48S",
+            "durationSeconds": 948
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "u8Ltc5645Nk",
                 "videoPublishedAt": "2021-04-29T15:51:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QzVQaIH4FiOiM4RhtXuo2KnQxHE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6EAPA8B-f7N96fB5A-zJPDaBhOY",
+                        "id": "u8Ltc5645Nk",
+                        "contentDetails": {
+                            "duration": "PT28M55S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M55S",
+            "durationSeconds": 1735
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "YsZJzP1rs5U",
                 "videoPublishedAt": "2021-04-30T18:33:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Lko0zEcnBLCAwkUplNz1FebdWZM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oE8zoM9XAhUFkI55MQwGuUJGXJc",
+                        "id": "YsZJzP1rs5U",
+                        "contentDetails": {
+                            "duration": "PT27M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M54S",
+            "durationSeconds": 1674
         },
         {
             "kind": "youtube#playlistItem",
@@ -204,7 +282,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "8yuHqWVrQXk",
                 "videoPublishedAt": "2021-04-30T19:57:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-I0qp1vc5j0YRTjhRoxLWaS_t-w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "45x18bD4iX6u5jcnhn9dL1bE72A",
+                        "id": "8yuHqWVrQXk",
+                        "contentDetails": {
+                            "duration": "PT12M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M20S",
+            "durationSeconds": 740
         },
         {
             "kind": "youtube#playlistItem",
@@ -255,7 +359,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "LNIwcYjI2sc",
                 "videoPublishedAt": "2021-05-01T21:25:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QGonLm4FWLxB44dlEOX057amHE4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NOnX3ISm_LjmofTL594RLz8mz6U",
+                        "id": "LNIwcYjI2sc",
+                        "contentDetails": {
+                            "duration": "PT39M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M22S",
+            "durationSeconds": 2362
         },
         {
             "kind": "youtube#playlistItem",
@@ -306,7 +436,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "f6rTZHc98aU",
                 "videoPublishedAt": "2021-05-02T12:15:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uSqEIBP9u52rvFpJQi2d5nD6VEk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Sj9IaJeWd2b9jx72ND8bLfSAzNo",
+                        "id": "f6rTZHc98aU",
+                        "contentDetails": {
+                            "duration": "PT27M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M32S",
+            "durationSeconds": 1652
         },
         {
             "kind": "youtube#playlistItem",
@@ -357,7 +513,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "4lZDBkeZqis",
                 "videoPublishedAt": "2021-05-02T17:00:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jxMdnLKu-JsKqK4f-jBXCQypmTY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "RD-ZW1fiNp8cZ-RNc4DpAM8vVBQ",
+                        "id": "4lZDBkeZqis",
+                        "contentDetails": {
+                            "duration": "PT20M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M24S",
+            "durationSeconds": 1224
         },
         {
             "kind": "youtube#playlistItem",
@@ -408,7 +590,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "nons0GcdVqM",
                 "videoPublishedAt": "2021-05-03T20:15:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mOcJ8e4VTtbS8_15iO7JGty9hSs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "c1dfSm5UFvkclbF_giGMdELRrPY",
+                        "id": "nons0GcdVqM",
+                        "contentDetails": {
+                            "duration": "PT21M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M56S",
+            "durationSeconds": 1316
         },
         {
             "kind": "youtube#playlistItem",
@@ -459,7 +667,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "8z932KFK9dU",
                 "videoPublishedAt": "2021-05-04T21:00:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AzwT4kvFSLOR6NWJu0y8B7wHZAU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cL9m7Qk_i65Bs1mU3nM_axhhULQ",
+                        "id": "8z932KFK9dU",
+                        "contentDetails": {
+                            "duration": "PT32M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M50S",
+            "durationSeconds": 1970
         },
         {
             "kind": "youtube#playlistItem",
@@ -510,7 +744,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "QbQq3I4DVpM",
                 "videoPublishedAt": "2021-05-04T23:24:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MGcRgSU1GM2LO8PgLQMfmOtRo6Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "tffn-zMAm8QBrEjQxcUrC6T26ss",
+                        "id": "QbQq3I4DVpM",
+                        "contentDetails": {
+                            "duration": "PT46M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT46M53S",
+            "durationSeconds": 2813
         },
         {
             "kind": "youtube#playlistItem",
@@ -561,7 +821,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "FZcBwjXBKWk",
                 "videoPublishedAt": "2021-05-08T19:44:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "i_V3F1Di9fSIzTREJUsxYd-Pglo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "q5_NbgP58SEd5z6Z1SmgaTi62f4",
+                        "id": "FZcBwjXBKWk",
+                        "contentDetails": {
+                            "duration": "PT37M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT37M49S",
+            "durationSeconds": 2269
         },
         {
             "kind": "youtube#playlistItem",
@@ -612,7 +898,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "dWdyxWQrxAY",
                 "videoPublishedAt": "2021-05-09T01:40:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "XpIULV65pMmYRdqZzRu6Ks_OKek",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "x28r4FwUbt0Q4W91SKZQLRGHxhs",
+                        "id": "dWdyxWQrxAY",
+                        "contentDetails": {
+                            "duration": "PT28M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M47S",
+            "durationSeconds": 1727
         },
         {
             "kind": "youtube#playlistItem",
@@ -663,7 +975,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "0rPnzm7iklQ",
                 "videoPublishedAt": "2021-05-09T16:12:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8vSALFz_8OBSNx12yejIeTcIwgk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Fm-6150EOahO9XLT-rjFe5CY4RU",
+                        "id": "0rPnzm7iklQ",
+                        "contentDetails": {
+                            "duration": "PT21M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M9S",
+            "durationSeconds": 1269
         },
         {
             "kind": "youtube#playlistItem",
@@ -714,7 +1052,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "It1-TRv2Rzw",
                 "videoPublishedAt": "2021-05-10T18:48:59Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ifo82dR5Ji6jVvbb_c8_tZl_qbM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "sE4zL38nO1NqZSfetG-cZGQUU5U",
+                        "id": "It1-TRv2Rzw",
+                        "contentDetails": {
+                            "duration": "PT19M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M14S",
+            "durationSeconds": 1154
         },
         {
             "kind": "youtube#playlistItem",
@@ -765,7 +1129,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "L_c0EBLBEDE",
                 "videoPublishedAt": "2021-05-26T21:41:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FEqSE-6jZbJN3ybIyzLL_ztggfQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Dia8Nkx7avjSy86w5WlEL-UkhOE",
+                        "id": "L_c0EBLBEDE",
+                        "contentDetails": {
+                            "duration": "PT27M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M41S",
+            "durationSeconds": 1661
         },
         {
             "kind": "youtube#playlistItem",
@@ -816,7 +1206,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "DCfV3LV8NkE",
                 "videoPublishedAt": "2021-05-11T16:51:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "y9EoYQE4Ud4BgZ3ikvlphX5PVLc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TbNWYE3ImNkkkULgeYPjHL4m-rQ",
+                        "id": "DCfV3LV8NkE",
+                        "contentDetails": {
+                            "duration": "PT25M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M7S",
+            "durationSeconds": 1507
         },
         {
             "kind": "youtube#playlistItem",
@@ -867,7 +1283,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "bD8q4xbVCwI",
                 "videoPublishedAt": "2021-05-11T17:46:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zAJX-FRpXpTQw2GXqHXqxfLPYkc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2URLpiGk8tjrxcI5vR8ylbFmZ6o",
+                        "id": "bD8q4xbVCwI",
+                        "contentDetails": {
+                            "duration": "PT28M27S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M27S",
+            "durationSeconds": 1707
         },
         {
             "kind": "youtube#playlistItem",
@@ -918,7 +1360,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "WQOvHXIE-P8",
                 "videoPublishedAt": "2021-05-12T18:49:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "VP3m8TRF4J8GDHbUJ61u1tzM4HU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7shjZQ1ynnwHVnD8_AZ8PwHIApU",
+                        "id": "WQOvHXIE-P8",
+                        "contentDetails": {
+                            "duration": "PT10M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M51S",
+            "durationSeconds": 651
         },
         {
             "kind": "youtube#playlistItem",
@@ -969,7 +1437,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "5EyJARJ6bo4",
                 "videoPublishedAt": "2021-05-13T17:19:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MoexeO1oUHqNxfueIlSpkzq1wVA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5Q6f-7w5dBqVRbk4esTEqwIzYdU",
+                        "id": "5EyJARJ6bo4",
+                        "contentDetails": {
+                            "duration": "PT47M5S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT47M5S",
+            "durationSeconds": 2825
         },
         {
             "kind": "youtube#playlistItem",
@@ -1020,7 +1514,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "y2g-fzpmQkE",
                 "videoPublishedAt": "2021-05-13T21:00:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "HLsU3A_3lusJLEniyUfx2fUfNJ4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YKCM4CaJWVsshgOFfDssOh7kQwQ",
+                        "id": "y2g-fzpmQkE",
+                        "contentDetails": {
+                            "duration": "PT22M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M37S",
+            "durationSeconds": 1357
         },
         {
             "kind": "youtube#playlistItem",
@@ -1071,7 +1591,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "QrOaBB8bi3Q",
                 "videoPublishedAt": "2021-05-14T19:12:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "eJZl23U6nJLuQwkRyN7A-VutMkk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1pC_9Sl3FNi9A37KJXYxJmR8DLQ",
+                        "id": "QrOaBB8bi3Q",
+                        "contentDetails": {
+                            "duration": "PT14M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M4S",
+            "durationSeconds": 844
         },
         {
             "kind": "youtube#playlistItem",
@@ -1122,7 +1668,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "AB4wWER_wAI",
                 "videoPublishedAt": "2021-05-14T19:44:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1u1bTonR9_53If0X2niJ1Haa1p8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hEvmz0MyIBPDAgyjbcj3NbxBgTc",
+                        "id": "AB4wWER_wAI",
+                        "contentDetails": {
+                            "duration": "PT28M57S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M57S",
+            "durationSeconds": 1737
         },
         {
             "kind": "youtube#playlistItem",
@@ -1173,7 +1745,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "fDSsMtzu7Io",
                 "videoPublishedAt": "2021-05-15T23:21:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "b_6VI2pGUH7v1pxHbVDgbY8Gb6U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6gv3v62yv4yZKgykMmN-yXzHreg",
+                        "id": "fDSsMtzu7Io",
+                        "contentDetails": {
+                            "duration": "PT42M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT42M31S",
+            "durationSeconds": 2551
         },
         {
             "kind": "youtube#playlistItem",
@@ -1224,7 +1822,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "TV-8D20Ul78",
                 "videoPublishedAt": "2021-05-23T12:00:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ByYFqpLPelywiuWhw0iwipOeFrc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oUTeeJDHJWLN0XA_xDPTJQYS5Dw",
+                        "id": "TV-8D20Ul78",
+                        "contentDetails": {
+                            "duration": "PT30M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M51S",
+            "durationSeconds": 1851
         },
         {
             "kind": "youtube#playlistItem",
@@ -1275,7 +1899,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "vpL_E5nR4Dk",
                 "videoPublishedAt": "2021-05-23T16:46:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "VeLpRPBxjhPQUI3qTayo54N1dtU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wdGqE3ctcuRH4kOxTDdzBNjBaV4",
+                        "id": "vpL_E5nR4Dk",
+                        "contentDetails": {
+                            "duration": "PT26M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M37S",
+            "durationSeconds": 1597
         },
         {
             "kind": "youtube#playlistItem",
@@ -1326,7 +1976,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "3-Qc8ZTrFXI",
                 "videoPublishedAt": "2021-05-24T12:00:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "nxVnUweQ2wg5JtpqAPxZFun0w8U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "K-kjKIiSOVp_Zr93h4F-NnMXuF4",
+                        "id": "3-Qc8ZTrFXI",
+                        "contentDetails": {
+                            "duration": "PT25M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M16S",
+            "durationSeconds": 1516
         },
         {
             "kind": "youtube#playlistItem",
@@ -1377,7 +2053,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "eIwy6lyxS7Q",
                 "videoPublishedAt": "2021-05-27T22:08:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sLv_JTVMN5VMcSX3s59Hs6ixy50",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "B_oo5V8jUFsRkZic3E-_Fxz-FqI",
+                        "id": "eIwy6lyxS7Q",
+                        "contentDetails": {
+                            "duration": "PT26M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M51S",
+            "durationSeconds": 1611
         },
         {
             "kind": "youtube#playlistItem",
@@ -1428,7 +2130,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "vOMMwcRLtXw",
                 "videoPublishedAt": "2021-06-01T18:33:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "efSyIJBW_NxABvdOF2NZ6RAGhho",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "WSq6JYCJvOssOb80yWgiVLMBVQo",
+                        "id": "vOMMwcRLtXw",
+                        "contentDetails": {
+                            "duration": "PT20M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M28S",
+            "durationSeconds": 1228
         },
         {
             "kind": "youtube#playlistItem",
@@ -1479,7 +2207,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "NpEd2p2kb-s",
                 "videoPublishedAt": "2021-06-02T20:47:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "NrqY6zWexEIUh1Yy285h29xaroI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-UMPGgOb9rR-sXq_yaSgTpTruf0",
+                        "id": "NpEd2p2kb-s",
+                        "contentDetails": {
+                            "duration": "PT35M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M56S",
+            "durationSeconds": 2156
         },
         {
             "kind": "youtube#playlistItem",
@@ -1530,7 +2284,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "y5Q0nH0PXnM",
                 "videoPublishedAt": "2021-06-04T12:00:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JuhYMIf_aFB5QQnrtkDnhs7ayV0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fIS03ueALAtUWgJlPyC7qttCu6k",
+                        "id": "y5Q0nH0PXnM",
+                        "contentDetails": {
+                            "duration": "PT28M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M24S",
+            "durationSeconds": 1704
         },
         {
             "kind": "youtube#playlistItem",
@@ -1581,7 +2361,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "LWMJvwY-JCc",
                 "videoPublishedAt": "2021-06-04T20:08:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mUrRB8969OHXmluPaYGsER4VIq4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MFBKu6JPBB-LRmf76uE-p0IAi1c",
+                        "id": "LWMJvwY-JCc",
+                        "contentDetails": {
+                            "duration": "PT26M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M38S",
+            "durationSeconds": 1598
         },
         {
             "kind": "youtube#playlistItem",
@@ -1632,7 +2438,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "A10LYLm-NgQ",
                 "videoPublishedAt": "2021-06-11T01:33:59Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "u9GKCD7HFcFvAAB9adG-rK9cfuA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MkuxSgws7UOgZ-nsPScgvItxSCw",
+                        "id": "A10LYLm-NgQ",
+                        "contentDetails": {
+                            "duration": "PT59M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT59M25S",
+            "durationSeconds": 3565
         },
         {
             "kind": "youtube#playlistItem",
@@ -1683,7 +2515,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "IxPbPxyUUFA",
                 "videoPublishedAt": "2021-06-11T13:41:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Be0-AXr2o6jutDq_KSovZ0Wa_00",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "iogWTn4UCuSojTJznbgELgnhfmI",
+                        "id": "IxPbPxyUUFA",
+                        "contentDetails": {
+                            "duration": "PT18M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M22S",
+            "durationSeconds": 1102
         },
         {
             "kind": "youtube#playlistItem",
@@ -1734,7 +2592,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "hORgEga59EE",
                 "videoPublishedAt": "2021-06-12T18:42:59Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tznpt3p54LfRT8EZQgytYafKZ38",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "trbYgMkzRNaVBclOFfqjToIsQ8Q",
+                        "id": "hORgEga59EE",
+                        "contentDetails": {
+                            "duration": "PT18M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M8S",
+            "durationSeconds": 1088
         },
         {
             "kind": "youtube#playlistItem",
@@ -1785,7 +2669,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "3NrjXOWkKLs",
                 "videoPublishedAt": "2021-06-20T12:38:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vKjjJhcjDxPg0KgT_sKeJxwQlV8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ziXW72PJJFTms5wExKBSQLtTJ5Q",
+                        "id": "3NrjXOWkKLs",
+                        "contentDetails": {
+                            "duration": "PT41M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT41M58S",
+            "durationSeconds": 2518
         },
         {
             "kind": "youtube#playlistItem",
@@ -1836,7 +2746,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "YV_Q-cKfbyE",
                 "videoPublishedAt": "2021-06-20T16:46:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DC5QIHjn65S-dVCm93b4KYxLi38",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YrwK9zLfFk6uc_M0asy4ldPalaE",
+                        "id": "YV_Q-cKfbyE",
+                        "contentDetails": {
+                            "duration": "PT22M13S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M13S",
+            "durationSeconds": 1333
         },
         {
             "kind": "youtube#playlistItem",
@@ -1887,7 +2823,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "bZp5th6rb-w",
                 "videoPublishedAt": "2021-06-25T16:02:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Rww6UVtmzGvnYuDM3cnm-3ZnQ7g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Wxhvi-7It_KxJfCAlbF_RDzUKw0",
+                        "id": "bZp5th6rb-w",
+                        "contentDetails": {
+                            "duration": "PT19M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M51S",
+            "durationSeconds": 1191
         },
         {
             "kind": "youtube#playlistItem",
@@ -1938,7 +2900,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "jbMlDSz8RGg",
                 "videoPublishedAt": "2021-06-19T01:50:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "c9QW15-2ULNEf3oOR7y-EPmiZsY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "VP1QU-uwfL_jBGgZ6c785RKcuXY",
+                        "id": "jbMlDSz8RGg",
+                        "contentDetails": {
+                            "duration": "PT2H39M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H39M10S",
+            "durationSeconds": 9550
         },
         {
             "kind": "youtube#playlistItem",
@@ -1989,7 +2977,33 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "c7EnpLmbpoc",
                 "videoPublishedAt": "2021-06-24T02:00:12Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QXXlxEcKSF3LMjgbq1rd-t5vlWs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "AxWSL2nwRBTNOGgdJes8N4nZRLc",
+                        "id": "c7EnpLmbpoc",
+                        "contentDetails": {
+                            "duration": "PT37M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT37M9S",
+            "durationSeconds": 2229
         },
         {
             "kind": "youtube#playlistItem",
@@ -2040,11 +3054,40 @@ export const ProbabilidadeEstatistica = {
             "contentDetails": {
                 "videoId": "PXQfMpuGxJg",
                 "videoPublishedAt": "2021-06-25T02:00:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5UNoxNee2Dt6KuuptQfI5SmBpxw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "54s_5c0ilp7HzJWxi6giwLScPqA",
+                        "id": "PXQfMpuGxJg",
+                        "contentDetails": {
+                            "duration": "PT38M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT38M14S",
+            "durationSeconds": 2294
         }
     ],
     "pageInfo": {
         "totalResults": 40,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 75824
     }
 }

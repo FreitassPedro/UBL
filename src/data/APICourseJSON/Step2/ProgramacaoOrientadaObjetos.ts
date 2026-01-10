@@ -1,4 +1,4 @@
-export const ProgramacaoOrientadaObjeto = {
+export const programacaoOrientadaObjetos = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "i_NwMFCbu3-FDJF2vblN2HbcaWU",
     "items": [
@@ -51,7 +51,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "lSx_1SSUaoE",
                 "videoPublishedAt": "2024-12-16T21:28:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8EE5FoZCUcETxbOpMCl1wccwdf8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-4ZYjQjVuwgfrK4cSH8aIUVy7Qw",
+                        "id": "lSx_1SSUaoE",
+                        "contentDetails": {
+                            "duration": "PT1M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1M36S",
+            "durationSeconds": 96
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "qqF3okCnONk",
                 "videoPublishedAt": "2020-10-22T20:51:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Njd5Ax5MGWKZ4YBvpIXzN2XxvX8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "A64DQO80ewHPb8k6NgwXIgqlVsU",
+                        "id": "qqF3okCnONk",
+                        "contentDetails": {
+                            "duration": "PT6M10S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M10S",
+            "durationSeconds": 370
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "IfWZRrgMWnc",
                 "videoPublishedAt": "2020-10-22T21:06:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7GpBo0o8_N9b9mfUpiLPhhhzQx4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "et_dYGxuR-ZTupeY48O8WuLMCD0",
+                        "id": "IfWZRrgMWnc",
+                        "contentDetails": {
+                            "duration": "PT12M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M18S",
+            "durationSeconds": 738
         },
         {
             "kind": "youtube#playlistItem",
@@ -204,7 +282,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "9wxsdhNVLqE",
                 "videoPublishedAt": "2020-10-22T21:04:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "SKK-XWTBJapyKLKy0fnBR4XHRj8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Udn8hZTphBuepAGDQZ2lVNcV_cE",
+                        "id": "9wxsdhNVLqE",
+                        "contentDetails": {
+                            "duration": "PT4M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M33S",
+            "durationSeconds": 273
         },
         {
             "kind": "youtube#playlistItem",
@@ -250,7 +354,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "SDFbmyRGkN8",
                 "videoPublishedAt": "2020-10-22T21:05:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AXtGUaBzaiP5gVOUqfbCZk2PIAE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-MlHaPcIm10nO9w3W5uPr2dgiUQ",
+                        "id": "SDFbmyRGkN8",
+                        "contentDetails": {
+                            "duration": "PT5M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M53S",
+            "durationSeconds": 353
         },
         {
             "kind": "youtube#playlistItem",
@@ -301,7 +431,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "XZ2-1Qd4XJ0",
                 "videoPublishedAt": "2020-03-17T19:07:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Ygb63a4P6Z7trnPwvY7BuPxBz5I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "w51RQ1sZtgS-4wf2lKXAhhZAvXI",
+                        "id": "XZ2-1Qd4XJ0",
+                        "contentDetails": {
+                            "duration": "PT19M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M26S",
+            "durationSeconds": 1166
         },
         {
             "kind": "youtube#playlistItem",
@@ -352,7 +508,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "RiYpWM74BmY",
                 "videoPublishedAt": "2020-03-19T00:07:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QSZa4QtDmXLl9t61zmMgpUixokE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "d5rFg7W6K6aN5_HbyCSraTwGMUA",
+                        "id": "RiYpWM74BmY",
+                        "contentDetails": {
+                            "duration": "PT16M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M19S",
+            "durationSeconds": 979
         },
         {
             "kind": "youtube#playlistItem",
@@ -403,7 +585,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "PxWTMQg3ggU",
                 "videoPublishedAt": "2020-03-20T01:00:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GONcquzdoF9WhH6R-sru3K6XDvw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "J0rjVO1RdZpmrfCD4ElEwEMOm4c",
+                        "id": "PxWTMQg3ggU",
+                        "contentDetails": {
+                            "duration": "PT24M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M28S",
+            "durationSeconds": 1468
         },
         {
             "kind": "youtube#playlistItem",
@@ -454,7 +662,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "54ot7oF40vA",
                 "videoPublishedAt": "2020-03-23T21:31:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4ux9vosZAtSBl0gNsGEMLJONAYE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "I-Hx_6P9ih53huGUlck5A5R-y3s",
+                        "id": "54ot7oF40vA",
+                        "contentDetails": {
+                            "duration": "PT20M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M19S",
+            "durationSeconds": 1219
         },
         {
             "kind": "youtube#playlistItem",
@@ -505,7 +739,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "bVZ_hh8-G6o",
                 "videoPublishedAt": "2020-03-23T21:48:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mUISHTJcZcRlFIHKyexuWK_dgjo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MvMw4h2-qr2BZqDIG4kKlM56QSs",
+                        "id": "bVZ_hh8-G6o",
+                        "contentDetails": {
+                            "duration": "PT15M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M59S",
+            "durationSeconds": 959
         },
         {
             "kind": "youtube#playlistItem",
@@ -556,7 +816,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "lXSdxd2vipw",
                 "videoPublishedAt": "2020-03-26T16:16:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1ayY2zcVQsE6oQbqMcP4Ha881Lo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CVzOuUCqRtMrzGfdD20HC4uJY7A",
+                        "id": "lXSdxd2vipw",
+                        "contentDetails": {
+                            "duration": "PT30M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M8S",
+            "durationSeconds": 1808
         },
         {
             "kind": "youtube#playlistItem",
@@ -607,7 +893,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "xSKOXV2bNtw",
                 "videoPublishedAt": "2020-04-02T01:43:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Y7aj2ygmwgjPPiGnSBdKoayZHdA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "VDvVzhqX4_wd7aD8kA5OvogbWYU",
+                        "id": "xSKOXV2bNtw",
+                        "contentDetails": {
+                            "duration": "PT13M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M38S",
+            "durationSeconds": 818
         },
         {
             "kind": "youtube#playlistItem",
@@ -658,7 +970,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "IhwGgY0FZgY",
                 "videoPublishedAt": "2020-04-01T21:23:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "kj68AdLriD_HGHP4G__nquiPPNI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ETqK0f7FiKseAw6ENGta7KpaiYQ",
+                        "id": "IhwGgY0FZgY",
+                        "contentDetails": {
+                            "duration": "PT27M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M6S",
+            "durationSeconds": 1626
         },
         {
             "kind": "youtube#playlistItem",
@@ -709,7 +1047,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "2IfQ9-W6SDs",
                 "videoPublishedAt": "2020-04-16T00:18:28Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vt-YmvKYQIjp_p_P3_JGCbFdr-A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bsgK2tdhxWhi5sKyqIvZFvZ_Dq0",
+                        "id": "2IfQ9-W6SDs",
+                        "contentDetails": {
+                            "duration": "PT13M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M19S",
+            "durationSeconds": 799
         },
         {
             "kind": "youtube#playlistItem",
@@ -760,7 +1124,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "05KcMNiEzgk",
                 "videoPublishedAt": "2020-04-16T00:20:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "UKxWkrg-NTCEIhMY9ocCljE5x4A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FHaT_j99pzeYf65CD-JCvNnDdsk",
+                        "id": "05KcMNiEzgk",
+                        "contentDetails": {
+                            "duration": "PT13M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M34S",
+            "durationSeconds": 814
         },
         {
             "kind": "youtube#playlistItem",
@@ -811,7 +1201,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "gO5pvSOLpZk",
                 "videoPublishedAt": "2020-04-15T02:36:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CddbGKEs91mvJyFVWfw7PlhcPGU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1N_BTI4BtlnFJBpNevbI9FpU2Lc",
+                        "id": "gO5pvSOLpZk",
+                        "contentDetails": {
+                            "duration": "PT32M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "true",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M31S",
+            "durationSeconds": 1951
         },
         {
             "kind": "youtube#playlistItem",
@@ -862,7 +1278,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "nF91m1sSkW8",
                 "videoPublishedAt": "2020-04-22T16:45:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "59abGM-lt563Cm6LXFr1cTGUB1s",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "IbbswrJg6tkahmjz2GuPcfkTQbw",
+                        "id": "nF91m1sSkW8",
+                        "contentDetails": {
+                            "duration": "PT16M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M6S",
+            "durationSeconds": 966
         },
         {
             "kind": "youtube#playlistItem",
@@ -908,7 +1350,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "glRKfsJStPY",
                 "videoPublishedAt": "2020-04-23T20:43:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "biOKPAte569DKso0FW7Ng38LzNI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fDXlVPBn1l0WM0XYEFyfLaXd4Kg",
+                        "id": "glRKfsJStPY",
+                        "contentDetails": {
+                            "duration": "PT15M55S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M55S",
+            "durationSeconds": 955
         },
         {
             "kind": "youtube#playlistItem",
@@ -959,7 +1427,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "vY6r2s4rZyk",
                 "videoPublishedAt": "2020-05-01T19:32:08Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "shjZNvvvrWUR0a34BWNFS7SOK_Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EcWLke0xnQPaZ0uuUpEvxS7NF9M",
+                        "id": "vY6r2s4rZyk",
+                        "contentDetails": {
+                            "duration": "PT9M50S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M50S",
+            "durationSeconds": 590
         },
         {
             "kind": "youtube#playlistItem",
@@ -1005,7 +1499,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "75nZ8IUfMPE",
                 "videoPublishedAt": "2020-05-01T21:50:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OVc5v1HBDCCIzwYo-RYNm5l_zzM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hbCxHskHi0e11gSRBTxJOJI8ZG0",
+                        "id": "75nZ8IUfMPE",
+                        "contentDetails": {
+                            "duration": "PT20M32S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M32S",
+            "durationSeconds": 1232
         },
         {
             "kind": "youtube#playlistItem",
@@ -1051,7 +1571,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "qTYj8au-SOs",
                 "videoPublishedAt": "2020-05-01T21:58:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "02qU0JQqfU5O0vY8zCWWlmuYLkQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YOVe5Jk3D6FJ1xvekEBA_NVC-bk",
+                        "id": "qTYj8au-SOs",
+                        "contentDetails": {
+                            "duration": "PT11M21S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M21S",
+            "durationSeconds": 681
         },
         {
             "kind": "youtube#playlistItem",
@@ -1102,7 +1648,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "Z93dSsQzuCI",
                 "videoPublishedAt": "2020-05-07T15:47:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LfoaG8hLNdMKUPFGMtT-Vm590xc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "S2Jesx4KEq-k5IkxMqc1ur8tBE4",
+                        "id": "Z93dSsQzuCI",
+                        "contentDetails": {
+                            "duration": "PT14M21S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M21S",
+            "durationSeconds": 861
         },
         {
             "kind": "youtube#playlistItem",
@@ -1153,7 +1725,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "Q6tz2RFbnN0",
                 "videoPublishedAt": "2020-05-07T20:57:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "nQEk9yGZqUMZhoihPGBkG4ypY5o",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pQ6iVVxCCJd0iJawnHXZTQx-8bE",
+                        "id": "Q6tz2RFbnN0",
+                        "contentDetails": {
+                            "duration": "PT18M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M24S",
+            "durationSeconds": 1104
         },
         {
             "kind": "youtube#playlistItem",
@@ -1204,7 +1802,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "7FjYfFp2llw",
                 "videoPublishedAt": "2020-05-15T18:05:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "UBdYZ7hV5X6h40JoNKQY-JkQQe4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YIh18qgIzpujpKYJGevhH5u9xbI",
+                        "id": "7FjYfFp2llw",
+                        "contentDetails": {
+                            "duration": "PT1H31M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H31M40S",
+            "durationSeconds": 5500
         },
         {
             "kind": "youtube#playlistItem",
@@ -1250,7 +1874,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "Rc_3oxrR0Xc",
                 "videoPublishedAt": "2020-05-18T22:15:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "moien9Sh78_3qNRtUME2R5m28Co",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vXcry9XakmQjiJY21n_purFoNf4",
+                        "id": "Rc_3oxrR0Xc",
+                        "contentDetails": {
+                            "duration": "PT10M29S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M29S",
+            "durationSeconds": 629
         },
         {
             "kind": "youtube#playlistItem",
@@ -1296,7 +1946,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "SpWtH03rBfE",
                 "videoPublishedAt": "2020-05-21T16:26:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Q31gMTgn0JXKsNDo_e6zKEofwbA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ABVBniy-zszXnQFDUm-B5VeIkZQ",
+                        "id": "SpWtH03rBfE",
+                        "contentDetails": {
+                            "duration": "PT11M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M26S",
+            "durationSeconds": 686
         },
         {
             "kind": "youtube#playlistItem",
@@ -1342,7 +2018,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "q66ecXk1Mgc",
                 "videoPublishedAt": "2020-05-21T21:05:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "o3AJSlTfbuOo3C2yBOS6nkkSt9s",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-gjiFQhKdfoJG1VpjuGyjrrwWbs",
+                        "id": "q66ecXk1Mgc",
+                        "contentDetails": {
+                            "duration": "PT12M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M24S",
+            "durationSeconds": 744
         },
         {
             "kind": "youtube#playlistItem",
@@ -1388,7 +2090,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "SfKqm0QGxkw",
                 "videoPublishedAt": "2020-06-04T15:28:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "KBXUadpEsmUQuL9As_0mHlP0LUc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "sFYRaF4wBGnn-8p0-t3x1JDw6sM",
+                        "id": "SfKqm0QGxkw",
+                        "contentDetails": {
+                            "duration": "PT7M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M50S",
+            "durationSeconds": 470
         },
         {
             "kind": "youtube#playlistItem",
@@ -1434,7 +2162,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "MXA3aI7Er74",
                 "videoPublishedAt": "2020-06-22T17:59:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rUNXb5Feoee0IRR28IsEIJhxCps",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "D_q656nk1s4JSmXorib_bZkr6to",
+                        "id": "MXA3aI7Er74",
+                        "contentDetails": {
+                            "duration": "PT1H14M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H14M33S",
+            "durationSeconds": 4473
         },
         {
             "kind": "youtube#playlistItem",
@@ -1480,7 +2234,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "kBkAkfOghIE",
                 "videoPublishedAt": "2020-06-04T20:04:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FAUmWez68n44-wakAQsoujbAObc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0YbilpRt7vn6sa7rYP81aKItg1A",
+                        "id": "kBkAkfOghIE",
+                        "contentDetails": {
+                            "duration": "PT9M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M50S",
+            "durationSeconds": 590
         },
         {
             "kind": "youtube#playlistItem",
@@ -1526,7 +2306,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "cFlpzS8hkXg",
                 "videoPublishedAt": "2020-06-04T21:23:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GuPKabgbtZQZ8orjHALFS3MZu4I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "DyE90eUsif7B4d615eSUQLFCRUg",
+                        "id": "cFlpzS8hkXg",
+                        "contentDetails": {
+                            "duration": "PT23M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M26S",
+            "durationSeconds": 1406
         },
         {
             "kind": "youtube#playlistItem",
@@ -1572,7 +2378,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "t1NO3gsYY9M",
                 "videoPublishedAt": "2021-02-12T12:38:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vpQvk7qX4pJninCN7k1Nk7_XKx4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "DB0PZ6scb-QebhvCOrFoyxkPTA0",
+                        "id": "t1NO3gsYY9M",
+                        "contentDetails": {
+                            "duration": "PT1M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1M58S",
+            "durationSeconds": 118
         },
         {
             "kind": "youtube#playlistItem",
@@ -1623,7 +2455,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "m_hnj1wcd_8",
                 "videoPublishedAt": "2020-06-19T01:29:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cK_ca0Idi9lks3UTIjSTYxiok68",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "RIK_TZ4_VWomtMP0yHE_bjYh88k",
+                        "id": "m_hnj1wcd_8",
+                        "contentDetails": {
+                            "duration": "PT26M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M24S",
+            "durationSeconds": 1584
         },
         {
             "kind": "youtube#playlistItem",
@@ -1674,7 +2532,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "uVDJYFDA9us",
                 "videoPublishedAt": "2020-07-12T15:47:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "q2GX_BHsVecXTefNPADhzVRybxY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Rf3RVdm1_nBk6RgDUuVdJWZ8t2Q",
+                        "id": "uVDJYFDA9us",
+                        "contentDetails": {
+                            "duration": "PT15M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M56S",
+            "durationSeconds": 956
         },
         {
             "kind": "youtube#playlistItem",
@@ -1725,7 +2609,33 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "tBxjacxRshE",
                 "videoPublishedAt": "2020-11-23T17:39:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vEFTTafl_aQo6zWdlJqh4ybLPoQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MSmxMJergmd_7bIWmwzTH3djKmE",
+                        "id": "tBxjacxRshE",
+                        "contentDetails": {
+                            "duration": "PT13M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M30S",
+            "durationSeconds": 810
         },
         {
             "kind": "youtube#playlistItem",
@@ -1776,11 +2686,40 @@ export const ProgramacaoOrientadaObjeto = {
             "contentDetails": {
                 "videoId": "Wg7b5I7Q2Ng",
                 "videoPublishedAt": "2021-03-11T14:24:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7VEu1AnSSzF0pv5hesF-cE7Q54M",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "PZ3PzNEdM5ZqE39vgkFvly-mP2w",
+                        "id": "Wg7b5I7Q2Ng",
+                        "contentDetails": {
+                            "duration": "PT22M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M",
+            "durationSeconds": 1320
         }
     ],
     "pageInfo": {
         "totalResults": 36,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 41112
     }
 }

@@ -1,4 +1,4 @@
-export const TeoriaDosGrafos = {
+export const teoriaDosGrafos = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "gQYZVIvmYVd_S7ufhRPstiCtHwE",
     "items": [
@@ -46,7 +46,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "kfHqZLYHfHU",
                 "videoPublishedAt": "2021-05-17T23:36:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4RxPyHKWF4FwC79ESLUPPYj7ldY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o9jPToolNhiBR_62Hmu6nqH-0YE",
+                        "id": "kfHqZLYHfHU",
+                        "contentDetails": {
+                            "duration": "PT29M29S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M29S",
+            "durationSeconds": 1769
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "MSBZD6iMzcU",
                 "videoPublishedAt": "2021-05-18T01:06:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "b0jIymACJUd7PQrlx1uEWNrpT0c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ac41RDoAVEmu4bPxF9CTCbED7fg",
+                        "id": "MSBZD6iMzcU",
+                        "contentDetails": {
+                            "duration": "PT53M47S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT53M47S",
+            "durationSeconds": 3227
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "xfV1lRWHG8w",
                 "videoPublishedAt": "2021-05-25T00:34:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_YKBC-g4_miwzXe-_58X9Lsy-b0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "X_SCha6Ufw5X16Kk-d2WRfgY0bY",
+                        "id": "xfV1lRWHG8w",
+                        "contentDetails": {
+                            "duration": "PT1H24M10S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H24M10S",
+            "durationSeconds": 5050
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "eh0-yaat5uA",
                 "videoPublishedAt": "2021-05-25T01:46:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "A6IGvXap0AGwIBgHAwzTRfsTyuI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2pY-P18kQ0NJxyNmrdYXvSJ_9B0",
+                        "id": "eh0-yaat5uA",
+                        "contentDetails": {
+                            "duration": "PT1H19M3S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H19M3S",
+            "durationSeconds": 4743
         },
         {
             "kind": "youtube#playlistItem",
@@ -235,7 +339,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "Hxud9h7oU_Y",
                 "videoPublishedAt": "2020-08-12T06:38:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mbT8W857fAdDojHrF8z3ujv2Aro",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "T2TjYy-rvSrALZp7GyYiAkuj2Lw",
+                        "id": "Hxud9h7oU_Y",
+                        "contentDetails": {
+                            "duration": "PT1H20M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H20M33S",
+            "durationSeconds": 4833
         },
         {
             "kind": "youtube#playlistItem",
@@ -286,7 +416,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "BTdB-l_B6bY",
                 "videoPublishedAt": "2020-08-18T00:34:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_aSl0mzrKzJCkvvT_CWr5dwDDRc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bjmD_sOQ8LVW1PUrfejtKM8l5Hg",
+                        "id": "BTdB-l_B6bY",
+                        "contentDetails": {
+                            "duration": "PT1H20M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H20M1S",
+            "durationSeconds": 4801
         },
         {
             "kind": "youtube#playlistItem",
@@ -332,7 +488,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "zrb-uyP9btw",
                 "videoPublishedAt": "2021-06-15T18:01:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IVnmK60hnUDGWTB-xvF3pKXixLE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TBfouFfJLt6bBIDIn5PIaDy8yOk",
+                        "id": "zrb-uyP9btw",
+                        "contentDetails": {
+                            "duration": "PT34M29S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M29S",
+            "durationSeconds": 2069
         },
         {
             "kind": "youtube#playlistItem",
@@ -378,7 +560,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "yMe8iih9F-0",
                 "videoPublishedAt": "2021-06-18T02:59:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "G2LCN3TCGikzsY2xfqEaGsDgXPM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "U_dIgMrbz8xHI9HYgZO6MEC3h6s",
+                        "id": "yMe8iih9F-0",
+                        "contentDetails": {
+                            "duration": "PT50M54S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT50M54S",
+            "durationSeconds": 3054
         },
         {
             "kind": "youtube#playlistItem",
@@ -429,7 +637,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "rnf77nX5DLk",
                 "videoPublishedAt": "2020-08-26T06:42:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ZTPtApXD8SKGus2w2Eh4lRsjWhc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5rIIzBgzs4XX3PYrHesVWVR7Fhc",
+                        "id": "rnf77nX5DLk",
+                        "contentDetails": {
+                            "duration": "PT1H17M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H17M36S",
+            "durationSeconds": 4656
         },
         {
             "kind": "youtube#playlistItem",
@@ -480,7 +714,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "rQgRnsUJn7g",
                 "videoPublishedAt": "2020-09-17T15:57:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "oOcm0HTquIFypfR-YtGmZpIVXmE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vb44GfGSVYlKmrM59HzoX4qrilk",
+                        "id": "rQgRnsUJn7g",
+                        "contentDetails": {
+                            "duration": "PT1H25M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H25M38S",
+            "durationSeconds": 5138
         },
         {
             "kind": "youtube#playlistItem",
@@ -531,7 +791,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "hquYJqE8Fks",
                 "videoPublishedAt": "2020-09-17T15:58:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PQHbQbKP4QIqnTMt9wgoIQ_hlEg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BzmlmsJWOnI1__I-gzQpf5-hmVo",
+                        "id": "hquYJqE8Fks",
+                        "contentDetails": {
+                            "duration": "PT1H26M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H26M20S",
+            "durationSeconds": 5180
         },
         {
             "kind": "youtube#playlistItem",
@@ -582,7 +868,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "aE1myOftLzU",
                 "videoPublishedAt": "2020-10-01T16:12:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Vk3BNyklUiCImEzZ1hk4fAP8E-0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YRuWAfbdIiSmW37jvQM9U6uLqnQ",
+                        "id": "aE1myOftLzU",
+                        "contentDetails": {
+                            "duration": "PT1H2M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M6S",
+            "durationSeconds": 3726
         },
         {
             "kind": "youtube#playlistItem",
@@ -633,7 +945,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "AFgnr9m5ebs",
                 "videoPublishedAt": "2020-10-01T16:14:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "TKlwYMpJBc8iZsSYN6oKYxGfoGQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TPNOlAlggwInUzICzX55ETDSwgY",
+                        "id": "AFgnr9m5ebs",
+                        "contentDetails": {
+                            "duration": "PT1H19M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H19M14S",
+            "durationSeconds": 4754
         },
         {
             "kind": "youtube#playlistItem",
@@ -684,7 +1022,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "O5Gsn4627nA",
                 "videoPublishedAt": "2020-10-01T16:15:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pD8bWiuiDOv_Tm20jUyUrXsbLsU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-sTFumjfK7NG3xq7zouW1aTBguA",
+                        "id": "O5Gsn4627nA",
+                        "contentDetails": {
+                            "duration": "PT1H29M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H29M47S",
+            "durationSeconds": 5387
         },
         {
             "kind": "youtube#playlistItem",
@@ -735,7 +1099,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "n4CXSFH-Hzk",
                 "videoPublishedAt": "2020-10-02T06:09:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "on4Dn2Si_z-rApdk9uKuK7DtjeE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3yzhK8jDWSfZ02U0VAqouT946Ko",
+                        "id": "n4CXSFH-Hzk",
+                        "contentDetails": {
+                            "duration": "PT55M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT55M50S",
+            "durationSeconds": 3350
         },
         {
             "kind": "youtube#playlistItem",
@@ -786,7 +1176,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "z0gZvl0OS2s",
                 "videoPublishedAt": "2020-10-17T01:14:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gqCC5jExQJGfM10h6VMfqbw1zfg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o0GTnXibhYmY_vG90A6FBdDLzYQ",
+                        "id": "z0gZvl0OS2s",
+                        "contentDetails": {
+                            "duration": "PT1H29M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H29M14S",
+            "durationSeconds": 5354
         },
         {
             "kind": "youtube#playlistItem",
@@ -837,7 +1253,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "alh-cDkLCMY",
                 "videoPublishedAt": "2020-10-17T01:12:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lFKVD0w5jDIh4LIy18zcy_Nh-G0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HswfliWxvh0lsUQ3YydofoR--HE",
+                        "id": "alh-cDkLCMY",
+                        "contentDetails": {
+                            "duration": "PT1H40M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H40M9S",
+            "durationSeconds": 6009
         },
         {
             "kind": "youtube#playlistItem",
@@ -878,7 +1320,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "G-g_OrwTLLE",
                 "videoPublishedAt": "2021-08-11T08:00:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0ZyuI1_ZgZsf7knLMTKaCM6tAqY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LwsU66NWjmZbL5pUNO4cg0RWeSg",
+                        "id": "G-g_OrwTLLE",
+                        "contentDetails": {
+                            "duration": "PT1H20M55S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H20M55S",
+            "durationSeconds": 4855
         },
         {
             "kind": "youtube#playlistItem",
@@ -929,7 +1397,33 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "r5-W1vfvvlo",
                 "videoPublishedAt": "2020-10-21T23:37:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "938k8LuSUewl6SjKLv1MyoCF3o8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QGwl4ykqkTg48_nO-kw6CcHZMUs",
+                        "id": "r5-W1vfvvlo",
+                        "contentDetails": {
+                            "duration": "PT1H20M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H20M58S",
+            "durationSeconds": 4858
         },
         {
             "kind": "youtube#playlistItem",
@@ -980,11 +1474,40 @@ export const TeoriaDosGrafos = {
             "contentDetails": {
                 "videoId": "KugIBFi6E9s",
                 "videoPublishedAt": "2020-11-22T19:14:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_Tc7X1qbsUHGRq8HfBDBgYqjI-E",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yR1vwkbt8am0Xr6dGxOK5RKD6W4",
+                        "id": "KugIBFi6E9s",
+                        "contentDetails": {
+                            "duration": "PT1H22M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H22M20S",
+            "durationSeconds": 4940
         }
     ],
     "pageInfo": {
         "totalResults": 20,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 87753
     }
 }

@@ -1,4 +1,4 @@
-export const Compiladores = {
+export const compiladores = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "-7_QuX4s3qG4voGtq-YHADoBx4A",
     "items": [
@@ -51,7 +51,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "jgI711CrnnY",
                 "videoPublishedAt": "2022-02-17T06:12:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rxknxEIufhbUsvzX5uX1LE0ON7I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GFnW28MiPC8es3zZtAiZ2-EGVyM",
+                        "id": "jgI711CrnnY",
+                        "contentDetails": {
+                            "duration": "PT1H8M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H8M34S",
+            "durationSeconds": 4114
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "Q5lLGCOSYIk",
                 "videoPublishedAt": "2021-02-24T06:46:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "93xXFFrCzA8q24ZD6v1XnTbG88c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LuJB3YULTkJkpqm5pELshZ4Ey4w",
+                        "id": "Q5lLGCOSYIk",
+                        "contentDetails": {
+                            "duration": "PT1H18M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H18M52S",
+            "durationSeconds": 4732
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "JJmf1wlNGeQ",
                 "videoPublishedAt": "2021-02-25T19:03:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "6YesS2Z0o0FR-pUzBMT6FtDERvk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "y3ys_SB-nSNBGOCWoZsJ6jyvhZ8",
+                        "id": "JJmf1wlNGeQ",
+                        "contentDetails": {
+                            "duration": "PT2H11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H11S",
+            "durationSeconds": 7211
         },
         {
             "kind": "youtube#playlistItem",
@@ -204,7 +282,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "7WrTl_MaLk8",
                 "videoPublishedAt": "2021-03-03T06:33:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bJC58OLZl9aQjYlaNYx0qFj9XQc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MOn_3bQB5rNpWhYTvr2p1o4o_rE",
+                        "id": "7WrTl_MaLk8",
+                        "contentDetails": {
+                            "duration": "PT1H33M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H33M25S",
+            "durationSeconds": 5605
         },
         {
             "kind": "youtube#playlistItem",
@@ -255,7 +359,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "6k2i710Agh8",
                 "videoPublishedAt": "2021-03-05T06:48:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7Iw6XF7B1MzRM_MYevNl6EpfMv8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mZynAlp0m7lo5Ofy__T7u0UFodE",
+                        "id": "6k2i710Agh8",
+                        "contentDetails": {
+                            "duration": "PT1H57M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H57M20S",
+            "durationSeconds": 7040
         },
         {
             "kind": "youtube#playlistItem",
@@ -306,7 +436,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "FE5QwYEADak",
                 "videoPublishedAt": "2021-03-10T06:35:54Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "baXcOark2cz4BLqBK62z74hF2iM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kLIr7FUXoogsblHxdXV7fER7ONQ",
+                        "id": "FE5QwYEADak",
+                        "contentDetails": {
+                            "duration": "PT1H37M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H37M18S",
+            "durationSeconds": 5838
         },
         {
             "kind": "youtube#playlistItem",
@@ -357,7 +513,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "OOx6f8jD4_k",
                 "videoPublishedAt": "2021-03-12T06:32:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FITGJN3KCBM5EurHSEqbYlYU8lk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "N6oZ9WRzUNET12OJsVAjJCnFWcQ",
+                        "id": "OOx6f8jD4_k",
+                        "contentDetails": {
+                            "duration": "PT1H21M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H21M28S",
+            "durationSeconds": 4888
         },
         {
             "kind": "youtube#playlistItem",
@@ -408,7 +590,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "gzY-CTY4msg",
                 "videoPublishedAt": "2021-03-17T06:49:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gNjb_CA3qHHg7Pi5vyc5-6mu35I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "U1oYgrsm9sk8ZNK6pMpHj1LViEM",
+                        "id": "gzY-CTY4msg",
+                        "contentDetails": {
+                            "duration": "PT1H49M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H49M32S",
+            "durationSeconds": 6572
         },
         {
             "kind": "youtube#playlistItem",
@@ -459,7 +667,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "XzxafZl3dZo",
                 "videoPublishedAt": "2021-03-19T06:53:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2zqX3SjoLSQ69snhJy07TTK2Uog",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "aSLMLaWSrFBs2foYK0c3YxWyex4",
+                        "id": "XzxafZl3dZo",
+                        "contentDetails": {
+                            "duration": "PT1H54M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H54M2S",
+            "durationSeconds": 6842
         },
         {
             "kind": "youtube#playlistItem",
@@ -510,7 +744,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "k2jm1uplI5Y",
                 "videoPublishedAt": "2021-03-24T06:51:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sK0nxGHUbHvTczc5azPEjrlCDsc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-t4_GZzobrjcTtoa0zak4_B3fV0",
+                        "id": "k2jm1uplI5Y",
+                        "contentDetails": {
+                            "duration": "PT1H51M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H51M34S",
+            "durationSeconds": 6694
         },
         {
             "kind": "youtube#playlistItem",
@@ -561,7 +821,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "vEwI5_BZO1s",
                 "videoPublishedAt": "2021-03-26T06:33:59Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Ffjr0eZcvxlcqpVzTqdD9mCmkkA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ppqliGVsKINaTOKcUlFJkpHQL1w",
+                        "id": "vEwI5_BZO1s",
+                        "contentDetails": {
+                            "duration": "PT1H45M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H45M42S",
+            "durationSeconds": 6342
         },
         {
             "kind": "youtube#playlistItem",
@@ -612,7 +898,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "msv_0QqXz7s",
                 "videoPublishedAt": "2021-04-01T19:08:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dJFN2vtQR4hODuK6S1YxBX4mISs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "f9jnf34I8mKdgdPi1aPTOJIkm6o",
+                        "id": "msv_0QqXz7s",
+                        "contentDetails": {
+                            "duration": "PT2H7M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H7M11S",
+            "durationSeconds": 7631
         },
         {
             "kind": "youtube#playlistItem",
@@ -663,7 +975,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "k43ROBQoTM4",
                 "videoPublishedAt": "2021-04-07T06:37:32Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QOmD_VCzYBhfSNkovscOUjSBkz0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "REZ-pUB4jP50PgYptS9TCYwFxvM",
+                        "id": "k43ROBQoTM4",
+                        "contentDetails": {
+                            "duration": "PT1H37M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H37M41S",
+            "durationSeconds": 5861
         },
         {
             "kind": "youtube#playlistItem",
@@ -714,7 +1052,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "zoEBnC9BXcU",
                 "videoPublishedAt": "2021-04-09T07:00:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "W7u04bWeXlytOG_CpeWG0YN0N3U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "X-zq8txnEtJK3bU050HVQmHGyIw",
+                        "id": "zoEBnC9BXcU",
+                        "contentDetails": {
+                            "duration": "PT1H56M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H56M54S",
+            "durationSeconds": 7014
         },
         {
             "kind": "youtube#playlistItem",
@@ -765,7 +1129,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "EBHc6hlrjRk",
                 "videoPublishedAt": "2021-04-14T06:47:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "oUGUQQiye922tiHNaiby4P9-MKg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "f0pUo8mhHk105pODMr70A9prPWo",
+                        "id": "EBHc6hlrjRk",
+                        "contentDetails": {
+                            "duration": "PT1H47M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H47M25S",
+            "durationSeconds": 6445
         },
         {
             "kind": "youtube#playlistItem",
@@ -816,7 +1206,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "7_TX7OtLWe8",
                 "videoPublishedAt": "2021-04-16T06:40:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "L1n7zEEeNOIjIOhJDKQV4LlOOhY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vxj1BdamVNkb_Fm1KF_W15x6R6A",
+                        "id": "7_TX7OtLWe8",
+                        "contentDetails": {
+                            "duration": "PT1H41M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H41M39S",
+            "durationSeconds": 6099
         },
         {
             "kind": "youtube#playlistItem",
@@ -867,7 +1283,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "WyQwPaLMvU4",
                 "videoPublishedAt": "2021-04-21T06:44:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4UfZwVAcUBPPLIvlN7NJBWiQmUw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nzThHtunsay9IrQhneec0STXWZ0",
+                        "id": "WyQwPaLMvU4",
+                        "contentDetails": {
+                            "duration": "PT1H45M35S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H45M35S",
+            "durationSeconds": 6335
         },
         {
             "kind": "youtube#playlistItem",
@@ -918,7 +1360,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "5fvRRCd7mNs",
                 "videoPublishedAt": "2021-04-23T06:46:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "nblnll6gVPDESQRLG1_qOmWYWDw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yh6W-yWJ3LI8azuUtW8uNlGDZG0",
+                        "id": "5fvRRCd7mNs",
+                        "contentDetails": {
+                            "duration": "PT1H46M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H46M21S",
+            "durationSeconds": 6381
         },
         {
             "kind": "youtube#playlistItem",
@@ -959,7 +1427,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "DXEIuWUaJdg",
                 "videoPublishedAt": "2021-04-28T06:48:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lYNJEv0cWGRttFLj66oXhUEqnek",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Dfp8Ur5HCg7DpV04T1l2KR88yYw",
+                        "id": "DXEIuWUaJdg",
+                        "contentDetails": {
+                            "duration": "PT1H47M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H47M56S",
+            "durationSeconds": 6476
         },
         {
             "kind": "youtube#playlistItem",
@@ -1010,7 +1504,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "CuMmRZGRnwE",
                 "videoPublishedAt": "2021-04-29T19:03:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8MIRiJlev3NfQOy7GzBqU87o8nw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GcjZoz7uDncq6SS8CXMd6WeNjlU",
+                        "id": "CuMmRZGRnwE",
+                        "contentDetails": {
+                            "duration": "PT2H40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H40S",
+            "durationSeconds": 7240
         },
         {
             "kind": "youtube#playlistItem",
@@ -1051,7 +1571,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "MLyFS7ClMf0",
                 "videoPublishedAt": "2021-05-07T06:24:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Yx3K53OetSVjxQ96zz16GsI0htQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "dlB1yXI6sqlRwCQz5A9pnroiz48",
+                        "id": "MLyFS7ClMf0",
+                        "contentDetails": {
+                            "duration": "PT1H23M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H23M38S",
+            "durationSeconds": 5018
         },
         {
             "kind": "youtube#playlistItem",
@@ -1092,7 +1638,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "6wi_A-_1NaA",
                 "videoPublishedAt": "2021-05-12T06:43:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ECoMtGU2zuF15UrZ4UXcJQOdX5M",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MIM48WDt9vNoS8q9p3k-FaXrTw8",
+                        "id": "6wi_A-_1NaA",
+                        "contentDetails": {
+                            "duration": "PT1H42M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H42M2S",
+            "durationSeconds": 6122
         },
         {
             "kind": "youtube#playlistItem",
@@ -1143,7 +1715,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "smoczWyJQsU",
                 "videoPublishedAt": "2021-05-14T06:16:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4ceIuk9tZecYZk757S7lkIyDAy4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9KGU2ovrq5tRiZjHm9b_tty6buA",
+                        "id": "smoczWyJQsU",
+                        "contentDetails": {
+                            "duration": "PT1H16M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H16M10S",
+            "durationSeconds": 4570
         },
         {
             "kind": "youtube#playlistItem",
@@ -1184,7 +1782,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "8evMAwPF_vc",
                 "videoPublishedAt": "2021-05-19T06:48:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hDXeBsVZBfRrExdH5IqQLLz44Ks",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xvZLDK-G3GOg9yVM-KAg61C2qFw",
+                        "id": "8evMAwPF_vc",
+                        "contentDetails": {
+                            "duration": "PT1H46M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H46M53S",
+            "durationSeconds": 6413
         },
         {
             "kind": "youtube#playlistItem",
@@ -1225,7 +1849,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "EEKkSsHEKyg",
                 "videoPublishedAt": "2021-05-21T06:36:12Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7djYtxoGmMNa6Gmn_kRPSfWco5Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ThMJpiKyZ2efUf8IxpQEZ7n5QcA",
+                        "id": "EEKkSsHEKyg",
+                        "contentDetails": {
+                            "duration": "PT1H36M27S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H36M27S",
+            "durationSeconds": 5787
         },
         {
             "kind": "youtube#playlistItem",
@@ -1276,7 +1926,33 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "Y8FkgaSlsHA",
                 "videoPublishedAt": "2021-05-26T06:45:28Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "KaGKOnH5Fxk0JkqHsuCiMyExTLI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oefCyQbttHEejGA3cVEXTQqFfcc",
+                        "id": "Y8FkgaSlsHA",
+                        "contentDetails": {
+                            "duration": "PT1H45M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H45M12S",
+            "durationSeconds": 6312
         },
         {
             "kind": "youtube#playlistItem",
@@ -1327,11 +2003,40 @@ export const Compiladores = {
             "contentDetails": {
                 "videoId": "mGRN6WagUKM",
                 "videoPublishedAt": "2021-05-28T06:52:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fPBZKcPUwC-LfnFlrmLX0emsFV8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xYZE-M1gysd54TmyV2YryVhtp7k",
+                        "id": "mGRN6WagUKM",
+                        "contentDetails": {
+                            "duration": "PT1H51M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H51M41S",
+            "durationSeconds": 6701
         }
     ],
     "pageInfo": {
         "totalResults": 27,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 166283
     }
 }

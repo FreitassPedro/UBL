@@ -1,4 +1,4 @@
-export const ProgramacaoLogica = {
+export const programacaoLogica = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "r-e4bNDI4tGk5MC4ctHJ_Yv2_SQ",
     "items": [
@@ -46,7 +46,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "x_ahRnd1gTI",
                 "videoPublishedAt": "2020-08-04T14:12:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5NEWAjN6lE6EWtZW9vSq-hABdCg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "DPmen0B8-EpMZPh-lA4FbYoWDAU",
+                        "id": "x_ahRnd1gTI",
+                        "contentDetails": {
+                            "duration": "PT16M41S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M41S",
+            "durationSeconds": 1001
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "Qn1KKsaPD80",
                 "videoPublishedAt": "2020-08-04T14:12:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tqmVFQsk3iSWymll3lN_V9luuhw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "enGUBQ6RMkaG1ypKr32KJ0BY7BA",
+                        "id": "Qn1KKsaPD80",
+                        "contentDetails": {
+                            "duration": "PT23M25S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M25S",
+            "durationSeconds": 1405
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "0zgnF5bJ6VM",
                 "videoPublishedAt": "2020-08-04T14:12:25Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ahqp5vMo2S63-HNiqoZL4J88w_I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ynZCrnMjp1pbbMCtenZ7IY_k7zM",
+                        "id": "0zgnF5bJ6VM",
+                        "contentDetails": {
+                            "duration": "PT19M32S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M32S",
+            "durationSeconds": 1172
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "1re0PfcGJic",
                 "videoPublishedAt": "2020-08-04T14:12:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "t3G3BiY-iSgAZxp_oaWfQPoLlLI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xFoKvtC9WHONqvk5Vx07f2sjSXQ",
+                        "id": "1re0PfcGJic",
+                        "contentDetails": {
+                            "duration": "PT18M12S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M12S",
+            "durationSeconds": 1092
         },
         {
             "kind": "youtube#playlistItem",
@@ -230,7 +334,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "qk9kWSsfDMA",
                 "videoPublishedAt": "2020-08-04T14:12:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Q7R84RQR47Nyd2Y6cirJdgJyH6U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_D1XGELAVzsSrQe5_HA7IRkNV7Y",
+                        "id": "qk9kWSsfDMA",
+                        "contentDetails": {
+                            "duration": "PT23M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M4S",
+            "durationSeconds": 1384
         },
         {
             "kind": "youtube#playlistItem",
@@ -276,7 +406,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "wXUOCDTWR9A",
                 "videoPublishedAt": "2020-08-04T14:12:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Y5XRasLCQMcb783BPv2tXcskYEs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pTRJrBJeqV-Xmfg4qifi9ZkcTew",
+                        "id": "wXUOCDTWR9A",
+                        "contentDetails": {
+                            "duration": "PT26M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M39S",
+            "durationSeconds": 1599
         },
         {
             "kind": "youtube#playlistItem",
@@ -322,7 +478,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "IjrSlcYZZqU",
                 "videoPublishedAt": "2020-08-04T14:12:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bMblxlxPz4oOTAnUk6nwpF_3RHI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qurca8SsXFjrZ0dhMA8gyHB_f0M",
+                        "id": "IjrSlcYZZqU",
+                        "contentDetails": {
+                            "duration": "PT29M55S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M55S",
+            "durationSeconds": 1795
         },
         {
             "kind": "youtube#playlistItem",
@@ -368,7 +550,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "LsFbdODtk9U",
                 "videoPublishedAt": "2020-08-04T14:12:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "D-f-FH_GZG4s3ATBS3UlLbCYM_U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "owb4aoG7ERLI3JSGwCKa-PMgZEY",
+                        "id": "LsFbdODtk9U",
+                        "contentDetails": {
+                            "duration": "PT17M37S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M37S",
+            "durationSeconds": 1057
         },
         {
             "kind": "youtube#playlistItem",
@@ -414,7 +622,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "1KfhlylEcLI",
                 "videoPublishedAt": "2020-08-04T14:11:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "G-BKJ-kPcFjuPJWINBzaKrzHiyk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HyYW0g2-RWMGzRMAfYaR3y-fxdI",
+                        "id": "1KfhlylEcLI",
+                        "contentDetails": {
+                            "duration": "PT25M58S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M58S",
+            "durationSeconds": 1558
         },
         {
             "kind": "youtube#playlistItem",
@@ -460,7 +694,33 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "c3wQXmObcaA",
                 "videoPublishedAt": "2020-08-25T19:49:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sF4lnfkbCxFI8uhRtmh2bI9Fso4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0AjgkMt4A5myjjg9Q4Sr9NpTuzo",
+                        "id": "c3wQXmObcaA",
+                        "contentDetails": {
+                            "duration": "PT16M18S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M18S",
+            "durationSeconds": 978
         },
         {
             "kind": "youtube#playlistItem",
@@ -506,11 +766,40 @@ export const ProgramacaoLogica = {
             "contentDetails": {
                 "videoId": "66SbQMXutbg",
                 "videoPublishedAt": "2020-08-25T19:55:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "h1PE9qWDjur5dHk_jqxAoH2WuFE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "456ZO_8TwjpaCv9Ig2wNs6Y8AVs",
+                        "id": "66SbQMXutbg",
+                        "contentDetails": {
+                            "duration": "PT24M32S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M32S",
+            "durationSeconds": 1472
         }
     ],
     "pageInfo": {
         "totalResults": 11,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 14513
     }
 }

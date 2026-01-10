@@ -1,4 +1,4 @@
-export const MetodosNumericosI = {
+export const metodosNumericosI = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "EyG1eDw8nybYIHJMvgaakLI7jmo",
     "items": [
@@ -46,7 +46,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "a6nNQ6qKgiY",
                 "videoPublishedAt": "2020-12-10T21:22:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "c5vLTmnGyIaNoE9Hc_0Ce4iRyuY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QosT0jekup_4ix1PzipC1MgGnfM",
+                        "id": "a6nNQ6qKgiY",
+                        "contentDetails": {
+                            "duration": "PT4M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M10S",
+            "durationSeconds": 250
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "SdiiMm5fMJM",
                 "videoPublishedAt": "2020-12-10T21:29:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "aH-bBCakmqDb74XNtoTjFxyvr-w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mj5erppxYdqKBm2Wry6cCML_SA4",
+                        "id": "SdiiMm5fMJM",
+                        "contentDetails": {
+                            "duration": "PT12M46S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M46S",
+            "durationSeconds": 766
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "KzITgwgbj6A",
                 "videoPublishedAt": "2020-12-10T21:35:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jyzFVvK3FPJm56cCSAj3chENhFU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "SJIwYTuDGeLKbbO6QzPS76QP9uw",
+                        "id": "KzITgwgbj6A",
+                        "contentDetails": {
+                            "duration": "PT14M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M",
+            "durationSeconds": 840
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "sbow-Gqr3yM",
                 "videoPublishedAt": "2020-12-10T21:40:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5KiFjr3Y21Zh49y5pr_wsoQ1pyg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "VfQQe6LffBe_gSut4NGyo4FHa8M",
+                        "id": "sbow-Gqr3yM",
+                        "contentDetails": {
+                            "duration": "PT11M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M24S",
+            "durationSeconds": 684
         },
         {
             "kind": "youtube#playlistItem",
@@ -230,7 +334,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "aVTTzSOpODA",
                 "videoPublishedAt": "2020-12-10T21:50:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WsaynmFss3_zUej2yP2Zx2RiLPQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vuMp-PbXxT8PAocHZakAmYNTGlE",
+                        "id": "aVTTzSOpODA",
+                        "contentDetails": {
+                            "duration": "PT19M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M9S",
+            "durationSeconds": 1149
         },
         {
             "kind": "youtube#playlistItem",
@@ -276,7 +406,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "sHmuCDgLCq0",
                 "videoPublishedAt": "2020-12-10T21:59:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MSEgK4Rl7YDN-ei1FiB57qOJlaQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ea40c4AoOVJ7y5zGwhgleCLfzHE",
+                        "id": "sHmuCDgLCq0",
+                        "contentDetails": {
+                            "duration": "PT15M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M52S",
+            "durationSeconds": 952
         },
         {
             "kind": "youtube#playlistItem",
@@ -322,7 +478,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "LodUyDzrXx4",
                 "videoPublishedAt": "2021-01-14T23:38:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bFI05gIeFyASR_CRBkhU8hE2-uA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "JF6wgPq0Yhr4jZkAIZzkGUeDLqs",
+                        "id": "LodUyDzrXx4",
+                        "contentDetails": {
+                            "duration": "PT26M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M26S",
+            "durationSeconds": 1586
         },
         {
             "kind": "youtube#playlistItem",
@@ -368,7 +550,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "-MfDyYzYrGs",
                 "videoPublishedAt": "2021-01-14T23:44:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ifQyOnxcTkMV8lyOvxMh7fhY-KY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "D6RNWKg1KygkBDVcWI4tSCBO7D8",
+                        "id": "-MfDyYzYrGs",
+                        "contentDetails": {
+                            "duration": "PT16M46S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M46S",
+            "durationSeconds": 1006
         },
         {
             "kind": "youtube#playlistItem",
@@ -414,7 +622,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "9X9GdZtt93E",
                 "videoPublishedAt": "2021-01-14T23:48:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BD1QflePuHG-HLupFFAY_TxMhgs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1pNTS5BAFHXjkG-98IAVjjxmPiU",
+                        "id": "9X9GdZtt93E",
+                        "contentDetails": {
+                            "duration": "PT11M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M44S",
+            "durationSeconds": 704
         },
         {
             "kind": "youtube#playlistItem",
@@ -460,7 +694,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "kq0TU6DB_A4",
                 "videoPublishedAt": "2021-01-14T23:56:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "P9sA5iiukBdkbYTr_SRL3p7nKQk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nPeNm4JvfmF9gRqmBgo3e7W8aP0",
+                        "id": "kq0TU6DB_A4",
+                        "contentDetails": {
+                            "duration": "PT26M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M7S",
+            "durationSeconds": 1567
         },
         {
             "kind": "youtube#playlistItem",
@@ -506,7 +766,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "gFYLER6npLk",
                 "videoPublishedAt": "2021-01-15T00:04:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "KiEGmplSctviA7w2Q81wHK7US3A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Sd0HAbqSYFqrNGya4P7gSJ_6VjI",
+                        "id": "gFYLER6npLk",
+                        "contentDetails": {
+                            "duration": "PT21M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M9S",
+            "durationSeconds": 1269
         },
         {
             "kind": "youtube#playlistItem",
@@ -552,7 +838,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "xh_7VTYy9KE",
                 "videoPublishedAt": "2021-01-15T00:17:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mmu5e79-PY3yYaQWeBJUbrvaR0s",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mPq-kaO73OnDq9AthRgwyBsitaA",
+                        "id": "xh_7VTYy9KE",
+                        "contentDetails": {
+                            "duration": "PT34M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M33S",
+            "durationSeconds": 2073
         },
         {
             "kind": "youtube#playlistItem",
@@ -598,7 +910,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "DSh0PLTdrI4",
                 "videoPublishedAt": "2021-02-16T21:50:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5vjdoD4GQDpKRlWalvQCCugBZHc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NMYUYckuPy6ZWDjzo6FX3oWeeZ4",
+                        "id": "DSh0PLTdrI4",
+                        "contentDetails": {
+                            "duration": "PT23M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M30S",
+            "durationSeconds": 1410
         },
         {
             "kind": "youtube#playlistItem",
@@ -644,7 +982,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "B0FvzbK1Wp4",
                 "videoPublishedAt": "2021-02-16T21:56:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AfoNHC0gF7FvWkm2JuXaYzclIwE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0XdmQw9MiscmNGRh9DlG-5SGuaU",
+                        "id": "B0FvzbK1Wp4",
+                        "contentDetails": {
+                            "duration": "PT21M35S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M35S",
+            "durationSeconds": 1295
         },
         {
             "kind": "youtube#playlistItem",
@@ -690,7 +1054,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "uANgK_u-_9c",
                 "videoPublishedAt": "2021-02-16T22:10:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "N4hVt6B-bFS1kgwLr9xvmYMoC3Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "atThxooXNnem8NIabNEgvAcfnlA",
+                        "id": "uANgK_u-_9c",
+                        "contentDetails": {
+                            "duration": "PT32M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M50S",
+            "durationSeconds": 1970
         },
         {
             "kind": "youtube#playlistItem",
@@ -736,7 +1126,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "sRzZEUkQHV0",
                 "videoPublishedAt": "2021-02-16T22:19:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "b2MjqIANP2DzcDV5PB7xvKSl_gU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ZgEd4zhzbfIbLpV9vUTQMxyYvt0",
+                        "id": "sRzZEUkQHV0",
+                        "contentDetails": {
+                            "duration": "PT21M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M30S",
+            "durationSeconds": 1290
         },
         {
             "kind": "youtube#playlistItem",
@@ -782,7 +1198,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "I6ROKLwwd2Y",
                 "videoPublishedAt": "2021-02-16T22:31:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "NXA3JuccMs-b6WnL_sym3_lgNxo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "22j7HcOz7iezQp3ncHBT3NWCojA",
+                        "id": "I6ROKLwwd2Y",
+                        "contentDetails": {
+                            "duration": "PT14M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M59S",
+            "durationSeconds": 899
         },
         {
             "kind": "youtube#playlistItem",
@@ -828,7 +1270,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "HXh173LO1WQ",
                 "videoPublishedAt": "2021-02-16T22:46:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "nd9sjEWYVBZ0RAF4r0f2aGh6LYU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bJp7lcZRwoASdptyA4F0ds690rk",
+                        "id": "HXh173LO1WQ",
+                        "contentDetails": {
+                            "duration": "PT31M17S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M17S",
+            "durationSeconds": 1877
         },
         {
             "kind": "youtube#playlistItem",
@@ -874,7 +1342,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "pf4l8gv_dCM",
                 "videoPublishedAt": "2021-02-16T22:54:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4zTqDcM-3MdDZFTzET-qFQPU_II",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kCpMewCTCKds6AekVdJrtg3bGcI",
+                        "id": "pf4l8gv_dCM",
+                        "contentDetails": {
+                            "duration": "PT26M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M6S",
+            "durationSeconds": 1566
         },
         {
             "kind": "youtube#playlistItem",
@@ -920,7 +1414,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "rb83M5hgZdk",
                 "videoPublishedAt": "2021-02-16T23:17:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_UjuA4Ep4rQWAVQ71CUFsQupr-c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jvhU-91ibk1RW13E1KXqMMoeBxc",
+                        "id": "rb83M5hgZdk",
+                        "contentDetails": {
+                            "duration": "PT23M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M52S",
+            "durationSeconds": 1432
         },
         {
             "kind": "youtube#playlistItem",
@@ -966,7 +1486,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "UnCsaTPvjGo",
                 "videoPublishedAt": "2021-03-18T23:26:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "nhAfYNoIfAxX3zt_SIkBLJ_gQAc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xgQqoLZEpR4vmRi57qew2aE9Pe4",
+                        "id": "UnCsaTPvjGo",
+                        "contentDetails": {
+                            "duration": "PT22M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M21S",
+            "durationSeconds": 1341
         },
         {
             "kind": "youtube#playlistItem",
@@ -1012,7 +1558,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "KcUKDBRDbmo",
                 "videoPublishedAt": "2021-03-18T23:49:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7WNW0II-W9cxgOS36qCOQG21Wns",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "SQJi1SN-8ncHy4ljPDwrF_Fhoyg",
+                        "id": "KcUKDBRDbmo",
+                        "contentDetails": {
+                            "duration": "PT18M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M47S",
+            "durationSeconds": 1127
         },
         {
             "kind": "youtube#playlistItem",
@@ -1058,7 +1630,33 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "usZhTClvjnA",
                 "videoPublishedAt": "2021-03-18T23:33:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "84RyUtyWtTCz8DANG3t6B7k4paQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QZIjBp2DraEA3iG35MVhIl5UXYA",
+                        "id": "usZhTClvjnA",
+                        "contentDetails": {
+                            "duration": "PT16M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M26S",
+            "durationSeconds": 986
         },
         {
             "kind": "youtube#playlistItem",
@@ -1104,11 +1702,40 @@ export const MetodosNumericosI = {
             "contentDetails": {
                 "videoId": "lnwllxHb3q8",
                 "videoPublishedAt": "2021-03-18T23:42:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-Qunn2TxYKzqPnq9jHQclylf9XQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "plYw8NGqLjB47Lp6VnWz8z2BdLg",
+                        "id": "lnwllxHb3q8",
+                        "contentDetails": {
+                            "duration": "PT36M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M34S",
+            "durationSeconds": 2194
         }
     ],
     "pageInfo": {
         "totalResults": 24,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 30233
     }
 }

@@ -1,4 +1,4 @@
-export const MetodologiaDaPesquisa = {
+export const metodologiaDaPesquisa = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "aVmVqQKrcX7_pUnlOj1kY0QQj6w",
     "items": [
@@ -51,7 +51,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "wfb3QmYWVVg",
                 "videoPublishedAt": "2020-08-10T12:38:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_lFMY1rKPGE0BgbWdi2QiYwKrJU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vdjLw0JyaNpoIBgPLKrQIBYb_V8",
+                        "id": "wfb3QmYWVVg",
+                        "contentDetails": {
+                            "duration": "PT52M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT52M18S",
+            "durationSeconds": 3138
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "W0kcg-lHmis",
                 "videoPublishedAt": "2020-08-10T14:00:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vQOE67c8F8yv2MhOngg4IOnLeng",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GavncZ9wcXxtDn2zzv_E5UcrzRA",
+                        "id": "W0kcg-lHmis",
+                        "contentDetails": {
+                            "duration": "PT1H3M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H3M31S",
+            "durationSeconds": 3811
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "ZZ53FvZ7YYE",
                 "videoPublishedAt": "2020-08-10T15:12:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lNcbQDExvXOPoqvrQhjQ-4VIoEo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uc_NIgZCmw3TWjszg-CvJiriC7E",
+                        "id": "ZZ53FvZ7YYE",
+                        "contentDetails": {
+                            "duration": "PT1H5M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H5M10S",
+            "durationSeconds": 3910
         },
         {
             "kind": "youtube#playlistItem",
@@ -204,7 +282,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "WpJ1skhVKkg",
                 "videoPublishedAt": "2020-08-10T18:31:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "D4fH4TAWUUB_Qyixs5YaLh9OHU0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "PWnnT7tuNZv7kES1NLJGu9m45to",
+                        "id": "WpJ1skhVKkg",
+                        "contentDetails": {
+                            "duration": "PT1H31M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H31M56S",
+            "durationSeconds": 5516
         },
         {
             "kind": "youtube#playlistItem",
@@ -255,7 +359,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "kK7tOsITmOk",
                 "videoPublishedAt": "2020-08-11T12:43:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "UXme2S8k156BeWQJoIH3r0CrSzg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jZei4iqSY6h1R39W-ao4OEAnR-o",
+                        "id": "kK7tOsITmOk",
+                        "contentDetails": {
+                            "duration": "PT1H5M55S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H5M55S",
+            "durationSeconds": 3955
         },
         {
             "kind": "youtube#playlistItem",
@@ -306,7 +436,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "XFRmnjh7Ph0",
                 "videoPublishedAt": "2020-08-11T14:00:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uWgx58uAcZJyVEDQJ7847YoWiKA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7cEwUI6LWHLY3SkkYYqTkfTbJZk",
+                        "id": "XFRmnjh7Ph0",
+                        "contentDetails": {
+                            "duration": "PT1H8M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H8M45S",
+            "durationSeconds": 4125
         },
         {
             "kind": "youtube#playlistItem",
@@ -357,7 +513,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "eadVmuwEuAI",
                 "videoPublishedAt": "2020-08-11T15:16:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ibwDqc99wbSu6CyrtPP_VPnZC2Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "J5sN3gvIS4TYCcIkh-CxmV5diUw",
+                        "id": "eadVmuwEuAI",
+                        "contentDetails": {
+                            "duration": "PT1H9M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H9M6S",
+            "durationSeconds": 4146
         },
         {
             "kind": "youtube#playlistItem",
@@ -408,7 +590,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "Qvrvic7_zGk",
                 "videoPublishedAt": "2020-08-11T17:50:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ncpOXwMiHT4CT9HNMkZirm37SMI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HAK0p5G8dJ3f3FUmJwHCp5c18vU",
+                        "id": "Qvrvic7_zGk",
+                        "contentDetails": {
+                            "duration": "PT1H9M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H9M3S",
+            "durationSeconds": 4143
         },
         {
             "kind": "youtube#playlistItem",
@@ -459,7 +667,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "mkNjeqobt9Y",
                 "videoPublishedAt": "2020-08-12T14:23:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5TUsfADDStYuGcqL9XhrHLaubSo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0e3ayxxX6gWtoNjwTG5U2FWyjR0",
+                        "id": "mkNjeqobt9Y",
+                        "contentDetails": {
+                            "duration": "PT1H6M5S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H6M5S",
+            "durationSeconds": 3965
         },
         {
             "kind": "youtube#playlistItem",
@@ -510,7 +744,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "WnIgO7vbaKY",
                 "videoPublishedAt": "2020-08-12T14:27:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "a2yoCQpzwP4rNDSTQR9CGvotcIk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kLbi9y77Ij6_txhzAJpPAlCgW2Q",
+                        "id": "WnIgO7vbaKY",
+                        "contentDetails": {
+                            "duration": "PT1H7M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H7M31S",
+            "durationSeconds": 4051
         },
         {
             "kind": "youtube#playlistItem",
@@ -561,7 +821,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "8QVtn-3EdKc",
                 "videoPublishedAt": "2020-08-12T15:32:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "02N_iWBI8b2BDsKIObAeNoWhSIU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EJ1HbhZhADYOkMRWkUrWMeg7eYE",
+                        "id": "8QVtn-3EdKc",
+                        "contentDetails": {
+                            "duration": "PT1H2M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M16S",
+            "durationSeconds": 3736
         },
         {
             "kind": "youtube#playlistItem",
@@ -612,7 +898,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "MSd7cx3dmDI",
                 "videoPublishedAt": "2020-08-12T18:09:08Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5DnCfM56OaqPHReDD1qCLgznHU8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "N3-2mJNDrgYyEELHHhtokD994h8",
+                        "id": "MSd7cx3dmDI",
+                        "contentDetails": {
+                            "duration": "PT1H2M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M23S",
+            "durationSeconds": 3743
         },
         {
             "kind": "youtube#playlistItem",
@@ -663,7 +975,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "1feCpvpb4ns",
                 "videoPublishedAt": "2020-08-13T12:53:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OsYcRfJmqJUadlxaoMrla-Vg5Xo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wMU-zldOKE9h2fbTIx-P-4JdJiI",
+                        "id": "1feCpvpb4ns",
+                        "contentDetails": {
+                            "duration": "PT1H10M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H10M49S",
+            "durationSeconds": 4249
         },
         {
             "kind": "youtube#playlistItem",
@@ -714,7 +1052,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "aK4Npnkimhg",
                 "videoPublishedAt": "2020-08-13T14:01:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AkVgPzJZ67u1KJYR-BNt7Zd8ShU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Z1o0WNiuNLWp7GpellD-B2WBL0g",
+                        "id": "aK4Npnkimhg",
+                        "contentDetails": {
+                            "duration": "PT1H8M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H8M37S",
+            "durationSeconds": 4117
         },
         {
             "kind": "youtube#playlistItem",
@@ -765,7 +1129,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "E4BQhy34u1g",
                 "videoPublishedAt": "2020-08-13T17:37:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1Zwd0ufTxkxj9uBCJKOhAVoItPg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5hVOi-TYIsMaGxASWlAVgLfuxiU",
+                        "id": "E4BQhy34u1g",
+                        "contentDetails": {
+                            "duration": "PT1H1M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H1M49S",
+            "durationSeconds": 3709
         },
         {
             "kind": "youtube#playlistItem",
@@ -816,7 +1206,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "57A6-2xUxjo",
                 "videoPublishedAt": "2020-08-13T17:43:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Tce_rwjgP4b3qL0c-OmFcHuLgt8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cTQQe1bWvxJaM52T3umBC5j08vE",
+                        "id": "57A6-2xUxjo",
+                        "contentDetails": {
+                            "duration": "PT1H5M29S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H5M29S",
+            "durationSeconds": 3929
         },
         {
             "kind": "youtube#playlistItem",
@@ -867,7 +1283,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "qAprWJ0DRZQ",
                 "videoPublishedAt": "2020-08-14T12:55:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RZfCAq-ZKFGuMlGuL06-Cbl-_oQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Q2biRLyr_cgoPQjdZizXre6ggIA",
+                        "id": "qAprWJ0DRZQ",
+                        "contentDetails": {
+                            "duration": "PT1H9M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H9M25S",
+            "durationSeconds": 4165
         },
         {
             "kind": "youtube#playlistItem",
@@ -918,7 +1360,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "6lXf4HzNOfU",
                 "videoPublishedAt": "2020-08-14T14:11:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rS52rYfiU35-wGiG4oCCyPT4Mb8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "OStwKNSs14-f5HOjR5cT1jhpS8I",
+                        "id": "6lXf4HzNOfU",
+                        "contentDetails": {
+                            "duration": "PT1H8M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H8M45S",
+            "durationSeconds": 4125
         },
         {
             "kind": "youtube#playlistItem",
@@ -969,7 +1437,33 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "8XpO2LLOhDw",
                 "videoPublishedAt": "2020-08-14T15:32:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2epcS35cQ36_CLHptKD1-juDy7M",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bQyLkSR07r7A3kAlIatTU8sXXXg",
+                        "id": "8XpO2LLOhDw",
+                        "contentDetails": {
+                            "duration": "PT1H8M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H8M51S",
+            "durationSeconds": 4131
         },
         {
             "kind": "youtube#playlistItem",
@@ -1020,11 +1514,40 @@ export const MetodologiaDaPesquisa = {
             "contentDetails": {
                 "videoId": "KjiL-xeJZV0",
                 "videoPublishedAt": "2020-08-14T17:50:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BkVFgqaY7z4zqQ2qFr1buagFEn8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fkfXSPDxydb6vI8sZyG0VQnYnvI",
+                        "id": "KjiL-xeJZV0",
+                        "contentDetails": {
+                            "duration": "PT1H4M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H4M19S",
+            "durationSeconds": 3859
         }
     ],
     "pageInfo": {
         "totalResults": 20,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 80523
     }
 }

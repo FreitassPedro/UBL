@@ -1,4 +1,4 @@
-export const DeepLearning = {
+export const deepLearning = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "yei5SbuT246En1IYQdJsyQuPMFI",
     "items": [
@@ -41,7 +41,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "0VD_2t6EdS4",
                 "videoPublishedAt": "2020-06-04T21:22:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FPvaLttbPLlQpf4R5gkieO_Jj6s",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "zXCLHhd6p4uQkTnUDOiG63vp4zk",
+                        "id": "0VD_2t6EdS4",
+                        "contentDetails": {
+                            "duration": "PT3M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT3M3S",
+            "durationSeconds": 183
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "l3YXuNJREOk",
                 "videoPublishedAt": "2020-06-03T12:09:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MxXx4QpQndgoLbBXM0U6tcRoVBM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "z3PMG0D3zekqJJw5C5QM06xSciA",
+                        "id": "l3YXuNJREOk",
+                        "contentDetails": {
+                            "duration": "PT41M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT41M53S",
+            "durationSeconds": 2513
         },
         {
             "kind": "youtube#playlistItem",
@@ -143,7 +195,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "wTtpqCkuy28",
                 "videoPublishedAt": "2020-06-03T12:11:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BqzQ27yrxLrHziOJ_nW4SQudQBw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bzs2eHyMah3nX8M_-LPkr01mNkw",
+                        "id": "wTtpqCkuy28",
+                        "contentDetails": {
+                            "duration": "PT50M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT50M1S",
+            "durationSeconds": 3001
         },
         {
             "kind": "youtube#playlistItem",
@@ -194,7 +272,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "_rxy25sl1YY",
                 "videoPublishedAt": "2020-06-03T12:33:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "H6r817d7DHmvrPksN2rK1h93pgU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "h4SXID2qfTMDvtoPHpF-wUQ5JAw",
+                        "id": "_rxy25sl1YY",
+                        "contentDetails": {
+                            "duration": "PT41M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT41M10S",
+            "durationSeconds": 2470
         },
         {
             "kind": "youtube#playlistItem",
@@ -245,7 +349,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "VkLUQWNhApk",
                 "videoPublishedAt": "2020-06-03T12:36:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2lHrHaw3zjEaakd3XXgZfDag6Eg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EZ9K5tSGOP_ymy60H-QeCz4ZFfA",
+                        "id": "VkLUQWNhApk",
+                        "contentDetails": {
+                            "duration": "PT40M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M34S",
+            "durationSeconds": 2434
         },
         {
             "kind": "youtube#playlistItem",
@@ -296,7 +426,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "yNA-aaZAkdQ",
                 "videoPublishedAt": "2020-06-03T12:44:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "w6II2KMjgmfyjoM0Vh5_LGDv2I4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nO2rpKoyifFNfQJEyOVlpIpVovE",
+                        "id": "yNA-aaZAkdQ",
+                        "contentDetails": {
+                            "duration": "PT46M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT46M23S",
+            "durationSeconds": 2783
         },
         {
             "kind": "youtube#playlistItem",
@@ -347,7 +503,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "1KRhtQOcORk",
                 "videoPublishedAt": "2020-06-03T12:47:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "EASuFOTTYzG3q3ImLD-w1SHnBU8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FZyFhRvowj4Da7fdDCV0M7sT5tA",
+                        "id": "1KRhtQOcORk",
+                        "contentDetails": {
+                            "duration": "PT42M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT42M20S",
+            "durationSeconds": 2540
         },
         {
             "kind": "youtube#playlistItem",
@@ -398,7 +580,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "OmQn8aPpkO4",
                 "videoPublishedAt": "2020-06-03T12:53:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jFRcDGGBgxSgVYilHAW-rECMAL0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "K7Ezu3_hQ4Hv_iLjruNGJ_E9k7c",
+                        "id": "OmQn8aPpkO4",
+                        "contentDetails": {
+                            "duration": "PT25M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M23S",
+            "durationSeconds": 1523
         },
         {
             "kind": "youtube#playlistItem",
@@ -449,7 +657,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "xI9LolOu0jo",
                 "videoPublishedAt": "2020-06-03T13:06:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "130Z9dHezC7O4pIpCz0F1vk0J6k",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wT-sGU3c6hQldqva7V0wBhcoNZY",
+                        "id": "xI9LolOu0jo",
+                        "contentDetails": {
+                            "duration": "PT47M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT47M16S",
+            "durationSeconds": 2836
         },
         {
             "kind": "youtube#playlistItem",
@@ -500,7 +734,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "FW3vf3TSGr0",
                 "videoPublishedAt": "2020-06-03T13:05:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "6SeSk1aydbYV1GgdZxizOtLEP6A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "lGerjTssjEOUBl_o4-O8bLXS2OI",
+                        "id": "FW3vf3TSGr0",
+                        "contentDetails": {
+                            "duration": "PT35M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M56S",
+            "durationSeconds": 2156
         },
         {
             "kind": "youtube#playlistItem",
@@ -551,7 +811,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "mIKuWmJRApQ",
                 "videoPublishedAt": "2020-06-03T13:00:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LC9g4rQ1ONwVwCxssvaC6iid2BE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vWISTfpahHh3FxUOS4gUUvPP6Rg",
+                        "id": "mIKuWmJRApQ",
+                        "contentDetails": {
+                            "duration": "PT25M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M45S",
+            "durationSeconds": 1545
         },
         {
             "kind": "youtube#playlistItem",
@@ -602,7 +888,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "1EQV6d8ArJo",
                 "videoPublishedAt": "2020-06-03T13:35:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "D0IfMtohmYEoarl_GWS20u_YTCk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Fc8gtGUNSg7Ndl-6z03wQHAI70w",
+                        "id": "1EQV6d8ArJo",
+                        "contentDetails": {
+                            "duration": "PT48M29S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT48M29S",
+            "durationSeconds": 2909
         },
         {
             "kind": "youtube#playlistItem",
@@ -653,7 +965,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "LMA081dvtf4",
                 "videoPublishedAt": "2020-06-03T13:44:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CDP0xfw6YpVONDdTb8F7Ag36t9Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yl1QDrdFbfxKKdYaaKRahPQEQHk",
+                        "id": "LMA081dvtf4",
+                        "contentDetails": {
+                            "duration": "PT46M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT46M36S",
+            "durationSeconds": 2796
         },
         {
             "kind": "youtube#playlistItem",
@@ -704,7 +1042,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "CDguod1rNvU",
                 "videoPublishedAt": "2020-06-03T13:30:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2MELpe6OSfdTwreY5D-hwVE3F8U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "dgrrB0_Lq46gqGJ01iEOxtJ0XUY",
+                        "id": "CDguod1rNvU",
+                        "contentDetails": {
+                            "duration": "PT33M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M36S",
+            "durationSeconds": 2016
         },
         {
             "kind": "youtube#playlistItem",
@@ -755,7 +1119,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "gSMYyUYA9Us",
                 "videoPublishedAt": "2020-06-03T13:51:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7vxs3Qo49vnw5OrYKWGgAj9l6VY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "36d2RDRhQbsWLWJArFJJ-928nKc",
+                        "id": "gSMYyUYA9Us",
+                        "contentDetails": {
+                            "duration": "PT47M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT47M20S",
+            "durationSeconds": 2840
         },
         {
             "kind": "youtube#playlistItem",
@@ -806,7 +1196,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "VN8RTIyfJUs",
                 "videoPublishedAt": "2020-06-03T13:51:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bnuAlu7jAdXnl8kQKrJiPO4qw_8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fof3DdnBG364E_bBFZHJmPMe000",
+                        "id": "VN8RTIyfJUs",
+                        "contentDetails": {
+                            "duration": "PT46M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT46M45S",
+            "durationSeconds": 2805
         },
         {
             "kind": "youtube#playlistItem",
@@ -857,7 +1273,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "-YY1AIM3j88",
                 "videoPublishedAt": "2020-06-05T01:30:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_CZz1c8-SdMtfg3awL198Upak9Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "B81F3M5JnaxFPAzEsX62rHgcS-8",
+                        "id": "-YY1AIM3j88",
+                        "contentDetails": {
+                            "duration": "PT1H2M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M49S",
+            "durationSeconds": 3769
         },
         {
             "kind": "youtube#playlistItem",
@@ -908,7 +1350,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "pOVcv_XouUg",
                 "videoPublishedAt": "2020-06-04T13:34:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "kDscRrQlx3xM4M5NuC3WFG59hAQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8NylSWKaBwpM-R4TA0SqNvTGWCs",
+                        "id": "pOVcv_XouUg",
+                        "contentDetails": {
+                            "duration": "PT49M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT49M30S",
+            "durationSeconds": 2970
         },
         {
             "kind": "youtube#playlistItem",
@@ -959,7 +1427,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "-vS_rk4ZDTA",
                 "videoPublishedAt": "2020-06-04T21:35:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "n8Pk-ltElIXEZxHvE7eZuCn-TjM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "bDT6YJcHL9hiXS7oqzzHOUyhfbw",
+                        "id": "-vS_rk4ZDTA",
+                        "contentDetails": {
+                            "duration": "PT40M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M4S",
+            "durationSeconds": 2404
         },
         {
             "kind": "youtube#playlistItem",
@@ -1010,7 +1504,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "W4X2ZeEzreM",
                 "videoPublishedAt": "2020-06-05T19:17:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "eRzoyKBUjlVAEGCykDPomJLFHIM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kFutoRQ2d3Qwp0UumXU4N1Qxr2Y",
+                        "id": "W4X2ZeEzreM",
+                        "contentDetails": {
+                            "duration": "PT49M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT49M20S",
+            "durationSeconds": 2960
         },
         {
             "kind": "youtube#playlistItem",
@@ -1051,7 +1571,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "6jWywZypNdI",
                 "videoPublishedAt": "2020-06-09T17:32:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "VudMxwcdhDAjgpNvO43DCjsJvao",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "F17NkihJ-QV5IojCWHDKn25YNzo",
+                        "id": "6jWywZypNdI",
+                        "contentDetails": {
+                            "duration": "PT33M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M28S",
+            "durationSeconds": 2008
         },
         {
             "kind": "youtube#playlistItem",
@@ -1102,7 +1648,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "akgqZ6M9pQw",
                 "videoPublishedAt": "2020-06-08T19:14:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ApSlYVAmzgoBVbVGxV61fAsuUSA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BrpSvYjgLX7hToDjPJPYxdFI6ok",
+                        "id": "akgqZ6M9pQw",
+                        "contentDetails": {
+                            "duration": "PT1H40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H40S",
+            "durationSeconds": 3640
         },
         {
             "kind": "youtube#playlistItem",
@@ -1153,7 +1725,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "OoYUL7lzznw",
                 "videoPublishedAt": "2020-06-10T20:08:59Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sZiCsLJXpNxTFMaMGRVp_IIIlCA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EVhJq9BH-0ZYHN8Q8axYf6kg40E",
+                        "id": "OoYUL7lzznw",
+                        "contentDetails": {
+                            "duration": "PT1H24M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H24M23S",
+            "durationSeconds": 5063
         },
         {
             "kind": "youtube#playlistItem",
@@ -1204,7 +1802,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "_QbA4IOT1GM",
                 "videoPublishedAt": "2020-06-13T13:42:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hsLOrxyOP7NNDAeEP7ZLr5WmcLI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fXmE0VY9ZDDcQHU2lIsaVCiYGxY",
+                        "id": "_QbA4IOT1GM",
+                        "contentDetails": {
+                            "duration": "PT40M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M25S",
+            "durationSeconds": 2425
         },
         {
             "kind": "youtube#playlistItem",
@@ -1255,7 +1879,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "5MySLWCG6E0",
                 "videoPublishedAt": "2020-06-16T21:30:56Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_LZvD2AAVHsgpbzDOtM9lR-_z0U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YwbNvC-BFc7Eh6N1V88fp3vwYlI",
+                        "id": "5MySLWCG6E0",
+                        "contentDetails": {
+                            "duration": "PT1H2M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M9S",
+            "durationSeconds": 3729
         },
         {
             "kind": "youtube#playlistItem",
@@ -1306,7 +1956,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "1inwL2FNy90",
                 "videoPublishedAt": "2020-06-17T19:52:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "eRvvcsdMRpRuVvF69X84rN9IURE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qYA7NERlIHsZeTkHyH7PzbvjMWU",
+                        "id": "1inwL2FNy90",
+                        "contentDetails": {
+                            "duration": "PT39M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M50S",
+            "durationSeconds": 2390
         },
         {
             "kind": "youtube#playlistItem",
@@ -1357,7 +2033,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "jxqVnVYPndU",
                 "videoPublishedAt": "2020-06-18T20:11:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "iQ4h8iozc5ng7XeVih3Ugj_lPsw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xx8ztKxp5M9uwYkTLsQBNBft4RQ",
+                        "id": "jxqVnVYPndU",
+                        "contentDetails": {
+                            "duration": "PT27M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M41S",
+            "durationSeconds": 1661
         },
         {
             "kind": "youtube#playlistItem",
@@ -1408,7 +2110,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "n7jWzlMDT-0",
                 "videoPublishedAt": "2020-06-19T20:41:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "qT1GHfsP9i-FyxNVBzVRISq86Xk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9wbNLIGjojxDeL0TxiSPAHJt8TU",
+                        "id": "n7jWzlMDT-0",
+                        "contentDetails": {
+                            "duration": "PT57M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT57M11S",
+            "durationSeconds": 3431
         },
         {
             "kind": "youtube#playlistItem",
@@ -1459,7 +2187,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "vrEMGdfDB7A",
                 "videoPublishedAt": "2020-06-22T20:15:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rjHWYDcUuTifp4finbrkp2xlsxo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "j5iCyVKNdtQ1nn5JsViFGL2qBjY",
+                        "id": "vrEMGdfDB7A",
+                        "contentDetails": {
+                            "duration": "PT38M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT38M12S",
+            "durationSeconds": 2292
         },
         {
             "kind": "youtube#playlistItem",
@@ -1510,7 +2264,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "IKVuwKh1n1g",
                 "videoPublishedAt": "2020-06-24T21:24:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "w_kQwA6UohoXDFopQD_RR_XUYpI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "n3EMDGv6zCdna-L45EOkoshP6FE",
+                        "id": "IKVuwKh1n1g",
+                        "contentDetails": {
+                            "duration": "PT55M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT55M44S",
+            "durationSeconds": 3344
         },
         {
             "kind": "youtube#playlistItem",
@@ -1561,7 +2341,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "VYXY5Z1jx78",
                 "videoPublishedAt": "2020-06-30T17:03:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4_rZeYqKKCJf_Gqnp1OML_grD60",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "F8amkasRrvGq2iFyS6hMhNJnvVs",
+                        "id": "VYXY5Z1jx78",
+                        "contentDetails": {
+                            "duration": "PT34M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M6S",
+            "durationSeconds": 2046
         },
         {
             "kind": "youtube#playlistItem",
@@ -1612,7 +2418,33 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "zAESjdU_QyE",
                 "videoPublishedAt": "2020-07-02T18:47:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mKGflAnLWXX-HKhmj1x7edVgWZs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EeMHGyYm6zv_dPSrGtjI4Y0DEiA",
+                        "id": "zAESjdU_QyE",
+                        "contentDetails": {
+                            "duration": "PT54M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT54M21S",
+            "durationSeconds": 3261
         },
         {
             "kind": "youtube#playlistItem",
@@ -1663,11 +2495,40 @@ export const DeepLearning = {
             "contentDetails": {
                 "videoId": "dzLDlWllKNU",
                 "videoPublishedAt": "2020-07-04T13:00:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-FUojgbpASVSzQ4jKBgC9HHo82A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gU8r9dfZqLSogyZF3guHbQYAYfY",
+                        "id": "dzLDlWllKNU",
+                        "contentDetails": {
+                            "duration": "PT42M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT42M48S",
+            "durationSeconds": 2568
         }
     ],
     "pageInfo": {
         "totalResults": 33,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 87311
     }
 }

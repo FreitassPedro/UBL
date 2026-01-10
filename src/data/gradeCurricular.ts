@@ -3,43 +3,43 @@ import { circuitosDigitais } from "@/data/APICourseJSON/Step1/CircuitosDigitais"
 import { introducaoComputacaoI } from "@/data/APICourseJSON/Step1/IntroducaoComputacaoI";
 import { linguagensProgramacao } from "@/data/APICourseJSON/Step1/LinguagensProgramacao";
 import { matematicaDiscreta } from "@/data/APICourseJSON/Step1/MatematicaDiscreta";
-import { GeometriaAnalitica } from "@/data/APICourseJSON/Step1/GeometriaAnalitica";
+import { geometriaAnalitica } from "@/data/APICourseJSON/Step1/GeometriaAnalitica";
 
-import { CalculoI } from "@/data/APICourseJSON/Step2/CalculoI";
-import { AlgebraLinear } from "@/data/APICourseJSON/Step2/AlgebraLinear";
-import { EstruturaDeDaddos } from "@/data/APICourseJSON/Step2/EstruturaDeDados";
-import { IntroducaoComputacaoII } from "@/data/APICourseJSON/Step2/IntroducaoComputacaoII";
-import { ProgramacaoOrientadaObjeto } from "@/data/APICourseJSON/Step2/ProgramacaoOrientadaObjeto";
+import { calculoI } from "@/data/APICourseJSON/Step2/CalculoI";
+import { algebraLinear } from "@/data/APICourseJSON/Step2/AlgebraLinear";
+import { estruturaDeDados } from "@/data/APICourseJSON/Step2/EstruturaDeDados";
+import { introducaoComputacaoII } from "@/data/APICourseJSON/Step2/IntroducaoComputacaoII";
+import { programacaoOrientadaObjetos } from "@/data/APICourseJSON/Step2/ProgramacaoOrientadaObjetos";
 
-import { AlgoritmoEmGrafos } from "@/data/APICourseJSON/Step3/AlgoritimoEmGrafos";
-import { ArquiteturaComputadoresI } from "@/data/APICourseJSON/Step3/ArquiteturaComputadoresI";
-import { ProbabilidadeEstatistica } from "@/data/APICourseJSON/Step3/ProbabilidadeEstatistica";
-import { CalculoII } from "@/data/APICourseJSON/Step3/CalculoII";
-import { ProgramacaoFuncionaHuskel } from "@/data/APICourseJSON/Step3/ProgramacaoFuncionalHuskel";
+import { algoritmosEmGrafos } from "@/data/APICourseJSON/Step3/AlgoritimosEmGrafos";
+import { arquiteturaComputadoresI } from "@/data/APICourseJSON/Step3/ArquiteturaComputadoresI";
+import { probabilidadeEstatistica } from "@/data/APICourseJSON/Step3/ProbabilidadeEstatistica";
+import { calculoII } from "@/data/APICourseJSON/Step3/CalculoII";
+import { programacaoFuncionalHaskell } from "@/data/APICourseJSON/Step3/ProgramacaoFuncionalHaskell";
 
-import { AnaliseAlgoritmos } from "@/data/APICourseJSON/Step4/AnaliseAlgoritmos";
-import { ArquiteturaComputadoresII } from "@/data/APICourseJSON/Step4/ArquiteturaComputadoresII";
-import { BancoDeDados } from "@/data/APICourseJSON/Step4/BancoDeDados";
-import { MetodosNumericosI } from "@/data/APICourseJSON/Step4/MetodosNumericosI";
-import { ProgramacaoLogica } from "@/data/APICourseJSON/Step4/ProgramacaoLogica";
+import { analiseAlgoritmos } from "@/data/APICourseJSON/Step4/AnaliseAlgoritmos";
+import { arquiteturaComputadoresII } from "@/data/APICourseJSON/Step4/ArquiteturaComputadoresII";
+import { bancoDeDados } from "@/data/APICourseJSON/Step4/BancoDeDados";
+import { metodosNumericosI } from "@/data/APICourseJSON/Step4/MetodosNumericosI";
+import { programacaoLogica } from "@/data/APICourseJSON/Step4/ProgramacaoLogica";
 
-import { RedeDeComputadores } from "@/data/APICourseJSON/Step5/RedeDeComputadores";
-import { IntroducaoEngenhariaSoftware } from "@/data/APICourseJSON/Step5/IntroducaoEngenhariaSoftware";
-import { SistemaOperacionais } from "@/data/APICourseJSON/Step5/SistemaOperacionais";
-import { ProgramacaoMatematica } from "@/data/APICourseJSON/Step5/ProgramacaoMatematica";
-import { FundamentosComputacaoGrafica } from "@/data/APICourseJSON/Step5/FundamentosComputacaoGrafica";
+import { redesDeComputadores } from "@/data/APICourseJSON/Step5/RedesDeComputadores";
+import { introducaoEngenhariaSoftware } from "@/data/APICourseJSON/Step5/IntroducaoEngenhariaSoftware";
+import { sistemasOperacionais } from "@/data/APICourseJSON/Step5/SistemasOperacionais";
+import { programacaoMatematica } from "@/data/APICourseJSON/Step5/ProgramacaoMatematica";
+import { fundamentosComputacaoGrafica } from "@/data/APICourseJSON/Step5/FundamentosComputacaoGrafica";
 
-import { LinguagensFormaisAutomatos } from "@/data/APICourseJSON/Step6/LinguagensFormaisAutomatos";
-import { InteligenciaArtifical } from "@/data/APICourseJSON/Step6/InteligenciaArtifical";
-import { SistemasDistruibuidos } from "@/data/APICourseJSON/Step6/SistemasDistruibuidos";
-import { TeoriaDosGrafos } from "@/data/APICourseJSON/Step6/TeoriaDosGrafos";
-import { CalculoIII } from "@/data/APICourseJSON/Step6/CalculoIII";
+import { linguagensFormaisAutomatos } from "@/data/APICourseJSON/Step6/LinguagensFormaisAutomatos";
+import { inteligenciaArtifical } from "@/data/APICourseJSON/Step6/InteligenciaArtifical";
+import { sistemasDistruibuidos } from "@/data/APICourseJSON/Step6/SistemasDistruibuidos";
+import { teoriaDosGrafos } from "@/data/APICourseJSON/Step6/TeoriaDosGrafos";
+import { calculoIII } from "@/data/APICourseJSON/Step6/CalculoIII";
 
-import { TeoriaDaComputacao } from "@/data/APICourseJSON/Step7/TeoriaDaComputacao";
-import { DeepLearning } from "@/data/APICourseJSON/Step7/DeepLearning";
-import { COmputacaoQuantica } from "@/data/APICourseJSON/Step7/ComputacaoQuantica";
-import { MetodologiaDaPesquisa } from "@/data/APICourseJSON/Step7/MetodologiaDaPesquisa";
-import { Compiladores } from "@/data/APICourseJSON/Step7/Compiladores";
+import { teoriaDaComputacao } from "@/data/APICourseJSON/Step7/TeoriaDaComputacao";
+import { deepLearning } from "@/data/APICourseJSON/Step7/DeepLearning";
+import { computacaoQuantica } from "@/data/APICourseJSON/Step7/ComputacaoQuantica";
+import { metodologiaDaPesquisa } from "@/data/APICourseJSON/Step7/MetodologiaDaPesquisa";
+import { compiladores } from "@/data/APICourseJSON/Step7/Compiladores";
 
 export interface Lesson {
   id: string;
@@ -113,7 +113,7 @@ export const CurriculoCC: Grade = {
         {
           id: 5,
           name: "Geometria Analítica",
-          lessons: fetchCourseLessons(GeometriaAnalitica),
+          lessons: fetchCourseLessons(geometriaAnalitica),
           prerequisites: [],
           books: [{ name: "Livros sobre Geometria Analítica", url: "extras/bibliography/05_analytic_geometry.md" }],
         },
@@ -126,35 +126,35 @@ export const CurriculoCC: Grade = {
         {
           id: 6,
           name: "Cálculo I",
-          lessons: fetchCourseLessons(CalculoI),
+          lessons: fetchCourseLessons(calculoI),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros de Cálculo I", url: "extras/bibliography/06_intro_calculus.md" }],
         },
         {
           id: 7,
           name: "Álgebra Linear I",
-          lessons: fetchCourseLessons(AlgebraLinear),
+          lessons: fetchCourseLessons(algebraLinear),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros de Álgebra Linear", url: "extras/bibliography/07_intro_linear_algebra.md" }],
         },
         {
           id: 8,
           name: "Estruturas de Dados",
-          lessons: fetchCourseLessons(EstruturaDeDaddos),
+          lessons: fetchCourseLessons(estruturaDeDados),
           prerequisites: ["Matemática Discreta", "Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros de Estruturas de Dados", url: "extras/bibliography/08_data_structure.md" }],
         },
         {
           id: 9,
           name: "Introdução à Ciência da Computação com Python II",
-          lessons: fetchCourseLessons(IntroducaoComputacaoII),
+          lessons: fetchCourseLessons(introducaoComputacaoII),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros de Introdução a Programação", url: "extras/bibliography/09_python.md" }],
         },
         {
           id: 10,
           name: "Laboratório de Programação Orientada a Objetos I",
-          lessons: fetchCourseLessons(ProgramacaoOrientadaObjeto),
+          lessons: fetchCourseLessons(programacaoOrientadaObjetos),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [{ name: "Livros sobre Orientação a Objetos", url: "extras/bibliography/10_object_orientation.md" }],
         },
@@ -167,35 +167,35 @@ export const CurriculoCC: Grade = {
         {
           id: 11,
           name: "Algoritmos em Grafos",
-          lessons: fetchCourseLessons(AlgoritmoEmGrafos),
+          lessons: fetchCourseLessons(algoritmosEmGrafos),
           prerequisites: ["Estruturas de Dados"],
           books: [{ name: "Livros sobre Algoritmos em Grafos", url: "extras/bibliography/11_graph_algorithms.md" }],
         },
         {
           id: 12,
           name: "Arquitetura de Computadores I",
-          lessons: fetchCourseLessons(ArquiteturaComputadoresI),
+          lessons: fetchCourseLessons(arquiteturaComputadoresI),
           prerequisites: ["Circuitos Digitais"],
           books: [{ name: "Livros sobre Arquitetura de Computadores I", url: "extras/bibliography/12_computer_architecture.md" }],
         },
         {
           id: 13,
           name: "Probabilidade e Estatística",
-          lessons: fetchCourseLessons(ProbabilidadeEstatistica),
+          lessons: fetchCourseLessons(probabilidadeEstatistica),
           prerequisites: ["Cálculo I"],
           books: [{ name: "Livros sobre Probabilidade e Estatística", url: "extras/bibliography/13_statistics_probability.md" }],
         },
         {
           id: 14,
           name: "Cálculo II",
-          lessons: fetchCourseLessons(CalculoII),
+          lessons: fetchCourseLessons(calculoII),
           prerequisites: ["Cálculo I"],
           books: [{ name: "Livros sobre Cálculo II", url: "extras/bibliography/14_advanced_calculus.md" }],
         },
         {
           id: 15,
           name: "Programação Funcional em Haskell",
-          lessons: fetchCourseLessons(ProgramacaoFuncionaHuskel),
+          lessons: fetchCourseLessons(programacaoFuncionalHaskell),
           prerequisites: [],
           books: [{ name: "Livros sobre Programação Funcional", url: "extras/bibliography/15_haskell.md" }],
         },
@@ -208,35 +208,35 @@ export const CurriculoCC: Grade = {
         {
           id: 16,
           name: "Análise de Algoritmos",
-          lessons: fetchCourseLessons(AnaliseAlgoritmos),
+          lessons: fetchCourseLessons(analiseAlgoritmos),
           prerequisites: ["Algoritmos em Grafos"],
           books: [{ name: "Livros sobre Análise de Algoritmos", url: "extras/bibliography/16_analysis_of_algorithms.md" }],
         },
         {
           id: 17,
           name: "Métodos Numéricos I",
-          lessons: fetchCourseLessons(MetodosNumericosI),
+          lessons: fetchCourseLessons(metodosNumericosI),
           prerequisites: ["Introdução à Ciência da Computação com Python I", "Cálculo I"],
           books: [{ name: "Livros sobre Métodos Numéricos", url: "extras/bibliography/17_numeric_methods.md" }],
         },
         {
           id: 18,
           name: "Banco de Dados",
-          lessons: fetchCourseLessons(BancoDeDados),
+          lessons: fetchCourseLessons(bancoDeDados),
           prerequisites: [],
           books: [{ name: "Livros sobre Bancos de Dados", url: "extras/bibliography/18_database.md" }],
         },
         {
           id: 19,
           name: "Arquitetura de Computadores II",
-          lessons: fetchCourseLessons(ArquiteturaComputadoresII),
+          lessons: fetchCourseLessons(arquiteturaComputadoresII),
           prerequisites: ["Introdução à Ciência da Computação com Python II", "Arquitetura de Computadores I"],
           books: [{ name: "Livros sobre Arquitetura de Computadores", url: "extras/bibliography/19_computer_architecture_II.md" }],
         },
         {
           id: 20,
           name: "Programação Lógica",
-          lessons: fetchCourseLessons(ProgramacaoLogica),
+          lessons: fetchCourseLessons(programacaoLogica),
           prerequisites: [],
           books: [{ name: "Livros sobre Programação Lógica", url: "extras/bibliography/20_logical_programming.md" }],
         },
@@ -249,35 +249,35 @@ export const CurriculoCC: Grade = {
         {
           id: 21,
           name: "Redes de Computadores",
-          lessons: fetchCourseLessons(RedeDeComputadores),
+          lessons: fetchCourseLessons(redesDeComputadores),
           prerequisites: [],
           books: [{ name: "Livros sobre Rede de Computadores", url: "extras/bibliography/21_computer_network.md" }],
         },
         {
           id: 22,
           name: "Introdução à Engenharia de Software",
-          lessons: fetchCourseLessons(IntroducaoEngenhariaSoftware),
+          lessons: fetchCourseLessons(introducaoEngenhariaSoftware),
           prerequisites: ["Introdução à Ciência da Computação com Python II"],
           books: [{ name: "Livros sobre Engenharia de Software", url: "extras/bibliography/22_software_engineering.md" }],
         },
         {
           id: 23,
           name: "Sistemas Operacionais",
-          lessons: fetchCourseLessons(SistemaOperacionais),
+          lessons: fetchCourseLessons(sistemasOperacionais),
           prerequisites: ["Arquitetura de Computadores II"],
           books: [{ name: "Livros sobre Sistemas Operacionais", url: "extras/bibliography/23_operating_system.md" }],
         },
         {
           id: 24,
           name: "Programação Matemática",
-          lessons: fetchCourseLessons(ProgramacaoMatematica),
+          lessons: fetchCourseLessons(programacaoMatematica),
           prerequisites: ["Álgebra Linear I"],
           books: [{ name: "Livros sobre Programação Matemática/Pesquisa Operacional", url: "extras/bibliography/24_math_optimization.md" }],
         },
         {
           id: 25,
           name: "Fundamentos de Computação Gráfica",
-          lessons: fetchCourseLessons(FundamentosComputacaoGrafica),
+          lessons: fetchCourseLessons(fundamentosComputacaoGrafica),
           prerequisites: ["Geometria Analítica"],
           books: [{ name: "Livros sobre Computação Gráfica", url: "extras/bibliography/25_fundamentals_computer_graphics.md" }],
         },
@@ -290,35 +290,35 @@ export const CurriculoCC: Grade = {
         {
           id: 26,
           name: "Linguagens Formais e Autômatos",
-          lessons: fetchCourseLessons(LinguagensFormaisAutomatos),
+          lessons: fetchCourseLessons(linguagensFormaisAutomatos),
           prerequisites: ["Matemática Discreta"],
           books: [{ name: "Livros sobre Linguagens Formais e Autômatos", url: "extras/bibliography/26_automata_theory.md" }],
         },
         {
           id: 27,
           name: "Inteligência Artificial",
-          lessons: fetchCourseLessons(InteligenciaArtifical),
+          lessons: fetchCourseLessons(inteligenciaArtifical),
           prerequisites: ["Estruturas de Dados", "Probabilidade e Estatística"],
           books: [{ name: "Livros sobre Inteligência Artificial", url: "extras/bibliography/27_artificial_intelligence.md" }],
         },
         {
           id: 28,
           name: "Sistemas Distribuídos",
-          lessons: fetchCourseLessons(SistemasDistruibuidos),
+          lessons: fetchCourseLessons(sistemasDistruibuidos),
           prerequisites: ["Redes de Computadores"],
           books: [{ name: "Livros sobre Sistemas Distríbuidos", url: "extras/bibliography/28_distributed_computing.md" }],
         },
         {
           id: 29,
           name: "Teoria dos Grafos",
-          lessons: fetchCourseLessons(TeoriaDosGrafos),
+          lessons: fetchCourseLessons(teoriaDosGrafos),
           prerequisites: ["Matemática Discreta"],
           books: [{ name: "Livros sobre Teoria dos Grafos", url: "extras/bibliography/29_graphs.md" }],
         },
         {
           id: 30,
           name: "Cálculo III",
-          lessons: fetchCourseLessons(CalculoIII),
+          lessons: fetchCourseLessons(calculoIII),
           prerequisites: ["Cálculo II"],
           books: [{ name: "Livros sobre Cálculo III", url: "extras/bibliography/30_multivariable_calculus.md" }],
         },
@@ -331,35 +331,35 @@ export const CurriculoCC: Grade = {
         {
           id: 31,
           name: "Teoria da Computação",
-          lessons: fetchCourseLessons(TeoriaDaComputacao),
+          lessons: fetchCourseLessons(teoriaDaComputacao),
           prerequisites: ["Linguagens Formais e Autômatos"],
           books: [{ name: "Livros sobre Teoria da Computação", url: "extras/bibliography/31_theory_of_computation.md" }],
         },
         {
           id: 32,
           name: "Deep Learning",
-          lessons: fetchCourseLessons(DeepLearning),
+          lessons: fetchCourseLessons(deepLearning),
           prerequisites: ["Inteligência Artificial"],
           books: [{ name: "Livros sobre Deep Learning", url: "extras/bibliography/32_deep_learning.md" }],
         },
         {
           id: 33,
           name: "Compiladores",
-          lessons: fetchCourseLessons(Compiladores),
+          lessons: fetchCourseLessons(compiladores),
           prerequisites: ["Estruturas de Dados", "Teoria dos Grafos"],
           books: [{ name: "Livros sobre Compiladores", url: "extras/bibliography/33_compilers.md" }],
         },
         {
           id: 34,
           name: "Computação Quântica",
-          lessons: fetchCourseLessons(COmputacaoQuantica),
+          lessons: fetchCourseLessons(computacaoQuantica),
           prerequisites: ["Cálculo III", "Arquitetura de Computadores II"],
           books: [{ name: "Livros sobre Computação Quântica", url: "extras/bibliography/34_quantum_copmputing.md" }],
         },
         {
           id: 35,
           name: "Metodologia da Pesquisa",
-          lessons: fetchCourseLessons(MetodologiaDaPesquisa),
+          lessons: fetchCourseLessons(metodologiaDaPesquisa),
           prerequisites: [],
           books: [{ name: "Livros sobre Metodologia de Pesquisa", url: "extras/bibliography/35_methodology.md" }],
         },

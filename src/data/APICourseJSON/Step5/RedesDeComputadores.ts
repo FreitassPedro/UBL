@@ -1,4 +1,4 @@
-export const RedeDeComputadores = {
+export const redesDeComputadores = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "wdyM7lHW1rMvl5e1ZBh8NTfQRHU",
     "items": [
@@ -51,7 +51,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "4sS1BMeJsEc",
                 "videoPublishedAt": "2020-11-13T18:52:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cuS5_3O5SmElqX9x5iEhvfUTbUU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "82golBtAh9OXpyOMrj5paBkjsec",
+                        "id": "4sS1BMeJsEc",
+                        "contentDetails": {
+                            "duration": "PT6H1M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6H1M53S",
+            "durationSeconds": 21713
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "dgwzJ1SOdEM",
                 "videoPublishedAt": "2020-11-26T12:20:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Mz0ZOsnoOKqfe86hp6pQ7H2vEgE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3yJh26JiHyzoLMMOH2dJ8cxfF9Q",
+                        "id": "dgwzJ1SOdEM",
+                        "contentDetails": {
+                            "duration": "PT5H43M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5H43M1S",
+            "durationSeconds": 20581
         },
         {
             "kind": "youtube#playlistItem",
@@ -143,7 +195,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "Wl0NI17Lj2c",
                 "videoPublishedAt": "2020-12-10T15:32:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zWfi_3NjWKj2J0_oQsNkxzrt2PQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BUxKJ7EbpnE8rvFfPIlQ1bOxr04",
+                        "id": "Wl0NI17Lj2c",
+                        "contentDetails": {
+                            "duration": "PT4H31M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4H31M39S",
+            "durationSeconds": 16299
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "fg2cWHFY_Q4",
                 "videoPublishedAt": "2020-12-30T02:51:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "VhUcGP_sptyaq-xgcTivWcvAkd0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rI7yiYFvFblXkT1MaBoYaa8fS20",
+                        "id": "fg2cWHFY_Q4",
+                        "contentDetails": {
+                            "duration": "PT3H34M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT3H34M7S",
+            "durationSeconds": 12847
         },
         {
             "kind": "youtube#playlistItem",
@@ -235,7 +339,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "qNgA8vTHfgQ",
                 "videoPublishedAt": "2021-01-27T22:49:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BeTm5-bzo7_i50KyVf--iH_BR54",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fjKsE31MGXw7MXJmsjI3DKTDeiE",
+                        "id": "qNgA8vTHfgQ",
+                        "contentDetails": {
+                            "duration": "PT2H27M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H27M40S",
+            "durationSeconds": 8860
         },
         {
             "kind": "youtube#playlistItem",
@@ -286,7 +416,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "nZan2yTamJw",
                 "videoPublishedAt": "2021-02-19T13:18:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0d9B42FkrH3h9BJNxv_0xg5W_Vs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "s0IDJBmdBjbNKxkqz8P-M8M36IY",
+                        "id": "nZan2yTamJw",
+                        "contentDetails": {
+                            "duration": "PT4H28M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4H28M26S",
+            "durationSeconds": 16106
         },
         {
             "kind": "youtube#playlistItem",
@@ -337,7 +493,33 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "yDp_ms_Cu2M",
                 "videoPublishedAt": "2021-02-17T11:19:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "VX9y-57Tr8CQ9Hihq3p9s2Y2pOo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QwEdm5Xstv0KFp6sHgO-TwWlkz0",
+                        "id": "yDp_ms_Cu2M",
+                        "contentDetails": {
+                            "duration": "PT2H44M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT2H44M30S",
+            "durationSeconds": 9870
         },
         {
             "kind": "youtube#playlistItem",
@@ -388,11 +570,40 @@ export const RedeDeComputadores = {
             "contentDetails": {
                 "videoId": "VZGOapKSeFM",
                 "videoPublishedAt": "2021-02-27T15:55:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "EttyPrHvrKaLxFzxs3B1J4BFpUc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rMjVTX31iQmFNMBGwW7y0qUi-0E",
+                        "id": "VZGOapKSeFM",
+                        "contentDetails": {
+                            "duration": "PT3H15M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT3H15M50S",
+            "durationSeconds": 11750
         }
     ],
     "pageInfo": {
         "totalResults": 8,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 118026
     }
 }
