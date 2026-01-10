@@ -99,7 +99,6 @@ export default function CoursePage() {
               data-[state=checked]:border-ubl-green
             "
           />
-
           <div className="flex flex-col items-start gap-0.5">
             <span className="text-sm font-medium leading-tight">
               {lesson.title}
@@ -228,9 +227,9 @@ export default function CoursePage() {
           />
 
           {/* Videos List */}
-          <div className="flex min-h-0 flex-col flex-1">
-            <ScrollArea className="h-full pr-2">
-              <ul className="space-y-2">
+          <div className="flex min-h-0 flex-col flex-1 relative">
+            <ScrollArea className="h-full pr-2 overflow-hidden relative">
+              <ul className="space-y-2 mr-3">
                 {myCadeira.lessons.map((lesson) => (
                   <ClassSideBarItem
                     key={lesson.id}
@@ -239,8 +238,10 @@ export default function CoursePage() {
                     onSelect={handleSelectLesson}
                   />
                 ))}
+                {/* Gradient overlay */}
               </ul>
             </ScrollArea>
+            <div className="pointer-events-none bg-linear-to-t from-zinc-900  to-transparent bottom-0 left-0 w-full z-10 h-20 absolute" />
           </div>
         </aside>
       </div>
