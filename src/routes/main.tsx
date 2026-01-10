@@ -1,16 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import '../index.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import HomePage from '../pages/HomePage/HomePage.tsx'
-import { CourseProgressProvider } from '../contexts/CourseProgressContext/CourseProgressContext.tsx'
-import CoursePage from '../pages/CoursePage/CoursePage.tsx'
-import MyCourse from '../pages/MyCourse/MyCourse.tsx'
-import GradeCurricularPage from '../pages/GradePage/GradeCurricularPage.tsx'
-import { LoadingProvider } from '../contexts/LoadingContext/LoadingProvider.tsx'
-import TestePage from '../pages/Testepage/TestePage1.tsx'
-import NodeGraphVisualization from '../components/NodeGraph/NodeGraphVisualization.tsx'
-import { MainLayout } from './MainLayout.tsx'
+import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
+import { CourseProgressProvider } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { LoadingProvider } from "@/contexts/LoadingContext/LoadingProvider";
+import "@/index.css";
+import CoursePage from "@/pages/CoursePage/CoursePage";
+import GradeCurricularPage from "@/pages/GradePage/GradeCurricularPage";
+import HomePage from "@/pages/HomePage/HomePage";
+import MyCourse from "@/pages/MyCourse/MyCourse";
+import TestePage from "@/pages/Testepage/TestePage1";
+import { MainLayout } from "@/routes/MainLayout";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

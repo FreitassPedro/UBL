@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { type Grade } from "../../data/gradeCurricular";
-import { SemesterCard } from "./SemesterCard";
+import { SemesterCard } from "@/components/GradeCurricular/SemesterCard";
+import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
+import { type Grade } from "@/data/gradeCurricular";
 import { GraduationCap } from "lucide-react";
-import NodeGraphVisualization from "../NodeGraph/NodeGraphVisualization";
+import React, { useEffect } from "react";
 
 interface CurriculumSectionProps {
     selectedCourse: Grade;

@@ -1,4 +1,4 @@
-import type { Cadeira, Etapa, Grade, Lesson } from "./gradeCurricular";
+import type { Cadeira, Etapa, Grade, Lesson } from "@/data/gradeCurricular";
 
 export interface MyLesson extends Lesson {
     isCompleted: boolean;

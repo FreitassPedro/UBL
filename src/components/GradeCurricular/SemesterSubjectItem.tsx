@@ -1,6 +1,6 @@
-import { Asterisk, BookOpen, ChevronDown, ChevronUp } from "lucide-react"
-import { Button } from "../ui/button"
-import { BookRecommendation } from "./BookRecommendation"
+import { BookRecommendation } from "@/components/GradeCurricular/BookRecommendation";
+import { Button } from "@/components/ui/button";
+import { Asterisk, BookOpen, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 
 interface SubjectCardProps {

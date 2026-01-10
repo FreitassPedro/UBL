@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
-import { ProgressBar } from "../../components/ui/ProgressBar";
-import { useCourseProgress } from "../../contexts/CourseProgressContext/CourseProgressContext";
-import { mapGradeToMyGradeProgress } from "../../lib/utils";
-import { CurriculoCC } from "../../data/gradeCurricular";
-import type { MyCadeiraProgress } from "../../data/myCourseProgress";
-import { useMemo } from "react";
+import { Progress } from "@/components/ui/progress";
+import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { CurriculoCC } from "@/data/gradeCurricular";
+import type { MyCadeiraProgress } from "@/data/myCourseProgress";
+import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import { ArrowRight } from "lucide-react";
+import { useMemo } from "react";
+import { Link } from "react-router-dom";
 
 type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
 
@@ -61,7 +61,7 @@ const TestePage2 = () => {
                   <span>Progresso</span>
                   <span>{course.progress}%</span>
                 </div>
-                <ProgressBar value={course.progress} />
+                <Progress value={course.progress} />
               </div>
               <div className="mt-6 w-full flex">
                 <Link to={""}
@@ -130,7 +130,7 @@ const TestePage2 = () => {
                     <span>{course.progress}%</span>
                   </div>
                   <div className="h-2 w-full rounded-full bg-zinc-900 overflow-hidden">
-                    <ProgressBar value={course.progress} />
+                    <Progress value={course.progress} />
                   </div>
                 </div>
 
