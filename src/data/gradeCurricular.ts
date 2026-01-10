@@ -1,20 +1,20 @@
 import { fetchCourseLessons } from "@/data/APICourseJSON/fetchCourseVideos";
 import { circuitosDigitais } from "@/data/APICourseJSON/Step1/CircuitosDigitais";
+import { geometriaAnalitica } from "@/data/APICourseJSON/Step1/GeometriaAnalitica";
 import { introducaoComputacaoI } from "@/data/APICourseJSON/Step1/IntroducaoComputacaoI";
 import { linguagensProgramacao } from "@/data/APICourseJSON/Step1/LinguagensProgramacao";
 import { matematicaDiscreta } from "@/data/APICourseJSON/Step1/MatematicaDiscreta";
-import { geometriaAnalitica } from "@/data/APICourseJSON/Step1/GeometriaAnalitica";
 
-import { calculoI } from "@/data/APICourseJSON/Step2/CalculoI";
 import { algebraLinear } from "@/data/APICourseJSON/Step2/AlgebraLinear";
+import { calculoI } from "@/data/APICourseJSON/Step2/CalculoI";
 import { estruturaDeDados } from "@/data/APICourseJSON/Step2/EstruturaDeDados";
 import { introducaoComputacaoII } from "@/data/APICourseJSON/Step2/IntroducaoComputacaoII";
 import { programacaoOrientadaObjetos } from "@/data/APICourseJSON/Step2/ProgramacaoOrientadaObjetos";
 
 import { algoritmosEmGrafos } from "@/data/APICourseJSON/Step3/AlgoritimosEmGrafos";
 import { arquiteturaComputadoresI } from "@/data/APICourseJSON/Step3/ArquiteturaComputadoresI";
-import { probabilidadeEstatistica } from "@/data/APICourseJSON/Step3/ProbabilidadeEstatistica";
 import { calculoII } from "@/data/APICourseJSON/Step3/CalculoII";
+import { probabilidadeEstatistica } from "@/data/APICourseJSON/Step3/ProbabilidadeEstatistica";
 import { programacaoFuncionalHaskell } from "@/data/APICourseJSON/Step3/ProgramacaoFuncionalHaskell";
 
 import { analiseAlgoritmos } from "@/data/APICourseJSON/Step4/AnaliseAlgoritmos";
@@ -23,55 +23,24 @@ import { bancoDeDados } from "@/data/APICourseJSON/Step4/BancoDeDados";
 import { metodosNumericosI } from "@/data/APICourseJSON/Step4/MetodosNumericosI";
 import { programacaoLogica } from "@/data/APICourseJSON/Step4/ProgramacaoLogica";
 
-import { redesDeComputadores } from "@/data/APICourseJSON/Step5/RedesDeComputadores";
-import { introducaoEngenhariaSoftware } from "@/data/APICourseJSON/Step5/IntroducaoEngenhariaSoftware";
-import { sistemasOperacionais } from "@/data/APICourseJSON/Step5/SistemasOperacionais";
-import { programacaoMatematica } from "@/data/APICourseJSON/Step5/ProgramacaoMatematica";
 import { fundamentosComputacaoGrafica } from "@/data/APICourseJSON/Step5/FundamentosComputacaoGrafica";
+import { introducaoEngenhariaSoftware } from "@/data/APICourseJSON/Step5/IntroducaoEngenhariaSoftware";
+import { programacaoMatematica } from "@/data/APICourseJSON/Step5/ProgramacaoMatematica";
+import { redesDeComputadores } from "@/data/APICourseJSON/Step5/RedesDeComputadores";
+import { sistemasOperacionais } from "@/data/APICourseJSON/Step5/SistemasOperacionais";
 
-import { linguagensFormaisAutomatos } from "@/data/APICourseJSON/Step6/LinguagensFormaisAutomatos";
+import { calculoIII } from "@/data/APICourseJSON/Step6/CalculoIII";
 import { inteligenciaArtifical } from "@/data/APICourseJSON/Step6/InteligenciaArtifical";
+import { linguagensFormaisAutomatos } from "@/data/APICourseJSON/Step6/LinguagensFormaisAutomatos";
 import { sistemasDistruibuidos } from "@/data/APICourseJSON/Step6/SistemasDistruibuidos";
 import { teoriaDosGrafos } from "@/data/APICourseJSON/Step6/TeoriaDosGrafos";
-import { calculoIII } from "@/data/APICourseJSON/Step6/CalculoIII";
 
-import { teoriaDaComputacao } from "@/data/APICourseJSON/Step7/TeoriaDaComputacao";
-import { deepLearning } from "@/data/APICourseJSON/Step7/DeepLearning";
-import { computacaoQuantica } from "@/data/APICourseJSON/Step7/ComputacaoQuantica";
-import { metodologiaDaPesquisa } from "@/data/APICourseJSON/Step7/MetodologiaDaPesquisa";
 import { compiladores } from "@/data/APICourseJSON/Step7/Compiladores";
-
-export interface Lesson {
-  id: string;
-  title: string;
-  type: "video" | "text" | "exercise";
-  duration?: number; // Duração em segundos, opcional
-  url: string; // Video, Link, Livro
-}
-
-export interface Cadeira {
-  id: number;
-  name: string;
-  lessons: Lesson[];
-  prerequisites: string[];
-  url?: string;
-  books: {
-    name: string;
-    url: string;
-  }[];
-}
-
-export interface Etapa {
-  id: number;
-  number: number;
-  cadeiras: Cadeira[];
-}
-
-export interface Grade {
-  id: number;
-  curriculo: string;
-  etapas: Etapa[];
-}
+import { computacaoQuantica } from "@/data/APICourseJSON/Step7/ComputacaoQuantica";
+import { deepLearning } from "@/data/APICourseJSON/Step7/DeepLearning";
+import { metodologiaDaPesquisa } from "@/data/APICourseJSON/Step7/MetodologiaDaPesquisa";
+import { teoriaDaComputacao } from "@/data/APICourseJSON/Step7/TeoriaDaComputacao";
+import type { Grade } from "@/types/grade";
 
 export const CurriculoCC: Grade = {
   id: 1,

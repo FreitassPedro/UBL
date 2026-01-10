@@ -1,5 +1,5 @@
 import { SemesterSubjectItem } from "@/components/GradeCurricular/SemesterSubjectItem";
-import type { Etapa } from "@/data/gradeCurricular";
+import type { Etapa } from "@/types/etapa";
 
 interface SemesterBodyProps {
     stage: Etapa;

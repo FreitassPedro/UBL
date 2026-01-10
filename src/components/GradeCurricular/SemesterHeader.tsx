@@ -1,4 +1,4 @@
-import type { Etapa } from "@/data/gradeCurricular";
+import type { Etapa } from "@/types/etapa";
 import { BookOpen, ChevronRight, Clock } from "lucide-react";
 
 interface SemesterHeaderProps {

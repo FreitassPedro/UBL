@@ -1,10 +1,10 @@
 import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
 import { CurriculumSection } from "@/components/GradeCurricular/CurriculumSection";
 import {
-  CurriculoCC,
-  CurriculoMatematica,
-  type Grade,
+    CurriculoCC,
+    CurriculoMatematica,
 } from "@/data/gradeCurricular";
+import type { Grade } from "@/types/grade";
 import React from "react";
 
 export default function GradeCurricularPage() {

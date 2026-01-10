@@ -1,4 +1,3 @@
-
 interface CardBackgroundGlowProps {
     color?: string;
     format: 'linear' | 'radial';

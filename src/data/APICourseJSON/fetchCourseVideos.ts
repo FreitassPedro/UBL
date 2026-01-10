@@ -1,4 +1,4 @@
-import type { Lesson } from "@/data/gradeCurricular";
+import type { Lesson } from "@/types/lesson";
 
 interface YouTubeApiResponse {
     items: {

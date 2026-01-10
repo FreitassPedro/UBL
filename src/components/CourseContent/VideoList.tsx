@@ -1,11 +1,11 @@
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
-import type { MyLesson } from "@/data/myCourseProgress";
+import type { MyLessonProgress } from "@/types/progress";
 import { CheckCircle, Circle } from "lucide-react";
 
 interface VideoListProps {
-  lessons: MyLesson[]
-  selectedLesson: MyLesson
-  onSelectLesson: (lesson: MyLesson) => void
+  lessons: MyLessonProgress[]
+  selectedLesson: MyLessonProgress
+  onSelectLesson: (lesson: MyLessonProgress) => void
 }
 
 export function VideoList({ lessons, selectedLesson, onSelectLesson }: VideoListProps) {

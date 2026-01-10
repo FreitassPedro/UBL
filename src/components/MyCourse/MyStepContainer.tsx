@@ -1,5 +1,5 @@
 import { MyStepCard } from "@/components/MyCourse/MyStepCard";
-import type { MyGradeProgress } from "@/data/myCourseProgress";
+import type { MyGradeProgress } from "@/types/progress";
 import { LayoutGrid } from "lucide-react";
 import React, { useState } from "react";
 

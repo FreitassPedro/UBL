@@ -1,5 +1,5 @@
-import { VideoPlayer } from "@/components/CourseContent/VideoPlayer";
 import { BackgroundGrid } from "@/components/BackgroundGrid";
+import { VideoPlayer } from "@/components/CourseContent/VideoPlayer";
 import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
@@ -15,9 +15,9 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
-import type { MyCadeiraProgress, MyLesson } from "@/data/myCourseProgress";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapCadeiraToMyCadeira } from "@/lib/mappers";
+import type { MyCadeiraProgress, MyLessonProgress } from "@/types/progress";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
@@ -51,7 +51,7 @@ export default function CoursePage() {
     return myCadeira?.lessons.find((lesson) => lesson.id === selectedLessonId);
   }, [myCadeira, selectedLessonId]);
 
-  const handleSelectLesson = (lesson: MyLesson) => {
+  const handleSelectLesson = (lesson: MyLessonProgress) => {
     setSelectedLessonId(lesson.id);
   };
 
@@ -64,9 +64,9 @@ export default function CoursePage() {
   }, [selectedLessonId]);
 
   const ClassSideBarItem: React.FC<{
-    lesson: MyLesson;
+    lesson: MyLessonProgress;
     isSelected: boolean;
-    onSelect: (lesson: MyLesson) => void;
+    onSelect: (lesson: MyLessonProgress) => void;
   }> = ({ lesson, isSelected, onSelect }) => {
     return (
       <li>

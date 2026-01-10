@@ -1,5 +1,5 @@
 import { MyStepCardBody } from "@/components/MyCourse/MyStepCardBody";
-import type { MyEtapaProgress } from "@/data/myCourseProgress";
+import type { MyEtapaProgress } from "@/types/progress";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
 interface MyStepCardProps {

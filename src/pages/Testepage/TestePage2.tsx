@@ -1,8 +1,8 @@
 import { Progress } from "@/components/ui/progress";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
-import type { MyCadeiraProgress } from "@/data/myCourseProgress";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
+import type { MyCadeiraProgress } from "@/types/progress";
 import { ArrowRight } from "lucide-react";
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
