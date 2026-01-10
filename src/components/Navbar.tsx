@@ -38,7 +38,7 @@ export const Navbar = () => {
 
   return (
     <header className="sticky top-0 left-0 z-50 py-2 text-zinc-400 bg-zinc-950 shadow-xl border-b border-zinc-800/80">
-      <div className="grid grid-cols-[auto_1fr_auto] items-center px-6">
+      <div className="grid grid-cols-[auto_1fr_auto] items-center px-6 mx-auto max-w-7xl">
         {/* Logo e Título */}
         <div className="justify-self-start">
           <Link to={"/"} className="flex items-center space-x-2">
