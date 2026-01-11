@@ -1,4 +1,4 @@
-export const FundamentosComputacaoGrafica = {
+export const fundamentosComputacaoGrafica = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "pXASRU1EBs1OOfNDZ1D7sZJNHyE",
     "items": [
@@ -51,7 +51,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "AVSAesOiKYY",
                 "videoPublishedAt": "2021-02-02T06:07:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Hm_oKBpUKm9DtqX6l8gXRc-1HCY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pB_rfsteNnlKeuR9-g-93vPULYA",
+                        "id": "AVSAesOiKYY",
+                        "contentDetails": {
+                            "duration": "PT45M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M26S",
+            "durationSeconds": 2726
         },
         {
             "kind": "youtube#playlistItem",
@@ -97,7 +123,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "bC4vTYlxxpY",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vFNf9_0csENHRTkYcWGkzPk7xmY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FX4t-12BMHWjOcv8geexeRWTckM",
+                        "id": "bC4vTYlxxpY",
+                        "contentDetails": {
+                            "duration": "PT28M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M24S",
+            "durationSeconds": 1704
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "wH9qoJ5iRzg",
                 "videoPublishedAt": "2020-11-07T18:25:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "EgU58sWdfpheSb2Fgsqq_Hg_wt8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "WhS2i5aOoGiiEfUSWBD4IAAXkU8",
+                        "id": "wH9qoJ5iRzg",
+                        "contentDetails": {
+                            "duration": "PT20M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M14S",
+            "durationSeconds": 1214
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "pfuGQBVkb3M",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QGoDTVUc9_o-pB1iM5YQkOk0sHo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ek_V_ZFZPO2N4-rLLRLTvQMuZtg",
+                        "id": "pfuGQBVkb3M",
+                        "contentDetails": {
+                            "duration": "PT4M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M45S",
+            "durationSeconds": 285
         },
         {
             "kind": "youtube#playlistItem",
@@ -225,7 +329,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "h_8jQjdlQQE",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yorFRoiQQt8JG8QXplXQ8NF4yAw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HEGr3Hm4kuRgdpcT_b0QRfN5pYM",
+                        "id": "h_8jQjdlQQE",
+                        "contentDetails": {
+                            "duration": "PT36M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M58S",
+            "durationSeconds": 2218
         },
         {
             "kind": "youtube#playlistItem",
@@ -271,7 +401,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "jdnPOs0ztyM",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "U_5y1DXCyGYxboMvOx7dQ6xwfmM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0PH-WxCw8LP1-niYHzGaLmPCI5w",
+                        "id": "jdnPOs0ztyM",
+                        "contentDetails": {
+                            "duration": "PT33M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M45S",
+            "durationSeconds": 2025
         },
         {
             "kind": "youtube#playlistItem",
@@ -317,7 +473,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "6_AQD8fwN-o",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IwtSdYsPC44Zxr4NISujQUeTXTA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NqqVF-OdEz_d_EdotMHZk9oyoOg",
+                        "id": "6_AQD8fwN-o",
+                        "contentDetails": {
+                            "duration": "PT41M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT41M22S",
+            "durationSeconds": 2482
         },
         {
             "kind": "youtube#playlistItem",
@@ -363,7 +545,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "Cd-jmrEKW4k",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "D9JByQidqcmyoXawWbBj9EVtYuM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oIzD0c80K8lXw7Vw4hhkdkN57jE",
+                        "id": "Cd-jmrEKW4k",
+                        "contentDetails": {
+                            "duration": "PT31M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M18S",
+            "durationSeconds": 1878
         },
         {
             "kind": "youtube#playlistItem",
@@ -404,7 +612,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "uyYLdDXoVCI",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0gJru_AUVJWDKF71DlG9wrtWMcw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "48LzT8OkcRXBVxPAOSUvofjTJT4",
+                        "id": "uyYLdDXoVCI",
+                        "contentDetails": {
+                            "duration": "PT6M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M31S",
+            "durationSeconds": 391
         },
         {
             "kind": "youtube#playlistItem",
@@ -455,7 +689,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "NuKhTpC3rLQ",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "78MfSFvL3Ixxz-dzV3wOwgkfQg8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GmSJ6vrZNMcwrZIKR-Sl5uD03i4",
+                        "id": "NuKhTpC3rLQ",
+                        "contentDetails": {
+                            "duration": "PT26M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M15S",
+            "durationSeconds": 1575
         },
         {
             "kind": "youtube#playlistItem",
@@ -506,7 +766,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "0NOFJnn3IMk",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0CXX6oCbH8X7IOeX2w_ccgXCK3Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YIz2z9AoBmVYcCftYCPK1CTB0zE",
+                        "id": "0NOFJnn3IMk",
+                        "contentDetails": {
+                            "duration": "PT25M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M39S",
+            "durationSeconds": 1539
         },
         {
             "kind": "youtube#playlistItem",
@@ -557,7 +843,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "Wdm47oB0UKw",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OCA3ZSg0GzWL09XrAaemQ7Gq-oc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4YdIuAV3Zs09R3s6XzvpsrbZ7-U",
+                        "id": "Wdm47oB0UKw",
+                        "contentDetails": {
+                            "duration": "PT35M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M53S",
+            "durationSeconds": 2153
         },
         {
             "kind": "youtube#playlistItem",
@@ -608,7 +920,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "e1g_z696aG8",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tyusoj4kYFjgVGr2HIk3sLSw1Ps",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1dQp1SJBPvpOQnWum-aUvRmyFpk",
+                        "id": "e1g_z696aG8",
+                        "contentDetails": {
+                            "duration": "PT25M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M22S",
+            "durationSeconds": 1522
         },
         {
             "kind": "youtube#playlistItem",
@@ -659,7 +997,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "g7Byl6pWlzE",
                 "videoPublishedAt": "2020-11-07T18:25:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Hty8SXb5FGoOUmqtmLZ7jO5EP6o",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "tbdcG1b-B-oxZrbN5gMpglfxemU",
+                        "id": "g7Byl6pWlzE",
+                        "contentDetails": {
+                            "duration": "PT9M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M9S",
+            "durationSeconds": 549
         },
         {
             "kind": "youtube#playlistItem",
@@ -710,7 +1074,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "44cTddXlc2s",
                 "videoPublishedAt": "2020-11-07T18:25:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fz9nd5fpNEhBc_jGBb18cRVxqtI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_yJ6nhVmQ1P4cCWn7lQDDDw1mf0",
+                        "id": "44cTddXlc2s",
+                        "contentDetails": {
+                            "duration": "PT30M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M37S",
+            "durationSeconds": 1837
         },
         {
             "kind": "youtube#playlistItem",
@@ -761,7 +1151,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "89TyBovmIZU",
                 "videoPublishedAt": "2020-11-07T18:25:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CC1gN9vlv1XvpGOplCacANpzpdI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "lB-O3IKHV_8VUgLcdki2zx8y_94",
+                        "id": "89TyBovmIZU",
+                        "contentDetails": {
+                            "duration": "PT28M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M43S",
+            "durationSeconds": 1723
         },
         {
             "kind": "youtube#playlistItem",
@@ -812,7 +1228,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "BsAOnFGJ2OA",
                 "videoPublishedAt": "2020-11-07T18:25:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vWCQqiwtAHzPBORUIgSI6zSrYok",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "sWqbraA372oM05WJmVuTcMbq7Zs",
+                        "id": "BsAOnFGJ2OA",
+                        "contentDetails": {
+                            "duration": "PT17M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M36S",
+            "durationSeconds": 1056
         },
         {
             "kind": "youtube#playlistItem",
@@ -863,7 +1305,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "GdbzqEFF3G4",
                 "videoPublishedAt": "2020-11-07T18:25:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "u_e19mM7r7H6xFBNSiBhky9sZwI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "XwFyDQv5H8CjLNvP6qMq4uubeZE",
+                        "id": "GdbzqEFF3G4",
+                        "contentDetails": {
+                            "duration": "PT6M27S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M27S",
+            "durationSeconds": 387
         },
         {
             "kind": "youtube#playlistItem",
@@ -914,7 +1382,33 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "4vhUoQs9Cwg",
                 "videoPublishedAt": "2020-11-07T18:25:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "e1JAuU3ECnjARSL6p6f7Vlvjs5I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "urP7azQ3eDRdZwu6l0Tx0Iwv9a4",
+                        "id": "4vhUoQs9Cwg",
+                        "contentDetails": {
+                            "duration": "PT27M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M37S",
+            "durationSeconds": 1657
         },
         {
             "kind": "youtube#playlistItem",
@@ -965,11 +1459,40 @@ export const FundamentosComputacaoGrafica = {
             "contentDetails": {
                 "videoId": "82P0sHxxIrI",
                 "videoPublishedAt": "2020-11-09T08:52:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vx8pGl_QkiuQvqLRJeMK5nK6awk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "47sRJps58pZTSP3qRBdaakv4gBM",
+                        "id": "82P0sHxxIrI",
+                        "contentDetails": {
+                            "duration": "PT30M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M33S",
+            "durationSeconds": 1833
         }
     ],
     "pageInfo": {
         "totalResults": 20,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 30754
     }
 }

@@ -1,4 +1,4 @@
-export const TeoriaDaComputacao = {
+export const teoriaDaComputacao = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "SrdvX-_9PdkzRzXQxXdjIssurVo",
     "items": [
@@ -51,7 +51,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "dWRxL30aoes",
                 "videoPublishedAt": "2020-11-30T21:25:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tASA4zNZjh0OdlcrfZBAXTg1HJc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "H_c0OeN9ZqEDb6W_k7QLKvOwH24",
+                        "id": "dWRxL30aoes",
+                        "contentDetails": {
+                            "duration": "PT15M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M41S",
+            "durationSeconds": 941
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "1xqWORZlRLo",
                 "videoPublishedAt": "2020-12-01T22:55:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1zHuN1_6_YInMIATS8eQBcR155E",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Cyb72p_tJk3lrMswt5hV24PRPZ4",
+                        "id": "1xqWORZlRLo",
+                        "contentDetails": {
+                            "duration": "PT26M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M52S",
+            "durationSeconds": 1612
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "OBeDqMu12N0",
                 "videoPublishedAt": "2020-12-01T23:01:56Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FPZzAMeD_dB0gy6I5swHE_huHKg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1LpbfqEMSCPU11uqkjtMtaOL4NQ",
+                        "id": "OBeDqMu12N0",
+                        "contentDetails": {
+                            "duration": "PT38M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT38M12S",
+            "durationSeconds": 2292
         },
         {
             "kind": "youtube#playlistItem",
@@ -175,7 +253,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "Az_YmEKQHVc"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -226,7 +315,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "DI0Hf58YRDQ",
                 "videoPublishedAt": "2020-12-08T19:47:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sWiZmgd3ZGITeJ-FRUASNHb2mr4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "eyzxInYVpjUfmx51xEvMyAVDH94",
+                        "id": "DI0Hf58YRDQ",
+                        "contentDetails": {
+                            "duration": "PT33M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M43S",
+            "durationSeconds": 2023
         },
         {
             "kind": "youtube#playlistItem",
@@ -248,7 +363,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "Ix0_dqzmO60"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -299,7 +425,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "KGEUeBkW5lA",
                 "videoPublishedAt": "2020-12-15T00:37:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7O_mfxfiveKqQkRU1jP68GH15O8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HROszE31krRQeXF0GqA3dRF3ruI",
+                        "id": "KGEUeBkW5lA",
+                        "contentDetails": {
+                            "duration": "PT23M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M41S",
+            "durationSeconds": 1421
         },
         {
             "kind": "youtube#playlistItem",
@@ -321,7 +473,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "ulwJJG13Hrs"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -372,7 +535,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "klNBTLIkLCs",
                 "videoPublishedAt": "2020-12-21T22:56:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FazIpc-k1Qv5IzwRKsf0RUUKbrI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fskuJkGk4Igd67hXI40zvvi4buA",
+                        "id": "klNBTLIkLCs",
+                        "contentDetails": {
+                            "duration": "PT15M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M1S",
+            "durationSeconds": 901
         },
         {
             "kind": "youtube#playlistItem",
@@ -423,7 +612,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "aaPwq3fOKIw",
                 "videoPublishedAt": "2020-12-19T00:35:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-83KpvxcEWyEfhCb_HPkEWnpwHI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ZyKGooF_40KB1Yt8i9jeo516FgU",
+                        "id": "aaPwq3fOKIw",
+                        "contentDetails": {
+                            "duration": "PT23M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M28S",
+            "durationSeconds": 1408
         },
         {
             "kind": "youtube#playlistItem",
@@ -445,7 +660,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "unhoCuRygsc"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -496,7 +722,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "-WEVYNxgOF0",
                 "videoPublishedAt": "2021-01-13T20:36:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PE0C4Be1BqBdiGKGQ21-R7c2gz4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cMxn2MfyFozxEap5AmjPOnt4Rl0",
+                        "id": "-WEVYNxgOF0",
+                        "contentDetails": {
+                            "duration": "PT15M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M11S",
+            "durationSeconds": 911
         },
         {
             "kind": "youtube#playlistItem",
@@ -547,7 +799,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "LoAzlZTQrNg",
                 "videoPublishedAt": "2021-01-13T20:47:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Z7F41WuwjKq5HzcE52B32D5QAeo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4OvZ6JgZVCH2fKxP-ZYhQ-l7Y04",
+                        "id": "LoAzlZTQrNg",
+                        "contentDetails": {
+                            "duration": "PT29M23S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M23S",
+            "durationSeconds": 1763
         },
         {
             "kind": "youtube#playlistItem",
@@ -598,7 +876,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "-fYUt1U4lp4",
                 "videoPublishedAt": "2021-01-15T21:57:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gTT5Xa_ay0BdAqB_ti7vPXvLEdY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "t7EBJbw4milSbY0wLmBKAJYjOZU",
+                        "id": "-fYUt1U4lp4",
+                        "contentDetails": {
+                            "duration": "PT1H25M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H25M47S",
+            "durationSeconds": 5147
         },
         {
             "kind": "youtube#playlistItem",
@@ -620,7 +924,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "wS5SW4isoQE"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -671,7 +986,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "uM0OceyiOPM",
                 "videoPublishedAt": "2021-01-28T02:04:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hOXWZMApURbp8e2vqCs_Z7jPQDI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "e-pFIA6bQ7Ea4l_HQNXvFuCl-ro",
+                        "id": "uM0OceyiOPM",
+                        "contentDetails": {
+                            "duration": "PT30M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M25S",
+            "durationSeconds": 1825
         },
         {
             "kind": "youtube#playlistItem",
@@ -693,7 +1034,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "2fjGwjQTUg0"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -744,7 +1096,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "bjQ3MF3bdZY",
                 "videoPublishedAt": "2021-02-10T21:24:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RY-OGRyfJlV52bKo9qfUTBVQyy4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "KT5SqxC_a5aTfhYbf21bTCruOtI",
+                        "id": "bjQ3MF3bdZY",
+                        "contentDetails": {
+                            "duration": "PT6M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M53S",
+            "durationSeconds": 413
         },
         {
             "kind": "youtube#playlistItem",
@@ -795,7 +1173,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "P4kD6g-dYmM",
                 "videoPublishedAt": "2021-02-10T21:29:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "kM-nQSk7ILPSvK9biNkSkVMGo_w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "04CwhWaqVDR19THiaY9NnbTqeLw",
+                        "id": "P4kD6g-dYmM",
+                        "contentDetails": {
+                            "duration": "PT17M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M59S",
+            "durationSeconds": 1079
         },
         {
             "kind": "youtube#playlistItem",
@@ -846,7 +1250,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "bxeY7Z4ei14",
                 "videoPublishedAt": "2021-02-10T21:27:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GgNP0EY4Y7Dt9lLBoIWITYxbe3Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "29KUy7-z6LnrzDrGR4kxsMVm0E4",
+                        "id": "bxeY7Z4ei14",
+                        "contentDetails": {
+                            "duration": "PT12M27S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M27S",
+            "durationSeconds": 747
         },
         {
             "kind": "youtube#playlistItem",
@@ -868,7 +1298,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "-7WEiiBnCvg"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -919,7 +1360,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "W-q9CVOGFpY",
                 "videoPublishedAt": "2021-02-19T20:56:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RU60k_7evfzbFJ6h7t_OOvpkOJ4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "odzx2-_b_dNCR8tEaeVBUCu7hfE",
+                        "id": "W-q9CVOGFpY",
+                        "contentDetails": {
+                            "duration": "PT8M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT8M43S",
+            "durationSeconds": 523
         },
         {
             "kind": "youtube#playlistItem",
@@ -941,7 +1408,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "sHKx5N5x04E"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -963,7 +1441,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "xQgy9fMA-oU"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -985,7 +1474,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "a0I5T2P041Q"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -1007,7 +1507,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "sD4WirUJrrw"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -1058,7 +1569,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "Q6g-sJD9xls",
                 "videoPublishedAt": "2021-03-11T20:30:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QwER305XPlFBXxli0FLDQpx2eLw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "X3-w3M0fJYrv-OStlAr6va9pfbs",
+                        "id": "Q6g-sJD9xls",
+                        "contentDetails": {
+                            "duration": "PT11M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M11S",
+            "durationSeconds": 671
         },
         {
             "kind": "youtube#playlistItem",
@@ -1109,7 +1646,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "viQsPJKNN3o",
                 "videoPublishedAt": "2021-03-12T21:50:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "S1Sj0OwUwluYxy0hZEHsO7JvtYk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ayd5PNNX6DZGGxoh38gk9T-abac",
+                        "id": "viQsPJKNN3o",
+                        "contentDetails": {
+                            "duration": "PT12M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M42S",
+            "durationSeconds": 762
         },
         {
             "kind": "youtube#playlistItem",
@@ -1160,7 +1723,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "YTWxvD1h_iM",
                 "videoPublishedAt": "2021-03-12T21:52:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1gDgoEn2Mhjbe1Nq96KdOGJx1cA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "R7OiqatntNd_gPYcJumGnaf_j6o",
+                        "id": "YTWxvD1h_iM",
+                        "contentDetails": {
+                            "duration": "PT9M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M18S",
+            "durationSeconds": 558
         },
         {
             "kind": "youtube#playlistItem",
@@ -1211,7 +1800,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "f0AW00QI8A4",
                 "videoPublishedAt": "2021-03-13T20:50:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lGO5nIaQojlVSoDzbm-0a5Js9vw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "SvDlyJCz4wSDbKRCHPi6bhafjrM",
+                        "id": "f0AW00QI8A4",
+                        "contentDetails": {
+                            "duration": "PT9M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M54S",
+            "durationSeconds": 594
         },
         {
             "kind": "youtube#playlistItem",
@@ -1262,7 +1877,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "Al3y7cDZfvA",
                 "videoPublishedAt": "2021-03-13T20:52:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1eRQqGFmMK4V7M0yiSzFza0PEKg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "EKYH768NlJSwRZa7wPabrkRafLE",
+                        "id": "Al3y7cDZfvA",
+                        "contentDetails": {
+                            "duration": "PT18M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M8S",
+            "durationSeconds": 1088
         },
         {
             "kind": "youtube#playlistItem",
@@ -1313,7 +1954,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "zOp4vKrvFDA",
                 "videoPublishedAt": "2021-03-15T21:55:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LNSnLrgbEHOaaHXvWK9eu1bwmI0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "dLE6m6Kik4At6F1isLCo5xaHonU",
+                        "id": "zOp4vKrvFDA",
+                        "contentDetails": {
+                            "duration": "PT24M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M56S",
+            "durationSeconds": 1496
         },
         {
             "kind": "youtube#playlistItem",
@@ -1364,7 +2031,33 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "8pXVeCi_SzI",
                 "videoPublishedAt": "2021-03-30T14:31:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IX6GblOHXVyP_EFFLa89XnW8464",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "d__6vvILCQAYpbwRTydENspT8L8",
+                        "id": "8pXVeCi_SzI",
+                        "contentDetails": {
+                            "duration": "PT19M17S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M17S",
+            "durationSeconds": 1157
         },
         {
             "kind": "youtube#playlistItem",
@@ -1386,7 +2079,18 @@ export const TeoriaDaComputacao = {
             },
             "contentDetails": {
                 "videoId": "vCf-4LDaABk"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -1432,11 +2136,40 @@ export const TeoriaDaComputacao = {
             "contentDetails": {
                 "videoId": "_KJ55spj2WM",
                 "videoPublishedAt": "2024-03-15T02:15:56Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Mo2Kx7S_QyQkxCzQTxOhtAwMzvQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "x7dyg5T-P3XPk4YnG0yr3XAoRpg",
+                        "id": "_KJ55spj2WM",
+                        "contentDetails": {
+                            "duration": "PT1H32M9S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H32M9S",
+            "durationSeconds": 5529
         }
     ],
     "pageInfo": {
         "totalResults": 35,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 34861
     }
 }

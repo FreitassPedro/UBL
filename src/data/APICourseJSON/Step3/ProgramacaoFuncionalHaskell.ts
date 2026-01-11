@@ -1,4 +1,4 @@
-export const ProgramacaoFuncionaHuskel = {
+export const programacaoFuncionalHaskell = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "1qfwSlLMfGoXCwQIDr7FkjaQMK8",
     "nextPageToken": "EAAaHlBUOkNESWlFRVkyTURBM1JqUkJNVVk1TlVNd1F6SQ",
@@ -52,7 +52,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "U7gdzYiFJKg",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dQ89FmsYnTrug0G0e7fRQ2MS5kQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Tnc_t43ImQDMehBAENrhQasBP08",
+                        "id": "U7gdzYiFJKg",
+                        "contentDetails": {
+                            "duration": "PT10M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M9S",
+            "durationSeconds": 609
         },
         {
             "kind": "youtube#playlistItem",
@@ -103,7 +129,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "VSTj9Qg2S8I",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pnIerRsaawfrdVj6vKT2TyLzXmY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3Pk4IkO_oR0kAxh3WXsNxosm8kg",
+                        "id": "VSTj9Qg2S8I",
+                        "contentDetails": {
+                            "duration": "PT17M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M2S",
+            "durationSeconds": 1022
         },
         {
             "kind": "youtube#playlistItem",
@@ -154,7 +206,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "v0yExSZ6fzQ",
                 "videoPublishedAt": "2020-09-17T23:39:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CZa4X8MIuyOlm9jTvfdn-24Q9Qg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "L6x9QBbGhtVYu8IeFXWsjY1CgQ8",
+                        "id": "v0yExSZ6fzQ",
+                        "contentDetails": {
+                            "duration": "PT29M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M58S",
+            "durationSeconds": 1798
         },
         {
             "kind": "youtube#playlistItem",
@@ -205,7 +283,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "CzGSaXbPFRA",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ZoEkdZ5l8ce5SJHN1FKnM_dwpIw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0TCBVVuGiVWRg5YhfIVjfcE8uek",
+                        "id": "CzGSaXbPFRA",
+                        "contentDetails": {
+                            "duration": "PT26M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M59S",
+            "durationSeconds": 1619
         },
         {
             "kind": "youtube#playlistItem",
@@ -256,7 +360,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "T980iXAlWAY",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "65Al82fnuMwm3FcrrKGn22f5pF0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "F-KmHdPgsNKB1InrNLL5MoqJbVY",
+                        "id": "T980iXAlWAY",
+                        "contentDetails": {
+                            "duration": "PT28M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M49S",
+            "durationSeconds": 1729
         },
         {
             "kind": "youtube#playlistItem",
@@ -307,7 +437,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "AG0LtzDQrZ0",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "J9qVoj8fsLTeyJRA4I3jgMvwkOg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MlUJED-ppdMxQul9vuzVdaLRHhM",
+                        "id": "AG0LtzDQrZ0",
+                        "contentDetails": {
+                            "duration": "PT45M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M8S",
+            "durationSeconds": 2708
         },
         {
             "kind": "youtube#playlistItem",
@@ -358,7 +514,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "a32y4ma10x4",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "r5s5lVDQyMzJW3xhtbpdXc7xn0U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yPwpXUyW-B0uJh69_KnfHSZwiQU",
+                        "id": "a32y4ma10x4",
+                        "contentDetails": {
+                            "duration": "PT34M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M20S",
+            "durationSeconds": 2060
         },
         {
             "kind": "youtube#playlistItem",
@@ -409,7 +591,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "yHDdRy2bWZE",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mgXSkUZnI5wiNZmNCY-_ud9SSUc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6fSaRsykbPnNOXcQNSkRVoMqBV4",
+                        "id": "yHDdRy2bWZE",
+                        "contentDetails": {
+                            "duration": "PT31M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M21S",
+            "durationSeconds": 1881
         },
         {
             "kind": "youtube#playlistItem",
@@ -460,7 +668,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "rrBMYho3frs",
                 "videoPublishedAt": "2020-09-17T23:39:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fWCccrTF8GLQbIxseH24kNuChlA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "I539P7D_S7tbPxjRVdAzLc-7Le4",
+                        "id": "rrBMYho3frs",
+                        "contentDetails": {
+                            "duration": "PT22M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M25S",
+            "durationSeconds": 1345
         },
         {
             "kind": "youtube#playlistItem",
@@ -511,7 +745,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "WUGlBL9Fagw",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YZNWfj2DX3dCrGjty8rMEP_wbFI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kln_L0XROE1Enp5HCQtQ768QDfc",
+                        "id": "WUGlBL9Fagw",
+                        "contentDetails": {
+                            "duration": "PT20M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M49S",
+            "durationSeconds": 1249
         },
         {
             "kind": "youtube#playlistItem",
@@ -562,7 +822,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "dS5qmvxI7Us",
                 "videoPublishedAt": "2020-09-26T21:42:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uH_KUVJ00hZ7McIgj9XwBkD5VDc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ItDfQNMX56wl0AilfqXzSapQcIE",
+                        "id": "dS5qmvxI7Us",
+                        "contentDetails": {
+                            "duration": "PT21M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M15S",
+            "durationSeconds": 1275
         },
         {
             "kind": "youtube#playlistItem",
@@ -613,7 +899,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "u5b75ENDpdY",
                 "videoPublishedAt": "2020-09-26T21:42:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JHqy_LfzuImASBYqAqVMfuW6d2M",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wMc-CkNykNjgw1z7-u4UrVMZRQ0",
+                        "id": "u5b75ENDpdY",
+                        "contentDetails": {
+                            "duration": "PT19M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M53S",
+            "durationSeconds": 1193
         },
         {
             "kind": "youtube#playlistItem",
@@ -664,7 +976,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "SNgTSnYjQHo",
                 "videoPublishedAt": "2020-09-26T21:42:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uxNjsCOcJpHsO0n9FwXmmxjJjEM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "JUjQI0Nh54h4kvgrF_GwHkHmQkM",
+                        "id": "SNgTSnYjQHo",
+                        "contentDetails": {
+                            "duration": "PT17M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M54S",
+            "durationSeconds": 1074
         },
         {
             "kind": "youtube#playlistItem",
@@ -715,7 +1053,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "B7OcmmL4ous",
                 "videoPublishedAt": "2020-09-26T21:42:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AVCIHBPRCG5PBDNgUp9GwGrSHGc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "360YTto-exxwrc_xvl54IvdUcLs",
+                        "id": "B7OcmmL4ous",
+                        "contentDetails": {
+                            "duration": "PT17M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M59S",
+            "durationSeconds": 1079
         },
         {
             "kind": "youtube#playlistItem",
@@ -766,7 +1130,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "bJg0fkvGdNQ",
                 "videoPublishedAt": "2020-09-26T21:42:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RW3iXX5lgE1axMKVXlKlzLftV40",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "OuFtkjH294ySH0v3k0BX7tExi0s",
+                        "id": "bJg0fkvGdNQ",
+                        "contentDetails": {
+                            "duration": "PT11M57S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M57S",
+            "durationSeconds": 717
         },
         {
             "kind": "youtube#playlistItem",
@@ -817,7 +1207,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "w1N9ecrABBA",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CVn7eHj68Sw0iFn0Oix6DxWqZ-U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "c0dxsiWbxtIHM3C6TA8dM-qq4vQ",
+                        "id": "w1N9ecrABBA",
+                        "contentDetails": {
+                            "duration": "PT38M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT38M38S",
+            "durationSeconds": 2318
         },
         {
             "kind": "youtube#playlistItem",
@@ -868,7 +1284,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "TqLtexmxdko",
                 "videoPublishedAt": "2020-09-17T23:39:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "L1VVUWzjhoh8C1ausmVjpqkvVxQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MBPygUIC8TX7oZsFZVoPuHMCa-E",
+                        "id": "TqLtexmxdko",
+                        "contentDetails": {
+                            "duration": "PT31M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M45S",
+            "durationSeconds": 1905
         },
         {
             "kind": "youtube#playlistItem",
@@ -919,7 +1361,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "tO-F4hYX7lg",
                 "videoPublishedAt": "2020-09-17T23:39:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3GMGIsGa5B6F15mACZjkZ7jry_U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gek2Ss2f5rHLkwkLV2Pl6HM4Boo",
+                        "id": "tO-F4hYX7lg",
+                        "contentDetails": {
+                            "duration": "PT32M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M12S",
+            "durationSeconds": 1932
         },
         {
             "kind": "youtube#playlistItem",
@@ -970,7 +1438,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "nQoEbUpXIG4",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "HSoOHKDxxzWfBwOawUEl-oQjnXI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9ve-1LLlWsWvXaVspk4w05-0pcU",
+                        "id": "nQoEbUpXIG4",
+                        "contentDetails": {
+                            "duration": "PT7M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M31S",
+            "durationSeconds": 451
         },
         {
             "kind": "youtube#playlistItem",
@@ -1021,7 +1515,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "Ii5uQ74daQI",
                 "videoPublishedAt": "2020-09-17T23:39:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "avu2RBV6UzSzEV6Q1ruCYeAnA_I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mo748XZsr6H3PYd_perIiM_haIk",
+                        "id": "Ii5uQ74daQI",
+                        "contentDetails": {
+                            "duration": "PT20M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M28S",
+            "durationSeconds": 1228
         },
         {
             "kind": "youtube#playlistItem",
@@ -1072,7 +1592,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "u3TRRMQKnf8",
                 "videoPublishedAt": "2020-09-17T23:39:32Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gr8Vi09haauYTLAxFMsHfNsRTHM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "pZQsDg2SBQ1GCMOcsTZ1mH-mGrk",
+                        "id": "u3TRRMQKnf8",
+                        "contentDetails": {
+                            "duration": "PT39M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M42S",
+            "durationSeconds": 2382
         },
         {
             "kind": "youtube#playlistItem",
@@ -1123,7 +1669,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "xADDRW7LPgY",
                 "videoPublishedAt": "2020-09-17T23:39:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WLH5exbJ4ZsYt5G5sl2zWsWpUHA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "WfBLN14q7RrGLKpAn41BiZXBexI",
+                        "id": "xADDRW7LPgY",
+                        "contentDetails": {
+                            "duration": "PT14M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M59S",
+            "durationSeconds": 899
         },
         {
             "kind": "youtube#playlistItem",
@@ -1174,7 +1746,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "uAaIoauk7Jk",
                 "videoPublishedAt": "2020-09-17T23:39:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2iJ2bciMtqqjEOwK7yzJQ1otuhE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CCSUHqu28WDkbH0PX-rHNxxcWBA",
+                        "id": "uAaIoauk7Jk",
+                        "contentDetails": {
+                            "duration": "PT42M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT42M48S",
+            "durationSeconds": 2568
         },
         {
             "kind": "youtube#playlistItem",
@@ -1225,7 +1823,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "ir_qrcjVXEU",
                 "videoPublishedAt": "2020-09-17T23:39:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "P54_hSCLzh1p2tMsQJKI7dsHRw0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2eJdYctix1rlD78mWt2tTlHZsTg",
+                        "id": "ir_qrcjVXEU",
+                        "contentDetails": {
+                            "duration": "PT45M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M36S",
+            "durationSeconds": 2736
         },
         {
             "kind": "youtube#playlistItem",
@@ -1276,7 +1900,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "7HosJvLdeY0",
                 "videoPublishedAt": "2020-09-17T23:39:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bB5RY_2lzHyyGT4AtH5yBc4t81w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fUZINAvhHEKM5nwrhBwkzaclHP8",
+                        "id": "7HosJvLdeY0",
+                        "contentDetails": {
+                            "duration": "PT23M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M53S",
+            "durationSeconds": 1433
         },
         {
             "kind": "youtube#playlistItem",
@@ -1327,7 +1977,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "E_ng7pVl3SE",
                 "videoPublishedAt": "2021-05-20T18:31:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "T1qZ4-uC75GNIJ76TrAbzlzj4-Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "l4qwwdn_94mz07q6ivLV5jmoGPg",
+                        "id": "E_ng7pVl3SE",
+                        "contentDetails": {
+                            "duration": "PT52M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT52M51S",
+            "durationSeconds": 3171
         },
         {
             "kind": "youtube#playlistItem",
@@ -1378,7 +2054,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "6e-C6ESOgg8",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "B3WpJC1ErR9PFKaNlbvxrBIqpUw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hRlN7Y56HCZNLrCvsMucGa9d1Dc",
+                        "id": "6e-C6ESOgg8",
+                        "contentDetails": {
+                            "duration": "PT31M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M40S",
+            "durationSeconds": 1900
         },
         {
             "kind": "youtube#playlistItem",
@@ -1429,7 +2131,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "7SuH3ymEG9M",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WycOyUDb4tKu11mw3bMvQQAMxP8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "d4C-QyaTTYeCrq8SGRVmBaWlKJU",
+                        "id": "7SuH3ymEG9M",
+                        "contentDetails": {
+                            "duration": "PT20M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M41S",
+            "durationSeconds": 1241
         },
         {
             "kind": "youtube#playlistItem",
@@ -1480,7 +2208,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "HgQ8p4V-53U",
                 "videoPublishedAt": "2020-09-17T23:39:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PcVPAV4UyjNZ6U3CwLaLbX67fz0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6_WWbp-jGJ--56hGXT2WgNN6eRA",
+                        "id": "HgQ8p4V-53U",
+                        "contentDetails": {
+                            "duration": "PT13M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M18S",
+            "durationSeconds": 798
         },
         {
             "kind": "youtube#playlistItem",
@@ -1531,7 +2285,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "nowE1MWZcu8",
                 "videoPublishedAt": "2020-09-17T23:39:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "X5CqNtS6tiVRnagS5PUqayZWVO8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GuyRLGupBBM442jcKm1Ldhl88ZA",
+                        "id": "nowE1MWZcu8",
+                        "contentDetails": {
+                            "duration": "PT34M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M4S",
+            "durationSeconds": 2044
         },
         {
             "kind": "youtube#playlistItem",
@@ -1582,7 +2362,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "DUmGOabTgnc",
                 "videoPublishedAt": "2020-09-17T23:39:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "XJaPC_nqigg2mk7X7ut2Ic00Jx0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BxOnR_lpg2BU1qmi15skZ914olI",
+                        "id": "DUmGOabTgnc",
+                        "contentDetails": {
+                            "duration": "PT21M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M25S",
+            "durationSeconds": 1285
         },
         {
             "kind": "youtube#playlistItem",
@@ -1633,7 +2439,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "Rq1TOaROXnA",
                 "videoPublishedAt": "2020-09-17T23:39:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xE6dpCdzmZTULHz7qC3B1-EQttQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o7oYVlHU3q87VQ21o7WYrSdVCUk",
+                        "id": "Rq1TOaROXnA",
+                        "contentDetails": {
+                            "duration": "PT4M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M59S",
+            "durationSeconds": 299
         },
         {
             "kind": "youtube#playlistItem",
@@ -1684,7 +2516,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "lqyaWEHBmiw",
                 "videoPublishedAt": "2020-09-17T23:39:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "9xFBAzChA0dsv55hvYdPWEe2aXQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "evZxvFQmkvJO7lYLBhZo1elGtOE",
+                        "id": "lqyaWEHBmiw",
+                        "contentDetails": {
+                            "duration": "PT14M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M30S",
+            "durationSeconds": 870
         },
         {
             "kind": "youtube#playlistItem",
@@ -1735,7 +2593,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "H7CatTDfyO0",
                 "videoPublishedAt": "2020-09-17T23:39:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-vhoL6_OzxSyPJ_4C_h7qsVDp-c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "sK31fwA43Cpt1Aw3bccOjusSATo",
+                        "id": "H7CatTDfyO0",
+                        "contentDetails": {
+                            "duration": "PT20M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M44S",
+            "durationSeconds": 1244
         },
         {
             "kind": "youtube#playlistItem",
@@ -1786,7 +2670,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "3EneadBLko8",
                 "videoPublishedAt": "2020-09-17T23:39:32Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "EsDRUtPDe72v8K5mEsP2jHGvSpo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "KLgW0MjiYGUNj6hN1xMk7P4LY7U",
+                        "id": "3EneadBLko8",
+                        "contentDetails": {
+                            "duration": "PT18M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M16S",
+            "durationSeconds": 1096
         },
         {
             "kind": "youtube#playlistItem",
@@ -1837,7 +2747,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "GTWZbeuOwb8",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "E3Fr1iJpajAo2vylRbzzySkutsw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "d9jWUq9zGDt6PsJpQyQ0omDtWpY",
+                        "id": "GTWZbeuOwb8",
+                        "contentDetails": {
+                            "duration": "PT21M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M37S",
+            "durationSeconds": 1297
         },
         {
             "kind": "youtube#playlistItem",
@@ -1888,7 +2824,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "DTj0bFdo7Us",
                 "videoPublishedAt": "2020-09-17T23:39:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RP1Wod4zSE6l5TmqtszntGSJsSg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "H_nTWvioFePYzzhL6eU8R8U5NTA",
+                        "id": "DTj0bFdo7Us",
+                        "contentDetails": {
+                            "duration": "PT5M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M32S",
+            "durationSeconds": 332
         },
         {
             "kind": "youtube#playlistItem",
@@ -1939,7 +2901,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "LUOvVPXvA9k",
                 "videoPublishedAt": "2020-09-17T23:39:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Y43XC4vM6FGclJk8isaN_6eYpIs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "leTXttySox_d4aaSzwGRgIv_TMY",
+                        "id": "LUOvVPXvA9k",
+                        "contentDetails": {
+                            "duration": "PT15M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M56S",
+            "durationSeconds": 956
         },
         {
             "kind": "youtube#playlistItem",
@@ -1990,7 +2978,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "3CRqf13q7p4",
                 "videoPublishedAt": "2020-09-17T23:39:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jHE6REnZ9t3-6HIR9QbwNrH916A",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kv6TZJHQ9unWf3BoPcLrntkeVoA",
+                        "id": "3CRqf13q7p4",
+                        "contentDetails": {
+                            "duration": "PT9M13S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M13S",
+            "durationSeconds": 553
         },
         {
             "kind": "youtube#playlistItem",
@@ -2041,7 +3055,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "JGPz38LoOwQ",
                 "videoPublishedAt": "2020-09-17T23:39:28Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "z30U4bHbKp6MgK2hKTsYfajGzxA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Py0RB3g6Ca491CUc_HF9tLV5MJ0",
+                        "id": "JGPz38LoOwQ",
+                        "contentDetails": {
+                            "duration": "PT24M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M58S",
+            "durationSeconds": 1498
         },
         {
             "kind": "youtube#playlistItem",
@@ -2092,7 +3132,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "rLkYB8Y2f-E",
                 "videoPublishedAt": "2020-09-17T23:39:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hY3wC9LdNlMviRYSkF3nyPSAwq8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "zk-tARpofOryR574bcEKzaLyEns",
+                        "id": "rLkYB8Y2f-E",
+                        "contentDetails": {
+                            "duration": "PT17M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M40S",
+            "durationSeconds": 1060
         },
         {
             "kind": "youtube#playlistItem",
@@ -2143,7 +3209,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "_yKJ2ft9Lg4",
                 "videoPublishedAt": "2020-09-17T23:39:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yofkiDGELAZ7f3A7Qfuf3kZMOpM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "XeeRiaaxb4i9XL63TyVbaMNNTM0",
+                        "id": "_yKJ2ft9Lg4",
+                        "contentDetails": {
+                            "duration": "PT30M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M3S",
+            "durationSeconds": 1803
         },
         {
             "kind": "youtube#playlistItem",
@@ -2194,7 +3286,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "zsOFMbNPryM",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cnmTE3QcCsicnGTOPk0R2Hmg2xY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "w8eGwscUxgCC2LUDPfEBBX6L7XU",
+                        "id": "zsOFMbNPryM",
+                        "contentDetails": {
+                            "duration": "PT17M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M53S",
+            "durationSeconds": 1073
         },
         {
             "kind": "youtube#playlistItem",
@@ -2245,7 +3363,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "1KKehjj4D1w",
                 "videoPublishedAt": "2020-09-17T23:39:16Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1DU-zTD4pbgsN8zZzU1p1B2w8ns",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "w_cUkbUPYa7wNGnU_9dJpp2ceb8",
+                        "id": "1KKehjj4D1w",
+                        "contentDetails": {
+                            "duration": "PT16M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M3S",
+            "durationSeconds": 963
         },
         {
             "kind": "youtube#playlistItem",
@@ -2296,7 +3440,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "YjeLCT9h4Rk",
                 "videoPublishedAt": "2020-11-16T03:08:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xFg4bt2AThZicSVyNUZ_V9tSMrU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MSUoIzRpLXon3a84wxG8dYck-Kw",
+                        "id": "YjeLCT9h4Rk",
+                        "contentDetails": {
+                            "duration": "PT20M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M48S",
+            "durationSeconds": 1248
         },
         {
             "kind": "youtube#playlistItem",
@@ -2347,7 +3517,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "YS1VH4fB2lY",
                 "videoPublishedAt": "2020-11-16T03:09:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IakW-Bm3E1IeV7YgtxaZu34hn1k",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ql363uV9LWG3HKEorAM6haevSwU",
+                        "id": "YS1VH4fB2lY",
+                        "contentDetails": {
+                            "duration": "PT18M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M1S",
+            "durationSeconds": 1081
         },
         {
             "kind": "youtube#playlistItem",
@@ -2398,7 +3594,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "A_x_gtdS6f0",
                 "videoPublishedAt": "2020-11-16T03:12:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "7IEU8LZKAr5gzwcDDb7Jw1Uxec0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "YkcqCOv-UpSMxdX96nyCsAF-1YM",
+                        "id": "A_x_gtdS6f0",
+                        "contentDetails": {
+                            "duration": "PT7M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M52S",
+            "durationSeconds": 472
         },
         {
             "kind": "youtube#playlistItem",
@@ -2449,7 +3671,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "o_qGcTLE5lg",
                 "videoPublishedAt": "2020-11-16T03:15:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "oe5X2XglZl9Rkp5x3ENS2rt5rSw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5Avaj5x-ukxTqsfdcKMCjv76Pjc",
+                        "id": "o_qGcTLE5lg",
+                        "contentDetails": {
+                            "duration": "PT24M46S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M46S",
+            "durationSeconds": 1486
         },
         {
             "kind": "youtube#playlistItem",
@@ -2500,7 +3748,33 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "lT_1TcYglQM",
                 "videoPublishedAt": "2020-11-16T03:17:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xN7tOiz6-Udd8Qgm6vIjMMBN1Dw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kf0748_QPQ-p3FJEiP5JqSJazJg",
+                        "id": "lT_1TcYglQM",
+                        "contentDetails": {
+                            "duration": "PT13M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M56S",
+            "durationSeconds": 836
         },
         {
             "kind": "youtube#playlistItem",
@@ -2551,11 +3825,40 @@ export const ProgramacaoFuncionaHuskel = {
             "contentDetails": {
                 "videoId": "YbkJ5NBeBHs",
                 "videoPublishedAt": "2020-11-16T03:36:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2eyMy_7Dm1EXRjW8CTUVyqU5ns8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Dh49_P1-L6tT7JksgdlM8yJtkGk",
+                        "id": "YbkJ5NBeBHs",
+                        "contentDetails": {
+                            "duration": "PT19M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M20S",
+            "durationSeconds": 1160
         }
     ],
     "pageInfo": {
         "totalResults": 62,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 68976
     }
 }

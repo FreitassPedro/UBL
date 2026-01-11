@@ -1,5 +1,5 @@
 import { MyStepCardBody } from "@/components/MyCourse/MyStepCardBody";
-import type { MyEtapaProgress } from "@/data/myCourseProgress";
+import type { MyEtapaProgress } from "@/types/progress";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
 interface MyStepCardProps {
@@ -20,6 +20,11 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
     };
 
     const theme = getTheme();
+    const totalDurationHours = Math.round(
+        step.cadeiras
+            .flatMap((cadeira) => cadeira.lessons)
+            .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600
+    );
 
     return (
         <div className="flex flex-col space-y-6">
@@ -65,7 +70,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                             </div>
                             <div className="flex flex-col">
                                 <span className="text-xs text-zinc-500 uppercase font-bold">Tempo</span>
-                                <span className="text-zinc-200 font-medium">99h</span>
+                                <span className="text-zinc-200 font-medium">{totalDurationHours}h</span>
                             </div>
                         </div>
                     </div>

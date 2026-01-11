@@ -1,4 +1,4 @@
-export const IntroducaoEngenhariaSoftware = {
+export const introducaoEngenhariaSoftware = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "tLqTqzz_v3wG53fFvELyNXGbLuw",
     "items": [
@@ -51,7 +51,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "h_hEI1Kfm2U",
                 "videoPublishedAt": "2020-04-22T18:24:32Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pHEizhErsGF27FlqGeoCDSMwceA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "h3tY8r5cJ1zawpiD3haWAqSPW8A",
+                        "id": "h_hEI1Kfm2U",
+                        "contentDetails": {
+                            "duration": "PT46M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT46M12S",
+            "durationSeconds": 2772
         },
         {
             "kind": "youtube#playlistItem",
@@ -73,7 +99,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "z8qKNnzLpq0"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -124,7 +161,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "kZImAXvRjH8",
                 "videoPublishedAt": "2020-04-29T20:56:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4lhqb_-JwYDejWOhKQoo1hTsceA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yVltUTQuFnaz48qpVQbZCNA6BV0",
+                        "id": "kZImAXvRjH8",
+                        "contentDetails": {
+                            "duration": "PT44M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT44M36S",
+            "durationSeconds": 2676
         },
         {
             "kind": "youtube#playlistItem",
@@ -175,7 +238,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "r4q87TQppqU",
                 "videoPublishedAt": "2020-05-04T13:01:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BL-HAaT3OYVSiV5rfkzHGENqFGw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cnjowXUmWyOiC7FEC8TZ5GZmZeU",
+                        "id": "r4q87TQppqU",
+                        "contentDetails": {
+                            "duration": "PT39M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M4S",
+            "durationSeconds": 2344
         },
         {
             "kind": "youtube#playlistItem",
@@ -226,7 +315,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "Y1jkAtxf2Rk",
                 "videoPublishedAt": "2020-05-07T19:23:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jpEUAhz__l1RMdTrXdLDYWkVCrw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NB45hTEYH7Xg0yPcV2jqfPvTdhk",
+                        "id": "Y1jkAtxf2Rk",
+                        "contentDetails": {
+                            "duration": "PT41M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT41M36S",
+            "durationSeconds": 2496
         },
         {
             "kind": "youtube#playlistItem",
@@ -248,7 +363,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "oU0cjcseadA"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -299,7 +425,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "Keex8BJW0vY",
                 "videoPublishedAt": "2020-05-13T02:37:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "h4EW-e-79j-FMxba5IsOv_xHzsM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rHzts0WbmNFjuID7PjKJYliU7nk",
+                        "id": "Keex8BJW0vY",
+                        "contentDetails": {
+                            "duration": "PT1H2M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H2M26S",
+            "durationSeconds": 3746
         },
         {
             "kind": "youtube#playlistItem",
@@ -321,7 +473,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "E1_qn-7EV1o"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -372,7 +535,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "zAsK1KyQUjU",
                 "videoPublishedAt": "2020-05-21T02:37:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "F856-DC8s0_YPVoCY5aBOw-kRFw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8UJriBVRD3tsXITKrjYg3Qvzaio",
+                        "id": "zAsK1KyQUjU",
+                        "contentDetails": {
+                            "duration": "PT15M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M28S",
+            "durationSeconds": 928
         },
         {
             "kind": "youtube#playlistItem",
@@ -423,7 +612,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "4dWX9gMYC68",
                 "videoPublishedAt": "2020-06-04T20:44:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4lUn9DN3sRmA1KTAF83utPQPhpw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "t8sQV6C8ZRn5pR6KU7X8gtGebYA",
+                        "id": "4dWX9gMYC68",
+                        "contentDetails": {
+                            "duration": "PT38M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT38M10S",
+            "durationSeconds": 2290
         },
         {
             "kind": "youtube#playlistItem",
@@ -445,7 +660,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "bveUf6Q9RP4"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -496,7 +722,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "LbdEbcR7FX0",
                 "videoPublishedAt": "2020-06-18T18:41:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "TdCA8tABjxNiFNwN3CT6PkPD9A8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ed_OENzyKhpAk-tH6E3OUDXvb9I",
+                        "id": "LbdEbcR7FX0",
+                        "contentDetails": {
+                            "duration": "PT23M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M9S",
+            "durationSeconds": 1389
         },
         {
             "kind": "youtube#playlistItem",
@@ -518,7 +770,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "_5wyVdgptww"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -569,7 +832,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "BhvwJfEPH0Y",
                 "videoPublishedAt": "2020-06-30T14:16:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "H7Q639Ly28EqkA1-Z0vVO4a3dK8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MrzQ4ueh1K5z6mt9oFTV5WMjpsU",
+                        "id": "BhvwJfEPH0Y",
+                        "contentDetails": {
+                            "duration": "PT22M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M2S",
+            "durationSeconds": 1322
         },
         {
             "kind": "youtube#playlistItem",
@@ -591,7 +880,18 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "tSzYNoD35ik"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         },
         {
             "kind": "youtube#playlistItem",
@@ -642,7 +942,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "ixOwkMTA7bI",
                 "videoPublishedAt": "2020-07-10T00:48:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ZcWHUd0Frj3iRyMb2AGjicpA7r8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gRa0zp7oYpwlTn7LCTg1Q_vIwEI",
+                        "id": "ixOwkMTA7bI",
+                        "contentDetails": {
+                            "duration": "PT27M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M47S",
+            "durationSeconds": 1667
         },
         {
             "kind": "youtube#playlistItem",
@@ -693,7 +1019,33 @@ export const IntroducaoEngenhariaSoftware = {
             "contentDetails": {
                 "videoId": "ReyvbXyCoGw",
                 "videoPublishedAt": "2020-07-16T14:38:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_1N6Kce1BDpNgWYVJqBdPtxp1yg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "m1q0IOsKjtNA0ZMhSpjx6Q__4KA",
+                        "id": "ReyvbXyCoGw",
+                        "contentDetails": {
+                            "duration": "PT19M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M33S",
+            "durationSeconds": 1173
         },
         {
             "kind": "youtube#playlistItem",
@@ -715,11 +1067,25 @@ export const IntroducaoEngenhariaSoftware = {
             },
             "contentDetails": {
                 "videoId": "NZY9EirCVLA"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+                "items": [],
+                "pageInfo": {
+                    "totalResults": 0,
+                    "resultsPerPage": 0
+                }
+            },
+            "duration": null,
+            "durationSeconds": 0
         }
     ],
     "pageInfo": {
         "totalResults": 18,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 22803
     }
 }

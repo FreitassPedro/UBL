@@ -1,4 +1,4 @@
-export const ArquiteturaComputadoresI = {
+export const arquiteturaComputadoresI = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "yCnnF8wxT4g4Q87MNgPl0qr95bk",
     "items": [
@@ -51,7 +51,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "ELbnZzxeec4",
                 "videoPublishedAt": "2021-03-13T20:38:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JZ3yRFRGHfKMgh7eGOFQArbICSQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "B_gQ7lCKfyE6oGeIZPcI3GY_3E8",
+                        "id": "ELbnZzxeec4",
+                        "contentDetails": {
+                            "duration": "PT17M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M",
+            "durationSeconds": 1020
         },
         {
             "kind": "youtube#playlistItem",
@@ -102,7 +128,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "buqUG98H2bg",
                 "videoPublishedAt": "2020-03-23T22:33:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "wcXmVbSzqQWROzygybHgGpa9778",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "y7VKIZBj3sA3tcCtkis6dIM_Jxs",
+                        "id": "buqUG98H2bg",
+                        "contentDetails": {
+                            "duration": "PT12M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M44S",
+            "durationSeconds": 764
         },
         {
             "kind": "youtube#playlistItem",
@@ -153,7 +205,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "BnDdFZiY1YQ",
                 "videoPublishedAt": "2021-03-13T23:02:56Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "N2sP2ULNqwOQbKuH6yEImA3-6MI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "xbbrj01vexkOkqr5VBWP17QVLts",
+                        "id": "BnDdFZiY1YQ",
+                        "contentDetails": {
+                            "duration": "PT5M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M10S",
+            "durationSeconds": 310
         },
         {
             "kind": "youtube#playlistItem",
@@ -204,7 +282,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "VdvFcbbV6rI",
                 "videoPublishedAt": "2021-03-13T23:03:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pPR7guJ40WrAPKyURWK-IGZYnhI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5thdXLLfGmCN5aQGctcNy2bYh9s",
+                        "id": "VdvFcbbV6rI",
+                        "contentDetails": {
+                            "duration": "PT3M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT3M31S",
+            "durationSeconds": 211
         },
         {
             "kind": "youtube#playlistItem",
@@ -255,7 +359,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "ULE80IFIGXA",
                 "videoPublishedAt": "2021-03-14T00:49:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0UoMYKRUQ2rVhgoiFxHtkgxPy3I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LmIEKeVafE0m8tUXXfe2DmjjDhw",
+                        "id": "ULE80IFIGXA",
+                        "contentDetails": {
+                            "duration": "PT15M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M18S",
+            "durationSeconds": 918
         },
         {
             "kind": "youtube#playlistItem",
@@ -306,7 +436,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "WHmmm2bx37Q",
                 "videoPublishedAt": "2021-03-14T00:51:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LZwdJwuJ36i2n1gHzTwVioQcqlI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "vKmXsnVAxmhadNRU5NNiTu5uWq8",
+                        "id": "WHmmm2bx37Q",
+                        "contentDetails": {
+                            "duration": "PT20M16S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M16S",
+            "durationSeconds": 1216
         },
         {
             "kind": "youtube#playlistItem",
@@ -357,7 +513,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "jXbHex6sVKk",
                 "videoPublishedAt": "2021-03-14T00:53:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "F_udhH8ZnNg5V6IsM9w2K0rzOLM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Zy94FdmUpha_zgIGaV_xjgFyX6o",
+                        "id": "jXbHex6sVKk",
+                        "contentDetails": {
+                            "duration": "PT7M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M41S",
+            "durationSeconds": 461
         },
         {
             "kind": "youtube#playlistItem",
@@ -408,7 +590,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "2KybzsU7qf8",
                 "videoPublishedAt": "2021-03-14T00:55:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "9tDsCv55r5mcVTX6an2sZ8ZPt2E",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FM5VUXhLQV6BGhDcvs10q_nVKUA",
+                        "id": "2KybzsU7qf8",
+                        "contentDetails": {
+                            "duration": "PT6M46S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M46S",
+            "durationSeconds": 406
         },
         {
             "kind": "youtube#playlistItem",
@@ -459,7 +667,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "-Mdild9Ftec",
                 "videoPublishedAt": "2021-03-14T00:56:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2fDVQV6eqKg2YHu42z887AVa1tE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CeJ8ZU4pUOYN6rHU7nf8lLJiWbA",
+                        "id": "-Mdild9Ftec",
+                        "contentDetails": {
+                            "duration": "PT14M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M31S",
+            "durationSeconds": 871
         },
         {
             "kind": "youtube#playlistItem",
@@ -510,7 +744,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "obtuy4wsRV4",
                 "videoPublishedAt": "2020-03-24T23:12:34Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PabNy9axYczKsC4jNEYWdXPkeMY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4yaNHJy_M45FYKKvh83-jbqZJ9U",
+                        "id": "obtuy4wsRV4",
+                        "contentDetails": {
+                            "duration": "PT13M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M32S",
+            "durationSeconds": 812
         },
         {
             "kind": "youtube#playlistItem",
@@ -561,7 +821,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "XkhrjqcIrOE",
                 "videoPublishedAt": "2020-03-24T23:27:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "470jp2j-MWMZ-j7pEM4r8Y9tiHI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wRYVrmXILFqm622YJatHacOY73E",
+                        "id": "XkhrjqcIrOE",
+                        "contentDetails": {
+                            "duration": "PT11M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M43S",
+            "durationSeconds": 703
         },
         {
             "kind": "youtube#playlistItem",
@@ -612,7 +898,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "3QZqrja-9M8",
                 "videoPublishedAt": "2020-03-24T23:52:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PdaCeBvsGCOOiyrTIONGjTeuO4E",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NVQsKZPFW8toLPJnGNYQBxDTOEI",
+                        "id": "3QZqrja-9M8",
+                        "contentDetails": {
+                            "duration": "PT17M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M24S",
+            "durationSeconds": 1044
         },
         {
             "kind": "youtube#playlistItem",
@@ -663,7 +975,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "TXJFA0YXyQ4",
                 "videoPublishedAt": "2021-03-31T19:16:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dxPrh8pIHC1QnrhRMRwS6_nw2GY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mcMl-Amel7wMQNNdBp1oBvKu3eU",
+                        "id": "TXJFA0YXyQ4",
+                        "contentDetails": {
+                            "duration": "PT4M55S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M55S",
+            "durationSeconds": 295
         },
         {
             "kind": "youtube#playlistItem",
@@ -714,7 +1052,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "l-h4U30jImw",
                 "videoPublishedAt": "2020-03-31T19:53:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zEGJrRxPMSeb48Yy-pG_eI2O070",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mW0cf4o0KEoYW69BB3vfbr1kw40",
+                        "id": "l-h4U30jImw",
+                        "contentDetails": {
+                            "duration": "PT18M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M28S",
+            "durationSeconds": 1108
         },
         {
             "kind": "youtube#playlistItem",
@@ -765,7 +1129,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "HPDWAoZZIG8",
                 "videoPublishedAt": "2020-03-31T23:26:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "shlZ2UooOV4zQP5zk_Ijw5t89aw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "UcRoG8-cBe50RaAJI54IY9DtT7o",
+                        "id": "HPDWAoZZIG8",
+                        "contentDetails": {
+                            "duration": "PT8M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT8M51S",
+            "durationSeconds": 531
         },
         {
             "kind": "youtube#playlistItem",
@@ -816,7 +1206,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "XLimOfQDfX0",
                 "videoPublishedAt": "2020-03-31T23:29:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Vqc6Pu3LeddI7MWfRG3fD2ZEViU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5CP-wYS3Zm7NqpvRn3l50a7dJUM",
+                        "id": "XLimOfQDfX0",
+                        "contentDetails": {
+                            "duration": "PT7M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT7M25S",
+            "durationSeconds": 445
         },
         {
             "kind": "youtube#playlistItem",
@@ -867,7 +1283,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "1t_W7FVlmsQ",
                 "videoPublishedAt": "2020-04-08T01:06:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "b1SFG4tdlKEauAvSB-Extr3qohY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8WlVqTqsNyBvwmL2rG_ndFd6lrE",
+                        "id": "1t_W7FVlmsQ",
+                        "contentDetails": {
+                            "duration": "PT13M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M50S",
+            "durationSeconds": 830
         },
         {
             "kind": "youtube#playlistItem",
@@ -918,7 +1360,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "7FUUchhYgyg",
                 "videoPublishedAt": "2020-04-08T01:11:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LFBlqe10Wv81Ey_q21zNKzt4RJc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_bwtSW9VdiD-JO6Qc-bFawRupak",
+                        "id": "7FUUchhYgyg",
+                        "contentDetails": {
+                            "duration": "PT23M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M4S",
+            "durationSeconds": 1384
         },
         {
             "kind": "youtube#playlistItem",
@@ -969,7 +1437,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "KL1AwQxjWZo",
                 "videoPublishedAt": "2020-04-08T01:13:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3o9x9SQDRvTeHQEJDEZFb1-wfes",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ce_M4Wzu02cQHGeeHX0ZcbWFLW4",
+                        "id": "KL1AwQxjWZo",
+                        "contentDetails": {
+                            "duration": "PT17M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M18S",
+            "durationSeconds": 1038
         },
         {
             "kind": "youtube#playlistItem",
@@ -1020,7 +1514,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "2WW7D_cSnn4",
                 "videoPublishedAt": "2020-04-08T01:14:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Ug_WsPUanzYyZaPBPTQ7zMcwrIw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "A3ccHLiKXv-Fqagc1akMC54FDic",
+                        "id": "2WW7D_cSnn4",
+                        "contentDetails": {
+                            "duration": "PT6M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT6M50S",
+            "durationSeconds": 410
         },
         {
             "kind": "youtube#playlistItem",
@@ -1071,7 +1591,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "fBR37lfkHkE",
                 "videoPublishedAt": "2021-03-31T19:14:45Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mcAn9NsZT473rYlS_UG6FywFZdM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7Y-e4J16GdKmzp3XSnmih3mN8vY",
+                        "id": "fBR37lfkHkE",
+                        "contentDetails": {
+                            "duration": "PT10M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M52S",
+            "durationSeconds": 652
         },
         {
             "kind": "youtube#playlistItem",
@@ -1122,7 +1668,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "ouGneYX5aHo",
                 "videoPublishedAt": "2020-04-22T02:21:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "p4tQpMpmtp43nj4kP3D5QUnmG-8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "5gmIPx1rdWbmlHaXOpGJ2sg1qAo",
+                        "id": "ouGneYX5aHo",
+                        "contentDetails": {
+                            "duration": "PT28M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M32S",
+            "durationSeconds": 1712
         },
         {
             "kind": "youtube#playlistItem",
@@ -1173,7 +1745,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "zTJmpS66RkY",
                 "videoPublishedAt": "2020-04-22T02:24:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-m2ydfP_E9R2lRHeaxnOGB_w4BU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HA5-T4Jo2zDaVcZpGx3r5k3ZUfc",
+                        "id": "zTJmpS66RkY",
+                        "contentDetails": {
+                            "duration": "PT24M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M22S",
+            "durationSeconds": 1462
         },
         {
             "kind": "youtube#playlistItem",
@@ -1224,7 +1822,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "H-RDwduHEi0",
                 "videoPublishedAt": "2020-04-22T02:26:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QHRqJUSTBFFpanB_46-q5qeVFD0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BtQkfbU5LzZ43oC6MgXMsw7ew7g",
+                        "id": "H-RDwduHEi0",
+                        "contentDetails": {
+                            "duration": "PT16M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M18S",
+            "durationSeconds": 978
         },
         {
             "kind": "youtube#playlistItem",
@@ -1275,7 +1899,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "SkUqn33RZvE",
                 "videoPublishedAt": "2020-04-29T00:14:08Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "H5EkCDl9HtYTyDswdeGa0yTyXJE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rMLyNV_rNkQz3oEAiirfR0QiNwc",
+                        "id": "SkUqn33RZvE",
+                        "contentDetails": {
+                            "duration": "PT27M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M7S",
+            "durationSeconds": 1627
         },
         {
             "kind": "youtube#playlistItem",
@@ -1326,7 +1976,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "JCG351zbwVU",
                 "videoPublishedAt": "2020-04-29T00:14:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "6vhwV7WTKy4mlQ7xagKHckAvbqQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3JVmDopN3OCD8IkHRJ4jzr3hs6o",
+                        "id": "JCG351zbwVU",
+                        "contentDetails": {
+                            "duration": "PT9M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M48S",
+            "durationSeconds": 588
         },
         {
             "kind": "youtube#playlistItem",
@@ -1377,7 +2053,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "Grr-gNwAOrI",
                 "videoPublishedAt": "2020-04-29T00:19:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "p-ddBwnskSJsE0g2jNfAXaVFVTk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ul5-rT9UghHduc7F8mzcoLbUzwA",
+                        "id": "Grr-gNwAOrI",
+                        "contentDetails": {
+                            "duration": "PT40M28S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M28S",
+            "durationSeconds": 2428
         },
         {
             "kind": "youtube#playlistItem",
@@ -1428,7 +2130,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "onpqrOo8FW8",
                 "videoPublishedAt": "2020-05-06T01:15:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "m9ONaHfboY3YdxJvvySK5IJ4UsE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uSt4TWbH6ssAdZLfweyvOmNtQxA",
+                        "id": "onpqrOo8FW8",
+                        "contentDetails": {
+                            "duration": "PT8M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT8M33S",
+            "durationSeconds": 513
         },
         {
             "kind": "youtube#playlistItem",
@@ -1479,7 +2207,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "vBswOR8NF6c",
                 "videoPublishedAt": "2020-05-06T01:16:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "aSSofbdKvJQ1CSYvO5sOcxCzSlE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ekJlKMvu0IOMTn6hGUYG5MrxCTE",
+                        "id": "vBswOR8NF6c",
+                        "contentDetails": {
+                            "duration": "PT9M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M44S",
+            "durationSeconds": 584
         },
         {
             "kind": "youtube#playlistItem",
@@ -1530,7 +2284,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "_zWS_totrhE",
                 "videoPublishedAt": "2020-05-06T01:17:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "qPWinivUi9eL1nKj8zB4U0Y_1tE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hjPVoG1_sFLmPNDVjIYRfX-DF-s",
+                        "id": "_zWS_totrhE",
+                        "contentDetails": {
+                            "duration": "PT11M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M25S",
+            "durationSeconds": 685
         },
         {
             "kind": "youtube#playlistItem",
@@ -1581,7 +2361,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "Z2-Xh7iRM9E",
                 "videoPublishedAt": "2020-05-09T00:01:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cXU5Wz5C-HG4KMBx3dHi-qUhSzA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8rR3ofogAgqwZxxlmsdMnOLIZq0",
+                        "id": "Z2-Xh7iRM9E",
+                        "contentDetails": {
+                            "duration": "PT21M50S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M50S",
+            "durationSeconds": 1310
         },
         {
             "kind": "youtube#playlistItem",
@@ -1632,7 +2438,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "RFmKFxsFxsQ",
                 "videoPublishedAt": "2021-05-08T22:50:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ZirYqTylZz_jDLfh6A6q--haBHo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gxvxgX_LXi2zowzIkVhdzF91V1g",
+                        "id": "RFmKFxsFxsQ",
+                        "contentDetails": {
+                            "duration": "PT14M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M53S",
+            "durationSeconds": 893
         },
         {
             "kind": "youtube#playlistItem",
@@ -1683,7 +2515,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "mTNewJEm6UU",
                 "videoPublishedAt": "2021-05-08T22:52:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GhXvd4X46WoJhRJkcDT0EDgks5o",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cNl1buU4hAsUTaCstri9_5wYFAw",
+                        "id": "mTNewJEm6UU",
+                        "contentDetails": {
+                            "duration": "PT20M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M41S",
+            "durationSeconds": 1241
         },
         {
             "kind": "youtube#playlistItem",
@@ -1734,7 +2592,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "O-ejBiCZ92A",
                 "videoPublishedAt": "2021-05-08T22:54:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "txkka2XaSJLYhx1WAKlByGmAuNA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "n3E_9NFxY1uJMotPc3SbLq_AT44",
+                        "id": "O-ejBiCZ92A",
+                        "contentDetails": {
+                            "duration": "PT19M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M43S",
+            "durationSeconds": 1183
         },
         {
             "kind": "youtube#playlistItem",
@@ -1785,7 +2669,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "pmyWEfnsMkM",
                 "videoPublishedAt": "2021-05-08T22:55:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jCXVnIG05-qHV8lYDgy3OvmxYFI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6_K5WgUZcEzK1AXlhU8btoC6FBM",
+                        "id": "pmyWEfnsMkM",
+                        "contentDetails": {
+                            "duration": "PT20M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M7S",
+            "durationSeconds": 1207
         },
         {
             "kind": "youtube#playlistItem",
@@ -1836,7 +2746,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "4shJTVZY3wE",
                 "videoPublishedAt": "2021-05-08T22:56:46Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rUgR1KrRAZxoRv5WwfIiE1m5P2k",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uOTWZw8Z2MMPrTuqMPyVD27-CHM",
+                        "id": "4shJTVZY3wE",
+                        "contentDetails": {
+                            "duration": "PT4M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT4M19S",
+            "durationSeconds": 259
         },
         {
             "kind": "youtube#playlistItem",
@@ -1887,7 +2823,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "jGJQPwNUQ1o",
                 "videoPublishedAt": "2021-05-23T22:03:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "q_-Z8896OKI-xLQzswMp9So7idE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "np6cUPBl5txb77142I8uOKOfh24",
+                        "id": "jGJQPwNUQ1o",
+                        "contentDetails": {
+                            "duration": "PT17M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M31S",
+            "durationSeconds": 1051
         },
         {
             "kind": "youtube#playlistItem",
@@ -1938,7 +2900,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "kkeHDpfTSVA",
                 "videoPublishedAt": "2021-05-23T22:04:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AgPofw9z9RfcYNfR9GERE-LQFg8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9Wv5wzouTm1w3oFMYNqBmX9XeSM",
+                        "id": "kkeHDpfTSVA",
+                        "contentDetails": {
+                            "duration": "PT25M9S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M9S",
+            "durationSeconds": 1509
         },
         {
             "kind": "youtube#playlistItem",
@@ -1989,7 +2977,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "RPjmdaPvUwg",
                 "videoPublishedAt": "2021-05-23T22:06:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_g9Pe4jbmv2vEfopB5iQ0cLIcmI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0mhZvFC86Hruu27x8yotxHd-pUM",
+                        "id": "RPjmdaPvUwg",
+                        "contentDetails": {
+                            "duration": "PT25M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M25S",
+            "durationSeconds": 1525
         },
         {
             "kind": "youtube#playlistItem",
@@ -2040,7 +3054,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "ypRu1BQ0z18",
                 "videoPublishedAt": "2021-05-23T22:07:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "E9__r4qs9zVpRjSlhxx8J6_q8FM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "zblQgxFEh-1iOkpAs-Fs4VD1vSk",
+                        "id": "ypRu1BQ0z18",
+                        "contentDetails": {
+                            "duration": "PT22M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M30S",
+            "durationSeconds": 1350
         },
         {
             "kind": "youtube#playlistItem",
@@ -2091,7 +3131,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "n9VZU2xBt4g",
                 "videoPublishedAt": "2021-06-06T16:15:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_LlFvq7y7omJz4UsMn_DGmnYayM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0Bw4yu4gFGdAB_AYMk6mZV0ZtAk",
+                        "id": "n9VZU2xBt4g",
+                        "contentDetails": {
+                            "duration": "PT29M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M32S",
+            "durationSeconds": 1772
         },
         {
             "kind": "youtube#playlistItem",
@@ -2142,7 +3208,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "OyN7wAeQXd4",
                 "videoPublishedAt": "2021-06-06T16:17:08Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Ytn36mEQ4TLbC_yrMEwpfhI7xEk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "s6CgRiaI5h9Io7zqb-i50fQraJg",
+                        "id": "OyN7wAeQXd4",
+                        "contentDetails": {
+                            "duration": "PT23M13S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M13S",
+            "durationSeconds": 1393
         },
         {
             "kind": "youtube#playlistItem",
@@ -2193,7 +3285,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "MF8LOaY-J-U",
                 "videoPublishedAt": "2021-06-06T16:18:56Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "U5tyMOowxeyj9N_difFWpaiiEuU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "U4Lko9lhF19v3v_oI-y1A09zSIA",
+                        "id": "MF8LOaY-J-U",
+                        "contentDetails": {
+                            "duration": "PT17M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M7S",
+            "durationSeconds": 1027
         },
         {
             "kind": "youtube#playlistItem",
@@ -2244,7 +3362,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "Q1qqby7v8-I",
                 "videoPublishedAt": "2021-06-06T16:19:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rpqHL0YC0ob3erJ8ugSx9bR9_GQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qvvQ8EbGnM5QUkmod68pX-0-Txk",
+                        "id": "Q1qqby7v8-I",
+                        "contentDetails": {
+                            "duration": "PT13M13S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M13S",
+            "durationSeconds": 793
         },
         {
             "kind": "youtube#playlistItem",
@@ -2295,7 +3439,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "CCM8-GiDVHo",
                 "videoPublishedAt": "2021-06-14T00:35:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sPN24LgMLhZ9qE1g4IGbYRN9ybk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QrVAlSbI5fJENTgp60QAGMk1ON8",
+                        "id": "CCM8-GiDVHo",
+                        "contentDetails": {
+                            "duration": "PT12M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M41S",
+            "durationSeconds": 761
         },
         {
             "kind": "youtube#playlistItem",
@@ -2346,7 +3516,33 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "KMCHEZCxTME",
                 "videoPublishedAt": "2021-06-14T00:36:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jeCgABNu3NXh7v5qQmSDKfLnCBw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HARuS8gB7Owp8XEbAYr1nMrcNAE",
+                        "id": "KMCHEZCxTME",
+                        "contentDetails": {
+                            "duration": "PT32M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M8S",
+            "durationSeconds": 1928
         },
         {
             "kind": "youtube#playlistItem",
@@ -2397,11 +3593,40 @@ export const ArquiteturaComputadoresI = {
             "contentDetails": {
                 "videoId": "MNs6K8I9jco",
                 "videoPublishedAt": "2021-06-14T00:37:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "v2tAeXsnepeBk6ElzUoFMtlami4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2NOMLVczJibfVeuQV_ecWXQdArc",
+                        "id": "MNs6K8I9jco",
+                        "contentDetails": {
+                            "duration": "PT18M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M42S",
+            "durationSeconds": 1122
         }
     ],
     "pageInfo": {
         "totalResults": 47,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 46330
     }
 }

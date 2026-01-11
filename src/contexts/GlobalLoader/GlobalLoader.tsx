@@ -1,4 +1,3 @@
-
 const GlobalLoader = () => {
     return (
         <div className="flex fixed z-100 inset-0 items-center justify-center min-h-screen bg-neutral-950/50 backdrop-blur-sm transition-opacity text-white">

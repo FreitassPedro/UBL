@@ -1,15 +1,13 @@
-import type { Cadeira, Etapa, Grade, Lesson } from "@/data/gradeCurricular";
-import type {
-  MyCadeiraProgress,
-  MyEtapaProgress,
-  MyGradeProgress,
-  MyLesson,
-} from "@/data/myCourseProgress";
+import type { Cadeira } from "@/types/cadeira";
+import type { Etapa } from "@/types/etapa";
+import type { Grade } from "@/types/grade";
+import type { Lesson } from "@/types/lesson";
+import type { MyCadeiraProgress, MyEtapaProgress, MyGradeProgress, MyLessonProgress } from "@/types/progress";
 
 export function mapLessonsToMyLessons(
   lessons: Lesson[],
   completedLessons: Set<string>
-): MyLesson[] {
+): MyLessonProgress[] {
   return lessons.map((lesson) => ({
     ...lesson,
     isCompleted: completedLessons.has(lesson.id),

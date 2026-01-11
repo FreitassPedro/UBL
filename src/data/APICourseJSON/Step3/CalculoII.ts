@@ -1,4 +1,4 @@
-export const CalculoII = {
+export const calculoII = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "AgyIVxJ5U_xYhvfus2h8NmAXKg4",
     "nextPageToken": "EAAaHlBUOkNESWlFRGhETlVaQlJUWkNNVFkwT0RFelF6Zw",
@@ -42,7 +42,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "lQdzRBRL9Tw",
                 "videoPublishedAt": "2017-09-26T16:17:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Uh0GGhJbv0AfS82VXMg99ERf6m4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_Er5WUXC468HGpA-8O7Fpn2RTqM",
+                        "id": "lQdzRBRL9Tw",
+                        "contentDetails": {
+                            "duration": "PT33M30S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M30S",
+            "durationSeconds": 2010
         },
         {
             "kind": "youtube#playlistItem",
@@ -88,7 +114,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "rzuY_L8ag2M",
                 "videoPublishedAt": "2019-01-15T14:24:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pCCMpXDq19-UCfl4rkiFF_g1Cjs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TrtMrHKVR8Imlxogi7tXu3GJlII",
+                        "id": "rzuY_L8ag2M",
+                        "contentDetails": {
+                            "duration": "PT22M42S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M42S",
+            "durationSeconds": 1362
         },
         {
             "kind": "youtube#playlistItem",
@@ -134,7 +186,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "nV0YeH4QaLo",
                 "videoPublishedAt": "2019-01-15T14:24:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Y7aNmdrv5mJ9WB6G-Tol4A3z47w",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nhBnMbdtPF32pmwlI_swoo-bhkI",
+                        "id": "nV0YeH4QaLo",
+                        "contentDetails": {
+                            "duration": "PT30M32S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M32S",
+            "durationSeconds": 1832
         },
         {
             "kind": "youtube#playlistItem",
@@ -180,7 +258,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "vRLzlgt01sk",
                 "videoPublishedAt": "2019-01-15T14:24:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tyrAewG85jxWu2sju9WERHgGM3g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "y0ULrMUFypJZEAp9VM10uA4NTAg",
+                        "id": "vRLzlgt01sk",
+                        "contentDetails": {
+                            "duration": "PT25M7S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M7S",
+            "durationSeconds": 1507
         },
         {
             "kind": "youtube#playlistItem",
@@ -221,7 +325,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "A_PIIDItrBc",
                 "videoPublishedAt": "2019-01-17T10:57:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cjImt2FuN2a_7SFKEz3zRGqir-s",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "OQ1EWs0JSqfYgtK4TH5ynVQqy5I",
+                        "id": "A_PIIDItrBc",
+                        "contentDetails": {
+                            "duration": "PT23M10S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M10S",
+            "durationSeconds": 1390
         },
         {
             "kind": "youtube#playlistItem",
@@ -267,7 +397,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "BMfK3zze7fA",
                 "videoPublishedAt": "2019-01-17T10:57:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DaHLpUpZwLGIjBuFG5zGSx8aA3Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kka5-dBTMV5PTneYb_UwAE5AGUk",
+                        "id": "BMfK3zze7fA",
+                        "contentDetails": {
+                            "duration": "PT21M46S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M46S",
+            "durationSeconds": 1306
         },
         {
             "kind": "youtube#playlistItem",
@@ -313,7 +469,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "ueNy2UgUX_o",
                 "videoPublishedAt": "2019-01-17T10:56:54Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "HArnIy9NZt9vPD0Qh11rCQylVfg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "p6EbmdDv6d8cpF67bo2onJmv4Ho",
+                        "id": "ueNy2UgUX_o",
+                        "contentDetails": {
+                            "duration": "PT31M34S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M34S",
+            "durationSeconds": 1894
         },
         {
             "kind": "youtube#playlistItem",
@@ -354,7 +536,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "2ddgsYYPaeg",
                 "videoPublishedAt": "2019-01-17T10:56:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "NokPZrQznoP_-SZBhaLMkp_HI9U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Mi9q7qbiZhUayzdmO5FGNzPktv0",
+                        "id": "2ddgsYYPaeg",
+                        "contentDetails": {
+                            "duration": "PT25M16S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M16S",
+            "durationSeconds": 1516
         },
         {
             "kind": "youtube#playlistItem",
@@ -400,7 +608,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "OwQ2vSDCR6c",
                 "videoPublishedAt": "2019-01-17T10:56:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8LHyUn1CUlbRSPVAdRLMXlQdAfA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FiG9KdjIJxLR8U1iKBLLIiOEflA",
+                        "id": "OwQ2vSDCR6c",
+                        "contentDetails": {
+                            "duration": "PT22M59S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M59S",
+            "durationSeconds": 1379
         },
         {
             "kind": "youtube#playlistItem",
@@ -446,7 +680,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "5OZ-IbICMGc",
                 "videoPublishedAt": "2019-01-17T10:56:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PHBENcOKTLFSEyngGSzDPLpXYk8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "15y-AFgdqa8qnH4qz_SQt8NtsxA",
+                        "id": "5OZ-IbICMGc",
+                        "contentDetails": {
+                            "duration": "PT24M22S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M22S",
+            "durationSeconds": 1462
         },
         {
             "kind": "youtube#playlistItem",
@@ -487,7 +747,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "nz-ssZWxz6w",
                 "videoPublishedAt": "2019-03-25T13:29:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DaRzQB6HRSxHns_Dc9hBwSnZuKk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2AaNyNgFL15hxdwZQiv0aqHLkeQ",
+                        "id": "nz-ssZWxz6w",
+                        "contentDetails": {
+                            "duration": "PT23M57S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M57S",
+            "durationSeconds": 1437
         },
         {
             "kind": "youtube#playlistItem",
@@ -528,7 +814,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "DNjMLOs2UC4",
                 "videoPublishedAt": "2019-03-25T13:29:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "gJ1LK6DQi3GZpdZGM3ic8BqButI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1zFiNQJekMR77dWKNHmFAwEeC-4",
+                        "id": "DNjMLOs2UC4",
+                        "contentDetails": {
+                            "duration": "PT28M4S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M4S",
+            "durationSeconds": 1684
         },
         {
             "kind": "youtube#playlistItem",
@@ -569,7 +881,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "nOPK6CubFtE",
                 "videoPublishedAt": "2019-03-25T13:30:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2I7UaQkUTzGUmrzwoA0y4zkkvWI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mkvGqEOiwPUbLmSSPs1VvrLPVVM",
+                        "id": "nOPK6CubFtE",
+                        "contentDetails": {
+                            "duration": "PT29M36S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M36S",
+            "durationSeconds": 1776
         },
         {
             "kind": "youtube#playlistItem",
@@ -610,7 +948,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "DQ11oOm_s3E",
                 "videoPublishedAt": "2019-03-25T13:30:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "K3O41fC-QT_m1FzCsgJ5QTQNC9U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6we04DOfSHR_DyZRoDHUVWV2VoQ",
+                        "id": "DQ11oOm_s3E",
+                        "contentDetails": {
+                            "duration": "PT26M56S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M56S",
+            "durationSeconds": 1616
         },
         {
             "kind": "youtube#playlistItem",
@@ -656,7 +1020,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "X_VfVMj9eik",
                 "videoPublishedAt": "2019-03-25T13:31:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Bv2sSkDNDp_zni4g_5OhSKihqYo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mO-scQiAImVL5EfwehO7YkkXpoQ",
+                        "id": "X_VfVMj9eik",
+                        "contentDetails": {
+                            "duration": "PT21M40S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M40S",
+            "durationSeconds": 1300
         },
         {
             "kind": "youtube#playlistItem",
@@ -697,7 +1087,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "TKSoYEC1ODo",
                 "videoPublishedAt": "2019-03-25T13:33:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "k9h4kPNbcoT4f5M2RY9eM-lIut0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4XgA_iNpmJj9Y62pJHtIMoil_4k",
+                        "id": "TKSoYEC1ODo",
+                        "contentDetails": {
+                            "duration": "PT23M29S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M29S",
+            "durationSeconds": 1409
         },
         {
             "kind": "youtube#playlistItem",
@@ -738,7 +1154,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "c8F8-iAsy84",
                 "videoPublishedAt": "2019-03-25T13:33:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5lIxCt7pjhgnYbt-McShvY1GcNQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4ClESRr-prT2U7UIfjfN2DmPnf4",
+                        "id": "c8F8-iAsy84",
+                        "contentDetails": {
+                            "duration": "PT34M23S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M23S",
+            "durationSeconds": 2063
         },
         {
             "kind": "youtube#playlistItem",
@@ -784,7 +1226,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "3lKDYhlABpc",
                 "videoPublishedAt": "2019-03-25T13:34:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cVBBqDg2gxl2pm0qmXTvf3gj1aY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "poGMsv_Es_Bdx_-mVq6UlD9VU5Y",
+                        "id": "3lKDYhlABpc",
+                        "contentDetails": {
+                            "duration": "PT28M",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M",
+            "durationSeconds": 1680
         },
         {
             "kind": "youtube#playlistItem",
@@ -825,7 +1293,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "dfBszI2BSBE",
                 "videoPublishedAt": "2019-03-26T13:30:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LRJrPpaHXqvVOAcH6V0PeyHErDM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "UFSpYhgHktQPN_te1l2P8BaCEQg",
+                        "id": "dfBszI2BSBE",
+                        "contentDetails": {
+                            "duration": "PT25M24S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M24S",
+            "durationSeconds": 1524
         },
         {
             "kind": "youtube#playlistItem",
@@ -866,7 +1360,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "AwBt5LCOOTk",
                 "videoPublishedAt": "2019-03-26T13:30:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rZtJth4GSFM2Hy5zs-PuQQh54IU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "79cAntS2b-4cCedzgUDq-G9nD1k",
+                        "id": "AwBt5LCOOTk",
+                        "contentDetails": {
+                            "duration": "PT24M29S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M29S",
+            "durationSeconds": 1469
         },
         {
             "kind": "youtube#playlistItem",
@@ -907,7 +1427,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "pqc5RI2gniE",
                 "videoPublishedAt": "2019-03-26T13:30:00Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xuFPRnJXtMLVtzBMT1zwUQi7OSU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Fr0XOy3i7MNSSJUd9TsfYqCunI4",
+                        "id": "pqc5RI2gniE",
+                        "contentDetails": {
+                            "duration": "PT21M34S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M34S",
+            "durationSeconds": 1294
         },
         {
             "kind": "youtube#playlistItem",
@@ -953,7 +1499,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "dPgt7dDoLhA",
                 "videoPublishedAt": "2019-03-25T13:28:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "J98bFfn2CcsSqAES6mbspbVGbEg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "zc7e-UzZ8ZmQw4jrRc8ohijD5Ss",
+                        "id": "dPgt7dDoLhA",
+                        "contentDetails": {
+                            "duration": "PT32M43S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M43S",
+            "durationSeconds": 1963
         },
         {
             "kind": "youtube#playlistItem",
@@ -994,7 +1566,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "lCrBaypZJHk",
                 "videoPublishedAt": "2019-03-25T13:25:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PeDhB-9NIlcg37oICBchsdBsRbY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0AQXCHzoT_z_bW6rZQ0YsEDS564",
+                        "id": "lCrBaypZJHk",
+                        "contentDetails": {
+                            "duration": "PT23M51S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M51S",
+            "durationSeconds": 1431
         },
         {
             "kind": "youtube#playlistItem",
@@ -1040,7 +1638,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "kFQoEoUpyww",
                 "videoPublishedAt": "2019-03-25T13:25:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5IcMVInO-TwP8cJxE5w3bCcUlyM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "zE6eGp0PDujPDga2898oQ9PFnMU",
+                        "id": "kFQoEoUpyww",
+                        "contentDetails": {
+                            "duration": "PT27M32S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M32S",
+            "durationSeconds": 1652
         },
         {
             "kind": "youtube#playlistItem",
@@ -1081,7 +1705,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "Zqd4PhUVtio",
                 "videoPublishedAt": "2019-03-25T13:26:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cs_-P-Ebk_aryXU1PXkCNCFOaJ8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9LUcXdvQZdBf_g5bYm_F2JQ44xw",
+                        "id": "Zqd4PhUVtio",
+                        "contentDetails": {
+                            "duration": "PT28M38S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M38S",
+            "durationSeconds": 1718
         },
         {
             "kind": "youtube#playlistItem",
@@ -1127,7 +1777,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "zMOfZLNyiT8",
                 "videoPublishedAt": "2019-03-25T13:26:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hS38B0iGS_AvD6OzBUBo0cn8BrE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ByhKuzVFLVVz7T1QrJd4XlNbNGk",
+                        "id": "zMOfZLNyiT8",
+                        "contentDetails": {
+                            "duration": "PT17M",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M",
+            "durationSeconds": 1020
         },
         {
             "kind": "youtube#playlistItem",
@@ -1168,7 +1844,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "Qb8qSZOMyFw",
                 "videoPublishedAt": "2019-03-25T13:26:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5Q-_RxzLIVMLjUwy03uomJtZmTY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ldA0_tAeXnIVVs-kd9P9tpKx0eE",
+                        "id": "Qb8qSZOMyFw",
+                        "contentDetails": {
+                            "duration": "PT22M",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M",
+            "durationSeconds": 1320
         },
         {
             "kind": "youtube#playlistItem",
@@ -1214,7 +1916,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "V3Abl3nTk4E",
                 "videoPublishedAt": "2019-03-25T13:24:25Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DaNwFwe13ODSZhwJ289-XEmZfnc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "c0WwNWKIG_Yxk1J-icInKQ23Cp4",
+                        "id": "V3Abl3nTk4E",
+                        "contentDetails": {
+                            "duration": "PT35M3S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M3S",
+            "durationSeconds": 2103
         },
         {
             "kind": "youtube#playlistItem",
@@ -1255,7 +1983,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "-aEgqHlGKb4",
                 "videoPublishedAt": "2019-03-25T13:24:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "wjXMXmHo1JC_5aGkVkmVqCWgD10",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-CA5ry9T3K2oxnlOU-c_1o61WH8",
+                        "id": "-aEgqHlGKb4",
+                        "contentDetails": {
+                            "duration": "PT22M33S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M33S",
+            "durationSeconds": 1353
         },
         {
             "kind": "youtube#playlistItem",
@@ -1296,7 +2050,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "BWGvPBS2QOw",
                 "videoPublishedAt": "2019-03-25T13:23:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "9mUDjXftoOCtV2RSkZTCjv544Vg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "JqiRZKJykYX8rHdcB6VioWXHJmk",
+                        "id": "BWGvPBS2QOw",
+                        "contentDetails": {
+                            "duration": "PT30M6S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M6S",
+            "durationSeconds": 1806
         },
         {
             "kind": "youtube#playlistItem",
@@ -1337,7 +2117,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "_gvxJAudsWo",
                 "videoPublishedAt": "2019-03-25T13:23:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DWA9Jk3An6_xTtu0VlHTCOqyCi8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "E0zfccdzFw4jt9zr0U4fRv5QHnw",
+                        "id": "_gvxJAudsWo",
+                        "contentDetails": {
+                            "duration": "PT19M15S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M15S",
+            "durationSeconds": 1155
         },
         {
             "kind": "youtube#playlistItem",
@@ -1378,7 +2184,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "4AddFcbXfqY",
                 "videoPublishedAt": "2019-03-25T13:23:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "876ILKr20NpyAgfMaUYNonMPq-8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "UIfEUEUxFsRziDrDdEHtAGvTUbQ",
+                        "id": "4AddFcbXfqY",
+                        "contentDetails": {
+                            "duration": "PT22M13S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M13S",
+            "durationSeconds": 1333
         },
         {
             "kind": "youtube#playlistItem",
@@ -1419,7 +2251,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "4eFFW-mZmTU",
                 "videoPublishedAt": "2019-01-22T15:00:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hd1bAeMCu53EkSIu7bAUK8QbGqc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "ucM4-X62KQQd_O90XDB4FNfbtDs",
+                        "id": "4eFFW-mZmTU",
+                        "contentDetails": {
+                            "duration": "PT28M49S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M49S",
+            "durationSeconds": 1729
         },
         {
             "kind": "youtube#playlistItem",
@@ -1460,7 +2318,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "hAGbHk8ucZo",
                 "videoPublishedAt": "2019-01-22T15:00:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "M0BR_J2JfMjdQA41o1ODBBkPriY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Z8uc2EoAL1g9zp8ssFTB-wq8upM",
+                        "id": "hAGbHk8ucZo",
+                        "contentDetails": {
+                            "duration": "PT25M43S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M43S",
+            "durationSeconds": 1543
         },
         {
             "kind": "youtube#playlistItem",
@@ -1506,7 +2390,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "cX5mKe9s460",
                 "videoPublishedAt": "2019-01-22T15:01:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xG4fLf3tNjjcoHf8xcNYW1s10ro",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "lFtCLZYOK7xF6NPue3dmqy60E_s",
+                        "id": "cX5mKe9s460",
+                        "contentDetails": {
+                            "duration": "PT18M12S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M12S",
+            "durationSeconds": 1092
         },
         {
             "kind": "youtube#playlistItem",
@@ -1547,7 +2457,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "GOTY9Datrec",
                 "videoPublishedAt": "2019-03-13T14:25:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "aMYDxamjMFz2b-xtbjF2AnSx4MY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "U_HckCk5s7HJM0rFk4F_1Z51KhI",
+                        "id": "GOTY9Datrec",
+                        "contentDetails": {
+                            "duration": "PT23M1S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M1S",
+            "durationSeconds": 1381
         },
         {
             "kind": "youtube#playlistItem",
@@ -1588,7 +2524,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "E4VfHZZuUM4",
                 "videoPublishedAt": "2019-03-13T14:24:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0xuYzP1AdyUIsrfgTFQrTggTDPU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CRAf9AHAvHhEGTA7VkyNuR9T2K4",
+                        "id": "E4VfHZZuUM4",
+                        "contentDetails": {
+                            "duration": "PT24M",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M",
+            "durationSeconds": 1440
         },
         {
             "kind": "youtube#playlistItem",
@@ -1634,7 +2596,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "5A5grEuOaMM",
                 "videoPublishedAt": "2019-03-13T14:24:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "oUUt0w49X2FWMx2J_29UbRkw1lI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "KsISCoZXX9_gBRRx_FqV6T6Yzok",
+                        "id": "5A5grEuOaMM",
+                        "contentDetails": {
+                            "duration": "PT28M59S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M59S",
+            "durationSeconds": 1739
         },
         {
             "kind": "youtube#playlistItem",
@@ -1680,7 +2668,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "z-0khGRb_AE",
                 "videoPublishedAt": "2019-03-13T14:23:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OMRnXCpFQTRyktygkl7NHSB77IE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "a0NpMMxMgKLWZBwoHySGQeI7Ftw",
+                        "id": "z-0khGRb_AE",
+                        "contentDetails": {
+                            "duration": "PT28M46S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M46S",
+            "durationSeconds": 1726
         },
         {
             "kind": "youtube#playlistItem",
@@ -1726,7 +2740,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "vDSg54obDGs",
                 "videoPublishedAt": "2019-03-25T13:22:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "FUIibU3C06tDmg76sPe7cJ4Woiw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7nwVp-BVaTrW0trswk6y9eQzoDk",
+                        "id": "vDSg54obDGs",
+                        "contentDetails": {
+                            "duration": "PT22M6S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M6S",
+            "durationSeconds": 1326
         },
         {
             "kind": "youtube#playlistItem",
@@ -1772,7 +2812,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "o4y63UCfYm8",
                 "videoPublishedAt": "2019-03-13T14:23:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "mfmo9DcsQoqeFQi7TgAAlsrxqY0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "plK0sro_TgxJ8448PtdocmdceaA",
+                        "id": "o4y63UCfYm8",
+                        "contentDetails": {
+                            "duration": "PT24M26S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M26S",
+            "durationSeconds": 1466
         },
         {
             "kind": "youtube#playlistItem",
@@ -1818,7 +2884,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "1tDPIWG5qtc",
                 "videoPublishedAt": "2019-03-13T14:23:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IR7T8fNCxXYhvr_n5g8XpZhD238",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "UH1dmV8DavHeQQcHjeRiRekrj-s",
+                        "id": "1tDPIWG5qtc",
+                        "contentDetails": {
+                            "duration": "PT30M15S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M15S",
+            "durationSeconds": 1815
         },
         {
             "kind": "youtube#playlistItem",
@@ -1859,7 +2951,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "KPip6L81FQg",
                 "videoPublishedAt": "2019-03-13T14:22:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "H7RPfk0HM9al5EkNAJ820R06f80",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rDuDRzP2C2842nuFJLU84gzZ94g",
+                        "id": "KPip6L81FQg",
+                        "contentDetails": {
+                            "duration": "PT30M34S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M34S",
+            "durationSeconds": 1834
         },
         {
             "kind": "youtube#playlistItem",
@@ -1900,7 +3018,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "Gksfr0uJzsA",
                 "videoPublishedAt": "2019-03-13T14:22:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2ruXJdyiGOc7cXtfKjneQRZYxmg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "XyDhKks_Bg484uElM1rv0pdEQ9k",
+                        "id": "Gksfr0uJzsA",
+                        "contentDetails": {
+                            "duration": "PT25M58S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M58S",
+            "durationSeconds": 1558
         },
         {
             "kind": "youtube#playlistItem",
@@ -1941,7 +3085,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "BdG7ky8ilss",
                 "videoPublishedAt": "2019-03-13T14:22:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1NaOG1vAcCksfA_2EB49T2-dO8Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0P-9Suyslxc6txJxWP4xEXJb8xo",
+                        "id": "BdG7ky8ilss",
+                        "contentDetails": {
+                            "duration": "PT25M46S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M46S",
+            "durationSeconds": 1546
         },
         {
             "kind": "youtube#playlistItem",
@@ -1987,7 +3157,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "HnlPnqmNLD4",
                 "videoPublishedAt": "2019-03-13T14:21:54Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2JQ5B7eLPDT110fVdA9bDDvd0XA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "I9lYp5_-5zW765SSZaAtyxYt73Y",
+                        "id": "HnlPnqmNLD4",
+                        "contentDetails": {
+                            "duration": "PT22M28S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M28S",
+            "durationSeconds": 1348
         },
         {
             "kind": "youtube#playlistItem",
@@ -2033,7 +3229,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "CH_MQ7vxIkA",
                 "videoPublishedAt": "2019-03-13T14:21:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-LaZYLT3pLfU5G8uisgojM2F9fE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "QxKpmqRtyQiwkc2fk2LHTJMgM_o",
+                        "id": "CH_MQ7vxIkA",
+                        "contentDetails": {
+                            "duration": "PT27M1S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M1S",
+            "durationSeconds": 1621
         },
         {
             "kind": "youtube#playlistItem",
@@ -2079,7 +3301,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "xZEuC4vZOpo",
                 "videoPublishedAt": "2019-03-13T14:21:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uG9J0_45fSoiTUaK6zHCLDsyFDc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "d6mOK_8CStBNNp9NiDrIyPgNmBY",
+                        "id": "xZEuC4vZOpo",
+                        "contentDetails": {
+                            "duration": "PT23M24S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M24S",
+            "durationSeconds": 1404
         },
         {
             "kind": "youtube#playlistItem",
@@ -2120,7 +3368,33 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "qPwk0Oy9BWA",
                 "videoPublishedAt": "2019-03-13T14:20:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "HepRJGoUrOwn03ccKHPhuHjAfpg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "WaBJRgh8lGuq0u-u8uWRh88VHQc",
+                        "id": "qPwk0Oy9BWA",
+                        "contentDetails": {
+                            "duration": "PT30M26S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M26S",
+            "durationSeconds": 1826
         },
         {
             "kind": "youtube#playlistItem",
@@ -2161,11 +3435,40 @@ export const CalculoII = {
             "contentDetails": {
                 "videoId": "J66K5FJBPOM",
                 "videoPublishedAt": "2019-01-22T14:45:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "81zoBqNN1zH5HklSji-AS_D3mWU",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uY1DbeS8RaAZIcTfbwHf7qAwZFU",
+                        "id": "J66K5FJBPOM",
+                        "contentDetails": {
+                            "duration": "PT28M45S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M45S",
+            "durationSeconds": 1725
         }
     ],
     "pageInfo": {
         "totalResults": 70,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 77883
     }
 }

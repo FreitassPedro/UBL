@@ -1,4 +1,4 @@
-export const ProgramacaoMatematica = {
+export const programacaoMatematica = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "I1-3L45IAB5DoV4fVHpYJFspjLY",
     "items": [
@@ -46,7 +46,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "8rrgnFCL9LM",
                 "videoPublishedAt": "2020-10-05T22:03:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Mu7doN3XgGyGKzcomJh31iygrLY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4sNQtqXYlAh2bqNffeL0r-17Hrg",
+                        "id": "8rrgnFCL9LM",
+                        "contentDetails": {
+                            "duration": "PT30M",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M",
+            "durationSeconds": 1800
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "Un0p9Y4s-AE",
                 "videoPublishedAt": "2020-10-05T22:10:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "75PZcp1rLsNBIrrFd7fmeyEMhsc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "thLoL6acNz6qe3NnIPYhR5bDrcU",
+                        "id": "Un0p9Y4s-AE",
+                        "contentDetails": {
+                            "duration": "PT36M44S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M44S",
+            "durationSeconds": 2204
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "vM3GZ8qUAOk",
                 "videoPublishedAt": "2020-10-05T23:00:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zZwevoytgGRWEFepKTYXQYZ_giI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "H-EiRk2aLzRdB8MaRwC1Qsp7oKs",
+                        "id": "vM3GZ8qUAOk",
+                        "contentDetails": {
+                            "duration": "PT33M26S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M26S",
+            "durationSeconds": 2006
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "GXw3uW0wYKI",
                 "videoPublishedAt": "2020-10-05T23:05:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "wMuCiVJalikFP8KD4X629jCg6q4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "D_IB_zKAJ04Sj7_vJzG-z99bN2M",
+                        "id": "GXw3uW0wYKI",
+                        "contentDetails": {
+                            "duration": "PT31M58S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M58S",
+            "durationSeconds": 1918
         },
         {
             "kind": "youtube#playlistItem",
@@ -230,7 +334,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "Jovd1TNapxg",
                 "videoPublishedAt": "2020-10-05T23:13:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GSgMGLNpLWkMAyLOED_y0UPcGzg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7hya5QFgJGTcZBPXE6RRpedtNIc",
+                        "id": "Jovd1TNapxg",
+                        "contentDetails": {
+                            "duration": "PT25M46S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M46S",
+            "durationSeconds": 1546
         },
         {
             "kind": "youtube#playlistItem",
@@ -276,7 +406,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "XbTzgLZXhlE",
                 "videoPublishedAt": "2020-10-05T23:19:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-0W-tge7z1-RUXIK3blAnWrf70c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "SAsMY5znV30TWik6Th40X8-cke8",
+                        "id": "XbTzgLZXhlE",
+                        "contentDetails": {
+                            "duration": "PT31M47S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT31M47S",
+            "durationSeconds": 1907
         },
         {
             "kind": "youtube#playlistItem",
@@ -322,7 +478,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "fsbt439hkCE",
                 "videoPublishedAt": "2020-10-05T23:24:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "edSQscSsBFdeh5OIi_B7qJgeCn4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0LR_0YydBsNm7FBfbPfAL0ZBci4",
+                        "id": "fsbt439hkCE",
+                        "contentDetails": {
+                            "duration": "PT47M46S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT47M46S",
+            "durationSeconds": 2866
         },
         {
             "kind": "youtube#playlistItem",
@@ -373,7 +555,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "ix9n8WrvhU0",
                 "videoPublishedAt": "2021-09-17T15:56:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jxk_5UG1rMIWvhfqX9p33JFBVYw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gNeYJLi3zSWNfWG3cBIFfS-ytWE",
+                        "id": "ix9n8WrvhU0",
+                        "contentDetails": {
+                            "duration": "PT1H20M6S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H20M6S",
+            "durationSeconds": 4806
         },
         {
             "kind": "youtube#playlistItem",
@@ -424,7 +632,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "SBK9ae59MZU",
                 "videoPublishedAt": "2021-09-21T15:49:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "E9XObGex7axdNdMDDcJrh6foXHs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LpuOCnuS8sHSflNLuHZrjrlTCrQ",
+                        "id": "SBK9ae59MZU",
+                        "contentDetails": {
+                            "duration": "PT1H26M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H26M42S",
+            "durationSeconds": 5202
         },
         {
             "kind": "youtube#playlistItem",
@@ -475,7 +709,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "JtzPXRNaeUc",
                 "videoPublishedAt": "2021-09-24T16:23:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "O_iNWT0rKWGzegZ_CTnmMta8ows",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GXtEXVQ1VB17NbjVXV46HCUcnTM",
+                        "id": "JtzPXRNaeUc",
+                        "contentDetails": {
+                            "duration": "PT1H9M43S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H9M43S",
+            "durationSeconds": 4183
         },
         {
             "kind": "youtube#playlistItem",
@@ -526,7 +786,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "_DuX6o67yiA",
                 "videoPublishedAt": "2021-09-24T19:24:05Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_KTmch60tZkGS9frvST7PDIQ44Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "AsHOPXVEp5YZwVf8O5Q7jetpuOM",
+                        "id": "_DuX6o67yiA",
+                        "contentDetails": {
+                            "duration": "PT1H13M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H13M51S",
+            "durationSeconds": 4431
         },
         {
             "kind": "youtube#playlistItem",
@@ -577,7 +863,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "OQNvc2lQlH4",
                 "videoPublishedAt": "2021-09-27T18:33:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "c8FZ0Gil71Vfm_fg8r-ym7QP2BM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oglOS-iOVqouhkKrqDlZCccR2qs",
+                        "id": "OQNvc2lQlH4",
+                        "contentDetails": {
+                            "duration": "PT53M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT53M30S",
+            "durationSeconds": 3210
         },
         {
             "kind": "youtube#playlistItem",
@@ -628,7 +940,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "60GukVHfnHo",
                 "videoPublishedAt": "2021-09-27T19:17:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OKqo4bsbqrBBFqrYhZ5hhVsYtUc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jbas7x-jKne_eY1WyTmPonzvhAs",
+                        "id": "60GukVHfnHo",
+                        "contentDetails": {
+                            "duration": "PT39M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M22S",
+            "durationSeconds": 2362
         },
         {
             "kind": "youtube#playlistItem",
@@ -679,7 +1017,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "Pe2OBRwui28",
                 "videoPublishedAt": "2021-10-01T15:27:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "AsntLMkZzvgqfsIacTUWkyzuCR4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uBP2X7JBQ8PN2nAQxd-_owY0MdY",
+                        "id": "Pe2OBRwui28",
+                        "contentDetails": {
+                            "duration": "PT40M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M12S",
+            "durationSeconds": 2412
         },
         {
             "kind": "youtube#playlistItem",
@@ -730,7 +1094,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "PRQn8dWVtPI",
                 "videoPublishedAt": "2021-10-01T15:27:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tC9v9c-vQs5d2vzesmgdpVGmaRQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "6cJH6e2_-eUiZ2u7k4qo_zr470Y",
+                        "id": "PRQn8dWVtPI",
+                        "contentDetails": {
+                            "duration": "PT1H7M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H7M22S",
+            "durationSeconds": 4042
         },
         {
             "kind": "youtube#playlistItem",
@@ -781,7 +1171,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "QajkykCRYFk",
                 "videoPublishedAt": "2021-10-04T15:06:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lwZJYVgVRUEUVZNaa46ZsCwKTCk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "rMsbSz__TEOFiFlxZQAC0VVHISE",
+                        "id": "QajkykCRYFk",
+                        "contentDetails": {
+                            "duration": "PT1H1M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H1M22S",
+            "durationSeconds": 3682
         },
         {
             "kind": "youtube#playlistItem",
@@ -832,7 +1248,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "yVdET4_kLJA",
                 "videoPublishedAt": "2021-10-06T15:08:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5yqFEo6AeXK8R7bptxFw0ENRQJM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Esgf4WIwW2xHRgEXRff-kjtZ26E",
+                        "id": "yVdET4_kLJA",
+                        "contentDetails": {
+                            "duration": "PT1H26M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H26M7S",
+            "durationSeconds": 5167
         },
         {
             "kind": "youtube#playlistItem",
@@ -883,7 +1325,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "rzOUkFYEnfM",
                 "videoPublishedAt": "2021-10-06T15:02:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8O6Iadj-3MRGPhYQbDWNdjLRe7k",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "aA3HrF2PA345LFsSHTMvLb1NGT8",
+                        "id": "rzOUkFYEnfM",
+                        "contentDetails": {
+                            "duration": "PT25M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M18S",
+            "durationSeconds": 1518
         },
         {
             "kind": "youtube#playlistItem",
@@ -934,7 +1402,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "7z6xLq5wV8c",
                 "videoPublishedAt": "2021-10-08T15:43:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uDrI19JIgKPpYme_LcGDYEEac2g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cXN9Gmf_JotlhXU4XWOHjPK-WY8",
+                        "id": "7z6xLq5wV8c",
+                        "contentDetails": {
+                            "duration": "PT35M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M48S",
+            "durationSeconds": 2148
         },
         {
             "kind": "youtube#playlistItem",
@@ -985,7 +1479,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "0IcQjnOMKdg",
                 "videoPublishedAt": "2021-10-08T16:06:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "suQ_REGwChlqPuT7MiPlqalAYw0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cvCaGB5FG-FCByBJGvuy-guIozk",
+                        "id": "0IcQjnOMKdg",
+                        "contentDetails": {
+                            "duration": "PT18M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M41S",
+            "durationSeconds": 1121
         },
         {
             "kind": "youtube#playlistItem",
@@ -1036,7 +1556,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "9U1fHtJSdBg",
                 "videoPublishedAt": "2021-10-09T18:55:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5t92s_PcYD0BK_xSEtRBCPGU_zw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8Ghh1ru03B5IqqDZ2WVzGiasUqQ",
+                        "id": "9U1fHtJSdBg",
+                        "contentDetails": {
+                            "duration": "PT43M49S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT43M49S",
+            "durationSeconds": 2629
         },
         {
             "kind": "youtube#playlistItem",
@@ -1087,7 +1633,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "62bqx_VQers",
                 "videoPublishedAt": "2021-10-20T19:00:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3WKOmqn7NkaHbQurEez8s688Fq4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7Osj3NKZYK6C7vd2jab3BksSZJE",
+                        "id": "62bqx_VQers",
+                        "contentDetails": {
+                            "duration": "PT48M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT48M31S",
+            "durationSeconds": 2911
         },
         {
             "kind": "youtube#playlistItem",
@@ -1138,7 +1710,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "e8yDEBG8lMQ",
                 "videoPublishedAt": "2021-10-20T23:35:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "_tynhPBJl8KvnFJiJQreWk06ZUs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LvCU_KPMAPSMvEWRqrq3Tlvs8FA",
+                        "id": "e8yDEBG8lMQ",
+                        "contentDetails": {
+                            "duration": "PT1H3M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H3M54S",
+            "durationSeconds": 3834
         },
         {
             "kind": "youtube#playlistItem",
@@ -1189,7 +1787,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "lVxNTHhaZK4",
                 "videoPublishedAt": "2021-10-25T21:22:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RHcMXEJZTs3jBywhpL8S4se7qx4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9-8YUQD97hRtsqbqAv722huvjHM",
+                        "id": "lVxNTHhaZK4",
+                        "contentDetails": {
+                            "duration": "PT40M13S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M13S",
+            "durationSeconds": 2413
         },
         {
             "kind": "youtube#playlistItem",
@@ -1240,7 +1864,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "SAONVzG5Dnk",
                 "videoPublishedAt": "2021-10-25T23:23:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "RPV9-jk8KuMDAI9NcVDwqHo15-4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "uvyodTOxdxOahIqycRd8J3F8xXA",
+                        "id": "SAONVzG5Dnk",
+                        "contentDetails": {
+                            "duration": "PT51M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT51M4S",
+            "durationSeconds": 3064
         },
         {
             "kind": "youtube#playlistItem",
@@ -1291,7 +1941,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "PHjeQhqYRto",
                 "videoPublishedAt": "2021-10-25T23:16:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "IZdrGo5gACcCsk9tVgRJYtyzSdA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GN7lR830FapEFUGH7xu-xclcos8",
+                        "id": "PHjeQhqYRto",
+                        "contentDetails": {
+                            "duration": "PT48M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT48M45S",
+            "durationSeconds": 2925
         },
         {
             "kind": "youtube#playlistItem",
@@ -1342,7 +2018,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "xpWZo5FW0ns",
                 "videoPublishedAt": "2021-11-22T23:35:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LpQI1b7C8fWEKxOBw2xxnIAIUlI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "UkMuTscG7moT3Zm0MRUWhoeWMtM",
+                        "id": "xpWZo5FW0ns",
+                        "contentDetails": {
+                            "duration": "PT57M",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT57M",
+            "durationSeconds": 3420
         },
         {
             "kind": "youtube#playlistItem",
@@ -1393,7 +2095,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "GNj7mi6U18s",
                 "videoPublishedAt": "2021-11-23T15:21:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CyE8Fa9-0WmD8u_gsrthcNP4fg8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "mM8UvEuqrstZ2oNRPP39GMPSDow",
+                        "id": "GNj7mi6U18s",
+                        "contentDetails": {
+                            "duration": "PT45M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M33S",
+            "durationSeconds": 2733
         },
         {
             "kind": "youtube#playlistItem",
@@ -1444,7 +2172,33 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "tt_XlYDVqBc",
                 "videoPublishedAt": "2021-11-24T16:21:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "xX4g8HmURnQeDXfq-XkQiBjLmT4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "2i0e0G3ZhoZ7BmUDh7GzZDb6IT4",
+                        "id": "tt_XlYDVqBc",
+                        "contentDetails": {
+                            "duration": "PT42M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT42M52S",
+            "durationSeconds": 2572
         },
         {
             "kind": "youtube#playlistItem",
@@ -1495,11 +2249,40 @@ export const ProgramacaoMatematica = {
             "contentDetails": {
                 "videoId": "aFctEL9q3lQ",
                 "videoPublishedAt": "2021-11-25T12:52:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "8rMffahwPyMzV6luoNa2EETfyUo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "TZ00wWvaSZL577-FNrtjypGWkNE",
+                        "id": "aFctEL9q3lQ",
+                        "contentDetails": {
+                            "duration": "PT1H11M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H11M8S",
+            "durationSeconds": 4268
         }
     ],
     "pageInfo": {
         "totalResults": 30,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 89300
     }
 }

@@ -1,4 +1,4 @@
-export const SistemaOperacionais = {
+export const sistemasOperacionais = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "7y5ZPGmskHyA41UPmjtfvPXFp04",
     "items": [
@@ -46,7 +46,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "EGn8fOf7zE0",
                 "videoPublishedAt": "2022-08-29T12:49:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "U5KNo6oyy1vC9LcZzQCwNVUQfT0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "OE5VwwykuRB5fTap95yMphfdS1c",
+                        "id": "EGn8fOf7zE0",
+                        "contentDetails": {
+                            "duration": "PT57M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT57M8S",
+            "durationSeconds": 3428
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "rIg23pzYuoM",
                 "videoPublishedAt": "2022-08-29T13:43:06Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "TjJkMUb10QycBerNa1HW_SpeBwg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "px1vrhyOQ7yU40ZyDRiW-_UajWk",
+                        "id": "rIg23pzYuoM",
+                        "contentDetails": {
+                            "duration": "PT1H12M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H12M40S",
+            "durationSeconds": 4360
         },
         {
             "kind": "youtube#playlistItem",
@@ -138,7 +190,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "gH76AVnnzgM",
                 "videoPublishedAt": "2022-08-29T14:26:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DO5zxTytvm6OXP2mbsVesjP64R8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "q3JZ2fcxHRPYvphYS_ROdpN55S8",
+                        "id": "gH76AVnnzgM",
+                        "contentDetails": {
+                            "duration": "PT1H18M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H18M11S",
+            "durationSeconds": 4691
         },
         {
             "kind": "youtube#playlistItem",
@@ -184,7 +262,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "mZ0Tuo1084k",
                 "videoPublishedAt": "2022-08-29T15:05:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Ljlw_UIJnT244r8jcHxfhbIrBhQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hIJXF2TleZmbhAgZlxCs-SMGctY",
+                        "id": "mZ0Tuo1084k",
+                        "contentDetails": {
+                            "duration": "PT1H1M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H1M58S",
+            "durationSeconds": 3718
         },
         {
             "kind": "youtube#playlistItem",
@@ -230,7 +334,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "wjK9XbfTFLE",
                 "videoPublishedAt": "2022-08-29T18:53:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "eusgTRg_FTKP3bwAZybMPWCsgCQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "BMlCRqntu_DNJEpr3-cimUyEs2s",
+                        "id": "wjK9XbfTFLE",
+                        "contentDetails": {
+                            "duration": "PT1H17M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H17M42S",
+            "durationSeconds": 4662
         },
         {
             "kind": "youtube#playlistItem",
@@ -276,7 +406,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "9Ejx0TF1_ag",
                 "videoPublishedAt": "2022-08-29T18:39:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JACHJowwetzfRRkQoMUY6RERx4U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "H61aJXBdTZK8EnW63I4tWu6i4DQ",
+                        "id": "9Ejx0TF1_ag",
+                        "contentDetails": {
+                            "duration": "PT59M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT59M52S",
+            "durationSeconds": 3592
         },
         {
             "kind": "youtube#playlistItem",
@@ -327,7 +483,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "OMPKqyISh0g",
                 "videoPublishedAt": "2022-08-30T20:56:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1y5sbG-eTFj4SaODF7ITxGIgx0Y",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "un3DkGGJUaIJOhmxfSMkDzZxHnA",
+                        "id": "OMPKqyISh0g",
+                        "contentDetails": {
+                            "duration": "PT27M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M19S",
+            "durationSeconds": 1639
         },
         {
             "kind": "youtube#playlistItem",
@@ -378,7 +560,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "yRoCXndUjqE",
                 "videoPublishedAt": "2022-08-30T21:50:37Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fjlYQ2fm7qXx_L3w0UOYYH284to",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "FOKO9ZVRGwkk5ZkVaLHSiDAJJlI",
+                        "id": "yRoCXndUjqE",
+                        "contentDetails": {
+                            "duration": "PT32M25S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M25S",
+            "durationSeconds": 1945
         },
         {
             "kind": "youtube#playlistItem",
@@ -424,7 +632,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "umpOy1aA-dY",
                 "videoPublishedAt": "2022-08-31T12:02:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "GOaKJ3TSFsFXfTZhVH5dOkfbCjk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7iOptlj9moJwB9Iw3hwuqg4LBxY",
+                        "id": "umpOy1aA-dY",
+                        "contentDetails": {
+                            "duration": "PT1H56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H56S",
+            "durationSeconds": 3656
         },
         {
             "kind": "youtube#playlistItem",
@@ -470,7 +704,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "kksOIzamkrY",
                 "videoPublishedAt": "2022-09-06T13:21:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "v-NDnrmczi1ojYFtvAH9CK7gGVA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "KUS5bYErjy_mnYyWBptD6bPXIdk",
+                        "id": "kksOIzamkrY",
+                        "contentDetails": {
+                            "duration": "PT1H3M34S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H3M34S",
+            "durationSeconds": 3814
         },
         {
             "kind": "youtube#playlistItem",
@@ -521,7 +781,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "kqSWZl0hJYg",
                 "videoPublishedAt": "2022-09-09T13:21:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "A_gTrSFWfJxaNIDH3I_iWs6qN7U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "aasMGYTNRL0pV32fFhQHAtEBUDU",
+                        "id": "kqSWZl0hJYg",
+                        "contentDetails": {
+                            "duration": "PT1H9M29S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H9M29S",
+            "durationSeconds": 4169
         },
         {
             "kind": "youtube#playlistItem",
@@ -567,7 +853,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "TpjIvyxjFME",
                 "videoPublishedAt": "2022-09-15T20:45:39Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "vqfwprLyGE5W40FFZ9IZEr7vREw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "kwDtQejwsPsiSw5DJ8EetqUc8AI",
+                        "id": "TpjIvyxjFME",
+                        "contentDetails": {
+                            "duration": "PT58M38S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT58M38S",
+            "durationSeconds": 3518
         },
         {
             "kind": "youtube#playlistItem",
@@ -618,7 +930,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "NMqozuVk-Ng",
                 "videoPublishedAt": "2022-09-15T20:45:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "QieYOAl3MhciJ6UyY3Sf8nrwKes",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "oHA7rFh01nTYUTeMtKT3MVuq5r0",
+                        "id": "NMqozuVk-Ng",
+                        "contentDetails": {
+                            "duration": "PT55M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT55M56S",
+            "durationSeconds": 3356
         },
         {
             "kind": "youtube#playlistItem",
@@ -669,7 +1007,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "lHUoI4voHZI",
                 "videoPublishedAt": "2022-09-19T18:22:29Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "k1jqVcPbGHpAYUitvrKaHOGhGRM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hJxtZfkUaf5hWEvpWbkF_d8QgE8",
+                        "id": "lHUoI4voHZI",
+                        "contentDetails": {
+                            "duration": "PT1H15M35S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H15M35S",
+            "durationSeconds": 4535
         },
         {
             "kind": "youtube#playlistItem",
@@ -720,7 +1084,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "gLleQXaEfWA",
                 "videoPublishedAt": "2022-09-19T18:52:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fAirhLdgsXSHjpnWFxpiGbX1dh8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "whk_BUPJlT3Jm8vq33eT4BH8tbg",
+                        "id": "gLleQXaEfWA",
+                        "contentDetails": {
+                            "duration": "PT1H4M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H4M14S",
+            "durationSeconds": 3854
         },
         {
             "kind": "youtube#playlistItem",
@@ -771,7 +1161,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "E_y2KE0c9FQ",
                 "videoPublishedAt": "2022-09-26T18:50:40Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "R55GSZkoGmIlLPib0c698sR7UfA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Pvr5Vd2SuedyN1x3s9WcF32XjRA",
+                        "id": "E_y2KE0c9FQ",
+                        "contentDetails": {
+                            "duration": "PT1H14M37S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H14M37S",
+            "durationSeconds": 4477
         },
         {
             "kind": "youtube#playlistItem",
@@ -822,7 +1238,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "xxgw-Db2HEU",
                 "videoPublishedAt": "2022-09-28T19:22:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lf90AHftfnpPp0cPg_-ayoODNzc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "V2ejYmj7AFI41Qe48EX69rkxWVk",
+                        "id": "xxgw-Db2HEU",
+                        "contentDetails": {
+                            "duration": "PT56M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT56M11S",
+            "durationSeconds": 3371
         },
         {
             "kind": "youtube#playlistItem",
@@ -873,7 +1315,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "tI8rrzcu9is",
                 "videoPublishedAt": "2022-09-29T15:03:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zuPSq0KktaJBXTXYNB-hempzTAI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "nE5V2xG6oWFI8RVCeeQJbxa0KDI",
+                        "id": "tI8rrzcu9is",
+                        "contentDetails": {
+                            "duration": "PT1H5M30S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H5M30S",
+            "durationSeconds": 3930
         },
         {
             "kind": "youtube#playlistItem",
@@ -924,7 +1392,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "4UsT7E4z8Qs",
                 "videoPublishedAt": "2022-09-30T12:39:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Q8IRhLorq61hc9wdBBQJusoC-BM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "tKe899PTpWrduv-p25OKBrQOCTQ",
+                        "id": "4UsT7E4z8Qs",
+                        "contentDetails": {
+                            "duration": "PT47M10S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT47M10S",
+            "durationSeconds": 2830
         },
         {
             "kind": "youtube#playlistItem",
@@ -975,7 +1469,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "Mvfye48Oh18",
                 "videoPublishedAt": "2022-10-05T12:38:51Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WJk0Ze_KsNGT3LI4SGcXpczNp3M",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "OmXj3zKWK9JNDvcUJUxgCq5n4Rk",
+                        "id": "Mvfye48Oh18",
+                        "contentDetails": {
+                            "duration": "PT1H16M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H16M22S",
+            "durationSeconds": 4582
         },
         {
             "kind": "youtube#playlistItem",
@@ -1026,7 +1546,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "yqXQW1TCres",
                 "videoPublishedAt": "2022-10-06T13:15:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JM8yNIA6_RTDLVUZUEl92J-to7o",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "WBXN7uK2xgiXWayqkTzsBraJtO0",
+                        "id": "yqXQW1TCres",
+                        "contentDetails": {
+                            "duration": "PT1H11M42S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H11M42S",
+            "durationSeconds": 4302
         },
         {
             "kind": "youtube#playlistItem",
@@ -1077,7 +1623,33 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "DcZtfayCTr0",
                 "videoPublishedAt": "2022-10-10T18:53:14Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "B-oY5zg3LiU_mROe-t26bVLwjfs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "h3iRZP8EqoSkawYt8tdDoPtAIoE",
+                        "id": "DcZtfayCTr0",
+                        "contentDetails": {
+                            "duration": "PT1H17M57S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H17M57S",
+            "durationSeconds": 4677
         },
         {
             "kind": "youtube#playlistItem",
@@ -1128,11 +1700,40 @@ export const SistemaOperacionais = {
             "contentDetails": {
                 "videoId": "dSVlv2Ksr8A",
                 "videoPublishedAt": "2022-10-13T18:19:03Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JeaqRj-Utvnm9vZ_HZJriLG0Sko",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "b9mSx5FJVdoD9l-0x3b082PacD0",
+                        "id": "dSVlv2Ksr8A",
+                        "contentDetails": {
+                            "duration": "PT1H31M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H31M31S",
+            "durationSeconds": 5491
         }
     ],
     "pageInfo": {
         "totalResults": 23,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 88597
     }
 }

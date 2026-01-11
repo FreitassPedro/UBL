@@ -1,4 +1,4 @@
-import type { Lesson } from "@/data/gradeCurricular";
+import type { Lesson } from "@/types/lesson";
 
 interface YouTubeApiResponse {
     items: {
@@ -9,7 +9,11 @@ interface YouTubeApiResponse {
                 videoId: string;
             };
         };
+        durationSeconds: number;
     }[];
+    details: {
+        totalDurationSeconds: number;
+    };
 }
 
 const mapYtbJsonToLesson = (apiResponse: YouTubeApiResponse) => {
@@ -19,6 +23,7 @@ const mapYtbJsonToLesson = (apiResponse: YouTubeApiResponse) => {
             id: item.id,
             title: item.snippet.title,
             url: item.snippet.resourceId.videoId,
+            duration: item.durationSeconds,
             type: "video"
         }
         lessons.push(lesson);

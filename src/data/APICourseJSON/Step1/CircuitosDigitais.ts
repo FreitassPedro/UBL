@@ -52,7 +52,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "1lsU6RoU9Ko",
                 "videoPublishedAt": "2020-06-08T21:43:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ks70BPQBS-1yRU6y6BOgIQWXSCM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "GOuN5PVUAyamuuyoLNYXriDLQVM",
+                        "id": "1lsU6RoU9Ko",
+                        "contentDetails": {
+                            "duration": "PT16M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M52S",
+            "durationSeconds": 1012
         },
         {
             "kind": "youtube#playlistItem",
@@ -103,7 +129,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "RuXmtYdmQKY",
                 "videoPublishedAt": "2020-06-09T20:07:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "05qOtW06sIWvLMU6AbVV6fMZRaA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "s8EZoPZVTWAnUzXmXm16XM0RKx0",
+                        "id": "RuXmtYdmQKY",
+                        "contentDetails": {
+                            "duration": "PT32M46S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M46S",
+            "durationSeconds": 1966
         },
         {
             "kind": "youtube#playlistItem",
@@ -154,7 +206,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "MhaGPACGIEs",
                 "videoPublishedAt": "2020-06-10T19:13:13Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "e36o3CpM38yoDTTkl_U61Y1z640",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "06LdK_w-V0pKo2ir21Vp3m9Q_N8",
+                        "id": "MhaGPACGIEs",
+                        "contentDetails": {
+                            "duration": "PT19M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M36S",
+            "durationSeconds": 1176
         },
         {
             "kind": "youtube#playlistItem",
@@ -205,7 +283,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "Pg2tvTNfBzQ",
                 "videoPublishedAt": "2020-06-11T19:31:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "J9CD6m-Z7IViS-kvu59--tNlcDs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o9ghtXMb5-29Ij-s0uEtJegrssw",
+                        "id": "Pg2tvTNfBzQ",
+                        "contentDetails": {
+                            "duration": "PT14M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M1S",
+            "durationSeconds": 841
         },
         {
             "kind": "youtube#playlistItem",
@@ -256,7 +360,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "ZQkNfdwaG2c",
                 "videoPublishedAt": "2020-06-12T03:21:08Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "SwKsSr05yK0c_NxPrTK9dPL8yGo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Rw-m14Vz5xBDx6-7XwT7Yypny5E",
+                        "id": "ZQkNfdwaG2c",
+                        "contentDetails": {
+                            "duration": "PT23M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M39S",
+            "durationSeconds": 1419
         },
         {
             "kind": "youtube#playlistItem",
@@ -307,7 +437,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "gBsNWWscIcg",
                 "videoPublishedAt": "2020-06-13T02:06:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1Pw98lsNnqgjNJLAb6jHCqvACdI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "eb1YiAnoM-kPX-R2hAOufe95rD8",
+                        "id": "gBsNWWscIcg",
+                        "contentDetails": {
+                            "duration": "PT21M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M33S",
+            "durationSeconds": 1293
         },
         {
             "kind": "youtube#playlistItem",
@@ -358,7 +514,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "PceEtFggO_Q",
                 "videoPublishedAt": "2020-06-13T06:05:48Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "9tA9G947R6bqLG-OrNcLJlQpmk4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qHUK9eGSHcrr9MAwHzV0UJ-Hoh0",
+                        "id": "PceEtFggO_Q",
+                        "contentDetails": {
+                            "duration": "PT21M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M47S",
+            "durationSeconds": 1307
         },
         {
             "kind": "youtube#playlistItem",
@@ -409,7 +591,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "i48FGijMVO0",
                 "videoPublishedAt": "2020-06-14T02:04:19Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "rQ41EZYLFTEGcUOxPiXW7UnZs34",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MkfcgNUj2YJpJEPWPcBR1dUMk2w",
+                        "id": "i48FGijMVO0",
+                        "contentDetails": {
+                            "duration": "PT12M35S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M35S",
+            "durationSeconds": 755
         },
         {
             "kind": "youtube#playlistItem",
@@ -460,7 +668,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "jzR0kYsay2U",
                 "videoPublishedAt": "2020-06-14T05:38:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "t9W80wce5-5mZ5VZI9x31eATaTs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o6w7HTASaRTX9WjK8XX6hY0Smy8",
+                        "id": "jzR0kYsay2U",
+                        "contentDetails": {
+                            "duration": "PT16M14S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M14S",
+            "durationSeconds": 974
         },
         {
             "kind": "youtube#playlistItem",
@@ -511,7 +745,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "-4b58LvY6NI",
                 "videoPublishedAt": "2020-06-15T05:25:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "BJMS5lFTnu_daCyR3rQpcsxBSNk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "lHjftpOZxrqdLAoxS7ReB64C9R8",
+                        "id": "-4b58LvY6NI",
+                        "contentDetails": {
+                            "duration": "PT29M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M26S",
+            "durationSeconds": 1766
         },
         {
             "kind": "youtube#playlistItem",
@@ -562,7 +822,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "Px3W4QHfrHc",
                 "videoPublishedAt": "2020-06-16T03:01:25Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "wmJbbBospTXxjQw9bjaw4VdcD_Q",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "fktfwpfELOnpiDNtS5IDLUQe2tI",
+                        "id": "Px3W4QHfrHc",
+                        "contentDetails": {
+                            "duration": "PT26M11S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M11S",
+            "durationSeconds": 1571
         },
         {
             "kind": "youtube#playlistItem",
@@ -613,7 +899,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "XoWag-f1UTY",
                 "videoPublishedAt": "2020-06-16T06:26:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4yKqivgx1joiMN2ng0sla_qHD3c",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "J6pqYa7O8QioHnp6XyJbfepd1OE",
+                        "id": "XoWag-f1UTY",
+                        "contentDetails": {
+                            "duration": "PT27M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M41S",
+            "durationSeconds": 1661
         },
         {
             "kind": "youtube#playlistItem",
@@ -664,7 +976,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "u7FJAOnWS08",
                 "videoPublishedAt": "2020-06-16T22:50:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Z4uqxuW7MvhjVwKFW472Ahhhbp8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7wyU1wMRlYAeVB2z-vifkYcjkR0",
+                        "id": "u7FJAOnWS08",
+                        "contentDetails": {
+                            "duration": "PT17M20S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M20S",
+            "durationSeconds": 1040
         },
         {
             "kind": "youtube#playlistItem",
@@ -715,7 +1053,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "xzCpDBYKCTA",
                 "videoPublishedAt": "2020-06-17T02:30:32Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "S02ldYUA_bSwDJS5o89zBnCnpow",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Jq2ak30HtdQPewmuw_jYRaDtT7Y",
+                        "id": "xzCpDBYKCTA",
+                        "contentDetails": {
+                            "duration": "PT22M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M56S",
+            "durationSeconds": 1376
         },
         {
             "kind": "youtube#playlistItem",
@@ -766,7 +1130,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "32ritDV6XxU",
                 "videoPublishedAt": "2020-06-17T06:44:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3a2Mfxl_-VWQDVzVUTBTfzIEta4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_LwWGhwbWuPVRsqbZlqbuJoPL7A",
+                        "id": "32ritDV6XxU",
+                        "contentDetails": {
+                            "duration": "PT13M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M54S",
+            "durationSeconds": 834
         },
         {
             "kind": "youtube#playlistItem",
@@ -817,7 +1207,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "Q2s6ZFX3de8",
                 "videoPublishedAt": "2020-06-18T01:13:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zorWwqNC5imq0QoSGz3webpTUZI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MNk4hkMcts_vCZFUcLFOa9HHyPs",
+                        "id": "Q2s6ZFX3de8",
+                        "contentDetails": {
+                            "duration": "PT21M5S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT21M5S",
+            "durationSeconds": 1265
         },
         {
             "kind": "youtube#playlistItem",
@@ -868,7 +1284,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "lGIVvVAiR6U",
                 "videoPublishedAt": "2020-06-18T03:36:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0viUX4MGEGzJtm8VAQxQvhRkJ-g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "IO5zKFybN9I4ueJn1kNArFnnY2U",
+                        "id": "lGIVvVAiR6U",
+                        "contentDetails": {
+                            "duration": "PT16M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M36S",
+            "durationSeconds": 996
         },
         {
             "kind": "youtube#playlistItem",
@@ -919,7 +1361,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "mOBy3LJV5sM",
                 "videoPublishedAt": "2020-06-18T06:41:36Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-Wu7Ux6EwJPWtJ6yNay81b-b11I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0QaFqnM7AfIG148Fs0mv3k6GiBk",
+                        "id": "mOBy3LJV5sM",
+                        "contentDetails": {
+                            "duration": "PT17M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M24S",
+            "durationSeconds": 1044
         },
         {
             "kind": "youtube#playlistItem",
@@ -970,7 +1438,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "8_Ip6PzYqrs",
                 "videoPublishedAt": "2020-06-20T05:44:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "jm2ZBFQ_l13vU7tRNtc8JmkCshE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "z9V98C1WE4dN-sunNA_O1MXzqBs",
+                        "id": "8_Ip6PzYqrs",
+                        "contentDetails": {
+                            "duration": "PT24M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M15S",
+            "durationSeconds": 1455
         },
         {
             "kind": "youtube#playlistItem",
@@ -1021,7 +1515,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "AVb_9sXqfSk",
                 "videoPublishedAt": "2020-06-20T06:11:04Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "g8GK8Vb-tK_bNCHeipEbabTSHLE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3H0rMlnmDd1yTbMiT1edIZUrekU",
+                        "id": "AVb_9sXqfSk",
+                        "contentDetails": {
+                            "duration": "PT22M29S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT22M29S",
+            "durationSeconds": 1349
         },
         {
             "kind": "youtube#playlistItem",
@@ -1072,7 +1592,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "rv2r_hSLRN0",
                 "videoPublishedAt": "2020-06-20T17:13:26Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "f4AwOezjUHAt3NcMB9QdD9x8_Co",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "DiNHeBPRVMycN4moYnGIf3BZqws",
+                        "id": "rv2r_hSLRN0",
+                        "contentDetails": {
+                            "duration": "PT17M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M33S",
+            "durationSeconds": 1053
         },
         {
             "kind": "youtube#playlistItem",
@@ -1123,7 +1669,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "qNXLHeHurpk",
                 "videoPublishedAt": "2020-06-20T20:40:20Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "lWc4n2QLYr8yCXc0vNcvJL7R2Rg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jJle9lfkGk3zVO55czp4fMUClZU",
+                        "id": "qNXLHeHurpk",
+                        "contentDetails": {
+                            "duration": "PT15M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M56S",
+            "durationSeconds": 956
         },
         {
             "kind": "youtube#playlistItem",
@@ -1174,7 +1746,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "ttoNkYJ38zQ",
                 "videoPublishedAt": "2020-06-21T22:50:22Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "4YyvSFijuxfU95yG_KWZLtqB5VI",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_sxFcMvetCEQeFqsjJ1SEGq4gsY",
+                        "id": "ttoNkYJ38zQ",
+                        "contentDetails": {
+                            "duration": "PT13M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M39S",
+            "durationSeconds": 819
         },
         {
             "kind": "youtube#playlistItem",
@@ -1225,7 +1823,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "qXEx7nFvMh4",
                 "videoPublishedAt": "2020-06-22T03:09:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uPYWJ-JTaiJWNjQUmg5jYFX1Peg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "8LTPxIv8YXKUO4Dn7TRooCLYcWI",
+                        "id": "qXEx7nFvMh4",
+                        "contentDetails": {
+                            "duration": "PT14M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M47S",
+            "durationSeconds": 887
         },
         {
             "kind": "youtube#playlistItem",
@@ -1276,7 +1900,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "r_DpiGT0YmA",
                 "videoPublishedAt": "2020-06-23T04:36:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yZaq4teEGfyrprrckL-UuXbRmZc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "CPD3AGUfNIEfXZMqFKL9V8r5UBA",
+                        "id": "r_DpiGT0YmA",
+                        "contentDetails": {
+                            "duration": "PT19M53S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M53S",
+            "durationSeconds": 1193
         },
         {
             "kind": "youtube#playlistItem",
@@ -1327,7 +1977,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "rhZ0QmX6Gf0",
                 "videoPublishedAt": "2020-06-23T05:57:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "9EO8RURoiS-GoMo6Zf8g1yqG9P0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "C9Db0ysf_ZIw5gy1EEpiW_1vSqU",
+                        "id": "rhZ0QmX6Gf0",
+                        "contentDetails": {
+                            "duration": "PT11M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M44S",
+            "durationSeconds": 704
         },
         {
             "kind": "youtube#playlistItem",
@@ -1378,7 +2054,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "6sBkmAlJlvs",
                 "videoPublishedAt": "2020-06-24T02:13:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "-VZCIQwXFofIiAZTizktFls6kH0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "AuuhZNerX9NALKWu1hDl7zbWZTM",
+                        "id": "6sBkmAlJlvs",
+                        "contentDetails": {
+                            "duration": "PT27M3S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M3S",
+            "durationSeconds": 1623
         },
         {
             "kind": "youtube#playlistItem",
@@ -1429,7 +2131,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "TQfRSFsRDAU",
                 "videoPublishedAt": "2020-06-24T21:59:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "b2JiKezQxlmln71Ew0XtXZtDXOc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "skJjulhT2kfwEBvtZglrsGmWizM",
+                        "id": "TQfRSFsRDAU",
+                        "contentDetails": {
+                            "duration": "PT20M2S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M2S",
+            "durationSeconds": 1202
         },
         {
             "kind": "youtube#playlistItem",
@@ -1480,7 +2208,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "iiTMiSu_xbU",
                 "videoPublishedAt": "2020-06-25T05:24:53Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "LESW61qvJbbJ980pQ35jvNbWwoY",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "N4v7oqkG9qYD6Ot3g7oLluTFeYY",
+                        "id": "iiTMiSu_xbU",
+                        "contentDetails": {
+                            "duration": "PT9M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT9M12S",
+            "durationSeconds": 552
         },
         {
             "kind": "youtube#playlistItem",
@@ -1531,7 +2285,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "XAGm1k_H49w",
                 "videoPublishedAt": "2020-06-25T21:30:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "MpipY-Bg8DyzGRuh5oYs4vaoM74",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gvYHeU24tdEBh5_GhgMbRuazDQU",
+                        "id": "XAGm1k_H49w",
+                        "contentDetails": {
+                            "duration": "PT5M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M18S",
+            "durationSeconds": 318
         },
         {
             "kind": "youtube#playlistItem",
@@ -1582,7 +2362,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "fLZRFkFWQ4c",
                 "videoPublishedAt": "2020-06-26T03:28:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Y5DWmPZJLQgCTss7DL3cwvRaKgg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "sQAmlEaroBn7LHiKmKsqam5t7VI",
+                        "id": "fLZRFkFWQ4c",
+                        "contentDetails": {
+                            "duration": "PT11M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT11M7S",
+            "durationSeconds": 667
         },
         {
             "kind": "youtube#playlistItem",
@@ -1633,7 +2439,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "6mf8qFEBxEU",
                 "videoPublishedAt": "2020-07-01T03:54:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "P74PSuM4vP0UATu22gLyL2bsouc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "yNgKAJs6wRwtETlqW44SCvjM4FY",
+                        "id": "6mf8qFEBxEU",
+                        "contentDetails": {
+                            "duration": "PT16M51S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M51S",
+            "durationSeconds": 1011
         },
         {
             "kind": "youtube#playlistItem",
@@ -1684,7 +2516,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "tVgocuuisjA",
                 "videoPublishedAt": "2020-07-01T03:54:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "CG_0_yu_ehikL0iNEYSJwbpCueQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "P6mzB2RiB2j-uXjsvt9jIMMBpdU",
+                        "id": "tVgocuuisjA",
+                        "contentDetails": {
+                            "duration": "PT13M33S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT13M33S",
+            "durationSeconds": 813
         },
         {
             "kind": "youtube#playlistItem",
@@ -1735,7 +2593,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "l56a1Rp-LNs",
                 "videoPublishedAt": "2020-07-01T04:00:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "av7dfp8PmXtdH0beRA8Ox1-bJmk",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "b_et1clRlsx0Xb1odD24YVzdXGI",
+                        "id": "l56a1Rp-LNs",
+                        "contentDetails": {
+                            "duration": "PT23M41S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M41S",
+            "durationSeconds": 1421
         },
         {
             "kind": "youtube#playlistItem",
@@ -1786,7 +2670,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "z0qUmHXd8ZA",
                 "videoPublishedAt": "2020-07-01T04:01:44Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hN4MpZW0d831q-wSeAw-f6T7Hls",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "aFnYU2FMtUGyjI15qI8GjKIo6Os",
+                        "id": "z0qUmHXd8ZA",
+                        "contentDetails": {
+                            "duration": "PT16M52S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M52S",
+            "durationSeconds": 1012
         },
         {
             "kind": "youtube#playlistItem",
@@ -1837,7 +2747,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "h0vnz4ebT08",
                 "videoPublishedAt": "2020-07-01T04:01:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "bTKcDuBJzrSIqtg63VcSue1aD2g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Iq7p47F8N2K-z6wOM3t5l6XsQ-E",
+                        "id": "h0vnz4ebT08",
+                        "contentDetails": {
+                            "duration": "PT12M19S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M19S",
+            "durationSeconds": 739
         },
         {
             "kind": "youtube#playlistItem",
@@ -1888,7 +2824,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "RCbCm9TyZ9w",
                 "videoPublishedAt": "2020-07-01T04:12:31Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "DLY5T72qhtO1kKJtk29-SDfjQc0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "HqffD-k7pqa6jh2cpK-HpVwbWqQ",
+                        "id": "RCbCm9TyZ9w",
+                        "contentDetails": {
+                            "duration": "PT15M48S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M48S",
+            "durationSeconds": 948
         },
         {
             "kind": "youtube#playlistItem",
@@ -1939,7 +2901,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "NJwesHY5nPQ",
                 "videoPublishedAt": "2020-07-01T04:19:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "v2ALJ2GCDgLnbI3m_3lAamYt7vo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "R-Gg5znTHZfJAqVtL-5Bsh3sqL8",
+                        "id": "NJwesHY5nPQ",
+                        "contentDetails": {
+                            "duration": "PT15M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT15M59S",
+            "durationSeconds": 959
         },
         {
             "kind": "youtube#playlistItem",
@@ -1990,7 +2978,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "C8Y8ST2hnqA",
                 "videoPublishedAt": "2020-07-01T20:07:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "YWUM9cQmLLcBjDhiZNJeO2N8Ak4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Xa3MVl3lMCfL9ayD_QmAJ6GCArk",
+                        "id": "C8Y8ST2hnqA",
+                        "contentDetails": {
+                            "duration": "PT23M26S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M26S",
+            "durationSeconds": 1406
         },
         {
             "kind": "youtube#playlistItem",
@@ -2041,7 +3055,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "y-Ni9BIpS8c",
                 "videoPublishedAt": "2020-07-01T20:05:42Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "5wE_7LVeC8zNBIU-KuqJUl7TQQg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "NC7I6QSKGmbdqK6-dQCEAjl0MrQ",
+                        "id": "y-Ni9BIpS8c",
+                        "contentDetails": {
+                            "duration": "PT12M8S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT12M8S",
+            "durationSeconds": 728
         },
         {
             "kind": "youtube#playlistItem",
@@ -2092,7 +3132,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "_2RRcq8YIKk",
                 "videoPublishedAt": "2020-07-02T20:38:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "uQYKJuVCMP_Z2mykJ-d3NIRqQnE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "iN7JFO7tvSMnsw2RHPnWJCkhhLI",
+                        "id": "_2RRcq8YIKk",
+                        "contentDetails": {
+                            "duration": "PT17M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M31S",
+            "durationSeconds": 1051
         },
         {
             "kind": "youtube#playlistItem",
@@ -2143,7 +3209,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "qfqoSlvIkiA",
                 "videoPublishedAt": "2020-07-03T01:43:33Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yU7dQqKqOQoPO2-PH3zX5wyRvf8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7c3Jp_Vn8AdeTLQ_XfMS0kQ-AMU",
+                        "id": "qfqoSlvIkiA",
+                        "contentDetails": {
+                            "duration": "PT24M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M56S",
+            "durationSeconds": 1496
         },
         {
             "kind": "youtube#playlistItem",
@@ -2194,7 +3286,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "e70pe-Cdtfc",
                 "videoPublishedAt": "2020-07-03T05:48:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2F3bHgBNCuk0_sf3oZzRmT2anOA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "-mhOGheENWD2qukiOFIDB4ZRECA",
+                        "id": "e70pe-Cdtfc",
+                        "contentDetails": {
+                            "duration": "PT27M21S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT27M21S",
+            "durationSeconds": 1641
         },
         {
             "kind": "youtube#playlistItem",
@@ -2245,7 +3363,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "X8lHW9yfr30",
                 "videoPublishedAt": "2020-07-04T23:44:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hRpPzfp0-owvaBSZisAjyfXpV9k",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "p6ThSUTwm0Uq32YGDrgcnuNDfC0",
+                        "id": "X8lHW9yfr30",
+                        "contentDetails": {
+                            "duration": "PT14M4S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT14M4S",
+            "durationSeconds": 844
         },
         {
             "kind": "youtube#playlistItem",
@@ -2296,7 +3440,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "_uBk4xDi-8c",
                 "videoPublishedAt": "2020-07-05T00:56:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "te2cxSYGWvPDojs6Mg1Ytt5Ystw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_Od8hT-CAhjF26XnO27vODkMQW8",
+                        "id": "_uBk4xDi-8c",
+                        "contentDetails": {
+                            "duration": "PT18M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M15S",
+            "durationSeconds": 1095
         },
         {
             "kind": "youtube#playlistItem",
@@ -2347,7 +3517,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "wypiacFZFww",
                 "videoPublishedAt": "2020-07-05T01:33:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yzcl7mhCzARdxSaZOo6ngyErWFA",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1KQrngiJID5jhiua55-ucppftaU",
+                        "id": "wypiacFZFww",
+                        "contentDetails": {
+                            "duration": "PT20M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M40S",
+            "durationSeconds": 1240
         },
         {
             "kind": "youtube#playlistItem",
@@ -2398,7 +3594,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "Kjtvyf6e-9U",
                 "videoPublishedAt": "2020-07-05T02:35:07Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "WBM8lBeP6V5M50XEyIVFh-yt_Lw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "RhOkvkDUyu-l4uC7FKpGRIdQEvE",
+                        "id": "Kjtvyf6e-9U",
+                        "contentDetails": {
+                            "duration": "PT17M24S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT17M24S",
+            "durationSeconds": 1044
         },
         {
             "kind": "youtube#playlistItem",
@@ -2449,7 +3671,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "Jmw4OiI0O3A",
                 "videoPublishedAt": "2020-07-05T03:43:10Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cQtWPZMIOf-8yePpa4qykb7i1BE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "wrWxFn97cx_IPBUZuRcrlYJvIAw",
+                        "id": "Jmw4OiI0O3A",
+                        "contentDetails": {
+                            "duration": "PT18M56S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M56S",
+            "durationSeconds": 1136
         },
         {
             "kind": "youtube#playlistItem",
@@ -2500,7 +3748,33 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "FWk2a7oTpxc",
                 "videoPublishedAt": "2020-07-06T01:03:57Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ShxnYWgyB_MsoRvmNSZRpWlitnQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "asTSsr6VZuANP7OEPtkndgF4AHw",
+                        "id": "FWk2a7oTpxc",
+                        "contentDetails": {
+                            "duration": "PT10M22S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT10M22S",
+            "durationSeconds": 622
         },
         {
             "kind": "youtube#playlistItem",
@@ -2551,11 +3825,40 @@ export const circuitosDigitais = {
             "contentDetails": {
                 "videoId": "EBrHRwnVMsU",
                 "videoPublishedAt": "2020-07-06T01:10:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fcaGQkPVzzztKdGzd5-X0UPQitc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "7vjXCsRHcJS7z8ZOhB3EVmiOz3o",
+                        "id": "EBrHRwnVMsU",
+                        "contentDetails": {
+                            "duration": "PT24M58S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT24M58S",
+            "durationSeconds": 1498
         }
     ],
     "pageInfo": {
         "totalResults": 93,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 55778
     }
 }

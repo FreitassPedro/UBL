@@ -1,4 +1,4 @@
-export const InteligenciaArtifical = {
+export const inteligenciaArtifical = {
     "kind": "youtube#playlistItemListResponse",
     "etag": "dkwUGIzBpadNCklpry2tr-6OOlI",
     "items": [
@@ -51,7 +51,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "-T3zDFxngf4",
                 "videoPublishedAt": "2021-09-28T21:13:47Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "F0x8GbCQNvLZHgDVuui4QtApZnQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "_0543OWTMt6xfMTs9xLGdcvi2RQ",
+                        "id": "-T3zDFxngf4",
+                        "contentDetails": {
+                            "duration": "PT36M39S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M39S",
+            "durationSeconds": 2199
         },
         {
             "kind": "youtube#playlistItem",
@@ -92,7 +118,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "W95YlM5-iPk",
                 "videoPublishedAt": "2018-09-20T18:38:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "kKYScUZTVebzb6nTOE9amMr-MEo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "MbLpUgjTO4fKqbGznjY5FMJIjfU",
+                        "id": "W95YlM5-iPk",
+                        "contentDetails": {
+                            "duration": "PT1H27M47S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT1H27M47S",
+            "durationSeconds": 5267
         },
         {
             "kind": "youtube#playlistItem",
@@ -143,7 +195,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "GTuZ0WXcbI8",
                 "videoPublishedAt": "2020-11-30T18:31:55Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "3J9n4ezYliAyHV3gqb-HC1pFKKc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "9fBi8TpikitbvWVYHm5z3qCxhMY",
+                        "id": "GTuZ0WXcbI8",
+                        "contentDetails": {
+                            "duration": "PT37M32S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT37M32S",
+            "durationSeconds": 2252
         },
         {
             "kind": "youtube#playlistItem",
@@ -194,7 +272,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "QZ3Z9TiNUSg",
                 "videoPublishedAt": "2020-11-30T18:31:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1l5G8EwfrKSAo_4Q-2OezdNi2oM",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "j7bLzlJECukCM2NLhRMj4OrEcEM",
+                        "id": "QZ3Z9TiNUSg",
+                        "contentDetails": {
+                            "duration": "PT29M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M44S",
+            "durationSeconds": 1784
         },
         {
             "kind": "youtube#playlistItem",
@@ -235,7 +339,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "FZDg2Olv1PA",
                 "videoPublishedAt": "2020-07-23T19:12:50Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zRKQa7US87P4WqF0s8bDbz4NPis",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4nHCjaNzL3zalQoNqsOEFszLoyM",
+                        "id": "FZDg2Olv1PA",
+                        "contentDetails": {
+                            "duration": "PT20M22S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M22S",
+            "durationSeconds": 1222
         },
         {
             "kind": "youtube#playlistItem",
@@ -281,7 +411,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "HXQ_-WTMxCM",
                 "videoPublishedAt": "2020-07-23T19:14:01Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "2ZU9cW7S_MlbalQE0mo_PJ4HFRQ",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "LqNc6UOpyF9uFwJvU27624gIpAU",
+                        "id": "HXQ_-WTMxCM",
+                        "contentDetails": {
+                            "duration": "PT25M15S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M15S",
+            "durationSeconds": 1515
         },
         {
             "kind": "youtube#playlistItem",
@@ -327,7 +483,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "6CNsXJwemUA",
                 "videoPublishedAt": "2020-07-28T17:50:58Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "pKYHEdyvWvvlWh8ewHRF_OYQQ3U",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jYYiAwPp0mPI2n6ZYbegTAhOCC4",
+                        "id": "6CNsXJwemUA",
+                        "contentDetails": {
+                            "duration": "PT20M14S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M14S",
+            "durationSeconds": 1214
         },
         {
             "kind": "youtube#playlistItem",
@@ -373,7 +555,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "W8PIuI-_lAc",
                 "videoPublishedAt": "2020-07-27T19:51:38Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "u5-peP67X58lKS9t9BIDUSgsL34",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "qclR1aiuwTZst2HtVq4VP6F97Os",
+                        "id": "W8PIuI-_lAc",
+                        "contentDetails": {
+                            "duration": "PT28M5S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT28M5S",
+            "durationSeconds": 1685
         },
         {
             "kind": "youtube#playlistItem",
@@ -419,7 +627,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "N1dgi46v6Mk",
                 "videoPublishedAt": "2020-08-07T20:05:15Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "0T3TYDaJ812E2V3oZ_SUMlSs9J8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0wV_ryZssq0ETECmxDmtDrrTZ9g",
+                        "id": "N1dgi46v6Mk",
+                        "contentDetails": {
+                            "duration": "PT16M24S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT16M24S",
+            "durationSeconds": 984
         },
         {
             "kind": "youtube#playlistItem",
@@ -465,7 +699,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "0QE7NG9zjfY",
                 "videoPublishedAt": "2020-08-03T21:07:24Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1P7VgQAW6fYzP5Hwc9YulpEjhb4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "3rLYq7tK7Ejv9AncGLXfjJAC9EI",
+                        "id": "0QE7NG9zjfY",
+                        "contentDetails": {
+                            "duration": "PT45M18S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M18S",
+            "durationSeconds": 2718
         },
         {
             "kind": "youtube#playlistItem",
@@ -511,7 +771,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "8AzBLvKzQjs",
                 "videoPublishedAt": "2020-08-17T21:12:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "t2FDcHjAxIrgLNCu9kVnIZmeeLs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "RhkY3mRrIWJ_YeLLzragxyWsSec",
+                        "id": "8AzBLvKzQjs",
+                        "contentDetails": {
+                            "duration": "PT33M24S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT33M24S",
+            "durationSeconds": 2004
         },
         {
             "kind": "youtube#playlistItem",
@@ -557,7 +843,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "ds2Ps1kLk_I",
                 "videoPublishedAt": "2020-08-24T17:56:02Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "W2xtBUXw3Q4ROt0bnQuyGInPnj0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "jXHV3oGvEG7MUUbVRZOEkpV-rn8",
+                        "id": "ds2Ps1kLk_I",
+                        "contentDetails": {
+                            "duration": "PT26M48S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M48S",
+            "durationSeconds": 1608
         },
         {
             "kind": "youtube#playlistItem",
@@ -603,7 +915,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "vVYZ9Mb51t0",
                 "videoPublishedAt": "2020-08-24T19:06:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "XfayxAX5zSDWMoo0_jfBomwB2v8",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hd1kyJ5tsn3ULjZ6e6vK9dS8QtA",
+                        "id": "vVYZ9Mb51t0",
+                        "contentDetails": {
+                            "duration": "PT19M17S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT19M17S",
+            "durationSeconds": 1157
         },
         {
             "kind": "youtube#playlistItem",
@@ -649,7 +987,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "D_TRdKEbc5c",
                 "videoPublishedAt": "2020-08-24T20:33:17Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sw4TI9v0DWroq6vloGGRDlHpfI0",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "XI5CpA_YJowLqUgKfXN9K3Gv6ZQ",
+                        "id": "D_TRdKEbc5c",
+                        "contentDetails": {
+                            "duration": "PT23M31S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT23M31S",
+            "durationSeconds": 1411
         },
         {
             "kind": "youtube#playlistItem",
@@ -695,7 +1059,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "Vk2X4m0lkAk",
                 "videoPublishedAt": "2020-09-01T19:01:27Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Bbyx1f7vmyWah92V-AuHVfmn69I",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Ym-mqK7jgF0a0EuQ2IdgY8-rl4I",
+                        "id": "Vk2X4m0lkAk",
+                        "contentDetails": {
+                            "duration": "PT25M51S",
+                            "dimension": "2d",
+                            "definition": "sd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT25M51S",
+            "durationSeconds": 1551
         },
         {
             "kind": "youtube#playlistItem",
@@ -746,7 +1136,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "dRn9qrUx1_4",
                 "videoPublishedAt": "2021-02-09T19:46:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "ashlCkkKxNSzFBQ1sFHVoz_OfOs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "SwdARFUCuujQbr2xYepMFhmTZZM",
+                        "id": "dRn9qrUx1_4",
+                        "contentDetails": {
+                            "duration": "PT36M7S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M7S",
+            "durationSeconds": 2167
         },
         {
             "kind": "youtube#playlistItem",
@@ -797,7 +1213,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "WC3K-scfnjM",
                 "videoPublishedAt": "2021-02-19T18:42:49Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "zKNcYZi39DsoXMFieDtFVB8Hheo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Nfz-ygyhcPtMEABhqAJMhcG1UvI",
+                        "id": "WC3K-scfnjM",
+                        "contentDetails": {
+                            "duration": "PT34M17S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT34M17S",
+            "durationSeconds": 2057
         },
         {
             "kind": "youtube#playlistItem",
@@ -848,7 +1290,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "R-vdnt8H5pU",
                 "videoPublishedAt": "2021-02-23T19:45:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "Mah999RFMm02LLSMEpxFYGsbKIs",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gpFpKggm30dV79UiVR1-K-3jzlQ",
+                        "id": "R-vdnt8H5pU",
+                        "contentDetails": {
+                            "duration": "PT35M12S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT35M12S",
+            "durationSeconds": 2112
         },
         {
             "kind": "youtube#playlistItem",
@@ -899,7 +1367,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "zoMLMzSVkn0",
                 "videoPublishedAt": "2021-03-01T18:13:21Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "1S7Dwjxxu9FZ7xTT2g5IethQcWE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "0RseRBeNEu4lryg3GQntWSEKOso",
+                        "id": "zoMLMzSVkn0",
+                        "contentDetails": {
+                            "duration": "PT26M17S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT26M17S",
+            "durationSeconds": 1577
         },
         {
             "kind": "youtube#playlistItem",
@@ -950,7 +1444,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "eNtXuvoTjR4",
                 "videoPublishedAt": "2021-03-01T19:19:52Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "PA-x9zAIbWWnzXP8cxCwpMtOVYc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "53pL6WLl2BYM0sDWluWPopw2yyQ",
+                        "id": "eNtXuvoTjR4",
+                        "contentDetails": {
+                            "duration": "PT20M59S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M59S",
+            "durationSeconds": 1259
         },
         {
             "kind": "youtube#playlistItem",
@@ -1001,7 +1521,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "JWX8UJJvE8U",
                 "videoPublishedAt": "2021-03-04T17:25:43Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "yek-TT-isXWBsQc90rFY0khqvKw",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "eh0-mQomFjF4wTlsboVP6hhTObQ",
+                        "id": "JWX8UJJvE8U",
+                        "contentDetails": {
+                            "duration": "PT36M57S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT36M57S",
+            "durationSeconds": 2217
         },
         {
             "kind": "youtube#playlistItem",
@@ -1052,7 +1598,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "mzlhQqNUzQo",
                 "videoPublishedAt": "2021-03-09T15:53:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "OZiS7ZGNFe1UbmUuP9hGQXdrero",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "hf7sIOihfguSYDeXMZvBsVqImL0",
+                        "id": "mzlhQqNUzQo",
+                        "contentDetails": {
+                            "duration": "PT39M54S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT39M54S",
+            "durationSeconds": 2394
         },
         {
             "kind": "youtube#playlistItem",
@@ -1103,7 +1675,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "BdsflRcqA0Q",
                 "videoPublishedAt": "2021-03-16T14:00:11Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "dPnhtyfPQOM3rpilxoAxHf7R_jc",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Qk29x9-rm6OdCgIDUw_pBYxEfBY",
+                        "id": "BdsflRcqA0Q",
+                        "contentDetails": {
+                            "duration": "PT30M44S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT30M44S",
+            "durationSeconds": 1844
         },
         {
             "kind": "youtube#playlistItem",
@@ -1154,7 +1752,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "2OTgcYUIfOc",
                 "videoPublishedAt": "2021-03-16T14:19:23Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "tm4vvgUZ2IGFaVWSYCVnZjoYlpo",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "Rjr1lP9aZXmLYrI_swKo4Bb0EHQ",
+                        "id": "2OTgcYUIfOc",
+                        "contentDetails": {
+                            "duration": "PT40M18S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT40M18S",
+            "durationSeconds": 2418
         },
         {
             "kind": "youtube#playlistItem",
@@ -1205,7 +1829,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "u5dcmroFxAI",
                 "videoPublishedAt": "2021-03-23T15:01:18Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "wCOzq1n5QadhOvdfx1Q3R69wj28",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "o8WlqK4IV75AacJ1JDu2ak5Fm58",
+                        "id": "u5dcmroFxAI",
+                        "contentDetails": {
+                            "duration": "PT45M31S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT45M31S",
+            "durationSeconds": 2731
         },
         {
             "kind": "youtube#playlistItem",
@@ -1256,7 +1906,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "FKXpU3LMiAc",
                 "videoPublishedAt": "2022-01-18T17:42:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "sbs0-7LedFOIz8wkO7NNKMXR3n4",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "gOq1IPatjX17qdEOVvgDIGMtpS4",
+                        "id": "FKXpU3LMiAc",
+                        "contentDetails": {
+                            "duration": "PT20M15S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT20M15S",
+            "durationSeconds": 1215
         },
         {
             "kind": "youtube#playlistItem",
@@ -1307,7 +1983,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "YXQLhRE-SjE",
                 "videoPublishedAt": "2021-03-25T16:42:41Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "hg62huuZ4n3DwtiLKsF7ip0zOaE",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "cs5HXfgQnYlXdHUv4T5SShOI4Lw",
+                        "id": "YXQLhRE-SjE",
+                        "contentDetails": {
+                            "duration": "PT32M45S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT32M45S",
+            "durationSeconds": 1965
         },
         {
             "kind": "youtube#playlistItem",
@@ -1358,7 +2060,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "6U4vH6Z6aEE",
                 "videoPublishedAt": "2021-03-29T15:40:35Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "JEsTUnyTdNYliESUQydIgNYhiGg",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "4Jt-alGSTx_DUBbJUSPgwtNNqpA",
+                        "id": "6U4vH6Z6aEE",
+                        "contentDetails": {
+                            "duration": "PT18M40S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT18M40S",
+            "durationSeconds": 1120
         },
         {
             "kind": "youtube#playlistItem",
@@ -1409,7 +2137,33 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "oIGsYlzlrHM",
                 "videoPublishedAt": "2022-02-08T14:01:30Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "cEFPqdeZFPdec3eIKSAg9-p_M3g",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "1FlPyPJuE-hhL_p9xTMgrkuudNI",
+                        "id": "oIGsYlzlrHM",
+                        "contentDetails": {
+                            "duration": "PT29M36S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": false,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT29M36S",
+            "durationSeconds": 1776
         },
         {
             "kind": "youtube#playlistItem",
@@ -1460,11 +2214,40 @@ export const InteligenciaArtifical = {
             "contentDetails": {
                 "videoId": "yN7ypxC7838",
                 "videoPublishedAt": "2020-05-16T01:59:09Z"
-            }
+            },
+            "innerDetails": {
+                "kind": "youtube#videoListResponse",
+                "etag": "fWOe5QQysRcCZ_daphI-Uia31Ag",
+                "items": [
+                    {
+                        "kind": "youtube#video",
+                        "etag": "AyRggbRh_gRn6ktNzxOKm-A7q4I",
+                        "id": "yN7ypxC7838",
+                        "contentDetails": {
+                            "duration": "PT5M1S",
+                            "dimension": "2d",
+                            "definition": "hd",
+                            "caption": "false",
+                            "licensedContent": true,
+                            "contentRating": {},
+                            "projection": "rectangular"
+                        }
+                    }
+                ],
+                "pageInfo": {
+                    "totalResults": 1,
+                    "resultsPerPage": 1
+                }
+            },
+            "duration": "PT5M1S",
+            "durationSeconds": 301
         }
     ],
     "pageInfo": {
         "totalResults": 30,
         "resultsPerPage": 50
+    },
+    "details": {
+        "totalDurationSeconds": 55724
     }
 }
