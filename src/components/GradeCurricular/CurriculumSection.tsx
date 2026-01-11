@@ -1,7 +1,7 @@
 import { SemesterCard } from "@/components/GradeCurricular/SemesterCard";
 import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
 import type { Grade } from "@/types/grade";
-import { GraduationCap } from "lucide-react";
+import { GraduationCap, Network } from "lucide-react";
 import React, { useEffect } from "react";
 
 interface CurriculumSectionProps {
@@ -28,11 +28,18 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ selectedCo
                         <GraduationCap className="w-14 h-14" />
                         <h2 className="text-3xl font-bold text-white mb-2">{selectedCourse.curriculo}</h2>
                     </div>
-                    <div className="h-1 bg-linear-to-r from-blue-500 to-green-400 w-full rounded" />
-                    <button className="px-2 py-2 bg-bg-card rounded text-white text-md text-nowrap cursor-pointer"
-                        onClick={() => setNodeView(!nodeView)}>
-                        Ver em grafos
-                    </button>
+                    <div className="h-1 bg-linear-to-r from-ubl-blue to-ubl-green w-full rounded" />
+                        <button
+                            onClick={() => setNodeView(v => !v)}
+                            className="cursor-pointer p-0.5 rounded-md bg-linear-to-r from-ubl-green to-ubl-blue"
+                        >
+                            <span className="flex items-center gap-2 px-3 py-2 rounded-md bg-bg-card whitespace-nowrap">
+                                <Network className="w-4 h-4 text-ubl-green" />
+                                <span className="uppercase text-white text-md font-semibold tracking-wide">
+                                    Visualizar como Grafo
+                                </span>
+                            </span>
+                        </button>
                 </div>
 
                 {nodeView && (
