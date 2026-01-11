@@ -103,10 +103,13 @@ export const HomePage: React.FC = () => {
                 </Link>
               </Button>
 
-              <Button asChild size={"lg"} >
+              <Button
+                asChild
+                size={"lg"}
+                variant={"default"} >
                 <Link
                   to={""}
-                  className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg"
+                  className="px-6 py-3 rounded-lg"
                 >
                   Sobre nós
                 </Link>
