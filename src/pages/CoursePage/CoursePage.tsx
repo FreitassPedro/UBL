@@ -9,6 +9,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -17,6 +18,7 @@ import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapCadeiraToMyCadeira } from "@/lib/mappers";
+import { formatSecondsToMinutes } from "@/lib/utils";
 import type { MyCadeiraProgress, MyLessonProgress } from "@/types/progress";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -103,9 +105,11 @@ export default function CoursePage() {
             <span className="text-sm font-medium leading-tight">
               {lesson.title}
             </span>
-            <span className="text-xs text-muted-foreground">
-              {lesson.duration}
-            </span>
+            {lesson.duration && (
+              <span className="text-xs text-muted-foreground">
+                {formatSecondsToMinutes(lesson.duration)}
+              </span>
+            )}
           </div>
         </div>
       </li>
@@ -139,7 +143,7 @@ export default function CoursePage() {
 
       <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
         {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
-        <main className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
+        <Card className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
           {/* Breadcrumbs */}
           <Breadcrumb className="shrink-0">
             <BreadcrumbList className="text-sm text-gray-400">
@@ -209,7 +213,7 @@ export default function CoursePage() {
               {selectedLesson?.title}
             </h2>
           </div>
-        </main>
+        </Card>
 
         {/* Sidebar com lista de aulas */}
         <aside className="flex h-full min-h-0 flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">

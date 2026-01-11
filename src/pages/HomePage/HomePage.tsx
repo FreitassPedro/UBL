@@ -1,9 +1,11 @@
 import { BackgroundGrid } from "@/components/BackgroundGrid";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
+import type { MyCadeiraProgress } from "@/data/myCourseProgress";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import type { MyCadeiraProgress } from "@/types/progress";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
@@ -89,21 +91,26 @@ export const HomePage: React.FC = () => {
                 <ArrowRight className="w-8 h-8 ml-2" />
               </Link>
 
-              <Link
-                to="/grade-curricular"
-                className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-lg bg-gray-200 px-8 font-medium text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-              >
-                <span className="mr-2">Explorar Grade</span>
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-              </Link>
+              <Button asChild variant={"secondary"} size={"lg"}>
+                <Link
+                  to="/grade-curricular"
+                  className="group relative h-12 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
 
-              <Link
-                to={""}
-                className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg"
-              >
-                Sobre nós
-              </Link>
+                >
+                  <span className="mr-2">Explorar Grade</span>
+                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                  <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </Link>
+              </Button>
+
+              <Button asChild size={"lg"} >
+                <Link
+                  to={""}
+                  className="px-6 py-3 text-zinc-300 bg-zinc-900 rounded-lg"
+                >
+                  Sobre nós
+                </Link>
+              </Button>
             </div>
           </div>
 
@@ -130,18 +137,18 @@ export const HomePage: React.FC = () => {
 
             <div className="space-x-2">
               {sortOptions.map((option) => (
-                <div
+                <Button
                   key={option}
                   onClick={() => setSortBy(option)}
                   className={`
-                    px-3 py-2 select-none text-black rounded-lg cursor-pointer font-semibold text-md inline-flex items-center justify-center
-                    transition duration-200 
-                    ${
-                      sortBy === option
-                        ? "bg-ubl-green"
-                        : "bg-zinc-100 font-normal hover:bg-gray-200"
+                    select-none text-md
+                    transition duration-200 cursor-pointer
+                    ${sortBy === option
+                      ? "bg-ubl-green font-semibold hover:bg-ubl-green/90"
+                      : "bg-zinc-100 font-normal hover:bg-gray-200"
                     }
                   `}
+                  variant={`${sortBy === option ? 'default' : 'outline'}`}
                 >
                   <span>
                     {option.charAt(0).toUpperCase() + option.slice(1)}
@@ -151,7 +158,7 @@ export const HomePage: React.FC = () => {
                   ) : (
                     ""
                   )}
-                </div>
+                </Button>
               ))}
             </div>
           </div>
@@ -160,29 +167,31 @@ export const HomePage: React.FC = () => {
             <div className="mx-auto container">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {watchedCourses.map((course) => (
-                  <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
+                  <Card className="hover:border-zinc-700/60 transition duration-300">
                     <span className="font-semibold text-gray-400 mb-4">
                       Etapa {course.etapaNumber}
                     </span>
                     <h3 className="text-xl text-white font-semibold">
                       {course.name}
                     </h3>
-                    <div className="my-4 space-y-1">
+                    <div className="my-2 space-y-1">
                       <div className="flex items-center justify-between text-gray-400 text-sm">
                         <span>Progresso</span>
                         <span>{course.progress}%</span>
                       </div>
-                      <Progress value={3} />
+                      <Progress value={course.progress} />
                     </div>
                     <div className="mt-6 w-full flex">
-                      <Link
-                        to={`/curso/${course.id}`}
-                        className="px-4 py-2 bg-white rounded-lg text-sm font-semibold text-gray-800 w-full text-center hover:bg-gray-200 transition-colors"
-                      >
-                        Retomar
-                      </Link>
+                      <Button asChild variant={"secondary"}>
+                        <Link
+                          to={`/curso/${course.id}`}
+                          className="px-4 py-2 w-full transition-colors"
+                        >
+                          Retomar
+                        </Link>
+                      </Button>
                     </div>
-                  </div>
+                  </Card>
                 ))}
               </div>
             </div>
