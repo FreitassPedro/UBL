@@ -1,0 +1,2013 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "97lTcbgPfJfL3wWo-yTRU8Oy7OE",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pQZYURYQWsQPFDhLHCiRok8f6LI",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 01:  Introdução",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7G5FuiDZQx8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7G5FuiDZQx8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7G5FuiDZQx8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7G5FuiDZQx8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7G5FuiDZQx8"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "7G5FuiDZQx8",
+        "videoPublishedAt": "2016-05-07T11:42:22Z",
+        "extra": {
+          "duration": "PT38M24S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2304
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Qo6CXGUjVnon9_UAUvhR74G5ILY",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 02: Relatividade",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eH915K-_1pw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eH915K-_1pw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eH915K-_1pw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eH915K-_1pw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eH915K-_1pw"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "eH915K-_1pw",
+        "videoPublishedAt": "2016-05-07T12:48:28Z",
+        "extra": {
+          "duration": "PT39M47S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2387
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vBkYY6Udy9onrJpXf3AJkJ06yKM",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 03: Transformadas de Velocidade",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0cMA22r8oQY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0cMA22r8oQY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0cMA22r8oQY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0cMA22r8oQY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0cMA22r8oQY"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "0cMA22r8oQY",
+        "videoPublishedAt": "2016-05-07T11:45:13Z",
+        "extra": {
+          "duration": "PT48M8S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2888
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "O6lpCWckxOHVdSHw0HMVtG7poPI",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 04: Massa Relatívistica",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G8YTsxG9vII/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G8YTsxG9vII/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G8YTsxG9vII/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G8YTsxG9vII/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G8YTsxG9vII"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "G8YTsxG9vII",
+        "videoPublishedAt": "2016-05-07T11:44:13Z",
+        "extra": {
+          "duration": "PT36M11S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2171
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Nx5h1tZlmLp_SvwcrMaQ21vKfJA",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 05: Dinâmica Relatívistica",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pA9BxDIHqT8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pA9BxDIHqT8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pA9BxDIHqT8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pA9BxDIHqT8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pA9BxDIHqT8"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "pA9BxDIHqT8",
+        "videoPublishedAt": "2016-05-07T11:43:47Z",
+        "extra": {
+          "duration": "PT36M47S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2207
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZlWfV6_PdnynZa-B9v0bmiyBODc",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 06: Introdução a Atomística",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QO-W7O5kJrI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QO-W7O5kJrI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QO-W7O5kJrI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QO-W7O5kJrI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "QO-W7O5kJrI"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "QO-W7O5kJrI",
+        "videoPublishedAt": "2016-05-07T11:43:15Z",
+        "extra": {
+          "duration": "PT45M16S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2716
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6m_MAg0bRF2iMpXFBKpVKK0QQpk",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 07: Teoria Cinética dos Gases",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6uqswKNduHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6uqswKNduHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6uqswKNduHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6uqswKNduHk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6uqswKNduHk"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "6uqswKNduHk",
+        "videoPublishedAt": "2016-05-07T11:42:49Z",
+        "extra": {
+          "duration": "PT37M35S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2255
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8Eklh-miEvp9-lsG1kS15IjrMbE",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 08: Distribuição de Maxwell Boltzmann",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hGzDCefizFg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hGzDCefizFg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hGzDCefizFg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hGzDCefizFg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hGzDCefizFg"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "hGzDCefizFg",
+        "videoPublishedAt": "2016-05-07T11:41:52Z",
+        "extra": {
+          "duration": "PT39M31S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2371
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZVe8b1-KtWgyRjEWNvdMBlNI8dc",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 09: Interação entre os Átomos",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mudZyuhRjd4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mudZyuhRjd4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mudZyuhRjd4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mudZyuhRjd4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "mudZyuhRjd4"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "mudZyuhRjd4",
+        "videoPublishedAt": "2016-05-07T11:41:27Z",
+        "extra": {
+          "duration": "PT39M8S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2348
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FcKDk8aiktriH6B9Pl02uP-CyVc",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 10: Interação Radiação com o Átomo",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_KbekW4giNs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_KbekW4giNs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_KbekW4giNs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_KbekW4giNs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_KbekW4giNs"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "_KbekW4giNs",
+        "videoPublishedAt": "2016-05-07T11:41:05Z",
+        "extra": {
+          "duration": "PT44M20S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2660
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "BESGx4nSqtXS4ZNLVESYbdDJogA",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 11: Não linearidade na Interação Radiação Átomo",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4eYUXNeo6wc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4eYUXNeo6wc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4eYUXNeo6wc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4eYUXNeo6wc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4eYUXNeo6wc"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "4eYUXNeo6wc",
+        "videoPublishedAt": "2016-05-07T11:40:36Z",
+        "extra": {
+          "duration": "PT42M23S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2543
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NePl31XPgUzK3jzAXFMkIY9yot8",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 12: Força da Radiação",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ey8tBPvUy0E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ey8tBPvUy0E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ey8tBPvUy0E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Ey8tBPvUy0E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Ey8tBPvUy0E"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "Ey8tBPvUy0E",
+        "videoPublishedAt": "2016-05-07T11:40:15Z",
+        "extra": {
+          "duration": "PT41M41S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2501
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "j3-NdLKmVieGDp5yZGcIJlpvOZM",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 13: O Elétron Thompson",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bUgL6ZAzqGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bUgL6ZAzqGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bUgL6ZAzqGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bUgL6ZAzqGk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bUgL6ZAzqGk"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "bUgL6ZAzqGk",
+        "videoPublishedAt": "2016-05-07T11:39:46Z",
+        "extra": {
+          "duration": "PT36M11S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2171
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "IJxLYXOHcoqbTgiPCUETaTv1Qcs",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 14: Espalhamento Rutherford",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v0VmRg2FzaA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v0VmRg2FzaA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v0VmRg2FzaA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/v0VmRg2FzaA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "v0VmRg2FzaA"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "v0VmRg2FzaA",
+        "videoPublishedAt": "2016-05-07T11:39:23Z",
+        "extra": {
+          "duration": "PT1H41S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3641
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nUle4HXMU29JzwcIh2YFB7nIz2o",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 15: Introdução a Radiação de Corpo Negro",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KyEvnfWbnzs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KyEvnfWbnzs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KyEvnfWbnzs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KyEvnfWbnzs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KyEvnfWbnzs"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "KyEvnfWbnzs",
+        "videoPublishedAt": "2016-05-07T11:38:30Z",
+        "extra": {
+          "duration": "PT1H3M25S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3805
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "d0M4RwYKF2mowwdXhNe7tEi9zus",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 16: Radiação de Corpo Negro e Densidade Espectral",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jgCKMmioDOI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jgCKMmioDOI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jgCKMmioDOI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jgCKMmioDOI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jgCKMmioDOI"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "jgCKMmioDOI",
+        "videoPublishedAt": "2016-05-07T11:38:01Z",
+        "extra": {
+          "duration": "PT58M55S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3535
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TA4xcIYSyOL5zkrm1KqA4TJJu1s",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 17: Radiação de Corpo Negro, Lei da Radiação de Planck",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I9FyckUlid0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I9FyckUlid0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I9FyckUlid0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/I9FyckUlid0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "I9FyckUlid0"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "I9FyckUlid0",
+        "videoPublishedAt": "2016-05-07T11:37:34Z",
+        "extra": {
+          "duration": "PT42M37S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2557
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "p-HjxTkqiFt4RNzVGJj6FfHxqAg",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 18: Radiação de Corpo Negro, Lei da Radiação de Planck",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sihG0SJfQrQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sihG0SJfQrQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sihG0SJfQrQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sihG0SJfQrQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sihG0SJfQrQ"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "sihG0SJfQrQ",
+        "videoPublishedAt": "2016-05-07T11:38:56Z",
+        "extra": {
+          "duration": "PT36M53S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2213
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Z6PFhA2ZO3UvqrOTUe9YiE99_KM",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 19: Efeito Fotoelétrico",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VGTPC_n3N-Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VGTPC_n3N-Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VGTPC_n3N-Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VGTPC_n3N-Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VGTPC_n3N-Q"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "VGTPC_n3N-Q",
+        "videoPublishedAt": "2016-05-07T11:36:18Z",
+        "extra": {
+          "duration": "PT42M48S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2568
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8Y3m2QUShSpUoffA8B7eSUiA1Xg",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 20: Efeito Compton",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6G-aeb0XB1Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6G-aeb0XB1Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6G-aeb0XB1Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6G-aeb0XB1Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6G-aeb0XB1Q"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "6G-aeb0XB1Q",
+        "videoPublishedAt": "2016-05-07T11:34:20Z",
+        "extra": {
+          "duration": "PT35M30S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2130
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "itA16A7_7bRuhQzBUPxjc5caZ98",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 21: Ondas de De Broglie",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U3_GasOnDLg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U3_GasOnDLg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U3_GasOnDLg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U3_GasOnDLg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "U3_GasOnDLg"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "U3_GasOnDLg",
+        "videoPublishedAt": "2016-05-07T11:33:48Z",
+        "extra": {
+          "duration": "PT43M36S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2616
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "G13X2ISQfXI3Rojzc8IuR4JAo-U",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 22: Ondas de matéria e o Princípio de Incerteza de Heisenberg",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sAnYq1t3iM0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sAnYq1t3iM0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sAnYq1t3iM0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sAnYq1t3iM0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sAnYq1t3iM0"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "sAnYq1t3iM0",
+        "videoPublishedAt": "2016-05-07T11:33:18Z",
+        "extra": {
+          "duration": "PT44M7S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2647
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vmsJmqf5_UDzl0Om5WHoPgui-Yk",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 23: Princípio de Incerteza de Heisenberg",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J57ebnjwj-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J57ebnjwj-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J57ebnjwj-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J57ebnjwj-0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "J57ebnjwj-0"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "J57ebnjwj-0",
+        "videoPublishedAt": "2016-05-07T11:32:53Z",
+        "extra": {
+          "duration": "PT29M24S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1764
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QQBSAqt68aHj-ljWTUS57b26Sag",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 24: Modelo Atômico de Bohr",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H0hZ1A1u4hg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H0hZ1A1u4hg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H0hZ1A1u4hg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H0hZ1A1u4hg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "H0hZ1A1u4hg"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "H0hZ1A1u4hg",
+        "videoPublishedAt": "2016-05-07T11:32:21Z",
+        "extra": {
+          "duration": "PT44M54S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2694
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "AI08riEcUegqw62i30ZRZlRMin8",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2016-05-02T21:13:24Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 25: Generalização da Quantização e Relação de Wilson e Sommerfeld",
+        "description": "Curso de Física Moderna ministrado pelo Prof. Dr. Vanderlei S. Bagnato (Instituto de Física de São Carlos - Universidade de São Paulo)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ywLFSzJ3ohI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ywLFSzJ3ohI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ywLFSzJ3ohI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ywLFSzJ3ohI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ywLFSzJ3ohI"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "ywLFSzJ3ohI",
+        "videoPublishedAt": "2016-05-07T11:31:51Z",
+        "extra": {
+          "duration": "PT23M24S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1404
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "E_TUjogGDw9H66gS6kFhKWspT94",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4zRDBDOEZDOUM0MDY5NEEz",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 26: Introdução a Mecânica Quântica",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qjzl6o3MAbE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qjzl6o3MAbE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qjzl6o3MAbE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qjzl6o3MAbE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qjzl6o3MAbE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qjzl6o3MAbE"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "qjzl6o3MAbE",
+        "videoPublishedAt": "2018-06-20T18:36:19Z",
+        "extra": {
+          "duration": "PT51M27S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3087
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "bq80fwQo4mYysX9cAQGcPksw7Lw",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS41QUZGQTY5OTE4QTREQUU4",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 27: Equação de Schrödinger",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SWOeGsxZlfU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SWOeGsxZlfU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SWOeGsxZlfU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SWOeGsxZlfU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SWOeGsxZlfU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "SWOeGsxZlfU"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "SWOeGsxZlfU",
+        "videoPublishedAt": "2018-06-20T18:46:10Z",
+        "extra": {
+          "duration": "PT48M42S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2922
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hHyDAyU9GyOYY3nv8QdxB3mvz8o",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS43NDhFRTgwOTRERTU4Rjg3",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 28: Aplicações e exemplos de Mecânica Quântica 1",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OW7iYykFYKc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OW7iYykFYKc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OW7iYykFYKc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OW7iYykFYKc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OW7iYykFYKc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "OW7iYykFYKc"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "OW7iYykFYKc",
+        "videoPublishedAt": "2018-06-20T18:51:21Z",
+        "extra": {
+          "duration": "PT38M2S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2282
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WoPN0ikXcTykFj3zUUAqUDcFg6U",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS42MTI4Njc2QjM1RjU1MjlG",
+      "snippet": {
+        "publishedAt": "2022-07-13T13:00:29Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 28: Aplicações e exemplos de Mecânica Quântica 1",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_FOUqng0KTo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_FOUqng0KTo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_FOUqng0KTo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_FOUqng0KTo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_FOUqng0KTo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_FOUqng0KTo"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "_FOUqng0KTo",
+        "videoPublishedAt": "2022-07-13T13:03:43Z",
+        "extra": {
+          "duration": "PT38M2S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2282
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "lnzSGoI3BHZ9CODV1HVsHn3S--U",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS44Mjc5REFBRUE2MTdFRDU0",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 29: Aplicações e exemplos de Mecânica Quântica 2",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eaWyd6-n_V8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eaWyd6-n_V8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eaWyd6-n_V8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eaWyd6-n_V8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eaWyd6-n_V8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eaWyd6-n_V8"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "eaWyd6-n_V8",
+        "videoPublishedAt": "2018-06-20T18:48:37Z",
+        "extra": {
+          "duration": "PT31M16S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1876
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "L7j24y0_KtrTvLBM8vDMOrFsKuQ",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5DMkU4NTY1QUFGQTYwMDE3",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 30: Aplicações e exemplos de Mecânica Quântica 3",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/52tZ8i7xI_E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/52tZ8i7xI_E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/52tZ8i7xI_E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/52tZ8i7xI_E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/52tZ8i7xI_E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "52tZ8i7xI_E"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "52tZ8i7xI_E",
+        "videoPublishedAt": "2018-06-20T18:58:32Z",
+        "extra": {
+          "duration": "PT36M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2182
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "RxAusxujTIs6irsSGcnxX3H1-Eg",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 31: Introdução a Física Nuclear",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hxM6B_IxQs4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hxM6B_IxQs4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hxM6B_IxQs4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hxM6B_IxQs4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hxM6B_IxQs4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hxM6B_IxQs4"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "hxM6B_IxQs4",
+        "videoPublishedAt": "2018-06-20T19:04:32Z",
+        "extra": {
+          "duration": "PT37M15S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2235
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "BZqWIgCdl-sLMo-5KHukAyUr_y4",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS4yQUE2Q0JEMTk4NTM3RTZC",
+      "snippet": {
+        "publishedAt": "2018-06-20T20:19:52Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 32: Introdução a Física Nuclear 2",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fp8rot0jInU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fp8rot0jInU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fp8rot0jInU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fp8rot0jInU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fp8rot0jInU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Fp8rot0jInU"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "Fp8rot0jInU",
+        "videoPublishedAt": "2018-06-20T19:07:17Z",
+        "extra": {
+          "duration": "PT30M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1811
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "abCTtVRon51SUhWD82DCissNy8A",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS5CMEQ2Mjk5NTc3NDZFRUNB",
+      "snippet": {
+        "publishedAt": "2018-06-27T12:08:49Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Aula 33: Introdução a Física Nuclear 3",
+        "description": "Física Moderna - Aula 33: Introdução a Física Nuclear 3",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-mZoRnExBkI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-mZoRnExBkI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-mZoRnExBkI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-mZoRnExBkI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-mZoRnExBkI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-mZoRnExBkI"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "-mZoRnExBkI",
+        "videoPublishedAt": "2018-06-26T19:58:45Z",
+        "extra": {
+          "duration": "PT45M27S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2727
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5KC6FeErcWaMPk1zV3ycqW8R66Y",
+      "id": "UExXNUh0YS1CX0lJNXZCNFZuOXdWV2FKVkhUbzRYeEJfaS43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2017-05-06T14:08:41Z",
+        "channelId": "UCaEobLvDD84FL5RLtXH1ZLg",
+        "title": "Física Moderna - Conceito de Difusão e  Lei de Fick - Prof. Dr. Vanderlei S. Bagnato",
+        "description": "Aula abordando o Conceito de Difusão e Lei de Fick - Prof. Dr. Vanderlei S. Bagnato.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/soXtjs6zR9I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/soXtjs6zR9I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/soXtjs6zR9I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Física Quântica em Ação",
+        "playlistId": "PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "soXtjs6zR9I"
+        },
+        "videoOwnerChannelTitle": "Física Quântica em Ação",
+        "videoOwnerChannelId": "UCaEobLvDD84FL5RLtXH1ZLg"
+      },
+      "contentDetails": {
+        "videoId": "soXtjs6zR9I",
+        "videoPublishedAt": "2017-05-06T13:56:18Z",
+        "extra": {
+          "duration": "PT1H8M29S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4109
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 35,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "durationSeconds": 88609
+  }
+}

@@ -1,0 +1,2979 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "piIOy0GiWZFTBXVK9nfskXc2Uhk",
+  "nextPageToken": "EAAaHlBUOkNESWlFRFkzTURZMlJEQkNRakl4TXpsR05qZw",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7AkgcKOSRpJxnw_HL-KbkoZAqkM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjUwMTA4QTlGOUUxQUI4NDk",
+      "snippet": {
+        "publishedAt": "2012-03-21T17:18:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 1 - Introdução",
+        "description": "Aula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesp.tv.br\n*Sintonize a UNIVESP TV através da multiprogramação da TV Cultura. Em São Paulo o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!\n\n*******\n\nConfira também nossos cursos e programas:\n\nCURSOS:\n\nCursos USP\nhttps://goo.gl/22ewSC\n\nCursos Univesp\nhttps://goo.gl/GqRRAB\n\nCurso de Licenciatura em Ciências Naturais e Matemática \nhttps://goo.gl/VqihrU\n\nCurso de Engenharia\nhttps://goo.gl/i837vC\n\nCursos Unicamp\nhttps://goo.gl/lWkxhT\n\nPROGRAMAS:\n\nEstúdio Univesp (Programas de entrevistas)\nhttps://goo.gl/wuPlNq\n\nPara saber mais e aprender sempre! \nhttps://goo.gl/dSpNxW\n\nEncontros: Seminários, Debates, Simpósios, Congressos e Reportagens Especiais\nhttps://goo.gl/Khy4h5\n\nSéries, Filmes e Documentários Internacionais\nhttps://goo.gl/Fudz49\n\n*******\n\nObs.: Os comentários nos vídeos deste canal são moderados. Não são aceitos links que não sejam do site da Univesp, Univesp TV ou do canal da Univesp TV no YouTube. Serão recusados textos em letras maiúsculas, que ultrapassem um mil caracteres, com ofensas pessoais, preconceituosos, ou que incitem o ódio e a violência.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XJCmMuZV-JA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XJCmMuZV-JA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XJCmMuZV-JA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XJCmMuZV-JA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "XJCmMuZV-JA",
+        "videoPublishedAt": "2012-03-21T16:54:28Z",
+        "extra": {
+          "duration": "PT40M35S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2435
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "MkWMW8VyTJdPP96FQ5y7fRoY-7w",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkNFQzBGNzEwQzRGNzNGMkI",
+      "snippet": {
+        "publishedAt": "2012-03-28T13:46:51Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 2 - Funções - Parte 1",
+        "description": "Funções - parte 1 \nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesp.tv.br\n*Sintonize a UNIVESP TV através da multiprogramação da TV Cultura. Em São Paulo o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!\n\n*******\n\nConfira também nossos cursos e programas:\n\nCURSOS:\n\nCursos USP\nhttps://goo.gl/22ewSC\n\nCursos Univesp\nhttps://goo.gl/GqRRAB\n\nCurso de Licenciatura em Ciências Naturais e Matemática \nhttps://goo.gl/VqihrU\n\nCurso de Engenharia\nhttps://goo.gl/i837vC\n\nCursos Unicamp\nhttps://goo.gl/lWkxhT\n\nPROGRAMAS:\n\nEstúdio Univesp (Programas de entrevistas)\nhttps://goo.gl/wuPlNq\n\nPara saber mais e aprender sempre! \nhttps://goo.gl/dSpNxW\n\nEncontros: Seminários, Debates, Simpósios, Congressos e Reportagens Especiais\nhttps://goo.gl/Khy4h5\n\nSéries, Filmes e Documentários Internacionais\nhttps://goo.gl/Fudz49\n\n*******\n\nObs.: Os comentários nos vídeos deste canal são moderados. Não são aceitos links que não sejam do site da Univesp, Univesp TV ou do canal da Univesp TV no YouTube. Serão recusados textos em letras maiúsculas, que ultrapassem um mil caracteres, com ofensas pessoais, preconceituosos, ou que incitem o ódio e a violência.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vBxka1HhlAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vBxka1HhlAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vBxka1HhlAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vBxka1HhlAs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "vBxka1HhlAs",
+        "videoPublishedAt": "2012-03-28T14:14:33Z",
+        "extra": {
+          "duration": "PT44M54S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2694
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "LWeMVuYzc1j5mK_eg6WlHWQQrzo",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjgyNUM3M0REMDk5QTZGMzU",
+      "snippet": {
+        "publishedAt": "2012-07-20T14:09:39Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 3 - Funções - Parte 2",
+        "description": "Funções - Parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qFXs4iSsbrk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qFXs4iSsbrk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qFXs4iSsbrk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qFXs4iSsbrk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "qFXs4iSsbrk",
+        "videoPublishedAt": "2012-07-20T14:26:24Z",
+        "extra": {
+          "duration": "PT37M31S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2251
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hwKQC1m3SyqSDPPoQtPMSVyVe5I",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkNGQjdCNDdBNzQzMjQ0NTk",
+      "snippet": {
+        "publishedAt": "2012-03-28T13:13:01Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 4 - Criando Funções - Parte 1",
+        "description": "Criando Funções - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LDbD0z2_xdQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LDbD0z2_xdQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LDbD0z2_xdQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LDbD0z2_xdQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "LDbD0z2_xdQ",
+        "videoPublishedAt": "2012-03-28T13:53:10Z",
+        "extra": {
+          "duration": "PT41M16S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2476
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "h5mYr6-i3cyJjdr8NLJOAgrD4vY",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkE5MzZGMzFGNzJDODIzNDg",
+      "snippet": {
+        "publishedAt": "2012-03-26T15:16:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 5 - Criando Funções - Parte 2",
+        "description": "Criando Funções - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ECblTdistvE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ECblTdistvE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ECblTdistvE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ECblTdistvE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ECblTdistvE",
+        "videoPublishedAt": "2012-03-26T14:49:13Z",
+        "extra": {
+          "duration": "PT41M45S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2505
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FZDQJp8LQflgZfHdTzr_eYNamYU",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjQyNTgyQzRBREIwNDAwRkM",
+      "snippet": {
+        "publishedAt": "2012-03-27T15:09:52Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 6 - Limite - Parte 1",
+        "description": "Limite - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.\n\nVeja o curso completo em http://www.youtube.com/playlist?list=PL2D9B691A704C6F7B",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8_Sgh5YnxY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8_Sgh5YnxY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8_Sgh5YnxY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8_Sgh5YnxY8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "8_Sgh5YnxY8",
+        "videoPublishedAt": "2012-03-27T15:14:30Z",
+        "extra": {
+          "duration": "PT40M45S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2445
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vmP2_CKPahKcu9m_S_tLO7WP4co",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjEzNDkzMTdDOTQ2ODFCNzM",
+      "snippet": {
+        "publishedAt": "2012-03-27T15:19:47Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 7 - Limite - Parte 2",
+        "description": "Limite - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6xUHE4ctIt8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6xUHE4ctIt8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6xUHE4ctIt8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6xUHE4ctIt8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "6xUHE4ctIt8",
+        "videoPublishedAt": "2012-03-27T15:24:35Z",
+        "extra": {
+          "duration": "PT36M31S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2191
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "BM6ic60XzVvjK7Z_RFALFKb0Pfs",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjNEOTI5NTNBREUwNjY4QTg",
+      "snippet": {
+        "publishedAt": "2012-04-02T14:57:52Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 8 - Regras de Cálculo de Limite - parte 1",
+        "description": "Regras de Cálculo de Limite - parte 1 - Aula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_bKzJP0Q778/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_bKzJP0Q778/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_bKzJP0Q778/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_bKzJP0Q778"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "_bKzJP0Q778",
+        "videoPublishedAt": "2012-04-02T14:15:24Z",
+        "extra": {
+          "duration": "PT39M29S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2369
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ka2B_TGczhEEjYSsI_ibXDeNX-g",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkI5MTU5NkZFRThDRTg0MEI",
+      "snippet": {
+        "publishedAt": "2012-04-03T13:18:52Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I / aula 9 - Regras de Cálculo de Limite - parte 2",
+        "description": "Regras de Cálculo de Limite - parte 2 - Aula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wBe4f-MVkTA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wBe4f-MVkTA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wBe4f-MVkTA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wBe4f-MVkTA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "wBe4f-MVkTA",
+        "videoPublishedAt": "2012-04-03T13:44:01Z",
+        "extra": {
+          "duration": "PT40M38S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2438
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eoJuf7OuTJad4eZQh9CdwMhby2A",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkFFMkNDMzY4MjZEMzM2N0U",
+      "snippet": {
+        "publishedAt": "2012-04-03T13:25:51Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 10 - Limite da Composição - parte 1",
+        "description": "Limite da Composição - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z0wNGmPGlGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z0wNGmPGlGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z0wNGmPGlGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Z0wNGmPGlGk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Z0wNGmPGlGk",
+        "videoPublishedAt": "2012-04-03T13:35:00Z",
+        "extra": {
+          "duration": "PT46M6S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2766
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CAlSfsdF5_fIZILmB1u_y-IqtSI",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjk2QjJBOTU0MzJGRDJFQzU",
+      "snippet": {
+        "publishedAt": "2012-04-03T13:26:08Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 11 - Limite da Composição - parte 2",
+        "description": "Limite da Composição - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eAEN9Zfa3ZU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eAEN9Zfa3ZU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eAEN9Zfa3ZU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eAEN9Zfa3ZU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "eAEN9Zfa3ZU",
+        "videoPublishedAt": "2012-04-03T13:50:25Z",
+        "extra": {
+          "duration": "PT40M37S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2437
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Drg_wbIR8jifG0JlWkm9GmVQ5_o",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjZFN0E4N0YwOTI4MzY3MEQ",
+      "snippet": {
+        "publishedAt": "2012-04-25T17:01:58Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 12 - Funções contínuas - parte 1",
+        "description": "Funções contínuas - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jXIP2GciTaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jXIP2GciTaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jXIP2GciTaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jXIP2GciTaY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "jXIP2GciTaY",
+        "videoPublishedAt": "2012-04-25T19:16:16Z",
+        "extra": {
+          "duration": "PT41M13S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2473
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VJ_fEAsDGjfunZvvJ4QkzB-iTus",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjlCQzRDMUMzMjk5NTVGQjU",
+      "snippet": {
+        "publishedAt": "2012-04-17T15:24:07Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 13 - Funções Contínuas - parte 2",
+        "description": "Funções Contínuas - parte 2\r\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ebj4X4q6Dk0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ebj4X4q6Dk0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ebj4X4q6Dk0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ebj4X4q6Dk0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ebj4X4q6Dk0",
+        "videoPublishedAt": "2012-04-17T15:09:21Z",
+        "extra": {
+          "duration": "PT38M46S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2326
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "M4f9HcKOh3x0Oce0HBqsGxQJM0o",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjI4OUJGNzE0NkFDNTVFMTk",
+      "snippet": {
+        "publishedAt": "2012-05-30T15:38:35Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I - Aula 14 - A Derivada como uma Função - Parte 1",
+        "description": "A Derivada como uma Função - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HK6DDx8G7ZU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HK6DDx8G7ZU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HK6DDx8G7ZU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HK6DDx8G7ZU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "HK6DDx8G7ZU",
+        "videoPublishedAt": "2012-05-30T15:31:56Z",
+        "extra": {
+          "duration": "PT48M12S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2892
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2jt2T8fUXYiwTg2lnvVeyPsRMlM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjY5Q0Y3NjNGNUQyRERBQjI",
+      "snippet": {
+        "publishedAt": "2012-07-24T01:07:14Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo I / aula 15 - A Derivada como uma Função - parte 2",
+        "description": "A Derivada como uma Função - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.\nÉ uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eQsN_tJ9CyA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eQsN_tJ9CyA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eQsN_tJ9CyA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eQsN_tJ9CyA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "eQsN_tJ9CyA",
+        "videoPublishedAt": "2012-07-23T20:51:53Z",
+        "extra": {
+          "duration": "PT41M8S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2468
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yWYlUSI5ZRDyLUaRfXoqlnGgXy4",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkZCRDZFREYzMDkyNTA4M0Y",
+      "snippet": {
+        "publishedAt": "2012-04-26T16:49:42Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo I - Aula 16 - Derivadas de funções trigonométricas - Regra da cadeia - parte 1",
+        "description": "Derivadas de funções trigonométricas - Regra da cadeia - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JMtmSdWcjqA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JMtmSdWcjqA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JMtmSdWcjqA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JMtmSdWcjqA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "JMtmSdWcjqA",
+        "videoPublishedAt": "2012-04-26T17:01:07Z",
+        "extra": {
+          "duration": "PT44M40S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2680
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VCu4MKpAeAuWws1rb4he2YSC0wc",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkQ2MjIzMzhENEVDRTJDOTM",
+      "snippet": {
+        "publishedAt": "2012-04-26T16:54:02Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo 1 / aula 17 - Derivadas de funções trigonométricas - Regra da cadeia - parte 2",
+        "description": "Derivadas de funções trigonométricas - Regra da cadeia - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rPzFJpGIEh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rPzFJpGIEh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rPzFJpGIEh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rPzFJpGIEh0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "rPzFJpGIEh0",
+        "videoPublishedAt": "2012-04-26T16:53:44Z",
+        "extra": {
+          "duration": "PT43M26S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2606
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "y6gWB2ejDM8A5g02lfxyrCGIrug",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjdCMUE2RjBBQ0I0MUM5NjA",
+      "snippet": {
+        "publishedAt": "2012-04-26T17:54:55Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 18 - Diferenciação Implícita / Derivadas Superiores - parte1",
+        "description": "Diferenciação Implícita / Derivadas Superiores - parte1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f_PwzFrWp7Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f_PwzFrWp7Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f_PwzFrWp7Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "f_PwzFrWp7Q"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "f_PwzFrWp7Q",
+        "videoPublishedAt": "2012-04-26T17:07:24Z",
+        "extra": {
+          "duration": "PT40M3S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2403
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "rhtEQGKtGCPrG7CucJfO7UZ0158",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjQwQUZCRUUyNUJBNkI1M0E",
+      "snippet": {
+        "publishedAt": "2012-04-26T17:58:36Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 19 - Diferenciação Implícita / Derivadas Superiores - parte 2",
+        "description": "Diferenciação Implícita / Derivadas Superiores - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J_pgvEewQU0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J_pgvEewQU0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J_pgvEewQU0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J_pgvEewQU0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "J_pgvEewQU0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "J_pgvEewQU0",
+        "videoPublishedAt": "2012-04-26T17:18:21Z",
+        "extra": {
+          "duration": "PT46M59S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2819
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wUo25_adeyqus4_XZ2qOSOxJU0k",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjEzMTNBNjU3Q0IzNzgzNTk",
+      "snippet": {
+        "publishedAt": "2012-04-26T18:02:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo 1 / aula 20 - Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 1",
+        "description": "Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h4Y65dlhCy4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h4Y65dlhCy4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h4Y65dlhCy4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h4Y65dlhCy4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "h4Y65dlhCy4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "h4Y65dlhCy4",
+        "videoPublishedAt": "2012-04-26T17:29:21Z",
+        "extra": {
+          "duration": "PT44M26S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2666
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NLK8qbpf5lmLO9V2TE3PiMEfgfM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjg2MTA3MjM2OTI1N0Y0REU",
+      "snippet": {
+        "publishedAt": "2012-04-26T18:06:49Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo 1 / aula 21 - Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 2",
+        "description": "Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E2NnUgDFryg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E2NnUgDFryg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E2NnUgDFryg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/E2NnUgDFryg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "E2NnUgDFryg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "E2NnUgDFryg",
+        "videoPublishedAt": "2012-04-26T17:40:05Z",
+        "extra": {
+          "duration": "PT46M19S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2779
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0JZ11LCfdFoVKxc0HnzjU_hD4PM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjEzMkMwRDY5MDdFNzUzODQ",
+      "snippet": {
+        "publishedAt": "2012-04-26T18:10:25Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 22 - Revisão I - parte 1",
+        "description": "Revisão I - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C5X4JDhOBJ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C5X4JDhOBJ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C5X4JDhOBJ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/C5X4JDhOBJ8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "C5X4JDhOBJ8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "C5X4JDhOBJ8",
+        "videoPublishedAt": "2012-04-26T17:53:06Z",
+        "extra": {
+          "duration": "PT44M16S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2656
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "16n0wYW6aF15LVvVFQ4t7OdOAes",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjFBQzkzRTFFMTgyQUE0NDk",
+      "snippet": {
+        "publishedAt": "2012-04-26T18:46:21Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 23 - Revisão I - parte 2",
+        "description": "Revisão I - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aYTDGK5ymM0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aYTDGK5ymM0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aYTDGK5ymM0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/aYTDGK5ymM0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "aYTDGK5ymM0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "aYTDGK5ymM0",
+        "videoPublishedAt": "2012-04-26T18:09:57Z",
+        "extra": {
+          "duration": "PT41M5S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2465
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Kn4g7dU0aIkkiR3xa-kNowYXQyM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkUzMzQ1RTMwOEExMzk1N0Q",
+      "snippet": {
+        "publishedAt": "2012-05-30T15:34:17Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 24 - Taxas Relacionadas - parte 1",
+        "description": "Taxas Relacionadas - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2NAPSX-GHPI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2NAPSX-GHPI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2NAPSX-GHPI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2NAPSX-GHPI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "2NAPSX-GHPI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "2NAPSX-GHPI",
+        "videoPublishedAt": "2012-05-30T15:25:00Z",
+        "extra": {
+          "duration": "PT45M35S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2735
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JQdbsNxGj_nSqW93oKlRoDDSR-Q",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjBDOTkyQ0NFRjZCRkEyMzE",
+      "snippet": {
+        "publishedAt": "2012-05-30T15:35:01Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 25 - Taxas Relacionadas - parte 2",
+        "description": "Taxas Relacionadas - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MO3Pq3aP43Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MO3Pq3aP43Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MO3Pq3aP43Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MO3Pq3aP43Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MO3Pq3aP43Y"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "MO3Pq3aP43Y",
+        "videoPublishedAt": "2012-05-30T15:42:05Z",
+        "extra": {
+          "duration": "PT44M",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2640
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jzTmrLmH9TB5cI5KMbvODetx1Hc",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjU1RTEzODhBODQyMTUyMDE",
+      "snippet": {
+        "publishedAt": "2012-06-06T17:17:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 26 - Funções Hiperbólicas - parte 1",
+        "description": "Funções Hiperbólicas - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/weAcF2HdpJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/weAcF2HdpJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/weAcF2HdpJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/weAcF2HdpJo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "weAcF2HdpJo"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "weAcF2HdpJo",
+        "videoPublishedAt": "2012-06-06T17:05:42Z",
+        "extra": {
+          "duration": "PT45M43S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2743
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CqiekrokCS8QjppDkgVgvrTEjEY",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjNBQTU5MjI1RDZCNEE3M0U",
+      "snippet": {
+        "publishedAt": "2012-06-06T17:19:46Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 27 - Funções Hiperbólicas - Parte 2",
+        "description": "Funções Hiperbólicas - Parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dGFcHsuBD-I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dGFcHsuBD-I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dGFcHsuBD-I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dGFcHsuBD-I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dGFcHsuBD-I"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "dGFcHsuBD-I",
+        "videoPublishedAt": "2012-06-06T17:04:55Z",
+        "extra": {
+          "duration": "PT43M48S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2628
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FqpZjP-W8NFZ7kQYt2tVqIJokI8",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkVCRkJERjQyRTIxQTVCNkI",
+      "snippet": {
+        "publishedAt": "2012-06-06T17:18:37Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo 1 / aula 28 - Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - 1",
+        "description": "Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sIAowfuIz6Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sIAowfuIz6Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sIAowfuIz6Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sIAowfuIz6Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sIAowfuIz6Q"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "sIAowfuIz6Q",
+        "videoPublishedAt": "2012-06-06T16:59:42Z",
+        "extra": {
+          "duration": "PT46M30S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2790
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QjMU7QDIP88XEES9sLaXASSfPng",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjk5MkE4QkNBRjJFNjlDQTc",
+      "snippet": {
+        "publishedAt": "2012-06-14T17:37:41Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo 1 / aula 29 -  Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - 2",
+        "description": "Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5HNxdN5QleM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5HNxdN5QleM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5HNxdN5QleM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5HNxdN5QleM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5HNxdN5QleM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "5HNxdN5QleM",
+        "videoPublishedAt": "2012-06-14T17:29:30Z",
+        "extra": {
+          "duration": "PT45M53S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2753
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fGMcY2DnJ9ICA366iJDOixyJZ0c",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkY4NzA1NDc5OTFFRDUyREM",
+      "snippet": {
+        "publishedAt": "2012-06-18T19:55:03Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 30 - Teorema do Valor Médio - parte 1",
+        "description": "Teorema do Valor Médio - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pEMM0IKPJ1Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pEMM0IKPJ1Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pEMM0IKPJ1Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pEMM0IKPJ1Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pEMM0IKPJ1Y"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "pEMM0IKPJ1Y",
+        "videoPublishedAt": "2012-06-15T17:33:59Z",
+        "extra": {
+          "duration": "PT47M14S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2834
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_pzzo4khEvzYiCMLTiavHc9d3Z8",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjk2QjIwNUMwN0RFNzUzMDI",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:13:17Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 31 - Teorema do Valor Médio - parte 2",
+        "description": "Teorema do Valor Médio - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JOhvpKNCUbM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JOhvpKNCUbM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JOhvpKNCUbM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JOhvpKNCUbM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JOhvpKNCUbM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "JOhvpKNCUbM",
+        "videoPublishedAt": "2012-05-30T05:36:10Z",
+        "extra": {
+          "duration": "PT44M40S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2680
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HxrcqLSwfIdWmz7zMyP33c6tDSQ",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkJFQ0Q0Q0MyQzdCMjIyMzU",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:19:03Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 32 - Formas Indeterminadas e a Regra de L'Hôpital - parte 1",
+        "description": "Formas Indeterminadas e a Regra de L'Hôpital - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aYC5UqqDWP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aYC5UqqDWP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aYC5UqqDWP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/aYC5UqqDWP4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "aYC5UqqDWP4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "aYC5UqqDWP4",
+        "videoPublishedAt": "2012-05-30T09:02:07Z",
+        "extra": {
+          "duration": "PT44M42S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2682
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "25qi9nkQxEkyl_VHnQwhgPqEnjs",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkE0NUIyODZDMUQxMTREM0M",
+      "snippet": {
+        "publishedAt": "2012-07-12T18:18:47Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 33 -  Formas Indeterminadas e a Regra de L'Hôpital - parte 2",
+        "description": "Formas Indeterminadas e a Regra de L'Hôpital - parte 2\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xw8wRpk8pbQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xw8wRpk8pbQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xw8wRpk8pbQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xw8wRpk8pbQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xw8wRpk8pbQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "xw8wRpk8pbQ",
+        "videoPublishedAt": "2012-07-12T18:20:16Z",
+        "extra": {
+          "duration": "PT40M53S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2453
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "qds9bP38OqrSbSypv4EZzwdeWQk",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkMxNENGOEIwMjAxMEY0OEI",
+      "snippet": {
+        "publishedAt": "2012-06-15T15:20:21Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 34 - Regra de L'Hôpital - parte 1",
+        "description": "Regra de L'Hôpital - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gzOkqOFEJFE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gzOkqOFEJFE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gzOkqOFEJFE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gzOkqOFEJFE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gzOkqOFEJFE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "gzOkqOFEJFE",
+        "videoPublishedAt": "2012-06-15T14:57:23Z",
+        "extra": {
+          "duration": "PT43M23S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2603
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GHv9RalIyJQi9H4Ua1fis7WxUnY",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjE0M0EzNzdEMDlFN0MzMUY",
+      "snippet": {
+        "publishedAt": "2012-06-15T15:21:21Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 35 - Regra de L'Hôpital - parte 2",
+        "description": "Regra de L'Hôpital - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pAhjTa3lZ0o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pAhjTa3lZ0o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pAhjTa3lZ0o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pAhjTa3lZ0o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pAhjTa3lZ0o"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "pAhjTa3lZ0o",
+        "videoPublishedAt": "2012-06-15T15:14:45Z",
+        "extra": {
+          "duration": "PT41M38S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2498
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Q_tV0Ct5igc-GWylW3ezIyInZqo",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkMxRjBFQTNFNDFBQUI5MEI",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 36 - Integração / Motivação Geométrica: Área - parte 1",
+        "description": "Integração / Motivação Geométrica: Área - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p-HMNfGRgvE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p-HMNfGRgvE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p-HMNfGRgvE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 35,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "p-HMNfGRgvE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "p-HMNfGRgvE",
+        "videoPublishedAt": "2012-06-15T15:50:07Z",
+        "extra": {
+          "duration": "PT44M51S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2691
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "p51NDvl_zfhoxU_jbmjeWBWTNV0",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkFCRjBCMzc5NjI5QTRBRDg",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 37 - Motivação Geométrica: área - parte 2",
+        "description": "Motivação Geométrica: área - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x60T7SmOCDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x60T7SmOCDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x60T7SmOCDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/x60T7SmOCDg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 36,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "x60T7SmOCDg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "x60T7SmOCDg",
+        "videoPublishedAt": "2012-06-15T15:44:28Z",
+        "extra": {
+          "duration": "PT44M41S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2681
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "OEDbyuccSSvk5EgxLQXH3CdsK9o",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjI0OTA3REM1MDVFOEZDQjY",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:15Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 38 - Propriedades da Integral",
+        "description": "Propriedades da Integral\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QOFmqqdJkos/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QOFmqqdJkos/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QOFmqqdJkos/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 37,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "QOFmqqdJkos"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "QOFmqqdJkos",
+        "videoPublishedAt": "2012-06-15T15:38:46Z",
+        "extra": {
+          "duration": "PT49M56S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2996
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1HHUGJzKM_XGkBbIl6xxGp9y8Y4",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjVEODdEM0E2RjI0MTdBQjk",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 39 - Teorema Fundamental do Cálculo",
+        "description": "Teorema Fundamental do Cálculo\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NaIgyOeN8KM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NaIgyOeN8KM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NaIgyOeN8KM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 38,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NaIgyOeN8KM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "NaIgyOeN8KM",
+        "videoPublishedAt": "2012-06-15T15:42:08Z",
+        "extra": {
+          "duration": "PT45M31S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2731
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "uicPhxLBnsppiEGS9PHRg51Mm_I",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkZEQjZGNkVFQjAzMzhDQjU",
+      "snippet": {
+        "publishedAt": "2012-06-22T21:49:31Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 40 - Teorema Fundamental do Cálculo - parte 2",
+        "description": "Teorema Fundamental do Cálculo - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pi8et8w6epw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pi8et8w6epw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pi8et8w6epw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pi8et8w6epw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 39,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pi8et8w6epw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "pi8et8w6epw",
+        "videoPublishedAt": "2012-06-22T20:47:20Z",
+        "extra": {
+          "duration": "PT43M48S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2628
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wiu3bH2Wpx9O8lfmp0tgkBTQ87k",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjU0NTMxNUE4M0IxQkZEODg",
+      "snippet": {
+        "publishedAt": "2012-06-22T17:22:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 41 - Teorema Fundamental do Cálculo - parte 3",
+        "description": "Teorema Fundamental do Cálculo - parte 3\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FllUpA1B7Fk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FllUpA1B7Fk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FllUpA1B7Fk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FllUpA1B7Fk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 40,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FllUpA1B7Fk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "FllUpA1B7Fk",
+        "videoPublishedAt": "2012-06-22T16:16:52Z",
+        "extra": {
+          "duration": "PT41M10S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2470
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "G46LcudbMUKjuwuSdfy6Ml3JbEU",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkUwNzJDQzNERUI3RTU4MkU",
+      "snippet": {
+        "publishedAt": "2012-06-22T16:15:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 42 - O Logaritmo definido como uma Integral - parte 1",
+        "description": "O Logaritmo definido como uma Integral - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpQZALtRqgk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpQZALtRqgk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpQZALtRqgk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qpQZALtRqgk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 41,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qpQZALtRqgk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "qpQZALtRqgk",
+        "videoPublishedAt": "2012-06-22T16:00:11Z",
+        "extra": {
+          "duration": "PT45M34S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2734
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "X8kjT-KoXthfxxV5YFyCAkSaXHI",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkVGNzBDQzI2RDg1MTNFOTg",
+      "snippet": {
+        "publishedAt": "2012-06-22T16:15:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 43 - O Logaritmo definido como uma Integral - parte 2",
+        "description": "O Logaritmo definido como uma Integral - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aJ5E8rLO0Ug/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aJ5E8rLO0Ug/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aJ5E8rLO0Ug/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/aJ5E8rLO0Ug/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 42,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "aJ5E8rLO0Ug"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "aJ5E8rLO0Ug",
+        "videoPublishedAt": "2012-06-22T16:08:53Z",
+        "extra": {
+          "duration": "PT44M51S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2691
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3pSsHnZU1diW_w83KaLNJefs3sg",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkMzQTYyQkFBRDY0RTU2MDU",
+      "snippet": {
+        "publishedAt": "2012-07-12T17:54:30Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 44 - Áreas entre curvas - parte 1",
+        "description": "Áreas entre curvas - parte 1\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KP-bf_Qwhdk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KP-bf_Qwhdk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KP-bf_Qwhdk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KP-bf_Qwhdk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 43,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KP-bf_Qwhdk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "KP-bf_Qwhdk",
+        "videoPublishedAt": "2012-07-12T17:39:18Z",
+        "extra": {
+          "duration": "PT49M46S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2986
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1-kupTSi44IdchdZuP5Agiofcf4",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkMyRUY1NEFGNEJDNUUwNDc",
+      "snippet": {
+        "publishedAt": "2012-07-12T17:54:30Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 45 - Áreas entre curvas - parte 2",
+        "description": "Áreas entre curvas - parte 2\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jZIpl6iWFfc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jZIpl6iWFfc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jZIpl6iWFfc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jZIpl6iWFfc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 44,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jZIpl6iWFfc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "jZIpl6iWFfc",
+        "videoPublishedAt": "2012-07-12T17:30:01Z",
+        "extra": {
+          "duration": "PT41M23S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2483
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_9TtSZDsxVhK_E44OMArcNem25Q",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjA5MThGQjI4NjI2QzNBRUI",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 46 - Volumes - parte 1",
+        "description": "Volumes - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/njO-gPgQbjs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/njO-gPgQbjs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/njO-gPgQbjs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/njO-gPgQbjs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 45,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "njO-gPgQbjs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "njO-gPgQbjs",
+        "videoPublishedAt": "2012-06-15T15:19:16Z",
+        "extra": {
+          "duration": "PT43M29S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2609
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VYNx7w8_fY_wzxF7k8n3TOWvBLU",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjcwQTI1OEUyNEIzMjRGQ0U",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:30:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 47 - Volumes - parte 2",
+        "description": "Volumes - parte 2\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica da Unicamp, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/agEKx6LzGKw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/agEKx6LzGKw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/agEKx6LzGKw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/agEKx6LzGKw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 46,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "agEKx6LzGKw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "agEKx6LzGKw",
+        "videoPublishedAt": "2012-06-15T15:42:16Z",
+        "extra": {
+          "duration": "PT44M29S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2669
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ozpGy6JzktQBVUfHTzUc6gqgAzA",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjU2QUQ4MDA1MDM2NzY0MDA",
+      "snippet": {
+        "publishedAt": "2012-07-18T17:08:31Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 48 - Volumes por Cascas Cilíndricas - parte 1",
+        "description": "Volumes por Cascas Cilíndricas - parte 1\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, \naplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter \ninformações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N9rbdULDKSc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N9rbdULDKSc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N9rbdULDKSc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/N9rbdULDKSc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 47,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "N9rbdULDKSc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "N9rbdULDKSc",
+        "videoPublishedAt": "2012-07-18T16:59:08Z",
+        "extra": {
+          "duration": "PT43M1S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2581
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Mg-mG0jh-kPtRbldiwymNA7i6oM",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjFGNTIyRDFBMjIwM0VDODQ",
+      "snippet": {
+        "publishedAt": "2012-07-12T17:54:31Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 49 - Volumes por Cascas Cilíndricas - parte 2",
+        "description": "Volumes por Cascas Cilíndricas - parte 2\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8bIx_Tg6v6w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8bIx_Tg6v6w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8bIx_Tg6v6w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8bIx_Tg6v6w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 48,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8bIx_Tg6v6w"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "8bIx_Tg6v6w",
+        "videoPublishedAt": "2012-07-12T17:39:58Z",
+        "extra": {
+          "duration": "PT43M39S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2619
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2GXJL0taf-p20RmxRJnOTczTUJQ",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjBBMkU4QUI0ODJBMjQyNzQ",
+      "snippet": {
+        "publishedAt": "2012-07-11T12:06:49Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 50 - Integrais Trigonométricas - parte 1",
+        "description": "Integrais Trigonométricas - parte 1\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kau-Uto7A88/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kau-Uto7A88/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kau-Uto7A88/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 49,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kau-Uto7A88"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "kau-Uto7A88",
+        "videoPublishedAt": "2012-07-10T23:56:25Z",
+        "extra": {
+          "duration": "PT50M49S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3049
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nxNCtXufVAz0U1yH4WPWo3KLb6A",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjY3MDY2RDBCQjIxMzlGNjg",
+      "snippet": {
+        "publishedAt": "2012-07-11T12:06:49Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 51 - Integrais Trigonométricas - parte 2",
+        "description": "Integrais Trigonométricas - parte 2\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RJ9nl9leXvI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RJ9nl9leXvI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RJ9nl9leXvI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RJ9nl9leXvI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 50,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RJ9nl9leXvI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "RJ9nl9leXvI",
+        "videoPublishedAt": "2012-07-10T22:50:38Z",
+        "extra": {
+          "duration": "PT43M58S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2638
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Em3k_N5hRv-EYuhP6PUVOlC7tjY",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjc0RkUzRERBNTcwMkI3M0Q",
+      "snippet": {
+        "publishedAt": "2012-07-10T15:46:14Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 52 - Substituição Trigonométrica - parte 1",
+        "description": "Substituição Trigonométrica - parte 1\nAula do curso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mm21ME5eqnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mm21ME5eqnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mm21ME5eqnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Mm21ME5eqnA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 51,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Mm21ME5eqnA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Mm21ME5eqnA",
+        "videoPublishedAt": "2012-07-06T18:58:17Z",
+        "extra": {
+          "duration": "PT35M23S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2123
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UMMugZt-9axNFftg3WuriRJoi5A",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkRGRkI3RkIyN0FCMkU3Rjc",
+      "snippet": {
+        "publishedAt": "2012-07-11T12:06:49Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 53 - Substituição Trigonométrica - parte 2",
+        "description": "Substituição Trigonométrica - parte 2\n\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jvzuPH4fnbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jvzuPH4fnbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jvzuPH4fnbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jvzuPH4fnbU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 52,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jvzuPH4fnbU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "jvzuPH4fnbU",
+        "videoPublishedAt": "2012-07-10T22:22:18Z",
+        "extra": {
+          "duration": "PT45M1S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2701
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wQK3aAJCDrWC4QmeiN8uIofpyGY",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLjgyMTM2NUFBODc4QjA3OEY",
+      "snippet": {
+        "publishedAt": "2012-07-10T15:42:55Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 54 - Funções Racionais / Frações Parciais - parte 1",
+        "description": "Funções Racionais / Frações Parciais - parte 1\n\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iEhKfVjSw5A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iEhKfVjSw5A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iEhKfVjSw5A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 53,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iEhKfVjSw5A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "iEhKfVjSw5A",
+        "videoPublishedAt": "2012-07-06T19:07:53Z",
+        "extra": {
+          "duration": "PT45M58S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2758
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gKRSYkjhiirEUp5Ro0BR6msrjFA",
+      "id": "UEwyRDlCNjkxQTcwNEM2RjdCLkFBREY1NDJFNjI5NTdGNTg",
+      "snippet": {
+        "publishedAt": "2012-07-10T17:51:16Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Cálculo 1 / aula 55 - Funções Racionais / Frações Parciais - parte 2",
+        "description": "Funções Racionais / Frações Parciais - parte 2\n\nCurso regular de graduação do Departamento de Matemática, Instituto de Matemática, Estatística e Computação Científica, primeiro semestre de 2012, com o Professor Renato Pedrosa. É uma introdução ao Cálculo de uma variável, começando por limites e derivadas, regras de derivação, aplicações de derivadas, introdução a integração, aplicações de integração e técnicas de integração. O curso segue de perto o livro-texto, omitindo poucas seções. Consulte a página internet para obter informações relativas ao andamento da disciplina:\nhttp://www.ime.unicamp.br/ma111\n\nLivro-texto do curso: STEWART, James. Cálculo, vol.1. 5a. ou 6a. ed. São Paulo, Pioneira /Thomson Learning.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AQR5gr8Es40/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AQR5gr8Es40/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AQR5gr8Es40/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AQR5gr8Es40/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL2D9B691A704C6F7B",
+        "position": 54,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "AQR5gr8Es40"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "AQR5gr8Es40",
+        "videoPublishedAt": "2012-07-10T18:14:03Z",
+        "extra": {
+          "duration": "PT42M17S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2537
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 55,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "durationSeconds": 143654
+  }
+}

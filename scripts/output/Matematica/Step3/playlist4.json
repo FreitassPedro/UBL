@@ -1,0 +1,1374 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "DDWK3Zkc-grcu_6xs0VTQf0YHxA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "RB8U018iaDwdRost6ctLVArtmP4",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjc0MTRFQzcyMzg3NDUwQjg",
+      "snippet": {
+        "publishedAt": "2012-03-21T17:16:56Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral I - Aula 1",
+        "description": "Introdução e generalidades\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bJuoKyIG13A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bJuoKyIG13A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bJuoKyIG13A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bJuoKyIG13A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "bJuoKyIG13A",
+        "videoPublishedAt": "2012-03-21T16:38:51Z",
+        "extra": {
+          "duration": "PT43M42S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2622
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KpQuo2rHQIcWhHgxPDvFrS9_RX8",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjBDNDQ1NTBFRjQxODE0MEY",
+      "snippet": {
+        "publishedAt": "2012-03-21T17:16:56Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral I - Aula 2",
+        "description": "Introdução e generalidades - Parte 2\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D5CRU_woDF4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D5CRU_woDF4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D5CRU_woDF4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "D5CRU_woDF4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "D5CRU_woDF4",
+        "videoPublishedAt": "2012-03-21T16:45:15Z",
+        "extra": {
+          "duration": "PT45M5S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2705
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nBdZYbBNjA2amJgAx6WOg4QXyhg",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkVDQTA1MTBDRkM1RjZGMDE",
+      "snippet": {
+        "publishedAt": "2012-03-26T15:16:36Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral I - Aula 3",
+        "description": "Movimento em uma dimensão\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ez0aAXj5BjI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ez0aAXj5BjI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ez0aAXj5BjI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ez0aAXj5BjI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ez0aAXj5BjI",
+        "videoPublishedAt": "2012-03-26T14:35:35Z",
+        "extra": {
+          "duration": "PT46M18S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2778
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pnynXxemTvsXwLNcpFSi5wbUy48",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkUyMzFGNDUzOTRBNDAxMEI",
+      "snippet": {
+        "publishedAt": "2012-03-26T15:16:21Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral I - Aula 4",
+        "description": "Escalares e Vetores\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XlbLm9-0Owo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XlbLm9-0Owo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XlbLm9-0Owo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XlbLm9-0Owo"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "XlbLm9-0Owo",
+        "videoPublishedAt": "2012-03-26T14:45:00Z",
+        "extra": {
+          "duration": "PT45M58S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2758
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6Wm1PqM2iNO20xjjmBTp7OU7DkM",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjgwNjZFRTBGMzc1RDA3OTA",
+      "snippet": {
+        "publishedAt": "2012-05-28T17:12:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral I / aula 5",
+        "description": "TV Cultura",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kLnHwlHZgM4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kLnHwlHZgM4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kLnHwlHZgM4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kLnHwlHZgM4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "kLnHwlHZgM4",
+        "videoPublishedAt": "2012-05-28T17:15:41Z",
+        "extra": {
+          "duration": "PT47M18S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2838
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-Sf2BoO7wf2hROyHSx4paq4RWYg",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkNBNkFGRTY1RkVFRjdBNzM",
+      "snippet": {
+        "publishedAt": "2012-04-26T15:17:36Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 6",
+        "description": "Movimento em duas e três dimensões - parte 2\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hSQQC5sud0k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hSQQC5sud0k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hSQQC5sud0k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hSQQC5sud0k"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "hSQQC5sud0k",
+        "videoPublishedAt": "2012-04-26T15:42:38Z",
+        "extra": {
+          "duration": "PT39M57S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2397
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6Xj8tJgIIbZLZA98qyb-MpthqbU",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkZFNDJGMTZEMTkxNTQ1OUQ",
+      "snippet": {
+        "publishedAt": "2012-04-25T17:16:58Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 7",
+        "description": "Força e Movimento\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iJ-aYFE3jNM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iJ-aYFE3jNM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iJ-aYFE3jNM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iJ-aYFE3jNM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "iJ-aYFE3jNM",
+        "videoPublishedAt": "2012-04-25T18:55:09Z",
+        "extra": {
+          "duration": "PT41M47S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2507
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2Kwzn3FsqZpGdXxhbbvcoWzj41c",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkQ4NEI0NTJBRDVBMTM2NUY",
+      "snippet": {
+        "publishedAt": "2012-04-26T15:19:49Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 8",
+        "description": "Força e Movimento - parte 2 \nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/my9mG2UD1JA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/my9mG2UD1JA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/my9mG2UD1JA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "my9mG2UD1JA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "my9mG2UD1JA",
+        "videoPublishedAt": "2012-04-25T21:00:29Z",
+        "extra": {
+          "duration": "PT44M22S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2662
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "X1m_8eua67WBqVxgVjbxHa-m_pA",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjZBQTQwNzQ3QTRCNkU1Mzc",
+      "snippet": {
+        "publishedAt": "2012-04-26T15:27:15Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 9",
+        "description": "Força e Movimento II - parte 1\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.Ele trabalha as Forças Fundamentais, Forças de atrito e o Atrito em Fluidos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0pUc0HEXr5k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0pUc0HEXr5k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0pUc0HEXr5k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0pUc0HEXr5k"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "0pUc0HEXr5k",
+        "videoPublishedAt": "2012-04-26T19:38:13Z",
+        "extra": {
+          "duration": "PT46M14S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2774
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1aHOEzvU9katsAj1L6yrHj7Muyc",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjFBRUQ5NEIxNzU4ODY0NTU",
+      "snippet": {
+        "publishedAt": "2012-05-11T15:07:55Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 10",
+        "description": "Aula 10 -- Força e Movimento II -- parte 2 \nAula do curso regular de graduação Física Geral 1, do Instituto de Física \"Gleb Wataghin\", da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin dá continuidade aos conceitos de Forças Especiais, Força Gravitacional, Tração, Normal e a Terceira Lei de Newton.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vwndK54QKgg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vwndK54QKgg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vwndK54QKgg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vwndK54QKgg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "vwndK54QKgg",
+        "videoPublishedAt": "2012-05-11T15:38:20Z",
+        "extra": {
+          "duration": "PT45M33S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2733
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "lZ7mNjQ-zkgqUf1Q-v956NL4GKk",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjIwRkIzNDY5MDQ3OEQ4MjM",
+      "snippet": {
+        "publishedAt": "2012-05-29T18:55:22Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 11",
+        "description": "Energia Cinética e Trabalho - parte 1\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IOuF0E0yKfc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IOuF0E0yKfc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IOuF0E0yKfc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "IOuF0E0yKfc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "IOuF0E0yKfc",
+        "videoPublishedAt": "2012-05-29T19:14:56Z",
+        "extra": {
+          "duration": "PT46M9S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2769
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9cJq_RpUh8lro67E-fij6j5Wli4",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjM5NEMwOTQzMDRFMzA3QTY",
+      "snippet": {
+        "publishedAt": "2012-05-30T00:03:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 12",
+        "description": "TV Cultura",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/60QPpMBgxnY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/60QPpMBgxnY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/60QPpMBgxnY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "60QPpMBgxnY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "60QPpMBgxnY",
+        "videoPublishedAt": "2012-05-30T01:40:36Z",
+        "extra": {
+          "duration": "PT31M57S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1917
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "rOv4ezCAg5CeRk4YKe-QEKeqMIE",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkVFQTgzNzYwMjI1OTFBQTk",
+      "snippet": {
+        "publishedAt": "2012-05-31T17:49:55Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 13",
+        "description": "Energia Potencial e Conservação de Energia - parte 1",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BQ--536UoWs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BQ--536UoWs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BQ--536UoWs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "BQ--536UoWs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "BQ--536UoWs",
+        "videoPublishedAt": "2012-05-31T18:10:44Z",
+        "extra": {
+          "duration": "PT46M26S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2786
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "01fgKA-uR39HLSEJKWBgeO5uQCM",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjY0M0I1QzMwMTQ3MkM2RDE",
+      "snippet": {
+        "publishedAt": "2012-05-30T10:50:57Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 14",
+        "description": "Energia Potencial e Conservação de Energia - parte 2",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cnJxwqyi_Og/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cnJxwqyi_Og/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cnJxwqyi_Og/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cnJxwqyi_Og/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cnJxwqyi_Og"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "cnJxwqyi_Og",
+        "videoPublishedAt": "2012-05-30T04:45:03Z",
+        "extra": {
+          "duration": "PT46M41S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2801
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "LsfDzhKjWBW9zwn57dgLy9nuNGk",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjBENzAyOUJFNDAyMUU0MzE",
+      "snippet": {
+        "publishedAt": "2012-05-30T10:52:03Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 15",
+        "description": "Sistema de Partículas - parte1",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LRCtrRXrfsM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LRCtrRXrfsM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LRCtrRXrfsM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LRCtrRXrfsM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LRCtrRXrfsM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "LRCtrRXrfsM",
+        "videoPublishedAt": "2012-05-30T09:17:11Z",
+        "extra": {
+          "duration": "PT45M24S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2724
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Qcu0VvVpiAJBqOhvYwCqSDjJovM",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkY1RTM1REMxNDM3MzQ0MEY",
+      "snippet": {
+        "publishedAt": "2012-06-04T14:52:02Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 16",
+        "description": "Sistema de Partículas -- parte 2\nAula do curso regular de graduação Física Geral 1, do Instituto de Física \"Gleb Wataghin\", da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin segue com as explicações sobre Sistema de Partículas.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sATEFy8PtiY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sATEFy8PtiY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sATEFy8PtiY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sATEFy8PtiY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "sATEFy8PtiY",
+        "videoPublishedAt": "2012-05-31T21:05:03Z",
+        "extra": {
+          "duration": "PT44M54S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2694
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nxHPrG_HhRVetnJn-_lJ6eTiOpY",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjE2NDNFQkFENEU5ODY1NzQ",
+      "snippet": {
+        "publishedAt": "2012-07-25T16:33:35Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 17",
+        "description": "TV Cultura",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fqZgMJVZhMU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fqZgMJVZhMU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fqZgMJVZhMU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "fqZgMJVZhMU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "fqZgMJVZhMU",
+        "videoPublishedAt": "2012-07-25T16:27:07Z",
+        "extra": {
+          "duration": "PT50M50S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3050
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "idZpo-a5Ow_m0tFPs-eLhqek1rM",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjI4RDlEODI3MTAzMDUyNkQ",
+      "snippet": {
+        "publishedAt": "2012-07-25T16:33:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 18",
+        "description": "Colisões - parte 2\nAula do curso regular de graduação Física Geral 1, do Instituto de Física Gleb Wataghin, da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin detalha as características das Colisões.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/inXQevW9PqQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/inXQevW9PqQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/inXQevW9PqQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/inXQevW9PqQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "inXQevW9PqQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "inXQevW9PqQ",
+        "videoPublishedAt": "2012-07-25T16:24:37Z",
+        "extra": {
+          "duration": "PT54M52S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3292
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YfPyKx3006ZERCrhlC8sLgu4YHo",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkI0MkI5M0E0ODk1NUM2MDQ",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:28:04Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 19",
+        "description": "Cinemática da Rotação - parte 1\nAula do curso regular de graduação Física Geral I, do Instituto de Física &quot;Gleb Wataghin&quot; da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qIPDhfhr-bQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qIPDhfhr-bQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qIPDhfhr-bQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qIPDhfhr-bQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qIPDhfhr-bQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "qIPDhfhr-bQ",
+        "videoPublishedAt": "2012-06-15T17:15:48Z",
+        "extra": {
+          "duration": "PT47M18S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2838
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sAw4sAP8rO_Wy6w8lEfaqNYIsW8",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjRCQjEzQzAwNjdGRkNEMTI",
+      "snippet": {
+        "publishedAt": "2012-06-15T17:28:04Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 20",
+        "description": "Cinemática da Rotação - parte 2\nAula do curso regular de graduação Física Geral I, do Instituto de Física \"Gleb Wataghin\" da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EDAlNpavMPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EDAlNpavMPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EDAlNpavMPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EDAlNpavMPs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "EDAlNpavMPs",
+        "videoPublishedAt": "2012-06-15T17:20:05Z",
+        "extra": {
+          "duration": "PT42M26S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2546
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "U5zpVogC-VISNibS0flaHUSuEF8",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjk0NjQ3NzM3NkRCNDBBREI",
+      "snippet": {
+        "publishedAt": "2012-06-09T17:29:54Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp Física Geral 1 / aula 21",
+        "description": "Dinâmica das Rotações - parte 1\nAulas do curso regular de graduação Física Geral I, do Instituto de Física &quot;Gleb Wataghin&quot; da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-H9_Gr90Frw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-H9_Gr90Frw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-H9_Gr90Frw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-H9_Gr90Frw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "-H9_Gr90Frw",
+        "videoPublishedAt": "2012-06-08T22:11:02Z",
+        "extra": {
+          "duration": "PT48M46S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2926
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "AY--ixCOspL_hoTw8Oge8i1u0uk",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjM3QTFDMkZCRjM0MjAxMzM",
+      "snippet": {
+        "publishedAt": "2012-06-09T17:29:54Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp Física Geral 1 / aula 22",
+        "description": "Aulas do curso regular de graduação Física Geral I, do Instituto de Física &quot;Gleb Wataghin&quot; da Universidade Estadual de Campinas, com o professor Luiz Marco Brescansin.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Aq3tdAoeY7Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Aq3tdAoeY7Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Aq3tdAoeY7Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Aq3tdAoeY7Y"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Aq3tdAoeY7Y",
+        "videoPublishedAt": "2012-06-08T21:42:24Z",
+        "extra": {
+          "duration": "PT35M56S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2156
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-gMqL7M4-S8vtYLJKNA5r3uPTS0",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjhBNkNGODQ2QjUyOEZCNUI",
+      "snippet": {
+        "publishedAt": "2012-06-22T00:40:18Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 23",
+        "description": "Aula 23\nMomento Angular e sua Conservação - parte 1\nAula do curso regular de graduação Física Geral 1, do Instituto de Física Gleb Wataghin, da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin ensina os fundamentos do Momento Angular aplicados, por exemplo, em um sistema de partículas.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kQjxi8tAuBA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kQjxi8tAuBA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kQjxi8tAuBA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kQjxi8tAuBA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "kQjxi8tAuBA",
+        "videoPublishedAt": "2012-06-21T21:16:07Z",
+        "extra": {
+          "duration": "PT47M48S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2868
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yOyoEGf6te2I5ef0LwNW8PxuZao",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkJDOEVENjE5NTQzMjk4REM",
+      "snippet": {
+        "publishedAt": "2012-06-22T00:40:50Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp Física Geral 1 / aula 24",
+        "description": "Aula 24 \nMomento Angular e sua Conservação - parte 2\nAula do curso regular de graduação Física Geral 1, do Instituto de Física ?Gleb Wataghin?, da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin relaciona a energia cinética de um sistema de partículas.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bl4Yem2Zn54/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bl4Yem2Zn54/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bl4Yem2Zn54/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Bl4Yem2Zn54/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Bl4Yem2Zn54"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Bl4Yem2Zn54",
+        "videoPublishedAt": "2012-06-21T21:14:16Z",
+        "extra": {
+          "duration": "PT39M58S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2398
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jyWX9OjcZr3Vzvyv8drLii0cuQE",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLjY0Q0JDQjU4MTM1MUUzRDY",
+      "snippet": {
+        "publishedAt": "2012-07-10T19:41:27Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 25",
+        "description": "Conservação do Momento Angular e Rolamento - parte 1\nAula do curso regular de graduação Física Geral 1, do Instituto de Física \"Gleb Wataghin\", da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin trata da Conservação do Momento Angular resolvendo problemas cotidianos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0wKMXu1lzHM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0wKMXu1lzHM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0wKMXu1lzHM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0wKMXu1lzHM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0wKMXu1lzHM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "0wKMXu1lzHM",
+        "videoPublishedAt": "2012-07-10T19:58:19Z",
+        "extra": {
+          "duration": "PT41M7S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2467
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "h49xgLx2uV_pp6pXgAsCEnduU7U",
+      "id": "UEw3NTgxQzIxRjhBREQ2QzhFLkIyMDA5MDkwMUZCMTg1MTU",
+      "snippet": {
+        "publishedAt": "2012-07-10T19:40:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cursos Unicamp: Física Geral 1 / aula 26",
+        "description": "Conservação do Momento Angular e Rolamento - parte 2\nAula final do curso regular de graduação Física Geral 1, do Instituto de Física \"Gleb Wataghin\", da Universidade Estadual da Campinas. O professor Luiz Marco Brescansin demonstra aplicações da Conservação do Momento Angular relacionadas a rolamentos em planos inclinados.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HVY2eyqJT-o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HVY2eyqJT-o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HVY2eyqJT-o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HVY2eyqJT-o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PL7581C21F8ADD6C8E",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HVY2eyqJT-o"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "HVY2eyqJT-o",
+        "videoPublishedAt": "2012-07-10T19:32:21Z",
+        "extra": {
+          "duration": "PT49M17S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2957
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 26,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "durationSeconds": 69963
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "54KMMIlDswKBbn6fGSAVGqL8DNE",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "kILEEx6u7QIIPxLjJ-c41xQijos",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2020-10-09T12:30:19Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 01: Espaços Topológicos e Fechados",
+        "description": "Nessa aula veremos como construir um espaço topológico a partir de filtros. Depois veremos a definição usual de espaços topológicos, conjuntos abertos, conjuntos fechados e alguns exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-MquLI7EXqE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-MquLI7EXqE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-MquLI7EXqE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-MquLI7EXqE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-MquLI7EXqE"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "-MquLI7EXqE",
+        "videoPublishedAt": "2020-10-12T03:15:01Z",
+        "extra": {
+          "duration": "PT1H34M34S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5674
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "oANTnGqjdcO59Sd4l0OIYJg3sr0",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2020-10-09T12:30:59Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 02: Fecho, Interior, Fronteira e Bases.",
+        "description": "Nessa aula veremos as definições e exemplos de Fecho, Interior, Fronteira de conjuntos dentro de um espaço topológico. Depois veremos o que é uma base para uma topologia, bases locais, vizinhanças de um ponto. Além de exemplos veremos um resultado que caracteriza base.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CTDdW-Vy_nI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CTDdW-Vy_nI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CTDdW-Vy_nI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CTDdW-Vy_nI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CTDdW-Vy_nI"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "CTDdW-Vy_nI",
+        "videoPublishedAt": "2020-10-12T03:45:01Z",
+        "extra": {
+          "duration": "PT1H15M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4525
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FcpnceUDSuoRmGbS7i2Sb42Fk_g",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2020-10-15T12:49:10Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 03: Axiomas de Separação",
+        "description": "Nessa aula veremos em quais espaços topológicos é possível separar ponto de ponto, ponto de fechado e fechado de fechado. O que quer dizer \"separar\"?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5g6luM4aNh8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5g6luM4aNh8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5g6luM4aNh8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5g6luM4aNh8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5g6luM4aNh8"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "5g6luM4aNh8",
+        "videoPublishedAt": "2020-10-19T02:15:00Z",
+        "extra": {
+          "duration": "PT1H36M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5771
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GVtZcChws9OBdAbMOQvsywuGmJc",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2020-10-24T19:25:57Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 04: Axiomas de Enumerabilidade",
+        "description": "Nessa aula veremos os três axiomas de enumerabilidade e algumas aplicações. Além disso, veremos alguns resultados envolvendo metrizabilidade.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xIMi2Mh98NI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xIMi2Mh98NI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xIMi2Mh98NI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xIMi2Mh98NI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xIMi2Mh98NI"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "xIMi2Mh98NI",
+        "videoPublishedAt": "2020-10-26T03:15:06Z",
+        "extra": {
+          "duration": "PT1H27M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5251
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "k321huFyX_mfVa33yFFJBZGA3Zg",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2020-10-06T20:00:02Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 05: Funções Contínuas e Homeomorfismos",
+        "description": "Nesta aula veremos o qual é a definição de função contínua em espaços topológicos. Algumas propriedades básicas e exemplos. Em seguida veremos o que é um homeomorfismo e o como podemos entender invariante topológico.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i8jiMft0c2Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i8jiMft0c2Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i8jiMft0c2Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/i8jiMft0c2Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "i8jiMft0c2Y"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "i8jiMft0c2Y",
+        "videoPublishedAt": "2020-10-26T03:45:01Z",
+        "extra": {
+          "duration": "PT1H19M29S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4769
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JQRDQwKm_jjwq8ZuvLbev7nhd8M",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2020-10-24T19:25:39Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Extra: Caracterização da Reta com a Topologia da Ordem",
+        "description": "Neste vídeo extra mostraremos que todo espaço totalmente ordenado, com ordem densa, sem maior nem menor elementos, completo e separável é homeomorfo a reta real.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O0B4H6x2KMU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O0B4H6x2KMU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O0B4H6x2KMU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/O0B4H6x2KMU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "O0B4H6x2KMU"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "O0B4H6x2KMU",
+        "videoPublishedAt": "2020-10-26T04:15:00Z",
+        "extra": {
+          "duration": "PT52M40S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3160
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jUuHUvDWTXSv6ErTYyzWpnPu0DE",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2020-10-09T11:10:57Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 06: Extensão de Funções",
+        "description": "Nessa aula veremos como obter extensões contínuas a partir de um subespaço.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cUWa1HEpq_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cUWa1HEpq_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cUWa1HEpq_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cUWa1HEpq_k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cUWa1HEpq_k"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "cUWa1HEpq_k",
+        "videoPublishedAt": "2020-11-02T03:15:03Z",
+        "extra": {
+          "duration": "PT1H25M1S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5101
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "DTKW6sYtEQaOiascUyJBWKBJORU",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2020-10-09T12:27:22Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 07: Lema de Urysohn e Teorema de Tietze",
+        "description": "Nessa aula veremos o Lema de Urysohn e Teorema da extensão de Tietze. Além disso veremos algumas aplicações desses resultados.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XU__D9Ma76c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XU__D9Ma76c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XU__D9Ma76c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XU__D9Ma76c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XU__D9Ma76c"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "XU__D9Ma76c",
+        "videoPublishedAt": "2020-11-02T03:45:00Z",
+        "extra": {
+          "duration": "PT1H4M1S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3841
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "B8pdWDSOCDuhMENAvM2czlkX5wc",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2020-10-12T18:39:07Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 08: Topologia Produto",
+        "description": "Nessa aula vamos ver como construir novas topologias a partir de topologias conhecidas usando o produto cartesiano. Veremos algumas propriedades que são preservadas com o produto.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wl1Z4dk1Tak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wl1Z4dk1Tak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wl1Z4dk1Tak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Wl1Z4dk1Tak/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Wl1Z4dk1Tak"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "Wl1Z4dk1Tak",
+        "videoPublishedAt": "2020-11-09T03:15:00Z",
+        "extra": {
+          "duration": "PT1H35M56S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5756
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nRYIjBuCaRheRu_LAFlXyWQr2fc",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2020-10-13T20:04:04Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Extra: Teorema da Imersão",
+        "description": "Nesse vídeo extra veremos o Teorema da Imersão e um resultado surpreendente no final.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tECynckI-8w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tECynckI-8w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tECynckI-8w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tECynckI-8w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "tECynckI-8w"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "tECynckI-8w",
+        "videoPublishedAt": "2020-11-09T03:45:01Z",
+        "extra": {
+          "duration": "PT36M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2209
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "AUp0V5oowc3aSzMnY6YVfy97W-4",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2020-10-15T11:25:24Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 09: Topologia Quociente",
+        "description": "Nessa aula veremos como induzir uma topologia em um espaço quociente a partir do espaço original. Além disso veremos o que é a topologia forte em um espaço.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yVjLA7R4MzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yVjLA7R4MzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yVjLA7R4MzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yVjLA7R4MzY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "yVjLA7R4MzY"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "yVjLA7R4MzY",
+        "videoPublishedAt": "2020-11-16T03:15:04Z",
+        "extra": {
+          "duration": "PT1H17M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4640
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "N8iapqO1J9guG314aUWETmLbzQQ",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2020-10-17T14:52:28Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 10: Espaços Compactos",
+        "description": "Nessa aula veremos o que são espaços compactos. O Lema de Alexander e várias propriedades. Além disso, veremos o que é um espaços localmente compactos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rVU27o7jAY4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rVU27o7jAY4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rVU27o7jAY4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rVU27o7jAY4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rVU27o7jAY4"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "rVU27o7jAY4",
+        "videoPublishedAt": "2020-11-16T03:45:01Z",
+        "extra": {
+          "duration": "PT1H49M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 6579
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9gNOQlYfoPWgCt-TizXHITA6H58",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2020-10-20T10:11:31Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 11: Teorema de Tychonoff e algumas caracterizações",
+        "description": "Nessa aula além do Teorema de Tychonoff veremos algumas caracterizações para compactos. Dentre elas envolvendo pontos de acumulação completo, e, para espaços métricos sequêncialmente completos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eQkfTDrmpy8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eQkfTDrmpy8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eQkfTDrmpy8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eQkfTDrmpy8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eQkfTDrmpy8"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "eQkfTDrmpy8",
+        "videoPublishedAt": "2020-11-23T03:15:01Z",
+        "extra": {
+          "duration": "PT2H5M29S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 7529
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9jwjhPPDxAUGBPITza61OHeXe8U",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2020-10-22T21:10:13Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 12: Espaços Conexos",
+        "description": "Nesta aula veremos a definição de espaços conexos e algumas propriedades.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-8iTLyGichU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-8iTLyGichU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-8iTLyGichU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-8iTLyGichU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-8iTLyGichU"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "-8iTLyGichU",
+        "videoPublishedAt": "2020-11-30T03:15:00Z",
+        "extra": {
+          "duration": "PT1H18M30S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4710
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hZZ0FRaX7jQMhZFl8oWmGGx5IlU",
+      "id": "UExodWVURVBPOUMxS0VYOGpUcGhQZWI5a0VGOWl0NGI1eC41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2020-10-26T19:30:42Z",
+        "channelId": "UChFaA_970KgH9KHS3yy7o9A",
+        "title": "Aula 13: Componentes, Conexidade por Caminhos e Propriedades Locais de Conexidade",
+        "description": "Além dessas propriedades relativas à conexidade veremos algumas aplicações.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H2iwga-lMNw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H2iwga-lMNw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H2iwga-lMNw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H2iwga-lMNw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Dione Andrade Lara",
+        "playlistId": "PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "H2iwga-lMNw"
+        },
+        "videoOwnerChannelTitle": "Dione Andrade Lara",
+        "videoOwnerChannelId": "UChFaA_970KgH9KHS3yy7o9A"
+      },
+      "contentDetails": {
+        "videoId": "H2iwga-lMNw",
+        "videoPublishedAt": "2020-11-30T03:15:01Z",
+        "extra": {
+          "duration": "PT1H25M40S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 5140
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 15,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "durationSeconds": 74655
+  }
+}
