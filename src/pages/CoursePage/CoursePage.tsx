@@ -17,6 +17,7 @@ import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapCadeiraToMyCadeira } from "@/lib/mappers";
+import { formatSecondsToMinutes } from "@/lib/utils";
 import type { MyCadeiraProgress, MyLessonProgress } from "@/types/progress";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -103,9 +104,11 @@ export default function CoursePage() {
             <span className="text-sm font-medium leading-tight">
               {lesson.title}
             </span>
-            <span className="text-xs text-muted-foreground">
-              {lesson.duration}
-            </span>
+            {lesson.duration && (
+              <span className="text-xs text-muted-foreground">
+                {formatSecondsToMinutes(lesson.duration)}
+              </span>
+            )}
           </div>
         </div>
       </li>
