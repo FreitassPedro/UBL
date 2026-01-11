@@ -10,8 +10,8 @@ interface BookRecommendationProps {
 export const BookRecommendation: React.FC<BookRecommendationProps> = ({ subject }) => {
 
     return (
-        <div className="mt-4 pt-2 border-t border-white/10">
-            <div className="animate-in slide-in-from-top-2 duration-300">
+        <div className="mt-4 pt-2 border-t border-white/10 overflow-hidden">
+            <div className="animate-in fade-in slide-in-from-top-10 duration-400 ease-out">
                 <div className="flex items-center gap-2 mb-1">
                     <LibraryBig className="h-5 w-5 text-yellow-400" />
                     <h5 className="font-semibold text-lg text-white">Leituras Recomendadas</h5>
