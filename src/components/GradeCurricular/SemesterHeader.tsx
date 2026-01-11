@@ -73,7 +73,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
   return (
     <Card
       className={cn(
-        "p-0.5 rounded-xl bg-linear-to-r hover:brightness-110 transition-all",
+        "border-0 p-0.5 rounded-xl bg-linear-to-r hover:brightness-110 transition-all",
         getColor().to,
         getColor().from
       )}
