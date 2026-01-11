@@ -2,6 +2,7 @@ import { Progress } from "@/components/ui/progress";
 import type { MyEtapaProgress } from "@/types/progress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Card } from "../ui/card";
 
 interface MyStepCardBodyProps {
     step: MyEtapaProgress;
@@ -42,9 +43,9 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                         key={cadeira.id}
                         className="group relative block"
                     >
-                        <div className={`
+                        <Card className={`
                             relative flex flex-col sm:flex-row items-start sm:items-center gap-5 
-                            p-5 rounded-xl bg-bg-card border  
+                            border  
                             transition-all duration-300 ease-out
                             hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
                             ${status.border}
@@ -101,7 +102,7 @@ export const MyStepCardBody: React.FC<MyStepCardBodyProps> = ({ step }) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Card>
                     </Link>
                 );
             })}

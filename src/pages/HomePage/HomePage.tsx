@@ -1,9 +1,10 @@
 import { BackgroundGrid } from "@/components/BackgroundGrid";
+import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
+import type { MyCadeiraProgress } from "@/data/myCourseProgress";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import type { MyCadeiraProgress } from "@/types/progress";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
@@ -136,10 +137,9 @@ export const HomePage: React.FC = () => {
                   className={`
                     px-3 py-2 select-none text-black rounded-lg cursor-pointer font-semibold text-md inline-flex items-center justify-center
                     transition duration-200 
-                    ${
-                      sortBy === option
-                        ? "bg-ubl-green"
-                        : "bg-zinc-100 font-normal hover:bg-gray-200"
+                    ${sortBy === option
+                      ? "bg-ubl-green"
+                      : "bg-zinc-100 font-normal hover:bg-gray-200"
                     }
                   `}
                 >
@@ -160,7 +160,7 @@ export const HomePage: React.FC = () => {
             <div className="mx-auto container">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {watchedCourses.map((course) => (
-                  <div className="p-6 bg-bg-card bg-ubl rounded-xl border border-zinc-800 hover:border-zinc-700 transition duration-300">
+                  <Card className="hover:border-zinc-700 transition duration-300">
                     <span className="font-semibold text-gray-400 mb-4">
                       Etapa {course.etapaNumber}
                     </span>
@@ -182,7 +182,7 @@ export const HomePage: React.FC = () => {
                         Retomar
                       </Link>
                     </div>
-                  </div>
+                  </Card>
                 ))}
               </div>
             </div>

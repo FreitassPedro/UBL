@@ -77,7 +77,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                 </div>
             </div>
 
-            {/* Lista de Aulas */}
+            {/* Lista de Cadeiras */}
             <MyStepCardBody step={step} />
         </div>
     );

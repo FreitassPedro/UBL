@@ -3,6 +3,7 @@ import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualizatio
 import type { Grade } from "@/types/grade";
 import { GraduationCap } from "lucide-react";
 import React, { useEffect } from "react";
+import { Button } from "../ui/button";
 
 interface CurriculumSectionProps {
     selectedCourse: Grade;
@@ -29,10 +30,10 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ selectedCo
                         <h2 className="text-3xl font-bold text-white mb-2">{selectedCourse.curriculo}</h2>
                     </div>
                     <div className="h-1 bg-linear-to-r from-blue-500 to-green-400 w-full rounded" />
-                    <button className="px-2 py-2 bg-bg-card rounded text-white text-md text-nowrap cursor-pointer"
+                    <Button className="px-3 py-2 text-white text-nowrap"
                         onClick={() => setNodeView(!nodeView)}>
-                        Ver em grafos
-                    </button>
+                        Visualizar como grafo
+                    </Button>
                 </div>
 
                 {nodeView && (
@@ -41,8 +42,8 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ selectedCo
                             <div className="bg-bg-card rounded-xl border border-zinc-600 w-4/5 h-[80vh] overflow-hidden">
                                 <div className="py-2 px-4 bg-gray-900 border-b border-white/20 justify-between flex items-center">
                                     <h2 className="text-2xl font-semibold text-white">{selectedCourse.curriculo}</h2>
-                                    <button className="px-4 py-2 bg-white/20 rounded text-white text-xl cursor-pointer"
-                                        onClick={() => setNodeView(false)}>Fechar</button>
+                                    <Button className=""
+                                        onClick={() => setNodeView(false)}>Fechar</Button>
                                 </div>
                                 <div className="flex-1 w-full overflow-hidden flex items-center justify-center h-full">
                                     <NodeGraphVisualization />
