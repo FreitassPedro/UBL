@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/gradeCurricular";
-import type { MyCadeiraProgress } from "@/data/myCourseProgress";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
+import type { MyCadeiraProgress } from "@/types/progress";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
@@ -57,7 +57,7 @@ export const HomePage: React.FC = () => {
           {/* Conteúdo Principal */}
           <div className="flex flex-col items-center justify-center text-center">
             {/* Título Principal */}
-            <h1 className="mb-5 text-5xl md:text-7xl font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
+            <h1 className="mb-6 text-5xl md:text-[5.8rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
               Universidade Brasileira Livre
             </h1>
 

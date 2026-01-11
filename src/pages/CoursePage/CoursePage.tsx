@@ -146,7 +146,7 @@ export default function CoursePage() {
         <Card className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
           {/* Breadcrumbs */}
           <Breadcrumb className="shrink-0">
-            <BreadcrumbList className="text-sm text-gray-400">
+            <BreadcrumbList className="text-sm text-gray-400 flex-nowrap overflow-hidden">
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
                   <Link to="/" className="hover:text-gray-200">
@@ -183,8 +183,8 @@ export default function CoursePage() {
                 <ChevronRight size={14} />
               </BreadcrumbSeparator>
 
-              <BreadcrumbItem>
-                <BreadcrumbPage className="text-gray-200 font-medium">
+              <BreadcrumbItem className="min-w-0 flex-1">
+                <BreadcrumbPage className="text-gray-200 font-medium block truncate">
                   {selectedLesson?.title}
                 </BreadcrumbPage>
               </BreadcrumbItem>
@@ -220,7 +220,7 @@ export default function CoursePage() {
           {/* Header da sidebar */}
           <div className="flex justify-between items-center">
             <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
-            <Badge variant="outline">
+            <Badge variant="outline" className="text-zinc-100 border-zinc-100">
               {`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}
             </Badge>
           </div>
@@ -242,10 +242,8 @@ export default function CoursePage() {
                     onSelect={handleSelectLesson}
                   />
                 ))}
-                {/* Gradient overlay */}
               </ul>
             </ScrollArea>
-            <div className="pointer-events-none bg-linear-to-t from-zinc-900  to-transparent bottom-0 left-0 w-full z-10 h-20 absolute" />
           </div>
         </aside>
       </div>

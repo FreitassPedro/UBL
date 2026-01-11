@@ -1,5 +1,7 @@
 import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
 import { CurriculumSection } from "@/components/GradeCurricular/CurriculumSection";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 import {
     CurriculoCC,
     CurriculoMatematica,
@@ -70,8 +72,9 @@ export default function GradeCurricularPage() {
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-12'>
                         {cursos.map((curso, index) => (
-                            <div key={index}
-                                className='bg-zinc-900 rounded-lg hover:shadow-xl shadow-ubl-blue/40 overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group'
+                            <Card
+                                key={index}
+                                className="p-0 gap-0 border-0 bg-zinc-900 rounded-lg shadow-none hover:shadow-xl hover:shadow-ubl-blue/40 overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group"
                                 onClick={() => handleCourseSelection(index + 1)}
                             >
                                 <div className='h-96 overflow-hidden'>
@@ -81,12 +84,14 @@ export default function GradeCurricularPage() {
                                         className='w-full h-full object-cover'
                                     />
                                 </div>
-                                <div className={`h-1 ${curso.color} group-hover:animate-pulse`}></div>
-                                <div className='p-8'>
-                                    <h3 className='text-2xl group-hover:text-3xl font-bold text-gray-100 transition-all duration-300'>{curso.curso}</h3>
+                                <Separator className={`${curso.color} group-hover:animate-pulse`} />
+                                <CardContent className="p-8 flex flex-col justify-center items-align">
+                                    <CardTitle className='text-2xl group-hover:text-3xl font-bold text-gray-100 transition-all duration-300'>
+                                        {curso.curso}
+                                    </CardTitle>
                                     <p className='text-md text-text-muted'>{curso.descricao}</p>
-                                </div>
-                            </div>
+                                </CardContent>
+                            </Card>
                         ))}
                     </div>
                 </section>
