@@ -172,7 +172,7 @@ export const HomePage: React.FC = () => {
                         <span>Progresso</span>
                         <span>{course.progress}%</span>
                       </div>
-                      <Progress value={3} />
+                      <Progress value={course.progress} />
                     </div>
                     <div className="mt-6 w-full flex">
                       <Link
