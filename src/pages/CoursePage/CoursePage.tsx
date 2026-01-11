@@ -220,7 +220,7 @@ export default function CoursePage() {
           {/* Header da sidebar */}
           <div className="flex justify-between items-center">
             <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
-            <Badge variant="outline">
+            <Badge variant="outline" className="text-zinc-100 border-zinc-100">
               {`${myCadeira.totalCompleted} de ${myCadeira.lessons.length}`}
             </Badge>
           </div>
