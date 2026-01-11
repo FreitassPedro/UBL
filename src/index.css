@@ -124,8 +124,8 @@
   --popover-foreground: oklch(0.984 0.003 247.858);
   --primary: var(--color-zinc-900);
   --primary-foreground: var(--color-zinc-200);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --secondary: var(--color-gray-200);
+  --secondary-foreground: var(--color-zinc-950);
   --muted: oklch(0.279 0.041 260.031);
   --muted-foreground: oklch(0.704 0.04 256.788);
   --accent: oklch(0.279 0.041 260.031);
