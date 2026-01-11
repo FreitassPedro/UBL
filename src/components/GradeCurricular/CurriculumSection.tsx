@@ -33,14 +33,12 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ selectedCo
                     <Separator className="flex-1 bg-linear-to-r from-ubl-blue to-ubl-green rounded" />
                     <Button
                         onClick={() => setNodeView(v => !v)}
-                        className="cursor-pointer p-0.5 rounded-md bg-linear-to-r from-ubl-green to-ubl-blue"
+                        variant="outline"
+                        size="lg"
+                        className="cursor-pointer h-10 rounded-xl border-white/10 bg-zinc-950/40 px-4 text-xs font-semibold uppercase tracking-wider text-zinc-200 hover:bg-zinc-800/70 hover:text-white"
                     >
-                        <span className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-bg-card whitespace-nowrap">
-                            <Network className="w-4 h-4 text-ubl-green" />
-                            <span className="uppercase text-white text-md font-semibold tracking-wide">
-                                Visualizar como Grafo
-                            </span>
-                        </span>
+                        <Network className="w-4 h-4 text-ubl-green" />
+                        <span className="whitespace-nowrap">Visualizar como grafo</span>
                     </Button>
                 </div>
 
