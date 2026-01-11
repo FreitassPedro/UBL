@@ -15,14 +15,14 @@ export const SemesterSubjectItem: React.FC<SubjectCardProps> = ({ subject, index
     const [showBooks, setShowBooks] = useState(false);
 
     const getColorBackground = () => {
-        return index % 2 === 0 ? 'bg-zinc-800' : 'bg-zinc-800/60';
+        return index % 2 === 0 ? 'bg-zinc-900/50' : 'bg-zinc-800/60';
     }
 
     return (
         <li key={index} className="relative group">
-            <div className={`relative ${getColorBackground()} border border-white/10 hover:border-white/20 px-3 py-2 transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl`} >
+            <div className={`relative ${getColorBackground()} border border-white/10 hover:border-white/20 px-4 py-2 transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl`} >
                 {/* Content Container */}
-                <div className="flex justify-between" >
+                <div className="flex justify-between items-center" >
                     <div className="flex-1">
                         {/* Subject Header */}
                         <div className="flex items-center gap-3">
