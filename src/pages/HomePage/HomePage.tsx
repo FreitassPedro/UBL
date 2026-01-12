@@ -2,11 +2,18 @@ import { BackgroundGrid } from "@/components/BackgroundGrid";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import type { MyCadeiraProgress } from "@/types/progress";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -95,7 +102,6 @@ export const HomePage: React.FC = () => {
                 <Link
                   to="/grade-curricular"
                   className="group relative h-12 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-
                 >
                   <span className="mr-2">Explorar Grade</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -103,14 +109,8 @@ export const HomePage: React.FC = () => {
                 </Link>
               </Button>
 
-              <Button
-                asChild
-                size={"lg"}
-                variant={"default"} >
-                <Link
-                  to={""}
-                  className="px-6 py-3 rounded-lg"
-                >
+              <Button asChild size={"lg"} variant={"default"}>
+                <Link to={""} className="px-6 py-3 rounded-lg">
                   Sobre nós
                 </Link>
               </Button>
@@ -127,79 +127,73 @@ export const HomePage: React.FC = () => {
         </div>
 
         {/* Back to courses */}
-        <section className="bg-bg-body  px-8 py-2 pb-8 mb-16">
-          <div className="mx-auto container py-8 border-emerald-500/50 flex items-center justify-between mb-8">
-            <div className="">
-              <h2 className="text-4xl font-white font-semibold">
-                Continue onde parou
-              </h2>
-              <span className="text-zinc-400 mt-2">
-                Retome rapidamente os cursos em andamento.
-              </span>
-            </div>
+        {watchedCourses.length !== 0 && (
+          <section className="px-6 py-2 pb-8 mb-16">
+            <div className="relative mx-auto container overflow-hidden rounded-3xl bg-bg-card border border-zinc-800 px-6 py-8 md:px-10">
+              <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[90px] rounded-full"></div>
+              <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[90px] rounded-full"></div>
 
-            <div className="space-x-2">
-              {sortOptions.map((option) => (
-                <Button
-                  key={option}
-                  onClick={() => setSortBy(option)}
-                  className={`
-                    select-none text-md
-                    transition duration-200 cursor-pointer
-                    ${sortBy === option
-                      ? "bg-ubl-green font-semibold hover:bg-ubl-green/90"
-                      : "bg-zinc-100 font-normal hover:bg-gray-200"
-                    }
-                  `}
-                  variant={`${sortBy === option ? 'default' : 'outline'}`}
-                >
-                  <span>
-                    {option.charAt(0).toUpperCase() + option.slice(1)}
+              <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between mb-8">
+                <div>
+                  <h2 className="text-4xl font-white font-semibold">
+                    Continue onde parou
+                  </h2>
+                  <span className="text-zinc-400 mt-2 block">
+                    Retome rapidamente os cursos em andamento.
                   </span>
-                  {sortBy === option ? (
-                    <ChevronDown className="ml-1 w-4 h-4" />
-                  ) : (
-                    ""
-                  )}
-                </Button>
-              ))}
-            </div>
-          </div>
+                </div>
 
-          {watchedCourses.length !== 0 && (
-            <div className="mx-auto container">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {watchedCourses.map((course) => (
-                  <Card className="hover:border-zinc-700/60 transition duration-300">
-                    <span className="font-semibold text-gray-400 mb-4">
-                      Etapa {course.etapaNumber}
-                    </span>
-                    <h3 className="text-xl text-white font-semibold">
-                      {course.name}
-                    </h3>
-                    <div className="my-2 space-y-1">
-                      <div className="flex items-center justify-between text-gray-400 text-sm">
-                        <span>Progresso</span>
-                        <span>{course.progress}%</span>
+                <div className="w-full md:w-auto md:ml-auto flex items-center justify-end gap-3">
+                  <span className="text-sm text-zinc-400">Ordenar por</span>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="w-full md:w-30">
+                      <SelectValue placeholder="Ordenar por" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {sortOptions.map((option) => (
+                        <SelectItem key={option} value={option}>
+                          {option.charAt(0).toUpperCase() + option.slice(1)}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {watchedCourses.map((course) => (
+                    <Card className="bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/30 transition duration-300">
+                      <span className="font-semibold text-gray-400 mb-4">
+                        Etapa {course.etapaNumber}
+                      </span>
+                      <h3 className="text-xl text-white font-semibold">
+                        {course.name}
+                      </h3>
+                      <div className="my-2 space-y-1">
+                        <div className="flex items-center justify-between text-gray-400 text-sm">
+                          <span>Progresso</span>
+                          <span>{course.progress}%</span>
+                        </div>
+                        <Progress value={course.progress} />
                       </div>
-                      <Progress value={course.progress} />
-                    </div>
-                    <div className="mt-6 w-full flex">
-                      <Button asChild variant={"secondary"}>
-                        <Link
-                          to={`/curso/${course.id}`}
-                          className="px-4 py-2 w-full transition-colors"
-                        >
-                          Retomar
-                        </Link>
-                      </Button>
-                    </div>
-                  </Card>
-                ))}
+                      <div className="mt-6 w-full flex">
+                        <Button asChild variant={"secondary"}>
+                          <Link
+                            to={`/curso/${course.id}`}
+                            className="px-4 py-2 w-full transition-colors"
+                          >
+                            Retomar
+                          </Link>
+                        </Button>
+                      </div>
+                    </Card>
+                  ))}
+                </div>
               </div>
             </div>
-          )}
-        </section>
+          </section>
+        )}
 
         {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
         <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20 mt-10">
