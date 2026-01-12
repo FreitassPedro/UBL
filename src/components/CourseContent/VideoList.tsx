@@ -1,4 +1,4 @@
-import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
+import { useCourseProgress } from "@/hooks/useCourseProgress";
 import type { MyLessonProgress } from "@/types/progress";
 import { CheckCircle, Circle } from "lucide-react";
 

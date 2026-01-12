@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -23,9 +21,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { CurriculoCC } from "@/data/GradeCurricular";
+import { useCourseProgress } from "@/hooks/useCourseProgress";
+import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import type { MyCadeiraProgress } from "@/types/progress";
-import { ChevronUp } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import { ChevronRight } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 export type WatchedCourse = MyCadeiraProgress & {
@@ -33,24 +34,44 @@ export type WatchedCourse = MyCadeiraProgress & {
   etapaNumber: number;
 };
 
-type HomeHighlightsDrawerProps = {
-  watchedCourses: WatchedCourse[];
-  sortBy: string;
-  setSortBy: (value: string) => void;
-  sortOptions: string[];
-};
+const sortOptions = ["etapas", "progresso"];
 
-export const ProgressModal: React.FC<HomeHighlightsDrawerProps> = ({
-  watchedCourses,
-  sortBy,
-  setSortBy,
-  sortOptions,
-}) => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+export const ProgressModal = () => {
+  const { completedLessons } = useCourseProgress();
+  const [sortBy, setSortBy] = useState("etapas");
+  const [isOpen, setIsDrawerOpen] = useState(false);
+
+  const watchedCourses = useMemo<WatchedCourse[]>(() => {
+    const mappedGrade = mapGradeToMyGradeProgress(
+      CurriculoCC,
+      completedLessons
+    );
+
+    const filtered = mappedGrade.etapas.flatMap((etapa) =>
+      etapa.cadeiras
+        .filter((cadeira) => cadeira.progress > 0)
+        .map((cadeira) => ({
+          ...cadeira,
+          etapaName: etapa.name,
+          etapaNumber: etapa.number,
+        }))
+    );
+
+    return [...filtered].sort((a, b) => {
+      switch (sortBy) {
+        case "etapas":
+          return a.etapaNumber - b.etapaNumber;
+        case "progresso":
+          return b.progress - a.progress;
+        default:
+          return 0;
+      }
+    });
+  }, [completedLessons, sortBy]);
 
   // Desabilita o scroll da página pai do modal
   useEffect(() => {
-    if (isDrawerOpen) {
+    if (isOpen) {
       document.body.style.overflow = "hidden";
       return () => {
         document.body.style.overflow = "";
@@ -58,26 +79,26 @@ export const ProgressModal: React.FC<HomeHighlightsDrawerProps> = ({
     }
 
     document.body.style.overflow = "";
-  }, [isDrawerOpen]);
+  }, [isOpen]);
 
   return (
     <>
-      {isDrawerOpen && (
+      {isOpen && (
         <div
           className="fixed inset-0 z-40 bg-black/60"
           onClick={() => setIsDrawerOpen(false)}
         />
       )}
-      <Collapsible open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+      <Collapsible open={isOpen} onOpenChange={setIsDrawerOpen}>
         <CollapsibleTrigger asChild>
           <button
             type="button"
-            className="cursor-pointer fixed bottom-6 left-1/2 z-[60] flex size-12 -translate-x-1/2 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-white transition hover:-translate-y-1"
-            aria-label={isDrawerOpen ? "Fechar destaques" : "Abrir destaques"}
+            className="cursor-pointer fixed left-6 top-1/2 z-60 flex size-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-white transition hover:-translate-x-1"
+            aria-label={isOpen ? "Fechar destaques" : "Abrir destaques"}
           >
-            <ChevronUp
+            <ChevronRight
               className={`size-5 transition-transform ${
-                isDrawerOpen ? "rotate-180" : ""
+                isOpen ? "rotate-180" : ""
               }`}
             />
           </button>

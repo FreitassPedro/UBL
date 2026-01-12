@@ -1,53 +1,13 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
-import {
-  ProgressModal,
-  type WatchedCourse,
-} from "@/components/Home/ProgressModal";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
-import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
-import { CurriculoCC } from "@/data/GradeCurricular";
-import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import { ArrowRight, BookOpen, Map, MessagesSquare, User } from "lucide-react";
-import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-const sortOptions = ["etapas", "progresso"];
-
 export const HomePage: React.FC = () => {
-  const { completedLessons } = useCourseProgress();
-  const [sortBy, setSortBy] = useState("etapas");
-  const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapGradeToMyGradeProgress(
-      CurriculoCC,
-      completedLessons
-    );
-
-    const filtered = mappedGrade.etapas.flatMap((etapa) =>
-      etapa.cadeiras
-        .filter((cadeira) => cadeira.progress > 0)
-        .map((cadeira) => ({
-          ...cadeira,
-          etapaName: etapa.name,
-          etapaNumber: etapa.number,
-        }))
-    );
-
-    return [...filtered].sort((a, b) => {
-      switch (sortBy) {
-        case "etapas":
-          return a.etapaNumber - b.etapaNumber;
-        case "progresso":
-          return b.progress - a.progress;
-        default:
-          return 0;
-      }
-    });
-  }, [completedLessons, sortBy]);
-
   return (
     <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
@@ -149,13 +109,6 @@ export const HomePage: React.FC = () => {
           </PinContainer>
         </div>
       </main>
-
-      <ProgressModal
-        watchedCourses={watchedCourses}
-        sortBy={sortBy}
-        setSortBy={setSortBy}
-        sortOptions={sortOptions}
-      />
 
       <section className="relative z-10 mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
