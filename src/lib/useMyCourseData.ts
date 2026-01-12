@@ -6,12 +6,17 @@ import { useMemo } from "react";
 
 export type CourseOption = 'Computacao' | 'Matematica';
 
+/**
+/* Converte curriculo de acordo com o curso selecionado e aulas assistidas
+/* @param course string
+/* @returns MyGradeProgress
+*/
 export const useMyCourseData = () => {
 
     const { completedLessons } = useCourseProgress();
 
     const computacaoProgress = useMemo(() => {
-        return mapGradeToMyGradeProgress(CurriculoCC, completedLessons  );
+        return mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
     }, [completedLessons]);
 
     const matematicaProgress = useMemo(() => {
