@@ -1,0 +1,1295 @@
+export const MatCalculoComVariavelComplexa = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "w7JIsRB6rc27I4TTGUxOhBLbGH4",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JZIw4e1IgXawPWmOAU0Rb8yV-Q8",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2020-08-13T21:05:13Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Os Números Complexos - Aula 01 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula faremos uma breve revisão sobre o conjunto dos números complexos.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)\n\nTimestamps:\n00:00 Início\n00:52 Conjunto dos números complexos\n04:04 Operações nos complexos\n26:23 Plano Complexo\n32:48 Desigualdade triangular\n43:49 Forma polar dos complexos\n\nListas de exercícios: https://drive.google.com/file/d/1_HD9QscTty7u8L58Oc3az28IuxSD0B08/view?usp=share_link",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_k1arnt1I5s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_k1arnt1I5s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_k1arnt1I5s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_k1arnt1I5s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_k1arnt1I5s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_k1arnt1I5s"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "_k1arnt1I5s",
+        "videoPublishedAt": "2020-08-18T14:08:54Z",
+        "extra": {
+          "duration": "PT59M6S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3546
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "DlqmbJWGplAp-Ya7VQiCOyuuiYY",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2020-08-14T00:32:28Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Raízes de Números Complexos - Aula 02 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula faremos uma breve revisão sobre raízes de números complexos, raízes da unidade e um pouco sobre conjuntos no plano complexo.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)\n\nTimestamps:\n00:00 Multiplicação e divisão de complexos na forma polar\n08:35 Potências inteiras de complexos\n16:29 Raízes n-ésimas de complexos\n25:45 Exemplo (i+1)^(1/4)\n32:47 Raiz 5a da unidade (z^5=1)\n40:59 Conjuntos especiais no plano complexo\n\nListas de exercícios: https://drive.google.com/file/d/1_HD9QscTty7u8L58Oc3az28IuxSD0B08/view?usp=share_link",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_6SjEzJ8j68/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_6SjEzJ8j68/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_6SjEzJ8j68/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_6SjEzJ8j68/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_6SjEzJ8j68/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_6SjEzJ8j68"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "_6SjEzJ8j68",
+        "videoPublishedAt": "2020-08-20T14:03:57Z",
+        "extra": {
+          "duration": "PT58M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3500
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8NcnYF9vfsX00u3bwbDeK9EGWlw",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2020-08-21T01:10:56Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Funções de Variável Complexa - Aula 03 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre funções de variável complexa.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)\n\nTimestamps:\n00:00 Início\n00:44 Definição de função e exemplos\n06:00 Parte real e imaginária da função\n13:45 Exponencial complexa e propriedades\n32:22 Parte real e imaginária da função na forma polar\n36:53 Representação gráfica de uma função em C\n42:07 Exemplos\n\nListas de exercícios: https://drive.google.com/file/d/1_HD9QscTty7u8L58Oc3az28IuxSD0B08/view?usp=share_link",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SbPm4xLx_aQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SbPm4xLx_aQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SbPm4xLx_aQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SbPm4xLx_aQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SbPm4xLx_aQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "SbPm4xLx_aQ"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "SbPm4xLx_aQ",
+        "videoPublishedAt": "2020-08-25T14:00:55Z",
+        "extra": {
+          "duration": "PT55M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3310
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wAR2WowjqHmg7trVWqRr2QfacZA",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2020-08-25T19:59:42Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Limites - Aula 04 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre limites para funções de variável complexa.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)\n\nListas de exercícios: https://drive.google.com/file/d/1_HD9QscTty7u8L58Oc3az28IuxSD0B08/view?usp=share_link",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G3W3xIdKi0E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G3W3xIdKi0E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G3W3xIdKi0E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G3W3xIdKi0E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G3W3xIdKi0E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G3W3xIdKi0E"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "G3W3xIdKi0E",
+        "videoPublishedAt": "2020-09-01T23:48:53Z",
+        "extra": {
+          "duration": "PT36M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2171
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "EGszsn_roZth6M3ebcbCq5Ja-4c",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2020-08-25T19:59:52Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Derivadas - Aula 05 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre derivadas de funções de variável complexa.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)\n\nListas de exercícios: https://drive.google.com/file/d/1_HD9QscTty7u8L58Oc3az28IuxSD0B08/view?usp=share_link",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dt5nCJCXgOY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dt5nCJCXgOY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dt5nCJCXgOY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dt5nCJCXgOY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dt5nCJCXgOY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dt5nCJCXgOY"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "dt5nCJCXgOY",
+        "videoPublishedAt": "2020-09-03T14:13:00Z",
+        "extra": {
+          "duration": "PT54M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3250
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8KbcSZHpXZ8JOmKGakFNpTJLSaA",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2021-08-13T01:28:00Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Analiticidade - Aula 06 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula começaremos o assunto de analiticidade.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6Ccfp4VbKUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6Ccfp4VbKUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6Ccfp4VbKUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6Ccfp4VbKUI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6Ccfp4VbKUI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6Ccfp4VbKUI"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "6Ccfp4VbKUI",
+        "videoPublishedAt": "2021-08-13T02:20:51Z",
+        "extra": {
+          "duration": "PT43M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2585
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "J3QsG-0nUu3GFwyg2dZsjohJZkk",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2021-08-19T14:59:12Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Equações de Cauchy-Riemann - Aula 07 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tPExevykzBE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tPExevykzBE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tPExevykzBE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tPExevykzBE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tPExevykzBE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "tPExevykzBE"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "tPExevykzBE",
+        "videoPublishedAt": "2021-08-19T16:24:08Z",
+        "extra": {
+          "duration": "PT1H6M59S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4019
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "U_bXTNuPjriOg9xJ-PUReyYu-Fw",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2020-09-29T10:36:34Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Funções Elementares (Parte 1) - Aula 08 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre as funções complexas logaritmo e exponencial.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9NmxxVoD_A8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9NmxxVoD_A8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9NmxxVoD_A8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9NmxxVoD_A8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9NmxxVoD_A8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "9NmxxVoD_A8"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "9NmxxVoD_A8",
+        "videoPublishedAt": "2020-09-29T14:33:52Z",
+        "extra": {
+          "duration": "PT58M35S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3515
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "RhmZCfQ3uHjzX2f5oPDHZdV7zFo",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2020-10-08T14:39:02Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Funções Elementares (Parte 2) - Aula 09 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre as funções trigonométricas complexas.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wbFsmCgpO3A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wbFsmCgpO3A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wbFsmCgpO3A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wbFsmCgpO3A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wbFsmCgpO3A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wbFsmCgpO3A"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "wbFsmCgpO3A",
+        "videoPublishedAt": "2020-10-01T14:07:15Z",
+        "extra": {
+          "duration": "PT1H26S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3626
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "P2xJNf4zQDIISUlpQHBAQW7hGaY",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2020-10-08T14:37:59Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Integração Complexa - Aula 10 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre a integração complexa.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-OmDio0gYZY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-OmDio0gYZY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-OmDio0gYZY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-OmDio0gYZY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-OmDio0gYZY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-OmDio0gYZY"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "-OmDio0gYZY",
+        "videoPublishedAt": "2020-10-13T14:17:34Z",
+        "extra": {
+          "duration": "PT1H4M45S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3885
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gBGwTfrbpnGlNGJa-Ft-w0AJeFA",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2020-10-13T14:18:24Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Teorema de Cauchy-Goursat - Aula 11 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula começaremos a falar sobre os teoremas de Cauchy para integração complexa.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vX_Tm_Tacy4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vX_Tm_Tacy4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vX_Tm_Tacy4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vX_Tm_Tacy4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vX_Tm_Tacy4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vX_Tm_Tacy4"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "vX_Tm_Tacy4",
+        "videoPublishedAt": "2020-10-13T14:26:07Z",
+        "extra": {
+          "duration": "PT1H3M30S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3810
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "D3URi1bOm-SJvPtBJiaqFLH1gt8",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2020-10-20T23:54:21Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Fórmula Integral de Cauchy - Aula 12 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula começaremos a falar sobre a fórmula integral de Cauchy.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r22Sghwn4E8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r22Sghwn4E8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r22Sghwn4E8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/r22Sghwn4E8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/r22Sghwn4E8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "r22Sghwn4E8"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "r22Sghwn4E8",
+        "videoPublishedAt": "2020-10-20T14:10:30Z",
+        "extra": {
+          "duration": "PT1H4M15S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3855
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Nwb3NzdnLwQGRviaVev4wKSb8y0",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2020-10-22T12:49:49Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Sequências e Séries - Aula 13 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre sequências e séries de números complexos.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RC7o0_P7TdU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RC7o0_P7TdU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RC7o0_P7TdU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RC7o0_P7TdU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RC7o0_P7TdU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RC7o0_P7TdU"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "RC7o0_P7TdU",
+        "videoPublishedAt": "2020-10-22T14:34:48Z",
+        "extra": {
+          "duration": "PT1H7M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4030
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NxPOO3AwZkNWkgxpzFl9X5ygmpE",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2020-10-29T17:54:56Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Série de Taylor - Aula 14 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Uma breve discussão sobre as séries de potência e séries de Taylor para funções de variável complexa. Prof. Dr. Vinicius Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_0uOEi8kndA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_0uOEi8kndA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_0uOEi8kndA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_0uOEi8kndA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_0uOEi8kndA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_0uOEi8kndA"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "_0uOEi8kndA",
+        "videoPublishedAt": "2020-10-29T17:54:10Z",
+        "extra": {
+          "duration": "PT1H14M46S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4486
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "aJOtYNYJUDDRVrz8gi76y0fUo0Y",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2020-11-06T19:50:36Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Série de Laurent - Aula 15 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e7MAukbZHyk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e7MAukbZHyk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e7MAukbZHyk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/e7MAukbZHyk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/e7MAukbZHyk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "e7MAukbZHyk"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "e7MAukbZHyk",
+        "videoPublishedAt": "2020-11-06T19:55:33Z",
+        "extra": {
+          "duration": "PT1H4M29S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3869
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YZvPnMRqOiMTczQcQZ2NnwEJ554",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2020-11-06T19:52:23Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Singularides e Pólos - Aula 16 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SobeuJJ8Ihc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SobeuJJ8Ihc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SobeuJJ8Ihc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SobeuJJ8Ihc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SobeuJJ8Ihc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "SobeuJJ8Ihc"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "SobeuJJ8Ihc",
+        "videoPublishedAt": "2020-11-06T19:57:01Z",
+        "extra": {
+          "duration": "PT50M3S",
+          "dimension": "2d",
+          "definition": "sd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3003
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nAEVD9Ns7zMJWiV4JzaB4DVIgmw",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2020-11-12T15:30:27Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Resíduos e Teorema dos Resíduos - Aula 17 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre o teorema dos resíduos de Cauchy.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LKQnzMGJ1yw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LKQnzMGJ1yw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LKQnzMGJ1yw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LKQnzMGJ1yw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LKQnzMGJ1yw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LKQnzMGJ1yw"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "LKQnzMGJ1yw",
+        "videoPublishedAt": "2020-11-12T18:18:25Z",
+        "extra": {
+          "duration": "PT1H4M15S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3855
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "py16GfeZXC_pOcjhlVVGBx7byFY",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2020-11-17T12:18:46Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Integrais Trigonométricas Reais - Aula 18 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre como usar o teorema dos resíduos para calcular integrais trigonométricas reais.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1ZLgKi0VVHI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1ZLgKi0VVHI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1ZLgKi0VVHI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1ZLgKi0VVHI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1ZLgKi0VVHI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1ZLgKi0VVHI"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "1ZLgKi0VVHI",
+        "videoPublishedAt": "2020-11-17T13:49:36Z",
+        "extra": {
+          "duration": "PT44M44S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2684
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Y8RT6MUcosGs5yZX7sWM0ytec2w",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2020-11-19T17:04:03Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Integrais Impróprias Reais - Aula 19 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre como usar o teorema dos resíduos para calcular algumas integrais impróprias reais.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r3KkRLj8cd0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r3KkRLj8cd0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r3KkRLj8cd0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/r3KkRLj8cd0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/r3KkRLj8cd0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "r3KkRLj8cd0"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "r3KkRLj8cd0",
+        "videoPublishedAt": "2020-12-01T18:03:14Z",
+        "extra": {
+          "duration": "PT50M56S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3056
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3iAaFWPcpk-gT5vtu8Rr6IcDfIQ",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2020-11-19T17:04:14Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Soma de Séries Infinitas - Aula 20 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre como usar o teorema dos resíduos para calcular a soma de algumas séries infinitas.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vtzBjHFfGlY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vtzBjHFfGlY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vtzBjHFfGlY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vtzBjHFfGlY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vtzBjHFfGlY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vtzBjHFfGlY"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "vtzBjHFfGlY",
+        "videoPublishedAt": "2020-12-01T18:03:30Z",
+        "extra": {
+          "duration": "PT59M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3551
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sNF1D5vRzYYLukotjl3LJql1SsY",
+      "id": "UExwaXpFdHJKYXRaRVVqSWdBREtkYkU2X2pHaGNYRnhodC4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2020-11-19T17:04:24Z",
+        "channelId": "UCYzluP0BMeGCT2qN0L1p-eA",
+        "title": "Invertendo a Transformada de Laplace - Aula 21 - Variável Complexa para Engenharia (FGA/UnB)",
+        "description": "Nesta aula falaremos sobre como usar o teorema dos resíduos para inverter transformadas de Laplace usando a integral do contorno de Bromwich.\n\nProf. Dr. Vinicius de Carvalho Rispoli (FGA/UnB)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bh2wx6TGh_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bh2wx6TGh_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bh2wx6TGh_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Bh2wx6TGh_M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Bh2wx6TGh_M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Função Gama",
+        "playlistId": "PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Bh2wx6TGh_M"
+        },
+        "videoOwnerChannelTitle": "Função Gama",
+        "videoOwnerChannelId": "UCYzluP0BMeGCT2qN0L1p-eA"
+      },
+      "contentDetails": {
+        "videoId": "Bh2wx6TGh_M",
+        "videoPublishedAt": "2020-12-03T14:22:10Z",
+        "extra": {
+          "duration": "PT1H5M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3920
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 21,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Cálculo com variável complexa",
+    "durationSeconds": 73526
+  }
+};

@@ -1,0 +1,4163 @@
+export const CCLinguagensFormaisAutomatos = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "BAwWD8oZcmb_GbU_rbEOOEZrQBg",
+  "nextPageToken": "EAAaHlBUOkNESWlFRGhETlVaQlJUWkNNVFkwT0RFelF6Zw",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "36QKyw3ujwvQYK_0kAL-GTEMZ70",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2021-01-26T11:53:50Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Conceitos centrais em linguagens formais e autômatos",
+        "description": "Sobre as principais definições que serão usadas durante o curso.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4zMwOozUt9U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4zMwOozUt9U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4zMwOozUt9U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4zMwOozUt9U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4zMwOozUt9U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4zMwOozUt9U"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "4zMwOozUt9U",
+        "videoPublishedAt": "2021-01-26T12:04:17Z",
+        "extra": {
+          "duration": "PT26M27S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1587
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xhvZr0SmGkRC3gfKFUZdY7CmJRY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2021-01-26T11:56:36Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Autômatos finitos determinísticos - Definições",
+        "description": "Definições de autômatos finitos determinísticos e de conceitos importantes relacionados.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0W_HK4MYKL8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0W_HK4MYKL8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0W_HK4MYKL8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0W_HK4MYKL8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0W_HK4MYKL8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0W_HK4MYKL8"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "0W_HK4MYKL8",
+        "videoPublishedAt": "2021-01-26T12:01:46Z",
+        "extra": {
+          "duration": "PT22M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1342
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "915LNdS1lkpqwdLAYX26xoqe-xg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2021-01-26T12:00:20Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Demonstrando a linguagem de um AFD",
+        "description": "Sobre como provar que um autômato finito determinístico reconhece uma certa linguagem.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Jq5AIXV2h4c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Jq5AIXV2h4c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Jq5AIXV2h4c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Jq5AIXV2h4c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Jq5AIXV2h4c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Jq5AIXV2h4c"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "Jq5AIXV2h4c",
+        "videoPublishedAt": "2021-01-26T12:12:40Z",
+        "extra": {
+          "duration": "PT29M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1794
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "b34lV050SNsdLv3woIAzKGKb5N0",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2021-01-26T12:49:53Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Linguagens regulares",
+        "description": "Definição de linguagens regulares e mais exemplos de AFDs.\n\nErrinhos: 00:03:45 O formato das cadeias que chegam no q₁ envolvem ε. A descrição deveria ser \"ω termina em 0 ou ω = ε\"\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pqfYAgt2K_E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pqfYAgt2K_E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pqfYAgt2K_E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pqfYAgt2K_E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pqfYAgt2K_E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pqfYAgt2K_E"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "pqfYAgt2K_E",
+        "videoPublishedAt": "2021-01-26T12:50:15Z",
+        "extra": {
+          "duration": "PT10M47S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 647
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hC28hS1RcYYN16p8FoIH4R6N5bo",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2021-01-31T11:12:59Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Projeto de autômatos finitos determinísticos",
+        "description": "Algumas dicas para projetar AFDs que reconhecem uma dada linguagem.\n\n00:09:20 Tem dois erros: devia ser ^δ(q₁, ω) = q₁ ⟺ ω = 0ⁿ com n ≥ 0 (ao invés de ≥ 2) e ^δ(q₁, ω) = q₃ ⟺ ω = α10 com α ∈ Σ*.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7Do1FZTGD7I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7Do1FZTGD7I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7Do1FZTGD7I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7Do1FZTGD7I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7Do1FZTGD7I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7Do1FZTGD7I"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "7Do1FZTGD7I",
+        "videoPublishedAt": "2021-01-31T11:19:43Z",
+        "extra": {
+          "duration": "PT21M19S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1279
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_Ex0R7tU5fZ9ql6CBSurLPMroyY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2021-01-31T11:21:03Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "AFDs: exercícios",
+        "description": "Exercícios com criação de AFDs para 7 linguagens.\n\nATENÇÃO! Por motivos de câimbras mentais, esse vídeo contém vários errinhos nas explicações dos formatos das cadeias em cada estado.\nSeguem as correções:\n\n00:14:45 (L₂) Copiei do exemplo anterior e errei na descrição da função. O correto seria:\nδ^(q₁, ω) = q₁ ⟺ ω não contém 00\nδ^(q₁, ω) = q₂ ⟺ ω = β0 e β não contém 00\nδ^(q₁, ω) = q₃ ⟺ ω = β00α, com α,β ∈ {0,1}*\n\n00:30:00 (L₄) Falta de atenção. O correto seria: \nδ^(q₀, ω) = q₀ ⟺ ω = α1 e α não contém 00\nδ^(q₀, ω) = q₁ ⟺ ω = α0 e α não contém 00\nδ^(q₀, ω) = q₂ ⟺ ω = α00 e α não contém 001\nδ^(q₀, ω) = q₃ ⟺ ω = α001β, α não contém 001 e β ∈ {0,1}*\n\n00:05:42 Linguagem 1\n00:09:13 Linguagem 2\n00:14:52 Linguagem 3\n00:26:07 Linguagem 4\n00:31:15 Linguagem 5\n00:38:33 Linguagem 6\n00:45:58 Linguagem 7\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eYllB2bQI4w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eYllB2bQI4w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eYllB2bQI4w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eYllB2bQI4w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eYllB2bQI4w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eYllB2bQI4w"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "eYllB2bQI4w",
+        "videoPublishedAt": "2021-01-31T11:32:49Z",
+        "extra": {
+          "duration": "PT53M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3192
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "4Uo1SMajYeo2BnUaz1GwcLjJsyM",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2021-01-31T12:18:28Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Simulando um AFD",
+        "description": "Duas formas de simular AFDs com auxílio de computadores.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G6Ypl9FbiRI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G6Ypl9FbiRI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G6Ypl9FbiRI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G6Ypl9FbiRI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G6Ypl9FbiRI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G6Ypl9FbiRI"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "G6Ypl9FbiRI",
+        "videoPublishedAt": "2021-01-31T12:20:41Z",
+        "extra": {
+          "duration": "PT7M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 474
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ms9gInuGOwHVsp94bFmhf3Xt3hw",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2021-02-03T20:58:59Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Autômatos finitos não determinísticos - Definição e ideia informal",
+        "description": "Definição de autômatos finitos não determinísticos e ideia informal de computação.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U3xswIkOu4Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U3xswIkOu4Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U3xswIkOu4Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U3xswIkOu4Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/U3xswIkOu4Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "U3xswIkOu4Q"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "U3xswIkOu4Q",
+        "videoPublishedAt": "2021-02-03T21:03:18Z",
+        "extra": {
+          "duration": "PT16M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 970
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8hYkJxi6JMXhsI3OhEXYUkS9V1g",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2021-02-03T21:00:37Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Autômatos finitos não determinísticos - Computação",
+        "description": "Formalização de computação em autômatos finitos não determinísticos e outras definições importantes.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Dw3Z_TNo-pM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Dw3Z_TNo-pM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Dw3Z_TNo-pM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Dw3Z_TNo-pM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Dw3Z_TNo-pM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Dw3Z_TNo-pM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "Dw3Z_TNo-pM",
+        "videoPublishedAt": "2021-02-03T21:06:15Z",
+        "extra": {
+          "duration": "PT17M23S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1043
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xSR34B8CvkKjUexJd6wMLq4kLRI",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2021-02-03T21:14:31Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Demonstrando a linguagem de um AFN",
+        "description": "Sobre como provar que um autômato finito não determinístico reconhece uma certa linguagem.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sq7cZ52mknA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sq7cZ52mknA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sq7cZ52mknA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sq7cZ52mknA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sq7cZ52mknA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sq7cZ52mknA"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "sq7cZ52mknA",
+        "videoPublishedAt": "2021-02-03T21:18:53Z",
+        "extra": {
+          "duration": "PT15M37S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 937
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "oCvyazj8-E7uTQB-a7W4FbuY0wg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2021-02-03T21:16:39Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "AFNs: mais exemplos",
+        "description": "Outros exemplos de projeto de AFNs.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mlaF5aT2rnE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mlaF5aT2rnE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mlaF5aT2rnE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mlaF5aT2rnE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mlaF5aT2rnE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "mlaF5aT2rnE"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "mlaF5aT2rnE",
+        "videoPublishedAt": "2021-02-03T21:19:47Z",
+        "extra": {
+          "duration": "PT16M28S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 988
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "q9K4OxzDSaFF2e0z9XNkZOehz5w",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2021-02-07T15:55:28Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "AFDs vs AFNs",
+        "description": "Sobre por que ter um segundo formalismo.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oF4KiYZU0PY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oF4KiYZU0PY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oF4KiYZU0PY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oF4KiYZU0PY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oF4KiYZU0PY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "oF4KiYZU0PY"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "oF4KiYZU0PY",
+        "videoPublishedAt": "2021-02-07T16:02:07Z",
+        "extra": {
+          "duration": "PT22M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1369
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fSjASjAH5UDFTqN0FPpqcx6_7rU",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2021-02-07T15:58:58Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Convertendo AFNs em AFDs",
+        "description": "Um exemplo do algoritmo de conversão.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/26A3H77EdEo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/26A3H77EdEo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/26A3H77EdEo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/26A3H77EdEo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/26A3H77EdEo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "26A3H77EdEo"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "26A3H77EdEo",
+        "videoPublishedAt": "2021-02-07T16:00:45Z",
+        "extra": {
+          "duration": "PT6M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 380
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SZ_QQWO4WsSFSTMx5Ikp9Xok1MY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2021-02-07T16:00:31Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Simulando um AFN",
+        "description": "Duas formas de simular AFNs com auxílio de computadores.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/L6CM99jvBIY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/L6CM99jvBIY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/L6CM99jvBIY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/L6CM99jvBIY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/L6CM99jvBIY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "L6CM99jvBIY"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "L6CM99jvBIY",
+        "videoPublishedAt": "2021-02-07T16:03:56Z",
+        "extra": {
+          "duration": "PT9M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 553
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HH-cuPET-_2IejCi6zaKo_JJjvM",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2021-02-08T16:42:18Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Operações regulares",
+        "description": "Sobre as três operações regulares e sobre propriedades de fechamento.\n\n00:05:07 Erro: a propriedade (5) devia ser (A ∪ B)C = AC ∪ BC\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PwkmIR-kCQE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PwkmIR-kCQE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PwkmIR-kCQE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PwkmIR-kCQE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PwkmIR-kCQE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "PwkmIR-kCQE"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "PwkmIR-kCQE",
+        "videoPublishedAt": "2021-02-08T16:45:36Z",
+        "extra": {
+          "duration": "PT13M37S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 817
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7Plfm7mVCiAwrJC4wz4XugyMX30",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2021-02-08T16:48:51Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "União de linguagens regulares",
+        "description": "Provando que linguagens regulares são fechadas sob a operação de união.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IDTVuqyNvNI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IDTVuqyNvNI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IDTVuqyNvNI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IDTVuqyNvNI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IDTVuqyNvNI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "IDTVuqyNvNI"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "IDTVuqyNvNI",
+        "videoPublishedAt": "2021-02-08T16:54:43Z",
+        "extra": {
+          "duration": "PT22M44S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1364
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VgsjxjWY_kkHk6ct3kHUIgSC95E",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2021-02-08T16:54:26Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "União de linguagens regulares - Outra demonstração",
+        "description": "Provando que linguagens regulares são fechadas sob a operação de união de uma outra forma.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HUgfLNiDFYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HUgfLNiDFYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HUgfLNiDFYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HUgfLNiDFYo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HUgfLNiDFYo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HUgfLNiDFYo"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "HUgfLNiDFYo",
+        "videoPublishedAt": "2021-02-08T16:56:23Z",
+        "extra": {
+          "duration": "PT6M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 382
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2NuwA3AA5xYrOjBEgemd3JwJoeE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2021-02-08T16:57:22Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Concatenação de linguagens regulares",
+        "description": "Provando que linguagens regulares são fechadas sob a operação de concatenação.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zl6oi0ayBXg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zl6oi0ayBXg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zl6oi0ayBXg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zl6oi0ayBXg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zl6oi0ayBXg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zl6oi0ayBXg"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "zl6oi0ayBXg",
+        "videoPublishedAt": "2021-02-08T16:58:48Z",
+        "extra": {
+          "duration": "PT6M43S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 403
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5eHKiCVTgOGulyu35pC5COncIW8",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2021-02-08T17:00:23Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Estrela de uma linguagem regular",
+        "description": "Provando que linguagens regulares são fechadas sob a operação de estrela.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OEevDk1u-G4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OEevDk1u-G4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OEevDk1u-G4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OEevDk1u-G4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OEevDk1u-G4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "OEevDk1u-G4"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "OEevDk1u-G4",
+        "videoPublishedAt": "2021-02-08T17:02:37Z",
+        "extra": {
+          "duration": "PT9M38S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 578
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "m6bSaNf_v_mILwuJsHQ0vYSQihE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2021-02-08T17:03:12Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Algoritmos para construção de autômatos por união, concatenação e estrela",
+        "description": "Sobre como construir um autômato para uma linguagem que é união/concatenação/estrela de outras a partir dos autômatos para essas outras.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gLmt0O35Ohc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gLmt0O35Ohc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gLmt0O35Ohc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gLmt0O35Ohc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gLmt0O35Ohc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gLmt0O35Ohc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "gLmt0O35Ohc",
+        "videoPublishedAt": "2021-02-08T17:03:27Z",
+        "extra": {
+          "duration": "PT7M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 470
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "I5JiGlptr6zCMO1MIH6Pplr4cLA",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2021-02-11T12:35:19Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Expressões regulares",
+        "description": "Definição de expressões regulares com apenas três operações: união, concatenação e estrela.\n\n00:14:35 Erro: a propriedade (5) devia ser (A ∪ B)C = AC ∪ BC\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7kqrQJB-rqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7kqrQJB-rqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7kqrQJB-rqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7kqrQJB-rqU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7kqrQJB-rqU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7kqrQJB-rqU"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "7kqrQJB-rqU",
+        "videoPublishedAt": "2021-02-11T12:38:31Z",
+        "extra": {
+          "duration": "PT16M6S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 966
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "lDs37M8VvqU_Xw4naFZ-JSwdbJg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2021-02-11T12:38:15Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Expressões regulares: mais exemplos",
+        "description": "Exemplos de expressões regulares.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DFbnZYts3NI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DFbnZYts3NI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DFbnZYts3NI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DFbnZYts3NI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DFbnZYts3NI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "DFbnZYts3NI"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "DFbnZYts3NI",
+        "videoPublishedAt": "2021-02-11T12:39:32Z",
+        "extra": {
+          "duration": "PT4M41S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 281
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZtvuDzml2A27ZKDs8VKHaK0xFZI",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2021-02-11T12:39:55Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Projeto de expressões regulares",
+        "description": "Exercícios de construção de expressões regulares.\n\nATENÇÃO!!! A expressão correta no minuto 00:15:52 é 1*(01*01*01*)*, uma vez que precisamos gerar cadeias contendo apenas o número 1.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CsGl3vtKuhM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CsGl3vtKuhM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CsGl3vtKuhM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CsGl3vtKuhM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CsGl3vtKuhM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CsGl3vtKuhM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "CsGl3vtKuhM",
+        "videoPublishedAt": "2021-02-11T12:43:54Z",
+        "extra": {
+          "duration": "PT17M58S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1078
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iXgl7m_He--j7mZiYQvBJ-p3mAI",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2021-02-15T12:55:28Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Toda expressão regular descreve uma linguagem regular",
+        "description": "Provando que o conjunto das linguagens descritas por expressões regulares está contido no conjunto das linguagens regulares.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xucVaM2FubQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xucVaM2FubQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xucVaM2FubQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xucVaM2FubQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xucVaM2FubQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xucVaM2FubQ"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "xucVaM2FubQ",
+        "videoPublishedAt": "2021-02-15T12:56:48Z",
+        "extra": {
+          "duration": "PT7M51S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 471
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Pn09FnURNwGO3cV8QqF0QVXbCwY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2021-02-15T12:57:54Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Transformando uma expressão regular em um AFN",
+        "description": "Mais sobre o algoritmo de transformação de ERs para AFNs contido na demonstração de que toda ER descreve uma linguagem regular.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uypUSVRzyEQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uypUSVRzyEQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uypUSVRzyEQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uypUSVRzyEQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uypUSVRzyEQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "uypUSVRzyEQ"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "uypUSVRzyEQ",
+        "videoPublishedAt": "2021-02-15T12:58:44Z",
+        "extra": {
+          "duration": "PT8M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 519
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "B5hRsv6Z5pA2aThraTu8zk1Gzx8",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2021-02-15T12:59:55Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Toda linguagem regular é descrita por uma expressão regular",
+        "description": "Provando que o conjunto das linguagens regulares está contido no conjunto das linguagens que são descritas por expressões regulares.\n⬇⬇ ATENÇÃO!!! ⬇⬇\n\nNo início da execução, eu errei na cópia de um rótulo, o que faz os rótulos posteriores ficarem errados e, por consequência, o rótulo final.\nA menos disso, a execução do algoritmo está correta.\n\nO erro:\n00:22:28 O rótulo do q₁ para o q₂ deveria ser 1 e não ∅. Com isso, o novo rótulo de q₃ para q₂ é 0*1.\n\nO rótulo final correto:\n(0* ∪ 0*1+)   ∪   (0*1+(0∪1))+ (0* ∪ 0*1+)\n\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G_wngjI8EWk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G_wngjI8EWk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G_wngjI8EWk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G_wngjI8EWk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G_wngjI8EWk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G_wngjI8EWk"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "G_wngjI8EWk",
+        "videoPublishedAt": "2021-02-15T13:05:06Z",
+        "extra": {
+          "duration": "PT31M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1865
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dzZ5Xx8CHhcb7wHZGS7lexetDkw",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "snippet": {
+        "publishedAt": "2021-02-15T13:04:29Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Transformando um AFN em uma expressão regular",
+        "description": "Mais sobre o algoritmo de transformação de AFNs para ERs contido na demonstração de que toda linguagem regular pode ser descrita por uma ER.\n⬇⬇⬇ ATENÇÃO!!! ⬇⬇⬇⬇\n\nNovamente, consegui errar na cópia de dois rótulos logo no início, na execução do segundo exemplo 😢\n\n00:04:25 O rótulo do laço no estado 2 é b e eu coloquei a.\nCom isso, após a remoção do estado 1, o rótulo que vai do 2 para o 3 é \"a ∪ ab\" e o rótulo do laço no 2 é \"b ∪ aa\"\n\n00:04:55 O rótulo do estado 1 para o estado 3 é b e eu coloquei ∅.\nAssim, após a remoção do estado 1, há ainda uma transição indo do estado 2 para o 3 com rótulo ab\n\nComo apareceram vários ∅ onde deveriam ter símbolos, muitas expressões foram aniquiladas.\nO resultado final é mais \"monstruoso\" do que o do vídeo:\na(b ∪ aa)*    ∪    (b ∪ a(b∪aa)*ab) (bb ∪ (a∪ba)(b∪aa)*ab)* (ε ∪ (a∪ba)(b∪aa)*)\n\n\n\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gn2DlgSGkrU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gn2DlgSGkrU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gn2DlgSGkrU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gn2DlgSGkrU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gn2DlgSGkrU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gn2DlgSGkrU"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "gn2DlgSGkrU",
+        "videoPublishedAt": "2021-02-15T13:06:16Z",
+        "extra": {
+          "duration": "PT9M27S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 567
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "d62d7HGngLWonA-kBdNygKJIHD4",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yQUE2Q0JEMTk4NTM3RTZC",
+      "snippet": {
+        "publishedAt": "2021-02-23T14:53:19Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Discussão sobre AFDs e o Princípio da Casa dos Pombos",
+        "description": "Algumas observações que serão úteis nos próximos vídeos.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sTV3dN-KAq0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sTV3dN-KAq0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sTV3dN-KAq0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sTV3dN-KAq0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sTV3dN-KAq0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sTV3dN-KAq0"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "sTV3dN-KAq0",
+        "videoPublishedAt": "2021-02-23T14:56:14Z",
+        "extra": {
+          "duration": "PT20M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1220
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8IK_SEKWoM6SiUpkc0aJ-U19SLA",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DMkU4NTY1QUFGQTYwMDE3",
+      "snippet": {
+        "publishedAt": "2021-02-23T15:42:15Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Lema do bombeamento para linguagens regulares",
+        "description": "O que é o lema e por que ele vale.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wVMmMtPSAFc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wVMmMtPSAFc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wVMmMtPSAFc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wVMmMtPSAFc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wVMmMtPSAFc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wVMmMtPSAFc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "wVMmMtPSAFc",
+        "videoPublishedAt": "2021-02-23T15:44:03Z",
+        "extra": {
+          "duration": "PT9M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 579
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8VyD6fFc_8hThlVJf-GAER19KtE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC44Mjc5REFBRUE2MTdFRDU0",
+      "snippet": {
+        "publishedAt": "2021-02-23T15:43:07Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Usando o lema do bombeamento para linguagens regulares",
+        "description": "Provando que algumas linguagens não são regulares.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dpfYv39dZfY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dpfYv39dZfY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dpfYv39dZfY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dpfYv39dZfY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dpfYv39dZfY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dpfYv39dZfY"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "dpfYv39dZfY",
+        "videoPublishedAt": "2021-02-23T15:49:56Z",
+        "extra": {
+          "duration": "PT30M43S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1843
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Win-_2_17IOcRqFR6AGZoh5c-cU",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC43NDhFRTgwOTRERTU4Rjg3",
+      "snippet": {
+        "publishedAt": "2021-02-23T16:17:16Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Erros ao usar o lema do bombeamento para linguagens regulares",
+        "description": "Alguns erros que podem surgir ao usar o lema do bombeamento.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Cqk4LzrMs8g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Cqk4LzrMs8g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Cqk4LzrMs8g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Cqk4LzrMs8g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Cqk4LzrMs8g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Cqk4LzrMs8g"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "Cqk4LzrMs8g",
+        "videoPublishedAt": "2021-02-23T16:20:42Z",
+        "extra": {
+          "duration": "PT14M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 860
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "mrVh-JHhuyjFA6ax19l2ccXY-js",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41QUZGQTY5OTE4QTREQUU4",
+      "snippet": {
+        "publishedAt": "2021-02-23T16:37:09Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Linguagens regulares: o fim!",
+        "description": "Discussão final sobre linguagens regulares.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xP_J570j7pM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xP_J570j7pM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xP_J570j7pM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xP_J570j7pM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xP_J570j7pM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xP_J570j7pM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "xP_J570j7pM",
+        "videoPublishedAt": "2021-02-23T16:42:36Z",
+        "extra": {
+          "duration": "PT7M57S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 477
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "AQAY71dtKqhS3hSwJTGyNkAW8Rg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zRDBDOEZDOUM0MDY5NEEz",
+      "snippet": {
+        "publishedAt": "2021-03-02T00:42:09Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Gramáticas livres de contexto",
+        "description": "Sobre outro formalismo para descrever linguagens, as gramáticas.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W88XbH2e4_w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W88XbH2e4_w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W88XbH2e4_w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/W88XbH2e4_w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/W88XbH2e4_w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "W88XbH2e4_w"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "W88XbH2e4_w",
+        "videoPublishedAt": "2021-03-02T00:52:04Z",
+        "extra": {
+          "duration": "PT25M7S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1507
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nK8aVHohVFOs1GNef0jiW2-vmIo",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5CMEQ2Mjk5NTc3NDZFRUNB",
+      "snippet": {
+        "publishedAt": "2021-03-02T00:59:23Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Demonstrando a linguagem de uma GLC",
+        "description": "Sobre como provar que uma gramática livre de contexto gera uma certa linguagem.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JMh9wfZuiYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JMh9wfZuiYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JMh9wfZuiYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JMh9wfZuiYE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JMh9wfZuiYE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JMh9wfZuiYE"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "JMh9wfZuiYE",
+        "videoPublishedAt": "2021-03-02T01:03:05Z",
+        "extra": {
+          "duration": "PT10M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 613
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7zNche44A9ZwEyQnLpJ7Ky9AsSQ",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC42MTI4Njc2QjM1RjU1MjlG",
+      "snippet": {
+        "publishedAt": "2021-03-02T01:17:56Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Linguagens livres de contexto",
+        "description": "Definição de linguagens livres de contexto e sua relação com as linguagens regulares.\n\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6G-da97ROw4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6G-da97ROw4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6G-da97ROw4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6G-da97ROw4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6G-da97ROw4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6G-da97ROw4"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "6G-da97ROw4",
+        "videoPublishedAt": "2021-03-02T01:17:56Z",
+        "extra": {
+          "duration": "PT14M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 852
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "nFJZp4Rpf-1cAwrDyjwc7CyF604",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45RjNFMDhGQ0Q2RkFCQTc1",
+      "snippet": {
+        "publishedAt": "2021-03-02T01:21:08Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "GLCs: mais exemplos (parte 1)",
+        "description": "Exemplos de exercícios do tipo \"Dada uma gramática, qual linguagem ela gera?\"\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nFosAsJ1ymo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nFosAsJ1ymo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nFosAsJ1ymo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nFosAsJ1ymo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nFosAsJ1ymo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 35,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "nFosAsJ1ymo"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "nFosAsJ1ymo",
+        "videoPublishedAt": "2021-03-02T01:28:59Z",
+        "extra": {
+          "duration": "PT38M16S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2296
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "K6G-r-MFShQbFUXgywZcSlwUySM",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC40QTA3NTU2RkM1QzlCMzYx",
+      "snippet": {
+        "publishedAt": "2021-03-02T01:26:27Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "GLCs: mais exemplos (parte 2)",
+        "description": "Exemplos de exercícios do tipo \"Dada uma linguagem, qual gramática a gera?\"\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/egWpcPXe1ak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/egWpcPXe1ak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/egWpcPXe1ak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/egWpcPXe1ak/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/egWpcPXe1ak/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 36,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "egWpcPXe1ak"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "egWpcPXe1ak",
+        "videoPublishedAt": "2021-03-02T01:32:57Z",
+        "extra": {
+          "duration": "PT26M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1585
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "lm513BjU7ZKq4JedeaR1WqDwEV0",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5BRjJDODk5REM0NjkzMUIy",
+      "snippet": {
+        "publishedAt": "2021-03-02T12:43:24Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Autômatos com pilha",
+        "description": "Definição de autômatos com pilha e de como é feita a computação nesse novo formalismo.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-rfslM7ouzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-rfslM7ouzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-rfslM7ouzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-rfslM7ouzY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-rfslM7ouzY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 37,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-rfslM7ouzY"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "-rfslM7ouzY",
+        "videoPublishedAt": "2021-03-02T12:50:35Z",
+        "extra": {
+          "duration": "PT30M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1832
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_arRJMstklFE1qHZ2iz7tZ3zi_Q",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4xOTEzQzhBQzU3MDNDNjcz",
+      "snippet": {
+        "publishedAt": "2021-03-02T12:45:53Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "APs: mais exemplos",
+        "description": "Outros exemplos de projeto de APs.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wXtbxHn81mQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wXtbxHn81mQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wXtbxHn81mQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wXtbxHn81mQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wXtbxHn81mQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 38,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wXtbxHn81mQ"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "wXtbxHn81mQ",
+        "videoPublishedAt": "2021-03-02T13:13:46Z",
+        "extra": {
+          "duration": "PT21M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1292
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "M9lxB4DslqPr99apARqOQ_MoCSc",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5GNDg1Njc1QzZERjlFRjE5",
+      "snippet": {
+        "publishedAt": "2021-03-07T18:18:20Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "GLCs vs. APs",
+        "description": "Sobre como transformar um formalismo em outro.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bV7emJ2kDuc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bV7emJ2kDuc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bV7emJ2kDuc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bV7emJ2kDuc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bV7emJ2kDuc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 39,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bV7emJ2kDuc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "bV7emJ2kDuc",
+        "videoPublishedAt": "2021-03-07T18:21:06Z",
+        "extra": {
+          "duration": "PT19M15S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1155
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HLWjGmya3fS0IllPfP60gaAX6uc",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zQzFBN0RGNzNFREFCMjBE",
+      "snippet": {
+        "publishedAt": "2021-03-07T18:23:46Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Simulando GLCs e APs",
+        "description": "Uma forma de usar GLCs e APs com auxílio de computadores.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3EqWy6rQAgE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3EqWy6rQAgE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3EqWy6rQAgE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3EqWy6rQAgE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3EqWy6rQAgE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 40,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3EqWy6rQAgE"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "3EqWy6rQAgE",
+        "videoPublishedAt": "2021-03-07T18:24:01Z",
+        "extra": {
+          "duration": "PT4M17S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 257
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0NT7GEWN0sl9-vgbXGvDLdsqkak",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC45NkVENTkxRDdCQUFBMDY4",
+      "snippet": {
+        "publishedAt": "2021-03-07T19:13:56Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Propriedades das linguagens livres de contexto",
+        "description": "Propriedades de fechamento das LLCs.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kjlx1nnFGOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kjlx1nnFGOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kjlx1nnFGOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kjlx1nnFGOM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kjlx1nnFGOM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 41,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kjlx1nnFGOM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "kjlx1nnFGOM",
+        "videoPublishedAt": "2021-03-07T19:16:10Z",
+        "extra": {
+          "duration": "PT14M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 890
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cdDeqmMKRcxeCaFtFpb9IWuKoBY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DNkMwRUI2MkI4QkI4NDFG",
+      "snippet": {
+        "publishedAt": "2021-03-07T19:29:52Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Discussão sobre GLCs",
+        "description": "Algumas observações que serão úteis nos próximos vídeos.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EtDUzu-ghy0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EtDUzu-ghy0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EtDUzu-ghy0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EtDUzu-ghy0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EtDUzu-ghy0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 42,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EtDUzu-ghy0"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "EtDUzu-ghy0",
+        "videoPublishedAt": "2021-03-07T19:33:31Z",
+        "extra": {
+          "duration": "PT15M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 925
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "q_gmYMtMwL4AXzC5m6o7oPbSD5g",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5DRUQwODMxQzUyRTlGRkY3",
+      "snippet": {
+        "publishedAt": "2021-03-07T19:42:42Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Lema do bombeamento para linguagens livres de contexto",
+        "description": "O que é o lema e por que ele vale.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ByQcwPhSuI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ByQcwPhSuI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ByQcwPhSuI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ByQcwPhSuI0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ByQcwPhSuI0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 43,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ByQcwPhSuI0"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "ByQcwPhSuI0",
+        "videoPublishedAt": "2021-03-07T19:46:07Z",
+        "extra": {
+          "duration": "PT10M58S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 658
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9uTfb6qkXAS_s62v_q7AlEDca90",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41MzY4MzcwOUFFRUU3QzEx",
+      "snippet": {
+        "publishedAt": "2021-03-07T19:52:19Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Usando o lema do bombeamento para linguagens livres de contexto",
+        "description": "Provando que algumas linguagens não são livres de contexto.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NbORqnOM5k8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NbORqnOM5k8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NbORqnOM5k8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NbORqnOM5k8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NbORqnOM5k8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 44,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NbORqnOM5k8"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "NbORqnOM5k8",
+        "videoPublishedAt": "2021-03-07T19:57:25Z",
+        "extra": {
+          "duration": "PT21M21S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1281
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7IGyTAqYFcQebLXXcBH6kzjxlCM",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yQjZFRkExQjFGODk3RUFD",
+      "snippet": {
+        "publishedAt": "2021-03-07T19:55:35Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Linguagens livres de contexto: o fim!",
+        "description": "Discussão final sobre linguagens livres de contexto.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7-ABbECfErM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7-ABbECfErM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7-ABbECfErM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7-ABbECfErM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7-ABbECfErM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 45,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7-ABbECfErM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "7-ABbECfErM",
+        "videoPublishedAt": "2021-03-07T20:08:40Z",
+        "extra": {
+          "duration": "PT4M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 250
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KP2bPlEHTwp-YiuKzB7jtTnwQ2Q",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4yQUJFNUVCMzVDNjcxRTlF",
+      "snippet": {
+        "publishedAt": "2021-03-24T01:02:44Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Introdução a máquinas de Turing",
+        "description": "Discussão informal sobre máquinas de Turing.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5ffHAXG0CE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5ffHAXG0CE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5ffHAXG0CE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5ffHAXG0CE4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5ffHAXG0CE4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 46,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5ffHAXG0CE4"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "5ffHAXG0CE4",
+        "videoPublishedAt": "2020-05-12T10:13:12Z",
+        "extra": {
+          "duration": "PT22M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1333
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ha5Z2zFlJlx2R860DdFlkDQ-Dt4",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC40QzRDOEU0QUYwNUIxN0M1",
+      "snippet": {
+        "publishedAt": "2021-03-24T01:05:04Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Máquinas de Turing",
+        "description": "Definição formal e classes de linguagem envolvidas com máquinas de Turing.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KDiDPHR0eEk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KDiDPHR0eEk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KDiDPHR0eEk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KDiDPHR0eEk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KDiDPHR0eEk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 47,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KDiDPHR0eEk"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "KDiDPHR0eEk",
+        "videoPublishedAt": "2021-03-24T01:09:59Z",
+        "extra": {
+          "duration": "PT24M33S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1473
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "zydIvp0m2EUBmZqtb3LSF4VCCOM",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41RTNBREYwMkI5QzU3RkY2",
+      "snippet": {
+        "publishedAt": "2021-03-24T01:08:04Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Mais exemplos de máquinas de Turing",
+        "description": "Mais exemplos com diagramas de máquinas de Turing.\n\nAtenção!!!!!! Existem dois erros neste vídeo!!!\n\nO primeiro, em 00:18:20 : a cadeia vazia *não* pertence a essa linguagem, já que 2⁰ = 1. A menor cadeia dessa linguagem é o O mesmo.\n\nO segundo já é mais grave e aparece no diagrama do minuto 00:42:15 -  ele não é determinístico!\nMas DON'T PANIC! Isso é facilmente corrigível: a transição entre p₃ e p₅ não existe e deve haver uma transição do p₄ para o p₅ com os rótulos 1∙ ⟶ 1,D e 0∙ ⟶ 0,D (no p₄, ler um símbolo marcado significa estar olhando para o primeiro símbolo da segunda metade e por isso já começamos desmarcando este símbolo, para poder seguir desmarcando os outros no p₅).\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wNBWJdh5WOY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wNBWJdh5WOY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wNBWJdh5WOY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wNBWJdh5WOY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wNBWJdh5WOY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 48,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wNBWJdh5WOY"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "wNBWJdh5WOY",
+        "videoPublishedAt": "2021-03-24T01:20:22Z",
+        "extra": {
+          "duration": "PT47M6S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2826
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "kvSoCQS-Wv_k6yxTpiRELFTQNhQ",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5ENjI1QUI0MDI5NEQzODFE",
+      "snippet": {
+        "publishedAt": "2021-03-24T01:10:18Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Variantes de máquinas de Turing",
+        "description": "Outras variações clássicas e sobre como elas são equivalentes entre si.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pyVGeqcz8Bc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pyVGeqcz8Bc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pyVGeqcz8Bc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pyVGeqcz8Bc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pyVGeqcz8Bc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 49,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pyVGeqcz8Bc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "pyVGeqcz8Bc",
+        "videoPublishedAt": "2020-05-18T20:59:00Z",
+        "extra": {
+          "duration": "PT15M37S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 937
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QePrjxzq71_8iEIwvZDZXbCQTBg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC44QzVGQUU2QjE2NDgxM0M4",
+      "snippet": {
+        "publishedAt": "2021-03-24T22:55:53Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Descrevendo máquinas de Turing",
+        "description": "Sobre níveis de abstração das descrições e mais exemplos.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YA_B0HOTb6Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YA_B0HOTb6Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YA_B0HOTb6Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YA_B0HOTb6Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YA_B0HOTb6Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 50,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "YA_B0HOTb6Q"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "YA_B0HOTb6Q",
+        "videoPublishedAt": "2020-05-18T20:59:05Z",
+        "extra": {
+          "duration": "PT20M21S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1221
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cmGNPpXfahplze0HqD-wvM9-MCk",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4xMzgwMzBERjQ4NjEzNUE5",
+      "snippet": {
+        "publishedAt": "2021-03-24T22:59:57Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Tudo é cadeia",
+        "description": "Sobre como máquinas de Turing podem manipular qualquer objeto.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q-eqDYic8kk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q-eqDYic8kk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q-eqDYic8kk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/q-eqDYic8kk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/q-eqDYic8kk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 51,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "q-eqDYic8kk"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "q-eqDYic8kk",
+        "videoPublishedAt": "2020-05-18T20:59:10Z",
+        "extra": {
+          "duration": "PT11M28S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 688
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "4cBmDFpFNd0hJb9fvZZO_fyvZl4",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zMEQ1MEIyRTFGNzhDQzFB",
+      "snippet": {
+        "publishedAt": "2021-03-25T00:02:51Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "A tese Church-Turing",
+        "description": "A relação entre algoritmos e máquinas de Turing.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FvBii2K7DtM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FvBii2K7DtM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FvBii2K7DtM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FvBii2K7DtM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FvBii2K7DtM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 52,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FvBii2K7DtM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "FvBii2K7DtM",
+        "videoPublishedAt": "2021-03-25T00:06:45Z",
+        "extra": {
+          "duration": "PT13M16S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 796
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Eob2lZdwlxvcReNPyRKMwAnhfP0",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC42Qzk5MkEzQjVFQjYwRDA4",
+      "snippet": {
+        "publishedAt": "2021-03-25T00:24:03Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Máquinas de Turing e computadores",
+        "description": "Sobre a capacidade computacional dos computadores de hoje.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HPpOOQuHcVU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HPpOOQuHcVU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HPpOOQuHcVU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HPpOOQuHcVU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HPpOOQuHcVU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 53,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HPpOOQuHcVU"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "HPpOOQuHcVU",
+        "videoPublishedAt": "2021-03-25T00:25:47Z",
+        "extra": {
+          "duration": "PT8M43S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 523
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9-1jrUvNMQ2OWTGoDqgxIMr4cDE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41NTZEOThBNThFOUVGQkVB",
+      "snippet": {
+        "publishedAt": "2021-03-28T17:15:42Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Decidibilidade",
+        "description": "Mais problemas Turing-decidíveis.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E5TIyO_nUF0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E5TIyO_nUF0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E5TIyO_nUF0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/E5TIyO_nUF0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/E5TIyO_nUF0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 54,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "E5TIyO_nUF0"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "E5TIyO_nUF0",
+        "videoPublishedAt": "2020-05-18T20:59:26Z",
+        "extra": {
+          "duration": "PT26M40S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1600
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vqFWOfNoqFAHCaJ3ub5uAkmDsKc",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC43NERCMDIzQzFBMERCMEE3",
+      "snippet": {
+        "publishedAt": "2021-03-28T17:16:28Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "O problema da parada",
+        "description": "Um dos clássicos na computação.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SgzrgOMf5Ts/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SgzrgOMf5Ts/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SgzrgOMf5Ts/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SgzrgOMf5Ts/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SgzrgOMf5Ts/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 55,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "SgzrgOMf5Ts"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "SgzrgOMf5Ts",
+        "videoPublishedAt": "2020-05-18T20:59:31Z",
+        "extra": {
+          "duration": "PT13M53S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 833
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "mlkQODk3eLqXoj41mU5MkQt2b0U",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5GNjAwN0Y0QTFGOTVDMEMy",
+      "snippet": {
+        "publishedAt": "2021-03-28T18:33:05Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "O método da diagonalização",
+        "description": "Sobre essa técnica para mostrar que existem infinitos infinitos.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YsLNFs-Cr8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YsLNFs-Cr8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YsLNFs-Cr8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YsLNFs-Cr8U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YsLNFs-Cr8U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 56,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "YsLNFs-Cr8U"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "YsLNFs-Cr8U",
+        "videoPublishedAt": "2021-03-28T18:37:54Z",
+        "extra": {
+          "duration": "PT28M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1711
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "BLyAm1MnHsYnYIWEoM0HgrdbgQw",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5CQkEwRDA0MDkwNUM2MDY1",
+      "snippet": {
+        "publishedAt": "2021-03-28T18:43:18Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Os limites da computação",
+        "description": "Sobre a conclusão do diagrama das classes de linguagens.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hdRch9DQ19s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hdRch9DQ19s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hdRch9DQ19s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hdRch9DQ19s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hdRch9DQ19s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 57,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hdRch9DQ19s"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "hdRch9DQ19s",
+        "videoPublishedAt": "2020-05-25T23:47:17Z",
+        "extra": {
+          "duration": "PT27M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1669
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "54j6Yu5ughkpjZbuvp0RofvnjIo",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4wNEU1MTI4NkZEMzVBN0JF",
+      "snippet": {
+        "publishedAt": "2021-03-28T19:16:48Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Introdução à redutibilidade",
+        "description": "Sobre o que é redução de uma maneira informal e com exemplos já vistos.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-TSInYiLUPQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-TSInYiLUPQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-TSInYiLUPQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-TSInYiLUPQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-TSInYiLUPQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 58,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-TSInYiLUPQ"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "-TSInYiLUPQ",
+        "videoPublishedAt": "2020-05-25T23:47:48Z",
+        "extra": {
+          "duration": "PT29M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1789
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JIu9i0i31NgiG7vmYdF1JNWUNvE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4wMTYxQzVBRDI1NEVDQUZE",
+      "snippet": {
+        "publishedAt": "2021-03-28T19:27:16Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Redução",
+        "description": "Formalizando o conceito de redução.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xf7RnwOOGEc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xf7RnwOOGEc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xf7RnwOOGEc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Xf7RnwOOGEc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Xf7RnwOOGEc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 59,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Xf7RnwOOGEc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "Xf7RnwOOGEc",
+        "videoPublishedAt": "2020-05-26T01:36:45Z",
+        "extra": {
+          "duration": "PT19M19S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1159
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "uKJrPG3NOr6Rw44CMWQv1UaJQAo",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4zMUEyMkQwOTk0NTg4MDgw",
+      "snippet": {
+        "publishedAt": "2021-03-28T19:45:21Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Exemplos de redução (indecidibilidade)",
+        "description": "Provando que coisas são indecidíveis por meio de redução.\n\n00:30:00 Erro! A definição de gramática ambígua é \"para uma mesma cadeia, existem pelo menos duas árvores sintáticas diferentes que a geram\".\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6lY9buXaYtA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6lY9buXaYtA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6lY9buXaYtA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6lY9buXaYtA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6lY9buXaYtA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 60,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6lY9buXaYtA"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "6lY9buXaYtA",
+        "videoPublishedAt": "2020-05-26T01:42:52Z",
+        "extra": {
+          "duration": "PT31M9S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1869
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "rDoNwmJ31Mw-jNesmVHdSlHWH34",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC42QzdBMzlBQzQzRjQ0QkQy",
+      "snippet": {
+        "publishedAt": "2021-03-28T19:52:04Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Exemplos de redução (irreconhecibilidade)",
+        "description": "Provando que coisas são irreconhecíveis por meio de redução.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T5erQ1LsiuA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T5erQ1LsiuA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T5erQ1LsiuA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/T5erQ1LsiuA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/T5erQ1LsiuA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 61,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "T5erQ1LsiuA"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "T5erQ1LsiuA",
+        "videoPublishedAt": "2020-05-26T01:40:01Z",
+        "extra": {
+          "duration": "PT12M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 724
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "F91Lo5adOe_MnCzWV1yzJwEokuY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC41OURENDc2NEM1MDI5Mjky",
+      "snippet": {
+        "publishedAt": "2021-03-28T20:21:39Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Tempo de execução",
+        "description": "Sobre qual é o tempo de execução de uma máquina de Turing.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/huIXTpLSQ9o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/huIXTpLSQ9o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/huIXTpLSQ9o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/huIXTpLSQ9o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/huIXTpLSQ9o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 62,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "huIXTpLSQ9o"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "huIXTpLSQ9o",
+        "videoPublishedAt": "2020-06-01T19:59:09Z",
+        "extra": {
+          "duration": "PT33M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2034
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Mtx743DJ7hspOlKzFQribUXubOg",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4wRjhFM0MxMTU1MEUzQ0VB",
+      "snippet": {
+        "publishedAt": "2021-03-28T20:32:32Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Notação assintótica",
+        "description": "Sobre como comparar tempos de forma mais simples.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U1e0cTZ17Do/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U1e0cTZ17Do/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U1e0cTZ17Do/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U1e0cTZ17Do/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/U1e0cTZ17Do/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 63,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "U1e0cTZ17Do"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "U1e0cTZ17Do",
+        "videoPublishedAt": "2020-06-01T19:59:35Z",
+        "extra": {
+          "duration": "PT16M48S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1008
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5et2E_ewN06xLpQ6XsrjEHuFtJk",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5CNTZFOTNGQzZEODg1RUQx",
+      "snippet": {
+        "publishedAt": "2021-03-28T20:52:02Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Tempos nos diferentes modelos de computação",
+        "description": "Os diferentes modelos de máquinas de Turing são equivalentes em termos do que pode ser computado, mas não em termos de tempo.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JAurTOiZZkM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JAurTOiZZkM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JAurTOiZZkM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JAurTOiZZkM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JAurTOiZZkM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 64,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JAurTOiZZkM"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "JAurTOiZZkM",
+        "videoPublishedAt": "2020-06-01T19:59:53Z",
+        "extra": {
+          "duration": "PT17M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1059
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NXcV-aCpJ46zq4NDn7ARzcCDDFE",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5CNTcxMDQ0NThBNzMxODYz",
+      "snippet": {
+        "publishedAt": "2021-03-28T21:08:15Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "As classes P e NP",
+        "description": "Aquelas, do problema do milênio.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jvaNawcnvdU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jvaNawcnvdU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jvaNawcnvdU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jvaNawcnvdU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jvaNawcnvdU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 65,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jvaNawcnvdU"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "jvaNawcnvdU",
+        "videoPublishedAt": "2020-06-01T20:00:21Z",
+        "extra": {
+          "duration": "PT30M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1854
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hxNbfJNm0Ls7ujIUsVh-utSDXpY",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC5ERkUyQTM0MzEwQjZCMTY5",
+      "snippet": {
+        "publishedAt": "2021-03-28T21:23:51Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Problemas NP-completos",
+        "description": "Sobre os problemas mais difíceis em NP.\n\n========================#=======================\nEste conteúdo é dado na disciplina MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A78N4u0vHDc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A78N4u0vHDc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A78N4u0vHDc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/A78N4u0vHDc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/A78N4u0vHDc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 66,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "A78N4u0vHDc"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "A78N4u0vHDc",
+        "videoPublishedAt": "2020-06-01T20:00:49Z",
+        "extra": {
+          "duration": "PT9M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 590
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TmCrfc3FBEXDOCHLIrnQRwuFa-k",
+      "id": "UExuY0VkdlEyMC1taERfcU1lTEh0TG5BM1hEVDFGcl9rNC4xM0YyM0RDNDE4REQ1NDA0",
+      "snippet": {
+        "publishedAt": "2021-03-29T13:32:27Z",
+        "channelId": "UCYJv-TfmSU0xUuKI7N0zkJw",
+        "title": "Um problema NP-completo",
+        "description": "Prova de que o problema CLIQUE é NP-completo.\n\n========================#=======================\nEste conteúdo é dado nas disciplinas MCTA003-17 (Análise de algoritmos, graduação), CCM-001 (Análise de algoritmos e estruturas de dados, pós-graduação) e MCTA015-13 (Linguagens Formais e Automata).\n\nMinha página: http://professor.ufabc.edu.br/~carla.negri",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tMCWr3a-unk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tMCWr3a-unk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tMCWr3a-unk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tMCWr3a-unk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tMCWr3a-unk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carla Quem Disse",
+        "playlistId": "PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
+        "position": 67,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "tMCWr3a-unk"
+        },
+        "videoOwnerChannelTitle": "Carla Quem Disse",
+        "videoOwnerChannelId": "UCYJv-TfmSU0xUuKI7N0zkJw"
+      },
+      "contentDetails": {
+        "videoId": "tMCWr3a-unk",
+        "videoPublishedAt": "2020-06-01T20:01:21Z",
+        "extra": {
+          "duration": "PT12M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 769
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 68,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Linguagens Formais e Autômatos",
+    "durationSeconds": 75153
+  }
+};

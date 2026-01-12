@@ -1,0 +1,929 @@
+export const MatEstatisticaProbabilidade = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "bx3XOyx3vIUK-juAzo4QzQJb4i4",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UFRGwrsp306ZKEQDKokW32yEBVs",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade  - Apresentação da disciplina",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7VQE278hIXc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7VQE278hIXc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7VQE278hIXc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7VQE278hIXc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7VQE278hIXc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7VQE278hIXc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "7VQE278hIXc",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT3M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 192
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6BLDHmUK5k6FbNmXWTcDbqXfBLk",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 01 - Aleatoriedade",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VRiFnz7Di20/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VRiFnz7Di20/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VRiFnz7Di20/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VRiFnz7Di20/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VRiFnz7Di20/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VRiFnz7Di20"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "VRiFnz7Di20",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT17M35S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1055
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "puiY5ILmtTc_EIYnta_yCHY5y24",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 02  - Pensamento probabilístico",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F5FcmpAfGuE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F5FcmpAfGuE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F5FcmpAfGuE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/F5FcmpAfGuE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/F5FcmpAfGuE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "F5FcmpAfGuE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "F5FcmpAfGuE",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT14M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 851
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hok5-wrgvMRdmR8hb9zX9S_vfKU",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 03 - Análise combinatória - parte I",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/avPlaW1oW_A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/avPlaW1oW_A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/avPlaW1oW_A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/avPlaW1oW_A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/avPlaW1oW_A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "avPlaW1oW_A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "avPlaW1oW_A",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT14M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 851
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "EblY4xZIsqONOCcUAAuL6Rmgu7U",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 04 - Análise combinatória - parte II",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bSPk4LVZgDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bSPk4LVZgDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bSPk4LVZgDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bSPk4LVZgDg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bSPk4LVZgDg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bSPk4LVZgDg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "bSPk4LVZgDg",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT11M57S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 717
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "81ZriE1d51p52nsDnkEKjU5ETEQ",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 05 - Metodologia de pesquisa",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7qmZM8VhwP0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7qmZM8VhwP0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7qmZM8VhwP0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7qmZM8VhwP0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7qmZM8VhwP0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7qmZM8VhwP0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "7qmZM8VhwP0",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT7M3S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 423
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ew7m4sMrL-Ek612ngUH59skpwvY",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 06 - Metodologia Científica",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3FLBgd33_lI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3FLBgd33_lI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3FLBgd33_lI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3FLBgd33_lI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3FLBgd33_lI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3FLBgd33_lI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "3FLBgd33_lI",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT24M8S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1448
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ujr2wTsPFnS9z3tRRKkCzqNLGI8",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 07 - Tabelas",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gBOer0OnF4c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gBOer0OnF4c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gBOer0OnF4c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gBOer0OnF4c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gBOer0OnF4c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gBOer0OnF4c"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "gBOer0OnF4c",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT19M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1171
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "bialhAhs0HS6BqGkHGYlOB4Atss",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 08 - Gráficos",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0R-UQLRk4VI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0R-UQLRk4VI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0R-UQLRk4VI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0R-UQLRk4VI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0R-UQLRk4VI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "0R-UQLRk4VI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "0R-UQLRk4VI",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT22M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1332
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eJjzBqzM_iLpFAD7e0Z35gIvlpI",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 09 - Níveis de mensuração e seleção de métodos de análise",
+        "description": "Licenciatura em Matemática - 16º Bimestre\nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TmjWDmmN75c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TmjWDmmN75c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TmjWDmmN75c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TmjWDmmN75c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TmjWDmmN75c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "TmjWDmmN75c"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "TmjWDmmN75c",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT19M24S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1164
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "smM_xHdkhX39FeMth_680ao1f48",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 10 - Medidas de tendência central e de variabilidade",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/efy2kjExwTU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/efy2kjExwTU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/efy2kjExwTU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/efy2kjExwTU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/efy2kjExwTU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "efy2kjExwTU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "efy2kjExwTU",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT22M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1342
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SB9BASeJE_N8ecPfFUII-E-_B9U",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 11 - Inferências",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FM9tz8U2g2k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FM9tz8U2g2k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FM9tz8U2g2k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FM9tz8U2g2k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FM9tz8U2g2k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FM9tz8U2g2k"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "FM9tz8U2g2k",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT21M29S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1289
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "67QdnslX-9NA4lioPqUYw5S4SpA",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 12 - Teste Qui-quadrado",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4QfHVbpAoSg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4QfHVbpAoSg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4QfHVbpAoSg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4QfHVbpAoSg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4QfHVbpAoSg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4QfHVbpAoSg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "4QfHVbpAoSg",
+        "videoPublishedAt": "2018-06-21T19:06:55Z",
+        "extra": {
+          "duration": "PT17M41S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1061
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Y9OkZA6siCKP_WsgLuNQsJtcnV0",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 13 - Teste t de Student",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AgDC9yoopUA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AgDC9yoopUA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AgDC9yoopUA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AgDC9yoopUA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AgDC9yoopUA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "AgDC9yoopUA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "AgDC9yoopUA",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT11M26S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 686
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5Sgo1cEHjrFm60xwZpWtvDZUBWY",
+      "id": "UEx4SThDYW45eUFIZWVXcWUzbTlIWkZpQmhUMzNNZnhldy4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2018-06-21T14:03:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Estatística e Probabilidade - Aula 14 - Análise de Variância (ANOVA)",
+        "description": "Licenciatura em Matemática - 16º Bimestre \nDisciplina: Estatística e Probabilidade – MEC - 001\nUnivesp - Universidade Virtual do Estado de São Paulo \nProfessora responsável pela disciplina: Fernanda Oliveira Simon\n\nPlaylist da disciplina:\nhttps://www.youtube.com/playlist?playnext=1&list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1ceP2FL5fzE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1ceP2FL5fzE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1ceP2FL5fzE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1ceP2FL5fzE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1ceP2FL5fzE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1ceP2FL5fzE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "1ceP2FL5fzE",
+        "videoPublishedAt": "2018-06-21T19:06:54Z",
+        "extra": {
+          "duration": "PT13M24S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 804
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 15,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Estatística e Probabilidade",
+    "durationSeconds": 14386
+  }
+};

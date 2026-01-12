@@ -1,6 +1,6 @@
 import { MyStepContainer } from "@/components/MyCourse/MyStepContainer";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
-import { CurriculoCC } from "@/data/gradeCurricular";
+import { CurriculoCC } from "@/data/GradeCurricular";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 

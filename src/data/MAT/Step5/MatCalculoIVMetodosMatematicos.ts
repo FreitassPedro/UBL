@@ -1,0 +1,5119 @@
+export const MatCalculoIVMetodosMatematicos = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "lE_zZ3jrLDnXmgJFG7v8Cs08ujE",
+  "nextPageToken": "EAAaHlBUOkNESWlFRGhETlVaQlJUWkNNVFkwT0RFelF6Zw",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vi9vEKaqp1GhZLJytcgaTS3nee0",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2014-08-19T18:08:00Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 1 de 4",
+        "description": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 1 de 4\nNesta primeira aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, aborda o tema de Sequências e Séries, fala sobre a origem da Teoria do Cálculo, Polinômio de Taylor e expõe alguns exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BrufXJ2AhNo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BrufXJ2AhNo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BrufXJ2AhNo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "BrufXJ2AhNo"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "BrufXJ2AhNo",
+        "videoPublishedAt": "2014-08-19T17:53:10Z",
+        "extra": {
+          "duration": "PT22M16S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1336
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CBUhGORemQRfVJr3ZvJLkp9ung4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2014-08-19T18:08:24Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 2 de 4",
+        "description": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 2 de 4\nDando sequência à aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre Sequências de Números Reais, Lei de Recorrência, Sequência de Fibonacci e os principais teoremas que valem para sequências.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-WXsYcWLr30/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-WXsYcWLr30/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-WXsYcWLr30/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-WXsYcWLr30/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-WXsYcWLr30/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-WXsYcWLr30"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "-WXsYcWLr30",
+        "videoPublishedAt": "2014-08-19T17:53:01Z",
+        "extra": {
+          "duration": "PT20M55S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1255
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3Fk0qADxOEk7POesxsMz2GvSBsA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2014-08-19T18:08:36Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 3 de 4",
+        "description": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 3 de 4\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre Limite de Sequências, Limite de Funções, Função Seno e apresenta mais exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j8bd446q2wk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j8bd446q2wk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j8bd446q2wk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j8bd446q2wk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j8bd446q2wk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "j8bd446q2wk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "j8bd446q2wk",
+        "videoPublishedAt": "2014-08-19T18:04:59Z",
+        "extra": {
+          "duration": "PT24M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1445
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WYGRa4Qgl00HqEKPGWzIlJil2Bw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2014-08-22T17:22:05Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 4 de 4",
+        "description": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 4 de 4\nNesta última parte da aula, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre Subsequências, funções Logarítmica e Exponencial, Teorema de Existência, Sequências Crescentes e Limitadas, além de apresentar mais alguns exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/767sM0V6Ss4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/767sM0V6Ss4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/767sM0V6Ss4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/767sM0V6Ss4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/767sM0V6Ss4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "767sM0V6Ss4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "767sM0V6Ss4",
+        "videoPublishedAt": "2014-08-22T17:03:41Z",
+        "extra": {
+          "duration": "PT23M37S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1417
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-XMM35ybqgXZqzYN2MDlp2s_7ks",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EMzJDRTUwQjBEOUVFQzAw",
+      "snippet": {
+        "publishedAt": "2015-06-19T14:42:12Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 1 de 3",
+        "description": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 1 de 3\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lUfv3bspiGw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lUfv3bspiGw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lUfv3bspiGw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/lUfv3bspiGw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/lUfv3bspiGw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "lUfv3bspiGw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "lUfv3bspiGw",
+        "videoPublishedAt": "2015-06-19T14:51:01Z",
+        "extra": {
+          "duration": "PT20M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1250
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CJiGqU4xDIKeurzbrFNOmB-WyE4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CMUM0NzY5NzdEQzlGRjAx",
+      "snippet": {
+        "publishedAt": "2015-06-19T14:44:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 2 de 3",
+        "description": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 2 de 3\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LxjSbzWipak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LxjSbzWipak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LxjSbzWipak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LxjSbzWipak/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LxjSbzWipak/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LxjSbzWipak"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "LxjSbzWipak",
+        "videoPublishedAt": "2015-06-19T14:51:41Z",
+        "extra": {
+          "duration": "PT23M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1385
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vMH02qQ2cO604Nq0tgyh0E7B570",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GMDBDNkJGMzYzREUyMTYw",
+      "snippet": {
+        "publishedAt": "2015-06-19T14:48:09Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 3 de 3",
+        "description": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 3 de 3\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hSuUyOXvfvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hSuUyOXvfvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hSuUyOXvfvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hSuUyOXvfvk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hSuUyOXvfvk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hSuUyOXvfvk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "hSuUyOXvfvk",
+        "videoPublishedAt": "2015-06-19T14:51:54Z",
+        "extra": {
+          "duration": "PT26M42S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1602
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "f9qzthOc8brJoR9P4IcnRJmsJPI",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zNDIxRUJGQThFRTg1QzAy",
+      "snippet": {
+        "publishedAt": "2016-05-24T14:55:45Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 2 - Séries Numéricas - Conceitos Básicos",
+        "description": "Cálculo IV - Aula 2 - Séries Numéricas - Conceitos Básicos\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8MjfOpAINUk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8MjfOpAINUk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8MjfOpAINUk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8MjfOpAINUk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8MjfOpAINUk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8MjfOpAINUk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "8MjfOpAINUk",
+        "videoPublishedAt": "2016-05-24T14:55:44Z",
+        "extra": {
+          "duration": "PT29M58S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1798
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "aczwzlvI4egRu_CiJhzHxp64lH0",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2014-09-02T16:20:22Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 1 de 8",
+        "description": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 1 de 8\nNesta aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, aborda o tema Convergência Absoluta e Condicional, fala sobre critérios de convergência, critério da comparação e apresenta exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d_U9WfFXTXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d_U9WfFXTXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d_U9WfFXTXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/d_U9WfFXTXY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/d_U9WfFXTXY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "d_U9WfFXTXY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "d_U9WfFXTXY",
+        "videoPublishedAt": "2014-09-02T15:32:41Z",
+        "extra": {
+          "duration": "PT20M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1225
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "y84C1dWABBFrGEaTymdVkOgpNJA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2014-09-02T16:20:22Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 2 de 8",
+        "description": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 2 de 8\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, apresenta mais alguns exemplos e exercícios, e fala sobre série harmônica e critério da comparação no limite.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IqnYmacgmpY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IqnYmacgmpY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IqnYmacgmpY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IqnYmacgmpY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IqnYmacgmpY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "IqnYmacgmpY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "IqnYmacgmpY",
+        "videoPublishedAt": "2014-09-02T16:04:03Z",
+        "extra": {
+          "duration": "PT27M17S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1637
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "M9omKED4QOUNFA9hLVFKCFsfwkY",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2014-09-15T18:39:59Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 3 de 8",
+        "description": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 3 de 8\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre critério da integral, integral imprópria, função contínua e apresenta exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jC9MWU3VrsU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jC9MWU3VrsU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jC9MWU3VrsU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jC9MWU3VrsU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jC9MWU3VrsU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jC9MWU3VrsU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "jC9MWU3VrsU",
+        "videoPublishedAt": "2014-09-15T18:29:31Z",
+        "extra": {
+          "duration": "PT23M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1385
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iqo-nEtR0N1V2o214XW2MMlV3Z4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2014-09-15T18:40:18Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 4 de 8",
+        "description": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 4 de 8\nNesta última parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre convergências, critério da comparação no limite, série harmônica, critério da integral e apresenta exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UOoV1FX5oO8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UOoV1FX5oO8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UOoV1FX5oO8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UOoV1FX5oO8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UOoV1FX5oO8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UOoV1FX5oO8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "UOoV1FX5oO8",
+        "videoPublishedAt": "2014-09-15T18:22:23Z",
+        "extra": {
+          "duration": "PT24M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1472
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "apZoxiApitYpOcGjkOUP2gbZFpg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2014-09-15T19:47:27Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 5 de 8",
+        "description": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 5 de 8\nNesta aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, retoma alguns tópicos de critérios de convergências de séries numéricas, e fala sobre critério da integral.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F_Mx__unOeM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F_Mx__unOeM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F_Mx__unOeM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/F_Mx__unOeM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/F_Mx__unOeM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "F_Mx__unOeM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "F_Mx__unOeM",
+        "videoPublishedAt": "2014-09-15T19:12:26Z",
+        "extra": {
+          "duration": "PT21M8S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1268
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xu69zbhWdNgR9J4FLOFkOU_sPZ0",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2014-09-15T19:47:59Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 6 de 8",
+        "description": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 6 de 8\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre critérios da raiz, e critério da razão.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XZeLekfACKs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XZeLekfACKs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XZeLekfACKs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XZeLekfACKs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XZeLekfACKs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XZeLekfACKs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "XZeLekfACKs",
+        "videoPublishedAt": "2014-09-15T19:04:59Z",
+        "extra": {
+          "duration": "PT21M55S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1315
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ya089IdVMfyi6KOnqGJQULxlq94",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2014-09-15T19:48:22Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 7 de 8",
+        "description": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 7 de 8\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre critério da razão, e retoma conceitos dos critérios da comparação, critério integral e critério da raiz.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o0fS-j0BYqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o0fS-j0BYqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o0fS-j0BYqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/o0fS-j0BYqg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/o0fS-j0BYqg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "o0fS-j0BYqg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "o0fS-j0BYqg",
+        "videoPublishedAt": "2014-09-15T19:25:13Z",
+        "extra": {
+          "duration": "PT21M6S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1266
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0YbN0yRG2mzeAFWIk-GOQHpC5eg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2014-09-16T09:30:35Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 8 de 8",
+        "description": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 8 de 8\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre critérios de Leibniz, sequências e séries em que os termos não são só positivos, séries divergentes, teoremas, e apresenta exemplos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5x24l90oZFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5x24l90oZFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5x24l90oZFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5x24l90oZFk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5x24l90oZFk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5x24l90oZFk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "5x24l90oZFk",
+        "videoPublishedAt": "2014-09-15T20:08:19Z",
+        "extra": {
+          "duration": "PT26M19S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1579
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ch0xoOJELlJ00o9a2PEGGhbt4x0",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2014-09-25T19:53:12Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta I",
+        "description": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta I \nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre convergência de séries, séries absolutamente convergente e séries condicionalmente convergente.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PPu7D3bIwsc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PPu7D3bIwsc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PPu7D3bIwsc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PPu7D3bIwsc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PPu7D3bIwsc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "PPu7D3bIwsc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "PPu7D3bIwsc",
+        "videoPublishedAt": "2014-09-25T18:54:41Z",
+        "extra": {
+          "duration": "PT26M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1582
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "31Bno3w928mR-3bMFucLI5qULgk",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wQUE0QzM4MkJGQ0YwQjUx",
+      "snippet": {
+        "publishedAt": "2015-06-19T16:15:46Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta II",
+        "description": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta II\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UGD6c-3whJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UGD6c-3whJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UGD6c-3whJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UGD6c-3whJA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UGD6c-3whJA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UGD6c-3whJA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "UGD6c-3whJA",
+        "videoPublishedAt": "2015-06-19T16:14:59Z",
+        "extra": {
+          "duration": "PT26M51S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1611
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5RMGXiGBpaq5_Pk6lURpM28UIVA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5DQjg2RDQyMEVGQkZFOEVF",
+      "snippet": {
+        "publishedAt": "2015-06-19T16:18:05Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 5 - Séries de Potências - Introdução I",
+        "description": "Cálculo IV - Aula 5 - Séries de Potências - Introdução I \nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M3459ZGJFd4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M3459ZGJFd4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M3459ZGJFd4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/M3459ZGJFd4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/M3459ZGJFd4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "M3459ZGJFd4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "M3459ZGJFd4",
+        "videoPublishedAt": "2015-06-19T16:17:48Z",
+        "extra": {
+          "duration": "PT24M58S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1498
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "h4doHyPgffDIfanIaOhub77EcZA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2014-09-25T19:53:12Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 6 - Séries de Potências. Introdução II.",
+        "description": "Cálculo IV - Aula 6 - Séries de Potências. Introdução II.\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre séries de potências, intervalo de convergência e convergência absoluta.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dEIytPdERKQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dEIytPdERKQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dEIytPdERKQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dEIytPdERKQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dEIytPdERKQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dEIytPdERKQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "dEIytPdERKQ",
+        "videoPublishedAt": "2014-09-25T20:06:41Z",
+        "extra": {
+          "duration": "PT30M23S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1823
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YYq8irgtYAjoCWukQx8CRa8fMjw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2014-09-29T15:25:20Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 6 - Séries de Potências - Parte 1 de 5",
+        "description": "Cálculo IV - Aula 6 - Séries de Potências - Parte 1 de 5\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, fala sobre séries de potências e série em módulo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EigL60vEwCc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EigL60vEwCc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EigL60vEwCc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EigL60vEwCc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EigL60vEwCc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EigL60vEwCc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "EigL60vEwCc",
+        "videoPublishedAt": "2014-09-26T14:42:23Z",
+        "extra": {
+          "duration": "PT21M27S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1287
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SKL1x0MK2zRr7r0NiwfjHZwqDxU",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2014-09-29T15:25:30Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 6 - Séries de Potências - Parte 2 de 5 (Continua depois da Aula 7)",
+        "description": "Cálculo IV - Aula 6 - Séries de Potências - Parte 2 de 5\nNesta parte da aula do curso de Cálculo IV, o professor Cláudio Possani, do Instituto de Matemática e Estatística da USP, segue apresentando exemplos de convergências, série em módulo e séries de potências.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MFO89oazdPQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MFO89oazdPQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MFO89oazdPQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MFO89oazdPQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MFO89oazdPQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MFO89oazdPQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "MFO89oazdPQ",
+        "videoPublishedAt": "2014-09-26T16:45:27Z",
+        "extra": {
+          "duration": "PT29M30S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1770
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "MxzIyUEUC50DVh-pvbyRZ1wPbFs",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS40OTQ5QjlEMDgzN0FBNUIw",
+      "snippet": {
+        "publishedAt": "2015-06-22T17:08:34Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 1 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 1 de 7 - PGM 33\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!\n\nSobre a Univesp TV:  http://univesptv.cmais.com.br/sobre-a-univesptv",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HqnYPbD3xvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HqnYPbD3xvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HqnYPbD3xvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HqnYPbD3xvk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HqnYPbD3xvk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HqnYPbD3xvk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "HqnYPbD3xvk",
+        "videoPublishedAt": "2015-06-22T17:08:22Z",
+        "extra": {
+          "duration": "PT27M24S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1644
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6BqrlHxmNw-zkz4ffGIQZ3hMvlw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS42MTI4Njc2QjM1RjU1MjlG",
+      "snippet": {
+        "publishedAt": "2014-10-16T15:15:24Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 2 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 2 de 7\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w0L8c4MkDjE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w0L8c4MkDjE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w0L8c4MkDjE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/w0L8c4MkDjE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/w0L8c4MkDjE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "w0L8c4MkDjE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "w0L8c4MkDjE",
+        "videoPublishedAt": "2014-10-16T15:15:29Z",
+        "extra": {
+          "duration": "PT24M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1471
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "LQA5bd33RfL5pb-7CE2jpfFONXQ",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4yOTZGRTNEQ0ZGNUM5RDgw",
+      "snippet": {
+        "publishedAt": "2015-06-22T17:16:32Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 3 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 3 de 7 - PGM 35\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!\n\nSobre a Univesp TV:  http://univesptv.cmais.com.br/sobre-a-univesptv",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uIX-OaOat_8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uIX-OaOat_8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uIX-OaOat_8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uIX-OaOat_8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uIX-OaOat_8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "uIX-OaOat_8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "uIX-OaOat_8",
+        "videoPublishedAt": "2015-06-22T17:10:59Z",
+        "extra": {
+          "duration": "PT21M45S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1305
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7DibUv34hJl-gF9aSsVAX6jtb90",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CQzUwREI3MzkxQjdBM0E0",
+      "snippet": {
+        "publishedAt": "2015-06-22T17:13:30Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 4 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 4 de 7 - PGM 36\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!\n\nSobre a Univesp TV:  http://univesptv.cmais.com.br/sobre-a-univesptv",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HYSzJ3VKNaw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HYSzJ3VKNaw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HYSzJ3VKNaw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HYSzJ3VKNaw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HYSzJ3VKNaw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HYSzJ3VKNaw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "HYSzJ3VKNaw",
+        "videoPublishedAt": "2015-06-22T17:13:29Z",
+        "extra": {
+          "duration": "PT27M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1624
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "XEObIMm-p0ALCdd7861de1Wmvmg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS43ODA2MDVCQzY5QzZDMjUw",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:37:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 5 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 5 de 7 - PGM 23\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y9Prh7iYVcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y9Prh7iYVcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y9Prh7iYVcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Y9Prh7iYVcg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Y9Prh7iYVcg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Y9Prh7iYVcg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Y9Prh7iYVcg",
+        "videoPublishedAt": "2015-06-19T17:35:27Z",
+        "extra": {
+          "duration": "PT22M33S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1353
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vxnuR7FLXpqJvZA29RL0y1Azu0g",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS44QjNCNkRENjNFQTBEMUND",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:36:15Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 6 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 6 de 7 - PGM 24\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NCxoy1Ncw8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NCxoy1Ncw8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NCxoy1Ncw8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NCxoy1Ncw8A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NCxoy1Ncw8A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NCxoy1Ncw8A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "NCxoy1Ncw8A",
+        "videoPublishedAt": "2015-06-19T17:36:11Z",
+        "extra": {
+          "duration": "PT28M35S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1715
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZAs9tFkbsPuAV7kYoi6YYFzoY34",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GNzk2RTlDQTNCQzJCQzJG",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:37:12Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 7 de 7",
+        "description": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 7 de 7\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\n\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FcXHCFG2hDw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FcXHCFG2hDw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FcXHCFG2hDw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FcXHCFG2hDw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FcXHCFG2hDw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FcXHCFG2hDw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "FcXHCFG2hDw",
+        "videoPublishedAt": "2015-06-19T17:37:05Z",
+        "extra": {
+          "duration": "PT31M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1870
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hdkklYxNvv1k4brER_kg_ujqy_A",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4yM0EyQ0U1M0I2RkIwNTQ0",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:08:18Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 8 - Séries de Potências - Parte 3 de 5 (Continuação da Aula 6)",
+        "description": "Cálculo IV - Aula 8 - Séries de Potências - Parte 3 de 5\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZkP8S6-2Ljo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZkP8S6-2Ljo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZkP8S6-2Ljo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZkP8S6-2Ljo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZkP8S6-2Ljo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ZkP8S6-2Ljo"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ZkP8S6-2Ljo",
+        "videoPublishedAt": "2015-06-19T17:08:17Z",
+        "extra": {
+          "duration": "PT26M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1564
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "InHNmuvOKzbl8PPyYSC_JrrfAxQ",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wN0FBRUVFNEVBMTZBQ0Mx",
+      "snippet": {
+        "publishedAt": "2016-05-24T15:20:24Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 8 - Séries de Potências - Parte 4 de 5",
+        "description": "Cálculo IV - Aula 8 - Séries de Potências - Parte 4 de 5\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8ad2ly1clvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8ad2ly1clvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8ad2ly1clvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8ad2ly1clvc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8ad2ly1clvc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8ad2ly1clvc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "8ad2ly1clvc",
+        "videoPublishedAt": "2016-05-24T15:14:23Z",
+        "extra": {
+          "duration": "PT31M53S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1913
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "huXZQhUrVt8xQgMm1-iFgrJiolo",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41RDUzRjJFQ0Y0MUI3NzU1",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:09:36Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 8 - Séries de Potências - Parte 5 de 5",
+        "description": "Cálculo IV - Aula 8 - Séries de Potências - Parte 5 de 5 - PGM 28\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!\n\nSobre a Univesp TV:  http://univesptv.cmais.com.br/sobre-a-univesptv",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Dmiud-Xoy0A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Dmiud-Xoy0A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Dmiud-Xoy0A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Dmiud-Xoy0A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Dmiud-Xoy0A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Dmiud-Xoy0A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Dmiud-Xoy0A",
+        "videoPublishedAt": "2015-06-19T17:09:35Z",
+        "extra": {
+          "duration": "PT27M36S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1656
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "EeXqE0N_3L17eLJCRc1n3EynnAU",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5FRjdGNDMzN0I2RTI3MDlG",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:21:56Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 1 de 7",
+        "description": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 1 de 7\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XNg3c8Pm53U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XNg3c8Pm53U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XNg3c8Pm53U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XNg3c8Pm53U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XNg3c8Pm53U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XNg3c8Pm53U"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "XNg3c8Pm53U",
+        "videoPublishedAt": "2015-06-19T17:21:52Z",
+        "extra": {
+          "duration": "PT26M53S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1613
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VcxzATvO_fipv6upmDwW3W6GMI4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EODgyNjY4MzA3QzY5RTkx",
+      "snippet": {
+        "publishedAt": "2016-05-25T16:48:13Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 2 de 7",
+        "description": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 2 de 7 - PGM 30\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO: \nCálculo IV: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nCálculo III: https://www.youtube.com/playlist?list=PLxI8Can9yAHdSstaijzbnJp405wWmRLnD\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\nUnivesp TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g8giCcjyl-8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g8giCcjyl-8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g8giCcjyl-8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/g8giCcjyl-8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/g8giCcjyl-8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "g8giCcjyl-8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "g8giCcjyl-8",
+        "videoPublishedAt": "2016-05-25T16:51:06Z",
+        "extra": {
+          "duration": "PT27M28S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1648
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "f4z_cGi8FDfqCNRFJGJBMremsq8",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CNEYyNTVBNDdGMDI1MDNC",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:24:24Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 3 de 7",
+        "description": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 3 de 7\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Vd4W0qc68I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Vd4W0qc68I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Vd4W0qc68I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4Vd4W0qc68I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4Vd4W0qc68I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4Vd4W0qc68I"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "4Vd4W0qc68I",
+        "videoPublishedAt": "2015-06-19T17:24:04Z",
+        "extra": {
+          "duration": "PT23M8S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1388
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "va65gQ30SVobOp8zECxoSRQdt-w",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EMUJFNzRCNDRFQjE5RjM4",
+      "snippet": {
+        "publishedAt": "2015-06-19T17:26:09Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 4 de 7",
+        "description": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 4 de 7\nCursos USP - Curso regular de graduação - Segundo semestre de 2014\nInstituto de Matemática e Estatística - IME - USP\nProfessor: Cláudio Possani\n\nPLAYLIST DO CURSO:\nCálculo IV - https://goo.gl/JkyEcd\nCálculo III - https://goo.gl/nvnUj3\n\n*Assista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n*Sintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura. Em São Paulo - SP o canal é o 6.2.\n*UNIVESP TV - O canal para quem quer saber mais e aprender sempre!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CavnRpUt9bA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CavnRpUt9bA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CavnRpUt9bA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CavnRpUt9bA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CavnRpUt9bA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 35,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CavnRpUt9bA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "CavnRpUt9bA",
+        "videoPublishedAt": "2015-06-19T17:26:02Z",
+        "extra": {
+          "duration": "PT25M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1532
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "tnWst5hhKph96vVuPYnQLA_1yAE",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5DRUQwODMxQzUyRTlGRkY3",
+      "snippet": {
+        "publishedAt": "2014-11-03T13:09:58Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 5 de 7",
+        "description": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 5 de 7\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mD0D0c5_9iE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mD0D0c5_9iE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mD0D0c5_9iE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mD0D0c5_9iE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mD0D0c5_9iE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 36,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "mD0D0c5_9iE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "mD0D0c5_9iE",
+        "videoPublishedAt": "2014-11-03T12:32:13Z",
+        "extra": {
+          "duration": "PT26M18S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1578
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fUDCGBYEYNeIaZCosx-5sfBqYUw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5BRjJDODk5REM0NjkzMUIy",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:00Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 6 de 7",
+        "description": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 6 de 7\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E72lVIEWkPg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E72lVIEWkPg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E72lVIEWkPg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/E72lVIEWkPg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/E72lVIEWkPg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 37,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "E72lVIEWkPg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "E72lVIEWkPg",
+        "videoPublishedAt": "2014-10-31T13:41:39Z",
+        "extra": {
+          "duration": "PT26M45S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1605
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eo4-fPCcXgMrVsmqqSPoy2pzOjU",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GNDg1Njc1QzZERjlFRjE5",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:13Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 7 de 7",
+        "description": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 7 de 7\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uTkn4KJPSr0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uTkn4KJPSr0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uTkn4KJPSr0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uTkn4KJPSr0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uTkn4KJPSr0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 38,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "uTkn4KJPSr0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "uTkn4KJPSr0",
+        "videoPublishedAt": "2014-10-31T13:47:11Z",
+        "extra": {
+          "duration": "PT27M15S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1635
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CRR0oNRjBww0alpSReJnjZvcWAg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS40QTA3NTU2RkM1QzlCMzYx",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:33:50Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 1 de 8",
+        "description": "Cálculo IV - Aula 11 - Séries de Fourier  - Parte 1 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JFdBfemyXRU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JFdBfemyXRU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JFdBfemyXRU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JFdBfemyXRU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JFdBfemyXRU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 39,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JFdBfemyXRU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "JFdBfemyXRU",
+        "videoPublishedAt": "2014-10-31T14:43:17Z",
+        "extra": {
+          "duration": "PT34M34S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2074
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "EDPgO8R2X0DIZipCSm86-1U4FFE",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xOTEzQzhBQzU3MDNDNjcz",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:08Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 2 de 8",
+        "description": "Cálculo IV - Aula 11 - Séries de Fourier  - Parte 2 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VJQkBy8m-VQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VJQkBy8m-VQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VJQkBy8m-VQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VJQkBy8m-VQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VJQkBy8m-VQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 40,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VJQkBy8m-VQ"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "VJQkBy8m-VQ",
+        "videoPublishedAt": "2014-10-31T13:45:37Z",
+        "extra": {
+          "duration": "PT23M18S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1398
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "78Xl6ol_UfnSYRlFOW0KUMnE684",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS45NkVENTkxRDdCQUFBMDY4",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:24Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 3 de 8",
+        "description": "Cálculo IV - Aula 11 - Séries de Fourier  - Parte 3 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C9ZNQu93Zp0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C9ZNQu93Zp0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C9ZNQu93Zp0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/C9ZNQu93Zp0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/C9ZNQu93Zp0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 41,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "C9ZNQu93Zp0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "C9ZNQu93Zp0",
+        "videoPublishedAt": "2014-10-31T14:15:37Z",
+        "extra": {
+          "duration": "PT31M2S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1862
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QuG6pT-aPIBtf5s4PVE6NAIvafA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zQzFBN0RGNzNFREFCMjBE",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:18Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 4 de 8",
+        "description": "Cálculo IV - Aula 12 - Séries de Fourier  - Parte 4 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4tNRuKw9YVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4tNRuKw9YVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4tNRuKw9YVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4tNRuKw9YVc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4tNRuKw9YVc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 42,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4tNRuKw9YVc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "4tNRuKw9YVc",
+        "videoPublishedAt": "2014-10-31T14:11:34Z",
+        "extra": {
+          "duration": "PT28M36S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1716
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "rM053zQ41NmkrHm84jWO63JA1nM",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5DNkMwRUI2MkI4QkI4NDFG",
+      "snippet": {
+        "publishedAt": "2014-11-03T11:34:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 5 de 8",
+        "description": "Cálculo IV - Aula 12 - Séries de Fourier  - Parte 5 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zq3SjPDkxQM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zq3SjPDkxQM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zq3SjPDkxQM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zq3SjPDkxQM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zq3SjPDkxQM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 43,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zq3SjPDkxQM"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "zq3SjPDkxQM",
+        "videoPublishedAt": "2014-10-31T14:25:01Z",
+        "extra": {
+          "duration": "PT32M18S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1938
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7WzySU1zcXifoocNec-HgDz7aiA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41MzY4MzcwOUFFRUU3QzEx",
+      "snippet": {
+        "publishedAt": "2014-11-04T10:43:35Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 6 de 8",
+        "description": "Cálculo IV - Aula 12 - Séries de Fourier  - Parte 6 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/51K6yCJwA0Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/51K6yCJwA0Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/51K6yCJwA0Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/51K6yCJwA0Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/51K6yCJwA0Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 44,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "51K6yCJwA0Y"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "51K6yCJwA0Y",
+        "videoPublishedAt": "2014-11-03T18:57:33Z",
+        "extra": {
+          "duration": "PT27M2S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1622
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cBNOAFz3qDlnm4KDOAt-kMAl2K4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4yQjZFRkExQjFGODk3RUFD",
+      "snippet": {
+        "publishedAt": "2014-11-05T15:02:00Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 13 - Séries de Fourier - Parte 7 de 8",
+        "description": "Cálculo IV - Aula 13 - Séries de Fourier  - Parte 7 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LKp2fi0NWOw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LKp2fi0NWOw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LKp2fi0NWOw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LKp2fi0NWOw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LKp2fi0NWOw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 45,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LKp2fi0NWOw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "LKp2fi0NWOw",
+        "videoPublishedAt": "2014-11-05T15:02:27Z",
+        "extra": {
+          "duration": "PT32M57S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1977
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-gnoXv3FQnwPvc8YCq9GfzU6cXA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4yQUJFNUVCMzVDNjcxRTlF",
+      "snippet": {
+        "publishedAt": "2014-11-05T15:02:08Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 13 - Séries de Fourier - Parte 8 de 8",
+        "description": "Cálculo IV - Aula 13 - Séries de Fourier - Parte 8 de 8\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AQqbNkScX2g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AQqbNkScX2g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AQqbNkScX2g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AQqbNkScX2g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AQqbNkScX2g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 46,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "AQqbNkScX2g"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "AQqbNkScX2g",
+        "videoPublishedAt": "2014-11-05T15:02:13Z",
+        "extra": {
+          "duration": "PT28M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1734
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HYFimKvQy_ul8ItIUDaUIujuuNg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS40QzRDOEU0QUYwNUIxN0M1",
+      "snippet": {
+        "publishedAt": "2014-11-06T15:30:23Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 13 - Exercícios de Séries de Potências",
+        "description": "Cálculo IV - Aula 13 - Exercícios de Séries de Potências \nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MSqsEiOUwWU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MSqsEiOUwWU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MSqsEiOUwWU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MSqsEiOUwWU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MSqsEiOUwWU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 47,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MSqsEiOUwWU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "MSqsEiOUwWU",
+        "videoPublishedAt": "2014-11-06T14:00:12Z",
+        "extra": {
+          "duration": "PT22M34S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1354
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_X5oivjrPy7b6JP1GXI-3myUUuA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41RTNBREYwMkI5QzU3RkY2",
+      "snippet": {
+        "publishedAt": "2014-11-18T10:36:38Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 3 de 4",
+        "description": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 3 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hQfM2tF1VQg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hQfM2tF1VQg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hQfM2tF1VQg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hQfM2tF1VQg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hQfM2tF1VQg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 48,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hQfM2tF1VQg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "hQfM2tF1VQg",
+        "videoPublishedAt": "2014-11-17T17:36:41Z",
+        "extra": {
+          "duration": "PT18M55S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1135
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FUxxQpJvPQJVXcDyFrJQu0xRryo",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5ENjI1QUI0MDI5NEQzODFE",
+      "snippet": {
+        "publishedAt": "2014-11-18T10:36:46Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 4 de 4",
+        "description": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 4 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sDUW26Yhmf8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sDUW26Yhmf8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sDUW26Yhmf8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sDUW26Yhmf8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sDUW26Yhmf8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 49,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sDUW26Yhmf8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "sDUW26Yhmf8",
+        "videoPublishedAt": "2014-11-17T17:46:42Z",
+        "extra": {
+          "duration": "PT20M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1250
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wuCKEqCVW1pHoriUDZWilsyiPeM",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS44QzVGQUU2QjE2NDgxM0M4",
+      "snippet": {
+        "publishedAt": "2014-11-18T10:36:54Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 1 de 4",
+        "description": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 1 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M3Ve6qPsY9I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M3Ve6qPsY9I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M3Ve6qPsY9I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/M3Ve6qPsY9I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/M3Ve6qPsY9I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 50,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "M3Ve6qPsY9I"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "M3Ve6qPsY9I",
+        "videoPublishedAt": "2014-11-17T17:56:39Z",
+        "extra": {
+          "duration": "PT27M44S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1664
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "a4dGeo7cae6FwhT3KiOjKe9mcus",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xMzgwMzBERjQ4NjEzNUE5",
+      "snippet": {
+        "publishedAt": "2014-11-18T10:37:00Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 2 de 4",
+        "description": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 2 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ldOL7jfU9aI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ldOL7jfU9aI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ldOL7jfU9aI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ldOL7jfU9aI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ldOL7jfU9aI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 51,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ldOL7jfU9aI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ldOL7jfU9aI",
+        "videoPublishedAt": "2014-11-17T18:00:43Z",
+        "extra": {
+          "duration": "PT27M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1632
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hvUmthI5VfgO8eid8Kd0IOy1Jks",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zMEQ1MEIyRTFGNzhDQzFB",
+      "snippet": {
+        "publishedAt": "2014-11-28T15:22:13Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 1 de 4",
+        "description": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 1 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 53",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eHcKsANp2zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eHcKsANp2zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eHcKsANp2zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eHcKsANp2zw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eHcKsANp2zw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 52,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eHcKsANp2zw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "eHcKsANp2zw",
+        "videoPublishedAt": "2014-11-28T15:22:18Z",
+        "extra": {
+          "duration": "PT24M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1445
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dB0wyz5jYmSwxkzXqsi5cuHzaAM",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS42Qzk5MkEzQjVFQjYwRDA4",
+      "snippet": {
+        "publishedAt": "2014-11-28T15:22:32Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 2 de 4",
+        "description": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 2 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 54",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/paEgp7e4eSY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/paEgp7e4eSY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/paEgp7e4eSY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/paEgp7e4eSY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/paEgp7e4eSY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 53,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "paEgp7e4eSY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "paEgp7e4eSY",
+        "videoPublishedAt": "2014-11-28T15:22:36Z",
+        "extra": {
+          "duration": "PT23M22S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1402
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VdEAK077NlqljcuT7GzId3ZKFz8",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41NTZEOThBNThFOUVGQkVB",
+      "snippet": {
+        "publishedAt": "2014-11-28T15:22:59Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 3 de 4",
+        "description": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 3 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 55",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j0qaFRqtT3A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j0qaFRqtT3A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j0qaFRqtT3A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j0qaFRqtT3A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j0qaFRqtT3A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 54,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "j0qaFRqtT3A"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "j0qaFRqtT3A",
+        "videoPublishedAt": "2014-11-28T15:22:48Z",
+        "extra": {
+          "duration": "PT24M36S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1476
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TTeyQGZb255rt-nop8uibZV7-_s",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS43NERCMDIzQzFBMERCMEE3",
+      "snippet": {
+        "publishedAt": "2014-11-28T15:23:04Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 4 de 4",
+        "description": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 4 de 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 56",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S1ZnT08ZyqE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S1ZnT08ZyqE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S1ZnT08ZyqE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/S1ZnT08ZyqE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/S1ZnT08ZyqE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 55,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "S1ZnT08ZyqE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "S1ZnT08ZyqE",
+        "videoPublishedAt": "2014-11-28T15:23:09Z",
+        "extra": {
+          "duration": "PT21M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1292
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hYymWuEVghWasm8udfp0cCu4o_I",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5GNjAwN0Y0QTFGOTVDMEMy",
+      "snippet": {
+        "publishedAt": "2014-12-01T12:33:25Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 1",
+        "description": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 1\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 57",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XHyX5M6GO6w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XHyX5M6GO6w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XHyX5M6GO6w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 56,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XHyX5M6GO6w"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "XHyX5M6GO6w",
+        "videoPublishedAt": "2014-12-01T12:33:18Z",
+        "extra": {
+          "duration": "PT28M14S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1694
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "754Mebo8uCVc2AYr_wH8IXdtGeg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CQkEwRDA0MDkwNUM2MDY1",
+      "snippet": {
+        "publishedAt": "2014-12-01T12:33:38Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 2",
+        "description": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 2\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 58",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Lt-pTKZney4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Lt-pTKZney4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Lt-pTKZney4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Lt-pTKZney4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Lt-pTKZney4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 57,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Lt-pTKZney4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Lt-pTKZney4",
+        "videoPublishedAt": "2014-12-01T12:33:34Z",
+        "extra": {
+          "duration": "PT28M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1684
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FJncPIx-JOeVziMG2D5EwOyCUrE",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wNEU1MTI4NkZEMzVBN0JF",
+      "snippet": {
+        "publishedAt": "2014-12-01T12:33:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 3",
+        "description": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 3\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 59",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jVx230CAOiE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jVx230CAOiE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jVx230CAOiE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jVx230CAOiE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jVx230CAOiE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 58,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jVx230CAOiE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "jVx230CAOiE",
+        "videoPublishedAt": "2014-12-01T12:33:47Z",
+        "extra": {
+          "duration": "PT26M29S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1589
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "h8TVkuunJa-8-3VJpki5wp_hzPQ",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wMTYxQzVBRDI1NEVDQUZE",
+      "snippet": {
+        "publishedAt": "2014-12-01T14:05:51Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 4",
+        "description": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 4\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 60",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RMcE9YM3Aqs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RMcE9YM3Aqs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RMcE9YM3Aqs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RMcE9YM3Aqs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RMcE9YM3Aqs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 59,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RMcE9YM3Aqs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "RMcE9YM3Aqs",
+        "videoPublishedAt": "2014-12-01T14:05:46Z",
+        "extra": {
+          "duration": "PT22M52S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1372
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "g6WpJ8KC-BLqzQ8AJoSGPUe9cVY",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zMUEyMkQwOTk0NTg4MDgw",
+      "snippet": {
+        "publishedAt": "2014-12-01T14:06:54Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 5",
+        "description": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 5\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 61",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GScauDYFrY0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GScauDYFrY0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GScauDYFrY0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GScauDYFrY0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GScauDYFrY0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 60,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "GScauDYFrY0"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "GScauDYFrY0",
+        "videoPublishedAt": "2014-12-01T14:06:58Z",
+        "extra": {
+          "duration": "PT24M32S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1472
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "EWpm5kuDe3sZQyMC2nZl7ojWJtc",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS42QzdBMzlBQzQzRjQ0QkQy",
+      "snippet": {
+        "publishedAt": "2014-12-01T14:07:07Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 6",
+        "description": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 6\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 62",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EuMoy9qZIic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EuMoy9qZIic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EuMoy9qZIic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EuMoy9qZIic/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EuMoy9qZIic/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 61,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EuMoy9qZIic"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "EuMoy9qZIic",
+        "videoPublishedAt": "2014-12-01T14:07:11Z",
+        "extra": {
+          "duration": "PT21M47S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1307
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3YS8CUnjeNCLdNvfYgy50sjZ1kY",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS41OURENDc2NEM1MDI5Mjky",
+      "snippet": {
+        "publishedAt": "2014-12-02T14:51:50Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 7",
+        "description": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 7\nAula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 63",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qLFPeLgG-mY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qLFPeLgG-mY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qLFPeLgG-mY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qLFPeLgG-mY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qLFPeLgG-mY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 62,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qLFPeLgG-mY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "qLFPeLgG-mY",
+        "videoPublishedAt": "2014-12-02T14:51:55Z",
+        "extra": {
+          "duration": "PT26M34S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1594
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "93HcpvzTGIynzdIXuMpDj-1NvGs",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wRjhFM0MxMTU1MEUzQ0VB",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:30:14Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 8",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 64",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OxmYqpyTCS4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OxmYqpyTCS4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OxmYqpyTCS4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OxmYqpyTCS4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OxmYqpyTCS4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 63,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "OxmYqpyTCS4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "OxmYqpyTCS4",
+        "videoPublishedAt": "2014-12-11T10:30:13Z",
+        "extra": {
+          "duration": "PT18M33S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1113
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "r8FtEN1pCZEB8L2zw1gjkU_QKIk",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CNTZFOTNGQzZEODg1RUQx",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:30:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 9",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 65",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6w0B1NZUEfs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6w0B1NZUEfs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6w0B1NZUEfs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6w0B1NZUEfs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6w0B1NZUEfs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 64,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6w0B1NZUEfs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "6w0B1NZUEfs",
+        "videoPublishedAt": "2014-12-11T10:30:29Z",
+        "extra": {
+          "duration": "PT28M23S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1703
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "MhxEPSsnSIULGWxoyJ6nmp1D-4s",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CNTcxMDQ0NThBNzMxODYz",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:30:38Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 10",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 66",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Kx-KqvoeLDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Kx-KqvoeLDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Kx-KqvoeLDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Kx-KqvoeLDI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Kx-KqvoeLDI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 65,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Kx-KqvoeLDI"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Kx-KqvoeLDI",
+        "videoPublishedAt": "2014-12-11T10:30:38Z",
+        "extra": {
+          "duration": "PT21M8S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1268
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9RPeAqhI7ediBOkOAvWIvYQunMo",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5ERkUyQTM0MzEwQjZCMTY5",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:30:48Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 11",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 67",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3vrhfLfDNlw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3vrhfLfDNlw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3vrhfLfDNlw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3vrhfLfDNlw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3vrhfLfDNlw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 66,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3vrhfLfDNlw"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "3vrhfLfDNlw",
+        "videoPublishedAt": "2014-12-11T10:30:47Z",
+        "extra": {
+          "duration": "PT25M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1525
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "__kTScp4rolj-fU5QSzJZ0xZ9QY",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xM0YyM0RDNDE4REQ1NDA0",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:30:57Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 19  - Equações Diferenciais Ordinárias - Parte 12",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 68",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/552HYhPGzCc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/552HYhPGzCc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/552HYhPGzCc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/552HYhPGzCc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/552HYhPGzCc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 67,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "552HYhPGzCc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "552HYhPGzCc",
+        "videoPublishedAt": "2014-12-11T10:30:57Z",
+        "extra": {
+          "duration": "PT31M25S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1885
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WWwH2eZ4JWryMSBfSJo5j1IDBq4",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS42MjYzMTMyQjA0QURCN0JF",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:31:06Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 19 - Equações Diferenciais Ordinárias - Parte 13",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 69",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_1k_dBqEJQc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_1k_dBqEJQc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_1k_dBqEJQc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_1k_dBqEJQc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_1k_dBqEJQc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 68,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_1k_dBqEJQc"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "_1k_dBqEJQc",
+        "videoPublishedAt": "2014-12-11T10:31:05Z",
+        "extra": {
+          "duration": "PT25M43S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1543
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "X6XuTDrfuHvZn1F1Ui-WNvjNzVo",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS40MDNEMzA0QTBFRThFMzBE",
+      "snippet": {
+        "publishedAt": "2014-12-11T10:31:40Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 19 - Equações Diferenciais Ordinárias - Parte 14",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 70",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hbTxiZkvwXg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hbTxiZkvwXg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hbTxiZkvwXg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hbTxiZkvwXg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hbTxiZkvwXg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 69,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hbTxiZkvwXg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "hbTxiZkvwXg",
+        "videoPublishedAt": "2014-12-11T10:31:40Z",
+        "extra": {
+          "duration": "PT26M44S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1604
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TqadOzsjXXaGsC8eiY37UPgyCaw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS42RTNCOEMxREI3Q0VDMjU2",
+      "snippet": {
+        "publishedAt": "2014-12-12T12:58:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 15",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 71",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DVvR070MlVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DVvR070MlVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DVvR070MlVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DVvR070MlVs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DVvR070MlVs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 70,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "DVvR070MlVs"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "DVvR070MlVs",
+        "videoPublishedAt": "2014-12-12T12:58:27Z",
+        "extra": {
+          "duration": "PT28M28S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1708
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "A4h6suKrAxzSH_UMMbuWh8FyXXw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS43QzNCNkZENzIyMDY2MjZB",
+      "snippet": {
+        "publishedAt": "2014-12-12T12:58:44Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 16",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 72",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UHclnF9obvU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UHclnF9obvU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UHclnF9obvU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UHclnF9obvU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UHclnF9obvU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 71,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UHclnF9obvU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "UHclnF9obvU",
+        "videoPublishedAt": "2014-12-12T12:58:48Z",
+        "extra": {
+          "duration": "PT33M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1990
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "C_vabZar8piKsd5JL9caBLsswEg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5EQkE3RTJCQTJEQkFBQTcz",
+      "snippet": {
+        "publishedAt": "2014-12-16T15:49:10Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 17",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 73",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KLCk0Rq0yWg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KLCk0Rq0yWg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KLCk0Rq0yWg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KLCk0Rq0yWg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KLCk0Rq0yWg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 72,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KLCk0Rq0yWg"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "KLCk0Rq0yWg",
+        "videoPublishedAt": "2014-12-16T15:12:23Z",
+        "extra": {
+          "duration": "PT22M26S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1346
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QljgqBMZTL08wGhdoh8L05y0Lwg",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS44MkM2RjVEQkQ5N0I2MjVE",
+      "snippet": {
+        "publishedAt": "2015-01-20T16:31:59Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 18",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\nPlaylist: https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY\nPGM: 74",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ceUkeX4F1MY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ceUkeX4F1MY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ceUkeX4F1MY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ceUkeX4F1MY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ceUkeX4F1MY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 73,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ceUkeX4F1MY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "ceUkeX4F1MY",
+        "videoPublishedAt": "2015-01-20T16:31:51Z",
+        "extra": {
+          "duration": "PT28M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1684
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Eo-P1xkjJ_J4sESMDbqf9GosrUM",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS45NDlDQUFFOThDMTAxQjUw",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:29:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 19",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 75",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qAhgvox74vU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qAhgvox74vU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qAhgvox74vU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qAhgvox74vU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qAhgvox74vU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 74,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qAhgvox74vU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "qAhgvox74vU",
+        "videoPublishedAt": "2015-01-09T14:29:28Z",
+        "extra": {
+          "duration": "PT23M3S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1383
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "PorzIhRGQb-2bKcSSGXsndA_GY8",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xN0Y2QjVBOEI2MzQ5OUM5",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:29:53Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 20",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 76",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_zRjsTNZDNY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_zRjsTNZDNY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_zRjsTNZDNY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_zRjsTNZDNY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_zRjsTNZDNY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 75,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_zRjsTNZDNY"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "_zRjsTNZDNY",
+        "videoPublishedAt": "2015-01-09T14:29:52Z",
+        "extra": {
+          "duration": "PT26M44S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1604
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UPBu2mxPD7VWPBVwmGr6fAxE68w",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5FQUY2Qzk4RUFDN0ZFRkZF",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:30:25Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 21",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 77",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V_6wYC4bFv8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V_6wYC4bFv8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V_6wYC4bFv8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/V_6wYC4bFv8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/V_6wYC4bFv8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 76,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "V_6wYC4bFv8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "V_6wYC4bFv8",
+        "videoPublishedAt": "2015-01-09T14:30:24Z",
+        "extra": {
+          "duration": "PT16M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 970
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vUGKKdl5c2Kp1egtOLTBm4u8MDA",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS5CMEVBRUJERkUyNTBENTkz",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:35:29Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 1",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 78",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RqkPSR-kYCo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RqkPSR-kYCo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RqkPSR-kYCo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RqkPSR-kYCo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RqkPSR-kYCo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 77,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RqkPSR-kYCo"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "RqkPSR-kYCo",
+        "videoPublishedAt": "2015-01-09T14:35:28Z",
+        "extra": {
+          "duration": "PT29M57S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1797
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Yi6LEKuy7g6Ahn-z6v8NuVFQd5U",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xNjIyNEE0MDEyRDlCMjBE",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:35:58Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 2",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 79",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wo6SNnhgNeE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wo6SNnhgNeE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wo6SNnhgNeE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wo6SNnhgNeE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wo6SNnhgNeE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 78,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wo6SNnhgNeE"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "wo6SNnhgNeE",
+        "videoPublishedAt": "2015-01-09T14:35:58Z",
+        "extra": {
+          "duration": "PT23M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1411
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "bBV-K1zZD6Yab_zEj8wgSkcN0sI",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS44QTY2MEEzNzBFQUJCMUQ2",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:36:46Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 3",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 80",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R0o5gXtvLsA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R0o5gXtvLsA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R0o5gXtvLsA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/R0o5gXtvLsA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/R0o5gXtvLsA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 79,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "R0o5gXtvLsA"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "R0o5gXtvLsA",
+        "videoPublishedAt": "2015-01-09T14:36:45Z",
+        "extra": {
+          "duration": "PT21M18S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1278
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3hnk-LzGNxfGfmieBZQUNMjE2_E",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4zQTkzRjgxRTY0OEU0MkM3",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:37:06Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 4",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 81",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Et5L0J3yVPU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Et5L0J3yVPU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Et5L0J3yVPU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Et5L0J3yVPU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Et5L0J3yVPU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 80,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Et5L0J3yVPU"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "Et5L0J3yVPU",
+        "videoPublishedAt": "2015-01-09T14:37:05Z",
+        "extra": {
+          "duration": "PT18M36S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1116
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "j1kXFkeU0q6v5WG7FO7zQ4gLRwk",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4xNTZBNUQxMDZBQzFGMjkw",
+      "snippet": {
+        "publishedAt": "2015-01-09T14:37:33Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 5",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 82\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n\nDe segunda a sexta às 09h e 21h, o programa Estúdio Univesp traz entrevistas, debates, matérias especiais, notícias e o resumo da programação na tela da UNIVESP TV. O canal para quem quer saber mais e aprender sempre! \n\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura.\n\nEm São Paulo, o canal é o 2.2. \nSantos - Guarujá, canal 3.2.\nRibeirão Preto, 4.2.\nCampinas 10.2.\nSão José dos Campos, 27.2.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iW5p7CXTnbk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iW5p7CXTnbk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iW5p7CXTnbk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iW5p7CXTnbk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iW5p7CXTnbk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 81,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iW5p7CXTnbk"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "iW5p7CXTnbk",
+        "videoPublishedAt": "2015-01-09T14:37:32Z",
+        "extra": {
+          "duration": "PT20M55S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1255
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sh9sK37pqkqSi6HOPnWAzm-BkMw",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS4wMDFGNzBEOTU4Q0Y1Q0RG",
+      "snippet": {
+        "publishedAt": "2015-01-13T14:30:41Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 6",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 83\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n\nDe segunda a sexta às 09h e 21h, o programa Estúdio Univesp traz entrevistas, debates, matérias especiais, notícias e o resumo da programação na tela da UNIVESP TV. O canal para quem quer saber mais e aprender sempre! \n\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura.\n\nEm São Paulo, o canal é o 2.2. \nSantos - Guarujá, canal 3.2.\nRibeirão Preto, 4.2.\nCampinas 10.2.\nSão José dos Campos, 27.2.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c64U5ttODD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c64U5ttODD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c64U5ttODD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/c64U5ttODD4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/c64U5ttODD4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 82,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "c64U5ttODD4"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "c64U5ttODD4",
+        "videoPublishedAt": "2015-01-13T14:30:47Z",
+        "extra": {
+          "duration": "PT30M30S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1830
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Sr8Sk7-p4Py_Y3pOqPd6EWtORxI",
+      "id": "UEx4SThDYW45eUFIZU9pTVlDQmxreUNBTGxvUk9RNThPWS44QTA1QTQyRTc3M0VGQzYx",
+      "snippet": {
+        "publishedAt": "2015-01-13T14:30:57Z",
+        "channelId": "UCBL2tfrwhEhX52Dze_aO3zA",
+        "title": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 7",
+        "description": "Aula do curso de Cálculo IV, professor Cláudio Possani, do Instituto de Matemática e Estatística da USP.\n\nPGM: 84\n\nAssista a UNIVESP TV ao vivo, e veja nossa programação completa em http://univesptv.cmais.com.br\n\nDe segunda a sexta às 09h e 21h, o programa Estúdio Univesp traz entrevistas, debates, matérias especiais, notícias e o resumo da programação na tela da UNIVESP TV. O canal para quem quer saber mais e aprender sempre! \n\nSintonize a UNIVESP TV através dos canais digitais da multiprogramação da TV Cultura.\n\nEm São Paulo, o canal é o 2.2. \nSantos - Guarujá, canal 3.2.\nRibeirão Preto, 4.2.\nCampinas 10.2.\nSão José dos Campos, 27.2.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LmHOvNXC7x8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LmHOvNXC7x8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LmHOvNXC7x8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LmHOvNXC7x8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LmHOvNXC7x8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "UNIVESP",
+        "playlistId": "PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
+        "position": 83,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LmHOvNXC7x8"
+        },
+        "videoOwnerChannelTitle": "UNIVESP",
+        "videoOwnerChannelId": "UCBL2tfrwhEhX52Dze_aO3zA"
+      },
+      "contentDetails": {
+        "videoId": "LmHOvNXC7x8",
+        "videoPublishedAt": "2015-01-13T14:31:03Z",
+        "extra": {
+          "duration": "PT28M6S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1686
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 84,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Cálculo IV (Métodos Matemáticos)",
+    "durationSeconds": 128702
+  }
+};

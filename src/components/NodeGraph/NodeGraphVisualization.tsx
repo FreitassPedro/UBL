@@ -9,7 +9,7 @@ import {
 } from "@xyflow/react";
 import React from "react";
 import "@xyflow/react/dist/style.css";
-import { CurriculoCC } from "@/data/gradeCurricular";
+import { CurriculoCC } from "@/data/GradeCurricular";
 import CustomNode from "@/components/CurriculoNode/CustomNode";
 
 interface customNode extends Node {
