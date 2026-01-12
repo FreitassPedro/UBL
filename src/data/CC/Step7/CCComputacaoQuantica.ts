@@ -1,0 +1,1285 @@
+export const CCComputacaoQuantica = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "614AhzWyGLGHJYTyLgg3AmybnjA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "uOkAWwViZPFsgbvQQ448sHQiBGE",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2016-08-31T11:55:41Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Números Complexos",
+        "description": "Este vídeo é um estudo detalhado do capítulo 1 do livro \"Quantum Computing for Computer Scientists\" de Yanofsky e Mannuci.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/siQAsHPRb0w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/siQAsHPRb0w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/siQAsHPRb0w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/siQAsHPRb0w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/siQAsHPRb0w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "siQAsHPRb0w"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "siQAsHPRb0w",
+        "videoPublishedAt": "2016-08-30T15:02:05Z",
+        "extra": {
+          "duration": "PT2H5M45S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 7545
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hWI9XYg4i_t5VGyf2jlo3-amjPs",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2016-09-29T10:43:04Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Espaço vetorial Complexo",
+        "description": "Este vídeo é um estudo detalhado do capítulo 2 do livro \"Quantum Computing for Computer Scientists\" de Yanofsky e Mannuci. Para capítulo 1 acesse https://youtu.be/siQAsHPRb0w",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EnxBTTMXxIo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EnxBTTMXxIo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EnxBTTMXxIo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EnxBTTMXxIo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EnxBTTMXxIo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EnxBTTMXxIo"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "EnxBTTMXxIo",
+        "videoPublishedAt": "2016-09-29T13:04:51Z",
+        "extra": {
+          "duration": "PT4H32M36S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 16356
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Cmjg8Jwmow4YBrhsWlnbx9FN1cg",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2016-11-04T11:18:04Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Bits Quânticos",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n1wQxA68Cws/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n1wQxA68Cws/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n1wQxA68Cws/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/n1wQxA68Cws/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/n1wQxA68Cws/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "n1wQxA68Cws"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "n1wQxA68Cws",
+        "videoPublishedAt": "2016-11-04T11:34:11Z",
+        "extra": {
+          "duration": "PT36M46S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2206
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "tKzKAE6yVkrtGlfJEa4687-yOzI",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2015-10-20T11:28:31Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Estados de Bell, Paralelismo, Algoritmo de Deutsch",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3mwQRbi2skc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3mwQRbi2skc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3mwQRbi2skc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3mwQRbi2skc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3mwQRbi2skc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3mwQRbi2skc"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "3mwQRbi2skc",
+        "videoPublishedAt": "2015-09-16T20:17:02Z",
+        "extra": {
+          "duration": "PT1H42M",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 6120
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0xb3s7NsNoeMRbr1S4nxYUBJdBI",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2016-02-16T20:59:18Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Teorema da Não Clonagem",
+        "description": "Explicamos de forma simples o teorema da não clonagem de estados quânticos conforme exposto no livro do Nielsen e Chuang.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G_pPzw3UVTo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G_pPzw3UVTo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G_pPzw3UVTo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "G_pPzw3UVTo"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "G_pPzw3UVTo",
+        "videoPublishedAt": "2016-10-05T20:29:13Z",
+        "extra": {
+          "duration": "PT16M38S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 998
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "th0cfXX5qQVFV8m2g18Z7fSfZfQ",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2016-02-17T14:00:22Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Teletransporte Quântico",
+        "description": "Descrição do algoritmo do teletransporte quântico.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1nBTY_f-KAA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1nBTY_f-KAA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1nBTY_f-KAA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1nBTY_f-KAA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1nBTY_f-KAA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1nBTY_f-KAA"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "1nBTY_f-KAA",
+        "videoPublishedAt": "2016-02-17T14:17:03Z",
+        "extra": {
+          "duration": "PT25M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1505
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "y5Pt40XYL7QpqglWcOqRtQ2gNSc",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2016-06-04T20:05:57Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Aula 1 - Informação quântica",
+        "description": "Este vídeo é destinado aos alunos de pós-graduação. Aqui apresentamos de forma sucinta alguns conceitos básicos da teoria de informação quântica como: estados quânticos, qubits, vetor e esfera de Bloch, operador densidade, estados mistos e pureza, sistemas compostos e o produto tensorial, o processo de medida, entropia, entropia condicional e informação mútua.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WNYur9BjnH0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WNYur9BjnH0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WNYur9BjnH0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WNYur9BjnH0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WNYur9BjnH0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "WNYur9BjnH0"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "WNYur9BjnH0",
+        "videoPublishedAt": "2016-06-04T14:55:13Z",
+        "extra": {
+          "duration": "PT2H22M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 8533
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ffKZMQ9-AhutFD7gWbcAVAxAuDo",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2016-10-13T13:10:01Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Algoritmo de Deutsch",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Sb5WRs8XUuU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Sb5WRs8XUuU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Sb5WRs8XUuU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Sb5WRs8XUuU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Sb5WRs8XUuU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Sb5WRs8XUuU"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "Sb5WRs8XUuU",
+        "videoPublishedAt": "2016-10-13T13:31:58Z",
+        "extra": {
+          "duration": "PT39M9S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2349
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Is-tEaNymXv0shoOdA1RVTQDpfE",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2016-10-20T13:33:36Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Teletransporte Quântico - 2016",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JWNDlSWDUU0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JWNDlSWDUU0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JWNDlSWDUU0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JWNDlSWDUU0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JWNDlSWDUU0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JWNDlSWDUU0"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "JWNDlSWDUU0",
+        "videoPublishedAt": "2016-10-20T13:30:40Z",
+        "extra": {
+          "duration": "PT30M5S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1805
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hpv7FBnokYAM5VWunkmlgrFDMvM",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2016-10-20T16:06:55Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Algoritmo de Deutsch-Jozsa",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g-O9aRzGeHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g-O9aRzGeHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g-O9aRzGeHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/g-O9aRzGeHs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/g-O9aRzGeHs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "g-O9aRzGeHs"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "g-O9aRzGeHs",
+        "videoPublishedAt": "2016-10-20T13:55:32Z",
+        "extra": {
+          "duration": "PT57M53S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3473
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "e37Qr0L4rr3ColEUpkgZeAwDoR0",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2016-10-20T13:33:12Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Algoritmo de Deutsch-Jozsa - Exemplo 3 qubits",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jBc35cih6Wc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jBc35cih6Wc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jBc35cih6Wc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jBc35cih6Wc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jBc35cih6Wc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jBc35cih6Wc"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "jBc35cih6Wc",
+        "videoPublishedAt": "2016-10-20T13:30:24Z",
+        "extra": {
+          "duration": "PT14M10S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 850
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "clVBRi5lHdJhn93r3ZthKAcEgtc",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2016-11-04T11:34:00Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Formalismo do Operador Densidade - Mecânica quântica",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xmBZKohaTxs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xmBZKohaTxs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xmBZKohaTxs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xmBZKohaTxs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xmBZKohaTxs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xmBZKohaTxs"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "xmBZKohaTxs",
+        "videoPublishedAt": "2016-11-04T11:39:54Z",
+        "extra": {
+          "duration": "PT35M56S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2156
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pKuewhjvvpZPCzvt7Y1csVDEkc0",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2016-11-04T12:06:38Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Canais Quânticos",
+        "description": "Descrição dos canais de Amplitude Damping e Dephasing",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qZhCNo_yRRg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qZhCNo_yRRg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qZhCNo_yRRg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qZhCNo_yRRg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qZhCNo_yRRg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qZhCNo_yRRg"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "qZhCNo_yRRg",
+        "videoPublishedAt": "2016-11-04T12:02:06Z",
+        "extra": {
+          "duration": "PT35M54S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2154
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "zbTl7eSsCppcNmiY-YOqDdZWF80",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2016-11-15T11:23:00Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Operação Traço Parcial",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zIrpDPyebmk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zIrpDPyebmk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zIrpDPyebmk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zIrpDPyebmk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zIrpDPyebmk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zIrpDPyebmk"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "zIrpDPyebmk",
+        "videoPublishedAt": "2016-11-04T12:38:18Z",
+        "extra": {
+          "duration": "PT37M33S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2253
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Iqgqq7M3x_XMBZJSVk4ThPKuo84",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2016-11-11T13:02:36Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Operadores de Kraus",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6lMYJFYqsAI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6lMYJFYqsAI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6lMYJFYqsAI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6lMYJFYqsAI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6lMYJFYqsAI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6lMYJFYqsAI"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "6lMYJFYqsAI",
+        "videoPublishedAt": "2016-11-11T13:23:35Z",
+        "extra": {
+          "duration": "PT41M48S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2508
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "saKWautOuxQvb-ibgP14tazcfVg",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2023-10-30T02:44:12Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Aprendizado de Máquina Quântico",
+        "description": "Apresentação realizada no III Workshop de Termodinâmica e Informação Quântica, promovido pela Universidade Federal de Lavras.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8_l0ZycV900/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8_l0ZycV900/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8_l0ZycV900/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8_l0ZycV900/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8_l0ZycV900/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8_l0ZycV900"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "8_l0ZycV900",
+        "videoPublishedAt": "2023-10-30T02:47:22Z",
+        "extra": {
+          "duration": "PT55M51S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 3351
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Mc-gAAZNwxUEuPb74-Z8Zg0Un5w",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2023-11-04T11:17:20Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Quantum Neural Network for Calibrating Question Answering System",
+        "description": "Apresentação realizada no ICTP SAIFR - International Centre for Tehoretical Physics (IFT - Unesp)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zcvjU5PfOn0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zcvjU5PfOn0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zcvjU5PfOn0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zcvjU5PfOn0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zcvjU5PfOn0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zcvjU5PfOn0"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "zcvjU5PfOn0",
+        "videoPublishedAt": "2023-11-04T11:17:58Z",
+        "extra": {
+          "duration": "PT11M43S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 703
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "r-VCkLukITD_HMu2ubrRrj1VTAM",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2024-01-03T15:48:13Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Supremacia Quântica",
+        "description": "Corte da live apresentada para a Quantum School Online\nhttps://www.linkedin.com/company/quantum-school-online/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9O3vYfQyaCM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9O3vYfQyaCM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9O3vYfQyaCM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9O3vYfQyaCM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9O3vYfQyaCM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "9O3vYfQyaCM"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "9O3vYfQyaCM",
+        "videoPublishedAt": "2024-01-03T15:48:54Z",
+        "extra": {
+          "duration": "PT9M11S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 551
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2hRN0gTSWHr1u7tN91Uq6igkvEA",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2024-12-28T02:37:14Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Explorando Problemas da Física com ML e Algoritmos Variacionais - VII Workshop de CQ - UFSC",
+        "description": "Palestra ministrada na Universidade Federal de Santa Catarina em 31 de Outubro de 2024",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mxjSZ-2F19w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mxjSZ-2F19w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mxjSZ-2F19w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mxjSZ-2F19w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mxjSZ-2F19w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "mxjSZ-2F19w"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "mxjSZ-2F19w",
+        "videoPublishedAt": "2024-12-28T14:46:23Z",
+        "extra": {
+          "duration": "PT1H13M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 4392
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NrzK6Fql7CMey132D7fptXLUAc0",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2024-12-28T15:09:39Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Quantum Computing Today: Errors and Mitigation Strategies in the NISQ Era - IFT - Unesp",
+        "description": "Palestra ministrada na Instituto de Física Teórica (IFT) da Unesp no dia 03 de Dezembro de 2024",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P9pS0A_Gans/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P9pS0A_Gans/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P9pS0A_Gans/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/P9pS0A_Gans/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/P9pS0A_Gans/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "P9pS0A_Gans"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "P9pS0A_Gans",
+        "videoPublishedAt": "2024-12-28T15:51:17Z",
+        "extra": {
+          "duration": "PT21M49S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 1309
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5ICpNVAxVprZiJ_q33_MFljBhTA",
+      "id": "UExVRmNSYnU5dC12NHBlSGRtRHk0cnRHM0VuYlpOUzg2Ui5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2025-03-20T21:30:01Z",
+        "channelId": "UC6lrmWd3ARFmLKz35su8Uuw",
+        "title": "Aprendizado de Máquina Quântico, algoritmos e resultados",
+        "description": "Palestra apresentada no SENAI CIMATEC no dia 18/03/2025",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/17MoFHkEWvo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/17MoFHkEWvo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/17MoFHkEWvo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/17MoFHkEWvo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/17MoFHkEWvo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "playlistId": "PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "17MoFHkEWvo"
+        },
+        "videoOwnerChannelTitle": "Física com Precisão - Prof. Felipe Fanchini",
+        "videoOwnerChannelId": "UC6lrmWd3ARFmLKz35su8Uuw"
+      },
+      "contentDetails": {
+        "videoId": "17MoFHkEWvo",
+        "videoPublishedAt": "2025-03-20T21:36:44Z",
+        "extra": {
+          "duration": "PT42M16S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 2536
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 21,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Computação Quântica",
+    "durationSeconds": 73653
+  }
+};

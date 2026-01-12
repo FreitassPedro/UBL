@@ -15,7 +15,7 @@ import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
-import { CurriculoCC } from "@/data/gradeCurricular";
+import { CurriculoCC } from "@/data/GradeCurricular";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapCadeiraToMyCadeira } from "@/lib/mappers";
 import { formatSecondsToMinutes } from "@/lib/utils";

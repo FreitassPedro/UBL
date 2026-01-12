@@ -1,0 +1,482 @@
+export const CCRedesDeComputadores = {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "IQNnoMnc4tqKuCjxqoMct0_Vggo",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "u3F2R7-txaS3CORMs2wz5aILNtM",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2020-11-13T13:18:24Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 1 - Introdução - Redes de Computadores",
+        "description": "1. Introdução:\n1.1 O que é a Internet?\n1.2 Borda da rede\n1.3 Núcleo da Rede.\n1.4 Atraso, perda, vazão em redes\n1.5 Camadas de protocolos, modelos de serviços\n1.6 Redes sob ataque: segurança\n1.7 História\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 1 – Computer Networks and the Internet.\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 1 – Introdução.\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 1 – Introdução.\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulos 1 e 2.\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 1 a 4.\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4sS1BMeJsEc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4sS1BMeJsEc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4sS1BMeJsEc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4sS1BMeJsEc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4sS1BMeJsEc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4sS1BMeJsEc"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "4sS1BMeJsEc",
+        "videoPublishedAt": "2020-11-13T18:52:38Z",
+        "extra": {
+          "duration": "PT6H1M53S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 21713
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8mESyc2B3o09S7g10lwV2iUvd-A",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2020-11-26T12:19:21Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 2 - Camada de Aplicação - Redes de Computadores",
+        "description": "2.1 princípios de aplicações de rede\n2.2 Web e HTTP\n2.3 FTP \n2.4 correio eletrônico: SMTP, POP3, IMAP\n2.5 DNS\n2.6 aplicações P2P\n2.7 transmissão de vídeo e redes de distribuição de conteúdo (CDN)\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nErrata: No vídeo eu fiz as consultas de servidores de nome (-type=NS) passando os domínios com o prefixo www. O correto seria usar apenas o nome do domínio. \nExemplos: \nnslookup -type=NS google.com\nnslookup -type=NS unesp.br\n\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 2 – Application Layer.\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 7 – A Camada de Aplicação.\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 2 – Camada de Aplicação.\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 15 – Nível de Aplicação.\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 30 a 32.\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dgwzJ1SOdEM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dgwzJ1SOdEM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dgwzJ1SOdEM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dgwzJ1SOdEM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dgwzJ1SOdEM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dgwzJ1SOdEM"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "dgwzJ1SOdEM",
+        "videoPublishedAt": "2020-11-26T12:20:34Z",
+        "extra": {
+          "duration": "PT5H43M1S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 20581
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3legekvRhG4dju81fOmbfXvmPA4",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2020-12-10T11:01:13Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 3 - Camada de Transporte - Redes de Computadores",
+        "description": "Camada de Transporte:\n- serviços da camada de transporte\n- multiplexação e demultiplexação\n- transporte sem conexão: UDP\n- princípios de transferência de dados confiável\n- transporte orientado a conexão: TCP\n- princípios de controle de congestionamento\n- controle de congestionamento do TCP\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 3 – Transport Layer.\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 6 – A Camada de Transporte\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulos 11 e 12.\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 12 – Nível de Transporte.\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 30 a 32.\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wl0NI17Lj2c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wl0NI17Lj2c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wl0NI17Lj2c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Wl0NI17Lj2c"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "Wl0NI17Lj2c",
+        "videoPublishedAt": "2020-12-10T15:32:19Z",
+        "extra": {
+          "duration": "PT4H31M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 16299
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0N2RaNaFUcdfZLWLJcE8G_liB4I",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2020-12-30T00:03:37Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 4 - Camada de Rede: Plano de Dados - Redes de Computadores",
+        "description": "Camada de Rede - Plano de Dados:\n- Visão geral da camada de Rede\n- O que há dentro de um roteador?\n- IP: Internet Protocol\n- Encaminhamento Generalizado e SDN\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 4 – The Network Layer: Data Plane.\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 5 – A Camada de Rede.\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 4 – Camada de Rede.\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 3 – TCP/IP e Capítulo 18 – Roteadores.\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 6 a 9\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fg2cWHFY_Q4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fg2cWHFY_Q4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fg2cWHFY_Q4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "fg2cWHFY_Q4"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "fg2cWHFY_Q4",
+        "videoPublishedAt": "2020-12-30T02:51:37Z",
+        "extra": {
+          "duration": "PT3H34M7S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 12847
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "xgryAOwWoPtr5CmKjzvJExhkCko",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2021-01-27T22:46:59Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 5 - Camada de Rede: Plano de Controle - Redes de Computadores",
+        "description": "Camada de Rede - Plano de Controle:\n- Protocolos de Roteamento\n- Roteamento Intra-AS na Internet: OSPF\n- Roteamento entre ISPs: BGP\n- O plano de controle de SDN\n- ICMP: Internet Control Message Protocol \n- Gerenciamento de redes e SNMP\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 5 – The Network Layer: Control Plane.\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 5 – A Camada de Rede.\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 4 – Camada de Rede.\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 3 – TCP/IP e Capítulo 18 – Roteadores.\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 6 a 9\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qNgA8vTHfgQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qNgA8vTHfgQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qNgA8vTHfgQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qNgA8vTHfgQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qNgA8vTHfgQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qNgA8vTHfgQ"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "qNgA8vTHfgQ",
+        "videoPublishedAt": "2021-01-27T22:49:39Z",
+        "extra": {
+          "duration": "PT2H27M40S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 8860
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "a5dHuW-cfDabYyimlk2HWCz1wdQ",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2021-02-19T13:18:04Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 6 - Camada de Enlace - Redes de Computadores (áudio corrigido)",
+        "description": "Camada de Enlace:\n- introdução, serviços\n- detecção e correção de erros \n- protocolos de acesso múltiplo\n- LANs: endereçamento, ARP, Ethernet\n- LANs: comutadores (switches), VLANs\n- virtualização de enlace: MPLS\n- redes em data centers\n- um dia na vida de uma requisição web\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 6 – The Link Layer and LANs\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 3 – A Camada de Enlace de Dados\nCapítulo 4 – A Subcamada de Controle de Acesso ao Meio\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 5 – Camada de Enlace de Dados: Redes com Fios\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 3 – Capítulos 13 a 17\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 2 – Revisão das tecnologias de rede básicas\nhttps://amzn.to/33G5oAh\n\nMAIA, Luiz Paulo. Arquitetura de Redes de Computadores. 2ª edição. LTC, 2013.\nCapítulos 4 e 5\nhttps://amzn.to/3ptoAKe",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nZan2yTamJw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nZan2yTamJw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nZan2yTamJw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nZan2yTamJw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nZan2yTamJw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "nZan2yTamJw"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "nZan2yTamJw",
+        "videoPublishedAt": "2021-02-19T13:18:38Z",
+        "extra": {
+          "duration": "PT4H28M26S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 16106
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KkcNCTsMwXDfNQ_GSlx1pWq0tbg",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2021-02-17T11:18:00Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 7 - Redes Sem Fio - Redes de Computadores",
+        "description": "Redes Sem Fio:\n- Introdução\n- Enlaces sem Fio, características CDMA\n- LANs sem fio IEEE 802.11 (“Wi-Fi”)\n- Acesso Celular à Internet\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 7 – Wireless and Mobile Networks\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 3 – A Camada de Enlace de Dados\nCapítulo 4 – A Subcamada de Controle de Acesso ao Meio\nhttps://amzn.to/2FirGyY\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 6 – Redes sem Fio e IP Móvel\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 12 – Redes Sem Fio\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulos 2 – Revisão das tecnologias de rede básicas\nhttps://amzn.to/33G5oAh\n\nMAIA, Luiz Paulo. Arquitetura de Redes de Computadores. 2ª edição. LTC, 2013.\nCapítulos 4 e 5\nhttps://amzn.to/3ptoAKe",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yDp_ms_Cu2M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yDp_ms_Cu2M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yDp_ms_Cu2M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yDp_ms_Cu2M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yDp_ms_Cu2M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "yDp_ms_Cu2M"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "yDp_ms_Cu2M",
+        "videoPublishedAt": "2021-02-17T11:19:06Z",
+        "extra": {
+          "duration": "PT2H44M30S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 9870
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "--dcRtbaQlWxVmVaE8M-a6Artmo",
+      "id": "UEx2SFhMYnctSlNQZktwNjVwc1g1Qzl0eU5MSEhDNHVvUi45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2021-02-28T14:28:28Z",
+        "channelId": "UCaWF-wPfZB6LoQo9y1DHqhA",
+        "title": "Aula 8 - Segurança de Redes - Redes de Computadores",
+        "description": "Segurança de Redes:\n- O que é segurança de redes?\n- Princípios de criptografia\n- Integridade de mensagens, autenticação\n- Protegendo o e-mail\n- Protegendo conexões TCP: SSL\n\nFabricio Breve é Livre Docente em Redes de Computadores pela UNESP, Doutor em Ciência da Computação pela USP, com período sanduíche na University of Alberta, no Canadá, e Mestre em Ciência da Computação pela UFSCar. Atua como Professor Associado na UNESP, ministrando a disciplina Redes de Computadores nos cursos de Bacharelado em Ciências da Computação desde 2011.\nhttps://www.fabriciobreve.com/\n\nReferências Bibliográficas:\n\nKUROSE, James F. e ROSS, Keith W. Computer Networking: A Top-Down Approach. 7ª Edição. Pearson, 2016.\nCapítulo 8 – Security in Computer Networks\nhttps://amzn.to/3lsbt9A\n\nTANENBAUM, Andrew S. e WETHERALL, David. Redes de Computadores. 5ª Edição. São Paulo: Pearson Prentice Hall, 2011.\nCapítulo 8 – Segurança de Redes\nhttps://amzn.to/2FirGyY\n\nSTALLINGS, William. Criptografia e segurança de redes: princípios e práticas. 6ª Edição. São Paulo: Pearson Education do Braasil, 2015.\nhttps://amzn.to/2Mg4Kni\n\nFOUROUZAN, Behrouz A. e FIROUZ, Mosharraf. Redes de Computadores: uma abordagem top-down. Porto Alegre: AMGH, 2013.\nCapítulo 10 – Segurança de Redes\nhttps://amzn.to/33F144w\n\nTORRES, Gabriel. Redes de Computadores: Curso Completo. Axcel Books, 2001.\nCapítulo 20 – Segurança de Redes\nhttps://amzn.to/2GL5xd1\n\nCOMER, Douglas E. Interligação de Redes com TCP/IP. Volume 1: Princípios, protocolos e arquitetura. 6ª Edição. Rio de Janeiro: Elsevier, 2015.\nCapítulo 30 – Segurança na Internet e projeto de firewall (IPSec, SSL)\nhttps://amzn.to/33G5oAh",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VZGOapKSeFM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VZGOapKSeFM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VZGOapKSeFM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VZGOapKSeFM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VZGOapKSeFM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Fabricio Breve",
+        "playlistId": "PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VZGOapKSeFM"
+        },
+        "videoOwnerChannelTitle": "Fabricio Breve",
+        "videoOwnerChannelId": "UCaWF-wPfZB6LoQo9y1DHqhA"
+      },
+      "contentDetails": {
+        "videoId": "VZGOapKSeFM",
+        "videoPublishedAt": "2021-02-27T15:55:18Z",
+        "extra": {
+          "duration": "PT3H15M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular",
+          "durationSeconds": 11750
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 8,
+    "resultsPerPage": 50
+  },
+  "extra": {
+    "name": "Redes de Computadores",
+    "durationSeconds": 118026
+  }
+};
