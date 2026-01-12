@@ -13,18 +13,7 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ courseProgress
 
     return (
         <div className="flex flex-col w-full space-y-8">
-            {/* Header da Seção */}
-            <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                    <div className="p-2 bg-zinc-800 rounded-lg border border-zinc-700">
-                        <LayoutGrid className="w-5 h-5 text-zinc-300" />
-                    </div>
-                    <h2 className="text-2xl font-bold text-zinc-100 tracking-tight">Sua Jornada</h2>
-                </div>
-                <div className="text-sm text-zinc-400">
-                    Bem-vindo, Estudante
-                </div>
-            </div>
+            
 
             {/* Navegação por Abas (Tabs) */}
             <div className="flex flex-col w-full items-center space-y-4">
