@@ -47,12 +47,12 @@ export const HomePage: React.FC = () => {
   }, [completedLessons, sortBy]);
 
   return (
-    <div className="min-h-screen bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
+    <div className="min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 py-16 md:py-24 container">
+      <main className="relative max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-full h-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 py-16 md:py-24 container">
         {/* Conteúdo Principal */}
         <div className="flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
           {/* Título Principal */}

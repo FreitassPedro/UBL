@@ -7,9 +7,9 @@ export const Layout = () => {
   const isHome: boolean = location.pathname === "/";
 
   return (
-    <div className="min-h-screen bg-bg-body font-inter overflow-hidden">
+    <div className="min-h-screen bg-bg-body font-inter overflow-hidden flex flex-col">
       <Navbar />
-      <main>
+      <main className="flex-1">
         {/* Aqui vão os componentes filhos, como rotas */}
         <Outlet />
       </main>
