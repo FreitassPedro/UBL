@@ -8,8 +8,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { HeroHighlight } from "@/components/ui/hero-highlight";
 import { Progress } from "@/components/ui/progress";
-import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import {
   Select,
   SelectContent,
@@ -69,7 +69,7 @@ export const HomePage: React.FC = () => {
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative max-w-6xl mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container">
+      <main className="relative max-w-6xl mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container px-6">
         {/* Conteúdo Principal */}
         <div className="flex flex-col items-center justify-center text-center">
           {/* Título Principal */}
@@ -78,7 +78,7 @@ export const HomePage: React.FC = () => {
           </h1>
 
           {/* Subtítulo */}
-          <div className="m-space-y-4">
+          <div className="space-y-4">
             <p className="text-lg md:text-xl text-zinc-100 font-light">
               Uma plataforma{" "}
               <span className="font-semibold">
@@ -136,108 +136,101 @@ export const HomePage: React.FC = () => {
       </main>
 
       {/* Cards */}
-      <div className="relative bg-bg-body w-full h-full p-20 border-t border-zinc-800 overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center z-0 opacity-75">
-          <div className="w-full h-full">
-            <div className="w-full h-full scale-[4.5] origin-center">
-              <TextHoverEffect text="UBL" duration={0.2} automatic />
-            </div>
-          </div>
-        </div>
-
-        <div className="relative z-10">
-          {/* Back to courses */}
-          {watchedCourses.length !== 0 && (
-            <Card className="p-0 max-w-6xl mx-auto overflow-hidden rounded-3xl bg-bg-card text-center">
-              <CardHeader className="px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                <div className="text-left space-y-2">
-                  <CardTitle className="text-4xl font-semibold text-white">
-                    Continue onde parou
-                  </CardTitle>
-                  <CardDescription className="text-md text-zinc-400">
-                    Retome rapidamente os cursos em andamento.
-                  </CardDescription>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="uppercase text-xs text-zinc-400">
-                    Ordenar por
-                  </span>
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="w-32 cursor-pointer">
-                      <SelectValue placeholder="Ordenar por" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {sortOptions.map((option) => (
-                        <SelectItem
-                          key={option}
-                          value={option}
-                          className="cursor-pointer"
-                        >
-                          {option.charAt(0).toUpperCase() + option.slice(1)}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-              </CardHeader>
-
-              <CardContent className="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {watchedCourses.map((course) => (
-                  <Card
-                    key={course.id}
-                    className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
-                  >
-                    <CardHeader className="p-0">
-                      <CardDescription className="font-semibold text-gray-400">
-                        Etapa {course.etapaNumber}
-                      </CardDescription>
-                      <CardTitle className="text-xl text-white font-semibold">
-                        {course.name}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="p-0 my-2">
-                      <div className="flex items-center justify-between text-gray-400 text-sm">
-                        <span>Progresso</span>
-                        <span>{course.progress}%</span>
-                      </div>
-                      <Progress
-                        value={course.progress}
-                        className="my-2 bg-zinc-700"
-                      />
-                    </CardContent>
-                    <CardFooter className="p-0">
-                      <Button asChild variant="secondary" className="w-full">
-                        <Link to={`/curso/${course.id}`}>Retomar</Link>
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                ))}
-              </CardContent>
-            </Card>
-          )}
-
-          {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
-          <Card className="p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl text-center">
-            <CardHeader className="p-0 mt-8">
-              <CardTitle className="text-3xl font-semibold text-white mb-2">
-                Pronto para continuar?
-              </CardTitle>
-              <CardDescription className="text-md text-zinc-400 max-w-lg mx-auto">
-                Você tem cadeiras pendentes na etapa atual. Volte aos estudos
-                agora mesmo.
-              </CardDescription>
+      <HeroHighlight
+        className="w-full h-full"
+        containerClassName="h-auto py-16 border-t border-zinc-800 dark:bg-zinc-950"
+      >
+        {/* Back to courses */}
+        {watchedCourses.length !== 0 && (
+          <Card className="p-0 max-w-6xl mx-auto overflow-hidden rounded-3xl bg-bg-card text-center">
+            <CardHeader className="px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div className="text-left space-y-2">
+                <CardTitle className="text-4xl font-semibold text-white">
+                  Continue onde parou
+                </CardTitle>
+                <CardDescription className="text-md text-zinc-400">
+                  Retome rapidamente os cursos em andamento.
+                </CardDescription>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="uppercase text-xs text-zinc-400">
+                  Ordenar por
+                </span>
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-32 cursor-pointer">
+                    <SelectValue placeholder="Ordenar por" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {sortOptions.map((option) => (
+                      <SelectItem
+                        key={option}
+                        value={option}
+                        className="cursor-pointer"
+                      >
+                        {option.charAt(0).toUpperCase() + option.slice(1)}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
             </CardHeader>
-            <CardFooter className="flex justify-center mb-8 mt-6">
-              <Button
-                className="text-sm font-semibold bg-zinc-100 text-zinc-900 hover:bg-white transition-colors"
-                asChild
-              >
-                <Link to="/meu-curso">Ir para meu Dashboard</Link>
-              </Button>
-            </CardFooter>
+
+            <CardContent className="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {watchedCourses.map((course) => (
+                <Card
+                  key={course.id}
+                  className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
+                >
+                  <CardHeader className="p-0">
+                    <CardDescription className="font-semibold text-gray-400">
+                      Etapa {course.etapaNumber}
+                    </CardDescription>
+                    <CardTitle className="text-xl text-white font-semibold">
+                      {course.name}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-0 my-2">
+                    <div className="flex items-center justify-between text-gray-400 text-sm">
+                      <span>Progresso</span>
+                      <span>{course.progress}%</span>
+                    </div>
+                    <Progress
+                      value={course.progress}
+                      className="my-2 bg-zinc-700"
+                    />
+                  </CardContent>
+                  <CardFooter className="p-0">
+                    <Button asChild variant="secondary" className="w-full">
+                      <Link to={`/curso/${course.id}`}>Retomar</Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))}
+            </CardContent>
           </Card>
-        </div>
-      </div>
+        )}
+
+        {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
+        <Card className="p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl text-center">
+          <CardHeader className="p-0 mt-8">
+            <CardTitle className="text-3xl font-semibold text-white mb-2">
+              Pronto para continuar?
+            </CardTitle>
+            <CardDescription className="text-md text-zinc-400 max-w-lg mx-auto">
+              Você tem cadeiras pendentes na etapa atual. Volte aos estudos
+              agora mesmo.
+            </CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-center mb-8 mt-6">
+            <Button
+              className="text-sm font-semibold bg-zinc-100 text-zinc-900 hover:bg-white transition-colors"
+              asChild
+            >
+              <Link to="/meu-curso">Ir para meu Dashboard</Link>
+            </Button>
+          </CardFooter>
+        </Card>
+      </HeroHighlight>
     </div>
   );
 };
