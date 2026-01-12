@@ -9,8 +9,8 @@ import {
 } from "@xyflow/react";
 import React from "react";
 import "@xyflow/react/dist/style.css";
-import { CurriculoCC } from "@/data/GradeCurricular";
 import CustomNode from "@/components/CurriculoNode/CustomNode";
+import type { Grade } from "@/types/grade";
 
 interface customNode extends Node {
     data: {
@@ -32,11 +32,11 @@ const nodeTypes = {
     customNode: CustomNode,
 }
 
-const generateFlow = () => {
+const generateFlow = (grade: Grade) => {
     const nodes: customNode[] = [];
     const edges: Edge[] = [];
 
-    CurriculoCC.etapas.forEach((etapa) => {
+    grade.etapas.forEach((etapa) => {
         etapa.cadeiras.forEach((cadeira, cadeiraIndex) => {
             const nodeId = cadeira.name;
             nodes.push(
@@ -49,7 +49,7 @@ const generateFlow = () => {
         });
     });
 
-    CurriculoCC.etapas.forEach((etapa) => {
+    grade.etapas.forEach((etapa) => {
         etapa.cadeiras.forEach((cadeira) => {
             if (cadeira.prerequisites && cadeira.prerequisites.length > 0) {
                 cadeira.prerequisites.forEach((preReq) => {
@@ -72,12 +72,19 @@ const generateFlow = () => {
     return { initialNodes: nodes, initialEdges: edges };
 };
 
-const initialNodes = generateFlow().initialNodes;
-const initialEdges = generateFlow().initialEdges;
+interface NodeGraphVisualizationProps {
+    grade: Grade;
+}
 
-const NodeGraphVisualization = () => {
-    const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-    const [edges, setEdges] = useEdgesState(initialEdges);
+const NodeGraphVisualization: React.FC<NodeGraphVisualizationProps> = ({ grade }) => {
+    const flow = React.useMemo(() => generateFlow(grade), [grade]);
+    const [nodes, setNodes, onNodesChange] = useNodesState(flow.initialNodes);
+    const [edges, setEdges] = useEdgesState(flow.initialEdges);
+
+    React.useEffect(() => {
+        setNodes(flow.initialNodes);
+        setEdges(flow.initialEdges);
+    }, [flow, setEdges, setNodes]);
 
     const fitViewOptions = {
         padding: 0.2,

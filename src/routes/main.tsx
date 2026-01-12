@@ -1,6 +1,7 @@
 import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
 import { CourseProgressProvider } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { LoadingProvider } from "@/contexts/LoadingContext/LoadingProvider";
+import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
 import CoursePage from "@/pages/CoursePage/CoursePage";
@@ -32,7 +33,10 @@ createRoot(document.getElementById("root")!).render(
             {/* Teste Routes */}
             <Route>
               <Route path="/teste" element={<TestePage />} />
-              <Route path="/teste/node" element={<NodeGraphVisualization />} />
+              <Route
+                path="/teste/node"
+                element={<NodeGraphVisualization grade={CurriculoCC} />}
+              />
             </Route>
           </Routes>
         </CourseProgressProvider>
