@@ -1,3 +1,5 @@
+import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
+import studyIllustration from "@/assets/imgs/studyIllustration.png";
 import { BackgroundGrid } from "@/components/BackgroundGrid";
 import {
   ProgressModal,
@@ -57,7 +59,8 @@ export const HomePage: React.FC = () => {
         <div className="flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
           {/* Título Principal */}
           <h1 className="mb-7 text-4xl sm:text-6xl md:text-[5.1rem] lg:text-[5.6rem] font-semibold leading-[0.95] tracking-[-0.035em] bg-clip-text text-transparent bg-linear-to-br from-ubl-green to-ubl-blue">
-            Universidade <span className="whitespace-nowrap">Brasileira Livre</span>
+            Universidade{" "}
+            <span className="whitespace-nowrap">Brasileira Livre</span>
           </h1>
 
           {/* Subtítulo */}
@@ -65,7 +68,7 @@ export const HomePage: React.FC = () => {
             <p className="text-lg sm:text-xl md:text-2xl text-zinc-200/90 font-light leading-relaxed">
               Uma plataforma{" "}
               <span className="font-semibold text-zinc-50">
-                sem fins lucrativos (Grátis)
+                sem fins lucrativos
               </span>{" "}
               de apoio de estudantes e conhecimentos em torno de diferentes
               currículos de código aberto.
@@ -153,6 +156,55 @@ export const HomePage: React.FC = () => {
         setSortBy={setSortBy}
         sortOptions={sortOptions}
       />
+
+      <section className="relative z-10 mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
+          <div className="space-y-4">
+            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-fuchsia-400 via-violet-400 to-amber-500">
+              Customize sua trilha
+            </h2>
+            <p className="text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
+              Nós organizamos uma completa biblioteca de conteúdos bem
+              avaliados, para então você escolher o jeito que mais combina com
+              seu estilo de aprendizado.
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <img
+              src={studyIllustration}
+              alt=""
+              className="w-full max-w-md h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="relative z-10 mx-auto bg-zinc-800 flex items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl">
+          <div className="flex items-center justify-center">
+            <a href="http://www.freepik.com" className="invisible">
+              Designed by vectorjuice / Freepik
+            </a>
+            <img
+              src={studyIllustration2}
+              alt=""
+              className="w-full max-w-md h-auto"
+            />
+          </div>
+          <div className="space-y-2">
+            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-rose-500 via-violet-400 to-blue-500">
+              Nossa comunidade pronta para ajudar
+            </h2>
+            <p className="text-base sm:text-lg text-zinc-200/90 font-light">
+              Una-se a outros estudantes e compartilhe suas dúvidas e
+              conhecimentos no nosso Discord.
+            </p>
+            <Button size={"lg"} variant="secondary" className="mt-6">
+              Entrar no Discord
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
