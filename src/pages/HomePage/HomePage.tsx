@@ -51,17 +51,17 @@ export const HomePage: React.FC = () => {
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative max-w-6xl px-6 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container">
+      <main className="relative max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 md:gap-12 container">
         {/* Conteúdo Principal */}
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
           {/* Título Principal */}
-          <h1 className="mb-6 text-5xl md:text-[5.5rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
+          <h1 className="mb-6 text-4xl sm:text-5xl md:text-[5rem] lg:text-[5.5rem] font-medium leading-tight tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
             Universidade Brasileira Livre
           </h1>
 
           {/* Subtítulo */}
-          <div className="space-y-4">
-            <p className="text-2xl text-zinc-100 font-light">
+          <div className="space-y-5 max-w-2xl">
+            <p className="text-lg sm:text-xl md:text-2xl text-zinc-100 font-light">
               Uma plataforma{" "}
               <span className="font-semibold">
                 sem fins lucrativos (Grátis)
@@ -70,19 +70,25 @@ export const HomePage: React.FC = () => {
               currículos de código aberto.
             </p>
 
-            <p className="text-2xl font-semibold text-blue-200 my-12">
-              <span className="text-blue-400 text-3xl">Planeje</span>,
-              <span className="text-blue-400 text-3xl"> acompanhe </span> e
-              <span className="text-blue-400 text-3xl"> aprenda</span>.
+            <p className="text-xl sm:text-2xl font-semibold text-blue-200 mt-10">
+              <span className="text-blue-400 text-2xl sm:text-3xl">
+                Planeje
+              </span>
+              ,<span className="text-blue-400 text-2xl sm:text-3xl"> acompanhe </span>e
+              <span className="text-blue-400 text-2xl sm:text-3xl">
+                {" "}
+                aprenda
+              </span>
+              .
             </p>
           </div>
 
           {/* Botões de Ação */}
-          <div className="grid grid-cols-2 gap-3 w-full">
+          <div className="grid grid-cols-2 gap-4 w-full mt-6 max-w-2xl mx-auto md:mx-0">
             <Button asChild size={"lg"} variant="secondary">
               <Link to="" className="transition-all hover:scale-105">
                 <User className="w-4 h-4" />
-                <span className="text-xl">Sobre nós</span>
+                <span className="text-lg sm:text-xl">Sobre nós</span>
               </Link>
             </Button>
 
@@ -96,7 +102,7 @@ export const HomePage: React.FC = () => {
                 className="hover:scale-105 transition-all duration-300"
               >
                 <Map className="w-4 h-4" />
-                <span className="text-xl">Explorar Grade</span>
+                <span className="text-lg sm:text-xl">Explorar Grade</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
@@ -111,7 +117,7 @@ export const HomePage: React.FC = () => {
                 className="hover:scale-105 transition-all duration-300"
               >
                 <BookOpen className="w-4 h-4" />
-                <span className="text-xl">Começar a Estudar</span>
+                <span className="text-lg sm:text-xl">Começar a Estudar</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
@@ -119,12 +125,12 @@ export const HomePage: React.FC = () => {
         </div>
 
         {/* Logo da UBL */}
-        <div className="flex items-center justify-center h-full w-full ml-10">
+        <div className="flex items-center justify-center h-full w-full md:ml-6 md:flex-1">
           <PinContainer
             title="Universidade Livre"
             href="https://github.com/Universidade-Livre"
-            containerClassName="w-[420px] h-[420px] sm:w-[520px] sm:h-[520px]"
-            className="w-[380px] h-[380px] sm:w-[480px] sm:h-[480px] flex items-center justify-center"
+            containerClassName="w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] lg:w-[520px] lg:h-[520px]"
+            className="w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] lg:w-[480px] lg:h-[480px] flex items-center justify-center"
           >
             <img
               src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
