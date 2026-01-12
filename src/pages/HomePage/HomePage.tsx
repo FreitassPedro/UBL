@@ -22,7 +22,7 @@ import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgre
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import type { MyCadeiraProgress } from "@/types/progress";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen, Map, User } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -72,7 +72,7 @@ export const HomePage: React.FC = () => {
       {/* HERO SECTION */}
       <main className="relative max-w-6xl px-6 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container">
         {/* Conteúdo Principal */}
-        <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center">
           {/* Título Principal */}
           <h1 className="mb-6 text-5xl md:text-[5.5rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
             Universidade Brasileira Livre
@@ -97,31 +97,41 @@ export const HomePage: React.FC = () => {
           </div>
 
           {/* Botões de Ação */}
-          <div className="grid grid-cols-2 gap-3">
-            <Link
-              to="/grade-curricular"
-              className="inline-flex items-center justify-center col-span-2 bg-linear-to-br from-ubl-green to-green-400 text-white rounded-xl px-6 py-3 shadow-lg shadow-b shadow-black/50 hover:scale-105 transition-transform"
-            >
-              <span className="text-xl font-semibold uppercase">
-                Começar a estudar
-              </span>
-              <ArrowRight className="w-8 h-8 ml-2" />
-            </Link>
-
-            <Button asChild variant={"secondary"} size={"lg"}>
-              <Link
-                to="/grade-curricular"
-                className="group h-12 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-              >
-                <span className="mr-2">Explorar Grade</span>
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+          <div className="grid grid-cols-2 gap-3 w-full">
+            <Button asChild size={"lg"} variant="secondary">
+              <Link to="" className="transition-all hover:scale-105">
+                <User className="w-4 h-4" />
+                <span className="text-xl">Sobre nós</span>
               </Link>
             </Button>
 
-            <Button asChild size={"lg"} variant={"default"}>
-              <Link to={""} className="px-6 py-3 rounded-lg">
-                Sobre nós
+            <Button
+              asChild
+              size={"lg"}
+              className="bg-ubl-blue text-zinc-100 hover:bg-ubl-blue/90"
+            >
+              <Link
+                to="/grade-curricular"
+                className="hover:scale-105 transition-all duration-300"
+              >
+                <Map className="w-4 h-4" />
+                <span className="text-xl">Explorar Grade</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </Button>
+
+            <Button
+              asChild
+              size={"lg"}
+              className="col-span-2 bg-ubl-green text-zinc-100 hover:bg-ubl-green/90"
+            >
+              <Link
+                to="/grade-curricular"
+                className="hover:scale-105 transition-all duration-300"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span className="text-xl">Começar a Estudar</span>
+                <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
           </div>
