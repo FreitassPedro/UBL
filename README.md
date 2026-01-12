@@ -1,10 +1,10 @@
-# 🎓 Portal Cursos UBL (Universidade Brasileira Livre)
+# Plataforma Cursos UBL (Universidade Brasileira Livre)
 
 Este projeto é um portal de estudos open-source voltado para o curso de **Ciência da Computação**, inspirado na iniciativa da **Universidade Brasileira Livre (UBL)**. 
 
 O objetivo é centralizar conteúdos educacionais gratuitos, permitindo que estudantes acompanhem seu progresso, visualizem a grade curricular e assistam às aulas diretamente pela plataforma, sem distrações.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Grade Curricular Interativa**: Visualização das disciplinas divididas por etapas/semestres.
 - **Player de Vídeo Integrado**: Assista às aulas do YouTube diretamente na plataforma.
@@ -13,11 +13,9 @@ O objetivo é centralizar conteúdos educacionais gratuitos, permitindo que estu
 
 ## Tecnologias Utilizadas
 
-- React (TypeScript)
-- Vite
-- Tailwind V4
+- React (TypeScript) e Vite;
 
-## 🔧 Instalação e Uso
+## Instalação e Uso
 
 Siga os passos abaixo para rodar o projeto localmente:
 
@@ -45,7 +43,7 @@ Siga os passos para contribuir com o projeto:
 
 Leia mais em: [Guia de Contribuição Open Source](https://opensource.guide/pt/how-to-contribute/)
 
-## 📝 Lista de Tarefas (To-Do)
+## Lista de Tarefas (To-Do)
 
 Confira o que está planejado para o futuro do projeto:
 - Veja em [TODO.md](TODO.md).
