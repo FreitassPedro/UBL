@@ -1,15 +1,15 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const DATA_KEY = "completedLessons";
 
-interface CourseProgressContextType {
+interface ProgressContextType {
   completedLessons: Set<string>;
   toggleCompletion: (lessonId: string) => void;
 }
 
-const CourseProgressContext = createContext<CourseProgressContextType | undefined>(undefined);
+export const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
-export function CourseProgressProvider({ children }: { children: React.ReactNode }) {
+export function ProgressProvider({ children }: { children: React.ReactNode }) {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(() => {
     if (typeof window === "undefined") {
       return new Set();
@@ -19,7 +19,10 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
       const saved = localStorage.getItem(DATA_KEY);
       return saved ? new Set(JSON.parse(saved)) : new Set();
     } catch (error) {
-      console.error("Failed to parse completed videos from localStorage", error);
+      console.error(
+        "Failed to parse completed videos from localStorage",
+        error
+      );
       return new Set();
     }
   });
@@ -27,7 +30,10 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
-        localStorage.setItem(DATA_KEY, JSON.stringify(Array.from(completedLessons)));
+        localStorage.setItem(
+          DATA_KEY,
+          JSON.stringify(Array.from(completedLessons))
+        );
       } catch (error) {
         console.error("Error writing completedVideos to localStorage:", error);
       }
@@ -46,19 +52,14 @@ export function CourseProgressProvider({ children }: { children: React.ReactNode
     });
   };
 
-
-
   return (
-    <CourseProgressContext.Provider value={{ completedLessons: completedLessons, toggleCompletion: toggleVideoCompletion }}>
+    <ProgressContext.Provider
+      value={{
+        completedLessons: completedLessons,
+        toggleCompletion: toggleVideoCompletion,
+      }}
+    >
       {children}
-    </CourseProgressContext.Provider>
-  )
-}
-
-export function useCourseProgress() {
-  const context = useContext(CourseProgressContext);
-  if (!context) {
-    throw new Error("useCourseProgress must be used within a CourseProgressProvider");
-  }
-  return context;
+    </ProgressContext.Provider>
+  );
 }
