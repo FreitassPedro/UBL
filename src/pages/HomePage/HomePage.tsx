@@ -68,79 +68,78 @@ export const HomePage: React.FC = () => {
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative z-10 mx-auto pt-20 pb-32">
-        <div className="flex md:flex-row flex-col mx-auto container max-w-6xl mb-30">
-          {/* Conteúdo Principal */}
-          <div className="flex flex-col items-center justify-center text-center">
-            {/* Título Principal */}
-            <h1 className="mb-6 text-5xl md:text-[5.8rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
-              Universidade Brasileira Livre
-            </h1>
+      <main className="relative max-w-6xl mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container">
+        {/* Conteúdo Principal */}
+        <div className="flex flex-col items-center justify-center text-center">
+          {/* Título Principal */}
+          <h1 className="mb-6 text-5xl md:text-[5.8rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
+            Universidade Brasileira Livre
+          </h1>
 
-            {/* Subtítulo */}
-            <div className="m-space-y-4">
-              <p className="text-lg md:text-xl text-zinc-100 font-light">
-                Uma plataforma{" "}
-                <span className="font-semibold">
-                  sem fins lucrativos (Gratis)
-                </span>{" "}
-                de apoio de estudantes e conhecimentos em torno de diferentes
-                currículos de código aberto.
-              </p>
+          {/* Subtítulo */}
+          <div className="m-space-y-4">
+            <p className="text-lg md:text-xl text-zinc-100 font-light">
+              Uma plataforma{" "}
+              <span className="font-semibold">
+                sem fins lucrativos (Gratis)
+              </span>{" "}
+              de apoio de estudantes e conhecimentos em torno de diferentes
+              currículos de código aberto.
+            </p>
 
-              <p className="text-2xl font-semibold text-blue-200 my-12">
-                <span className="text-blue-400 text-2xl">Planeje</span>,
-                <span className="text-blue-400 text-2xl"> acompanhe </span> e
-                <span className="text-blue-400 text-2xl"> aprenda</span>.
-              </p>
-            </div>
-
-            {/* Botões de Ação */}
-            <div className="grid grid-cols-2 gap-3">
-              <Link
-                to="/grade-curricular"
-                className="inline-flex items-center justify-center col-span-2 bg-linear-to-br from-ubl-green to-green-400 text-white rounded-xl px-6 py-3 shadow-lg shadow-b shadow-black/50 hover:scale-105 transition-transform"
-              >
-                <span className="text-xl font-semibold uppercase">
-                  Começar a estudar
-                </span>
-                <ArrowRight className="w-8 h-8 ml-2" />
-              </Link>
-
-              <Button asChild variant={"secondary"} size={"lg"}>
-                <Link
-                  to="/grade-curricular"
-                  className="group relative h-12 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
-                >
-                  <span className="mr-2">Explorar Grade</span>
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                  <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                </Link>
-              </Button>
-
-              <Button asChild size={"lg"} variant={"default"}>
-                <Link to={""} className="px-6 py-3 rounded-lg">
-                  Sobre nós
-                </Link>
-              </Button>
-            </div>
+            <p className="text-2xl font-semibold text-blue-200 my-12">
+              <span className="text-blue-400 text-2xl">Planeje</span>,
+              <span className="text-blue-400 text-2xl"> acompanhe </span> e
+              <span className="text-blue-400 text-2xl"> aprenda</span>.
+            </p>
           </div>
 
-          {/* Logo da UBL */}
-          <div className="flex items-center justify-center h-full w-full ml-10">
-            <img
-              src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
-              alt="Logo UBL"
-            />
+          {/* Botões de Ação */}
+          <div className="grid grid-cols-2 gap-3">
+            <Link
+              to="/grade-curricular"
+              className="inline-flex items-center justify-center col-span-2 bg-linear-to-br from-ubl-green to-green-400 text-white rounded-xl px-6 py-3 shadow-lg shadow-b shadow-black/50 hover:scale-105 transition-transform"
+            >
+              <span className="text-xl font-semibold uppercase">
+                Começar a estudar
+              </span>
+              <ArrowRight className="w-8 h-8 ml-2" />
+            </Link>
+
+            <Button asChild variant={"secondary"} size={"lg"}>
+              <Link
+                to="/grade-curricular"
+                className="group h-12 transition-all duration-300 hover:bg-zinc-200 hover:scale-105"
+              >
+                <span className="mr-2">Explorar Grade</span>
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                <div className="absolute inset-0 -z-10 bg-linear-to-r from-blue-400/0 via-blue-400/40 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+              </Link>
+            </Button>
+
+            <Button asChild size={"lg"} variant={"default"}>
+              <Link to={""} className="px-6 py-3 rounded-lg">
+                Sobre nós
+              </Link>
+            </Button>
           </div>
         </div>
 
+        {/* Logo da UBL */}
+        <div className="flex items-center justify-center h-full w-full ml-10">
+          <img
+            src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
+            alt="Logo UBL"
+          />
+        </div>
+      </main>
+
+      {/* Cards */}
+      <div className="relative bg-bg-body w-full h-full p-20 border-t border-zinc-800">
         {/* Back to courses */}
         {watchedCourses.length !== 0 && (
-          <Card className="relative p-0 max-w-6xl mx-auto overflow-hidden mt-10 rounded-3xl bg-bg-card border border-zinc-800 text-center">
-            <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full" />
-            <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full" />
-            <CardHeader className="relative px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <Card className="p-0 max-w-6xl mx-auto overflow-hidden rounded-3xl bg-bg-card text-center">
+            <CardHeader className="px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div className="text-left space-y-2">
                 <CardTitle className="text-4xl font-semibold text-white">
                   Continue onde parou
@@ -172,7 +171,7 @@ export const HomePage: React.FC = () => {
               </div>
             </CardHeader>
 
-            <CardContent className="relative p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <CardContent className="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {watchedCourses.map((course) => (
                 <Card
                   key={course.id}
@@ -208,9 +207,7 @@ export const HomePage: React.FC = () => {
         )}
 
         {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
-        <Card className="relative p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl bg-bg-card border border-zinc-800 text-center">
-          <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full"></div>
-          <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
+        <Card className="p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl text-center">
           <CardHeader className="p-0 mt-8">
             <CardTitle className="text-3xl font-semibold text-white mb-2">
               Pronto para continuar?
@@ -229,7 +226,7 @@ export const HomePage: React.FC = () => {
             </Button>
           </CardFooter>
         </Card>
-      </main>
+      </div>
     </div>
   );
 };
