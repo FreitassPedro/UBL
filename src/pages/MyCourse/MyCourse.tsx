@@ -52,10 +52,10 @@ const MyCourse = () => {
                     <div>
                         <h1 className="text-2xl">O que você quer aprender hoje?</h1>
                         <div className="flex gap-4 items-center justify-center">
-                            <Card onClick={() => handleCourseSelection("Computacao")} >
+                            <Card className="cursor-pointer" onClick={() => handleCourseSelection("Computacao")} >
                                 Ciencia da Computação
                             </Card>
-                            <Card onClick={() => handleCourseSelection("Matematica")} >
+                            <Card className="cursor-pointer" onClick={() => handleCourseSelection("Matematica")} >
                                 Matemática
                             </Card>
                         </div>
