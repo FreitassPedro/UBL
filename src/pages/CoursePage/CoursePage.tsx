@@ -1,5 +1,5 @@
-import { BackgroundGrid } from "@/components/BackgroundGrid";
 import { VideoPlayer } from "@/components/CourseContent/VideoPlayer";
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
@@ -9,13 +9,15 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Separator } from "@/components/ui/separator";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { useLoading } from "@/contexts/LoadingContext/LoadingContext";
-import { CurriculoCC } from "@/data/GradeCurricular";
+import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { mapCadeiraToMyCadeira } from "@/lib/mappers";
 import { formatSecondsToMinutes } from "@/lib/utils";
@@ -34,9 +36,13 @@ export default function CoursePage() {
   const myCadeira: MyCadeiraProgress | undefined = useMemo(() => {
     if (!id) return;
 
-    const cadeiraEncontrada = CurriculoCC.etapas
-      .flatMap((etapa) => etapa.cadeiras)
-      .find((c) => c.id.toString() === id);
+    const cadeiraEncontrada =
+      CurriculoCC.etapas
+        .flatMap((etapa) => etapa.cadeiras)
+        .find((c) => c.id.toString() === id) ??
+      CurriculoMatematica.etapas
+        .flatMap((etapa) => etapa.cadeiras)
+        .find((c) => c.id.toString() === id);
 
     if (!cadeiraEncontrada) return;
 
@@ -118,20 +124,27 @@ export default function CoursePage() {
 
   if (!myCadeira || myCadeira.lessons.length === 0) {
     return (
-      <div className="container mx-auto py-6 max-w-[1400px] text-center">
-        <Link to="/">
-          <button className="px-4 py-2 text-white bg-blue-900 rounded-md hover:bg-blue-700 focus:outline-none">
-            Voltar
-          </button>
-        </Link>
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <Card className="max-w-md w-full shadow-lg p-10">
+          <CardHeader className="text-center space-y-2">
+            <CardTitle className="text-3xl font-semibold">
+              Conteúdo indisponível
+            </CardTitle>
+          </CardHeader>
 
-        <h1 className="text-3xl font-bold mt-8">
-          Este curso não possui vídeos disponíveis ainda.
-        </h1>
+          <CardContent className="text-center space-y-6">
+            <p className="text-muted-foreground">
+              Volte mais tarde para ver se já há novos vídeos ou explore outros
+              cursos disponíveis.
+            </p>
 
-        <p className="text-muted-foreground mt-2">
-          Por favor, volte mais tarde ou confira outros cursos.
-        </p>
+            <Link to="/">
+              <Button className="cursor-pointer bg-blue-600 hover:bg-blue-700 text-white px-6">
+                Voltar para o início
+              </Button>
+            </Link>
+          </CardContent>
+        </Card>
       </div>
     );
   }
@@ -139,7 +152,7 @@ export default function CoursePage() {
   return (
     <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
       {/* Background Effects (Grid + Glow) */}
-      <BackgroundGrid />
+      <BackgroundRippleEffect className="z-0" />
 
       <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
         {/* COLUNA PRINCIPAL (VÍDEO CARD) */}
@@ -202,11 +215,12 @@ export default function CoursePage() {
 
           {/* Title */}
           <div className="shrink-0">
-            <div className="flex items-center gap-2">
-              <span className="mb-2 text-[10px] uppercase tracking-[0.3em] text-zinc-400">
+            <div className="flex items-center gap-2 pb-1">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-zinc-400 whitespace-nowrap leading-none">
                 Aula Gravada
               </span>
-              <span className="h-px flex-1 bg-linear-to-r from-ubl-green/80 to-transparent via-zinc-700/50" />
+
+              <Separator className="flex-1 rounded self-center" />
             </div>
 
             <h2 className="text-2xl font-semibold leading-snug text-zinc-100">

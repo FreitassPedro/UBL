@@ -122,15 +122,15 @@ export const Navbar = () => {
         <div className="justify-self-end">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="flex items-center gap-2">
-                <Avatar className="h-8 w-8 cursor-pointer">
+              <button className="cursor-pointer flex items-center gap-2">
+                <Avatar className="h-8 w-8">
                   <AvatarImage
                     src="https://github.com/shadcn.png"
                     alt="Avatar"
                   />
                   <AvatarFallback>Avatar</AvatarFallback>
                 </Avatar>
-                <ChevronDown className="text-zinc-400 cursor-pointer w-4 h-4" />
+                <ChevronDown className="text-zinc-400 w-4 h-4" />
               </button>
             </DropdownMenuTrigger>
 

@@ -1,6 +1,6 @@
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { useState } from "react";
-import { type CourseOption, useMyCourseData } from "../../lib/useMyCourseData";
+import { type CourseOption, useMyCourseData } from "../../hooks/useMyCourseData";
 import { Card } from "@/components/ui/card";
 import { MyStepContainer } from "@/components/MyCourse/MyStepContainer";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
@@ -52,10 +52,10 @@ const MyCourse = () => {
                     <div>
                         <h1 className="text-2xl">O que você quer aprender hoje?</h1>
                         <div className="flex gap-4 items-center justify-center">
-                            <Card onClick={() => handleCourseSelection("Computacao")} >
+                            <Card className="cursor-pointer" onClick={() => handleCourseSelection("Computacao")} >
                                 Ciencia da Computação
                             </Card>
-                            <Card onClick={() => handleCourseSelection("Matematica")} >
+                            <Card className="cursor-pointer" onClick={() => handleCourseSelection("Matematica")} >
                                 Matemática
                             </Card>
                         </div>
