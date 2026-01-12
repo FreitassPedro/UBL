@@ -1,37 +1,25 @@
 import { MyStepCard } from "@/components/MyCourse/MyStepCard";
 import type { MyGradeProgress } from "@/types/progress";
-import { LayoutGrid } from "lucide-react";
 import React, { useState } from "react";
 
 interface MyStepContainerProps {
-    grade: MyGradeProgress;
+    courseProgress: MyGradeProgress;
 }
 
-export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
+export const MyStepContainer: React.FC<MyStepContainerProps> = ({ courseProgress }) => {
     // Definindo o primeiro passo como padrão ou 1 se não houver
-    const [activeStep, setActiveStep] = useState<number>(grade.etapas[0]?.id || 1);
+    const [activeStep, setActiveStep] = useState<number>(courseProgress.etapas[0]?.id || 1);
 
     return (
         <div className="flex flex-col w-full space-y-8">
-            {/* Header da Seção */}
-            <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                    <div className="p-2 bg-zinc-800 rounded-lg border border-zinc-700">
-                        <LayoutGrid className="w-5 h-5 text-zinc-300" />
-                    </div>
-                    <h2 className="text-2xl font-bold text-zinc-100 tracking-tight">Sua Jornada</h2>
-                </div>
-                <div className="text-sm text-zinc-400">
-                    Bem-vindo, Estudante
-                </div>
-            </div>
+            
 
             {/* Navegação por Abas (Tabs) */}
             <div className="flex flex-col w-full items-center space-y-4">
-                <h2 className="text-4xl font-semibold ">Ciência da Computação</h2>
+                <h2 className="text-4xl font-semibold ">{courseProgress.curriculo}</h2>
                 <div className="w-full overflow-x-auto pb-2 scrollbar-hide flex justify-center">
                     <div className="flex p-1 space-x-2 bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-xl w-max min-w-full lg:min-w-0">
-                        {grade.etapas.map((step) => {
+                        {courseProgress.etapas.map((step) => {
                             const isActive = activeStep === step.id;
 
                             {/* Border-transparent necessário para transição suave */ }
@@ -61,7 +49,7 @@ export const MyStepContainer: React.FC<MyStepContainerProps> = ({ grade }) => {
 
             {/* Conteúdo */}
             <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
-                {grade.etapas
+                {courseProgress.etapas
                     .filter(gr => gr.id === activeStep)
                     .map((step) => (
                         <MyStepCard

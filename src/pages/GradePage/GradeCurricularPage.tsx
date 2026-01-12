@@ -4,7 +4,7 @@ import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {
     CurriculoCC,
-    CurriculoMat,
+    CurriculoMatematica,
 } from "@/data/GradeCurricular";
 import type { Grade } from "@/types/grade";
 import React from "react";
@@ -17,7 +17,7 @@ export default function GradeCurricularPage() {
         if (index === 1) {
             setSelectedGrade(CurriculoCC);
         } else {
-            setSelectedGrade(CurriculoMat);
+            setSelectedGrade(CurriculoMatematica);
         }
     }
 
