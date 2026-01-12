@@ -47,13 +47,13 @@ export const HeroHighlight = ({
       onMouseMove={handleMouseMove}
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-40 dark:hidden"
+        className="pointer-events-none absolute inset-0 opacity-50 dark:hidden"
         style={{
           backgroundImage: dotPatterns.light.default,
         }}
       />
       <div
-        className="pointer-events-none absolute inset-0 hidden opacity-30 dark:block"
+        className="pointer-events-none absolute inset-0 hidden opacity-50 dark:block"
         style={{
           backgroundImage: dotPatterns.dark.default,
         }}

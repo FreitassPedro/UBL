@@ -64,16 +64,16 @@ export const HomePage: React.FC = () => {
   }, [completedLessons, sortBy]);
 
   return (
-    <div className="min-h-screen bg-bg-body text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
+    <div className="min-h-screen bg-black text-zinc-100 selection:bg-blue-500/30 font-inter overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative max-w-6xl mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container px-6">
+      <main className="relative max-w-6xl px-6 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center container">
         {/* Conteúdo Principal */}
         <div className="flex flex-col items-center justify-center text-center">
           {/* Título Principal */}
-          <h1 className="mb-6 text-5xl md:text-[5.8rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
+          <h1 className="mb-6 text-5xl md:text-[5.5rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
             Universidade Brasileira Livre
           </h1>
 
@@ -138,7 +138,7 @@ export const HomePage: React.FC = () => {
       {/* Cards */}
       <HeroHighlight
         className="w-full h-full"
-        containerClassName="h-auto py-16 border-t border-zinc-800 dark:bg-zinc-950"
+        containerClassName="h-auto py-16 border-t border-zinc-800 dark:bg-bg-body"
       >
         {/* Back to courses */}
         {watchedCourses.length !== 0 && (
