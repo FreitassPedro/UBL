@@ -1,35 +1,16 @@
 import { BackgroundGrid } from "@/components/BackgroundGrid";
+import {
+  ProgressModal,
+  type WatchedCourse,
+} from "@/components/Home/ProgressModal";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { HeroHighlight } from "@/components/ui/hero-highlight";
-import { Progress } from "@/components/ui/progress";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import type { MyCadeiraProgress } from "@/types/progress";
 import { ArrowRight, BookOpen, Map, User } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-
-type WatchedCourse = MyCadeiraProgress & {
-  etapaName: string;
-  etapaNumber: number;
-};
 
 const sortOptions = ["etapas", "progresso"];
 
@@ -154,102 +135,12 @@ export const HomePage: React.FC = () => {
         </div>
       </main>
 
-      {/* Cards */}
-      <HeroHighlight
-        className="w-full h-full"
-        containerClassName="h-auto py-16 border-t border-zinc-800 dark:bg-bg-body"
-      >
-        {/* Back to courses */}
-        {watchedCourses.length !== 0 && (
-          <Card className="p-0 max-w-6xl mx-auto overflow-hidden rounded-3xl bg-bg-card text-center">
-            <CardHeader className="px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <div className="text-left space-y-2">
-                <CardTitle className="text-4xl font-semibold text-white">
-                  Continue onde parou
-                </CardTitle>
-                <CardDescription className="text-md text-zinc-400">
-                  Retome rapidamente os cursos em andamento.
-                </CardDescription>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="uppercase text-xs text-zinc-400">
-                  Ordenar por
-                </span>
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-32 cursor-pointer">
-                    <SelectValue placeholder="Ordenar por" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {sortOptions.map((option) => (
-                      <SelectItem
-                        key={option}
-                        value={option}
-                        className="cursor-pointer"
-                      >
-                        {option.charAt(0).toUpperCase() + option.slice(1)}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-            </CardHeader>
-
-            <CardContent className="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {watchedCourses.map((course) => (
-                <Card
-                  key={course.id}
-                  className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
-                >
-                  <CardHeader className="p-0">
-                    <CardDescription className="font-semibold text-gray-400">
-                      Etapa {course.etapaNumber}
-                    </CardDescription>
-                    <CardTitle className="text-xl text-white font-semibold">
-                      {course.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-0 my-2">
-                    <div className="flex items-center justify-between text-gray-400 text-sm">
-                      <span>Progresso</span>
-                      <span>{course.progress}%</span>
-                    </div>
-                    <Progress
-                      value={course.progress}
-                      className="my-2 bg-zinc-700"
-                    />
-                  </CardContent>
-                  <CardFooter className="p-0">
-                    <Button asChild variant="secondary" className="w-full">
-                      <Link to={`/curso/${course.id}`}>Retomar</Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
-              ))}
-            </CardContent>
-          </Card>
-        )}
-
-        {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
-        <Card className="p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl text-center">
-          <CardHeader className="p-0 mt-8">
-            <CardTitle className="text-3xl font-semibold text-white mb-2">
-              Pronto para continuar?
-            </CardTitle>
-            <CardDescription className="text-md text-zinc-400 max-w-lg mx-auto">
-              Você tem cadeiras pendentes na etapa atual. Volte aos estudos
-              agora mesmo.
-            </CardDescription>
-          </CardHeader>
-          <CardFooter className="flex justify-center mb-8 mt-6">
-            <Button
-              className="text-sm font-semibold bg-zinc-100 text-zinc-900 hover:bg-white transition-colors"
-              asChild
-            >
-              <Link to="/meu-curso">Ir para meu Dashboard</Link>
-            </Button>
-          </CardFooter>
-        </Card>
-      </HeroHighlight>
+      <ProgressModal
+        watchedCourses={watchedCourses}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+        sortOptions={sortOptions}
+      />
     </div>
   );
 };
