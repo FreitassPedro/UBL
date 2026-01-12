@@ -1,4 +1,5 @@
 import { BackgroundGrid } from "@/components/BackgroundGrid";
+import { PinContainer } from "@/components/ui/3d-pin";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -79,19 +80,19 @@ export const HomePage: React.FC = () => {
 
           {/* Subtítulo */}
           <div className="space-y-4">
-            <p className="text-lg md:text-xl text-zinc-100 font-light">
+            <p className="text-2xl text-zinc-100 font-light">
               Uma plataforma{" "}
               <span className="font-semibold">
-                sem fins lucrativos (Gratis)
+                sem fins lucrativos (Grátis)
               </span>{" "}
               de apoio de estudantes e conhecimentos em torno de diferentes
               currículos de código aberto.
             </p>
 
             <p className="text-2xl font-semibold text-blue-200 my-12">
-              <span className="text-blue-400 text-2xl">Planeje</span>,
-              <span className="text-blue-400 text-2xl"> acompanhe </span> e
-              <span className="text-blue-400 text-2xl"> aprenda</span>.
+              <span className="text-blue-400 text-3xl">Planeje</span>,
+              <span className="text-blue-400 text-3xl"> acompanhe </span> e
+              <span className="text-blue-400 text-3xl"> aprenda</span>.
             </p>
           </div>
 
@@ -128,10 +129,18 @@ export const HomePage: React.FC = () => {
 
         {/* Logo da UBL */}
         <div className="flex items-center justify-center h-full w-full ml-10">
-          <img
-            src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
-            alt="Logo UBL"
-          />
+          <PinContainer
+            title="Universidade Livre"
+            href="https://github.com/Universidade-Livre"
+            containerClassName="w-[420px] h-[420px] sm:w-[520px] sm:h-[520px]"
+            className="w-[380px] h-[380px] sm:w-[480px] sm:h-[480px] flex items-center justify-center"
+          >
+            <img
+              src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
+              alt="Logo UBL"
+              className="w-full h-full object-contain"
+            />
+          </PinContainer>
         </div>
       </main>
 
