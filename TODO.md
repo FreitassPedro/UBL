@@ -7,7 +7,7 @@
 
 ## Components
 - [ ] MeuCurso/Estatísticas do Usuário
-- [ ] MeuCurso/Visualização Curso Matemática
+- [X] MeuCurso/Visualização Curso Matemática
 
 
 ## Features
