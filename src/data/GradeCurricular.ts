@@ -560,7 +560,7 @@ export const CurriculoCC: Grade = {
   ],
 };
 
-export const CurriculoMat: Grade = {
+export const CurriculoMatematica: Grade = {
   id: 2,
   curriculo: "Matemática",
   etapas: [
