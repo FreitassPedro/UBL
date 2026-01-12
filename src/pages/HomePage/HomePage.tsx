@@ -24,6 +24,9 @@ import { ArrowRight } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
+import studyIllustration from '@/assets/imgs/studyIllustration.png';
+import studyIllustration2 from '@/assets/imgs/studyIllustion2.png';
+
 type WatchedCourse = MyCadeiraProgress & {
   etapaName: string;
   etapaNumber: number;
@@ -68,7 +71,7 @@ export const HomePage: React.FC = () => {
       <BackgroundGrid />
 
       {/* HERO SECTION */}
-      <main className="relative z-10 mx-auto pt-20 pb-32">
+      <main className="relative z-10 mx-auto pt-20">
         <div className="flex md:flex-row flex-col mx-auto container max-w-6xl mb-30">
           {/* Conteúdo Principal */}
           <div className="flex flex-col items-center justify-center text-center">
@@ -229,8 +232,45 @@ export const HomePage: React.FC = () => {
             </Button>
           </CardFooter>
         </Card>
+        <section className="mx-auto mt-20 bg-zinc-900 border border-zinc-800 flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
+            <div className="space-y-4">
+              <h2 className="mb-6 text-5xl md:text-[4rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-ubl-blue to-ubl-green">
+                Customize sua trilha
+              </h2>
+              <p className="text-lg text-zinc-300 leading-relaxed">
+                Nós organizamos uma completa biblioteca de conteúdos bem avaliados,
+                para então você escolher o jeito que mais combina com seu estilo de aprendizado.
+              </p>
+            </div>
+            <div className="flex items-center justify-center">
+              <img
+                src={studyIllustration}
+                alt=""
+                className="w-full max-w-md h-auto"
+              />
+            </div>
+          </div>
+        </section>
+        <section className="mx-auto bg-zinc-800 flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl">
+            <div className="flex items-center justify-center">
+              <a href="http://www.freepik.com" className="invisible">Designed by vectorjuice / Freepik</a>
+              <img src={studyIllustration2} alt=""
+                className="w-full max-w-md h-auto" />
+            </div>
+            <div className="space-y-2">
+              <h2 className="mb-6 text-5xl md:text-[3rem] font-medium tracking-tighter bg-clip-text text-transparent bg-linear-to-br from-green-400 to-ubl-green">
+                Nossa comunidade pronta para ajudar
+              </h2>
+              <p className="text-lg text-zinc-300">Una-se a outros estudantes e compartilhe suas dúvidas e conhecimentos no nosso Discord.</p>
+              <Button size={"lg"} variant="secondary" className="mt-6">Entrar no Discord</Button>
+            </div>
+          </div>
+        </section>
       </main>
-    </div>
+
+    </div >
   );
 };
 
