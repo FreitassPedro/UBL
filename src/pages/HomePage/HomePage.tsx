@@ -11,7 +11,7 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import { ArrowRight, BookOpen, Map, User } from "lucide-react";
+import { ArrowRight, BookOpen, Map, MessagesSquare, User } from "lucide-react";
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -192,15 +192,29 @@ export const HomePage: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-rose-500 via-violet-400 to-blue-500">
+            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-rose-500 via-violet-400 to-cyan-300">
               Nossa comunidade pronta para ajudar
             </h2>
             <p className="text-base sm:text-lg text-zinc-200/90 font-light">
               Una-se a outros estudantes e compartilhe suas dúvidas e
               conhecimentos no nosso Discord.
             </p>
-            <Button size={"lg"} variant="secondary" className="mt-6">
-              Entrar no Discord
+            <Button
+              asChild
+              size="lg"
+              variant="secondary"
+              className="cursor-pointer mt-6"
+            >
+              <a
+                href="https://discord.com/invite/eXUBTY6HAu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <MessagesSquare className="w-4 h-4" />
+                <span>Entrar no Discord</span>
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>
