@@ -1,6 +1,13 @@
 import { BackgroundGrid } from "@/components/BackgroundGrid";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import {
   Select,
@@ -43,13 +50,15 @@ export const HomePage: React.FC = () => {
         }))
     );
 
-    return filtered.sort((a, b) => {
-      if (sortBy === "etapas") {
-        return a.etapaNumber - b.etapaNumber;
-      } else if (sortBy === "progresso") {
-        return b.progress - a.progress;
+    return [...filtered].sort((a, b) => {
+      switch (sortBy) {
+        case "etapas":
+          return a.etapaNumber - b.etapaNumber;
+        case "progresso":
+          return b.progress - a.progress;
+        default:
+          return 0;
       }
-      return 0;
     });
   }, [completedLessons, sortBy]);
 
@@ -128,95 +137,98 @@ export const HomePage: React.FC = () => {
 
         {/* Back to courses */}
         {watchedCourses.length !== 0 && (
-          <section className="px-6 py-2 pb-8 mb-16">
-            <div className="relative mx-auto container overflow-hidden rounded-3xl bg-bg-card border border-zinc-800 px-6 py-8 md:px-10">
-              <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[90px] rounded-full"></div>
-              <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[90px] rounded-full"></div>
-
-              <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between mb-8">
-                <div>
-                  <h2 className="text-4xl font-white font-semibold">
-                    Continue onde parou
-                  </h2>
-                  <span className="text-zinc-400 mt-2 block">
-                    Retome rapidamente os cursos em andamento.
-                  </span>
-                </div>
-
-                <div className="w-full md:w-auto md:ml-auto flex items-center justify-end gap-3">
-                  <span className="text-sm text-zinc-400">Ordenar por</span>
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="w-full md:w-30">
-                      <SelectValue placeholder="Ordenar por" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {sortOptions.map((option) => (
-                        <SelectItem key={option} value={option}>
-                          {option.charAt(0).toUpperCase() + option.slice(1)}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+          <Card className="relative p-0 max-w-6xl mx-auto overflow-hidden mt-10 rounded-3xl bg-bg-card border border-zinc-800 text-center">
+            <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full" />
+            <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full" />
+            <CardHeader className="relative px-8 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div className="text-left space-y-2">
+                <CardTitle className="text-4xl font-semibold text-white">
+                  Continue onde parou
+                </CardTitle>
+                <CardDescription className="text-md text-zinc-400">
+                  Retome rapidamente os cursos em andamento.
+                </CardDescription>
               </div>
-
-              <div className="relative">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {watchedCourses.map((course) => (
-                    <Card className="bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/30 transition duration-300">
-                      <span className="font-semibold text-gray-400 mb-4">
-                        Etapa {course.etapaNumber}
-                      </span>
-                      <h3 className="text-xl text-white font-semibold">
-                        {course.name}
-                      </h3>
-                      <div className="my-2 space-y-1">
-                        <div className="flex items-center justify-between text-gray-400 text-sm">
-                          <span>Progresso</span>
-                          <span>{course.progress}%</span>
-                        </div>
-                        <Progress value={course.progress} />
-                      </div>
-                      <div className="mt-6 w-full flex">
-                        <Button asChild variant={"secondary"}>
-                          <Link
-                            to={`/curso/${course.id}`}
-                            className="px-4 py-2 w-full transition-colors"
-                          >
-                            Retomar
-                          </Link>
-                        </Button>
-                      </div>
-                    </Card>
-                  ))}
-                </div>
+              <div className="flex items-center gap-3">
+                <span className="uppercase text-xs text-zinc-400">
+                  Ordenar por
+                </span>
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-32 cursor-pointer">
+                    <SelectValue placeholder="Ordenar por" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {sortOptions.map((option) => (
+                      <SelectItem
+                        key={option}
+                        value={option}
+                        className="cursor-pointer"
+                      >
+                        {option.charAt(0).toUpperCase() + option.slice(1)}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
-            </div>
-          </section>
+            </CardHeader>
+
+            <CardContent className="relative p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {watchedCourses.map((course) => (
+                <Card
+                  key={course.id}
+                  className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
+                >
+                  <CardHeader className="p-0">
+                    <CardDescription className="font-semibold text-gray-400">
+                      Etapa {course.etapaNumber}
+                    </CardDescription>
+                    <CardTitle className="text-xl text-white font-semibold">
+                      {course.name}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-0 my-2">
+                    <div className="flex items-center justify-between text-gray-400 text-sm">
+                      <span>Progresso</span>
+                      <span>{course.progress}%</span>
+                    </div>
+                    <Progress
+                      value={course.progress}
+                      className="my-2 bg-zinc-700"
+                    />
+                  </CardContent>
+                  <CardFooter className="p-0">
+                    <Button asChild variant="secondary" className="w-full">
+                      <Link to={`/curso/${course.id}`}>Retomar</Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))}
+            </CardContent>
+          </Card>
         )}
 
         {/* CALL TO ACTION SECUNDÁRIO (Rodapé da Home) */}
-        <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20 mt-10">
-          <div className="relative overflow-hidden rounded-3xl bg-bg-card border border-zinc-800 p-8 md:p-12 text-center">
-            <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full"></div>
-            <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
-
-            <h2 className="relative text-3xl font-semibold text-white mb-4">
+        <Card className="relative p-0 max-w-3xl mx-auto overflow-hidden mt-10 rounded-3xl bg-bg-card border border-zinc-800 text-center">
+          <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full"></div>
+          <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
+          <CardHeader className="p-0 mt-8">
+            <CardTitle className="text-3xl font-semibold text-white mb-2">
               Pronto para continuar?
-            </h2>
-            <p className="relative text-zinc-400 mb-8 max-w-lg mx-auto">
+            </CardTitle>
+            <CardDescription className="text-md text-zinc-400 max-w-lg mx-auto">
               Você tem cadeiras pendentes na etapa atual. Volte aos estudos
               agora mesmo.
-            </p>
-
-            <Link
-              to="/meu-curso"
-              className="relative inline-flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-6 text-sm font-semibold text-zinc-900 hover:bg-white transition-colors"
+            </CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-center mb-8 mt-6">
+            <Button
+              className="text-sm font-semibold bg-zinc-100 text-zinc-900 hover:bg-white transition-colors"
+              asChild
             >
-              Ir para meu Dashboard
-            </Link>
-          </div>
-        </section>
+              <Link to="/meu-curso">Ir para meu Dashboard</Link>
+            </Button>
+          </CardFooter>
+        </Card>
       </main>
     </div>
   );
