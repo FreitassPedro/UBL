@@ -1,6 +1,6 @@
 import useTituloDaPagina from "@/hooks/useTitlePage";
 import { useState } from "react";
-import { type CourseOption, useMyCourseData } from "../../lib/useMyCourseData";
+import { type CourseOption, useMyCourseData } from "../../hooks/useMyCourseData";
 import { Card } from "@/components/ui/card";
 import { MyStepContainer } from "@/components/MyCourse/MyStepContainer";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
