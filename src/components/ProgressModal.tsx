@@ -25,7 +25,7 @@ import { CurriculoCC } from "@/data/GradeCurricular";
 import { useCourseProgress } from "@/hooks/useCourseProgress";
 import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import type { MyCadeiraProgress } from "@/types/progress";
-import { ChevronUp } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -93,10 +93,10 @@ export const ProgressModal = () => {
         <CollapsibleTrigger asChild>
           <button
             type="button"
-            className="cursor-pointer fixed bottom-6 left-1/2 z-60 flex size-12 -translate-x-1/2 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-white transition hover:-translate-y-1"
+            className="cursor-pointer fixed left-6 top-1/2 z-60 flex size-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-white transition hover:-translate-x-1"
             aria-label={isOpen ? "Fechar destaques" : "Abrir destaques"}
           >
-            <ChevronUp
+            <ChevronRight
               className={`size-5 transition-transform ${
                 isOpen ? "rotate-180" : ""
               }`}
