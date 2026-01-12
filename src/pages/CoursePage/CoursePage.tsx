@@ -1,5 +1,5 @@
-import { BackgroundGrid } from "@/components/BackgroundGrid";
 import { VideoPlayer } from "@/components/CourseContent/VideoPlayer";
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
@@ -139,7 +139,7 @@ export default function CoursePage() {
   return (
     <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
       {/* Background Effects (Grid + Glow) */}
-      <BackgroundGrid />
+      <BackgroundRippleEffect className="z-0" />
 
       <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
         {/* COLUNA PRINCIPAL (VÍDEO CARD) */}

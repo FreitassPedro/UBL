@@ -1,11 +1,11 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
-import { BackgroundGrid } from "@/components/BackgroundGrid";
 import {
   ProgressModal,
   type WatchedCourse,
 } from "@/components/Home/ProgressModal";
 import { PinContainer } from "@/components/ui/3d-pin";
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
@@ -49,12 +49,12 @@ export const HomePage: React.FC = () => {
   }, [completedLessons, sortBy]);
 
   return (
-    <div className="min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
+    <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
-      <BackgroundGrid />
+      <BackgroundRippleEffect className="z-0" />
 
       {/* HERO SECTION */}
-      <main className="relative max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-full h-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 py-16 md:py-24 container">
+      <main className="relative z-10 max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-full h-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 py-16 md:py-24 container">
         {/* Conteúdo Principal */}
         <div className="flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
           {/* Título Principal */}
@@ -160,7 +160,7 @@ export const HomePage: React.FC = () => {
       <section className="relative z-10 mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
           <div className="space-y-4">
-            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-fuchsia-400 via-violet-400 to-amber-500">
+            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
               Customize sua trilha
             </h2>
             <p className="text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
@@ -192,7 +192,7 @@ export const HomePage: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-rose-500 via-violet-400 to-cyan-300">
+            <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
               Nossa comunidade pronta para ajudar
             </h2>
             <p className="text-base sm:text-lg text-zinc-200/90 font-light">
