@@ -64,10 +64,10 @@ export const HomeProgress = () => {
   return (
     <>
       {watchedCourses.length !== 0 && (
-        <div className="bg-zinc-900">
-          <Card className="p-0 mx-auto max-w-6xl overflow-hidden border-0 rounded-none">
+        <div className="bg-[#141414] py-3">
+          <Card className="p-0 mx-auto max-w-6xl overflow-hidden border-0 rounded-none bg-transparent">
             <CardHeader className="px-0 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <div className="text-left space-y-2">
+              <div className="text-left">
                 <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
                   Continue onde parou
                 </CardTitle>

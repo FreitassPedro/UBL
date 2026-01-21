@@ -127,7 +127,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="relative z-10 mx-auto bg-zinc-800 flex items-center justify-center">
+      <section className="relative z-10 mx-auto bg-[#141414] flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl">
           <div className="flex items-center justify-center">
             <a href="http://www.freepik.com" className="invisible">
