@@ -78,7 +78,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
 
   return (
     <CardHeader
-      className={`border-0 p-0 border-t gap-0 ${theme.border}`}
+      className={`border-0 p-0 gap-0 ${theme.border}`}
       onClick={() => onToggle(stage.number)}>
       <div className="group overflow-hidden border-zinc-800 bg-zinc-900 p-6 cursor-pointer">
         {/* Glow */}
