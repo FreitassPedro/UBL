@@ -1,5 +1,6 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
+import { HomeProgress } from "@/components/Home/HomeProgress";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
@@ -101,6 +102,8 @@ export const HomePage: React.FC = () => {
           />
         </div>
       </main>
+
+      <HomeProgress />
 
       <section className="relative z-10 mx-auto bg-zinc-900 flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
