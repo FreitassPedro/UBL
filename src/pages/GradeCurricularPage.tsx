@@ -1,5 +1,5 @@
 import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
-import { CurriculumSection } from "@/components/GradeCurricular/CurriculumSection";
+import { CurriculumSection } from "@/components/grade-curricular/CurriculumSection";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {

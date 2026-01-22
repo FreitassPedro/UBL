@@ -1,4 +1,4 @@
-import { MyStepCard } from "@/components/MyCourse/MyStepCard";
+import { MyStepCard } from "@/components/my-course/MyStepCard";
 import type { MyGradeProgress } from "@/types/progress";
 import React, { useState } from "react";
 
