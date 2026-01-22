@@ -9,10 +9,10 @@ import {
 } from "@xyflow/react";
 import React from "react";
 import "@xyflow/react/dist/style.css";
-import CustomNode from "@/components/node-graphs/CustomNode";
+import CurriculumNode from "@/components/node-graphs/CurriculumNode";
 import type { Curriculum } from "@/types/curriculum";
 
-interface customNode extends Node {
+interface CurriculumGraphNode extends Node {
   data: {
     name: string;
     preReq: string[];
@@ -28,11 +28,11 @@ interface customNode extends Node {
 }
 
 const nodeTypes = {
-  customNode: CustomNode,
+  curriculumNode: CurriculumNode,
 };
 
-const generateFlow = (grade: Curriculum) => {
-  const nodes: customNode[] = [];
+const buildCurriculumGraph = (grade: Curriculum) => {
+  const nodes: CurriculumGraphNode[] = [];
   const edges: Edge[] = [];
 
   grade.steps.forEach((etapa) => {
@@ -40,7 +40,7 @@ const generateFlow = (grade: Curriculum) => {
       const nodeId = cadeira.name;
       nodes.push({
         id: nodeId,
-        type: "customNode",
+        type: "curriculumNode",
         data: {
           name: cadeira.name,
           preReq: cadeira.prerequisites,
@@ -77,12 +77,12 @@ const generateFlow = (grade: Curriculum) => {
   return { initialNodes: nodes, initialEdges: edges };
 };
 
-interface NodeGraphVisualizationProps {
+interface CurriculumGraphProps {
   grade: Curriculum;
 }
 
-const NodeGraphVisualization = ({ grade }: NodeGraphVisualizationProps) => {
-  const flow = React.useMemo(() => generateFlow(grade), [grade]);
+const CurriculumGraph = ({ grade }: CurriculumGraphProps) => {
+  const flow = React.useMemo(() => buildCurriculumGraph(grade), [grade]);
   const [nodes, setNodes, onNodesChange] = useNodesState(flow.initialNodes);
   const [edges, setEdges] = useEdgesState(flow.initialEdges);
 
@@ -97,7 +97,10 @@ const NodeGraphVisualization = ({ grade }: NodeGraphVisualizationProps) => {
     minZoom: 0.5,
   };
 
-  const onNodeClick = (_event: React.MouseEvent, selectedNode: customNode) => {
+  const onNodeClick = (
+    _event: React.MouseEvent,
+    selectedNode: CurriculumGraphNode,
+  ) => {
     console.log("Node clicked:", selectedNode);
     if (!selectedNode) return;
 
@@ -184,4 +187,4 @@ const NodeGraphVisualization = ({ grade }: NodeGraphVisualizationProps) => {
   );
 };
 
-export default NodeGraphVisualization;
+export default CurriculumGraph;

@@ -1,4 +1,4 @@
-import NodeGraphVisualization from "@/components/node-graphs/NodeGraphVisualization";
+import CurriculumGraph from "@/components/node-graphs/CurriculumGraph";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { Layout } from "@/layouts/Layout";
 import { MyCourseLayout } from "@/layouts/MyCourseLayout";
@@ -47,7 +47,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "node",
-        element: <NodeGraphVisualization grade={CurriculoCC} />,
+        element: <CurriculumGraph grade={CurriculoCC} />,
       },
     ],
   },

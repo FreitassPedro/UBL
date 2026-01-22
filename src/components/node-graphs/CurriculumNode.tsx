@@ -1,19 +1,19 @@
 import { Handle, Position } from "@xyflow/react";
 import { cn } from "@/lib/utils";
 
-interface CustomNodeProps {
+interface CurriculumNodeProps {
   data: {
     name: string;
     preReq: string[];
-    etapa: number;
+    step: number;
     isSelected?: boolean;
     isClicked?: boolean;
     hasActiveSelection?: boolean;
   };
 }
 
-const getEtapaColor = (etapa: number) => {
-  switch (etapa) {
+const getStepColor = (step: number) => {
+  switch (step) {
     case 1:
       return "bg-blue-200";
     case 2:
@@ -33,14 +33,14 @@ const getEtapaColor = (etapa: number) => {
   }
 };
 
-const CustomNode = ({ data }: CustomNodeProps) => {
+const CurriculumNode = ({ data }: CurriculumNodeProps) => {
   const isClicked = data.isClicked;
   const isDark = data.isSelected || isClicked;
   const background = isClicked
     ? "bg-gray-800"
     : data.isSelected
       ? "bg-gray-700"
-      : getEtapaColor(data.etapa);
+      : getStepColor(data.step);
 
   const textColor = isDark ? "text-white" : "text-black";
   const subTextColor = isDark ? "text-gray-300" : "text-gray-600";
@@ -49,7 +49,7 @@ const CustomNode = ({ data }: CustomNodeProps) => {
   const dimmed = data.hasActiveSelection && !data.isSelected && !data.isClicked;
 
   console.log(
-    "Rendering CustomNode:",
+    "Rendering CurriculumNode:",
     data.name,
     "isSelected:",
     data.isSelected,
@@ -67,7 +67,7 @@ const CustomNode = ({ data }: CustomNodeProps) => {
         <div className={cn("text-lg font-semibold text-wrap", textColor)}>
           {data.name}
         </div>
-        <div className={cn("text-sm", subTextColor)}>Etapa {data.etapa}</div>
+        <div className={cn("text-sm", subTextColor)}>Etapa {data.step}</div>
       </div>
 
       <Handle
@@ -84,4 +84,4 @@ const CustomNode = ({ data }: CustomNodeProps) => {
   );
 };
 
-export default CustomNode;
+export default CurriculumNode;

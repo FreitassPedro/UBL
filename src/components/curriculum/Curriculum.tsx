@@ -1,5 +1,5 @@
 import { Subjects } from "@/components/curriculum/Subjects";
-import NodeGraphVisualization from "@/components/node-graphs/NodeGraphVisualization";
+import CurriculumGraph from "@/components/node-graphs/CurriculumGraph";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import type { Curriculum as CurriculumType } from "@/types/curriculum";
@@ -32,7 +32,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
           </div>
           <Separator className="flex-1 bg-linear-to-r from-ubl-blue to-ubl-green rounded" />
           <Button
-            onClick={() => setNodeView((v) => !v)}
+            onClick={() => setNodeView((prev) => !prev)}
             variant="outline"
             size="lg"
             className="cursor-pointer h-10 rounded-xl border-white/10 bg-zinc-950/40 px-4 text-xs font-semibold uppercase tracking-wider text-zinc-200 hover:bg-zinc-800/70 hover:text-white"
@@ -51,15 +51,16 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
                 </h2>
                 <Button
                   size="icon"
-                  variant="destructive"
-                  className="cursor-pointer rounded-full"
+                  variant="ghost"
+                  className="cursor-pointer h-9 w-9 rounded-full border border-white/10 bg-white/5 text-white hover:bg-white/10 hover:text-white"
                   onClick={() => setNodeView(false)}
+                  aria-label="Fechar grafo"
                 >
-                  <X className="w-4 h-4 text-zinc-200" />
+                  <X className="w-4 h-4" />
                 </Button>
               </div>
               <div className="flex-1 w-full overflow-hidden flex items-center justify-center h-full">
-                <NodeGraphVisualization grade={selectedCourse} />
+                <CurriculumGraph grade={selectedCourse} />
               </div>
             </div>
           </div>
