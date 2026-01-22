@@ -1,18 +1,16 @@
 import { Subjects } from "@/components/curriculum/Subjects";
 import NodeGraphVisualization from "@/components/node-graphs/NodeGraphVisualization";
-import type { Curriculum } from "@/types/curriculum";
-import { GraduationCap, Network, X } from "lucide-react";
-import React, { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import type { Curriculum as CurriculumType } from "@/types/curriculum";
+import { GraduationCap, Network, X } from "lucide-react";
+import React, { useEffect } from "react";
 
-interface CurriculumSectionProps {
-  selectedCourse: Curriculum;
+interface CurriculumProps {
+  selectedCourse: CurriculumType;
 }
 
-export const CurriculumSection = ({
-  selectedCourse,
-}: CurriculumSectionProps) => {
+export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
   const [nodeView, setNodeView] = React.useState<boolean>(false);
   const sectionRef = React.useRef<HTMLElement>(null);
 

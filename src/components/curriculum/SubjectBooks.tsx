@@ -1,12 +1,12 @@
 import { ExternalLink, LibraryBig } from "lucide-react";
 
-interface BookRecommendationProps {
+interface SubjectBooksProps {
   subject: {
     books?: { name: string; url: string }[];
   };
 }
 
-export const BookRecommendation = ({ subject }: BookRecommendationProps) => {
+export const SubjectBooks = ({ subject }: SubjectBooksProps) => {
   return (
     <div className="mt-4 pt-2 border-t border-white/10 overflow-hidden">
       <div className="animate-in fade-in slide-in-from-top-10 duration-400 ease-out">
