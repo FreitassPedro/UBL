@@ -6,7 +6,7 @@ import { Layout } from "@/layouts/Layout";
 import SubjectPage from "@/pages/SubjectPage";
 import CurriculumPage from "@/pages/CurriculumPage";
 import HomePage from "@/pages/HomePage";
-import MyCourse from "@/pages/MyCourse";
+import MyCoursePage from "@/pages/MyCoursePage";
 import TestePage from "@/pages/test/TestePage1";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -19,7 +19,7 @@ export const App = () => {
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/curso/:id" element={<SubjectPage />} />
-            <Route path="/meu-curso" element={<MyCourse />} />
+            <Route path="/meu-curso" element={<MyCoursePage />} />
             <Route path="/grade-curricular" element={<CurriculumPage />} />
           </Route>
 

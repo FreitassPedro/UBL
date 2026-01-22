@@ -76,7 +76,7 @@ interface NodeGraphVisualizationProps {
     grade: Curriculum;
 }
 
-const NodeGraphVisualization: React.FC<NodeGraphVisualizationProps> = ({ grade }) => {
+const NodeGraphVisualization = ({ grade }: NodeGraphVisualizationProps) => {
     const flow = React.useMemo(() => generateFlow(grade), [grade]);
     const [nodes, setNodes, onNodesChange] = useNodesState(flow.initialNodes);
     const [edges, setEdges] = useEdgesState(flow.initialEdges);

@@ -10,12 +10,11 @@ interface SemesterHeaderProps {
   onToggle: (gradeNumber: number) => void;
 }
 
-export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
+export const SemesterHeader = ({
   stage,
   isActive,
   onToggle,
-}) => {
-  
+}: SemesterHeaderProps) => {
   const getTheme = () => {
     switch (stage.number) {
       case 1:
@@ -73,19 +72,20 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
   const totalDurationHours = Math.round(
     stage.subjects
       .flatMap((cadeira) => cadeira.lessons)
-      .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600
+      .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600,
   );
 
   return (
     <CardHeader
       className={`border-0 p-0 gap-0 ${theme.border}`}
-      onClick={() => onToggle(stage.number)}>
+      onClick={() => onToggle(stage.number)}
+    >
       <div className="group overflow-hidden border-zinc-800 bg-zinc-900 p-6 cursor-pointer">
         {/* Glow */}
         <div
           className={cn(
             "pointer-events-none absolute inset-0 bg-linear-to-br to-transparent opacity-60",
-            theme.glow
+            theme.glow,
           )}
         />
 
@@ -94,7 +94,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
             <div
               className={cn(
                 "flex items-center gap-2 text-xs font-semibold uppercase tracking-wider",
-                theme.text
+                theme.text,
               )}
             >
               <Sparkles className="h-3 w-3" />
@@ -122,7 +122,10 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
                 </div>
               </div>
 
-              <Separator orientation="vertical" className="data-[orientation=vertical]:h-8 bg-zinc-800" />
+              <Separator
+                orientation="vertical"
+                className="data-[orientation=vertical]:h-8 bg-zinc-800"
+              />
               <div className="flex items-center gap-3">
                 <div className="p-1.5 bg-zinc-800 rounded-md">
                   <Clock className="h-4 w-4 text-zinc-300" />
@@ -140,15 +143,15 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
 
             <div className="flex items-center justify-end">
               <div className="px-3 py-1 text-xs uppercase tracking-wide text-zinc-300">
-                <span className="text-muted-foreground">
-                  Clique para
-                </span>
-                <p className="text-muted">{isActive ? "Recolher" : "Expandir"}</p>
+                <span className="text-muted-foreground">Clique para</span>
+                <p className="text-muted">
+                  {isActive ? "Recolher" : "Expandir"}
+                </p>
               </div>
               <ChevronRight
                 className={cn(
                   "h-5 w-5 text-zinc-400 transition-transform",
-                  isActive ? "rotate-90" : "group-hover:translate-x-1"
+                  isActive ? "rotate-90" : "group-hover:translate-x-1",
                 )}
               />
             </div>

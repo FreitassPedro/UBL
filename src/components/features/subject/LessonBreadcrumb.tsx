@@ -14,10 +14,10 @@ interface LessonBreadcrumbProps {
   lessonTitle?: string;
 }
 
-export function LessonBreadcrumb({
+export const LessonBreadcrumb = ({
   subjectName,
   lessonTitle,
-}: LessonBreadcrumbProps) {
+}: LessonBreadcrumbProps) => {
   return (
     <Breadcrumb className="shrink-0">
       <BreadcrumbList className="text-sm text-gray-400 flex-nowrap overflow-hidden">
@@ -65,4 +65,4 @@ export function LessonBreadcrumb({
       </BreadcrumbList>
     </Breadcrumb>
   );
-}
+};

@@ -9,7 +9,11 @@ interface ProgressContextType {
 
 export const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
-export function ProgressProvider({ children }: { children: React.ReactNode }) {
+export const ProgressProvider = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(() => {
     if (typeof window === "undefined") {
       return new Set();
@@ -62,4 +66,4 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       {children}
     </ProgressContext.Provider>
   );
-}
+};

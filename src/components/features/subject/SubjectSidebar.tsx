@@ -12,12 +12,12 @@ interface SubjectSidebarProps {
   onToggleCompletion: (lessonId: string) => void;
 }
 
-export function SubjectSidebar({
+export const SubjectSidebar = ({
   subject,
   selectedLesson,
   onSelectLesson,
   onToggleCompletion,
-}: SubjectSidebarProps) {
+}: SubjectSidebarProps) => {
   return (
     <aside className="flex h-full min-h-0 flex-col gap-3 py-6 pl-6 pr-4 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
       <div className="flex justify-between items-center">
@@ -48,4 +48,4 @@ export function SubjectSidebar({
       </div>
     </aside>
   );
-}
+};

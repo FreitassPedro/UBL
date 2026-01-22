@@ -10,9 +10,9 @@ interface CurriculumSectionProps {
   selectedCourse: Curriculum;
 }
 
-export const CurriculumSection: React.FC<CurriculumSectionProps> = ({
+export const CurriculumSection = ({
   selectedCourse,
-}) => {
+}: CurriculumSectionProps) => {
   const [nodeView, setNodeView] = React.useState<boolean>(false);
   const sectionRef = React.useRef<HTMLElement>(null);
 

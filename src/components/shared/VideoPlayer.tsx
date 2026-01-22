@@ -3,7 +3,7 @@ interface VideoPlayerProps {
   onLoaded?: () => void;
 }
 
-export function VideoPlayer({ videoId, onLoaded }: VideoPlayerProps) {
+export const VideoPlayer = ({ videoId, onLoaded }: VideoPlayerProps) => {
   return (
     <div className="w-full h-full bg-bg-card rounded-xl shadow-2xl shadow-black/40 overflow-hidden border border-border-subtle">
       <iframe
@@ -15,4 +15,4 @@ export function VideoPlayer({ videoId, onLoaded }: VideoPlayerProps) {
       />
     </div>
   );
-}
+};

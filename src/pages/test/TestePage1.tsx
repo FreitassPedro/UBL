@@ -41,14 +41,14 @@ const currentProgress = 72; // Porcentagem de progresso
 // --- Componentes Reutilizáveis ---
 
 // Componente para o ícone de reprodução (SVG)
-const PlayIcon: React.FC = () => (
+const PlayIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
     <polygon points="5 3 19 12 5 21 5 3" fill="currentColor" stroke="none" />
   </svg>
 );
 
 // Componente para o Item da Lista de Aulas
-const SyllabusItem: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
+const SyllabusItem = ({ lesson }: { lesson: Lesson }) => {
   let statusClass = '';
   let statusContent = '';
 
@@ -79,7 +79,7 @@ const SyllabusItem: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
 };
 
 // Componente Principal
-const TestePage: React.FC = () => {
+const TestePage = () => {
   // Estilo customizado para o Donut Chart, usa a sintaxe de inline style do React
   const donutChartStyle: React.CSSProperties = {
     background: `conic-gradient(var(--tw-colors-accent-primary) 0% ${currentProgress}%, var(--tw-colors-bg-hover) ${currentProgress}% 100%)`,

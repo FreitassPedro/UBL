@@ -1,5 +1,5 @@
 import { Checkbox } from "@/components/ui/checkbox";
-import { formatSecondsToMinutes } from "@/lib/utils";
+import { formatSecondsToMinutes } from "@/lib/time";
 import type { MyLessonProgress } from "@/types/progress";
 
 interface SubjectSidebarItemProps {
@@ -9,12 +9,12 @@ interface SubjectSidebarItemProps {
   onToggleCompletion: (lessonId: string) => void;
 }
 
-export function SubjectSidebarItem({
+export const SubjectSidebarItem = ({
   lesson,
   isSelected,
   onSelect,
   onToggleCompletion,
-}: SubjectSidebarItemProps) {
+}: SubjectSidebarItemProps) => {
   return (
     <li>
       <div
@@ -59,4 +59,4 @@ export function SubjectSidebarItem({
       </div>
     </li>
   );
-}
+};
