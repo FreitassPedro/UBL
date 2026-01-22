@@ -1,6 +1,6 @@
 import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
-import { ProgressProvider } from "@/contexts/ProgressContext";
 import { LoadingProvider } from "@/contexts/LoadingContext";
+import { ProgressProvider } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
@@ -9,12 +9,10 @@ import GradeCurricularPage from "@/pages/GradePage/GradeCurricularPage";
 import HomePage from "@/pages/HomePage/HomePage";
 import MyCourse from "@/pages/MyCourse/MyCourse";
 import TestePage from "@/pages/Testepage/TestePage1";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
+export const App = () => {
+  return (
     <BrowserRouter>
       <LoadingProvider>
         <ProgressProvider>
@@ -42,5 +40,7 @@ createRoot(document.getElementById("root")!).render(
         </ProgressProvider>
       </LoadingProvider>
     </BrowserRouter>
-  </StrictMode>
-);
+  );
+};
+
+export default App;
