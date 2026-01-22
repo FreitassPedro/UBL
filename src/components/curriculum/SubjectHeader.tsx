@@ -6,17 +6,17 @@ import { cn } from "@/lib/utils";
 import type { Step } from "@/types/step";
 import { BookOpen, ChevronRight, Clock, Sparkles } from "lucide-react";
 
-interface SemesterHeaderProps {
+interface SubjectHeaderProps {
   stage: Step;
   isActive: boolean;
   onToggle: (gradeNumber: number) => void;
 }
 
-export const SemesterHeader = ({
+export const SubjectHeader = ({
   stage,
   isActive,
   onToggle,
-}: SemesterHeaderProps) => {
+}: SubjectHeaderProps) => {
   const theme = getTheme(stage.id);
   const totalDuration: string = formatStepToHours(stage);
 

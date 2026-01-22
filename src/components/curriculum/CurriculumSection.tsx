@@ -1,4 +1,4 @@
-import { SemesterCard } from "@/components/curriculum/SemesterCard";
+import { Subjects } from "@/components/curriculum/Subjects";
 import NodeGraphVisualization from "@/components/node-graphs/NodeGraphVisualization";
 import type { Curriculum } from "@/types/curriculum";
 import { GraduationCap, Network, X } from "lucide-react";
@@ -70,7 +70,7 @@ export const CurriculumSection = ({
         {/* Etapas (Stages) */}
         <ul className="space-y-4">
           {selectedCourse.steps.map((stage) => {
-            return <SemesterCard key={stage.id} stage={stage} />;
+            return <Subjects key={stage.id} stage={stage} />;
           })}
         </ul>
       </div>
