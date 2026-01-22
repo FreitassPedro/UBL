@@ -3,10 +3,10 @@ import { ProgressProvider } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
-import SubjectPage from "@/pages/SubjectPage";
 import CurriculumPage from "@/pages/CurriculumPage";
 import HomePage from "@/pages/HomePage";
 import MyCoursePage from "@/pages/MyCoursePage";
+import SubjectPage from "@/pages/SubjectPage";
 import TestePage from "@/pages/test/TestePage1";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

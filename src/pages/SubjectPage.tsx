@@ -2,18 +2,18 @@ import { Lesson } from "@/components/features/subject/Lesson";
 import LessonEmpty from "@/components/features/subject/LessonEmpty";
 import { SubjectSidebar } from "@/components/features/subject/SubjectSidebar";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
-import { useCourseProgress } from "@/hooks/useCourseProgress";
-import useTituloDaPagina from "@/hooks/useTitlePage";
+import useTitlePage from "@/hooks/useTitlePage";
 import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
 import type { MyLessonProgress, MySubjectProgress } from "@/types/progress";
-import { useEffect, useMemo, useState } from "react";
+import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
 export const SubjectPage = () => {
-  useTituloDaPagina("Curso");
+  useTitlePage("Curso");
   const { id } = useParams<{ id: string }>();
-  const { toggleCompletion, completedLessons } = useCourseProgress();
+  const { toggleCompletion, completedLessons } = useContext(ProgressContext);
 
   const subject: MySubjectProgress | undefined = useMemo(() => {
     if (!id) return;

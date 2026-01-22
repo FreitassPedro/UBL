@@ -15,11 +15,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
-import { useCourseProgress } from "@/hooks/useCourseProgress";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MySubjectProgress } from "@/types/progress";
-import { useMemo, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 export type WatchedCourse = MySubjectProgress & {
@@ -30,7 +30,7 @@ export type WatchedCourse = MySubjectProgress & {
 const sortOptions = ["etapas", "progresso"];
 
 export const HomeProgress = () => {
-  const { completedLessons } = useCourseProgress();
+  const { completedLessons } = useContext(ProgressContext);
   const [sortBy, setSortBy] = useState("etapas");
 
   const watchedCourses = useMemo<WatchedCourse[]>(() => {

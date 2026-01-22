@@ -1,8 +1,8 @@
-import type { MyGradeProgress } from "@/types/progress";
-import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
+import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
-import { useMemo } from "react";
-import { useCourseProgress } from "@/hooks/useCourseProgress";
+import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
+import type { MyGradeProgress } from "@/types/progress";
+import { useContext, useMemo } from "react";
 
 export type CourseOption = "Computacao" | "Matematica";
 
@@ -12,7 +12,7 @@ export type CourseOption = "Computacao" | "Matematica";
 /* @returns MyGradeProgress
 */
 export const useMyCourseData = () => {
-  const { completedLessons } = useCourseProgress();
+  const { completedLessons } = useContext(ProgressContext);
   const computacaoProgress = useMemo(() => {
     return mapCurriculumToMyCurriculumProgress(CurriculoCC, completedLessons);
   }, [completedLessons]);
@@ -20,7 +20,7 @@ export const useMyCourseData = () => {
   const matematicaProgress = useMemo(() => {
     return mapCurriculumToMyCurriculumProgress(
       CurriculoMatematica,
-      completedLessons
+      completedLessons,
     );
   }, [completedLessons]);
 

@@ -1,4 +1,4 @@
-import useTituloDaPagina from "@/hooks/useTitlePage";
+import useTitlePage from "@/hooks/useTitlePage";
 import { useState } from "react";
 import { type CourseOption, useMyCourseData } from "@/hooks/useMyCourseData";
 import { Card } from "@/components/ui/card";
@@ -7,7 +7,7 @@ import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { LayoutGrid } from "lucide-react";
 
 const MyCoursePage = () => {
-  useTituloDaPagina("Meu Curso");
+  useTitlePage("Meu Curso");
 
   const { getCourseProgress } = useMyCourseData();
 
