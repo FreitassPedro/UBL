@@ -1,15 +1,13 @@
 import { useEffect } from "react";
 
-function useTituloDaPagina(titulo: string) {
+export const useTitlePage = (titulo: string) => {
   useEffect(() => {
     const originalTitle = document.title;
-
     document.title = `${titulo} | UBLCourse`;
-
     return () => {
       document.title = originalTitle;
     };
   }, [titulo]);
-}
+};
 
-export default useTituloDaPagina;
+export default useTitlePage;

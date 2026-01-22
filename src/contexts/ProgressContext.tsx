@@ -1,15 +1,17 @@
 import { createContext, useEffect, useState } from "react";
 
-const DATA_KEY = "completedLessons";
+const DATA_KEY: string = "completedLessons";
 
-interface ProgressContextType {
+export interface ProgressContextType {
   completedLessons: Set<string>;
   toggleCompletion: (lessonId: string) => void;
 }
 
-export const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
+export const ProgressContext = createContext<ProgressContextType>(
+  {} as ProgressContextType,
+);
 
-export function ProgressProvider({ children }: { children: React.ReactNode }) {
+export const ProgressProvider = ({ children }: { children: React.ReactNode }) => {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(() => {
     if (typeof window === "undefined") {
       return new Set();
@@ -21,7 +23,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     } catch (error) {
       console.error(
         "Failed to parse completed videos from localStorage",
-        error
+        error,
       );
       return new Set();
     }
@@ -32,7 +34,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       try {
         localStorage.setItem(
           DATA_KEY,
-          JSON.stringify(Array.from(completedLessons))
+          JSON.stringify(Array.from(completedLessons)),
         );
       } catch (error) {
         console.error("Error writing completedVideos to localStorage:", error);
@@ -53,13 +55,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <ProgressContext.Provider
+    <ProgressContext
       value={{
         completedLessons: completedLessons,
         toggleCompletion: toggleVideoCompletion,
       }}
     >
       {children}
-    </ProgressContext.Provider>
+    </ProgressContext>
   );
-}
+};
