@@ -1,15 +1,16 @@
-import { MyStepCard } from "@/components/my-course/MyStepCard";
-import type { MyGradeProgress } from "@/types/progress";
+import { MyStep } from "@/components/my-course/MyStep";
+import { MyStepsHeader } from "@/components/my-course/MyStepsHeader";
+import type { MyCurriculumProgress } from "@/types/curriculum";
 import { useState } from "react";
 
-interface MyStepContainerProps {
-  courseProgress: MyGradeProgress;
+interface MyStepsProps {
+  courseProgress: MyCurriculumProgress;
 }
 
-export const MyStepContainer = ({ courseProgress }: MyStepContainerProps) => {
+export const MySteps = ({ courseProgress }: MyStepsProps) => {
   // Definindo o primeiro passo como padrão ou 1 se não houver
   const [activeStep, setActiveStep] = useState<number>(
-    courseProgress.etapas[0]?.id || 1,
+    courseProgress.steps[0]?.id || 1,
   );
 
   return (
@@ -19,7 +20,7 @@ export const MyStepContainer = ({ courseProgress }: MyStepContainerProps) => {
         <h2 className="text-4xl font-semibold ">{courseProgress.curriculo}</h2>
         <div className="w-full overflow-x-auto pb-2 scrollbar-hide flex justify-center">
           <div className="flex p-1 space-x-2 bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-xl w-max min-w-full lg:min-w-0">
-            {courseProgress.etapas.map((step) => {
+            {courseProgress.steps.map((step) => {
               const isActive = activeStep === step.id;
               return (
                 <button
@@ -48,10 +49,17 @@ export const MyStepContainer = ({ courseProgress }: MyStepContainerProps) => {
 
       {/* Conteúdo */}
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
-        {courseProgress.etapas
+        {courseProgress.steps
           .filter((gr) => gr.id === activeStep)
           .map((step) => (
-            <MyStepCard key={step.id} step={step} />
+            <div key={step.id} className="space-y-6">
+              <MyStepsHeader step={step} />
+              <div className="grid grid-cols-1 gap-3">
+                {step.subjects.map((subject) => (
+                  <MyStep key={subject.id} subject={subject} />
+                ))}
+              </div>
+            </div>
           ))}
       </div>
     </div>

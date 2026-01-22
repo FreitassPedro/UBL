@@ -1,4 +1,4 @@
-import type { Lesson } from "@/types/lesson";
+import type { Lesson, MyLessonProgress } from "@/types/lesson";
 
 export interface Subject {
   id: number;
@@ -11,4 +11,11 @@ export interface Subject {
     name: string;
     url: string;
   }[];
+}
+
+export interface MySubjectProgress extends Subject {
+  progress: number;
+  totalCompleted: number;
+  isCompleted: boolean;
+  lessons: MyLessonProgress[]; // Lições dentro desta Cadeira
 }

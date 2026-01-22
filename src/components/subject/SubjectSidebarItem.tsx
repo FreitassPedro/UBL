@@ -1,6 +1,6 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { formatSecondsToMinutes } from "@/lib/time";
-import type { MyLessonProgress } from "@/types/progress";
+import type { MyLessonProgress } from "@/types/lesson";
 
 interface SubjectSidebarItemProps {
   lesson: MyLessonProgress;

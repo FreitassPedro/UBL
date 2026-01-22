@@ -1,5 +1,5 @@
 import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
-import type { MyStepProgress } from "@/types/progress";
+import type { MyStepProgress } from "@/types/step";
 import type { Step } from "@/types/step";
 
 export function mapStepToMyStep(

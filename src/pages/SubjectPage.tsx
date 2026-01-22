@@ -6,7 +6,8 @@ import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import useTitlePage from "@/hooks/useTitlePage";
 import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
-import type { MyLessonProgress, MySubjectProgress } from "@/types/progress";
+import type { MyLessonProgress } from "@/types/lesson";
+import type { MySubjectProgress } from "@/types/subject";
 import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -18,10 +19,10 @@ export const SubjectPage = () => {
   const subject: MySubjectProgress | undefined = useMemo(() => {
     if (!id) return;
     const found =
-      CurriculoCC.etapas
+      CurriculoCC.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id) ??
-      CurriculoMatematica.etapas
+      CurriculoMatematica.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id);
     if (!found) return;

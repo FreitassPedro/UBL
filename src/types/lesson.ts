@@ -5,3 +5,7 @@ export interface Lesson {
   duration?: number; // Duração em segundos, opcional
   url: string; // Video, Link, Livro
 }
+
+export interface MyLessonProgress extends Lesson {
+  isCompleted: boolean;
+}

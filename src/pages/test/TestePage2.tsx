@@ -2,7 +2,7 @@ import { Progress } from "@/components/ui/progress";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
-import type { MySubjectProgress } from "@/types/progress";
+import type { MySubjectProgress } from "@/types/subject";
 import { ArrowRight } from "lucide-react";
 import { useContext, useMemo } from "react";
 import { Link } from "react-router-dom";
@@ -19,7 +19,7 @@ const TestePage2 = () => {
       CurriculoCC,
       completedLessons,
     );
-    const allCourses = mappedGrade.etapas.flatMap((etapa) =>
+    const allCourses = mappedGrade.steps.flatMap((etapa) =>
       etapa.subjects.map((cadeira) => ({
         ...cadeira,
         etapaName: etapa.name,

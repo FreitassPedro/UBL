@@ -18,7 +18,7 @@ import {
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
-import type { MySubjectProgress } from "@/types/progress";
+import type { MySubjectProgress } from "@/types/subject";
 import { useContext, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -39,7 +39,7 @@ export const HomeProgress = () => {
       completedLessons,
     );
 
-    const filtered = mappedGrade.etapas.flatMap((etapa) =>
+    const filtered = mappedGrade.steps.flatMap((etapa) =>
       etapa.subjects
         .filter((cadeira) => cadeira.progress > 0)
         .map((cadeira) => ({

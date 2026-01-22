@@ -1,5 +1,5 @@
 import { mapLessonsToMyLessons } from "@/mappers/lesson.mapper";
-import type { MySubjectProgress } from "@/types/progress";
+import type { MySubjectProgress } from "@/types/subject";
 import type { Subject } from "@/types/subject";
 
 export function mapSubjectToMySubject(

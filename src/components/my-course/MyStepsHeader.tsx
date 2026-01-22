@@ -1,14 +1,13 @@
-import { MyStepCardContent } from "@/components/my-course/MyStepCardContent";
 import { getTheme } from "@/lib/theme";
 import { formatStepToHours } from "@/lib/time";
-import type { MyStepProgress } from "@/types/progress";
+import type { MyStepProgress } from "@/types/step";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
-interface MyStepCardProps {
+interface MyStepsHeaderProps {
   step: MyStepProgress;
 }
 
-export const MyStepCard = ({ step }: MyStepCardProps) => {
+export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
   const theme = getTheme(step.id);
   const totalDuration: string = formatStepToHours(step);
 
@@ -56,7 +55,6 @@ export const MyStepCard = ({ step }: MyStepCardProps) => {
             </div>
 
             <div className="w-px h-8 bg-zinc-800" />
-
             <div className="flex items-center gap-2.5">
               <div className="p-1.5 bg-zinc-800 rounded-md">
                 <Clock className="w-4 h-4 text-zinc-300" />
@@ -73,8 +71,6 @@ export const MyStepCard = ({ step }: MyStepCardProps) => {
           </div>
         </div>
       </div>
-
-      <MyStepCardContent step={step} />
     </div>
   );
 };

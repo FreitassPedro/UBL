@@ -11,7 +11,7 @@ interface UserAvatarProps {
 export const UserAvatar = ({ className, alt }: UserAvatarProps) => {
   const { avatar } = useContext(UserContext);
   return (
-    <Avatar className={cn(className, "h-8 w-8")}>
+    <Avatar className={cn("h-8 w-8", className)}>
       <AvatarImage src={avatar} alt={alt || "Avatar"} />
       <AvatarFallback>Avatar</AvatarFallback>
     </Avatar>

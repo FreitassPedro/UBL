@@ -1,7 +1,13 @@
-import type { Step } from "@/types/step";
+import type { MyStepProgress, Step } from "@/types/step";
 
 export interface Curriculum {
   id: number;
   curriculo: string;
-  etapas: Step[];
+  steps: Step[];
+}
+
+export interface MyCurriculumProgress extends Curriculum {
+  steps: MyStepProgress[];
+  progress: number;
+  isCompleted: boolean;
 }

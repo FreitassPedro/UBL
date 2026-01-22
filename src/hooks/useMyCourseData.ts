@@ -1,7 +1,7 @@
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
-import type { MyGradeProgress } from "@/types/progress";
+import type { MyCurriculumProgress } from "@/types/curriculum";
 import { useContext, useMemo } from "react";
 
 export type CourseOption = "Computacao" | "Matematica";
@@ -24,7 +24,7 @@ export const useMyCourseData = () => {
     );
   }, [completedLessons]);
 
-  const getCourseProgress = (course: string): MyGradeProgress | null => {
+  const getCourseProgress = (course: string): MyCurriculumProgress | null => {
     if (course === "Computacao") {
       return computacaoProgress;
     }

@@ -1,7 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import type { MySubjectProgress, MyLessonProgress } from "@/types/progress";
+import type { MyLessonProgress } from "@/types/lesson";
+import type { MySubjectProgress } from "@/types/subject";
 
 import { SubjectSidebarItem } from "./SubjectSidebarItem";
 

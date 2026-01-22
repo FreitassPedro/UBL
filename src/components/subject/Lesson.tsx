@@ -4,7 +4,8 @@ import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
-import type { MyLessonProgress, MySubjectProgress } from "@/types/progress";
+import type { MyLessonProgress } from "@/types/lesson";
+import type { MySubjectProgress } from "@/types/subject";
 import { useEffect, useState } from "react";
 
 interface LessonProps {

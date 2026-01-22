@@ -69,7 +69,7 @@ export const CurriculumSection = ({
 
         {/* Etapas (Stages) */}
         <ul className="space-y-4">
-          {selectedCourse.etapas.map((stage) => {
+          {selectedCourse.steps.map((stage) => {
             return <SemesterCard key={stage.id} stage={stage} />;
           })}
         </ul>

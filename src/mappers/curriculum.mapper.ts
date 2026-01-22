@@ -1,12 +1,12 @@
 import { mapStepToMyStep } from "@/mappers/step.mapper";
 import type { Curriculum } from "@/types/curriculum";
-import type { MyGradeProgress } from "@/types/progress";
+import type { MyCurriculumProgress } from "@/types/curriculum";
 
 export function mapCurriculumToMyCurriculumProgress(
   curriculum: Curriculum,
   completedLessons: Set<string>,
-): MyGradeProgress {
-  const mySteps = curriculum.etapas.map((step) =>
+): MyCurriculumProgress {
+  const mySteps = curriculum.steps.map((step) =>
     mapStepToMyStep(step, completedLessons),
   );
 
@@ -31,7 +31,7 @@ export function mapCurriculumToMyCurriculumProgress(
 
   return {
     ...curriculum,
-    etapas: mySteps,
+    steps: mySteps,
     progress: curriculumProgress,
     isCompleted: isCurriculumCompleted,
   };

@@ -35,7 +35,7 @@ const generateFlow = (grade: Curriculum) => {
   const nodes: customNode[] = [];
   const edges: Edge[] = [];
 
-  grade.etapas.forEach((etapa) => {
+  grade.steps.forEach((etapa) => {
     etapa.subjects.forEach((cadeira, cadeiraIndex) => {
       const nodeId = cadeira.name;
       nodes.push({
@@ -54,7 +54,7 @@ const generateFlow = (grade: Curriculum) => {
     });
   });
 
-  grade.etapas.forEach((etapa) => {
+  grade.steps.forEach((etapa) => {
     etapa.subjects.forEach((cadeira) => {
       if (cadeira.prerequisites && cadeira.prerequisites.length > 0) {
         cadeira.prerequisites.forEach((preReq) => {
