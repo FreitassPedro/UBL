@@ -10,7 +10,7 @@ import {
 import React from "react";
 import "@xyflow/react/dist/style.css";
 import CustomNode from "@/components/features/node-graph/CustomNode";
-import type { Grade } from "@/types/grade";
+import type { Curriculum } from "@/types/curriculum";
 
 interface customNode extends Node {
     data: {
@@ -32,12 +32,12 @@ const nodeTypes = {
     customNode: CustomNode,
 }
 
-const generateFlow = (grade: Grade) => {
+const generateFlow = (grade: Curriculum) => {
     const nodes: customNode[] = [];
     const edges: Edge[] = [];
 
     grade.etapas.forEach((etapa) => {
-        etapa.cadeiras.forEach((cadeira, cadeiraIndex) => {
+        etapa.subjects.forEach((cadeira, cadeiraIndex) => {
             const nodeId = cadeira.name;
             nodes.push(
                 {
@@ -50,7 +50,7 @@ const generateFlow = (grade: Grade) => {
     });
 
     grade.etapas.forEach((etapa) => {
-        etapa.cadeiras.forEach((cadeira) => {
+        etapa.subjects.forEach((cadeira) => {
             if (cadeira.prerequisites && cadeira.prerequisites.length > 0) {
                 cadeira.prerequisites.forEach((preReq) => {
                     const sourceExist = nodes.find(node => node.id === preReq);
@@ -73,7 +73,7 @@ const generateFlow = (grade: Grade) => {
 };
 
 interface NodeGraphVisualizationProps {
-    grade: Grade;
+    grade: Curriculum;
 }
 
 const NodeGraphVisualization: React.FC<NodeGraphVisualizationProps> = ({ grade }) => {

@@ -1,11 +1,11 @@
 import { CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
-import type { Etapa } from "@/types/etapa";
+import type { Step } from "@/types/step";
 import { BookOpen, ChevronRight, Clock, Sparkles } from "lucide-react";
 
 interface SemesterHeaderProps {
-  stage: Etapa;
+  stage: Step;
   isActive: boolean;
   onToggle: (gradeNumber: number) => void;
 }
@@ -71,7 +71,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
 
   const theme = getTheme();
   const totalDurationHours = Math.round(
-    stage.cadeiras
+    stage.subjects
       .flatMap((cadeira) => cadeira.lessons)
       .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600
   );
@@ -117,7 +117,7 @@ export const SemesterHeader: React.FC<SemesterHeaderProps> = ({
                     Disciplinas
                   </span>
                   <span className="text-zinc-200 font-medium">
-                    {stage.cadeiras.length}
+                    {stage.subjects.length}
                   </span>
                 </div>
               </div>

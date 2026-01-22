@@ -75,7 +75,7 @@ import { MatEquacoesDiferenciaisParciais } from "@/data/MAT/Step6/MatEquacoesDif
 import { MatFisicaModerna } from "@/data/MAT/Step6/MatFisicaModerna";
 import { MatTeoriaDeCorpos } from "@/data/MAT/Step6/MatTeoriaDeCorpos";
 
-import type { Grade } from "@/types/grade";
+import type { Curriculum } from "@/types/curriculum";
 import type { Lesson } from "@/types/lesson";
 
 interface RawCadeira {
@@ -117,14 +117,14 @@ const extractRawCadeiraInfo = (
   };
 };
 
-export const CurriculoCC: Grade = {
+export const CurriculoCC: Curriculum = {
   id: 1,
   curriculo: "Ciência da Computação",
   etapas: [
     {
       id: 1,
       number: 1,
-      cadeiras: [
+      subjects: [
         {
           id: 1,
           ...extractRawCadeiraInfo(CCCircuitosDigitais),
@@ -185,7 +185,7 @@ export const CurriculoCC: Grade = {
     {
       id: 2,
       number: 2,
-      cadeiras: [
+      subjects: [
         {
           id: 6,
           ...extractRawCadeiraInfo(CCCalculoI),
@@ -249,7 +249,7 @@ export const CurriculoCC: Grade = {
     {
       id: 3,
       number: 3,
-      cadeiras: [
+      subjects: [
         {
           id: 11,
           ...extractRawCadeiraInfo(CCAlgoritmosEmGrafos),
@@ -310,7 +310,7 @@ export const CurriculoCC: Grade = {
     {
       id: 4,
       number: 4,
-      cadeiras: [
+      subjects: [
         {
           id: 16,
           ...extractRawCadeiraInfo(CCAnaliseDeAlgoritmos),
@@ -377,7 +377,7 @@ export const CurriculoCC: Grade = {
     {
       id: 5,
       number: 5,
-      cadeiras: [
+      subjects: [
         {
           id: 21,
           ...extractRawCadeiraInfo(CCRedesDeComputadores),
@@ -438,7 +438,7 @@ export const CurriculoCC: Grade = {
     {
       id: 6,
       number: 6,
-      cadeiras: [
+      subjects: [
         {
           id: 26,
           ...extractRawCadeiraInfo(CCLinguagensFormaisAutomatos),
@@ -499,7 +499,7 @@ export const CurriculoCC: Grade = {
     {
       id: 7,
       number: 7,
-      cadeiras: [
+      subjects: [
         {
           id: 31,
           ...extractRawCadeiraInfo(CCTeoriaDaComputacao),
@@ -560,14 +560,14 @@ export const CurriculoCC: Grade = {
   ],
 };
 
-export const CurriculoMatematica: Grade = {
+export const CurriculoMatematica: Curriculum = {
   id: 2,
   curriculo: "Matemática",
   etapas: [
     {
       id: 1,
       number: 1,
-      cadeiras: [
+      subjects: [
         {
           id: 36,
           ...extractRawCadeiraInfo(MatIngredientesBasicosParaCalculo),
@@ -628,7 +628,7 @@ export const CurriculoMatematica: Grade = {
     {
       id: 2,
       number: 2,
-      cadeiras: [
+      subjects: [
         {
           id: 41,
           ...extractRawCadeiraInfo(MatCalculoI),
@@ -689,7 +689,7 @@ export const CurriculoMatematica: Grade = {
     {
       id: 3,
       number: 3,
-      cadeiras: [
+      subjects: [
         {
           id: 46,
           ...extractRawCadeiraInfo(MatCalculoII),
@@ -750,7 +750,7 @@ export const CurriculoMatematica: Grade = {
     {
       id: 4,
       number: 4,
-      cadeiras: [
+      subjects: [
         {
           id: 51,
           ...extractRawCadeiraInfo(MatCalculoIII),
@@ -820,7 +820,7 @@ export const CurriculoMatematica: Grade = {
     {
       id: 5,
       number: 5,
-      cadeiras: [
+      subjects: [
         {
           id: 56,
           ...extractRawCadeiraInfo(MatCalculoIVMetodosMatematicos),
@@ -881,7 +881,7 @@ export const CurriculoMatematica: Grade = {
     {
       id: 6,
       number: 6,
-      cadeiras: [
+      subjects: [
         {
           id: 61,
           ...extractRawCadeiraInfo(MatAlfabetizacaoEmAneis),

@@ -6,11 +6,11 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
-import type { Etapa } from "@/types/etapa";
+import type { Step } from "@/types/step";
 import React from "react";
 
 interface SemesterCardProps {
-  stage: Etapa;
+  stage: Step;
 }
 
 export const SemesterCard: React.FC<SemesterCardProps> = ({ stage }) => {

@@ -17,12 +17,12 @@ import {
 } from "@/components/ui/select";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { useCourseProgress } from "@/hooks/useCourseProgress";
-import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import type { MyCadeiraProgress } from "@/types/progress";
+import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
+import type { MySubjectProgress } from "@/types/progress";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-export type WatchedCourse = MyCadeiraProgress & {
+export type WatchedCourse = MySubjectProgress & {
   etapaName: string;
   etapaNumber: number;
 };
@@ -34,13 +34,13 @@ export const HomeProgress = () => {
   const [sortBy, setSortBy] = useState("etapas");
 
   const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapGradeToMyGradeProgress(
+    const mappedGrade = mapCurriculumToMyCurriculumProgress(
       CurriculoCC,
       completedLessons,
     );
 
     const filtered = mappedGrade.etapas.flatMap((etapa) =>
-      etapa.cadeiras
+      etapa.subjects
         .filter((cadeira) => cadeira.progress > 0)
         .map((cadeira) => ({
           ...cadeira,

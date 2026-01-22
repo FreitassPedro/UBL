@@ -1,15 +1,15 @@
 import { SemesterSubjectItem } from "@/components/features/curriculum/SemesterSubjectItem";
-import type { Etapa } from "@/types/etapa";
+import type { Step } from "@/types/step";
 
 interface SemesterBodyProps {
-    stage: Etapa;
+    stage: Step;
 }
 export const SemesterBody: React.FC<SemesterBodyProps> = ({ stage }) => {
 
     return (
         <div className="border-t border-white/40 bg-zinc-800/80 overflow-hidden animate-in fade-in slide-in-from-top-5 duration-300 ease-in">
             <ul className="flex flex-col ">
-                {stage.cadeiras.map((subject, subjectIndex) => (
+                {stage.subjects.map((subject, subjectIndex) => (
                     <SemesterSubjectItem
                         key={subjectIndex}
                         subject={subject}

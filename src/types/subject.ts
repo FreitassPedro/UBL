@@ -1,6 +1,6 @@
 import type { Lesson } from "@/types/lesson";
 
-export interface Cadeira {
+export interface Subject {
   id: number;
   name: string;
   lessons: Lesson[];

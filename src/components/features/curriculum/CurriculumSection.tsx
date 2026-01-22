@@ -1,13 +1,13 @@
 import { SemesterCard } from "@/components/features/curriculum/SemesterCard";
 import NodeGraphVisualization from "@/components/features/node-graph/NodeGraphVisualization";
-import type { Grade } from "@/types/grade";
+import type { Curriculum } from "@/types/curriculum";
 import { GraduationCap, Network, X } from "lucide-react";
 import React, { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 interface CurriculumSectionProps {
-  selectedCourse: Grade;
+  selectedCourse: Curriculum;
 }
 
 export const CurriculumSection: React.FC<CurriculumSectionProps> = ({

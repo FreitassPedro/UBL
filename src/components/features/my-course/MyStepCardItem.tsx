@@ -1,10 +1,10 @@
 import { Progress } from "@/components/ui/progress";
-import type { MyEtapaProgress } from "@/types/progress";
+import type { MyStepProgress } from "@/types/progress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface MyStepCardBodyProps {
-    step: MyEtapaProgress;
+    step: MyStepProgress;
 }
 
 export const MyStepCardItem: React.FC<MyStepCardBodyProps> = ({ step }) => {
@@ -29,7 +29,7 @@ export const MyStepCardItem: React.FC<MyStepCardBodyProps> = ({ step }) => {
 
     return (
         <div className="grid grid-cols-1 gap-3">
-            {step.cadeiras.map((cadeira) => {
+            {step.subjects.map((cadeira) => {
                 const status = getStatusStyle(cadeira.progress);
 
                 return (

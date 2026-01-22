@@ -1,20 +1,23 @@
 import { Progress } from "@/components/ui/progress";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { useCourseProgress } from "@/hooks/useCourseProgress";
-import { mapGradeToMyGradeProgress } from "@/lib/mappers";
-import type { MyCadeiraProgress } from "@/types/progress";
+import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
+import type { MySubjectProgress } from "@/types/progress";
 import { ArrowRight } from "lucide-react";
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
 
-type WatchedCourse = MyCadeiraProgress & { etapaName: string; etapaNumber: number };
+type WatchedCourse = MySubjectProgress & { etapaName: string; etapaNumber: number };
 
 const TestePage2 = () => {
   const { completedLessons } = useCourseProgress();
   const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapGradeToMyGradeProgress(CurriculoCC, completedLessons);
+    const mappedGrade = mapCurriculumToMyCurriculumProgress(
+      CurriculoCC,
+      completedLessons
+    );
     const allCourses = mappedGrade.etapas.flatMap((etapa) =>
-      etapa.cadeiras.map((cadeira) => ({
+      etapa.subjects.map((cadeira) => ({
         ...cadeira,
         etapaName: etapa.name,
         etapaNumber: etapa.number,

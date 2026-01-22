@@ -1,9 +1,9 @@
 import { MyStepCardBody } from "@/components/features/my-course/MyStepCardBody";
-import type { MyEtapaProgress } from "@/types/progress";
+import type { MyStepProgress } from "@/types/progress";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
 interface MyStepCardProps {
-    step: MyEtapaProgress;
+    step: MyStepProgress;
 }
 
 export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
@@ -21,7 +21,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
 
     const theme = getTheme();
     const totalDurationHours = Math.round(
-        step.cadeiras
+        step.subjects
             .flatMap((cadeira) => cadeira.lessons)
             .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600
     );
@@ -57,7 +57,7 @@ export const MyStepCard: React.FC<MyStepCardProps> = ({ step }) => {
                                 <span className="text-xs text-zinc-500 uppercase font-bold">Cadeiras</span>
                                 <span className="text-zinc-200 font-medium">
                                     {step.totalCompleted}
-                                    <span className="text-zinc-600">/</span> {step.cadeiras.length}
+                                    <span className="text-zinc-600">/</span> {step.subjects.length}
                                 </span>
                             </div>
                         </div>

@@ -1,28 +1,28 @@
-import type { Cadeira } from "@/types/cadeira";
-import type { Etapa } from "@/types/etapa";
-import type { Grade } from "@/types/grade";
+import type { Subject } from "@/types/subject";
+import type { Step } from "@/types/step";
+import type { Curriculum } from "@/types/curriculum";
 import type { Lesson } from "@/types/lesson";
 
 export interface MyLessonProgress extends Lesson {
   isCompleted: boolean;
 }
 
-export interface MyCadeiraProgress extends Cadeira {
+export interface MySubjectProgress extends Subject {
   progress: number;
   totalCompleted: number;
   isCompleted: boolean;
   lessons: MyLessonProgress[]; // Lições dentro desta Cadeira
 }
 
-export interface MyEtapaProgress extends Etapa {
+export interface MyStepProgress extends Step {
   name: string;
   totalCompleted: number;
   progress: number;
-  cadeiras: MyCadeiraProgress[];
+  subjects: MySubjectProgress[];
 }
 
-export interface MyGradeProgress extends Grade {
-  etapas: MyEtapaProgress[];
+export interface MyGradeProgress extends Curriculum {
+  etapas: MyStepProgress[];
   progress: number;
   isCompleted: boolean;
 }

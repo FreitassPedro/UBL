@@ -1,0 +1,63 @@
+import { Lesson } from "@/components/features/subject/Lesson";
+import LessonEmpty from "@/components/features/subject/LessonEmpty";
+import { SubjectSidebar } from "@/components/features/subject/SubjectSidebar";
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { useCourseProgress } from "@/hooks/useCourseProgress";
+import useTituloDaPagina from "@/hooks/useTitlePage";
+import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
+import type { MyLessonProgress, MySubjectProgress } from "@/types/progress";
+import { useEffect, useMemo, useState } from "react";
+import { useParams } from "react-router-dom";
+
+export const SubjectPage = () => {
+  useTituloDaPagina("Curso");
+  const { id } = useParams<{ id: string }>();
+  const { toggleCompletion, completedLessons } = useCourseProgress();
+
+  const subject: MySubjectProgress | undefined = useMemo(() => {
+    if (!id) return;
+    const found =
+      CurriculoCC.etapas
+        .flatMap((etapa) => etapa.subjects)
+        .find((c) => c.id.toString() === id) ??
+      CurriculoMatematica.etapas
+        .flatMap((etapa) => etapa.subjects)
+        .find((c) => c.id.toString() === id);
+    if (!found) return;
+    return mapSubjectToMySubject(found, completedLessons);
+  }, [completedLessons, id]);
+
+  const [selectedLesson, setSelectedLesson] = useState<
+    MyLessonProgress | undefined
+  >();
+
+  useEffect(() => {
+    if (subject) {
+      setSelectedLesson(subject.lessons[0]);
+    }
+  }, [subject]);
+
+  return (
+    <>
+      {!subject || subject.lessons.length === 0 ? (
+        <LessonEmpty />
+      ) : (
+        <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
+          <BackgroundRippleEffect className="z-0" />
+          <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
+            <Lesson subject={subject} lesson={selectedLesson} />
+            <SubjectSidebar
+              subject={subject}
+              selectedLesson={selectedLesson}
+              onSelectLesson={(lesson: MyLessonProgress) => setSelectedLesson(lesson)}
+              onToggleCompletion={toggleCompletion}
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default SubjectPage;

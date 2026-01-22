@@ -6,11 +6,11 @@ import {
     CurriculoCC,
     CurriculoMatematica,
 } from "@/data/GradeCurricular";
-import type { Grade } from "@/types/grade";
+import type { Curriculum } from "@/types/curriculum";
 import React from "react";
 
 export default function CurriculumPage() {
-    const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);
+    const [selectedGrade, setSelectedGrade] = React.useState<Curriculum | undefined>(undefined);
 
     const handleCourseSelection = (index: number) => {
         console.log(`Curso selecionado: ${index}`);
