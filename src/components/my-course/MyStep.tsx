@@ -12,6 +12,12 @@ interface MyStepProps {
 
 export const MyStep = ({ subject }: MyStepProps) => {
   const status = getProgressTheme(subject.progress);
+  const buttonTone =
+    subject.progress === 100
+      ? "text-emerald-100/90 border-emerald-300/40 bg-emerald-500/10"
+      : subject.progress > 0
+        ? "text-sky-100/90 border-sky-300/40 bg-sky-500/10"
+        : "text-zinc-300/90 border-zinc-500/40 bg-zinc-800/30";
 
   return (
     <Link to={`/curso/${subject.id}`} className="group relative block">
@@ -50,7 +56,12 @@ export const MyStep = ({ subject }: MyStepProps) => {
             </h3>
 
             {/* Botão Call to Action (visível no hover ou sempre visível desktop) */}
-            <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-500 group-hover:text-white transition-colors border border-zinc-700 rounded-full px-3 py-1 bg-zinc-800/50 hover:bg-blue-600/80 group-hover:border-blue-500 cursor-pointer">
+            <div
+              className={cn(
+                "hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-400 transition-colors border border-zinc-800 rounded-full px-3 py-1 bg-zinc-900/40 cursor-pointer",
+                buttonTone,
+              )}
+            >
               {subject.progress === 100
                 ? "Revisar"
                 : subject.progress > 0
