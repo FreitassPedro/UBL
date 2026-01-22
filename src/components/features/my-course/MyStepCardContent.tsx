@@ -5,11 +5,11 @@ import type { MyStepProgress } from "@/types/progress";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-interface MyStepCardBodyProps {
+interface MyStepCardContentProps {
   step: MyStepProgress;
 }
 
-export const MyStepCardBody = ({ step }: MyStepCardBodyProps) => {
+export const MyStepCardContent = ({ step }: MyStepCardContentProps) => {
   return (
     <div className="grid grid-cols-1 gap-3">
       {step.subjects.map((cadeira) => {

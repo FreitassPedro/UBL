@@ -1,5 +1,5 @@
 import { SemesterCard } from "@/components/features/curriculum/SemesterCard";
-import NodeGraphVisualization from "@/components/features/node-graph/NodeGraphVisualization";
+import NodeGraphVisualization from "@/components/features/graphs/NodeGraphVisualization";
 import type { Curriculum } from "@/types/curriculum";
 import { GraduationCap, Network, X } from "lucide-react";
 import React, { useEffect } from "react";

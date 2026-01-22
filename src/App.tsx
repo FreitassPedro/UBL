@@ -1,5 +1,6 @@
-import NodeGraphVisualization from "@/components/features/node-graph/NodeGraphVisualization";
+import NodeGraphVisualization from "@/components/features/graphs/NodeGraphVisualization";
 import { ProgressProvider } from "@/contexts/ProgressContext";
+import { UserProvider } from "@/contexts/UserContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
@@ -13,26 +14,28 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 export const App = () => {
   return (
     <BrowserRouter>
-      <ProgressProvider>
-        <Routes>
-          {/* Main Routes */}
-          <Route element={<Layout />}>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/curso/:id" element={<SubjectPage />} />
-            <Route path="/meu-curso" element={<MyCoursePage />} />
-            <Route path="/grade-curricular" element={<CurriculumPage />} />
-          </Route>
+      <UserProvider>
+        <ProgressProvider>
+          <Routes>
+            {/* Main Routes */}
+            <Route element={<Layout />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/curso/:id" element={<SubjectPage />} />
+              <Route path="/meu-curso" element={<MyCoursePage />} />
+              <Route path="/grade-curricular" element={<CurriculumPage />} />
+            </Route>
 
-          {/* Teste Routes */}
-          <Route>
-            <Route path="/teste" element={<TestePage />} />
-            <Route
-              path="/teste/node"
-              element={<NodeGraphVisualization grade={CurriculoCC} />}
-            />
-          </Route>
-        </Routes>
-      </ProgressProvider>
+            {/* Teste Routes */}
+            <Route>
+              <Route path="/teste" element={<TestePage />} />
+              <Route
+                path="/teste/node"
+                element={<NodeGraphVisualization grade={CurriculoCC} />}
+              />
+            </Route>
+          </Routes>
+        </ProgressProvider>
+      </UserProvider>
     </BrowserRouter>
   );
 };

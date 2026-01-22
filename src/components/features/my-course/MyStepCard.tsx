@@ -1,4 +1,4 @@
-import { MyStepCardBody } from "@/components/features/my-course/MyStepCardBody";
+import { MyStepCardContent } from "@/components/features/my-course/MyStepCardContent";
 import { getTheme } from "@/lib/theme";
 import { formatStepToHours } from "@/lib/time";
 import type { MyStepProgress } from "@/types/progress";
@@ -74,7 +74,7 @@ export const MyStepCard = ({ step }: MyStepCardProps) => {
         </div>
       </div>
 
-      <MyStepCardBody step={step} />
+      <MyStepCardContent step={step} />
     </div>
   );
 };

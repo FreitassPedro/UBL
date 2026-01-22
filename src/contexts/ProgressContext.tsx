@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-const DATA_KEY = "completedLessons";
+const DATA_KEY: string = "completedLessons";
 
 export interface ProgressContextType {
   completedLessons: Set<string>;
@@ -11,11 +11,7 @@ export const ProgressContext = createContext<ProgressContextType>(
   {} as ProgressContextType,
 );
 
-export const ProgressProvider = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const ProgressProvider = ({ children }: { children: React.ReactNode }) => {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(() => {
     if (typeof window === "undefined") {
       return new Set();
@@ -59,13 +55,13 @@ export const ProgressProvider = ({
   };
 
   return (
-    <ProgressContext.Provider
+    <ProgressContext
       value={{
         completedLessons: completedLessons,
         toggleCompletion: toggleVideoCompletion,
       }}
     >
       {children}
-    </ProgressContext.Provider>
+    </ProgressContext>
   );
 };
