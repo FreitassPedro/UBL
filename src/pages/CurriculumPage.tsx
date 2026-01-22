@@ -10,7 +10,8 @@ import React from "react";
 const courses: CurriculumCourse[] = [
   {
     course: "Ciência da Computação",
-    description: "Um caminho para a educação autodidata em Ciência da Computação",
+    description:
+      "Um caminho para a educação autodidata em Ciência da Computação",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
     color: "bg-gradient-to-r from-blue-600 to-green-700",
   },
@@ -25,10 +26,21 @@ const courses: CurriculumCourse[] = [
 const CurriculumPage = () => {
   const [selectedGrade, setSelectedGrade] = React.useState<
     CurriculumType | undefined
-  >(undefined);
+  >();
+
+  const [selectedCourseIndex, setSelectedCourseIndex] = React.useState<
+    number | undefined
+  >();
 
   const handleCourseSelection = (index: number) => {
     console.log(`Curso selecionado: ${index}`);
+    if (selectedCourseIndex === index) {
+      setSelectedCourseIndex(undefined);
+      setSelectedGrade(undefined);
+      return;
+    }
+
+    setSelectedCourseIndex(index);
     if (index === 1) {
       setSelectedGrade(CurriculoCC);
     } else {
