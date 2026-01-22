@@ -56,22 +56,25 @@ export function getTheme(number: number) {
 export function getProgressTheme(progress: number) {
   if (progress === 100)
     return {
-      color: "text-emerald-400",
-      border: "group-hover:border-emerald-700/30 border-emerald-500/50",
-      bg: "bg-linear-to-r from-emerald-900/5 to-emerald-700/60",
+      color: "text-emerald-300",
+      iconColor: "text-emerald-400",
+      border: "group-hover:border-emerald-500/30 border-emerald-400/40",
+      bg: "bg-linear-to-r from-emerald-900/10 to-emerald-700/35",
       icon: CheckCircle2,
     };
   else if (progress > 0)
     return {
-      color: "text-amber-400",
-      border: "group-hover:border-blue-700/60  border-blue-500/50",
-      bg: "bg-linear-to-r from-blue-900/10 to-blue-700/25",
+      color: "text-blue-100/85",
+      iconColor: "text-blue-400",
+      border: "group-hover:border-blue-600/45 border-blue-500/45",
+      bg: "bg-linear-to-r from-blue-950/35 to-blue-900/40",
       icon: CheckCircle2,
     };
   else
     return {
-      color: "text-zinc-500",
-      border: "group-hover:border-zinc-600",
+      color: "text-zinc-400",
+      iconColor: "text-zinc-500",
+      border: "group-hover:border-zinc-500/70 border-zinc-700/70",
       icon: Circle,
     };
 }

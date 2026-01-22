@@ -16,7 +16,7 @@ export const MyStep = ({ subject }: MyStepProps) => {
     subject.progress === 100
       ? "text-emerald-100/90 border-emerald-300/40 bg-emerald-500/10"
       : subject.progress > 0
-        ? "text-sky-100/90 border-sky-300/40 bg-sky-500/10"
+        ? "text-blue-200/85 border-blue-400/35 bg-blue-950/30"
         : "text-zinc-300/90 border-zinc-500/40 bg-zinc-800/30";
 
   return (
@@ -39,12 +39,9 @@ export const MyStep = ({ subject }: MyStepProps) => {
           </div>
           {/* Badge de Status flutuante (opcional, visual cleaner sem ele, mas útil para UX) */}
           <div
-            className={cn(
-              "absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800",
-              status.color,
-            )}
+            className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800"
           >
-            {<status.icon />}
+            {<status.icon className={status.iconColor} />}
           </div>
         </div>
 
