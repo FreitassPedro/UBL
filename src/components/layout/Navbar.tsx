@@ -22,7 +22,7 @@ import {
   Settings,
   User,
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const navItemClass = `
@@ -37,6 +37,7 @@ export const Navbar = () => {
     focus-visible:bg-transparent
     hover:text-blue-400
     focus:text-blue-400
+    aria-[current=page]:text-blue-400
   `;
 
   const navIconClass = `
@@ -45,6 +46,7 @@ export const Navbar = () => {
     group-hover/nav-item:text-blue-400
     group-focus/nav-item:text-blue-400
     group-focus-visible/nav-item:text-blue-400
+    group-aria-[current=page]/nav-item:text-blue-400
   `;
 
   return (
@@ -64,28 +66,28 @@ export const Navbar = () => {
           <NavigationMenuList className="gap-6 font-mono">
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Link to="/" className={navItemClass}>
+                <NavLink to="/" end className={navItemClass}>
                   <Home size={18} className={navIconClass} />
                   <span>Home</span>
-                </Link>
+                </NavLink>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Link to="/grade-curricular" className={navItemClass}>
+                <NavLink to="/grade-curricular" className={navItemClass}>
                   <Map size={18} className={navIconClass} />
                   <span>Grade Curricular</span>
-                </Link>
+                </NavLink>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
-                <Link to="/meu-curso" className={navItemClass}>
+                <NavLink to="/meu-curso" className={navItemClass}>
                   <BookMarked size={18} className={navIconClass} />
                   <span>Meu Curso</span>
-                </Link>
+                </NavLink>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
