@@ -64,74 +64,72 @@ export const HomeProgress = () => {
   return (
     <>
       {watchedCourses.length !== 0 && (
-        <div className="bg-[#141414] py-3">
-          <Card className="p-0 mx-auto max-w-6xl overflow-hidden border-0 rounded-none bg-transparent">
-            <CardHeader className="px-0 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <div className="text-left">
-                <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
-                  Continue onde parou
-                </CardTitle>
-                <CardDescription className="text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
-                  Retome rapidamente os cursos em andamento.
-                </CardDescription>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="uppercase text-xs text-zinc-400">
-                  Ordenar por
-                </span>
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-32 cursor-pointer">
-                    <SelectValue placeholder="Ordenar por" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {sortOptions.map((option) => (
-                      <SelectItem
-                        key={option}
-                        value={option}
-                        className="cursor-pointer"
-                      >
-                        {option.charAt(0).toUpperCase() + option.slice(1)}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-            </CardHeader>
+        <Card className="w-full mx-auto max-w-6xl mb-24 overflow-hidden border-0 bg-[#141414]">
+          <CardHeader className="p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div className="text-left">
+              <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
+                Continue onde parou
+              </CardTitle>
+              <CardDescription className="text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
+                Retome rapidamente os cursos em andamento.
+              </CardDescription>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="uppercase text-xs text-zinc-400">
+                Ordenar por
+              </span>
+              <Select value={sortBy} onValueChange={setSortBy}>
+                <SelectTrigger className="w-32 cursor-pointer">
+                  <SelectValue placeholder="Ordenar por" />
+                </SelectTrigger>
+                <SelectContent>
+                  {sortOptions.map((option) => (
+                    <SelectItem
+                      key={option}
+                      value={option}
+                      className="cursor-pointer"
+                    >
+                      {option.charAt(0).toUpperCase() + option.slice(1)}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </CardHeader>
 
-            <CardContent className="px-0 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {watchedCourses.map((course) => (
-                <Card
-                  key={course.id}
-                  className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
-                >
-                  <CardHeader className="p-0">
-                    <CardDescription className="font-semibold text-gray-400">
-                      Etapa {course.etapaNumber}
-                    </CardDescription>
-                    <CardTitle className="text-xl text-white font-semibold">
-                      {course.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-0 my-2">
-                    <div className="flex items-center justify-between text-gray-400 text-base">
-                      <span>Progresso</span>
-                      <span>{course.progress}%</span>
-                    </div>
-                    <Progress
-                      value={course.progress}
-                      className="my-2 bg-zinc-700"
-                    />
-                  </CardContent>
-                  <CardFooter className="p-0">
-                    <Button asChild variant="secondary" className="w-full">
-                      <Link to={`/curso/${course.id}`}>Retomar</Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
-              ))}
-            </CardContent>
-          </Card>
-        </div>
+          <CardContent className="px-8 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {watchedCourses.map((course) => (
+              <Card
+                key={course.id}
+                className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
+              >
+                <CardHeader className="p-0">
+                  <CardDescription className="font-semibold text-gray-400">
+                    Etapa {course.etapaNumber}
+                  </CardDescription>
+                  <CardTitle className="text-xl text-white font-semibold">
+                    {course.name}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-0 my-2">
+                  <div className="flex items-center justify-between text-gray-400 text-base">
+                    <span>Progresso</span>
+                    <span>{course.progress}%</span>
+                  </div>
+                  <Progress
+                    value={course.progress}
+                    className="my-2 bg-zinc-700"
+                  />
+                </CardContent>
+                <CardFooter className="p-0">
+                  <Button asChild variant="secondary" className="w-full">
+                    <Link to={`/curso/${course.id}`}>Retomar</Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))}
+          </CardContent>
+        </Card>
       )}
     </>
   );
