@@ -1,4 +1,4 @@
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
@@ -32,7 +32,7 @@ export const CurriculumCatalog = ({
         {courses.map((course, index) => (
           <Card
             key={`${course.course}-${index}`}
-            className="p-0 gap-0 border-0 bg-zinc-900 rounded-lg shadow-none hover:shadow-xl hover:shadow-ubl-blue/40 overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group"
+            className="p-0 gap-0 border-0 bg-zinc-900 rounded-lg shadow-none hover:shadow-xl overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group"
             onClick={() => onSelectCourse(index)}
           >
             <div className="h-96 overflow-hidden">
@@ -45,10 +45,10 @@ export const CurriculumCatalog = ({
             <Separator
               className={cn(course.color, "group-hover:animate-pulse")}
             />
-            <CardContent className="p-8 flex flex-col justify-center items-center">
-              <CardTitle className="text-2xl group-hover:text-3xl font-bold text-gray-100 transition-all duration-300">
+            <CardContent className="p-8 flex flex-col justify-center items-center space-y-2">
+              <h2 className="text-2xl font-bold text-gray-100 transition-all duration-300">
                 {course.course}
-              </CardTitle>
+              </h2>
               <p className="text-md text-text-muted">{course.description}</p>
             </CardContent>
           </Card>
