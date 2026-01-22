@@ -1,5 +1,6 @@
 import { Handle, Position } from "@xyflow/react";
 import { cn } from "@/lib/utils";
+import { getNodeTheme } from "@/lib/theme";
 
 interface CurriculumNodeProps {
   data: {
@@ -12,27 +13,6 @@ interface CurriculumNodeProps {
   };
 }
 
-const getStepColor = (step: number) => {
-  switch (step) {
-    case 1:
-      return "bg-blue-200";
-    case 2:
-      return "bg-green-200";
-    case 3:
-      return "bg-yellow-200";
-    case 4:
-      return "bg-red-200";
-    case 5:
-      return "bg-purple-200";
-    case 6:
-      return "bg-pink-200";
-    case 7:
-      return "bg-indigo-200";
-    default:
-      return "bg-gray-200";
-  }
-};
-
 const CurriculumNode = ({ data }: CurriculumNodeProps) => {
   const isClicked = data.isClicked;
   const isDark = data.isSelected || isClicked;
@@ -40,7 +20,7 @@ const CurriculumNode = ({ data }: CurriculumNodeProps) => {
     ? "bg-gray-800"
     : data.isSelected
       ? "bg-gray-700"
-      : getStepColor(data.step);
+      : getNodeTheme(data.step);
 
   const textColor = isDark ? "text-white" : "text-black";
   const subTextColor = isDark ? "text-gray-300" : "text-gray-600";
