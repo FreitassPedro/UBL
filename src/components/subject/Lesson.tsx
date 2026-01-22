@@ -17,10 +17,10 @@ export const Lesson = ({ subject, lesson }: LessonProps) => {
   const [isLessonLoading, setIsLessonLoading] = useState(true);
 
   useEffect(() => {
-    if (lesson) {
+    if (lesson?.url) {
       setIsLessonLoading(true);
     }
-  }, [lesson]);
+  }, [lesson?.url]);
 
   return (
     <Card className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
