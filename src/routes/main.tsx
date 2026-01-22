@@ -1,6 +1,6 @@
 import NodeGraphVisualization from "@/components/NodeGraph/NodeGraphVisualization";
-import { CourseProgressProvider } from "@/contexts/CourseProgressContext/CourseProgressContext";
-import { LoadingProvider } from "@/contexts/LoadingContext/LoadingProvider";
+import { ProgressProvider } from "@/contexts/ProgressContext";
+import { LoadingProvider } from "@/contexts/LoadingContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
@@ -17,7 +17,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <LoadingProvider>
-        <CourseProgressProvider>
+        <ProgressProvider>
           <Routes>
             {/* Main Routes */}
             <Route element={<Layout />}>
@@ -39,7 +39,7 @@ createRoot(document.getElementById("root")!).render(
               />
             </Route>
           </Routes>
-        </CourseProgressProvider>
+        </ProgressProvider>
       </LoadingProvider>
     </BrowserRouter>
   </StrictMode>

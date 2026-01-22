@@ -1,53 +1,13 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
-import {
-  ProgressModal,
-  type WatchedCourse,
-} from "@/components/Home/ProgressModal";
-import { PinContainer } from "@/components/ui/3d-pin";
+import { HomeProgress } from "@/components/Home/HomeProgress";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
-import { useCourseProgress } from "@/contexts/CourseProgressContext/CourseProgressContext";
-import { CurriculoCC } from "@/data/GradeCurricular";
-import { mapGradeToMyGradeProgress } from "@/lib/mappers";
 import { ArrowRight, BookOpen, Map, MessagesSquare, User } from "lucide-react";
-import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-const sortOptions = ["etapas", "progresso"];
-
 export const HomePage: React.FC = () => {
-  const { completedLessons } = useCourseProgress();
-  const [sortBy, setSortBy] = useState("etapas");
-  const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapGradeToMyGradeProgress(
-      CurriculoCC,
-      completedLessons
-    );
-
-    const filtered = mappedGrade.etapas.flatMap((etapa) =>
-      etapa.cadeiras
-        .filter((cadeira) => cadeira.progress > 0)
-        .map((cadeira) => ({
-          ...cadeira,
-          etapaName: etapa.name,
-          etapaNumber: etapa.number,
-        }))
-    );
-
-    return [...filtered].sort((a, b) => {
-      switch (sortBy) {
-        case "etapas":
-          return a.etapaNumber - b.etapaNumber;
-        case "progresso":
-          return b.progress - a.progress;
-        default:
-          return 0;
-      }
-    });
-  }, [completedLessons, sortBy]);
-
   return (
     <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
@@ -135,29 +95,17 @@ export const HomePage: React.FC = () => {
 
         {/* Logo da UBL */}
         <div className="flex items-center justify-center h-full w-full md:ml-6 md:flex-1">
-          <PinContainer
-            title="Universidade Livre"
-            href="https://github.com/Universidade-Livre"
-            containerClassName="w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] lg:w-[520px] lg:h-[520px]"
-            className="w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] lg:w-[480px] lg:h-[480px] flex items-center justify-center"
-          >
-            <img
-              src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
-              alt="Logo UBL"
-              className="w-full h-full object-contain drop-shadow-[0_25px_45px_rgba(18,24,43,0.6)]"
-            />
-          </PinContainer>
+          <img
+            src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
+            alt="Logo UBL"
+            className="w-full h-full object-contain"
+          />
         </div>
       </main>
 
-      <ProgressModal
-        watchedCourses={watchedCourses}
-        sortBy={sortBy}
-        setSortBy={setSortBy}
-        sortOptions={sortOptions}
-      />
+      <HomeProgress />
 
-      <section className="relative z-10 mx-auto bg-zinc-900 border border-zinc-800 flex items-center justify-center">
+      <section className="relative z-10 mx-auto bg-zinc-900 flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl">
           <div className="space-y-4">
             <h2 className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
@@ -179,7 +127,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="relative z-10 mx-auto bg-zinc-800 flex items-center justify-center">
+      <section className="relative z-10 mx-auto bg-[#141414] flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl">
           <div className="flex items-center justify-center">
             <a href="http://www.freepik.com" className="invisible">
