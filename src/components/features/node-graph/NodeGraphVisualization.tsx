@@ -9,7 +9,7 @@ import {
 } from "@xyflow/react";
 import React from "react";
 import "@xyflow/react/dist/style.css";
-import CustomNode from "@/components/node-graph/CustomNode";
+import CustomNode from "@/components/features/node-graph/CustomNode";
 import type { Grade } from "@/types/grade";
 
 interface customNode extends Node {

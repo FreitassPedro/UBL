@@ -2,7 +2,7 @@ import { Progress } from "@/components/ui/progress";
 import type { MyEtapaProgress } from "@/types/progress";
 import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Card } from "../ui/card";
+import { Card } from "@/components/ui/card";
 
 interface MyStepCardBodyProps {
     step: MyEtapaProgress;

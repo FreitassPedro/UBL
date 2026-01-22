@@ -1,9 +1,9 @@
-import { SemesterCard } from "@/components/curriculum/SemesterCard";
-import NodeGraphVisualization from "@/components/node-graph/NodeGraphVisualization";
+import { SemesterCard } from "@/components/features/curriculum/SemesterCard";
+import NodeGraphVisualization from "@/components/features/node-graph/NodeGraphVisualization";
 import type { Grade } from "@/types/grade";
 import { GraduationCap, Network, X } from "lucide-react";
 import React, { useEffect } from "react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 interface CurriculumSectionProps {

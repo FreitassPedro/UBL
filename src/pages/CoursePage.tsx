@@ -1,4 +1,4 @@
-import { VideoPlayer } from "@/components/course-content/VideoPlayer";
+import { VideoPlayer } from "@/components/features/subject/VideoPlayer";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Badge } from "@/components/ui/badge";
 import {

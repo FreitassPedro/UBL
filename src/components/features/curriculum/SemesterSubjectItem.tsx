@@ -1,4 +1,4 @@
-import { BookRecommendation } from "@/components/curriculum/BookRecommendation";
+import { BookRecommendation } from "@/components/features/curriculum/BookRecommendation";
 import { Button } from "@/components/ui/button";
 import { Asterisk, BookOpen, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";

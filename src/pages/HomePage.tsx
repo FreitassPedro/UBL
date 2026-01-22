@@ -1,8 +1,8 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
-import HomeHero from "@/components/home/HomeHero";
-import { HomeProgress } from "@/components/home/HomeProgress";
-import { HomeSection } from "@/components/home/HomeSection";
+import HomeHero from "@/components/features/home/HomeHero";
+import { HomeProgress } from "@/components/features/home/HomeProgress";
+import { HomeSection } from "@/components/features/home/HomeSection";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessagesSquare } from "lucide-react";

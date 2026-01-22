@@ -1,4 +1,4 @@
-import NodeGraphVisualization from "@/components/node-graph/NodeGraphVisualization";
+import NodeGraphVisualization from "@/components/features/node-graph/NodeGraphVisualization";
 import { LoadingProvider } from "@/contexts/LoadingContext";
 import { ProgressProvider } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
