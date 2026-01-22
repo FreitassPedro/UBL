@@ -1,4 +1,4 @@
-import { MyStepCardContent } from "@/components/features/my-course/MyStepCardContent";
+import { MyStepCardContent } from "@/components/my-course/MyStepCardContent";
 import { getTheme } from "@/lib/theme";
 import { formatStepToHours } from "@/lib/time";
 import type { MyStepProgress } from "@/types/progress";

@@ -1,5 +1,5 @@
-import GitHubIcon from "@/components/common/icons/GithubIcon";
-import UserAvatar from "@/components/features/auth/UserAvatar";
+import GitHubIcon from "@/components/icons/GitHubIcon";
+import UserAvatar from "@/components/auth/UserAvatar";
 import {
   DropdownMenu,
   DropdownMenuContent,

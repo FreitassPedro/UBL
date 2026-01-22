@@ -1,6 +1,6 @@
-import { Lesson } from "@/components/features/subject/Lesson";
-import LessonEmpty from "@/components/features/subject/LessonEmpty";
-import { SubjectSidebar } from "@/components/features/subject/SubjectSidebar";
+import { Lesson } from "@/components/subject/Lesson";
+import LessonEmpty from "@/components/subject/LessonEmpty";
+import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";

@@ -1,5 +1,5 @@
-import { LessonBreadcrumb } from "@/components/features/subject/LessonBreadcrumb";
-import { VideoPlayer } from "@/components/features/subject/VideoPlayer";
+import { LessonBreadcrumb } from "@/components/subject/LessonBreadcrumb";
+import { VideoPlayer } from "@/components/subject/VideoPlayer";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";

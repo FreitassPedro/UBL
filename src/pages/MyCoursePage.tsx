@@ -2,7 +2,7 @@ import useTitlePage from "@/hooks/useTitlePage";
 import { useState } from "react";
 import { type CourseOption, useMyCourseData } from "@/hooks/useMyCourseData";
 import { Card } from "@/components/ui/card";
-import { MyStepContainer } from "@/components/features/my-course/MyStepContainer";
+import { MyStepContainer } from "@/components/my-course/MyStepContainer";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { LayoutGrid } from "lucide-react";
 
