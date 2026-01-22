@@ -1,5 +1,6 @@
 import { getTheme } from "@/lib/theme";
 import { formatStepToHours } from "@/lib/time";
+import { cn } from "@/lib/utils";
 import type { MyStepProgress } from "@/types/step";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
@@ -14,19 +15,25 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
   return (
     <div className="flex flex-col space-y-6">
       <div
-        className={`
-          relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8
-          ${theme.border} border-zinc-800
-        `}
+        className={cn(
+          "relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8 border-zinc-800",
+          theme.border,
+        )}
       >
         <div
-          className={`absolute inset-0 bg-linear-to-br ${theme.glow} to-transparent opacity-50 pointer-events-none`}
+          className={cn(
+            "absolute inset-0 bg-linear-to-br to-transparent opacity-50 pointer-events-none",
+            theme.glow,
+          )}
         />
 
         <div className="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-2">
             <div
-              className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-wider ${theme.text}`}
+              className={cn(
+                "flex items-center gap-2 text-xs font-semibold uppercase tracking-wider",
+                theme.text,
+              )}
             >
               <Sparkles className="w-3 h-3" />
               <span>Progresso da Etapa</span>

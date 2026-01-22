@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { getProgressTheme } from "@/lib/theme";
+import { cn } from "@/lib/utils";
 import type { MySubjectProgress } from "@/types/subject";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -15,14 +16,11 @@ export const MyStep = ({ subject }: MyStepProps) => {
   return (
     <Link to={`/curso/${subject.id}`} className="group relative block">
       <Card
-        className={`
-          relative flex flex-col sm:flex-row items-start sm:items-center gap-5 
-          border  
-          transition-all duration-300 ease-out
-          hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
-          ${status.border}
-          ${status.bg}
-        `}
+        className={cn(
+          "relative flex flex-col sm:flex-row items-start sm:items-center gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg",
+          status.border,
+          status.bg,
+        )}
       >
         {/* Ícone / Imagem */}
         <div className="relative shrink-0">
@@ -35,7 +33,10 @@ export const MyStep = ({ subject }: MyStepProps) => {
           </div>
           {/* Badge de Status flutuante (opcional, visual cleaner sem ele, mas útil para UX) */}
           <div
-            className={`absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800 ${status.color}`}
+            className={cn(
+              "absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800",
+              status.color,
+            )}
           >
             {<status.icon />}
           </div>

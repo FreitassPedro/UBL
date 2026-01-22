@@ -1,12 +1,13 @@
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { cn } from "@/lib/utils";
 
 export interface CurriculumCourse {
   course: string;
   description: string;
   img: string;
   color: string;
-};
+}
 
 interface CurriculumCatalogProps {
   courses: CurriculumCourse[];
@@ -42,7 +43,7 @@ export const CurriculumCatalog = ({
               />
             </div>
             <Separator
-              className={`${course.color} group-hover:animate-pulse`}
+              className={cn(course.color, "group-hover:animate-pulse")}
             />
             <CardContent className="p-8 flex flex-col justify-center items-center">
               <CardTitle className="text-2xl group-hover:text-3xl font-bold text-gray-100 transition-all duration-300">

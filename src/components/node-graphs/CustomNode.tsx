@@ -1,4 +1,5 @@
 import { Handle, Position } from "@xyflow/react";
+import { cn } from "@/lib/utils";
 
 interface CustomNodeProps {
   data: {
@@ -56,14 +57,17 @@ const CustomNode = ({ data }: CustomNodeProps) => {
 
   return (
     <div
-      className={`px-4 py-3 shadow-md rounded-lg border-2 border-stone-400 transition-colors ${background}
-             ${dimmed ? "opacity-40 grayscale" : "scale-105 hover:scale-110"} transition-all duration-400 ease-in`}
+      className={cn(
+        "px-4 py-3 shadow-md rounded-lg border-2 border-stone-400 transition-colors transition-all duration-400 ease-in",
+        background,
+        dimmed ? "opacity-40 grayscale" : "scale-105 hover:scale-110",
+      )}
     >
       <div className="flex flex-col space-y-2 w-48">
-        <div className={`text-lg font-semibold text-wrap ${textColor}`}>
+        <div className={cn("text-lg font-semibold text-wrap", textColor)}>
           {data.name}
         </div>
-        <div className={`text-sm ${subTextColor}`}>Etapa {data.etapa}</div>
+        <div className={cn("text-sm", subTextColor)}>Etapa {data.etapa}</div>
       </div>
 
       <Handle

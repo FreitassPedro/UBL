@@ -1,5 +1,6 @@
 import { MyStep } from "@/components/my-course/MyStep";
 import { MyStepsHeader } from "@/components/my-course/MyStepsHeader";
+import { cn } from "@/lib/utils";
 import type { MyCurriculumProgress } from "@/types/curriculum";
 import { useState } from "react";
 
@@ -26,15 +27,12 @@ export const MySteps = ({ courseProgress }: MyStepsProps) => {
                 <button
                   key={step.id}
                   onClick={() => setActiveStep(step.id)}
-                  className={`
-                    relative cursor-pointer px-6 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap
-                    border border-transparent
-                    ${
-                      isActive
-                        ? "bg-zinc-800 text-white shadow-lg shadow-black/20 border border-zinc-700"
-                        : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50"
-                    }
-                  `}
+                  className={cn(
+                    "relative cursor-pointer px-6 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap border border-transparent",
+                    isActive
+                      ? "bg-zinc-800 text-white shadow-lg shadow-black/20 border border-zinc-700"
+                      : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50",
+                  )}
                 >
                   {step.name}
                   {isActive && (

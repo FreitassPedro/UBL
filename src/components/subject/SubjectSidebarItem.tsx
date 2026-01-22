@@ -1,5 +1,6 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { formatSecondsToMinutes } from "@/lib/time";
+import { cn } from "@/lib/utils";
 import type { MyLessonProgress } from "@/types/lesson";
 
 interface SubjectSidebarItemProps {
@@ -20,19 +21,10 @@ export const SubjectSidebarItem = ({
       <div
         role="button"
         onClick={() => onSelect(lesson)}
-        className={`
-          w-full
-          flex
-          items-start
-          gap-3
-          px-3
-          py-2
-          rounded-lg
-          cursor-pointer
-          transition-colors
-          hover:bg-accent/50
-          ${isSelected ? "bg-accent text-accent-foreground" : ""}
-        `}
+        className={cn(
+          "w-full flex items-start gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors hover:bg-accent/50",
+          isSelected && "bg-accent text-accent-foreground",
+        )}
       >
         <Checkbox
           checked={lesson.isCompleted}
