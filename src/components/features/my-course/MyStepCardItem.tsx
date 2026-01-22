@@ -1,6 +1,7 @@
 import { Progress } from "@/components/ui/progress";
+import { getProgressTheme } from "@/lib/theme";
 import type { MyStepProgress } from "@/types/progress";
-import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface MyStepCardBodyProps {
@@ -8,31 +9,10 @@ interface MyStepCardBodyProps {
 }
 
 export const MyStepCardItem = ({ step }: MyStepCardBodyProps) => {
-  const getStatusStyle = (progress: number) => {
-    if (progress === 100)
-      return {
-        color: "text-emerald-400",
-        border: "group-hover:border-emerald-500/30",
-        icon: <CheckCircle2 className="w-5 h-5" />,
-      };
-    if (progress > 0)
-      return {
-        color: "text-amber-400",
-        border: "group-hover:border-amber-500/30",
-        icon: <PlayCircle className="w-5 h-5" />,
-      };
-    return {
-      color: "text-zinc-500",
-      border: "group-hover:border-zinc-600",
-      icon: <Circle className="w-5 h-5" />,
-    };
-  };
-
   return (
     <div className="grid grid-cols-1 gap-3">
       {step.subjects.map((cadeira) => {
-        const status = getStatusStyle(cadeira.progress);
-
+        const status = getProgressTheme(cadeira.progress);
         return (
           <Link
             to={`/curso/${cadeira.id}`}
@@ -61,7 +41,7 @@ export const MyStepCardItem = ({ step }: MyStepCardBodyProps) => {
                 <div
                   className={`absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800 ${status.color}`}
                 >
-                  {status.icon}
+                  {<status.icon />}
                 </div>
               </div>
 

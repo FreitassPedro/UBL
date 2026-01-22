@@ -1,7 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { getProgressTheme } from "@/lib/theme";
 import type { MyStepProgress } from "@/types/progress";
-import { ArrowRight, CheckCircle2, Circle, PlayCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface MyStepCardBodyProps {
@@ -9,34 +10,10 @@ interface MyStepCardBodyProps {
 }
 
 export const MyStepCardBody = ({ step }: MyStepCardBodyProps) => {
-  const getStatusStyle = (progress: number) => {
-    if (progress === 100)
-      return {
-        color: "text-emerald-400",
-        border: "group-hover:border-emerald-700/30 border-emerald-500/50",
-        bg: "bg-linear-to-r from-emerald-900/5 to-emerald-700/60",
-        icon: <CheckCircle2 className="w-5 h-5" />,
-      };
-    if (progress > 0)
-      return {
-        color: "text-amber-400",
-        border: "group-hover:border-blue-700/60  border-blue-500/50",
-        bg: "bg-linear-to-r from-blue-900/10 to-blue-700/25",
-        icon: <PlayCircle className="w-5 h-5" />,
-      };
-    return {
-      color: "text-zinc-500",
-      border: "group-hover:border-zinc-400 border-zinc-800",
-      bg: "bg-linear-to-r from-zinc-950/10 to-zinc-900/10",
-      icon: <Circle className="w-5 h-5" />,
-    };
-  };
-
   return (
     <div className="grid grid-cols-1 gap-3">
       {step.subjects.map((cadeira) => {
-        const status = getStatusStyle(cadeira.progress);
-
+        const status = getProgressTheme(cadeira.progress);
         return (
           <Link
             to={`/curso/${cadeira.id}`}
@@ -45,13 +22,13 @@ export const MyStepCardBody = ({ step }: MyStepCardBodyProps) => {
           >
             <Card
               className={`
-                            relative flex flex-col sm:flex-row items-start sm:items-center gap-5 
-                            border  
-                            transition-all duration-300 ease-out
-                            hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
-                            ${status.border}
-                            ${status.bg}
-                        `}
+                relative flex flex-col sm:flex-row items-start sm:items-center gap-5 
+                border  
+                transition-all duration-300 ease-out
+                hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg
+                ${status.border}
+                ${status.bg}
+              `}
             >
               {/* Ícone / Imagem */}
               <div className="relative shrink-0">
@@ -66,7 +43,7 @@ export const MyStepCardBody = ({ step }: MyStepCardBodyProps) => {
                 <div
                   className={`absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800 ${status.color}`}
                 >
-                  {status.icon}
+                  {<status.icon />}
                 </div>
               </div>
 

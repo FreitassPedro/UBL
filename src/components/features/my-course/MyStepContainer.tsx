@@ -21,10 +21,6 @@ export const MyStepContainer = ({ courseProgress }: MyStepContainerProps) => {
           <div className="flex p-1 space-x-2 bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-xl w-max min-w-full lg:min-w-0">
             {courseProgress.etapas.map((step) => {
               const isActive = activeStep === step.id;
-
-              {
-                /* Border-transparent necessário para transição suave */
-              }
               return (
                 <button
                   key={step.id}
@@ -41,7 +37,7 @@ export const MyStepContainer = ({ courseProgress }: MyStepContainerProps) => {
                 >
                   {step.name}
                   {isActive && (
-                    <span className="absolute bottom-[-1px] left-1/2 -translate-x-1/2 w-1/3 h-0.5 bg-blue-500 rounded-full opacity-70"></span>
+                    <span className="absolute -bottom-px left-1/2 -translate-x-1/2 w-1/3 h-0.5 bg-blue-500 rounded-full opacity-70"></span>
                   )}
                 </button>
               );

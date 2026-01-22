@@ -23,7 +23,7 @@ export function mapStepToMyStep(
   return {
     ...step,
     subjects: mySubjects,
-    name: `Step ${step.number}`,
+    name: `Etapa ${step.number}`,
     progress: stepProgress,
     totalCompleted: completedSubjectsInStep,
   };

@@ -1,4 +1,6 @@
 import { MyStepCardBody } from "@/components/features/my-course/MyStepCardBody";
+import { getTheme } from "@/lib/theme";
+import { formatStepToHours } from "@/lib/time";
 import type { MyStepProgress } from "@/types/progress";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
@@ -7,54 +9,15 @@ interface MyStepCardProps {
 }
 
 export const MyStepCard = ({ step }: MyStepCardProps) => {
-  const getTheme = () => {
-    switch (step.id) {
-      case 0:
-        return {
-          accent: "border-blue-500/30",
-          glow: "from-blue-500/10 via-transparent",
-          text: "text-blue-400",
-        };
-      case 1:
-        return {
-          accent: "border-emerald-500/30",
-          glow: "from-emerald-500/10 via-transparent",
-          text: "text-emerald-400",
-        };
-      case 2:
-        return {
-          accent: "border-violet-500/30",
-          glow: "from-violet-500/10 via-transparent",
-          text: "text-violet-400",
-        };
-      case 3:
-        return {
-          accent: "border-rose-500/30",
-          glow: "from-rose-500/10 via-transparent",
-          text: "text-rose-400",
-        };
-      default:
-        return {
-          accent: "border-amber-500/30",
-          glow: "from-amber-500/10 via-transparent",
-          text: "text-amber-400",
-        };
-    }
-  };
-
-  const theme = getTheme();
-  const totalDurationHours = Math.round(
-    step.subjects
-      .flatMap((cadeira) => cadeira.lessons)
-      .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600,
-  );
+  const theme = getTheme(step.id);
+  const totalDuration: string = formatStepToHours(step);
 
   return (
     <div className="flex flex-col space-y-6">
       <div
         className={`
           relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8
-          ${theme.accent} border-zinc-800
+          ${theme.border} border-zinc-800
         `}
       >
         <div
@@ -103,7 +66,7 @@ export const MyStepCard = ({ step }: MyStepCardProps) => {
                   Tempo
                 </span>
                 <span className="text-zinc-200 font-medium">
-                  {totalDurationHours}h
+                  {totalDuration}
                 </span>
               </div>
             </div>

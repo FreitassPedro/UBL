@@ -1,5 +1,7 @@
 import { CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { getTheme } from "@/lib/theme";
+import { formatStepToHours } from "@/lib/time";
 import { cn } from "@/lib/utils";
 import type { Step } from "@/types/step";
 import { BookOpen, ChevronRight, Clock, Sparkles } from "lucide-react";
@@ -15,65 +17,8 @@ export const SemesterHeader = ({
   isActive,
   onToggle,
 }: SemesterHeaderProps) => {
-  const getTheme = () => {
-    switch (stage.number) {
-      case 1:
-        return {
-          glow: "from-blue-500/10 via-transparent",
-          border: "border-blue-400",
-          text: "text-blue-400",
-        };
-      case 2:
-        return {
-          glow: "from-emerald-500/10 via-transparent",
-          border: "border-emerald-400",
-          text: "text-emerald-400",
-        };
-      case 3:
-        return {
-          glow: "from-violet-500/10 via-transparent",
-          border: "border-violet-400",
-          text: "text-violet-400",
-        };
-      case 4:
-        return {
-          glow: "from-rose-500/10 via-transparent",
-          border: "border-rose-400",
-          text: "text-rose-400",
-        };
-      case 5:
-        return {
-          glow: "from-amber-500/10 via-transparent",
-          border: "border-amber-400",
-          text: "text-amber-400",
-        };
-      case 6:
-        return {
-          glow: "from-cyan-500/10 via-transparent",
-          border: "border-cyan-400",
-          text: "text-cyan-400",
-        };
-      case 7:
-        return {
-          glow: "from-indigo-500/10 via-transparent",
-          border: "border-indigo-400",
-          text: "text-indigo-400",
-        };
-      default:
-        return {
-          glow: "from-zinc-500/10 via-transparent",
-          border: "border-zinc-400",
-          text: "text-zinc-400",
-        };
-    }
-  };
-
-  const theme = getTheme();
-  const totalDurationHours = Math.round(
-    stage.subjects
-      .flatMap((cadeira) => cadeira.lessons)
-      .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600,
-  );
+  const theme = getTheme(stage.id);
+  const totalDuration: string = formatStepToHours(stage);
 
   return (
     <CardHeader
@@ -135,7 +80,7 @@ export const SemesterHeader = ({
                     Tempo
                   </span>
                   <span className="text-zinc-200 font-medium">
-                    {totalDurationHours}h
+                    {totalDuration}
                   </span>
                 </div>
               </div>
