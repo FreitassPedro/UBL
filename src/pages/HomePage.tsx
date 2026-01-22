@@ -7,7 +7,7 @@ import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessagesSquare } from "lucide-react";
 
-export const HomePage: React.FC = () => {
+export const HomePage = () => {
   return (
     <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       <BackgroundRippleEffect />

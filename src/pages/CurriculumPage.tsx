@@ -1,5 +1,5 @@
 import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
-import { CurriculumSection } from "@/components/grade-curricular/CurriculumSection";
+import { CurriculumSection } from "@/components/curriculum/CurriculumSection";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -9,7 +9,7 @@ import {
 import type { Grade } from "@/types/grade";
 import React from "react";
 
-export default function GradeCurricularPage() {
+export default function CurriculumPage() {
     const [selectedGrade, setSelectedGrade] = React.useState<Grade | undefined>(undefined);
 
     const handleCourseSelection = (index: number) => {

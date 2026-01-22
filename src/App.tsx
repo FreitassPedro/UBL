@@ -5,10 +5,10 @@ import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
 import CoursePage from "@/pages/CoursePage";
-import GradeCurricularPage from "@/pages/GradeCurricularPage";
+import CurriculumPage from "@/pages/CurriculumPage";
 import HomePage from "@/pages/HomePage";
 import MyCourse from "@/pages/MyCourse";
-import TestePage from "@/pages/TestePage1";
+import TestePage from "@/pages/test/TestePage1";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export const App = () => {
@@ -24,7 +24,7 @@ export const App = () => {
               <Route path="/meu-curso" element={<MyCourse />} />
               <Route
                 path="/grade-curricular"
-                element={<GradeCurricularPage />}
+                element={<CurriculumPage />}
               />
             </Route>
 

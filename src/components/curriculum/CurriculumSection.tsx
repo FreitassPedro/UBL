@@ -1,4 +1,4 @@
-import { SemesterCard } from "@/components/grade-curricular/SemesterCard";
+import { SemesterCard } from "@/components/curriculum/SemesterCard";
 import NodeGraphVisualization from "@/components/node-graph/NodeGraphVisualization";
 import type { Grade } from "@/types/grade";
 import { GraduationCap, Network, X } from "lucide-react";

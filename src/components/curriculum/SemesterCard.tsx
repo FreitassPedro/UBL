@@ -1,5 +1,5 @@
-import { SemesterBody } from "@/components/grade-curricular/SemesterBody";
-import { SemesterHeader } from "@/components/grade-curricular/SemesterHeader";
+import { SemesterBody } from "@/components/curriculum/SemesterBody";
+import { SemesterHeader } from "@/components/curriculum/SemesterHeader";
 import {
   Collapsible,
   CollapsibleContent,
