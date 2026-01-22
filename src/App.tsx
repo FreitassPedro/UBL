@@ -4,11 +4,11 @@ import { ProgressProvider } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import "@/index.css";
 import { Layout } from "@/layouts/Layout";
-import CoursePage from "@/pages/CoursePage/CoursePage";
-import GradeCurricularPage from "@/pages/GradePage/GradeCurricularPage";
-import HomePage from "@/pages/HomePage/HomePage";
-import MyCourse from "@/pages/MyCourse/MyCourse";
-import TestePage from "@/pages/Testepage/TestePage1";
+import CoursePage from "@/pages/CoursePage";
+import GradeCurricularPage from "@/pages/GradeCurricularPage";
+import HomePage from "@/pages/HomePage";
+import MyCourse from "@/pages/MyCourse";
+import TestePage from "@/pages/TestePage1";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export const App = () => {
