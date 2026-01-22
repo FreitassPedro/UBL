@@ -64,7 +64,7 @@ export const HomeProgress = () => {
   return (
     <>
       {watchedCourses.length !== 0 && (
-        <div className="bg-[#141414] py-3">
+        <div className="bg-[#141414] relative py-3">
           <Card className="p-0 mx-auto max-w-6xl overflow-hidden border-0 rounded-none bg-transparent">
             <CardHeader className="px-0 pt-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div className="text-left">

@@ -1,7 +1,7 @@
 import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
 import studyIllustration from "@/assets/imgs/studyIllustration.png";
 import { HomeProgress } from "@/components/Home/HomeProgress";
-import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+import { BackgroundGrid } from "@/components/ui/BackgroundGrid";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { ArrowRight, BookOpen, Map, MessagesSquare, User } from "lucide-react";
@@ -11,8 +11,8 @@ export const HomePage: React.FC = () => {
   return (
     <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       {/* Background Effects (Grid + Glow) */}
-      <BackgroundRippleEffect className="z-0" />
 
+      <BackgroundGrid />
       {/* HERO SECTION */}
       <main className="relative z-10 max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-full h-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 py-16 md:py-24 container">
         {/* Conteúdo Principal */}
@@ -53,6 +53,20 @@ export const HomePage: React.FC = () => {
             <Button
               asChild
               size={"lg"}
+              className="col-span-2 bg-ubl-green py-7 text-zinc-100 hover:bg-ubl-green/90"
+            >
+              <Link
+                to="/grade-curricular"
+                className="hover:scale-105 transition-all duration-300"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span className="text-lg sm:text-xl">Começar a Estudar</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size={"lg"}
               className="bg-zinc-800 text-zinc-100 hover:bg-zinc-800/90 border border-zinc-700/90"
             >
               <Link to="" className="transition-all hover:scale-105">
@@ -72,21 +86,6 @@ export const HomePage: React.FC = () => {
               >
                 <Map className="w-4 h-4" />
                 <span className="text-lg sm:text-xl">Explorar Grade</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </Button>
-
-            <Button
-              asChild
-              size={"lg"}
-              className="col-span-2 bg-ubl-green text-zinc-100 hover:bg-ubl-green/90"
-            >
-              <Link
-                to="/grade-curricular"
-                className="hover:scale-105 transition-all duration-300"
-              >
-                <BookOpen className="w-4 h-4" />
-                <span className="text-lg sm:text-xl">Começar a Estudar</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
