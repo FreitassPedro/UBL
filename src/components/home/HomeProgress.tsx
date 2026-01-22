@@ -64,7 +64,7 @@ export const HomeProgress = () => {
   return (
     <>
       {watchedCourses.length !== 0 && (
-        <Card className="w-full mx-auto max-w-6xl mb-24 overflow-hidden border-0 bg-[#141414]">
+        <Card className="relative w-full mx-auto max-w-6xl mb-24 overflow-hidden border-0 bg-[#141414]">
           <CardHeader className="p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="text-left">
               <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">

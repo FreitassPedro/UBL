@@ -1,7 +1,7 @@
+import { BackgroundGrid } from "@/components/layout/BackgroundGrid";
 import { Lesson } from "@/components/subject/Lesson";
 import LessonEmpty from "@/components/subject/LessonEmpty";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
-import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import useTitlePage from "@/hooks/useTitlePage";
@@ -45,7 +45,7 @@ export const SubjectPage = () => {
         <LessonEmpty />
       ) : (
         <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
-          <BackgroundRippleEffect className="z-0" />
+          <BackgroundGrid />
           <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
             <Lesson subject={subject} lesson={selectedLesson} />
             <SubjectSidebar

@@ -14,12 +14,7 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
 
   return (
     <div className="flex flex-col space-y-6">
-      <div
-        className={cn(
-          "relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8 border-zinc-800",
-          theme.border,
-        )}
-      >
+      <div className="relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8 border-zinc-800">
         <div
           className={cn(
             "absolute inset-0 bg-linear-to-br to-transparent opacity-50 pointer-events-none",
