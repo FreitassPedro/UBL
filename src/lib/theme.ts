@@ -65,7 +65,7 @@ export function getProgressTheme(progress: number) {
   else if (progress > 0)
     return {
       color: "text-blue-100/85",
-      iconColor: "text-blue-400",
+      iconColor: "text-blue-500",
       border: "group-hover:border-blue-600/45 border-blue-500/45",
       bg: "bg-linear-to-r from-blue-950/35 to-blue-900/40",
       icon: CheckCircle2,

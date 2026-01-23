@@ -12,12 +12,6 @@ interface MyStepProps {
 
 export const MyStep = ({ subject }: MyStepProps) => {
   const status = getProgressTheme(subject.progress);
-  const buttonTone =
-    subject.progress === 100
-      ? "text-emerald-100/90 border-emerald-300/40 bg-emerald-500/10"
-      : subject.progress > 0
-        ? "text-blue-200/85 border-blue-400/35 bg-blue-950/30"
-        : "text-zinc-300/90 border-zinc-500/40 bg-zinc-800/30";
 
   return (
     <Link to={`/curso/${subject.id}`} className="group relative block">
@@ -38,9 +32,7 @@ export const MyStep = ({ subject }: MyStepProps) => {
             />
           </div>
           {/* Badge de Status flutuante (opcional, visual cleaner sem ele, mas útil para UX) */}
-          <div
-            className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800"
-          >
+          <div className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800">
             {<status.icon className={status.iconColor} />}
           </div>
         </div>
@@ -56,7 +48,11 @@ export const MyStep = ({ subject }: MyStepProps) => {
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-400 transition-colors border border-zinc-800 rounded-full px-3 py-1 bg-zinc-900/40 cursor-pointer",
-                buttonTone,
+                subject.progress === 100
+                  ? "text-emerald-100/90 border-emerald-300/40 bg-emerald-500/10"
+                  : subject.progress > 0
+                    ? "text-blue-200/85 border-blue-400/35 bg-blue-950/30"
+                    : "text-zinc-300/90 border-zinc-500/40 bg-zinc-800/30",
               )}
             >
               {subject.progress === 100
