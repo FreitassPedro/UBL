@@ -37,7 +37,7 @@ const NavbarNavigation = ({
   className,
 }: {
   mobile?: boolean;
-  className: string;
+  className?: string;
 }) => {
   const navItemClass = `
     flex

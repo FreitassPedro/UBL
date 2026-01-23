@@ -24,12 +24,12 @@ export const HomeSection = ({
     <section
       className={cn(
         className,
-        "relative z-10 flex items-center justify-center",
+        "relative z-10 flex items-center justify-center px-6 sm:px-10 lg:px-14 py-12 sm:py-16 lg:py-20",
       )}
     >
       <div
         className={cn(
-          "grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl w-full mx-auto",
+          "grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center max-w-6xl w-full mx-auto",
           imageReverse ? "md:[&>div:first-child]:order-2" : "",
         )}
       >
@@ -42,11 +42,15 @@ export const HomeSection = ({
           </p>
           {children}
         </div>
-        <div className="flex items-center justify-center">
+        <div
+          className={cn(
+            "flex items-center justify-center order-first md:order-0",
+          )}
+        >
           <img
             src={imageSrc}
             alt={imageAlt}
-            className="w-full max-w-md h-auto"
+            className="w-full max-w-60 sm:max-w-sm md:max-w-md h-auto"
           />
         </div>
       </div>

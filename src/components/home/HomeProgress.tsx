@@ -64,8 +64,8 @@ export const HomeProgress = () => {
   return (
     <>
       {watchedCourses.length !== 0 && (
-        <Card className="relative w-full mx-auto max-w-6xl mb-24 overflow-hidden border-0 bg-[#141414]">
-          <CardHeader className="p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+        <Card className="relative w-full mx-auto max-w-6xl mb-20 sm:mb-24 overflow-hidden border-0 bg-[#141414]">
+          <CardHeader className="p-6 sm:p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="text-left">
               <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
                 Continue onde parou
@@ -97,7 +97,7 @@ export const HomeProgress = () => {
             </div>
           </CardHeader>
 
-          <CardContent className="px-8 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <CardContent className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {watchedCourses.map((course) => (
               <Card
                 key={course.id}
