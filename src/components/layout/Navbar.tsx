@@ -175,7 +175,7 @@ export const Navbar = () => {
         </div>
 
         {/* Navigation (Mobile Only) */}
-        <CollapsibleContent className="md:hidden">
+        <CollapsibleContent className="md:hidden bg-bg-card border-t border-zinc-800/80 shadow-lg">
           <nav aria-label="Navegação principal principal">
             <NavbarNavigation mobile className="p-4" />
           </nav>
