@@ -17,13 +17,12 @@ const MyCoursePage = () => {
     ? getCourseProgress(getCourseOptionFromSlug(courseSlug) ?? "")
     : null;
 
+  const fallbackStepId = courseProgress?.steps[0]?.id ?? 1;
   const activeStepId =
     Number.isFinite(Number(stepId)) &&
     courseProgress?.steps.some((step) => step.id === Number(stepId))
       ? Number(stepId)
       : null;
-
-  const fallbackStepId = courseProgress?.steps[0]?.id ?? 1;
 
   useTitlePage(
     courseProgress ? `Meu Curso - ${courseProgress.curriculo}` : "Meu Curso",

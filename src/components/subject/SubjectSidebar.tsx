@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { MyLessonProgress } from "@/types/lesson";
@@ -21,11 +20,11 @@ export const SubjectSidebar = ({
 }: SubjectSidebarProps) => {
   return (
     <aside className="flex h-auto lg:h-full min-h-0 flex-col gap-3 p-4 sm:p-6 bg-bg-card border border-zinc-800 rounded-xl lg:col-span-2">
-      <div className="flex justify-between items-center">
+      <div className="flex items-center justify-between pr-2">
         <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
-        <Badge variant="outline" className="text-zinc-100 border-zinc-100">
+        <span className="text-sm font-semibold">
           {`${subject.totalCompleted} de ${subject.lessons.length}`}
-        </Badge>
+        </span>
       </div>
 
       <Progress
@@ -33,8 +32,8 @@ export const SubjectSidebar = ({
       />
 
       <div className="flex min-h-0 flex-col flex-1">
-        <ScrollArea className="h-72 sm:h-96 lg:h-full pr-2 overflow-hidden">
-          <ul className="space-y-2 mr-3">
+        <ScrollArea className="h-72 sm:h-96 lg:h-full w-full overflow-hidden">
+          <ul className="space-y-2 pr-2">
             {subject.lessons.map((lesson) => (
               <SubjectSidebarItem
                 key={lesson.id}
