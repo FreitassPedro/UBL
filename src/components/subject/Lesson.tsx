@@ -23,7 +23,7 @@ export const Lesson = ({ subject, lesson }: LessonProps) => {
   }, [lesson?.url]);
 
   return (
-    <Card className="flex min-h-0 flex-col gap-4 p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
+    <Card className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
       <LessonBreadcrumb
         subjectName={subject.name}
         lessonTitle={lesson?.title}
@@ -31,7 +31,7 @@ export const Lesson = ({ subject, lesson }: LessonProps) => {
 
       {lesson && (
         <>
-          <div className="relative w-full flex-1 min-h-0">
+          <div className="relative w-full aspect-video lg:aspect-auto lg:flex-1 lg:min-h-0">
             <div
               className={cn(
                 "h-full transition-opacity",

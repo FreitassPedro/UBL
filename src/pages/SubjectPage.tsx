@@ -46,7 +46,7 @@ export const SubjectPage = () => {
       ) : (
         <div className="min-h-screen bg-bg-body text-text-main overflow-x-hidden relative font-inter">
           <BackgroundGrid />
-          <div className="relative z-10 w-full h-[calc(100vh-6rem)] my-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
+          <div className="relative z-10 w-full min-h-screen lg:h-[calc(100vh-6rem)] py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
             <Lesson subject={subject} lesson={selectedLesson} />
             <SubjectSidebar
               subject={subject}
