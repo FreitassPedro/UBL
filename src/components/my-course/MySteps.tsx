@@ -25,7 +25,7 @@ export const MySteps = ({
   }, [activeStepId, fallbackStepId, courseProgress.curriculo]);
 
   return (
-    <div className="flex flex-col w-full space-y-8">
+    <div className="flex flex-col w-full space-y-8 mb-10">
       {/* Navegação por Abas (Tabs) */}
       <div className="flex flex-col w-full items-center space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center">
