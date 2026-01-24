@@ -168,7 +168,7 @@ export const Navbar = () => {
                 aria-label="Abrir navegação"
                 className="md:hidden inline-flex cursor-pointer items-center justify-center p-2"
               >
-                <Menu size={16} />
+                <Menu size={24} />
               </button>
             </CollapsibleTrigger>
           </div>
