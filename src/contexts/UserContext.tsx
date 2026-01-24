@@ -5,7 +5,7 @@ export interface UserContextType {
   avatar: string;
 }
 
-// TODO: Alterar a tipagem para "UserContext | undefined"
+// TODO: Alterar a tipagem para "UserContextType | undefined"
 export const UserContext = createContext<UserContextType>(
   {} as UserContextType,
 );
