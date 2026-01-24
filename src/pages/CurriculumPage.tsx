@@ -4,6 +4,7 @@ import { CurriculumHero } from "@/components/curriculum/CurriculumHero";
 import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelector";
 import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { cn } from "@/lib/utils";
 import type { Curriculum as CurriculumType } from "@/types/curriculum";
 import React from "react";
 
@@ -50,7 +51,12 @@ const CurriculumPage = () => {
 
   return (
     <div className="min-h-screen bg-bg-body text-white">
-      <main className="relative z-10 flex flex-col items-center space-y-4">
+      <main
+        className={cn(
+          "relative z-10 flex flex-col items-center space-y-4",
+          selectedGrade || "mb-20",
+        )}
+      >
         <CurriculumHero
           title="Sua jornada começa aqui"
           description="Descubra a liberdade de aprender com nossos cursos online gratuitos, desenvolvidos para todos os níveis de conhecimento. Aprenda no seu ritmo, onde e quando quiser."
