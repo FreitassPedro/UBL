@@ -43,7 +43,7 @@ export const SubjectPage = () => {
       {!subject || subject.lessons.length === 0 ? (
         <LessonEmpty />
       ) : (
-        <div className="h-[calc(100vh-3.5rem)] min-h-0 bg-bg-body text-text-main overflow-x-hidden font-inter">
+        <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter">
           <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
             <Lesson subject={subject} lesson={selectedLesson} />
             <SubjectSidebar
