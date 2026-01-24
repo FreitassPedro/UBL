@@ -11,7 +11,7 @@ import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
 export const SubjectPage = () => {
-  useTitlePage("Curso");
+  useTitlePage("Disciplinas");
   const { id } = useParams<{ id: string }>();
   const { toggleCompletion, completedLessons } = useContext(ProgressContext);
 

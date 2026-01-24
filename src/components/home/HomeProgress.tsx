@@ -124,7 +124,7 @@ export const HomeProgress = () => {
                   </CardContent>
                   <CardFooter className="p-0">
                     <Button asChild variant="secondary" className="w-full">
-                      <Link to={`/curso/${course.id}`}>Retomar</Link>
+                      <Link to={`/disciplinas/${course.id}`}>Retomar</Link>
                     </Button>
                   </CardFooter>
                 </Card>
