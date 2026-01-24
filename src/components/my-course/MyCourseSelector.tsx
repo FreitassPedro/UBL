@@ -15,7 +15,6 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
     id: CourseOption;
     title: string;
     description: string;
-    hint: string;
     icon: JSX.Element;
     accentText: string;
     accentBorder: string;
@@ -23,22 +22,20 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
     accentGlow: string;
   }> = [
     {
-      id: "Computacao",
-      title: "Ciência da Computação",
-      description: "Algoritmos, dados e sistemas para construir software.",
-      hint: "Lógica, arquitetura e engenharia",
-      icon: <Binary className="h-6 w-6 text-ubl-blue" />,
+      id: "Matematica",
+      title: "Matemática",
+      description: "Fundamentos e modelos para resolver problemas complexos.",
+      icon: <Sigma className="h-6 w-6 text-ubl-blue" />,
       accentText: "text-ubl-blue",
       accentBorder: "border-ubl-blue/40",
       accentBg: "bg-ubl-blue/10",
       accentGlow: "from-ubl-blue/25 via-transparent to-transparent",
     },
     {
-      id: "Matematica",
-      title: "Matemática",
-      description: "Fundamentos e modelos para resolver problemas complexos.",
-      hint: "Cálculo, álgebra e prova",
-      icon: <Sigma className="h-6 w-6 text-ubl-green" />,
+      id: "Computacao",
+      title: "Ciência da Computação",
+      description: "Algoritmos, dados e sistemas para construir software.",
+      icon: <Binary className="h-6 w-6 text-ubl-green" />,
       accentText: "text-ubl-green",
       accentBorder: "border-ubl-green/40",
       accentBg: "bg-ubl-green/10",
@@ -105,7 +102,6 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
                   </div>
 
                   <div className="mt-auto pt-5 flex items-center justify-between text-xs font-medium text-zinc-500">
-                    <span className="max-w-[70%] truncate">{option.hint}</span>
                     <span
                       className={cn(
                         "inline-flex items-center gap-2",

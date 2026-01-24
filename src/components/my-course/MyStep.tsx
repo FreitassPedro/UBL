@@ -14,10 +14,10 @@ export const MyStep = ({ subject }: MyStepProps) => {
   const status = getProgressTheme(subject.progress);
 
   return (
-    <Link to={`/curso/${subject.id}`} className="group relative block">
+    <Link to={`/curso/${subject.id}`} className="group block">
       <Card
         className={cn(
-          "relative flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
+          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
           status.border,
           status.bg,
         )}

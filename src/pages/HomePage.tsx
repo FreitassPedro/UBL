@@ -3,14 +3,12 @@ import studyIllustration from "@/assets/imgs/studyIllustration.png";
 import HomeHero from "@/components/home/HomeHero";
 import { HomeProgress } from "@/components/home/HomeProgress";
 import { HomeSection } from "@/components/home/HomeSection";
-import { BackgroundGrid } from "@/components/layout/BackgroundGrid";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessagesSquare } from "lucide-react";
 
 export const HomePage = () => {
   return (
-    <div className="relative min-h-full h-full bg-[#06070b] text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
-      <BackgroundGrid />
+    <div className="min-h-full h-full bg-transparent text-zinc-100 selection:bg-blue-500/30 font-sans overflow-hidden">
       <HomeHero />
       <HomeProgress />
       <HomeSection

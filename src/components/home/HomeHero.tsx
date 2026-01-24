@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const HomeHero = () => {
   return (
-    <main className="relative z-10 max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-[calc(100svh-3.5rem)] flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 py-10 sm:py-16 md:py-24 container">
+    <main className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-[calc(100svh-3.5rem)] flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 py-10 sm:py-16 md:py-24 container">
       <div className="order-2 md:order-1 flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
         <h1 className="mb-6 sm:mb-7 text-[3rem] sm:text-5xl md:text-[5.1rem] lg:text-[5.6rem] font-semibold leading-none sm:leading-[0.95] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-ubl-green to-ubl-blue">
           Universidade{" "}

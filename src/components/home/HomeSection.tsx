@@ -24,7 +24,7 @@ export const HomeSection = ({
     <section
       className={cn(
         className,
-        "relative z-10 flex items-center justify-center px-6 sm:px-10 lg:px-14 py-8 sm:py-10 lg:py-12",
+        "flex items-center justify-center px-6 sm:px-10 lg:px-14 py-8 sm:py-10 lg:py-12",
       )}
     >
       <div

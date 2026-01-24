@@ -87,7 +87,7 @@ const TestePage2 = () => {
           ))}
         </div>
       )}
-      <section className="relative z-10 max-w-6xl mx-auto px-6 pb-16">
+      <section className="max-w-6xl mx-auto px-6 pb-16">
         <div className="flex items-center justify-between mb-8">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-blue-300/70 font-semibold">
@@ -138,9 +138,9 @@ const TestePage2 = () => {
             {watchedCourses.map((course) => (
               <div
                 key={course.id}
-                className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-bg-card/80 p-6 shadow-2xl shadow-black/30 transition duration-300 hover:-translate-y-1 hover:border-zinc-700"
+                className="overflow-hidden rounded-2xl border border-zinc-800 bg-bg-card/80 p-6 shadow-2xl shadow-black/30 transition duration-300 hover:-translate-y-1 hover:border-zinc-700"
               >
-                <div className="relative flex items-start justify-between gap-4">
+                <div className="flex items-start justify-between gap-4">
                   <div>
                     <span className="text-xs font-semibold uppercase tracking-wide text-blue-200/80">
                       {course.etapaName}
@@ -157,7 +157,7 @@ const TestePage2 = () => {
                     {course.progress}%
                   </span>
                 </div>
-                <div className="relative mt-4 space-y-2">
+                <div className="mt-4 space-y-2">
                   <div className="flex items-center justify-between text-xs text-zinc-400">
                     <span>Progresso</span>
                     <span>{course.progress}%</span>
@@ -167,7 +167,7 @@ const TestePage2 = () => {
                   </div>
                 </div>
 
-                <div className="relative mt-6 flex items-center justify-between gap-3">
+                <div className="mt-6 flex items-center justify-between gap-3">
                   <Link
                     to={`/curso/${course.id}`}
                     className="inline-flex h-10 items-center justify-center rounded-lg bg-white px-4 text-sm font-semibold text-zinc-900 hover:bg-zinc-200 transition-colors"

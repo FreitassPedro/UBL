@@ -21,8 +21,8 @@ export const Subject = ({ subject, index }: SubjectProps) => {
   };
 
   return (
-    <li key={index} className="relative group">
-      <div className={cn("relative px-4 py-2 shadow-sm", getColorBackground())}>
+    <li key={index} className="group">
+      <div className={cn("px-4 py-2 shadow-sm", getColorBackground())}>
         {/* Content Container */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-6">
           <div className="flex-1">

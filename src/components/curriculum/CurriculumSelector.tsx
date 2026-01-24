@@ -19,7 +19,7 @@ export const CurriculumSelector = ({
   onSelectCourse,
 }: CurriculumSelectorProps) => {
   return (
-    <section className="relative mx-auto max-w-6xl w-full flex flex-col items-center my-4 px-6 sm:px-8">
+    <section className="mx-auto max-w-6xl w-full flex flex-col items-center my-4 px-6 sm:px-8">
       <div className="mb-4 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">
           Catálogo de Cursos

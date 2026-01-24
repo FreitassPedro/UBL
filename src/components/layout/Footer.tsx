@@ -5,7 +5,7 @@ const Footer = () => {
     currentYear > startYear ? `${startYear}-${currentYear}` : `${startYear}`;
 
   return (
-    <footer className="relative w-full h-14 border-t border-zinc-800 bg-zinc-900 text-center flex items-center justify-center">
+    <footer className="w-full h-14 border-t border-zinc-800 bg-zinc-900 text-center flex items-center justify-center">
       <p className="text-xs text-zinc-600">
         © {yearLabel} Universidade Brasileira Livre.
       </p>

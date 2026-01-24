@@ -32,8 +32,8 @@ export const SubjectSidebar = ({
         value={(subject.totalCompleted / subject.lessons.length) * 100}
       />
 
-      <div className="flex min-h-0 flex-col flex-1 relative">
-        <ScrollArea className="h-72 sm:h-96 lg:h-full pr-2 overflow-hidden relative">
+      <div className="flex min-h-0 flex-col flex-1">
+        <ScrollArea className="h-72 sm:h-96 lg:h-full pr-2 overflow-hidden">
           <ul className="space-y-2 mr-3">
             {subject.lessons.map((lesson) => (
               <SubjectSidebarItem

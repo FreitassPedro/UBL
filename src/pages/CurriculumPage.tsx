@@ -53,7 +53,7 @@ const CurriculumPage = () => {
     <div className="min-h-screen bg-bg-body text-white">
       <main
         className={cn(
-          "relative z-10 flex flex-col items-center space-y-4",
+          "flex flex-col items-center space-y-4",
           selectedGrade || "mb-10",
         )}
       >
