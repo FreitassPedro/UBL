@@ -14,7 +14,7 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
 
   return (
     <div className="flex flex-col space-y-6">
-      <div className="relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-8 border-zinc-800">
+      <div className="relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-5 sm:p-6 md:p-8 border-zinc-800">
         <div
           className={cn(
             "absolute inset-0 bg-linear-to-br to-transparent opacity-50 pointer-events-none",
@@ -33,13 +33,13 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
               <Sparkles className="w-3 h-3" />
               <span>Progresso da Etapa</span>
             </div>
-            <h2 className="text-4xl font-light text-white tracking-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight">
               {step.name}
             </h2>
           </div>
 
           {/* Stats */}
-          <div className="flex items-center gap-6 text-sm text-zinc-400 bg-zinc-950/30 p-3 rounded-xl border border-white/5 backdrop-blur-md">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 text-sm text-zinc-400 bg-zinc-950/30 p-3 rounded-xl border border-white/5 backdrop-blur-md w-full sm:w-auto">
             <div className="flex items-center gap-2.5">
               <div className="p-1.5 bg-zinc-800 rounded-md">
                 <BookOpen className="w-4 h-4 text-zinc-300" />
@@ -56,7 +56,7 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
               </div>
             </div>
 
-            <div className="w-px h-8 bg-zinc-800" />
+            <div className="h-px w-full bg-zinc-800 sm:w-px sm:h-8" />
             <div className="flex items-center gap-2.5">
               <div className="p-1.5 bg-zinc-800 rounded-md">
                 <Clock className="w-4 h-4 text-zinc-300" />

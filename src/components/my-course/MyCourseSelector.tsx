@@ -39,7 +39,7 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
         <p className="text-xs uppercase tracking-[0.3em] text-zinc-500">
           Escolha sua trilha
         </p>
-        <h1 className="text-3xl md:text-4xl font-semibold text-zinc-100">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-zinc-100">
           O que voce quer aprender hoje?
         </h1>
         <p className="text-sm md:text-base text-zinc-400 max-w-2xl leading-relaxed">
@@ -56,7 +56,7 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
             onClick={() => onSelect?.(option.id)}
             className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500 rounded-xl"
           >
-            <Card className="cursor-pointer border border-zinc-800/80 bg-zinc-900/40 p-7">
+            <Card className="cursor-pointer border border-zinc-800/80 bg-zinc-900/40 p-5 sm:p-6 md:p-7">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h2 className="text-lg md:text-xl font-medium text-zinc-100">

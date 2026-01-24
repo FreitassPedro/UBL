@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const startYear = 2025;
   const currentYear = new Date().getFullYear();
