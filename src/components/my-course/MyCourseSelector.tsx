@@ -1,10 +1,12 @@
 import { Card } from "@/components/ui/card";
 import type { CourseOption } from "@/hooks/useMyCourseData";
+import { getCourseSlug } from "@/hooks/useMyCourseData";
 import { Binary, Sigma } from "lucide-react";
 import type { JSX } from "react";
+import { Link } from "react-router-dom";
 
 type MyCourseSelectorProps = {
-  onSelect: (course: CourseOption) => void;
+  onSelect?: (course: CourseOption) => void;
 };
 
 const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
@@ -48,31 +50,32 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
 
       <div className="grid gap-6 md:grid-cols-2">
         {options.map((option) => (
-          <Card
+          <Link
             key={option.id}
-            role="button"
-            tabIndex={0}
-            onClick={() => onSelect(option.id)}
-            className="cursor-pointer border border-zinc-800/80 bg-zinc-900/40 p-7 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500"
+            to={`/meu-curso/${getCourseSlug(option.id)}`}
+            onClick={() => onSelect?.(option.id)}
+            className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500 rounded-xl"
           >
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <h2 className="text-lg md:text-xl font-medium text-zinc-100">
-                  {option.title}
-                </h2>
-                <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
-                  {option.description}
-                </p>
+            <Card className="cursor-pointer border border-zinc-800/80 bg-zinc-900/40 p-7">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h2 className="text-lg md:text-xl font-medium text-zinc-100">
+                    {option.title}
+                  </h2>
+                  <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
+                    {option.description}
+                  </p>
+                </div>
+                <div className="shrink-0 rounded-lg border border-zinc-700/70 bg-zinc-800/70 p-3">
+                  {option.icon}
+                </div>
               </div>
-              <div className="shrink-0 rounded-lg border border-zinc-700/70 bg-zinc-800/70 p-3">
-                {option.icon}
+              <div className="mt-6 flex items-center justify-between text-xs text-zinc-500">
+                <span>{option.hint}</span>
+                <span className="text-zinc-400">Selecionar</span>
               </div>
-            </div>
-            <div className="mt-6 flex items-center justify-between text-xs text-zinc-500">
-              <span>{option.hint}</span>
-              <span className="text-zinc-400">Selecionar</span>
-            </div>
-          </Card>
+            </Card>
+          </Link>
         ))}
       </div>
     </div>

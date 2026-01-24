@@ -30,6 +30,14 @@ export const router = createBrowserRouter([
             index: true,
             element: <MyCoursePage />,
           },
+          {
+            path: ":courseSlug",
+            element: <MyCoursePage />,
+          },
+          {
+            path: ":courseSlug/etapas/:stepId",
+            element: <MyCoursePage />,
+          },
         ],
       },
       {
