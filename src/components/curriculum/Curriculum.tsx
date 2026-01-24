@@ -1,4 +1,4 @@
-import { Subjects } from "@/components/curriculum/Subjects";
+import { Step } from "@/components/curriculum/Step";
 import CurriculumGraphModal from "@/components/node-graphs/CurriculumGraphModal";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -51,7 +51,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
         {/* Etapas (Stages) */}
         <ul className="space-y-4">
           {selectedCourse.steps.map((stage) => {
-            return <Subjects key={stage.id} stage={stage} />;
+            return <Step key={stage.id} step={stage} />;
           })}
         </ul>
       </div>
