@@ -120,7 +120,7 @@ export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
 
   return (
-    <header className="sticky top-0 left-0 z-50 text-zinc-400 bg-bg-card shadow-xl border-b border-zinc-800/80">
+    <header className="sticky top-0 left-0 z-50 h-14 text-zinc-400 bg-bg-card shadow-xl border-b border-zinc-800/80">
       <Collapsible open={mobileOpen} onOpenChange={setMobileOpen}>
         <div className="px-6 py-2 mx-auto max-w-7xl grid grid-cols-[auto_1fr_auto] items-center">
           {/* Logo e Título */}
