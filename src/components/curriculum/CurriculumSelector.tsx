@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { cn } from "@/lib/utils";
 
 export interface CurriculumCourse {
   course: string;
@@ -20,7 +19,7 @@ export const CurriculumSelector = ({
 }: CurriculumSelectorProps) => {
   return (
     <section className="mx-auto max-w-6xl w-full flex flex-col items-center my-4 px-6 sm:px-8">
-      <div className="mb-4 text-center">
+      <div className="text-center mb-10">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">
           Catálogo de Cursos
         </h2>
@@ -42,10 +41,8 @@ export const CurriculumSelector = ({
                 className="w-full h-full object-cover"
               />
             </div>
-            <Separator
-              className={cn(course.color, "group-hover:animate-pulse")}
-            />
-            <CardContent className="p-6 sm:p-8 flex flex-col justify-center items-center space-y-2">
+            <Separator className={course.color} />
+            <CardContent className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5 flex flex-col justify-center items-center space-y-2">
               <h2 className="text-xl sm:text-2xl font-bold text-gray-100 transition-all duration-300">
                 {course.course}
               </h2>
