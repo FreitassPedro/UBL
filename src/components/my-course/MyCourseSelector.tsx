@@ -44,8 +44,8 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
   ];
 
   return (
-    <section className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-900/60 p-10 sm:p-12 md:p-14 lg:p-16">
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-ubl-blue/10 via-transparent to-ubl-green/10 opacity-80" />
+    <section className="mx-auto w-full max-w-7xl overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-900 p-10 sm:p-12 md:p-14 lg:p-16">
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-ubl-blue/10 via-transparent to-ubl-green/10 opacity-50" />
       <div className="relative z-10 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] lg:items-center">
         <header className="space-y-3">
           <p className="text-xs uppercase tracking-[0.32em] text-zinc-500">
@@ -70,7 +70,7 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
             >
               <Card
                 className={cn(
-                  "relative h-full cursor-pointer overflow-hidden border bg-zinc-950/40 p-4 sm:p-5 transition-colors duration-200 ease-out group-hover:border-zinc-700/80 group-hover:bg-zinc-900/70",
+                  "h-full cursor-pointer overflow-hidden border bg-zinc-950 p-4 sm:p-5 transition-colors duration-200 ease-out group-hover:border-zinc-700/80 group-hover:bg-zinc-900",
                   option.accentBorder,
                 )}
               >
