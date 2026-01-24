@@ -24,7 +24,7 @@ export const HomeSection = ({
     <section
       className={cn(
         className,
-        "relative z-10 flex items-center justify-center px-6 sm:px-10 lg:px-14 py-12 sm:py-16 lg:py-20",
+        "relative z-10 flex items-center justify-center px-6 sm:px-10 lg:px-14 py-8 sm:py-10 lg:py-12",
       )}
     >
       <div
@@ -50,7 +50,7 @@ export const HomeSection = ({
           <img
             src={imageSrc}
             alt={imageAlt}
-            className="w-full max-w-60 sm:max-w-sm md:max-w-md h-auto"
+            className="w-full max-w-56 sm:max-w-sm md:max-w-md h-auto"
           />
         </div>
       </div>
