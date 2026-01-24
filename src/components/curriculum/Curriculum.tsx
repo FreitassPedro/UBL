@@ -21,7 +21,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
   }, [selectedCourse]);
 
   return (
-    <section className="w-full mt-10 py-8" ref={sectionRef}>
+    <section className="w-full py-8" ref={sectionRef}>
       <div className="mx-auto max-w-6xl container px-6 sm:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
           <div className="flex items-center gap-4">

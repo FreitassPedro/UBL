@@ -54,7 +54,7 @@ const CurriculumPage = () => {
       <main
         className={cn(
           "relative z-10 flex flex-col items-center space-y-4",
-          selectedGrade || "mb-20",
+          selectedGrade || "mb-10",
         )}
       >
         <CurriculumHero
