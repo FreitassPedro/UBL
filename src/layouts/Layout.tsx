@@ -6,7 +6,7 @@ export const Layout = () => {
   return (
     <div className="min-h-screen bg-bg-body font-inter overflow-hidden flex flex-col">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 flex flex-col">
         {/* Aqui vão os componentes filhos, como rotas */}
         <Outlet />
       </main>

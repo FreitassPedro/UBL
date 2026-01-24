@@ -42,7 +42,11 @@ const MyCoursePage = () => {
   }, [courseSlug, courseProgress, fallbackStepId, navigate, activeStepId]);
 
   if (!courseSlug) {
-    return <MyCourseSelector />;
+    return (
+      <div className="flex w-full flex-1 items-center justify-center">
+        <MyCourseSelector />
+      </div>
+    );
   }
 
   if (!courseProgress) {

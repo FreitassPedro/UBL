@@ -7,8 +7,8 @@ import { Outlet } from "react-router-dom";
 export const MyCourseLayout = () => {
   const { name } = useContext(UserContext);
   return (
-    <div className="min-h-screen bg-bg-body text-white">
-      <main className="relative z-10 max-w-6xl mx-auto px-4 md:px-6 py-6 space-y-8">
+    <div className="flex flex-1 min-h-0 flex-col bg-bg-body text-white">
+      <main className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col gap-6 px-4 py-4 md:px-8">
         <header className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <UserAvatar className="w-12 h-12" />
@@ -23,7 +23,9 @@ export const MyCourseLayout = () => {
             </div>
           </div>
         </header>
-        <Outlet />
+        <div className="flex min-h-0 flex-1 w-full items-stretch">
+          <Outlet />
+        </div>
       </main>
     </div>
   );
