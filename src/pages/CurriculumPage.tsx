@@ -10,17 +10,17 @@ import React from "react";
 
 const courses: CurriculumCourse[] = [
   {
+    course: "Matemática",
+    description: "Um caminho para a educação autodidata em Matemática.",
+    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
+    color: "bg-gradient-to-r from-blue-600 to-purple-500",
+  },
+  {
     course: "Ciência da Computação",
     description:
       "Um caminho para a educação autodidata em Ciência da Computação",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
     color: "bg-gradient-to-r from-blue-600 to-green-700",
-  },
-  {
-    course: "Matemática",
-    description: "Um caminho para a educação autodidata em Matemática.",
-    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
-    color: "bg-gradient-to-r from-blue-600 to-purple-500",
   },
 ];
 
