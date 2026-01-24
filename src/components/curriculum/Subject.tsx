@@ -24,12 +24,12 @@ export const Subject = ({ subject, index }: SubjectProps) => {
     <li key={index} className="relative group">
       <div className={cn("relative px-4 py-2 shadow-sm", getColorBackground())}>
         {/* Content Container */}
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-6">
           <div className="flex-1">
             {/* Subject Header */}
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 bg-linear-to-r from-ubl-blue to-ubl-green rounded-full animate-pulse" />
-              <h3 className="font-md text-xl text-white tracking-tight">
+              <h3 className="font-md text-lg sm:text-xl text-white tracking-tight">
                 {subject.name}
               </h3>
             </div>
@@ -43,7 +43,7 @@ export const Subject = ({ subject, index }: SubjectProps) => {
             variant="outline"
             size="sm"
             onClick={() => setShowBooks((prev) => !prev)}
-            className="cursor-pointer ml-4 bg-white/10 border-white/20 text-white hover:bg-white/20 hover:border-white/30 transition-all duration-300 hover:scale-105 flex items-center gap-2"
+            className="cursor-pointer sm:ml-4 bg-white/10 border-white/20 text-white hover:bg-white/20 hover:border-white/30 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <BookOpen className="h-4 w-4" />
             <span className="hidden sm:inline cursor-pointer">

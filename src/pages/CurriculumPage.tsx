@@ -2,7 +2,7 @@ import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
 import { Curriculum } from "@/components/curriculum/Curriculum";
 import { CurriculumHero } from "@/components/curriculum/CurriculumHero";
 import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelector";
-import { CurriculumCatalog } from "@/components/curriculum/CurriculumSelector";
+import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
 import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import type { Curriculum as CurriculumType } from "@/types/curriculum";
 import React from "react";
@@ -57,7 +57,7 @@ const CurriculumPage = () => {
           image={bannerstudy}
         />
 
-        <CurriculumCatalog
+        <CurriculumSelector
           courses={courses}
           onSelectCourse={handleCourseSelection}
         />

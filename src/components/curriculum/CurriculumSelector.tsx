@@ -9,33 +9,33 @@ export interface CurriculumCourse {
   color: string;
 }
 
-interface CurriculumCatalogProps {
+interface CurriculumSelectorProps {
   courses: CurriculumCourse[];
   onSelectCourse: (index: number) => void;
 }
 
-export const CurriculumCatalog = ({
+export const CurriculumSelector = ({
   courses,
   onSelectCourse,
-}: CurriculumCatalogProps) => {
+}: CurriculumSelectorProps) => {
   return (
-    <section className="relative mx-auto max-w-6xl flex flex-col items-center my-4 p-8">
-      <div className="mb-4">
-        <h2 className="md:text-3xl text-2xl font-bold text-white text-center ">
+    <section className="relative mx-auto max-w-6xl w-full flex flex-col items-center my-4 px-6 sm:px-8">
+      <div className="mb-4 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">
           Catálogo de Cursos
         </h2>
-        <span className="text-gray-400 text-md">
+        <span className="text-gray-400 text-sm sm:text-base">
           Escolha um curso para explorar sua grade curricular detalhada.
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 w-full">
         {courses.map((course, index) => (
           <Card
             key={`${course.course}-${index}`}
-            className="p-0 gap-0 border-0 bg-zinc-900 rounded-lg shadow-none hover:shadow-xl overflow-hidden col-span-2 hover:scale-102 transition duration-300 ease-in-out cursor-pointer group"
+            className="p-0 gap-0 border-0 bg-zinc-900 rounded-lg shadow-none hover:shadow-xl overflow-hidden hover:scale-102 transition duration-300 ease-in-out cursor-pointer group"
             onClick={() => onSelectCourse(index)}
           >
-            <div className="h-96 overflow-hidden">
+            <div className="h-64 sm:h-72 lg:h-80 overflow-hidden">
               <img
                 src={course.img}
                 alt={course.course}
@@ -45,11 +45,13 @@ export const CurriculumCatalog = ({
             <Separator
               className={cn(course.color, "group-hover:animate-pulse")}
             />
-            <CardContent className="p-8 flex flex-col justify-center items-center space-y-2">
-              <h2 className="text-2xl font-bold text-gray-100 transition-all duration-300">
+            <CardContent className="p-6 sm:p-8 flex flex-col justify-center items-center space-y-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-100 transition-all duration-300">
                 {course.course}
               </h2>
-              <p className="text-md text-text-muted">{course.description}</p>
+              <p className="text-sm sm:text-base text-text-muted text-center">
+                {course.description}
+              </p>
             </CardContent>
           </Card>
         ))}
