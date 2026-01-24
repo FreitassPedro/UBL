@@ -70,7 +70,7 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
             >
               <Card
                 className={cn(
-                  "h-full cursor-pointer overflow-hidden border bg-zinc-950 p-4 sm:p-5 transition-colors duration-200 ease-out group-hover:border-zinc-700/80 group-hover:bg-zinc-900",
+                  "relative h-full cursor-pointer overflow-hidden border bg-[#141414] p-4 sm:p-5 transition-colors duration-200 ease-out group-hover:border-zinc-700/80 group-hover:bg-zinc-900",
                   option.accentBorder,
                 )}
               >
@@ -101,7 +101,7 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
                     </div>
                   </div>
 
-                  <div className="mt-auto pt-5 flex items-center justify-between text-xs font-medium text-zinc-500">
+                  <div className="mt-auto flex items-center justify-end pt-5 text-xs font-medium text-zinc-500">
                     <span
                       className={cn(
                         "inline-flex items-center gap-2",
