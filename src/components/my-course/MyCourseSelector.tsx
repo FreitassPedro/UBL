@@ -70,13 +70,13 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
             >
               <Card
                 className={cn(
-                  "relative h-full cursor-pointer overflow-hidden border bg-[#141414] p-4 sm:p-5 transition-colors duration-200 ease-out group-hover:border-zinc-700/80 group-hover:bg-zinc-900",
+                  "relative h-full cursor-pointer overflow-hidden border border-zinc-700/80 bg-zinc-900 p-4 transition-transform duration-200 ease-out sm:p-5 group-hover:scale-[1.02]",
                   option.accentBorder,
                 )}
               >
                 <div
                   className={cn(
-                    "pointer-events-none absolute inset-0 bg-linear-to-br opacity-0 transition-opacity duration-300 group-hover:opacity-70",
+                    "pointer-events-none absolute inset-0 bg-linear-to-br opacity-60 transition-opacity duration-300 group-hover:opacity-80",
                     option.accentGlow,
                   )}
                 />
