@@ -42,10 +42,15 @@ export const HomeHero = () => {
             size={"lg"}
             className="bg-zinc-800 text-zinc-100 hover:bg-zinc-800/90 border border-zinc-700/90"
           >
-            <Link to="" className="transition-all hover:scale-105">
+            <a
+              href="https://github.com/Universidade-Livre"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all hover:scale-105 flex items-center gap-2"
+            >
               <User className="w-4 h-4" />
               <span className="text-base sm:text-xl">Sobre nós</span>
-            </Link>
+            </a>
           </Button>
 
           <Button
@@ -69,7 +74,7 @@ export const HomeHero = () => {
             className="col-span-1 sm:col-span-2 bg-ubl-green text-zinc-100 hover:bg-ubl-green/90"
           >
             <Link
-              to="/grade-curricular"
+              to="/meu-curso"
               className="hover:scale-105 transition-all duration-300"
             >
               <BookOpen className="w-4 h-4" />
