@@ -119,7 +119,7 @@ const extractRawCadeiraInfo = (
 
 export const CurriculoCC: Curriculum = {
   id: 1,
-  curriculo: "Ciência da Computação",
+  name: "Ciência da Computação",
   steps: [
     {
       id: 1,
@@ -562,7 +562,7 @@ export const CurriculoCC: Curriculum = {
 
 export const CurriculoMatematica: Curriculum = {
   id: 2,
-  curriculo: "Matemática",
+  name: "Matemática",
   steps: [
     {
       id: 1,

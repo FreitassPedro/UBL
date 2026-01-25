@@ -21,45 +21,53 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC } from "@/data/GradeCurricular";
+import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MySubjectProgress } from "@/types/subject";
 import { useContext, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-export type WatchedCourse = MySubjectProgress & {
-  etapaName: string;
-  etapaNumber: number;
+export type WatchedSubject = MySubjectProgress & {
+  curriculumName: string;
+  stepName: string;
+  stepNumber: number;
 };
-
-const sortOptions = ["etapas", "progresso"];
 
 export const HomeProgress = () => {
   const { completedLessons } = useContext(ProgressContext);
   const [sortBy, setSortBy] = useState("etapas");
 
-  const watchedCourses = useMemo<WatchedCourse[]>(() => {
-    const mappedGrade = mapCurriculumToMyCurriculumProgress(
-      CurriculoCC,
-      completedLessons,
+  const watchedSubjects = useMemo<WatchedSubject[]>(() => {
+    const progresses = [
+      mapCurriculumToMyCurriculumProgress(CurriculoCC, completedLessons),
+      mapCurriculumToMyCurriculumProgress(
+        CurriculoMatematica,
+        completedLessons,
+      ),
+    ];
+
+    const filteredProgresses = progresses.flatMap((curriculum) =>
+      curriculum.steps.flatMap((step) =>
+        step.subjects
+          .filter((subject) => subject.progress > 0)
+          .map((subject) => ({
+            ...subject,
+            curriculumName:
+              curriculum.name === "Matemática" ? "Matemática" : "Computação",
+            stepName: step.name,
+            stepNumber: step.number,
+          })),
+      ),
     );
 
-    const filtered = mappedGrade.steps.flatMap((etapa) =>
-      etapa.subjects
-        .filter((cadeira) => cadeira.progress > 0)
-        .map((cadeira) => ({
-          ...cadeira,
-          etapaName: etapa.name,
-          etapaNumber: etapa.number,
-        })),
-    );
-
-    return [...filtered].sort((a, b) => {
+    return [...filteredProgresses].sort((a, b) => {
       switch (sortBy) {
         case "etapas":
-          return a.etapaNumber - b.etapaNumber;
+          return a.stepNumber - b.stepNumber;
         case "progresso":
           return b.progress - a.progress;
+        case "curso":
+          return a.curriculumName.localeCompare(b.curriculumName);
         default:
           return 0;
       }
@@ -68,7 +76,7 @@ export const HomeProgress = () => {
 
   return (
     <>
-      {watchedCourses.length !== 0 && (
+      {watchedSubjects.length !== 0 && (
         <div className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto mb-20 sm:mb-24">
           <Card className="w-full overflow-hidden border-0 bg-[#141414]">
             <CardHeader className="p-6 sm:p-8">
@@ -85,7 +93,7 @@ export const HomeProgress = () => {
                       <SelectValue placeholder="Ordenar por" />
                     </SelectTrigger>
                     <SelectContent>
-                      {sortOptions.map((option) => (
+                      {["etapas", "progresso", "curso"].map((option) => (
                         <SelectItem
                           key={option}
                           value={option}
@@ -104,14 +112,14 @@ export const HomeProgress = () => {
             </CardHeader>
 
             <CardContent className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {watchedCourses.map((course) => (
+              {watchedSubjects.map((course) => (
                 <Card
                   key={course.id}
                   className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
                 >
                   <CardHeader className="p-0">
                     <CardDescription className="font-semibold text-gray-400">
-                      Etapa {course.etapaNumber}
+                      {course.curriculumName} - Etapa {course.stepNumber}
                     </CardDescription>
                     <CardTitle>
                       <Tooltip>

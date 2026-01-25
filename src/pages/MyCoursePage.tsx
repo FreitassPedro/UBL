@@ -25,7 +25,7 @@ const MyCoursePage = () => {
       : null;
 
   useTitlePage(
-    courseProgress ? `Meu Curso - ${courseProgress.curriculo}` : "Meu Curso",
+    courseProgress ? `Meu Curso - ${courseProgress.name}` : "Meu Curso",
   );
 
   useEffect(() => {
