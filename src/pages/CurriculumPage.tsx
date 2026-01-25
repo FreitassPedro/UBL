@@ -13,14 +13,13 @@ const courses: CurriculumCourse[] = [
     course: "Matemática",
     description: "Um caminho para a educação autodidata em Matemática.",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
-    color: "bg-gradient-to-r from-blue-600 to-purple-500",
+    color: "bg-gradient-to-r from-ubl-blue/70 via-blue-500/50 to-sky-400/50",
   },
   {
     course: "Ciência da Computação",
-    description:
-      "Um caminho para a educação autodidata em Ciência da Computação",
+    description: "Um caminho para a educação autodidata em Ciência da Computação",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
-    color: "bg-gradient-to-r from-blue-600 to-green-700",
+    color: "bg-gradient-to-r from-ubl-green/70 via-emerald-500/50 to-lime-400/50",
   },
 ];
 

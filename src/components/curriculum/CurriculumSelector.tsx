@@ -19,7 +19,7 @@ export const CurriculumSelector = ({
 }: CurriculumSelectorProps) => {
   return (
     <section className="mx-auto max-w-6xl w-full flex flex-col items-center my-4 px-6 sm:px-8">
-      <div className="text-center mb-10">
+      <div className="text-center mb-5">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">
           Catálogo de Cursos
         </h2>
