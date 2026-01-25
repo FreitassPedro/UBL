@@ -251,7 +251,7 @@ const courses = {
       },
       {
         name: "Programação Linear",
-        url: "https://www.youtube.com/channel/UCYe-qV12CP64BewDy2-BY5A/playlists",
+        url: "https://youtube.com/playlist?list=PLRJ_PBuYGr64QKVnwx3kx0qLeG5WQY_Hl&si=2SlZOlDfYH70f0ak",
       },
       {
         name: "Análise na Reta",
