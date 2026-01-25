@@ -78,7 +78,7 @@ import { MatTeoriaDeCorpos } from "@/data/MAT/Step6/MatTeoriaDeCorpos";
 import type { Curriculum } from "@/types/curriculum";
 import type { Lesson } from "@/types/lesson";
 
-interface RawCadeira {
+interface RawSubject {
   items: {
     id: string;
     snippet: {
@@ -100,7 +100,7 @@ interface RawCadeira {
 }
 
 const extractRawCadeiraInfo = (
-  cadeira: RawCadeira
+  cadeira: RawSubject
 ): { name: string; lessons: Lesson[]; duration?: number } => {
   const lessons: Lesson[] = cadeira.items.map((item) => ({
     id: item.id,
@@ -117,7 +117,7 @@ const extractRawCadeiraInfo = (
   };
 };
 
-export const CurriculoCC: Curriculum = {
+export const CurriculumCC: Curriculum = {
   id: 1,
   name: "Ciência da Computação",
   steps: [
@@ -160,7 +160,7 @@ export const CurriculoCC: Curriculum = {
         },
         {
           id: 4,
-          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonII),
+          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonI),
           prerequisites: [],
           books: [
             {
@@ -224,7 +224,7 @@ export const CurriculoCC: Curriculum = {
         },
         {
           id: 9,
-          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonI),
+          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonII),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [
             {
@@ -560,7 +560,7 @@ export const CurriculoCC: Curriculum = {
   ],
 };
 
-export const CurriculoMatematica: Curriculum = {
+export const CurriculumMath: Curriculum = {
   id: 2,
   name: "Matemática",
   steps: [

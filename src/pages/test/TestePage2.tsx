@@ -1,6 +1,6 @@
 import { Progress } from "@/components/ui/progress";
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC } from "@/data/GradeCurricular";
+import { CurriculumCC } from "@/data/Curriculum";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MySubjectProgress } from "@/types/subject";
 import { ArrowRight } from "lucide-react";
@@ -16,7 +16,7 @@ const TestePage2 = () => {
   const { completedLessons } = useContext(ProgressContext);
   const watchedCourses = useMemo<WatchedCourse[]>(() => {
     const mappedGrade = mapCurriculumToMyCurriculumProgress(
-      CurriculoCC,
+      CurriculumCC,
       completedLessons,
     );
     const allCourses = mappedGrade.steps.flatMap((etapa) =>

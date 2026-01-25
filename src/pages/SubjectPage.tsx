@@ -2,7 +2,7 @@ import { Lesson } from "@/components/subject/Lesson";
 import LessonEmpty from "@/components/subject/LessonEmpty";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
 import useTitlePage from "@/hooks/useTitlePage";
 import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
 import type { MyLessonProgress } from "@/types/lesson";
@@ -18,10 +18,10 @@ export const SubjectPage = () => {
   const subject: MySubjectProgress | undefined = useMemo(() => {
     if (!id) return;
     const found =
-      CurriculoCC.steps
+      CurriculumCC.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id) ??
-      CurriculoMatematica.steps
+      CurriculumMath.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id);
     if (!found) return;

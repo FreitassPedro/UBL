@@ -22,7 +22,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MySubjectProgress } from "@/types/subject";
 import { useContext, useMemo, useState } from "react";
@@ -39,9 +39,9 @@ export const HomeProgress = () => {
   const [sortBy, setSortBy] = useState("etapas");
   const watchedSubjects = useMemo<WatchedSubject[]>(() => {
     const progresses = [
-      mapCurriculumToMyCurriculumProgress(CurriculoCC, completedLessons),
+      mapCurriculumToMyCurriculumProgress(CurriculumCC, completedLessons),
       mapCurriculumToMyCurriculumProgress(
-        CurriculoMatematica,
+        CurriculumMath,
         completedLessons,
       ),
     ];
