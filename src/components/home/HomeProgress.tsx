@@ -111,7 +111,7 @@ export const HomeProgress = () => {
               </CardDescription>
             </CardHeader>
 
-            <ScrollArea className="h-58">
+            <ScrollArea className="h-60">
               <div className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {watchedSubjects.map((course) => (
                   <Card

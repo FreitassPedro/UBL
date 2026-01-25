@@ -31,7 +31,7 @@ export const HomePage = () => {
           asChild
           size="lg"
           variant="secondary"
-          className="cursor-pointer mt-6"
+          className="cursor-pointer mt-6 mb-6 sm:mb-0"
         >
           <a
             href="https://discord.com/invite/eXUBTY6HAu"
