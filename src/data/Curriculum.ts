@@ -62,6 +62,7 @@ import { MatAnaliseNaReta } from "@/data/MAT/Step4/MatAnaliseNaReta";
 import { MatCalculoIII } from "@/data/MAT/Step4/MatCalculoIII";
 import { MatEstatisticaProbabilidade } from "@/data/MAT/Step4/MatEstatisticaProbabilidade";
 import { MatFisicaGeralII } from "@/data/MAT/Step4/MatFisicaGeralII";
+import { MatProgramacaoLinear } from "@/data/MAT/Step4/MatProgramacaoLinear";
 
 import { MatCalculoComVariavelComplexa } from "@/data/MAT/Step5/MatCalculoComVariavelComplexa";
 import { MatCalculoIVMetodosMatematicos } from "@/data/MAT/Step5/MatCalculoIVMetodosMatematicos";
@@ -99,10 +100,10 @@ interface RawSubject {
   };
 }
 
-const extractRawCadeiraInfo = (
-  cadeira: RawSubject
+const extractRawSubjectInfo = (
+  subject: RawSubject,
 ): { name: string; lessons: Lesson[]; duration?: number } => {
-  const lessons: Lesson[] = cadeira.items.map((item) => ({
+  const lessons: Lesson[] = subject.items.map((item) => ({
     id: item.id,
     title: item.snippet.title,
     url: item.snippet.resourceId.videoId,
@@ -111,9 +112,9 @@ const extractRawCadeiraInfo = (
   }));
 
   return {
-    name: cadeira.extra.name,
+    name: subject.extra.name,
     lessons: lessons,
-    duration: cadeira.extra.durationSeconds,
+    duration: subject.extra.durationSeconds,
   };
 };
 
@@ -127,7 +128,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 1,
-          ...extractRawCadeiraInfo(CCCircuitosDigitais),
+          ...extractRawSubjectInfo(CCCircuitosDigitais),
           prerequisites: [],
           books: [
             {
@@ -138,7 +139,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 2,
-          ...extractRawCadeiraInfo(CCMatematicaDiscreta),
+          ...extractRawSubjectInfo(CCMatematicaDiscreta),
           prerequisites: [],
           books: [
             {
@@ -149,7 +150,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 3,
-          ...extractRawCadeiraInfo(CCLinguagensDeProgramacao),
+          ...extractRawSubjectInfo(CCLinguagensDeProgramacao),
           prerequisites: [],
           books: [
             {
@@ -160,7 +161,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 4,
-          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonI),
+          ...extractRawSubjectInfo(CCIntroducaoCienciaDaComputacaoComPythonI),
           prerequisites: [],
           books: [
             {
@@ -171,7 +172,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 5,
-          ...extractRawCadeiraInfo(CCGeometriaAnalitica),
+          ...extractRawSubjectInfo(CCGeometriaAnalitica),
           prerequisites: [],
           books: [
             {
@@ -188,7 +189,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 6,
-          ...extractRawCadeiraInfo(CCCalculoI),
+          ...extractRawSubjectInfo(CCCalculoI),
           prerequisites: ["Geometria Analítica"],
           books: [
             {
@@ -199,7 +200,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 7,
-          ...extractRawCadeiraInfo(CCAlgebraLinearI),
+          ...extractRawSubjectInfo(CCAlgebraLinearI),
           prerequisites: ["Geometria Analítica"],
           books: [
             {
@@ -210,7 +211,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 8,
-          ...extractRawCadeiraInfo(CCEstruturasDeDados),
+          ...extractRawSubjectInfo(CCEstruturasDeDados),
           prerequisites: [
             "Matemática Discreta",
             "Introdução à Ciência da Computação com Python I",
@@ -224,7 +225,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 9,
-          ...extractRawCadeiraInfo(CCIntroducaoCienciaDaComputacaoComPythonII),
+          ...extractRawSubjectInfo(CCIntroducaoCienciaDaComputacaoComPythonII),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [
             {
@@ -235,7 +236,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 10,
-          ...extractRawCadeiraInfo(CCLaboratorioDeProgramacaoOrientadaObjetosI),
+          ...extractRawSubjectInfo(CCLaboratorioDeProgramacaoOrientadaObjetosI),
           prerequisites: ["Introdução à Ciência da Computação com Python I"],
           books: [
             {
@@ -252,7 +253,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 11,
-          ...extractRawCadeiraInfo(CCAlgoritmosEmGrafos),
+          ...extractRawSubjectInfo(CCAlgoritmosEmGrafos),
           prerequisites: ["Estruturas de Dados"],
           books: [
             {
@@ -263,7 +264,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 12,
-          ...extractRawCadeiraInfo(CCArquiteturaDeComputadoresI),
+          ...extractRawSubjectInfo(CCArquiteturaDeComputadoresI),
           prerequisites: ["Circuitos Digitais"],
           books: [
             {
@@ -274,7 +275,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 13,
-          ...extractRawCadeiraInfo(CCProbabilidadeEstatistica),
+          ...extractRawSubjectInfo(CCProbabilidadeEstatistica),
           prerequisites: ["Cálculo I"],
           books: [
             {
@@ -285,7 +286,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 14,
-          ...extractRawCadeiraInfo(CCCalculoII),
+          ...extractRawSubjectInfo(CCCalculoII),
           prerequisites: ["Cálculo I"],
           books: [
             {
@@ -296,7 +297,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 15,
-          ...extractRawCadeiraInfo(CCProgramacaoFuncionalEmHaskell),
+          ...extractRawSubjectInfo(CCProgramacaoFuncionalEmHaskell),
           prerequisites: [],
           books: [
             {
@@ -313,7 +314,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 16,
-          ...extractRawCadeiraInfo(CCAnaliseDeAlgoritmos),
+          ...extractRawSubjectInfo(CCAnaliseDeAlgoritmos),
           prerequisites: ["Algoritmos em Grafos"],
           books: [
             {
@@ -324,7 +325,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 17,
-          ...extractRawCadeiraInfo(CCMetodosNumericosI),
+          ...extractRawSubjectInfo(CCMetodosNumericosI),
           prerequisites: [
             "Introdução à Ciência da Computação com Python I",
             "Cálculo I",
@@ -338,7 +339,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 18,
-          ...extractRawCadeiraInfo(CCBancoDeDados),
+          ...extractRawSubjectInfo(CCBancoDeDados),
           prerequisites: [],
           books: [
             {
@@ -349,7 +350,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 19,
-          ...extractRawCadeiraInfo(CCArquiteturaDeComputadoresII),
+          ...extractRawSubjectInfo(CCArquiteturaDeComputadoresII),
           prerequisites: [
             "Introdução à Ciência da Computação com Python II",
             "Arquitetura de Computadores I",
@@ -363,7 +364,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 20,
-          ...extractRawCadeiraInfo(CCProgramacaoLogica),
+          ...extractRawSubjectInfo(CCProgramacaoLogica),
           prerequisites: [],
           books: [
             {
@@ -380,7 +381,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 21,
-          ...extractRawCadeiraInfo(CCRedesDeComputadores),
+          ...extractRawSubjectInfo(CCRedesDeComputadores),
           prerequisites: [],
           books: [
             {
@@ -391,7 +392,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 22,
-          ...extractRawCadeiraInfo(CCIntroducaoEngenhariaDeSoftware),
+          ...extractRawSubjectInfo(CCIntroducaoEngenhariaDeSoftware),
           prerequisites: ["Introdução à Ciência da Computação com Python II"],
           books: [
             {
@@ -402,7 +403,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 23,
-          ...extractRawCadeiraInfo(CCSistemasOperacionais),
+          ...extractRawSubjectInfo(CCSistemasOperacionais),
           prerequisites: ["Arquitetura de Computadores II"],
           books: [
             {
@@ -413,7 +414,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 24,
-          ...extractRawCadeiraInfo(CCProgramacaoMatematica),
+          ...extractRawSubjectInfo(CCProgramacaoMatematica),
           prerequisites: ["Álgebra Linear I"],
           books: [
             {
@@ -424,7 +425,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 25,
-          ...extractRawCadeiraInfo(CCFundamentosDeComputacaoGrafica),
+          ...extractRawSubjectInfo(CCFundamentosDeComputacaoGrafica),
           prerequisites: ["Geometria Analítica"],
           books: [
             {
@@ -441,7 +442,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 26,
-          ...extractRawCadeiraInfo(CCLinguagensFormaisAutomatos),
+          ...extractRawSubjectInfo(CCLinguagensFormaisAutomatos),
           prerequisites: ["Matemática Discreta"],
           books: [
             {
@@ -452,7 +453,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 27,
-          ...extractRawCadeiraInfo(CCInteligenciaArtificial),
+          ...extractRawSubjectInfo(CCInteligenciaArtificial),
           prerequisites: ["Estruturas de Dados", "Probabilidade e Estatística"],
           books: [
             {
@@ -463,7 +464,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 28,
-          ...extractRawCadeiraInfo(CCSistemasDistribuidos),
+          ...extractRawSubjectInfo(CCSistemasDistribuidos),
           prerequisites: ["Redes de Computadores"],
           books: [
             {
@@ -474,7 +475,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 29,
-          ...extractRawCadeiraInfo(CCTeoriaDosGrafos),
+          ...extractRawSubjectInfo(CCTeoriaDosGrafos),
           prerequisites: ["Matemática Discreta"],
           books: [
             {
@@ -485,7 +486,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 30,
-          ...extractRawCadeiraInfo(CCCalculoIII),
+          ...extractRawSubjectInfo(CCCalculoIII),
           prerequisites: ["Cálculo II"],
           books: [
             {
@@ -502,7 +503,7 @@ export const CurriculumCC: Curriculum = {
       subjects: [
         {
           id: 31,
-          ...extractRawCadeiraInfo(CCTeoriaDaComputacao),
+          ...extractRawSubjectInfo(CCTeoriaDaComputacao),
           prerequisites: ["Linguagens Formais e Autômatos"],
           books: [
             {
@@ -513,7 +514,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 32,
-          ...extractRawCadeiraInfo(CCDeepLearning),
+          ...extractRawSubjectInfo(CCDeepLearning),
           prerequisites: ["Inteligência Artificial"],
           books: [
             {
@@ -524,7 +525,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 33,
-          ...extractRawCadeiraInfo(CCCompiladores),
+          ...extractRawSubjectInfo(CCCompiladores),
           prerequisites: ["Estruturas de Dados", "Teoria dos Grafos"],
           books: [
             {
@@ -535,7 +536,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 34,
-          ...extractRawCadeiraInfo(CCComputacaoQuantica),
+          ...extractRawSubjectInfo(CCComputacaoQuantica),
           prerequisites: ["Cálculo III", "Arquitetura de Computadores II"],
           books: [
             {
@@ -546,7 +547,7 @@ export const CurriculumCC: Curriculum = {
         },
         {
           id: 35,
-          ...extractRawCadeiraInfo(CCMetodologiaDaPesquisa),
+          ...extractRawSubjectInfo(CCMetodologiaDaPesquisa),
           prerequisites: [],
           books: [
             {
@@ -570,7 +571,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 36,
-          ...extractRawCadeiraInfo(MatIngredientesBasicosParaCalculo),
+          ...extractRawSubjectInfo(MatIngredientesBasicosParaCalculo),
           prerequisites: [],
           books: [
             {
@@ -581,7 +582,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 37,
-          ...extractRawCadeiraInfo(MatTeoriaDosConjuntos),
+          ...extractRawSubjectInfo(MatTeoriaDosConjuntos),
           prerequisites: [],
           books: [
             {
@@ -592,7 +593,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 38,
-          ...extractRawCadeiraInfo(MatLogicaMatematicaDiscreta),
+          ...extractRawSubjectInfo(MatLogicaMatematicaDiscreta),
           prerequisites: [],
           books: [
             {
@@ -603,7 +604,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 39,
-          ...extractRawCadeiraInfo(MatGeometriaAnalitica),
+          ...extractRawSubjectInfo(MatGeometriaAnalitica),
           prerequisites: [],
           books: [
             {
@@ -614,7 +615,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 40,
-          ...extractRawCadeiraInfo(MatAlgoritmosProgramacaoEmPython),
+          ...extractRawSubjectInfo(MatAlgoritmosProgramacaoEmPython),
           prerequisites: [],
           books: [
             {
@@ -631,7 +632,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 41,
-          ...extractRawCadeiraInfo(MatCalculoI),
+          ...extractRawSubjectInfo(MatCalculoI),
           prerequisites: [],
           books: [
             {
@@ -642,7 +643,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 42,
-          ...extractRawCadeiraInfo(MatProjetoAnaliseDeAlgoritmos),
+          ...extractRawSubjectInfo(MatProjetoAnaliseDeAlgoritmos),
           prerequisites: ["Programação (Python)"],
           books: [
             {
@@ -653,7 +654,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 43,
-          ...extractRawCadeiraInfo(MatAlgebraLinear),
+          ...extractRawSubjectInfo(MatAlgebraLinear),
           prerequisites: [],
           books: [
             {
@@ -664,7 +665,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 44,
-          ...extractRawCadeiraInfo(MatAlgebraLinearAvancada),
+          ...extractRawSubjectInfo(MatAlgebraLinearAvancada),
           prerequisites: [],
           books: [
             {
@@ -675,7 +676,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 45,
-          ...extractRawCadeiraInfo(MatTeoriaDosNumeros),
+          ...extractRawSubjectInfo(MatTeoriaDosNumeros),
           prerequisites: [],
           books: [
             {
@@ -692,7 +693,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 46,
-          ...extractRawCadeiraInfo(MatCalculoII),
+          ...extractRawSubjectInfo(MatCalculoII),
           prerequisites: ["Cálculo I"],
           books: [
             {
@@ -703,7 +704,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 47,
-          ...extractRawCadeiraInfo(MatEstruturasAlgebricas),
+          ...extractRawSubjectInfo(MatEstruturasAlgebricas),
           prerequisites: ["Teoria dos Números"],
           books: [
             {
@@ -714,7 +715,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 48,
-          ...extractRawCadeiraInfo(MatEquacoesDiferenciaisOrdinarias),
+          ...extractRawSubjectInfo(MatEquacoesDiferenciaisOrdinarias),
           prerequisites: [],
           books: [
             {
@@ -725,7 +726,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 49,
-          ...extractRawCadeiraInfo(MatFisicaGeralI),
+          ...extractRawSubjectInfo(MatFisicaGeralI),
           prerequisites: [],
           books: [
             {
@@ -736,7 +737,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 50,
-          ...extractRawCadeiraInfo(MatHistoriaDaMatematica),
+          ...extractRawSubjectInfo(MatHistoriaDaMatematica),
           prerequisites: [],
           books: [
             {
@@ -753,7 +754,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 51,
-          ...extractRawCadeiraInfo(MatCalculoIII),
+          ...extractRawSubjectInfo(MatCalculoIII),
           prerequisites: ["Cálculo II"],
           books: [
             {
@@ -764,7 +765,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 52,
-          ...extractRawCadeiraInfo(MatFisicaGeralII),
+          ...extractRawSubjectInfo(MatFisicaGeralII),
           prerequisites: ["Física Geral I"],
           books: [
             {
@@ -775,7 +776,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 53,
-          ...extractRawCadeiraInfo(MatEstatisticaProbabilidade),
+          ...extractRawSubjectInfo(MatEstatisticaProbabilidade),
           prerequisites: [],
           books: [
             {
@@ -787,15 +788,7 @@ export const CurriculumMath: Curriculum = {
         {
           // Exceção: redireciona para um conjunto de playlists ao invés de somente uma
           id: 54,
-          name: "Programação Linear",
-          lessons: [
-            {
-              id: "54",
-              title: "Programação Linear",
-              type: "video",
-              url: "https://www.youtube.com/channel/UCYe-qV12CP64BewDy2-BY5A/playlists",
-            },
-          ],
+          ...extractRawSubjectInfo(MatProgramacaoLinear),
           prerequisites: ["Projeto e Análise de Algoritmos"],
           books: [
             {
@@ -806,7 +799,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 55,
-          ...extractRawCadeiraInfo(MatAnaliseNaReta),
+          ...extractRawSubjectInfo(MatAnaliseNaReta),
           prerequisites: [],
           books: [
             {
@@ -823,7 +816,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 56,
-          ...extractRawCadeiraInfo(MatCalculoIVMetodosMatematicos),
+          ...extractRawSubjectInfo(MatCalculoIVMetodosMatematicos),
           prerequisites: ["Cálculo III"],
           books: [
             {
@@ -834,7 +827,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 57,
-          ...extractRawCadeiraInfo(MatIntroducaoTopologiaGeral),
+          ...extractRawSubjectInfo(MatIntroducaoTopologiaGeral),
           prerequisites: [],
           books: [
             {
@@ -845,7 +838,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 58,
-          ...extractRawCadeiraInfo(MatCalculoComVariavelComplexa),
+          ...extractRawSubjectInfo(MatCalculoComVariavelComplexa),
           prerequisites: ["Cálculo IV"],
           books: [
             {
@@ -856,7 +849,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 59,
-          ...extractRawCadeiraInfo(MatTeoriaDosGrafos),
+          ...extractRawSubjectInfo(MatTeoriaDosGrafos),
           prerequisites: [],
           books: [
             {
@@ -867,7 +860,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 60,
-          ...extractRawCadeiraInfo(MatFisicaGeralIII),
+          ...extractRawSubjectInfo(MatFisicaGeralIII),
           prerequisites: ["Física Geral II"],
           books: [
             {
@@ -884,7 +877,7 @@ export const CurriculumMath: Curriculum = {
       subjects: [
         {
           id: 61,
-          ...extractRawCadeiraInfo(MatAlfabetizacaoEmAneis),
+          ...extractRawSubjectInfo(MatAlfabetizacaoEmAneis),
           prerequisites: ["Estruturas Algébricas"],
           books: [
             {
@@ -895,7 +888,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 62,
-          ...extractRawCadeiraInfo(MatFisicaModerna),
+          ...extractRawSubjectInfo(MatFisicaModerna),
           prerequisites: ["Física Geral III"],
           books: [
             {
@@ -906,7 +899,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 63,
-          ...extractRawCadeiraInfo(MatTeoriaDeCorpos),
+          ...extractRawSubjectInfo(MatTeoriaDeCorpos),
           prerequisites: ["Estruturas Algébricas"],
           books: [
             {
@@ -917,7 +910,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 64,
-          ...extractRawCadeiraInfo(MatAnaliseComplexa),
+          ...extractRawSubjectInfo(MatAnaliseComplexa),
           prerequisites: [],
           books: [
             {
@@ -928,7 +921,7 @@ export const CurriculumMath: Curriculum = {
         },
         {
           id: 65,
-          ...extractRawCadeiraInfo(MatEquacoesDiferenciaisParciais),
+          ...extractRawSubjectInfo(MatEquacoesDiferenciaisParciais),
           prerequisites: ["Cálculo IV", "Análise Complexa"],
           books: [
             {

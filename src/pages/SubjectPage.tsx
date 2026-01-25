@@ -1,5 +1,4 @@
 import { Lesson } from "@/components/subject/Lesson";
-import LessonEmpty from "@/components/subject/LessonEmpty";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
@@ -38,24 +37,22 @@ export const SubjectPage = () => {
     }
   }, [subject]);
 
+  if (!subject || subject.lessons.length === 0) {
+    throw new Response("Not Found", { status: 404 });
+  }
+
   return (
-    <>
-      {!subject || subject.lessons.length === 0 ? (
-        <LessonEmpty />
-      ) : (
-        <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter">
-          <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-4 items-stretch">
-            <Lesson subject={subject} lesson={selectedLesson} />
-            <SubjectSidebar
-              subject={subject}
-              selectedLesson={selectedLesson}
-              onSelectLesson={(lesson: MyLessonProgress) => setSelectedLesson(lesson)}
-              onToggleCompletion={toggleCompletion}
-            />
-          </div>
-        </div>
-      )}
-    </>
+    <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter">
+      <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-4 items-stretch">
+        <Lesson subject={subject} lesson={selectedLesson} />
+        <SubjectSidebar
+          subject={subject}
+          selectedLesson={selectedLesson}
+          onSelectLesson={(lesson: MyLessonProgress) => setSelectedLesson(lesson)}
+          onToggleCompletion={toggleCompletion}
+        />
+      </div>
+    </div>
   );
 };
 
