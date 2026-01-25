@@ -6,7 +6,7 @@ import {
 } from "@/hooks/useMyCourseData";
 import useTitlePage from "@/hooks/useTitlePage";
 import { useEffect } from "react";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const MyCoursePage = () => {
   const { getCourseProgress } = useMyCourseData();
@@ -49,7 +49,7 @@ const MyCoursePage = () => {
   }
 
   if (!courseProgress) {
-    return <Navigate to="/meu-curso" replace />;
+    throw new Response("Not Found", { status: 404 });
   }
 
   if (!activeStepId) {

@@ -5,6 +5,7 @@ import { MyCourseLayout } from "@/layouts/MyCourseLayout";
 import CurriculumPage from "@/pages/CurriculumPage";
 import HomePage from "@/pages/HomePage";
 import MyCoursePage from "@/pages/MyCoursePage";
+import NotFoundPage from "@/pages/NotFoundPage";
 import SubjectPage from "@/pages/SubjectPage";
 import TestePage1 from "@/pages/test/TestePage1";
 import { createBrowserRouter } from "react-router-dom";
@@ -13,6 +14,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <NotFoundPage />,
     children: [
       {
         index: true,
@@ -44,10 +46,15 @@ export const router = createBrowserRouter([
         path: "grade-curricular",
         element: <CurriculumPage />,
       },
+      {
+        path: "*",
+        element: <NotFoundPage />,
+      },
     ],
   },
   {
     path: "/teste",
+    errorElement: <NotFoundPage />,
     children: [
       {
         index: true,
@@ -57,6 +64,14 @@ export const router = createBrowserRouter([
         path: "node",
         element: <CurriculumGraph grade={CurriculumCC} />,
       },
+      {
+        path: "*",
+        element: <NotFoundPage />,
+      },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ]);
