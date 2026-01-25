@@ -1,19 +1,17 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { BackgroundGrid } from "../components/layout/BackgroundGrid";
 import Footer from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 
 export const Layout = () => {
-  const location = useLocation();
-  const isHome: boolean = location.pathname === "/";
-
   return (
-    <div className="min-h-screen bg-bg-body font-inter overflow-hidden flex flex-col">
-      <Navbar />
-      <main className="flex-1">
-        {/* Aqui vão os componentes filhos, como rotas */}
+    <div className="min-h-screen bg-bg-body font-inter overflow-hidden">
+      <BackgroundGrid />
+      <div className="relative z-10 flex min-h-screen flex-col">
+        <Navbar />
         <Outlet />
-      </main>
-      <Footer marginTop={!isHome} />
+        <Footer />
+      </div>
     </div>
   );
 };

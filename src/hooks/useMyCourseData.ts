@@ -5,6 +5,25 @@ import type { MyCurriculumProgress } from "@/types/curriculum";
 import { useContext, useMemo } from "react";
 
 export type CourseOption = "Computacao" | "Matematica";
+export type CourseSlug = "ciencia-da-computacao" | "matematica";
+
+const courseSlugByOption: Record<CourseOption, CourseSlug> = {
+  Computacao: "ciencia-da-computacao",
+  Matematica: "matematica",
+};
+
+const courseOptionBySlug: Record<CourseSlug, CourseOption> = {
+  "ciencia-da-computacao": "Computacao",
+  matematica: "Matematica",
+};
+
+export const getCourseSlug = (option: CourseOption): CourseSlug =>
+  courseSlugByOption[option];
+
+export const getCourseOptionFromSlug = (slug?: string): CourseOption | null => {
+  if (!slug || !(slug in courseOptionBySlug)) return null;
+  return courseOptionBySlug[slug as CourseSlug];
+};
 
 /**
 /* Converte curriculo de acordo com o curso selecionado e aulas assistidas

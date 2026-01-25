@@ -38,7 +38,7 @@ const CurriculumNode = ({ data }: CurriculumNodeProps) => {
   return (
     <div
       className={cn(
-        "px-4 py-3 shadow-md rounded-lg border-2 border-stone-400 transition-colors transition-all duration-400 ease-in",
+        "px-4 py-3 shadow-md rounded-lg border-2 border-stone-400 transition-colors duration-400 ease-in",
         background,
         dimmed ? "opacity-40 grayscale" : "scale-105 hover:scale-110",
       )}

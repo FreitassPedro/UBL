@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "curso/:id",
+        path: "disciplinas/:id",
         element: <SubjectPage />,
       },
       {
@@ -28,6 +28,14 @@ export const router = createBrowserRouter([
         children: [
           {
             index: true,
+            element: <MyCoursePage />,
+          },
+          {
+            path: ":courseSlug",
+            element: <MyCoursePage />,
+          },
+          {
+            path: ":courseSlug/etapas/:stepId",
             element: <MyCoursePage />,
           },
         ],

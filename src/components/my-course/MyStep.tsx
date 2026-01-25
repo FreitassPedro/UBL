@@ -14,17 +14,17 @@ export const MyStep = ({ subject }: MyStepProps) => {
   const status = getProgressTheme(subject.progress);
 
   return (
-    <Link to={`/curso/${subject.id}`} className="group relative block">
+    <Link to={`/disciplinas/${subject.id}`} className="group block">
       <Card
         className={cn(
-          "relative flex flex-col sm:flex-row items-start sm:items-center gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg",
+          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
           status.border,
           status.bg,
         )}
       >
         {/* Ícone / Imagem */}
         <div className="relative shrink-0">
-          <div className="w-14 h-14 rounded-lg overflow-hidden border border-zinc-700 bg-zinc-950 shadow-inner">
+          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-lg overflow-hidden border border-zinc-700 bg-zinc-950 shadow-inner">
             <img
               src={`https://placehold.co/60x60/18181b/a1a1aa?text=${subject.name.substring(0, 2).toUpperCase()}`}
               alt={subject.name}
@@ -39,8 +39,8 @@ export const MyStep = ({ subject }: MyStepProps) => {
 
         {/* Conteúdo Principal */}
         <div className="flex-1 min-w-0 space-y-2 w-full">
-          <div className="flex items-center justify-between">
-            <h3 className="text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h3 className="text-base sm:text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
               {subject.name}
             </h3>
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const HomeHero = () => {
   return (
-    <main className="relative z-10 max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-[calc(100svh-3.5rem)] flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 py-10 sm:py-16 md:py-24 container">
+    <main className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto min-h-[calc(100svh-3.5rem)] flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 py-10 sm:py-16 md:py-24 container">
       <div className="order-2 md:order-1 flex flex-col items-center justify-center text-center md:items-start md:text-left md:flex-1">
         <h1 className="mb-6 sm:mb-7 text-[3rem] sm:text-5xl md:text-[5.1rem] lg:text-[5.6rem] font-semibold leading-none sm:leading-[0.95] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-ubl-green to-ubl-blue">
           Universidade{" "}
@@ -42,10 +42,15 @@ export const HomeHero = () => {
             size={"lg"}
             className="bg-zinc-800 text-zinc-100 hover:bg-zinc-800/90 border border-zinc-700/90"
           >
-            <Link to="" className="transition-all hover:scale-105">
+            <a
+              href="https://github.com/Universidade-Livre"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all hover:scale-105 flex items-center gap-2"
+            >
               <User className="w-4 h-4" />
               <span className="text-base sm:text-xl">Sobre nós</span>
-            </Link>
+            </a>
           </Button>
 
           <Button
@@ -69,7 +74,7 @@ export const HomeHero = () => {
             className="col-span-1 sm:col-span-2 bg-ubl-green text-zinc-100 hover:bg-ubl-green/90"
           >
             <Link
-              to="/grade-curricular"
+              to="/meu-curso"
               className="hover:scale-105 transition-all duration-300"
             >
               <BookOpen className="w-4 h-4" />

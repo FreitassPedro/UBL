@@ -110,7 +110,7 @@ const TestePage = () => {
       <div className="w-full max-w-6xl h-[85vh] grid grid-cols-1 lg:grid-cols-[2.5fr_1fr] gap-6">
         {/* --- Main Section (Current Lesson) --- */}
         <main className="flex flex-col p-8 bg-bg-card border border-bg-hover rounded-xl shadow-2xl shadow-black/40 overflow-hidden">
-          <div className="w-full h-[300px] bg-linear-to-br from-[#1e1e24] to-[#121215] border border-border-subtle rounded-xl flex items-center justify-center mb-8 relative">
+          <div className="w-full h-[300px] bg-linear-to-br from-[#1e1e24] to-[#121215] border border-border-subtle rounded-xl flex items-center justify-center mb-8">
             <div
               className="w-16 h-16 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm flex items-center justify-center cursor-pointer transition-all duration-300 
                          hover:bg-accent-primary hover:shadow-[0_0_30px_var(--tw-colors-accent-glow-bg)] hover:border-accent-primary hover:text-black"

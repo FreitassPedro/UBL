@@ -25,7 +25,7 @@ export const SubjectHeader = ({
       className={cn("border-0 p-0 gap-0", theme.border)}
       onClick={() => onToggle(stage.number)}
     >
-      <div className="group overflow-hidden border-zinc-800 bg-zinc-900 p-6 cursor-pointer">
+      <div className="group overflow-hidden border-zinc-800 bg-zinc-900 p-4 sm:p-6 cursor-pointer">
         {/* Glow */}
         <div
           className={cn(
@@ -34,7 +34,7 @@ export const SubjectHeader = ({
           )}
         />
 
-        <div className="flex gap-4 items-end justify-between">
+        <div className="flex flex-col lg:flex-row gap-6 lg:items-end lg:justify-between">
           <div className="space-y-2">
             <div
               className={cn(
@@ -46,13 +46,13 @@ export const SubjectHeader = ({
               <span>Grade curricular</span>
             </div>
 
-            <CardTitle className="text-3xl font-light text-white tracking-tight">
+            <CardTitle className="text-2xl sm:text-3xl font-light text-white tracking-tight">
               Etapa {stage.number}
             </CardTitle>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <div className="flex items-center gap-4 text-sm text-zinc-400 bg-zinc-900/30 p-3 rounded-xl border border-white/5 backdrop-blur-md">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center sm:justify-between gap-4 w-full lg:w-auto">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-sm text-zinc-400 bg-zinc-900/30 p-3 rounded-xl border border-white/5 backdrop-blur-md">
               <div className="flex items-center gap-3">
                 <div className="p-1.5 bg-zinc-800 rounded-md">
                   <BookOpen className="h-4 w-4 text-zinc-300" />
@@ -69,7 +69,7 @@ export const SubjectHeader = ({
 
               <Separator
                 orientation="vertical"
-                className="data-[orientation=vertical]:h-8 bg-zinc-800"
+                className="hidden sm:block data-[orientation=vertical]:h-8 bg-zinc-800"
               />
               <div className="flex items-center gap-3">
                 <div className="p-1.5 bg-zinc-800 rounded-md">
@@ -86,7 +86,7 @@ export const SubjectHeader = ({
               </div>
             </div>
 
-            <div className="flex items-center justify-end">
+            <div className="flex items-center justify-between sm:justify-end w-full sm:w-auto">
               <div className="px-3 py-1 text-xs uppercase tracking-wide text-zinc-300">
                 <span className="text-muted-foreground">Clique para</span>
                 <p className="text-muted">
