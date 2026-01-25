@@ -6,6 +6,11 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -46,14 +51,19 @@ export const LessonBreadcrumb = ({
         </BreadcrumbSeparator>
 
         <BreadcrumbItem className="min-w-0">
-          <BreadcrumbLink asChild>
-            <Link
-              to="/meu-curso"
-              className="hover:text-gray-200 block truncate"
-            >
-              {subjectName}
-            </Link>
-          </BreadcrumbLink>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <BreadcrumbLink asChild>
+                <Link
+                  to="/meu-curso"
+                  className="hover:text-gray-200 block truncate"
+                >
+                  {subjectName}
+                </Link>
+              </BreadcrumbLink>
+            </TooltipTrigger>
+            <TooltipContent>{subjectName}</TooltipContent>
+          </Tooltip>
         </BreadcrumbItem>
 
         <BreadcrumbSeparator>
@@ -61,9 +71,14 @@ export const LessonBreadcrumb = ({
         </BreadcrumbSeparator>
 
         <BreadcrumbItem className="min-w-0 flex-1">
-          <BreadcrumbPage className="text-gray-200 font-medium block truncate">
-            {lessonTitle}
-          </BreadcrumbPage>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <BreadcrumbPage className="text-muted-foreground font-medium block truncate">
+                {lessonTitle}
+              </BreadcrumbPage>
+            </TooltipTrigger>
+            <TooltipContent>{lessonTitle}</TooltipContent>
+          </Tooltip>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
