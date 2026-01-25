@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/tooltip";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
+import { getTheme } from "@/lib/theme";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MySubjectProgress } from "@/types/subject";
 import { useContext, useMemo, useState } from "react";
@@ -121,7 +122,7 @@ export const HomeProgress = () => {
                 className="h-50 text-left hover:border-zinc-700/80"
               >
                 <CardHeader className="p-0">
-                  <CardDescription className="font-semibold text-gray-400">
+                  <CardDescription className={`font-semibold text-gray-400 ${getTheme(course.stepNumber).text}`}>
                     {course.curriculumName} - Etapa {course.stepNumber}
                   </CardDescription>
                   <CardTitle>
