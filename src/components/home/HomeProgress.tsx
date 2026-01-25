@@ -15,6 +15,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { ProgressContext } from "@/contexts/ProgressContext";
 import { CurriculoCC } from "@/data/GradeCurricular";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
@@ -66,36 +71,36 @@ export const HomeProgress = () => {
       {watchedCourses.length !== 0 && (
         <div className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto mb-20 sm:mb-24">
           <Card className="w-full overflow-hidden border-0 bg-[#141414]">
-            <CardHeader className="p-6 sm:p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <div className="text-left">
-                <CardTitle className="mb-6 text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
+            <CardHeader className="p-6 sm:p-8">
+              <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <CardTitle className="text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
                   Continue onde parou
                 </CardTitle>
-                <CardDescription className="text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
-                  Retome rapidamente os cursos em andamento.
-                </CardDescription>
+                <div className="flex items-center gap-3">
+                  <span className="uppercase text-xs text-zinc-400">
+                    Ordenar por
+                  </span>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="w-32 cursor-pointer">
+                      <SelectValue placeholder="Ordenar por" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {sortOptions.map((option) => (
+                        <SelectItem
+                          key={option}
+                          value={option}
+                          className="cursor-pointer"
+                        >
+                          {option.charAt(0).toUpperCase() + option.slice(1)}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="uppercase text-xs text-zinc-400">
-                  Ordenar por
-                </span>
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-32 cursor-pointer">
-                    <SelectValue placeholder="Ordenar por" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {sortOptions.map((option) => (
-                      <SelectItem
-                        key={option}
-                        value={option}
-                        className="cursor-pointer"
-                      >
-                        {option.charAt(0).toUpperCase() + option.slice(1)}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
+              <CardDescription className="mt-4 text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
+                Retome rapidamente os cursos em andamento.
+              </CardDescription>
             </CardHeader>
 
             <CardContent className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -108,8 +113,15 @@ export const HomeProgress = () => {
                     <CardDescription className="font-semibold text-gray-400">
                       Etapa {course.etapaNumber}
                     </CardDescription>
-                    <CardTitle className="text-xl text-white font-semibold">
-                      {course.name}
+                    <CardTitle>
+                      <Tooltip>
+                        <TooltipTrigger className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
+                          {course.name}
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>{course.name}</p>
+                        </TooltipContent>
+                      </Tooltip>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-0 my-2">
