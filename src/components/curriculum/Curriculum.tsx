@@ -27,7 +27,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
           <div className="flex items-center gap-4">
             <GraduationCap className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">
-              {selectedCourse.curriculo}
+              {selectedCourse.name}
             </h2>
           </div>
           <Separator className="hidden md:block flex-1 bg-linear-to-r from-ubl-blue to-ubl-green rounded" />

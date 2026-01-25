@@ -1,5 +1,5 @@
 import CurriculumGraph from "@/components/node-graphs/CurriculumGraph";
-import { CurriculoCC } from "@/data/GradeCurricular";
+import { CurriculumCC } from "@/data/Curriculum";
 import { Layout } from "@/layouts/Layout";
 import { MyCourseLayout } from "@/layouts/MyCourseLayout";
 import CurriculumPage from "@/pages/CurriculumPage";
@@ -55,7 +55,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "node",
-        element: <CurriculumGraph grade={CurriculoCC} />,
+        element: <CurriculumGraph grade={CurriculumCC} />,
       },
     ],
   },

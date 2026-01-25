@@ -3,7 +3,7 @@ import { Curriculum } from "@/components/curriculum/Curriculum";
 import { CurriculumHero } from "@/components/curriculum/CurriculumHero";
 import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelector";
 import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
-import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
 import { cn } from "@/lib/utils";
 import type { Curriculum as CurriculumType } from "@/types/curriculum";
 import React from "react";
@@ -13,14 +13,13 @@ const courses: CurriculumCourse[] = [
     course: "Matemática",
     description: "Um caminho para a educação autodidata em Matemática.",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
-    color: "bg-gradient-to-r from-blue-600 to-purple-500",
+    color: "bg-gradient-to-r from-ubl-blue/90 via-blue-500/70 to-sky-400/70",
   },
   {
     course: "Ciência da Computação",
-    description:
-      "Um caminho para a educação autodidata em Ciência da Computação",
+    description: "Um caminho para a educação autodidata em Ciência da Computação",
     img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
-    color: "bg-gradient-to-r from-blue-600 to-green-700",
+    color: "bg-gradient-to-r from-ubl-green/95 via-emerald-500/85 to-green-400/80",
   },
 ];
 
@@ -43,9 +42,9 @@ const CurriculumPage = () => {
 
     setSelectedCourseIndex(index);
     if (index === 1) {
-      setSelectedGrade(CurriculoCC);
+      setSelectedGrade(CurriculumCC);
     } else {
-      setSelectedGrade(CurriculoMatematica);
+      setSelectedGrade(CurriculumMath);
     }
   };
 

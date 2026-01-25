@@ -2,7 +2,7 @@ import { Lesson } from "@/components/subject/Lesson";
 import LessonEmpty from "@/components/subject/LessonEmpty";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
 import useTitlePage from "@/hooks/useTitlePage";
 import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
 import type { MyLessonProgress } from "@/types/lesson";
@@ -18,10 +18,10 @@ export const SubjectPage = () => {
   const subject: MySubjectProgress | undefined = useMemo(() => {
     if (!id) return;
     const found =
-      CurriculoCC.steps
+      CurriculumCC.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id) ??
-      CurriculoMatematica.steps
+      CurriculumMath.steps
         .flatMap((etapa) => etapa.subjects)
         .find((c) => c.id.toString() === id);
     if (!found) return;
@@ -44,7 +44,7 @@ export const SubjectPage = () => {
         <LessonEmpty />
       ) : (
         <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter">
-          <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-6 items-stretch">
+          <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-4 items-stretch">
             <Lesson subject={subject} lesson={selectedLesson} />
             <SubjectSidebar
               subject={subject}

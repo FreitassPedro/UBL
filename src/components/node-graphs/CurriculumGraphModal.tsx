@@ -28,7 +28,7 @@ const CurriculumGraphModal = ({
       >
         <div className="py-2 px-4 bg-bg-black border-b border-white/20 justify-between flex items-center">
           <DialogTitle className="text-2xl font-semibold text-white">
-            {grade.curriculo}
+            {grade.name}
           </DialogTitle>
           <DialogClose asChild>
             <Button

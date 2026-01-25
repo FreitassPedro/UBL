@@ -1,5 +1,5 @@
 import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculoCC, CurriculoMatematica } from "@/data/GradeCurricular";
+import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
 import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
 import type { MyCurriculumProgress } from "@/types/curriculum";
 import { useContext, useMemo } from "react";
@@ -33,12 +33,12 @@ export const getCourseOptionFromSlug = (slug?: string): CourseOption | null => {
 export const useMyCourseData = () => {
   const { completedLessons } = useContext(ProgressContext);
   const computacaoProgress = useMemo(() => {
-    return mapCurriculumToMyCurriculumProgress(CurriculoCC, completedLessons);
+    return mapCurriculumToMyCurriculumProgress(CurriculumCC, completedLessons);
   }, [completedLessons]);
 
   const matematicaProgress = useMemo(() => {
     return mapCurriculumToMyCurriculumProgress(
-      CurriculoMatematica,
+      CurriculumMath,
       completedLessons,
     );
   }, [completedLessons]);

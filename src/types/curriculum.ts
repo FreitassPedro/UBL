@@ -2,7 +2,7 @@ import type { MyStepProgress, Step } from "@/types/step";
 
 export interface Curriculum {
   id: number;
-  curriculo: string;
+  name: string;
   steps: Step[];
 }
 
