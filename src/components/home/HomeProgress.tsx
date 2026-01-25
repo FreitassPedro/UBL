@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Select,
   SelectContent,
@@ -36,7 +37,6 @@ export type WatchedSubject = MySubjectProgress & {
 export const HomeProgress = () => {
   const { completedLessons } = useContext(ProgressContext);
   const [sortBy, setSortBy] = useState("etapas");
-
   const watchedSubjects = useMemo<WatchedSubject[]>(() => {
     const progresses = [
       mapCurriculumToMyCurriculumProgress(CurriculoCC, completedLessons),
@@ -111,45 +111,47 @@ export const HomeProgress = () => {
               </CardDescription>
             </CardHeader>
 
-            <CardContent className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {watchedSubjects.map((course) => (
-                <Card
-                  key={course.id}
-                  className="text-left hover:border-zinc-700/80 hover:-translate-y-1 transition duration-300"
-                >
-                  <CardHeader className="p-0">
-                    <CardDescription className="font-semibold text-gray-400">
-                      {course.curriculumName} - Etapa {course.stepNumber}
-                    </CardDescription>
-                    <CardTitle>
-                      <Tooltip>
-                        <TooltipTrigger className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
-                          {course.name}
-                        </TooltipTrigger>
-                        <TooltipContent>
-                          <p>{course.name}</p>
-                        </TooltipContent>
-                      </Tooltip>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-0 my-2">
-                    <div className="flex items-center justify-between text-gray-400 text-base">
-                      <span>Progresso</span>
-                      <span>{course.progress}%</span>
-                    </div>
-                    <Progress
-                      value={course.progress}
-                      className="my-2 bg-zinc-700"
-                    />
-                  </CardContent>
-                  <CardFooter className="p-0">
-                    <Button asChild variant="secondary" className="w-full">
-                      <Link to={`/disciplinas/${course.id}`}>Retomar</Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
-              ))}
-            </CardContent>
+            <ScrollArea className="h-58">
+              <div className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {watchedSubjects.map((course) => (
+                  <Card
+                    key={course.id}
+                    className="h-50 text-left hover:border-zinc-700/80"
+                  >
+                    <CardHeader className="p-0">
+                      <CardDescription className="font-semibold text-gray-400">
+                        {course.curriculumName} - Etapa {course.stepNumber}
+                      </CardDescription>
+                      <CardTitle>
+                        <Tooltip>
+                          <TooltipTrigger className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
+                            {course.name}
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p>{course.name}</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent className="p-0 my-2">
+                      <div className="flex items-center justify-between text-gray-400 text-base">
+                        <span>Progresso</span>
+                        <span>{course.progress}%</span>
+                      </div>
+                      <Progress
+                        value={course.progress}
+                        className="my-2 bg-zinc-700"
+                      />
+                    </CardContent>
+                    <CardFooter className="p-0">
+                      <Button asChild variant="secondary" className="w-full">
+                        <Link to={`/disciplinas/${course.id}`}>Retomar</Link>
+                      </Button>
+                    </CardFooter>
+                  </Card>
+                ))}
+              </div>
+            </ScrollArea>
           </Card>
         </div>
       )}
