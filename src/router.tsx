@@ -47,31 +47,23 @@ export const router = createBrowserRouter([
         element: <CurriculumPage />,
       },
       {
-        path: "*",
-        element: <NotFoundPage />,
-      },
-    ],
-  },
-  {
-    path: "/teste",
-    errorElement: <NotFoundPage />,
-    children: [
-      {
-        index: true,
-        element: <TestePage1 />,
-      },
-      {
-        path: "node",
-        element: <CurriculumGraph grade={CurriculumCC} />,
+        path: "/teste",
+        errorElement: <NotFoundPage />,
+        children: [
+          {
+            index: true,
+            element: <TestePage1 />,
+          },
+          {
+            path: "node",
+            element: <CurriculumGraph grade={CurriculumCC} />,
+          },
+        ],
       },
       {
         path: "*",
         element: <NotFoundPage />,
       },
     ],
-  },
-  {
-    path: "*",
-    element: <NotFoundPage />,
   },
 ]);
