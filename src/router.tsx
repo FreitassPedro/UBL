@@ -1,68 +1,93 @@
-import CurriculumGraph from "@/components/node-graphs/CurriculumGraph";
-import { CurriculumCC } from "@/data/Curriculum";
-import { Layout } from "@/layouts/Layout";
-import { MyCourseLayout } from "@/layouts/MyCourseLayout";
-import CurriculumPage from "@/pages/CurriculumPage";
-import HomePage from "@/pages/HomePage";
-import MyCoursePage from "@/pages/MyCoursePage";
-import NotFoundPage from "@/pages/NotFoundPage";
-import SubjectPage from "@/pages/SubjectPage";
-import TestePage1 from "@/pages/test/TestePage1";
+import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
+
+const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
-    errorElement: <NotFoundPage />,
+    lazy: async () => {
+      const { Layout } = await import("@/layouts/Layout");
+      return { Component: Layout };
+    },
+    errorElement: (
+      <Suspense
+        fallback={
+          <div className="flex min-h-[40vh] items-center justify-center text-zinc-200">
+            Carregando...
+          </div>
+        }
+      >
+        <NotFoundPage />
+      </Suspense>
+    ),
     children: [
       {
         index: true,
-        element: <HomePage />,
+        lazy: async () => ({
+          Component: (await import("@/pages/HomePage")).default,
+        }),
       },
       {
         path: "disciplinas/:id",
-        element: <SubjectPage />,
+        lazy: async () => ({
+          Component: (await import("@/pages/SubjectPage")).default,
+        }),
       },
       {
         path: "meu-curso",
-        element: <MyCourseLayout />,
+        lazy: async () => {
+          const { MyCourseLayout } = await import("@/layouts/MyCourseLayout");
+          return { Component: MyCourseLayout };
+        },
         children: [
           {
             index: true,
-            element: <MyCoursePage />,
+            lazy: async () => ({
+              Component: (await import("@/pages/MyCoursePage")).default,
+            }),
           },
           {
             path: ":courseSlug",
-            element: <MyCoursePage />,
+            lazy: async () => ({
+              Component: (await import("@/pages/MyCoursePage")).default,
+            }),
           },
           {
             path: ":courseSlug/etapas/:stepId",
-            element: <MyCoursePage />,
+            lazy: async () => ({
+              Component: (await import("@/pages/MyCoursePage")).default,
+            }),
           },
         ],
       },
       {
         path: "grade-curricular",
-        element: <CurriculumPage />,
+        lazy: async () => ({
+          Component: (await import("@/pages/CurriculumPage")).default,
+        }),
       },
       {
-        path: "/teste",
-        errorElement: <NotFoundPage />,
+        path: "teste",
         children: [
           {
             index: true,
-            element: <TestePage1 />,
+            lazy: async () => ({
+              Component: (await import("@/pages/test/TestePage1")).default,
+            }),
           },
           {
             path: "node",
-            element: <CurriculumGraph grade={CurriculumCC} />,
+            lazy: async () => {
+              const [{ default: CurriculumGraph }, { CurriculumCC }] =
+                await Promise.all([
+                  import("@/components/node-graphs/CurriculumGraph"),
+                  import("@/data/Curriculum"),
+                ]);
+              return { element: <CurriculumGraph grade={CurriculumCC} /> };
+            },
           },
         ],
-      },
-      {
-        path: "*",
-        element: <NotFoundPage />,
       },
     ],
   },
