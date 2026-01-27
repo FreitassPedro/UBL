@@ -1,3 +1,4 @@
+import defaultAvatar from "@/assets/defaultAvatar.jpg";
 import { createContext } from "react";
 
 export interface UserContextType {
@@ -15,7 +16,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
     <UserContext
       value={{
         name: "Estudante",
-        avatar: "https://github.com/shadcn.png",
+        avatar: defaultAvatar,
       }}
     >
       {children}
