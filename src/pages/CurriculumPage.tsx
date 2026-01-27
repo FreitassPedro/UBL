@@ -1,4 +1,6 @@
-import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
+import bannerStudyImg from "@/assets/bannerStudy.jpeg";
+import bannerCCImg from "@/assets/bannerCC.png";
+import bannerMathImg from "@/assets/bannerMath.jpeg";
 import { Curriculum } from "@/components/curriculum/Curriculum";
 import { CurriculumHero } from "@/components/curriculum/CurriculumHero";
 import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelector";
@@ -12,13 +14,13 @@ const courses: CurriculumCourse[] = [
   {
     course: "Matemática",
     description: "Um caminho para a educação autodidata em Matemática.",
-    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
+    img: bannerMathImg,
     color: "bg-gradient-to-r from-ubl-blue/90 via-blue-500/70 to-sky-400/70",
   },
   {
     course: "Ciência da Computação",
     description: "Um caminho para a educação autodidata em Ciência da Computação",
-    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
+    img: bannerCCImg,
     color: "bg-gradient-to-r from-ubl-green/95 via-emerald-500/85 to-green-400/80",
   },
 ];
@@ -59,7 +61,7 @@ const CurriculumPage = () => {
         <CurriculumHero
           title="Sua jornada começa aqui"
           description="Descubra a liberdade de aprender com nossos cursos online gratuitos, desenvolvidos para todos os níveis de conhecimento. Aprenda no seu ritmo, onde e quando quiser."
-          image={bannerstudy}
+          image={bannerStudyImg}
         />
 
         <CurriculumSelector

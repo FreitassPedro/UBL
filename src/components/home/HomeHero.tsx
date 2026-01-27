@@ -1,3 +1,4 @@
+import bannerSimpleImg from "@/assets/bannerSimple.png";
 import { Button } from "@/components/ui/button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { ArrowRight, BookOpen, Map, User } from "lucide-react";
@@ -87,8 +88,8 @@ export const HomeHero = () => {
 
       <div className="order-1 md:order-2 flex md:flex-1 md:ml-6 items-center justify-center h-full w-full mb-0 sm:mb-4 md:mb-0">
         <img
-          src="https://github.com/Universidade-Livre/imagens/blob/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-11.png?raw=true"
-          alt="Logo UBL"
+          src={bannerSimpleImg}
+          alt="Banner UBL"
           className="w-full max-w-48 sm:max-w-xs md:max-w-md lg:max-w-lg h-auto object-contain"
         />
       </div>
