@@ -1,0 +1,117 @@
+[
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 01 - Apresentação da Disciplina e Conceitos Básicos",
+    "embedUrl": "https://www.youtube.com/embed/EGn8fOf7zE0",
+    "duration": 3428
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 02 - Tipos e Estrutura de um SO",
+    "embedUrl": "https://www.youtube.com/embed/rIg23pzYuoM",
+    "duration": 4360
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 03 - Chamadas ao Sistema e Interrupções",
+    "embedUrl": "https://www.youtube.com/embed/gH76AVnnzgM",
+    "duration": 4691
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 04 - Processos e Escalonamento",
+    "embedUrl": "https://www.youtube.com/embed/mZ0Tuo1084k",
+    "duration": 3718
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 05 - Escalonamento de Processos",
+    "embedUrl": "https://www.youtube.com/embed/wjK9XbfTFLE",
+    "duration": 4662
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 06 - Escalonamento de Processos II",
+    "embedUrl": "https://www.youtube.com/embed/9Ejx0TF1_ag",
+    "duration": 3592
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 07 (Parte 1) - Escalonamento e Threads",
+    "embedUrl": "https://www.youtube.com/embed/OMPKqyISh0g",
+    "duration": 1639
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 07 (Parte 2) - Escalonamento e Threads",
+    "embedUrl": "https://www.youtube.com/embed/yRoCXndUjqE",
+    "duration": 1945
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 08 - Threads e Comunicação Interprocessos",
+    "embedUrl": "https://www.youtube.com/embed/umpOy1aA-dY",
+    "duration": 3656
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 09 - Comunicação Interprocessos",
+    "embedUrl": "https://www.youtube.com/embed/kksOIzamkrY",
+    "duration": 3814
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 10 – Comunicação Interprocessos II",
+    "embedUrl": "https://www.youtube.com/embed/kqSWZl0hJYg",
+    "duration": 4169
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 11 - Comunicação Interprocessos e Problemas Clássicos",
+    "embedUrl": "https://www.youtube.com/embed/TpjIvyxjFME",
+    "duration": 3518
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 12 - Problemas Clássicos, Multiprogramação e Memória",
+    "embedUrl": "https://www.youtube.com/embed/NMqozuVk-Ng",
+    "duration": 3356
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 13 - Memória Virtual e Paginação",
+    "embedUrl": "https://www.youtube.com/embed/lHUoI4voHZI",
+    "duration": 4535
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 14 - Paginação",
+    "embedUrl": "https://www.youtube.com/embed/gLleQXaEfWA",
+    "duration": 3854
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 15 - TLB, Alocação e Troca de Páginas",
+    "embedUrl": "https://www.youtube.com/embed/E_y2KE0c9FQ",
+    "duration": 4477
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 16 - Troca de Página e Implementação de Paginação",
+    "embedUrl": "https://www.youtube.com/embed/xxgw-Db2HEU",
+    "duration": 3371
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 17 - Paginação, Segmentação e Dispositivos de Entrada e Saída",
+    "embedUrl": "https://www.youtube.com/embed/tI8rrzcu9is",
+    "duration": 3930
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 18 - Dispositivos de Entrada e Saída II",
+    "embedUrl": "https://www.youtube.com/embed/4UsT7E4z8Qs",
+    "duration": 2830
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 19 - Hardware de Disco e Relógio",
+    "embedUrl": "https://www.youtube.com/embed/Mvfye48Oh18",
+    "duration": 4582
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 20 - Sistema de Arquivos",
+    "embedUrl": "https://www.youtube.com/embed/yqXQW1TCres",
+    "duration": 4302
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 21 - Sistema de Arquivos II",
+    "embedUrl": "https://www.youtube.com/embed/DcZtfayCTr0",
+    "duration": 4677
+  },
+  {
+    "title": "ACH2044 - Sistemas Operacionais: Aula 22 - Segurança",
+    "embedUrl": "https://www.youtube.com/embed/dSVlv2Ksr8A",
+    "duration": 5491
+  }
+]

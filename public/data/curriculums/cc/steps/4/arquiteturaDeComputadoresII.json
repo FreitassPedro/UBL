@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Apresentação da Disciplina Arquitetura de Computadores II da Unicamp",
+    "embedUrl": "https://www.youtube.com/embed/jX1g1MjNIHI",
+    "duration": 1121
+  },
+  {
+    "title": "Benchmarks e Ferramentas",
+    "embedUrl": "https://www.youtube.com/embed/NThFjzeBwr8",
+    "duration": 1012
+  },
+  {
+    "title": "O processador RISC-V",
+    "embedUrl": "https://www.youtube.com/embed/rn5TT7VuFQ0",
+    "duration": 911
+  },
+  {
+    "title": "Visão Geral dos Conceitos da Disciplina",
+    "embedUrl": "https://www.youtube.com/embed/lA_yc1dxYhY",
+    "duration": 1058
+  },
+  {
+    "title": "Tipos de Processadores",
+    "embedUrl": "https://www.youtube.com/embed/xJ-_WfiILmk",
+    "duration": 1190
+  },
+  {
+    "title": "Descrição do Simulador do RISC-V",
+    "embedUrl": "https://www.youtube.com/embed/Bz4KOHIiAaI",
+    "duration": 441
+  },
+  {
+    "title": "Cache - Visão Geral",
+    "embedUrl": "https://www.youtube.com/embed/678x_oZmLp8",
+    "duration": 1634
+  },
+  {
+    "title": "Estrutura e Organização de Múltiplos Níveis de Cache",
+    "embedUrl": "https://www.youtube.com/embed/hredPwpVdF8",
+    "duration": 1036
+  },
+  {
+    "title": "Memória Virtual",
+    "embedUrl": "https://www.youtube.com/embed/xYTz_ZiZVFI",
+    "duration": 1642
+  },
+  {
+    "title": "Implementação de Caches",
+    "embedUrl": "https://www.youtube.com/embed/7WAVftfDvVY",
+    "duration": 1377
+  },
+  {
+    "title": "Unidade de Busca de Instruções (Fetch Unit)",
+    "embedUrl": "https://www.youtube.com/embed/cFOkyFrRUmk",
+    "duration": 1004
+  },
+  {
+    "title": "Preditores de desvios locais (Local Branch Predictor)",
+    "embedUrl": "https://www.youtube.com/embed/7Z9fbBV3Ozo",
+    "duration": 1532
+  },
+  {
+    "title": "Preditor de Desvio de Correlação (gshare)",
+    "embedUrl": "https://www.youtube.com/embed/tVTbAqLXBhU",
+    "duration": 827
+  },
+  {
+    "title": "Concluindo a Unidade de Busca de Instruções",
+    "embedUrl": "https://www.youtube.com/embed/wvYZAtPF664",
+    "duration": 705
+  },
+  {
+    "title": "Decodificando Instruções num Processador",
+    "embedUrl": "https://www.youtube.com/embed/l1IQqoDoaBg",
+    "duration": 889
+  },
+  {
+    "title": "Formatos de Instruções",
+    "embedUrl": "https://www.youtube.com/embed/-m3ZQDqMwEA",
+    "duration": 720
+  },
+  {
+    "title": "Pipeline de Decodificação de Instruções",
+    "embedUrl": "https://www.youtube.com/embed/blQD6h8FJ4A",
+    "duration": 612
+  },
+  {
+    "title": "Impacto do Conjunto de Instruções de um Processador",
+    "embedUrl": "https://www.youtube.com/embed/PI0T7r6imCU",
+    "duration": 865
+  },
+  {
+    "title": "Estágio de Allocation e Dependência de Dados",
+    "embedUrl": "https://www.youtube.com/embed/jeX1lBFIKqQ",
+    "duration": 541
+  },
+  {
+    "title": "Exemplo de Dependências de Dados",
+    "embedUrl": "https://www.youtube.com/embed/qw1yHpjIETY",
+    "duration": 615
+  },
+  {
+    "title": "Implementação de Register Renaming",
+    "embedUrl": "https://www.youtube.com/embed/myX_bwYbMHc",
+    "duration": 1408
+  },
+  {
+    "title": "Visão Geral sobre o Despacho de Instruções (Issue) de um Processador Superescalar",
+    "embedUrl": "https://www.youtube.com/embed/0Z5iVTvprCs",
+    "duration": 809
+  },
+  {
+    "title": "Leitura de Dados antes do Despacho de Instruções",
+    "embedUrl": "https://www.youtube.com/embed/RPBXP8XT3ok",
+    "duration": 1531
+  },
+  {
+    "title": "Despacho de Instruções com Leitura de Dados Posterior",
+    "embedUrl": "https://www.youtube.com/embed/09lWAJGLafA",
+    "duration": 827
+  },
+  {
+    "title": "Despacho de Instruções de Memória",
+    "embedUrl": "https://www.youtube.com/embed/gkp8RbUy3Jc",
+    "duration": 1595
+  },
+  {
+    "title": "As Unidades Funcionais do Estágio de Execução",
+    "embedUrl": "https://www.youtube.com/embed/lsQVfqPOSAA",
+    "duration": 1555
+  },
+  {
+    "title": "Rede de Bypass das Unidades Funcionais do Processador",
+    "embedUrl": "https://www.youtube.com/embed/etZJI7AAXo0",
+    "duration": 1270
+  },
+  {
+    "title": "Clustering de Unidades Funcionais no Processador",
+    "embedUrl": "https://www.youtube.com/embed/cvHJx14Fy14",
+    "duration": 489
+  },
+  {
+    "title": "Estágio de Commit do Processador",
+    "embedUrl": "https://www.youtube.com/embed/RHbykjvDQ4M",
+    "duration": 1033
+  },
+  {
+    "title": "Recuperando de falhas e liberando recursos no estágio de commit",
+    "embedUrl": "https://www.youtube.com/embed/NAY3-hXml54",
+    "duration": 727
+  },
+  {
+    "title": "Desempenho de Computadores: Execução Serial",
+    "embedUrl": "https://www.youtube.com/embed/Pfxm8GPJSm0",
+    "duration": 715
+  },
+  {
+    "title": "Desempenho de Sistemas Computacionais: Execução Paralela",
+    "embedUrl": "https://www.youtube.com/embed/xrgrck-nb8s",
+    "duration": 1355
+  },
+  {
+    "title": "Workload Design",
+    "embedUrl": "https://www.youtube.com/embed/M93Ai6uKO4g",
+    "duration": 1031
+  },
+  {
+    "title": "Reducing Workload",
+    "embedUrl": "https://www.youtube.com/embed/tbsnV52ogY8",
+    "duration": 1910
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Aula 1 - Introdução - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/4sS1BMeJsEc",
+    "duration": 21713
+  },
+  {
+    "title": "Aula 2 - Camada de Aplicação - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/dgwzJ1SOdEM",
+    "duration": 20581
+  },
+  {
+    "title": "Aula 3 - Camada de Transporte - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/Wl0NI17Lj2c",
+    "duration": 16299
+  },
+  {
+    "title": "Aula 4 - Camada de Rede: Plano de Dados - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/fg2cWHFY_Q4",
+    "duration": 12847
+  },
+  {
+    "title": "Aula 5 - Camada de Rede: Plano de Controle - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/qNgA8vTHfgQ",
+    "duration": 8860
+  },
+  {
+    "title": "Aula 6 - Camada de Enlace - Redes de Computadores (áudio corrigido)",
+    "embedUrl": "https://www.youtube.com/embed/nZan2yTamJw",
+    "duration": 16106
+  },
+  {
+    "title": "Aula 7 - Redes Sem Fio - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/yDp_ms_Cu2M",
+    "duration": 9870
+  },
+  {
+    "title": "Aula 8 - Segurança de Redes - Redes de Computadores",
+    "embedUrl": "https://www.youtube.com/embed/VZGOapKSeFM",
+    "duration": 11750
+  }
+]

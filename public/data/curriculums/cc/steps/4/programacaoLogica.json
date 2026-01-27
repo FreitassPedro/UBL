@@ -1,0 +1,57 @@
+[
+  {
+    "title": "01 - Prolog - Introdução ao Prolog",
+    "embedUrl": "https://www.youtube.com/embed/x_ahRnd1gTI",
+    "duration": 1001
+  },
+  {
+    "title": "02 - Prolog - Fatos e Regras",
+    "embedUrl": "https://www.youtube.com/embed/Qn1KKsaPD80",
+    "duration": 1405
+  },
+  {
+    "title": "03 - Prolog - Exercícios sobre Fatos e Regras",
+    "embedUrl": "https://www.youtube.com/embed/0zgnF5bJ6VM",
+    "duration": 1172
+  },
+  {
+    "title": "04 - Prolog - Manipulação da base de conhecimento",
+    "embedUrl": "https://www.youtube.com/embed/1re0PfcGJic",
+    "duration": 1092
+  },
+  {
+    "title": "05 - Prolog - Aritmética",
+    "embedUrl": "https://www.youtube.com/embed/qk9kWSsfDMA",
+    "duration": 1384
+  },
+  {
+    "title": "06 - Prolog - Recursão",
+    "embedUrl": "https://www.youtube.com/embed/wXUOCDTWR9A",
+    "duration": 1599
+  },
+  {
+    "title": "07 - Prolog - Comando de corte",
+    "embedUrl": "https://www.youtube.com/embed/IjrSlcYZZqU",
+    "duration": 1795
+  },
+  {
+    "title": "08 - Prolog - Fail e Repeat",
+    "embedUrl": "https://www.youtube.com/embed/LsFbdODtk9U",
+    "duration": 1057
+  },
+  {
+    "title": "09 - Prolog - Listas",
+    "embedUrl": "https://www.youtube.com/embed/1KfhlylEcLI",
+    "duration": 1558
+  },
+  {
+    "title": "10 - Prolog - Exercício sobre corte e recursão",
+    "embedUrl": "https://www.youtube.com/embed/c3wQXmObcaA",
+    "duration": 978
+  },
+  {
+    "title": "11 - Prolog - Exercício sobre Listas",
+    "embedUrl": "https://www.youtube.com/embed/66SbQMXutbg",
+    "duration": 1472
+  }
+]

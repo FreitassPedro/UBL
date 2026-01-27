@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Álgebra Linear - Apresentação",
+    "embedUrl": "https://www.youtube.com/embed/WsLmdMPU3Rc",
+    "duration": 185
+  },
+  {
+    "title": "Álgebra Linear - Aula 01 - Matrizes e Determinantes  (Parte 1)",
+    "embedUrl": "https://www.youtube.com/embed/r1o7RryS8WM",
+    "duration": 1319
+  },
+  {
+    "title": "Álgebra Linear - Aula 02 - Matrizes e Determinantes (Parte 2)",
+    "embedUrl": "https://www.youtube.com/embed/u4xKswRO4bQ",
+    "duration": 1262
+  },
+  {
+    "title": "Álgebra Linear - Aula 03 - Equações",
+    "embedUrl": "https://www.youtube.com/embed/nPds6INVaEo",
+    "duration": 500
+  },
+  {
+    "title": "Álgebra Linear - Aula 04 - Sistemas de Equações Lineares",
+    "embedUrl": "https://www.youtube.com/embed/oGYDPxcNMmw",
+    "duration": 1472
+  },
+  {
+    "title": "Álgebra Linear - Aula 05 - Vetores e espaço vetorial",
+    "embedUrl": "https://www.youtube.com/embed/FAJ5DFY6d0k",
+    "duration": 1194
+  },
+  {
+    "title": "Álgebra Linear - Aula 06 - Base, mudança de base",
+    "embedUrl": "https://www.youtube.com/embed/lQT17sdopbA",
+    "duration": 1341
+  },
+  {
+    "title": "Álgebra Linear - Aula 07 - Transformações Lineares",
+    "embedUrl": "https://www.youtube.com/embed/FcNZNzdOugY",
+    "duration": 1100
+  },
+  {
+    "title": "Álgebra Linear - Aula 08 - Transformações lineares planas",
+    "embedUrl": "https://www.youtube.com/embed/NrzNe_AJeCs",
+    "duration": 928
+  },
+  {
+    "title": "Álgebra Linear - Aula 09 - Transformações lineares no espaço",
+    "embedUrl": "https://www.youtube.com/embed/FW7VQEubh3w",
+    "duration": 1041
+  },
+  {
+    "title": "Álgebra Linear - Aula 10 - Resolução de exercícios e operadores lineares",
+    "embedUrl": "https://www.youtube.com/embed/wm4Vlu9LFCg",
+    "duration": 1127
+  },
+  {
+    "title": "Álgebra Linear - Aula 11 - Autovalores e Autovetores",
+    "embedUrl": "https://www.youtube.com/embed/SazzwSJPd_g",
+    "duration": 1150
+  },
+  {
+    "title": "Álgebra Linear - Aula 12 - Autovalores e Autovetores - Aplicações",
+    "embedUrl": "https://www.youtube.com/embed/h_cKoTIEgHg",
+    "duration": 480
+  },
+  {
+    "title": "Álgebra Linear - Aula 13 - Espaços vetoriais com produtos internos",
+    "embedUrl": "https://www.youtube.com/embed/0D-8NoSYPPk",
+    "duration": 1455
+  },
+  {
+    "title": "Álgebra Linear - Aula 14 - Espaços vetoriais com produtos internos - aplicações",
+    "embedUrl": "https://www.youtube.com/embed/ngQp4Uh84Pk",
+    "duration": 695
+  }
+]

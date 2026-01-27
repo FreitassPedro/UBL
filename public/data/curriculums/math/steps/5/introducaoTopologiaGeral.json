@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Aula 01: Espaços Topológicos e Fechados",
+    "embedUrl": "https://www.youtube.com/embed/-MquLI7EXqE",
+    "duration": 5674
+  },
+  {
+    "title": "Aula 02: Fecho, Interior, Fronteira e Bases.",
+    "embedUrl": "https://www.youtube.com/embed/CTDdW-Vy_nI",
+    "duration": 4525
+  },
+  {
+    "title": "Aula 03: Axiomas de Separação",
+    "embedUrl": "https://www.youtube.com/embed/5g6luM4aNh8",
+    "duration": 5771
+  },
+  {
+    "title": "Aula 04: Axiomas de Enumerabilidade",
+    "embedUrl": "https://www.youtube.com/embed/xIMi2Mh98NI",
+    "duration": 5251
+  },
+  {
+    "title": "Aula 05: Funções Contínuas e Homeomorfismos",
+    "embedUrl": "https://www.youtube.com/embed/i8jiMft0c2Y",
+    "duration": 4769
+  },
+  {
+    "title": "Extra: Caracterização da Reta com a Topologia da Ordem",
+    "embedUrl": "https://www.youtube.com/embed/O0B4H6x2KMU",
+    "duration": 3160
+  },
+  {
+    "title": "Aula 06: Extensão de Funções",
+    "embedUrl": "https://www.youtube.com/embed/cUWa1HEpq_k",
+    "duration": 5101
+  },
+  {
+    "title": "Aula 07: Lema de Urysohn e Teorema de Tietze",
+    "embedUrl": "https://www.youtube.com/embed/XU__D9Ma76c",
+    "duration": 3841
+  },
+  {
+    "title": "Aula 08: Topologia Produto",
+    "embedUrl": "https://www.youtube.com/embed/Wl1Z4dk1Tak",
+    "duration": 5756
+  },
+  {
+    "title": "Extra: Teorema da Imersão",
+    "embedUrl": "https://www.youtube.com/embed/tECynckI-8w",
+    "duration": 2209
+  },
+  {
+    "title": "Aula 09: Topologia Quociente",
+    "embedUrl": "https://www.youtube.com/embed/yVjLA7R4MzY",
+    "duration": 4640
+  },
+  {
+    "title": "Aula 10: Espaços Compactos",
+    "embedUrl": "https://www.youtube.com/embed/rVU27o7jAY4",
+    "duration": 6579
+  },
+  {
+    "title": "Aula 11: Teorema de Tychonoff e algumas caracterizações",
+    "embedUrl": "https://www.youtube.com/embed/eQkfTDrmpy8",
+    "duration": 7529
+  },
+  {
+    "title": "Aula 12: Espaços Conexos",
+    "embedUrl": "https://www.youtube.com/embed/-8iTLyGichU",
+    "duration": 4710
+  },
+  {
+    "title": "Aula 13: Componentes, Conexidade por Caminhos e Propriedades Locais de Conexidade",
+    "embedUrl": "https://www.youtube.com/embed/H2iwga-lMNw",
+    "duration": 5140
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Projeto e Análise de Algoritmos - Apresentação da disciplina",
+    "embedUrl": "https://www.youtube.com/embed/kKgWNDAYJOw",
+    "duration": 239
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 01 - Introdução ao projeto e análise de algoritmos",
+    "embedUrl": "https://www.youtube.com/embed/186lPQE-h64",
+    "duration": 1627
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 02 - Análise assintótica: ordens O, Ω e Θ - Parte I",
+    "embedUrl": "https://www.youtube.com/embed/ojCAnD7vrOY",
+    "duration": 1675
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 03 - Análise assintótica: ordens O, Ω e Θ   Parte II",
+    "embedUrl": "https://www.youtube.com/embed/DNX4sTlrfwo",
+    "duration": 1655
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 04 - Divisão e conquista - Equações de recorrência",
+    "embedUrl": "https://www.youtube.com/embed/eTYN65ap_cU",
+    "duration": 1107
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 05 - Solução de recorrências (Parte I)",
+    "embedUrl": "https://www.youtube.com/embed/sb6Sy3hJphc",
+    "duration": 1342
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 06 - Solução de recorrências (Parte II)",
+    "embedUrl": "https://www.youtube.com/embed/34fb0LBpUkQ",
+    "duration": 1367
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 07 - A estrutura de dados heap",
+    "embedUrl": "https://www.youtube.com/embed/hyedRznKnjQ",
+    "duration": 1274
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 08 - Algoritmos Heapsort e Quicksort",
+    "embedUrl": "https://www.youtube.com/embed/KtlWBhaygH8",
+    "duration": 1447
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 09 - Limite inferior para o problema de ordenação",
+    "embedUrl": "https://www.youtube.com/embed/tVjVaO3KD0w",
+    "duration": 1034
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 10 - Ordenação em tempo linear",
+    "embedUrl": "https://www.youtube.com/embed/NlSM_9U1j6I",
+    "duration": 1273
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 11 - Conceitos básicos e representação de grafos",
+    "embedUrl": "https://www.youtube.com/embed/b9EEZcLoWko",
+    "duration": 1290
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 12 - Algoritmos de busca em largura e profundidade em grafos",
+    "embedUrl": "https://www.youtube.com/embed/dQ42rha2qFA",
+    "duration": 1448
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 13 - Problema do caminho mais curto",
+    "embedUrl": "https://www.youtube.com/embed/02fSc7kJ_NE",
+    "duration": 1363
+  },
+  {
+    "title": "Projeto e Análise de Algoritmos - Aula 14 - Classes de problemas: Problemas P, NP e NP-completos",
+    "embedUrl": "https://www.youtube.com/embed/wsvXnmUHJX8",
+    "duration": 1336
+  }
+]

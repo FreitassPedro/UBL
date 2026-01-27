@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Bancos de Dados - Aula 01 - Visão geral sobre banco de dados e motivação",
+    "embedUrl": "https://www.youtube.com/embed/pmAxIs5U1KI",
+    "duration": 1387
+  },
+  {
+    "title": "Bancos de Dados - Aula 02 – Modelo Entidade-Relacionamento (MER) - Parte I",
+    "embedUrl": "https://www.youtube.com/embed/oPlXecD-gZM",
+    "duration": 1164
+  },
+  {
+    "title": "Bancos de Dados - Aula 03 – Modelo Entidade-Relacionamento (MER) - Parte II",
+    "embedUrl": "https://www.youtube.com/embed/KFIATc9nTrQ",
+    "duration": 1441
+  },
+  {
+    "title": "Bancos de Dados - Aula 04 – Modelo Entidade - Relacionamento estendido",
+    "embedUrl": "https://www.youtube.com/embed/39058AQgBuA",
+    "duration": 1004
+  },
+  {
+    "title": "Bancos de Dados - Aula 05 – Modelo Relacional (R) –  características, formalização e restrições",
+    "embedUrl": "https://www.youtube.com/embed/yLuJbXcAvoc",
+    "duration": 1533
+  },
+  {
+    "title": "Bancos de Dados - Aula 06 – Mapeamento MER → Relacional  - Parte I: entidades, atributos, chaves",
+    "embedUrl": "https://www.youtube.com/embed/cQP-k9farRk",
+    "duration": 1114
+  },
+  {
+    "title": "Bancos de Dados - Aula 07 - Mapeamento MER → Relacional  - Parte II: relacionamentos, cardinalidades",
+    "embedUrl": "https://www.youtube.com/embed/HXNQEfG4-mA",
+    "duration": 889
+  },
+  {
+    "title": "Bancos de Dados - Aula 08 – Mapeamento MER → Relacional - Parte III",
+    "embedUrl": "https://www.youtube.com/embed/JKOGucl3KF0",
+    "duration": 1374
+  },
+  {
+    "title": "Bancos de Dados - Aula 09 - Ferramentas CASE para modelagem de banco de dados",
+    "embedUrl": "https://www.youtube.com/embed/sau3lHggfwE",
+    "duration": 1460
+  },
+  {
+    "title": "Bancos de Dados - Aula 10 – Linguagem de consulta – Álgebra Relacional - Parte I",
+    "embedUrl": "https://www.youtube.com/embed/jhD9WYNWorA",
+    "duration": 1877
+  },
+  {
+    "title": "Bancos de Dados - Aula 11 - Linguagem de consulta – Álgebra Relacional - Parte II",
+    "embedUrl": "https://www.youtube.com/embed/mjjjwrh6_6Q",
+    "duration": 1257
+  },
+  {
+    "title": "Bancos de Dados - Aula 12 - Linguagem de consulta – Cálculo Relacional",
+    "embedUrl": "https://www.youtube.com/embed/doJ1dI00Xbg",
+    "duration": 1664
+  },
+  {
+    "title": "Bancos de Dados - Aula 13 - Linguagem de consulta – SQL Parte I",
+    "embedUrl": "https://www.youtube.com/embed/-HSyOYvksVw",
+    "duration": 1220
+  },
+  {
+    "title": "Bancos de Dados - Aula 14 - Linguagem de consulta – SQL Parte II",
+    "embedUrl": "https://www.youtube.com/embed/XnS8XCXPkuk",
+    "duration": 1421
+  },
+  {
+    "title": "Bancos de Dados - Aula 15 - Linguagem de consulta – SQL Parte III",
+    "embedUrl": "https://www.youtube.com/embed/oFti3s_Lc_o",
+    "duration": 1155
+  },
+  {
+    "title": "Bancos de Dados - Aula 16 - Linguagem de consulta – SQL Parte IV",
+    "embedUrl": "https://www.youtube.com/embed/qxoBxi7LpXk",
+    "duration": 1486
+  },
+  {
+    "title": "Bancos de Dados - Aula 17 - Diretrizes informais para  um bom projeto de banco de dados",
+    "embedUrl": "https://www.youtube.com/embed/1Pcgwf5q9d4",
+    "duration": 1488
+  },
+  {
+    "title": "Bancos de Dados - Aula 18 - Dependências Funcionais",
+    "embedUrl": "https://www.youtube.com/embed/KuakqxxghF8",
+    "duration": 1566
+  },
+  {
+    "title": "Bancos de Dados - Aula 19 - Formas Normais – Parte I",
+    "embedUrl": "https://www.youtube.com/embed/Bt4UzD6yjF4",
+    "duration": 1359
+  },
+  {
+    "title": "Bancos de Dados - Aula 20 - Formas Normais – Parte II",
+    "embedUrl": "https://www.youtube.com/embed/pIvuT6YMtDI",
+    "duration": 1366
+  },
+  {
+    "title": "Bancos de Dados  - Aula 21 - Aspectos de Segurança para  Bancos de Dados",
+    "embedUrl": "https://www.youtube.com/embed/tvEpRQinYk4",
+    "duration": 1369
+  },
+  {
+    "title": "Bancos de Dados - Aula 22 - Noções sobre Processamento de Consultas",
+    "embedUrl": "https://www.youtube.com/embed/pKlSEKNhYfc",
+    "duration": 1558
+  },
+  {
+    "title": "Bancos de Dados  - Aula 23 - Arquiteturas de Bancos de Dados",
+    "embedUrl": "https://www.youtube.com/embed/FgxWsxXXYD8",
+    "duration": 1812
+  },
+  {
+    "title": "Bancos de Dados - Aula 24 - Transações",
+    "embedUrl": "https://www.youtube.com/embed/3FgsyHRG4SQ",
+    "duration": 1634
+  },
+  {
+    "title": "Bancos de Dados - Aula 25 - Controle de concorrência – Parte I",
+    "embedUrl": "https://www.youtube.com/embed/zhL3pp4NdDY",
+    "duration": 1390
+  },
+  {
+    "title": "Bancos de Dados - Aula 26 - Controle de concorrência – Parte II",
+    "embedUrl": "https://www.youtube.com/embed/5IlGUIvRu3k",
+    "duration": 1427
+  },
+  {
+    "title": "Bancos de Dados - Aula 27 - Recuperação de falhas – Parte I",
+    "embedUrl": "https://www.youtube.com/embed/YgaOjbVeza0",
+    "duration": 1397
+  },
+  {
+    "title": "Bancos de Dados - Aula 28 - Recuperação de falhas – Parte II",
+    "embedUrl": "https://www.youtube.com/embed/r0wbNxHhAW8",
+    "duration": 1707
+  }
+]
