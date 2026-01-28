@@ -1,4 +1,4 @@
-import type RawVideo from "../interfaces/raw-video.ts";
+import type Video from "../interfaces/video.ts";
 
 export default class YoutubeService {
   private readonly apiKey: string;
@@ -11,12 +11,12 @@ export default class YoutubeService {
     return new URL(url).searchParams.get("list");
   }
 
-  public async getVideos(playlistId: string | null): Promise<RawVideo[]> {
+  public async getVideos(playlistId: string | null): Promise<Video[]> {
     if (!playlistId) {
       return [];
     }
 
-    let videos: RawVideo[] = [];
+    let videos: Video[] = [];
     let pageToken: string | undefined;
     do {
       const params = new URLSearchParams({
@@ -35,7 +35,7 @@ export default class YoutubeService {
       );
 
       const data = await response.json();
-      videos.push(...(data.items as RawVideo[]));
+      videos.push(...(data.items as Video[]));
       pageToken = data.nextPageToken;
     } while (pageToken);
     return videos;

@@ -1,350 +1,420 @@
 [
   {
+    "id": 349,
     "title": "Cálculo II - Aula 1 - Polinômios de Taylor, funções de uma variável real",
     "embedUrl": "https://www.youtube.com/embed/4elA1yVc5oo",
     "duration": 2034
   },
   {
+    "id": 350,
     "title": "Cálculo II - Aula 2 - parte 1 - Fórmula de Taylor com resto de Lagrange de funções de uma v",
     "embedUrl": "https://www.youtube.com/embed/g3D2nSqYPc8",
     "duration": 1386
   },
   {
+    "id": 351,
     "title": "Cálculo II - Aula 2 - parte 2 - Fórmula de Taylor com resto de Lagrange de funções de uma v",
     "embedUrl": "https://www.youtube.com/embed/IkRDGHww1wU",
     "duration": 1881
   },
   {
+    "id": 352,
     "title": "Cálculo II - Aula 2 - parte 3 - Fórmula de Taylor com resto de Lagrange de funções de uma v",
     "embedUrl": "https://www.youtube.com/embed/A0uIM-lEUJs",
     "duration": 1568
   },
   {
+    "id": 353,
     "title": "Cálculo II - Aula 3 - parte 1 - Parametrizações de curvas planas",
     "embedUrl": "https://www.youtube.com/embed/1EbCIC8awLw",
     "duration": 1415
   },
   {
+    "id": 354,
     "title": "Cálculo II - Aula 3 - parte 2 - Parametrizações de curvas planas",
     "embedUrl": "https://www.youtube.com/embed/k6FkKVwAGJw",
     "duration": 1418
   },
   {
+    "id": 355,
     "title": "Cálculo II - Aula 3 - parte 3 - Parametrizações de curvas planas",
     "embedUrl": "https://www.youtube.com/embed/0DUb0iln_hE",
     "duration": 1985
   },
   {
+    "id": 356,
     "title": "Cálculo II - Aula 4 - parte 1 - Funções de duas variáveis reais a valores reais",
     "embedUrl": "https://www.youtube.com/embed/Zhx0pi6EVYY",
     "duration": 1541
   },
   {
+    "id": 357,
     "title": "Cálculo II - Aula 4 - parte 2 - Funções de duas variáveis reais a valores reais",
     "embedUrl": "https://www.youtube.com/embed/DGGCjA94-To",
     "duration": 1446
   },
   {
+    "id": 358,
     "title": "Cálculo II - Aula 4 - parte 3 - Funções de duas variáveis reais a valores reais",
     "embedUrl": "https://www.youtube.com/embed/h0Cp-pwIm_U",
     "duration": 1541
   },
   {
+    "id": 359,
     "title": "Cálculo II - Aula 5 - Parte 1 - Continuidade e cálculo de limites de funções de duas variá",
     "embedUrl": "https://www.youtube.com/embed/y3tHEp--YOA",
     "duration": 1462
   },
   {
+    "id": 360,
     "title": "Cálculo II - Aula 5 - Parte 2 - Continuidade e cálculo de limites de funções de duas variá",
     "embedUrl": "https://www.youtube.com/embed/-bhggVDsl2g",
     "duration": 1761
   },
   {
+    "id": 361,
     "title": "Cálculo II - Aula 5 - Parte 3 - Continuidade e cálculo de limites de funções de 2 variáveis",
     "embedUrl": "https://www.youtube.com/embed/Wn1BM3gDIdE",
     "duration": 1906
   },
   {
+    "id": 362,
     "title": "Cálculo II - Aula 6 - Parte 1 - Continuidade e cálculo de limites de funções de duas variá",
     "embedUrl": "https://www.youtube.com/embed/8CPS8DjxvZY",
     "duration": 1639
   },
   {
+    "id": 363,
     "title": "Cálculo II - Aula 6 - Parte 2 - Continuidade e cálculo de limites de funções de duas variá",
     "embedUrl": "https://www.youtube.com/embed/P0XdmntNkak",
     "duration": 1333
   },
   {
+    "id": 364,
     "title": "Cálculo II - Aula 6 - Parte 3 - Continuidade e cálculo de limites de funções de duas variá",
     "embedUrl": "https://www.youtube.com/embed/nkXJq1uS0xc",
     "duration": 1590
   },
   {
+    "id": 365,
     "title": "Cálculo II - Aula 7 - Parte 1 - Resolução de problemas e exercícios da lista 1",
     "embedUrl": "https://www.youtube.com/embed/B4Fk2Wv4AnQ",
     "duration": 2097
   },
   {
+    "id": 366,
     "title": "Cálculo II - Aula 7 - Parte 2 - Resolução de problemas e exercícios da lista 1",
     "embedUrl": "https://www.youtube.com/embed/RzBQPhYa3ic",
     "duration": 1717
   },
   {
+    "id": 367,
     "title": "Cálculo II - Aula 8 - Parte 1 - Resolução de problemas e exercícios da lista 1 (II)",
     "embedUrl": "https://www.youtube.com/embed/LiPK16swuIM",
     "duration": 1557
   },
   {
+    "id": 368,
     "title": "Cálculo II - Aula 8 - Parte 2 - Resolução de problemas e exercícios da lista 1 (II)",
     "embedUrl": "https://www.youtube.com/embed/ZaWsJBygjtU",
     "duration": 1503
   },
   {
+    "id": 369,
     "title": "Cálculo II - Aula 8 - Parte 3 - Resolução de problemas e exercícios da lista 1 (II)",
     "embedUrl": "https://www.youtube.com/embed/YJbL3R5z7DA",
     "duration": 1328
   },
   {
+    "id": 370,
     "title": "Cálculo II - Aula 9 - Parte 1 - Derivadas Parciais",
     "embedUrl": "https://www.youtube.com/embed/J_3v4ecm8Dg",
     "duration": 1988
   },
   {
+    "id": 371,
     "title": "Cálculo II - Aula 9 - Parte 2 - Derivadas Parciais",
     "embedUrl": "https://www.youtube.com/embed/RB817qsQR8E",
     "duration": 1456
   },
   {
+    "id": 372,
     "title": "Cálculo II - Aula 9 - Parte 3 - Derivadas Parciais",
     "embedUrl": "https://www.youtube.com/embed/q38OP08yZrg",
     "duration": 1779
   },
   {
+    "id": 373,
     "title": "Cálculo II - Aula 10 - Parte 1 - Diferenciabilidade de funções de duas variáveis",
     "embedUrl": "https://www.youtube.com/embed/ZYgEtOYWoVY",
     "duration": 1742
   },
   {
+    "id": 374,
     "title": "Cálculo II - Aula 10 - Parte 2 - Diferenciabilidade de funções de duas variáveis",
     "embedUrl": "https://www.youtube.com/embed/7iUQ7q1Fu3o",
     "duration": 1283
   },
   {
+    "id": 375,
     "title": "Cálculo II - Aula 10 - Parte 3 - Diferenciabilidade de funções de duas variáveis",
     "embedUrl": "https://www.youtube.com/embed/frVjtEXG8DA",
     "duration": 1478
   },
   {
+    "id": 376,
     "title": "Cálculo II - Aula 11 - Parte 1 - Condições suficientes para que uma função de duas variáv",
     "embedUrl": "https://www.youtube.com/embed/-3oPKOgb9mY",
     "duration": 2127
   },
   {
+    "id": 377,
     "title": "Cálculo II - Aula 11 - Parte 2 - Condições suficientes para que uma função de duas variáv",
     "embedUrl": "https://www.youtube.com/embed/CiVUOfLKZ3I",
     "duration": 1488
   },
   {
+    "id": 378,
     "title": "Cálculo II - Aula 12 - Parte 1 - Regra da Cadeia. Gradiente.",
     "embedUrl": "https://www.youtube.com/embed/7BrraT4pJKM",
     "duration": 1833
   },
   {
+    "id": 379,
     "title": "Cálculo II - Aula 12 - Parte 2 - Regra da Cadeia. Gradiente.",
     "embedUrl": "https://www.youtube.com/embed/LpXzOTZ-A-I",
     "duration": 1225
   },
   {
+    "id": 380,
     "title": "Cálculo II - Aula 12 - Parte 3 - Regra da Cadeia. Gradiente.",
     "embedUrl": "https://www.youtube.com/embed/JK6qvJxVThg",
     "duration": 1509
   },
   {
+    "id": 381,
     "title": "Cálculo II - Aula 13 - Parte 1 - Regra da Cadeia. Derivadas parciais de ordem superior",
     "embedUrl": "https://www.youtube.com/embed/6W1DtZb6dCk",
     "duration": 1753
   },
   {
+    "id": 382,
     "title": "Cálculo II - Aula 13 - Parte 2 - Regra da Cadeia. Derivadas parciais de ordem superior",
     "embedUrl": "https://www.youtube.com/embed/4ZZBEZs2mFo",
     "duration": 1566
   },
   {
+    "id": 383,
     "title": "Cálculo II - Aula 13 - Parte 3 - Regra da Cadeia. Derivadas parciais de ordem superior",
     "embedUrl": "https://www.youtube.com/embed/yX0E43OJs-M",
     "duration": 1312
   },
   {
+    "id": 384,
     "title": "Cálculo II - Aula 14 - Parte 1 - Vetor gradiente e derivada direcional de uma função de duas",
     "embedUrl": "https://www.youtube.com/embed/u1HpK8fXRcw",
     "duration": 1407
   },
   {
+    "id": 385,
     "title": "Cálculo II - Aula 14 - Parte 2 - Vetor gradiente e derivada direcional de uma função de duas",
     "embedUrl": "https://www.youtube.com/embed/PtrcaZapGBI",
     "duration": 1505
   },
   {
+    "id": 386,
     "title": "Cálculo II - Aula 14 - Parte 3 - Vetor gradiente e derivada direcional de uma função de duas",
     "embedUrl": "https://www.youtube.com/embed/rmTs85P0vDM",
     "duration": 1832
   },
   {
+    "id": 387,
     "title": "Cálculo II - Aula 15 - Parte 1 - Exercícios: propriedades do gradiente e regra da cadeia",
     "embedUrl": "https://www.youtube.com/embed/CBH1xToD0Fk",
     "duration": 1762
   },
   {
+    "id": 388,
     "title": "Cálculo II - Aula 15 - Parte 2 - Exercícios: propriedades do gradiente e regra da cadeia",
     "embedUrl": "https://www.youtube.com/embed/UvhGPWc64d4",
     "duration": 1499
   },
   {
+    "id": 389,
     "title": "Cálculo II - Aula 15 - Parte 3 - Exercícios: propriedades do gradiente e regra da cadeia",
     "embedUrl": "https://www.youtube.com/embed/5eV9VDWqd0M",
     "duration": 1615
   },
   {
+    "id": 390,
     "title": "Cálculo II - Aula 16 - Parte 1 - Exercícios sobre diferenciabilidade, plano tangente ao gráf",
     "embedUrl": "https://www.youtube.com/embed/FmWyumjmioY",
     "duration": 1847
   },
   {
+    "id": 391,
     "title": "Cálculo II - Aula 16 - Parte 2 - Exercícios sobre diferenciabilidade, plano tangente ao gráf",
     "embedUrl": "https://www.youtube.com/embed/2csTHLS3vvA",
     "duration": 1866
   },
   {
+    "id": 392,
     "title": "Cálculo II - Aula 17 - Parte 1 - Funções de 3 variáveis e superfícies de nível; Equaçõe",
     "embedUrl": "https://www.youtube.com/embed/rf7yKfgH5Z4",
     "duration": 1583
   },
   {
+    "id": 393,
     "title": "Cálculo II - Aula 17 - Parte 2 - Funções de 3 variáveis e superfícies de nível; Equaçõe",
     "embedUrl": "https://www.youtube.com/embed/WreSe9zYnJo",
     "duration": 1571
   },
   {
+    "id": 394,
     "title": "Cálculo II - Aula 17 - Parte 3 - Funções de 3 variáveis e superfícies de nível; Equaçõe",
     "embedUrl": "https://www.youtube.com/embed/K8ozh59LI9E",
     "duration": 1394
   },
   {
+    "id": 395,
     "title": "Cálculo II - Aula 18 - Parte 1 - Funções de 3 variáveis: Superfícies de nível e vetor gra",
     "embedUrl": "https://www.youtube.com/embed/4JluMIlwFQw",
     "duration": 1646
   },
   {
+    "id": 396,
     "title": "Cálculo II - Aula 18 - Parte 2 - Funções de 3 variáveis: Superfícies de nível e vetor gra",
     "embedUrl": "https://www.youtube.com/embed/IhJjwDpSZoM",
     "duration": 1429
   },
   {
+    "id": 397,
     "title": "Cálculo II - Aula 18 - Parte 3 - Funções de 3 variáveis: Superfícies de nível e vetor gra",
     "embedUrl": "https://www.youtube.com/embed/CgxE2HDriUg",
     "duration": 1877
   },
   {
+    "id": 398,
     "title": "Cálculo II - Aula 19 - Parte 1 - Máximos e mínimos de funções de duas variáveis definidas",
     "embedUrl": "https://www.youtube.com/embed/A87PUnK5Ico",
     "duration": 1751
   },
   {
+    "id": 399,
     "title": "Cálculo II - Aula 19 - Parte 2 - Máximos e mínimos de funções de duas variáveis definidas",
     "embedUrl": "https://www.youtube.com/embed/Bad6_Gg02vw",
     "duration": 1744
   },
   {
+    "id": 400,
     "title": "Cálculo II - Aula 19 - Parte 3 - Máximos e mínimos de funções de duas variáveis definidas",
     "embedUrl": "https://www.youtube.com/embed/XRnAF5pFSaw",
     "duration": 1702
   },
   {
+    "id": 401,
     "title": "Cálculo II - Aula 20 - Parte 1 - Máximos e mínimos. Multiplicadores de Lagrange",
     "embedUrl": "https://www.youtube.com/embed/-sZCbCYKv0w",
     "duration": 1840
   },
   {
+    "id": 402,
     "title": "Cálculo II - Aula 20 - Parte 2 - Máximos e mínimos. Multiplicadores de Lagrange",
     "embedUrl": "https://www.youtube.com/embed/mtfIFkbzE54",
     "duration": 1785
   },
   {
+    "id": 403,
     "title": "Cálculo II - Aula 20 - Parte 3 - Máximos e mínimos. Multiplicadores de Lagrange",
     "embedUrl": "https://www.youtube.com/embed/fjaBtV86sE4",
     "duration": 1365
   },
   {
+    "id": 404,
     "title": "Cálculo II - Aula 21 - Parte 1 - Método dos Multiplicadores de Lagrange para 2 e 3 variáveis",
     "embedUrl": "https://www.youtube.com/embed/_qSZx8V-rMw",
     "duration": 1857
   },
   {
+    "id": 405,
     "title": "Cálculo II - Aula 21 - Parte 2 - Método dos Multiplicadores de Lagrange para 2 e 3 variáveis",
     "embedUrl": "https://www.youtube.com/embed/BSbHnYT6u6I",
     "duration": 1488
   },
   {
+    "id": 406,
     "title": "Cálculo II - Aula 21 - Parte 3 - Método dos Multiplicadores de Lagrange para 2 e 3 variáveis",
     "embedUrl": "https://www.youtube.com/embed/QJ6oAnQWkZs",
     "duration": 1623
   },
   {
+    "id": 407,
     "title": "Cálculo II - Aula 22 - Parte 1 - Método dos Multiplicadores de Lagrange com duas restrições",
     "embedUrl": "https://www.youtube.com/embed/uJk27a4W12M",
     "duration": 1167
   },
   {
+    "id": 408,
     "title": "Cálculo II - Aula 22 - Parte 2 - Método dos Multiplicadores de Lagrange com duas restrições",
     "embedUrl": "https://www.youtube.com/embed/PKGOvJbcxrA",
     "duration": 1907
   },
   {
+    "id": 409,
     "title": "Cálculo II - Aula 22 - Parte 3 - Método dos Multiplicadores de Lagrange com duas restrições",
     "embedUrl": "https://www.youtube.com/embed/3OtscRBC5rQ",
     "duration": 1674
   },
   {
+    "id": 410,
     "title": "Cálculo II - Aula 23 - Parte 1 - Condições necessárias e condições suficientes para que u",
     "embedUrl": "https://www.youtube.com/embed/VZRDoKN6VHw",
     "duration": 1519
   },
   {
+    "id": 411,
     "title": "Cálculo II - Aula 23 - Parte 2 - Condições necessárias e condições suficientes para que u",
     "embedUrl": "https://www.youtube.com/embed/-Ou-oByma_Q",
     "duration": 1955
   },
   {
+    "id": 412,
     "title": "Cálculo II - Aula 23 - Parte 3 - Condições necessárias e condições suficientes para que u",
     "embedUrl": "https://www.youtube.com/embed/rHMvnngl06Q",
     "duration": 1673
   },
   {
+    "id": 413,
     "title": "Cálculo II - Aula 24 - Parte 1 - Exercícios sobre parametrização de curvas, reta tangente e",
     "embedUrl": "https://www.youtube.com/embed/Z06-hEvD7kQ",
     "duration": 1827
   },
   {
+    "id": 414,
     "title": "Cálculo II - Aula 24 - Parte 2 - Exercícios sobre parametrização de curvas, reta tangente e",
     "embedUrl": "https://www.youtube.com/embed/GkqxYY9xNAw",
     "duration": 1799
   },
   {
+    "id": 415,
     "title": "Cálculo II - Aula 25 - Parte 1 - Resolução de exercícios da lista 3",
     "embedUrl": "https://www.youtube.com/embed/CzrT7DNdkjY",
     "duration": 1439
   },
   {
+    "id": 416,
     "title": "Cálculo II - Aula 25 - Parte 2 - Resolução de exercícios da lista 3",
     "embedUrl": "https://www.youtube.com/embed/m6ATQqz4O7Q",
     "duration": 1315
   },
   {
+    "id": 417,
     "title": "Cálculo II - Aula 25 - Parte 3 - Resolução de exercícios da lista 3",
     "embedUrl": "https://www.youtube.com/embed/nNpHHVejzxg",
     "duration": 1767
   },
   {
+    "id": 418,
     "title": "Cálculo II - Aula 25 - Parte 4 - Resolução de exercícios da lista 3",
     "embedUrl": "https://www.youtube.com/embed/NEgXSdmaTkM",
     "duration": 1685

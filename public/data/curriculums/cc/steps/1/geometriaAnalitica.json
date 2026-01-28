@@ -1,275 +1,330 @@
 [
   {
+    "id": 1311,
     "title": "Geometria Analítica ⭐ Videoaula 1.1 ⭐ Noções iniciais de matrizes",
     "embedUrl": "https://www.youtube.com/embed/ijkDjQT7UPM",
     "duration": 1083
   },
   {
+    "id": 1312,
     "title": "Geometria Analítica ⭐ Videoaula 1.1 ⭐ Tipos de matrizes",
     "embedUrl": "https://www.youtube.com/embed/2L_YvWVVeRM",
     "duration": 1216
   },
   {
+    "id": 1313,
     "title": "Geometria Analítica ⭐ Videoaula 1.2 ⭐ Adição de matrizes",
     "embedUrl": "https://www.youtube.com/embed/TjmBMVbZfTw",
     "duration": 788
   },
   {
+    "id": 1314,
     "title": "Geometria Analítica ⭐ Videoaula 1.2 ⭐ Multiplicação por escalar",
     "embedUrl": "https://www.youtube.com/embed/QW5-C-FNPks",
     "duration": 446
   },
   {
+    "id": 1315,
     "title": "Geometria Analítica ⭐ Videoaula 1.2 ⭐ Multiplicação de matrizes",
     "embedUrl": "https://www.youtube.com/embed/E_Q07YaURYA",
     "duration": 994
   },
   {
+    "id": 1316,
     "title": "Geometria Analítica ⭐ Videoaula 1.2 ⭐ Matriz transposta",
     "embedUrl": "https://www.youtube.com/embed/6JBqIBqix9Q",
     "duration": 532
   },
   {
+    "id": 1317,
     "title": "Geometria Analítica ⭐ Videoaula 1.3 ⭐ Determinante e propriedades",
     "embedUrl": "https://www.youtube.com/embed/8UiVBX_JvsI",
     "duration": 947
   },
   {
+    "id": 1318,
     "title": "Geometria Analítica ⭐ Videoaula 1.4 ⭐ Matriz inversa e propriedades",
     "embedUrl": "https://www.youtube.com/embed/-pUjC3U7OHs",
     "duration": 812
   },
   {
+    "id": 1319,
     "title": "Geometria Analítica ⭐ Videoaula 1.5 ⭐ Matriz na forma escalonada, posto e pivô",
     "embedUrl": "https://www.youtube.com/embed/PmJnUI1VD_o",
     "duration": 440
   },
   {
+    "id": 1320,
     "title": "Geometria Analítica ⭐ Videoaula 1.6 ⭐ Operações elementares por linhas",
     "embedUrl": "https://www.youtube.com/embed/QsbCxntMaVU",
     "duration": 281
   },
   {
+    "id": 1321,
     "title": "Geometria Analítica ⭐ Videoaula 1.7 ⭐ Escalonamento",
     "embedUrl": "https://www.youtube.com/embed/OnZNoofF7XY",
     "duration": 1548
   },
   {
+    "id": 1322,
     "title": "Geometria Analítica ⭐ Videoaula 1.8 ⭐ Cálculo de determinante por escalonamento",
     "embedUrl": "https://www.youtube.com/embed/x76nLi42YMQ",
     "duration": 862
   },
   {
+    "id": 1323,
     "title": "Geometria Analítica ⭐ Videoaula 1.9 ⭐ Matriz inversa pelo método de Gauss-Jordan",
     "embedUrl": "https://www.youtube.com/embed/GP97sL-f9ow",
     "duration": 709
   },
   {
+    "id": 1324,
     "title": "Geometria Analítica ⭐ Videoaula 2.1⭐ Sistemas Lineares I",
     "embedUrl": "https://www.youtube.com/embed/_Vqaj8FGlvQ",
     "duration": 891
   },
   {
+    "id": 1325,
     "title": "Geometria Analítica ⭐ Videoaula 2.1 ⭐ Sistemas Lineares II",
     "embedUrl": "https://www.youtube.com/embed/DQZnZMeZ32E",
     "duration": 934
   },
   {
+    "id": 1326,
     "title": "Geometria Analítica ⭐ Videoaula 2.2 ⭐ Representação matricial",
     "embedUrl": "https://www.youtube.com/embed/Hwj8K3iYRu8",
     "duration": 359
   },
   {
+    "id": 1327,
     "title": "Geometria Analítica ⭐ Videoaula 2.3 ⭐ Resolução por matriz inversa",
     "embedUrl": "https://www.youtube.com/embed/9CeEr9MqY6Q",
     "duration": 931
   },
   {
+    "id": 1328,
     "title": "Geometria Analítica ⭐ Videoaula 2.4 ⭐ Resolução por escalonamento I",
     "embedUrl": "https://www.youtube.com/embed/bypDImbUY2I",
     "duration": 1162
   },
   {
+    "id": 1329,
     "title": "Geometria Analítica ⭐ Videoaula 2.4 ⭐ Resolução por escalonamento II",
     "embedUrl": "https://www.youtube.com/embed/5uWllVV95ps",
     "duration": 513
   },
   {
+    "id": 1330,
     "title": "Geometria Analítica ⭐ Videoaula 2.4 ⭐ Resolução por escalonamento III",
     "embedUrl": "https://www.youtube.com/embed/ghkOpnk9vM4",
     "duration": 1511
   },
   {
+    "id": 1331,
     "title": "Geometria Analítica ⭐ Videoaula 3.1 ⭐ Noções geométricas de vetores",
     "embedUrl": "https://www.youtube.com/embed/ENEuaqObL3E",
     "duration": 1320
   },
   {
+    "id": 1332,
     "title": "Geometria Analítica ⭐ Videoaula 3.2 ⭐ Vetores: operações, propriedades e ângulo",
     "embedUrl": "https://www.youtube.com/embed/zCgbNqxDyWQ",
     "duration": 1262
   },
   {
+    "id": 1333,
     "title": "Geometria Analítica ⭐ Videoaula 3.3 ⭐ Vetores do ponto de vista algébrico",
     "embedUrl": "https://www.youtube.com/embed/tHa5CE-rFts",
     "duration": 1117
   },
   {
+    "id": 1334,
     "title": "Geometria Analítica ⭐ Videoaula 3.4 ⭐ Operações com vetores do ponto de vista algébrico",
     "embedUrl": "https://www.youtube.com/embed/Cwhpy9UouiE",
     "duration": 641
   },
   {
+    "id": 1335,
     "title": "Geometria Analítica ⭐ Videoaula 3.5 ⭐ Combinação linear e dependência linear",
     "embedUrl": "https://www.youtube.com/embed/KZusqyXfck4",
     "duration": 1361
   },
   {
+    "id": 1336,
     "title": "Geometria Analítica ⭐ Videoaula 3.6 ⭐ Conjunto gerador e base",
     "embedUrl": "https://www.youtube.com/embed/ZdpXpLSCH5I",
     "duration": 663
   },
   {
+    "id": 1337,
     "title": "Geometria Analítica ⭐ Videoaula 3.7 ⭐ Produto Escalar",
     "embedUrl": "https://www.youtube.com/embed/ZobaOzWIKbo",
     "duration": 1350
   },
   {
+    "id": 1338,
     "title": "Geometria Analítica ⭐ Videoaula 3.8 ⭐ Módulo de um vetor",
     "embedUrl": "https://www.youtube.com/embed/LvGoCRqaqMk",
     "duration": 1447
   },
   {
+    "id": 1339,
     "title": "Geometria Analítica ⭐ Videoaula 3.9 ⭐ Ângulo entre vetores (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/lpGrX7qiaWg",
     "duration": 914
   },
   {
+    "id": 1340,
     "title": "Geometria Analítica ⭐ Videoaula 3.9 ⭐ Ângulo entre vetores (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/D4H1iSO9j_M",
     "duration": 840
   },
   {
+    "id": 1341,
     "title": "Geometria Analítica ⭐ Videoaula 3.9 ⭐ Ângulo entre vetores (parte 3)",
     "embedUrl": "https://www.youtube.com/embed/jWReRVloI5k",
     "duration": 855
   },
   {
+    "id": 1342,
     "title": "Geometria Analítica ⭐ Videoaula 3.10 ⭐ Produto Vetorial",
     "embedUrl": "https://www.youtube.com/embed/zW40la8QplE",
     "duration": 1757
   },
   {
+    "id": 1343,
     "title": "Geometria Analítica ⭐ Videoaula 3.11 ⭐ Produto Misto",
     "embedUrl": "https://www.youtube.com/embed/HhgxsFww8e4",
     "duration": 1670
   },
   {
+    "id": 1344,
     "title": "Geometria Analítica ⭐ Videoaula 4.1 ⭐ Equações vetorial e paramétricas de uma reta",
     "embedUrl": "https://www.youtube.com/embed/GVBFgwItxg4",
     "duration": 1026
   },
   {
+    "id": 1345,
     "title": "Geometria Analítica ⭐ Videoaula 4.2 ⭐ Equações simétricas e reduzidas de uma reta",
     "embedUrl": "https://www.youtube.com/embed/t4wxeCcH0Xw",
     "duration": 1130
   },
   {
+    "id": 1346,
     "title": "Geometria Analítica ⭐ Videoaula 4.3 ⭐ Paralelismo, perpendicularidade e coplanaridade entre retas",
     "embedUrl": "https://www.youtube.com/embed/VoTEPBtrTSQ",
     "duration": 547
   },
   {
+    "id": 1347,
     "title": "Geometria Analítica ⭐ Videoaula 4.4 ⭐ Interseção e ângulo entre retas",
     "embedUrl": "https://www.youtube.com/embed/aGOadzkIOXM",
     "duration": 1050
   },
   {
+    "id": 1348,
     "title": "Geometria Analítica ⭐ Videoaula 4.5 ⭐ Equações do Plano (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/6O8yLZdx9Ls",
     "duration": 1523
   },
   {
+    "id": 1349,
     "title": "Geometria Analítica ⭐ Videoaula 4.5 ⭐ Equações do Plano (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/YE8BtUckLxc",
     "duration": 1607
   },
   {
+    "id": 1350,
     "title": "Geometria Analítica ⭐ Videoaula 4.6 ⭐ Posições relativas entre planos",
     "embedUrl": "https://www.youtube.com/embed/j2TNWi21s0A",
     "duration": 1972
   },
   {
+    "id": 1351,
     "title": "Geometria Analítica ⭐ Videoaula 4.7 ⭐ Relações entre retas e planos",
     "embedUrl": "https://www.youtube.com/embed/n61XO0sfRNo",
     "duration": 1972
   },
   {
+    "id": 1352,
     "title": "Geometria Analítica ⭐ Videoaula 4.8 ⭐ Distâncias (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/bjP_SlTO9O0",
     "duration": 1281
   },
   {
+    "id": 1353,
     "title": "Geometria Analítica ⭐ Videoaula 4.9 ⭐ Distâncias (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/JobGfgGoRB0",
     "duration": 1658
   },
   {
+    "id": 1354,
     "title": "Geometria Analítica ⭐ Videoaula 5.1 ⭐ Completamento do quadrado",
     "embedUrl": "https://www.youtube.com/embed/Cv8I-qboXDY",
     "duration": 842
   },
   {
+    "id": 1355,
     "title": "Geometria Analítica ⭐ Videoaula 5.1 ⭐ Translações em gráficos",
     "embedUrl": "https://www.youtube.com/embed/Y-qnKWrYJwk",
     "duration": 334
   },
   {
+    "id": 1356,
     "title": "Geometria Analítica ⭐ Videoaula 5.1 ⭐ Circunferência",
     "embedUrl": "https://www.youtube.com/embed/BdsnjJy350g",
     "duration": 767
   },
   {
+    "id": 1357,
     "title": "Geometria Analítica ⭐ Videoaula 5.2 ⭐ Elipse",
     "embedUrl": "https://www.youtube.com/embed/NbSWyJSrPn8",
     "duration": 1180
   },
   {
+    "id": 1358,
     "title": "Geometria Analítica ⭐ Videoaula 5.3 ⭐ Parábola",
     "embedUrl": "https://www.youtube.com/embed/Wnm3lp1sdNM",
     "duration": 959
   },
   {
+    "id": 1359,
     "title": "Geometria Analítica ⭐ Videoaula 5.4 ⭐ Hipérbole",
     "embedUrl": "https://www.youtube.com/embed/AjXWqDaGKSA",
     "duration": 1264
   },
   {
+    "id": 1360,
     "title": "Geometria Analítica ⭐ Videoaula 5.5 ⭐ Estudo de curvas cônicas em geral",
     "embedUrl": "https://www.youtube.com/embed/HPqtmIhXrOk",
     "duration": 840
   },
   {
+    "id": 1361,
     "title": "Geometria Analítica ⭐ Unidade 6 ⭐ Noções gerais de Quádricas",
     "embedUrl": "https://www.youtube.com/embed/92PEbqBloK8",
     "duration": 770
   },
   {
+    "id": 1362,
     "title": "Geometria Analítica ⭐ Videoaula 6.1 ⭐ Esfera",
     "embedUrl": "https://www.youtube.com/embed/k35EgaQTU3U",
     "duration": 1142
   },
   {
+    "id": 1363,
     "title": "Geometria Analítica ⭐ Videoaula 6.2 ⭐ Elipsoide",
     "embedUrl": "https://www.youtube.com/embed/GM9AYr6cbdU",
     "duration": 852
   },
   {
+    "id": 1364,
     "title": "Geometria Analítica ⭐ Videoaula 6.3 ⭐ Hiperboloides",
     "embedUrl": "https://www.youtube.com/embed/RSHAcE4oP6M",
     "duration": 1509
   },
   {
+    "id": 1365,
     "title": "Geometria Analítica ⭐ Videoaula 6.4 ⭐ Paraboloides elíptico e hiperbólico",
     "embedUrl": "https://www.youtube.com/embed/N0m1OCZK6Nk",
     "duration": 986

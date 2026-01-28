@@ -1,14 +1,17 @@
 import type Curriculum from "../interfaces/curriculum.ts";
 
 export const curriculumMath: Curriculum = {
+  id: 2,
   acronym: "math",
   name: "Matemática",
   steps: [
     {
       // Etapa 1
+      id: 8,
       number: 1,
       subjects: [
         {
+          id: 36,
           name: "Ingredientes básicos para o Cálculo",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W698VTHptmp7ZNvcKqlyHO",
           prerequisites: [],
@@ -20,6 +23,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 37,
           name: "Teoria dos Conjuntos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81X2Cp3FClIjRE9sG_Vq6sZ_",
           prerequisites: [],
@@ -31,6 +35,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 38,
           name: "Lógica e Matemática Discreta",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHf6oB0nf8FwLhqSOcBLqOxH",
           prerequisites: [],
@@ -42,6 +47,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 39,
           name: "Geometria Analítica",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcSZv2BBUJAfGsXx0D0hn-2",
           prerequisites: [],
@@ -53,6 +59,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 40,
           name: "Algoritmos e Programação em Python",
           url: "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0",
           prerequisites: [],
@@ -67,9 +74,11 @@ export const curriculumMath: Curriculum = {
     },
     {
       // Etapa 2
+      id: 9,
       number: 2,
       subjects: [
         {
+          id: 41,
           name: "Cálculo I",
           url: "https://www.youtube.com/playlist?list=PL2D9B691A704C6F7B",
           prerequisites: [],
@@ -81,6 +90,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 42,
           name: "Projeto e Análise de Algoritmos",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdNN5fpKWRF8bbLG-2P-0LW",
           prerequisites: ["Programação (Python)"],
@@ -92,6 +102,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 43,
           name: "Álgebra Linear",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdUtWDKtTA9AmuICNyX9EIr",
           prerequisites: [],
@@ -103,6 +114,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 44,
           name: "Álgebra Linear (avançada)",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81WXIutzWJDQ7E78riZqJClA",
           prerequisites: [],
@@ -114,6 +126,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 45,
           name: "Teoria dos Números",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcfxDjfTmU-t7XC1w2GVwc_",
           prerequisites: [],
@@ -128,9 +141,11 @@ export const curriculumMath: Curriculum = {
     },
     {
       // Etapa 3
+      id: 10,
       number: 3,
       subjects: [
         {
+          id: 46,
           name: "Cálculo II",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeZfF4HwiVmv4D6n3acKLER",
           prerequisites: ["Cálculo I"],
@@ -142,6 +157,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 47,
           name: "Estruturas Algébricas",
           url: "https://www.youtube.com/playlist?list=PL6eyvTm7LSBsdkBBKzEDcyYbdujN_6TmL",
           prerequisites: ["Teoria dos Números"],
@@ -153,6 +169,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 48,
           name: "Equações Diferenciais Ordinárias",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTR9q44hqm2w3NWtvyP_ZoiP",
           prerequisites: [],
@@ -164,6 +181,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 49,
           name: "Física Geral I",
           url: "https://www.youtube.com/playlist?list=PL7581C21F8ADD6C8E",
           prerequisites: [],
@@ -175,6 +193,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 50,
           name: "História da Matemática",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdOIYVPQPS6oUPBk8mb1CVU",
           prerequisites: [],
@@ -189,9 +208,11 @@ export const curriculumMath: Curriculum = {
     },
     {
       // Etapa 4
+      id: 11,
       number: 4,
       subjects: [
         {
+          id: 51,
           name: "Cálculo III",
           url: "https://www.youtube.com/playlist?list=PLFBA21F349930F92F",
           prerequisites: ["Cálculo II"],
@@ -203,6 +224,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 52,
           name: "Física Geral II",
           url: "https://www.youtube.com/playlist?list=PL516F59E9AE8F5BF7",
           prerequisites: ["Física Geral I"],
@@ -214,6 +236,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 53,
           name: "Estatística e Probabilidade",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
           prerequisites: [],
@@ -225,6 +248,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 54,
           name: "Programação Linear",
           url: "https://youtube.com/playlist?list=PLRJ_PBuYGr64QKVnwx3kx0qLeG5WQY_Hl&si=2SlZOlDfYH70f0ak",
           prerequisites: ["Projeto e Análise de Algoritmos"],
@@ -236,6 +260,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 55,
           name: "Análise na Reta",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81UTkjNN2WQM8knGQJpu1j_z",
           prerequisites: [],
@@ -250,9 +275,11 @@ export const curriculumMath: Curriculum = {
     },
     {
       // Etapa 5
+      id: 12,
       number: 5,
       subjects: [
         {
+          id: 56,
           name: "Cálculo IV (Métodos Matemáticos)",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
           prerequisites: ["Cálculo III"],
@@ -264,6 +291,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 57,
           name: "Introdução a Topologia Geral",
           url: "https://www.youtube.com/playlist?list=PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
           prerequisites: [],
@@ -275,6 +303,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 58,
           name: "Cálculo com variável complexa",
           url: "https://www.youtube.com/playlist?list=PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
           prerequisites: ["Cálculo IV"],
@@ -286,6 +315,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 59,
           name: "Teoria dos Grafos",
           url: "https://www.youtube.com/playlist?list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX",
           prerequisites: [],
@@ -297,6 +327,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 60,
           name: "Física Geral III",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdG8tw2QofrU02IuAEVyGlL",
           prerequisites: ["Física Geral II"],
@@ -311,9 +342,11 @@ export const curriculumMath: Curriculum = {
     },
     {
       // Etapa 6
+      id: 13,
       number: 6,
       subjects: [
         {
+          id: 61,
           name: "Alfabetização em anéis",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81XSiyT7czJX8q7I7kNmc8Bk",
           prerequisites: ["Estruturas Algébricas"],
@@ -325,6 +358,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 62,
           name: "Física Moderna",
           url: "https://www.youtube.com/playlist?list=PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
           prerequisites: ["Física Geral III"],
@@ -336,6 +370,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 63,
           name: "Teoria de Corpos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W0HbBtma7QQMeyVllJMk0m",
           prerequisites: ["Estruturas Algébricas"],
@@ -347,6 +382,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 64,
           name: "Análise Complexa",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTRQ07QOEFl0x6mvyTl2hlRn",
           prerequisites: [],
@@ -358,6 +394,7 @@ export const curriculumMath: Curriculum = {
           ],
         },
         {
+          id: 65,
           name: "Equações Diferenciais Parciais",
           url: "https://www.youtube.com/playlist?list=PLpB72X90N5xST4NmvjQicgfRgpt-9rgw-",
           prerequisites: ["Cálculo IV", "Análise Complexa"],

@@ -1,209 +1,251 @@
 [
   {
+    "id": 992,
     "title": "01 - Introdução às Equações Diferenciais Parciais - Motivação",
     "embedUrl": "https://www.youtube.com/embed/4bF8VPlnmoI",
     "duration": 1973
   },
   {
+    "id": 993,
     "title": "02 - Introdução às Equações Diferenciais Parciais - Definições",
     "embedUrl": "https://www.youtube.com/embed/V2CRb64aro0",
     "duration": 1993
   },
   {
+    "id": 994,
     "title": "03 - Introdução às Equações Diferenciais Parciais - Definições continuação",
     "embedUrl": "https://www.youtube.com/embed/ffcEN9-jlcY",
     "duration": 1001
   },
   {
+    "id": 995,
     "title": "Tipos de problemas - contorno, inicial e misto",
     "embedUrl": "https://www.youtube.com/embed/ror-VMX4lRU",
     "duration": 1926
   },
   {
+    "id": 996,
     "title": "Solução de EDPs simples",
     "embedUrl": "https://www.youtube.com/embed/XcmR4GbqQVQ",
     "duration": 752
   },
   {
+    "id": 997,
     "title": "Método das Características 1 - LEIA A CORREÇÃO NA DESCRIÇÃO!",
     "embedUrl": "https://www.youtube.com/embed/cT3qtJ9K4w8",
     "duration": 1538
   },
   {
+    "id": 998,
     "title": "Equação do transporte: Caso n-dimensional",
     "embedUrl": "https://www.youtube.com/embed/qYx-sB_fRr8",
     "duration": 1702
   },
   {
+    "id": 999,
     "title": "Método das características 3 - Problema não homogêneo",
     "embedUrl": "https://www.youtube.com/embed/EhprcRdUdzU",
     "duration": 996
   },
   {
+    "id": 1000,
     "title": "Separação de Variáveis 1 - Introdução",
     "embedUrl": "https://www.youtube.com/embed/BwA0MWVaYgE",
     "duration": 1118
   },
   {
+    "id": 1001,
     "title": "Separação de Variáveis 2 - Linearidade",
     "embedUrl": "https://www.youtube.com/embed/lSO2AAaEv3M",
     "duration": 735
   },
   {
+    "id": 1002,
     "title": "Separação de Variáveis 3 - Solução",
     "embedUrl": "https://www.youtube.com/embed/hbdhr4EkMjM",
     "duration": 1706
   },
   {
+    "id": 1003,
     "title": "Separação de Variáveis 4 - Generalização da Solução via linearidade",
     "embedUrl": "https://www.youtube.com/embed/D4MWVyG4gVI",
     "duration": 1387
   },
   {
+    "id": 1004,
     "title": "Integrais envolvendo funções periódicas",
     "embedUrl": "https://www.youtube.com/embed/ve6wbzEBFQo",
     "duration": 1645
   },
   {
+    "id": 1005,
     "title": "Seno e Cosseno - Funções Ortogonais",
     "embedUrl": "https://www.youtube.com/embed/0oadBrORXoM",
     "duration": 2437
   },
   {
+    "id": 1006,
     "title": "Série de Fourier - Cálculo dos coeficientes",
     "embedUrl": "https://www.youtube.com/embed/Y70xQAEPu4M",
     "duration": 2127
   },
   {
+    "id": 1007,
     "title": "Funções pares e ímpares e série de Fourier - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/Y-0vfM9bWu0",
     "duration": 2790
   },
   {
+    "id": 1008,
     "title": "Funções pares e ímpares e série de Fourier - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/umxnd78Lh7I",
     "duration": 2901
   },
   {
+    "id": 1009,
     "title": "Equação da onda -  Solução via Transformada de Fourier",
     "embedUrl": "https://www.youtube.com/embed/iC6_9XIzcBM",
     "duration": 2974
   },
   {
+    "id": 1010,
     "title": "Exemplo de cálculo: Série de Fourier",
     "embedUrl": "https://www.youtube.com/embed/j_CgsbjULEk",
     "duration": 2480
   },
   {
+    "id": 1011,
     "title": "Extensão periódica par e ímpar de funções em domínio finito",
     "embedUrl": "https://www.youtube.com/embed/g9GOfdzjeFg",
     "duration": 1974
   },
   {
+    "id": 1012,
     "title": "Equação do Calor ou da Difusão - Conceitos iniciais e intuição",
     "embedUrl": "https://www.youtube.com/embed/XOgivBia4j4",
     "duration": 2474
   },
   {
+    "id": 1013,
     "title": "Equação do Calor - Obtendo a EDP",
     "embedUrl": "https://www.youtube.com/embed/Ti9-AGslcH4",
     "duration": 1745
   },
   {
+    "id": 1014,
     "title": "Equação do Calor Em Dominio espacial limitado com condições de Dirichlet - Solução",
     "embedUrl": "https://www.youtube.com/embed/y0T48ULO_gg",
     "duration": 4072
   },
   {
+    "id": 1015,
     "title": "Equação do Calor em Domínio espacial limitado - exercício resolvido",
     "embedUrl": "https://www.youtube.com/embed/BXffhjOAsrI",
     "duration": 1926
   },
   {
+    "id": 1016,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/Md1LJ2pXsiI"
   },
   {
+    "id": 1017,
     "title": "Equação do Calor em Domínio espacial limitado com condições de Neumann   Solução 2",
     "embedUrl": "https://www.youtube.com/embed/vYWfh-CViYo",
     "duration": 2875
   },
   {
+    "id": 1018,
     "title": "Equação da Onda em domínio espacial limitado - Obtendo a EDP",
     "embedUrl": "https://www.youtube.com/embed/HwZZjY4dyYg",
     "duration": 1759
   },
   {
+    "id": 1019,
     "title": "Equação da Onda em domínio espacial limitado - Solução",
     "embedUrl": "https://www.youtube.com/embed/XfqDaCz5ukU",
     "duration": 3062
   },
   {
+    "id": 1020,
     "title": "Solução de D'Alembert para a Equação da Onda em domínio espacial limitado",
     "embedUrl": "https://www.youtube.com/embed/0Wy1Na1bd6M",
     "duration": 2359
   },
   {
+    "id": 1021,
     "title": "Equação da Onda em domínio espacial limitado - exercício resolvido",
     "embedUrl": "https://www.youtube.com/embed/IztXFcFl6Ng",
     "duration": 1576
   },
   {
+    "id": 1022,
     "title": "Equação de Laplace - 1",
     "embedUrl": "https://www.youtube.com/embed/W_Q3UzbD4pQ",
     "duration": 2573
   },
   {
+    "id": 1023,
     "title": "Transformada de Fourier 1 - Noções iniciais e interpretação",
     "embedUrl": "https://www.youtube.com/embed/Ef2p2rzoF-0",
     "duration": 1342
   },
   {
+    "id": 1024,
     "title": "Transformada Seno e Transformada Cosseno de Fourier - Parte 1: Funções Pares e Ímpares",
     "embedUrl": "https://www.youtube.com/embed/oPzil8rSNK0",
     "duration": 1750
   },
   {
+    "id": 1025,
     "title": "Transformada Seno e Transformada Cosseno de Fourier   Parte 2",
     "embedUrl": "https://www.youtube.com/embed/ibaDU_Ycydo",
     "duration": 2179
   },
   {
+    "id": 1026,
     "title": "EDP Onda Exercício 01",
     "embedUrl": "https://www.youtube.com/embed/LgRMLGBRVBc",
     "duration": 841
   },
   {
+    "id": 1027,
     "title": "Transformada de Fourier - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/0girbokayM0",
     "duration": 2005
   },
   {
+    "id": 1028,
     "title": "Transformada de Fourier - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/1A016YJyEgo",
     "duration": 1669
   },
   {
+    "id": 1029,
     "title": "Propriedades da Transformada de Fourier",
     "embedUrl": "https://www.youtube.com/embed/xjPOQCy-ZwI",
     "duration": 2707
   },
   {
+    "id": 1030,
     "title": "Equação do calor e Transformada de Fourier",
     "embedUrl": "https://www.youtube.com/embed/RT8_Wu-Ad2g",
     "duration": 1670
   },
   {
+    "id": 1031,
     "title": "Equação de Laplace em domínio espacial semi-infinito com condições homogêneas",
     "embedUrl": "https://www.youtube.com/embed/PSSDc_fQqVg",
     "duration": 2163
   },
   {
+    "id": 1032,
     "title": "Funções Generalizadas",
     "embedUrl": "https://www.youtube.com/embed/NPeeAdPNQkk",
     "duration": 3222
   },
   {
+    "id": 1033,
     "title": "Equação de Laplace 2",
     "embedUrl": "https://www.youtube.com/embed/KxWIP0Ey2L0",
     "duration": 2969

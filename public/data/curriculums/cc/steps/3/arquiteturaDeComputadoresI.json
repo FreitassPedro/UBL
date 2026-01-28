@@ -1,235 +1,282 @@
 [
   {
+    "id": 1631,
     "title": "Apresentação da disciplina MC404 - Organização Básica de Computadores e Linguagem de Montagem",
     "embedUrl": "https://www.youtube.com/embed/ELbnZzxeec4",
     "duration": 1020
   },
   {
+    "id": 1632,
     "title": "MC404 2020s1 - Dicas sobre como estudar durante o semestre",
     "embedUrl": "https://www.youtube.com/embed/buqUG98H2bg",
     "duration": 764
   },
   {
+    "id": 1633,
     "title": "Tutorial para instalação do Simulador de Hardware no Linux",
     "embedUrl": "https://www.youtube.com/embed/BnDdFZiY1YQ",
     "duration": 310
   },
   {
+    "id": 1634,
     "title": "Tutorial de instalação do simulador de hardware no Windows",
     "embedUrl": "https://www.youtube.com/embed/VdvFcbbV6rI",
     "duration": 211
   },
   {
+    "id": 1635,
     "title": "Lógica Booleana",
     "embedUrl": "https://www.youtube.com/embed/ULE80IFIGXA",
     "duration": 918
   },
   {
+    "id": 1636,
     "title": "Síntese de Funções Booleanas",
     "embedUrl": "https://www.youtube.com/embed/WHmmm2bx37Q",
     "duration": 1216
   },
   {
+    "id": 1637,
     "title": "Linguagem de Descrição de Hardware",
     "embedUrl": "https://www.youtube.com/embed/jXbHex6sVKk",
     "duration": 461
   },
   {
+    "id": 1638,
     "title": "Simulador de Hardware",
     "embedUrl": "https://www.youtube.com/embed/2KybzsU7qf8",
     "duration": 406
   },
   {
+    "id": 1639,
     "title": "Barramentos e Projeto 1",
     "embedUrl": "https://www.youtube.com/embed/-Mdild9Ftec",
     "duration": 871
   },
   {
+    "id": 1640,
     "title": "MC404 - Representação de Números Binários",
     "embedUrl": "https://www.youtube.com/embed/obtuy4wsRV4",
     "duration": 812
   },
   {
+    "id": 1641,
     "title": "MC404 - Representação de números sinalizados",
     "embedUrl": "https://www.youtube.com/embed/XkhrjqcIrOE",
     "duration": 703
   },
   {
+    "id": 1642,
     "title": "MC404 - Operações aritméticas - somador",
     "embedUrl": "https://www.youtube.com/embed/3QZqrja-9M8",
     "duration": 1044
   },
   {
+    "id": 1643,
     "title": "MC404 - Dúvidas Números Binários",
     "embedUrl": "https://www.youtube.com/embed/TXJFA0YXyQ4",
     "duration": 295
   },
   {
+    "id": 1644,
     "title": "MC404 - Noção de arquitetura Von Neumann e ALU",
     "embedUrl": "https://www.youtube.com/embed/l-h4U30jImw",
     "duration": 1108
   },
   {
+    "id": 1645,
     "title": "MC404 - Operações da Unidade Lógica e Aritmética",
     "embedUrl": "https://www.youtube.com/embed/HPDWAoZZIG8",
     "duration": 531
   },
   {
+    "id": 1646,
     "title": "MC404 - Implementação da Unidade Lógica e Aritmética do Processador Hack",
     "embedUrl": "https://www.youtube.com/embed/XLimOfQDfX0",
     "duration": 445
   },
   {
+    "id": 1647,
     "title": "MC404  - Circuitos Sequenciais",
     "embedUrl": "https://www.youtube.com/embed/1t_W7FVlmsQ",
     "duration": 830
   },
   {
+    "id": 1648,
     "title": "MC404 - Registrador de 1 Bit",
     "embedUrl": "https://www.youtube.com/embed/7FUUchhYgyg",
     "duration": 1384
   },
   {
+    "id": 1649,
     "title": "MC404 - Memória RAM",
     "embedUrl": "https://www.youtube.com/embed/KL1AwQxjWZo",
     "duration": 1038
   },
   {
+    "id": 1650,
     "title": "MC404 - Contador de Programa",
     "embedUrl": "https://www.youtube.com/embed/2WW7D_cSnn4",
     "duration": 410
   },
   {
+    "id": 1651,
     "title": "MC404 - Detalhamento Memória RAM",
     "embedUrl": "https://www.youtube.com/embed/fBR37lfkHkE",
     "duration": 652
   },
   {
+    "id": 1652,
     "title": "MC404- Conceitos Básicos de Linguagem de Máquina",
     "embedUrl": "https://www.youtube.com/embed/ouGneYX5aHo",
     "duration": 1712
   },
   {
+    "id": 1653,
     "title": "MC404 - Elementos da Linguagem de Máquina",
     "embedUrl": "https://www.youtube.com/embed/zTJmpS66RkY",
     "duration": 1462
   },
   {
+    "id": 1654,
     "title": "MC404  - O Computador e a Linguagem de Máquina Hack",
     "embedUrl": "https://www.youtube.com/embed/H-RDwduHEi0",
     "duration": 978
   },
   {
+    "id": 1655,
     "title": "MC404 - Especificação da Linguagem Hack",
     "embedUrl": "https://www.youtube.com/embed/SkUqn33RZvE",
     "duration": 1627
   },
   {
+    "id": 1656,
     "title": "MC404 - Entrada e Saída",
     "embedUrl": "https://www.youtube.com/embed/JCG351zbwVU",
     "duration": 588
   },
   {
+    "id": 1657,
     "title": "MC404  - Programando em Assembly Hack",
     "embedUrl": "https://www.youtube.com/embed/Grr-gNwAOrI",
     "duration": 2428
   },
   {
+    "id": 1658,
     "title": "MC404 - Noções de Arquitetura de Processadores",
     "embedUrl": "https://www.youtube.com/embed/onpqrOo8FW8",
     "duration": 513
   },
   {
+    "id": 1659,
     "title": "MC404 - As fases de busca e execução de instruções",
     "embedUrl": "https://www.youtube.com/embed/vBswOR8NF6c",
     "duration": 584
   },
   {
+    "id": 1660,
     "title": "MC404 - O Computador Hack",
     "embedUrl": "https://www.youtube.com/embed/_zWS_totrhE",
     "duration": 685
   },
   {
+    "id": 1661,
     "title": "MC404 2020s1 - A CPU Hack",
     "embedUrl": "https://www.youtube.com/embed/Z2-Xh7iRM9E",
     "duration": 1310
   },
   {
+    "id": 1662,
     "title": "Apresentação do Processador RISC-V",
     "embedUrl": "https://www.youtube.com/embed/RFmKFxsFxsQ",
     "duration": 893
   },
   {
+    "id": 1663,
     "title": "Primeiras Instruções do Processador RISC-V",
     "embedUrl": "https://www.youtube.com/embed/mTNewJEm6UU",
     "duration": 1241
   },
   {
+    "id": 1664,
     "title": "Instruções de Acesso à Memória e Saltos do Processador RISC-V",
     "embedUrl": "https://www.youtube.com/embed/O-ejBiCZ92A",
     "duration": 1183
   },
   {
+    "id": 1665,
     "title": "Exemplos Básicos de Código Assembly do RISC-V",
     "embedUrl": "https://www.youtube.com/embed/pmyWEfnsMkM",
     "duration": 1207
   },
   {
+    "id": 1666,
     "title": "Demonstração do Simulador Web para RISC-V",
     "embedUrl": "https://www.youtube.com/embed/4shJTVZY3wE",
     "duration": 259
   },
   {
+    "id": 1667,
     "title": "Codificação de Instruções",
     "embedUrl": "https://www.youtube.com/embed/jGJQPwNUQ1o",
     "duration": 1051
   },
   {
+    "id": 1668,
     "title": "Funções e Pilha",
     "embedUrl": "https://www.youtube.com/embed/kkeHDpfTSVA",
     "duration": 1509
   },
   {
+    "id": 1669,
     "title": "Convenções de Registradores e Recursão",
     "embedUrl": "https://www.youtube.com/embed/RPjmdaPvUwg",
     "duration": 1525
   },
   {
+    "id": 1670,
     "title": "Organização da Memória",
     "embedUrl": "https://www.youtube.com/embed/ypRu1BQ0z18",
     "duration": 1350
   },
   {
+    "id": 1671,
     "title": "Manipulando bits com instruções lógicas e de deslocamento",
     "embedUrl": "https://www.youtube.com/embed/n9VZU2xBt4g",
     "duration": 1772
   },
   {
+    "id": 1672,
     "title": "Representação de caracteres e strings",
     "embedUrl": "https://www.youtube.com/embed/OyN7wAeQXd4",
     "duration": 1393
   },
   {
+    "id": 1673,
     "title": "Exemplo de funções de strings",
     "embedUrl": "https://www.youtube.com/embed/MF8LOaY-J-U",
     "duration": 1027
   },
   {
+    "id": 1674,
     "title": "Chamadas de sistema",
     "embedUrl": "https://www.youtube.com/embed/Q1qqby7v8-I",
     "duration": 793
   },
   {
+    "id": 1675,
     "title": "Variáveis",
     "embedUrl": "https://www.youtube.com/embed/CCM8-GiDVHo",
     "duration": 761
   },
   {
+    "id": 1676,
     "title": "Exemplo de Código com Variáveis Locais e Globais em RISC-V",
     "embedUrl": "https://www.youtube.com/embed/KMCHEZCxTME",
     "duration": 1928
   },
   {
+    "id": 1677,
     "title": "Exceções e Interrupções no RISC-V",
     "embedUrl": "https://www.youtube.com/embed/MNs6K8I9jco",
     "duration": 1122

@@ -1,150 +1,180 @@
 [
   {
+    "id": 2188,
     "title": "Aula 01. Apresentação do plano de ensino e introdução à IA",
     "embedUrl": "https://www.youtube.com/embed/-T3zDFxngf4",
     "duration": 2199
   },
   {
+    "id": 2189,
     "title": "Discovery Brasil | Inteligência Artificial - IBM",
     "embedUrl": "https://www.youtube.com/embed/W95YlM5-iPk",
     "duration": 5267
   },
   {
+    "id": 2190,
     "title": "Aula 03 - Introdução à Inteligência Artificial (part 1/2)",
     "embedUrl": "https://www.youtube.com/embed/GTuZ0WXcbI8",
     "duration": 2252
   },
   {
+    "id": 2191,
     "title": "Aula 04 - Introdução à Inteligência Artificial (part 2/2)",
     "embedUrl": "https://www.youtube.com/embed/QZ3Z9TiNUSg",
     "duration": 1784
   },
   {
+    "id": 2192,
     "title": "Aula 05 - Agentes Inteligentes. Part (1/2)",
     "embedUrl": "https://www.youtube.com/embed/FZDg2Olv1PA",
     "duration": 1222
   },
   {
+    "id": 2193,
     "title": "Aula 06 - Agentes Inteligentes. Part (2/2)",
     "embedUrl": "https://www.youtube.com/embed/HXQ_-WTMxCM",
     "duration": 1515
   },
   {
+    "id": 2194,
     "title": "Aula 07 - Agente de Resolução de Problemas. Part (1/4)",
     "embedUrl": "https://www.youtube.com/embed/6CNsXJwemUA",
     "duration": 1214
   },
   {
+    "id": 2195,
     "title": "Aula 08 - Agente de Resolução de Problemas. Part (2/4)",
     "embedUrl": "https://www.youtube.com/embed/W8PIuI-_lAc",
     "duration": 1685
   },
   {
+    "id": 2196,
     "title": "Aula 09 - Resolução de Problemas - Exercício Missionários e Canibais. Part (3/4)",
     "embedUrl": "https://www.youtube.com/embed/N1dgi46v6Mk",
     "duration": 984
   },
   {
+    "id": 2197,
     "title": "Aula 10 - Agente de Resolução de Problemas - Heurísticas. Part (4/4)",
     "embedUrl": "https://www.youtube.com/embed/0QE7NG9zjfY",
     "duration": 2718
   },
   {
+    "id": 2198,
     "title": "Aula 11 - Além da Busca Clássica Introdução:  Local Search e Hill climbing",
     "embedUrl": "https://www.youtube.com/embed/8AzBLvKzQjs",
     "duration": 2004
   },
   {
+    "id": 2199,
     "title": "Aula 12 - Além da Busca Clássica Introdução: Simulated Annealing",
     "embedUrl": "https://www.youtube.com/embed/ds2Ps1kLk_I",
     "duration": 1608
   },
   {
+    "id": 2200,
     "title": "Aula 13 - Além da Busca Clássica: Beam Search",
     "embedUrl": "https://www.youtube.com/embed/vVYZ9Mb51t0",
     "duration": 1157
   },
   {
+    "id": 2201,
     "title": "Aula 14 - Além da Busca Clássica: Algoritmos Genéticos (1/2)",
     "embedUrl": "https://www.youtube.com/embed/D_TRdKEbc5c",
     "duration": 1411
   },
   {
+    "id": 2202,
     "title": "Aula 15 - Além da Busca Clássica: Algoritmos Genéticos (2/2)",
     "embedUrl": "https://www.youtube.com/embed/Vk2X4m0lkAk",
     "duration": 1551
   },
   {
+    "id": 2203,
     "title": "Aula 16 - Jogos com Adversários  ( Min-Max )",
     "embedUrl": "https://www.youtube.com/embed/dRn9qrUx1_4",
     "duration": 2167
   },
   {
+    "id": 2204,
     "title": "Aula 17 - Problema de Satisfação de Restrições (PSR)",
     "embedUrl": "https://www.youtube.com/embed/WC3K-scfnjM",
     "duration": 2057
   },
   {
+    "id": 2205,
     "title": "Aula 18 - Introdução à Representação do Conhecimento. Part (1/4)",
     "embedUrl": "https://www.youtube.com/embed/R-vdnt8H5pU",
     "duration": 2112
   },
   {
+    "id": 2206,
     "title": "Aula 19 - Introdução à Representação do Conhecimento. Part (2/4)",
     "embedUrl": "https://www.youtube.com/embed/zoMLMzSVkn0",
     "duration": 1577
   },
   {
+    "id": 2207,
     "title": "Aula 20 - Introdução à Representação do Conhecimento. Part (3/4)",
     "embedUrl": "https://www.youtube.com/embed/eNtXuvoTjR4",
     "duration": 1259
   },
   {
+    "id": 2208,
     "title": "Aula 21 - Introdução à Representação do Conhecimento. Part (4/4)",
     "embedUrl": "https://www.youtube.com/embed/JWX8UJJvE8U",
     "duration": 2217
   },
   {
+    "id": 2209,
     "title": "Aula 22 - Introdução ao aprendizado de máquina.  Part (1/6)",
     "embedUrl": "https://www.youtube.com/embed/mzlhQqNUzQo",
     "duration": 2394
   },
   {
+    "id": 2210,
     "title": "Aula 23 - Introdução ao aprendizado de máquina. Part (2/6)",
     "embedUrl": "https://www.youtube.com/embed/BdsflRcqA0Q",
     "duration": 1844
   },
   {
+    "id": 2211,
     "title": "Aula 24 - Introdução ao aprendizado de máquina. Part (3/6)",
     "embedUrl": "https://www.youtube.com/embed/2OTgcYUIfOc",
     "duration": 2418
   },
   {
+    "id": 2212,
     "title": "Aula 25 - Introdução ao aprendizado de máquina. Part (4/6)",
     "embedUrl": "https://www.youtube.com/embed/u5dcmroFxAI",
     "duration": 2731
   },
   {
+    "id": 2213,
     "title": "Explicações sobre Trabalho de Implementação ROBOCODE.",
     "embedUrl": "https://www.youtube.com/embed/FKXpU3LMiAc",
     "duration": 1215
   },
   {
+    "id": 2214,
     "title": "Aula 26 - Introdução ao aprendizado de máquina. Part (5/6)",
     "embedUrl": "https://www.youtube.com/embed/YXQLhRE-SjE",
     "duration": 1965
   },
   {
+    "id": 2215,
     "title": "Aula 27 - Introdução ao aprendizado de máquina. Part (6/6)",
     "embedUrl": "https://www.youtube.com/embed/6U4vH6Z6aEE",
     "duration": 1120
   },
   {
+    "id": 2216,
     "title": "DISPUTAS TRABALHO ROBOCODE 2021.2",
     "embedUrl": "https://www.youtube.com/embed/oIGsYlzlrHM",
     "duration": 1776
   },
   {
+    "id": 2217,
     "title": "All Machine Learning Models Explained in 5 Minutes | Types of ML Models Basics",
     "embedUrl": "https://www.youtube.com/embed/yN7ypxC7838",
     "duration": 301

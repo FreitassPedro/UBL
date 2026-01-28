@@ -1,350 +1,420 @@
 [
   {
+    "id": 1718,
     "title": "Polinômios de Taylor, funções de uma variável real (Tópico 1)",
     "embedUrl": "https://www.youtube.com/embed/lQdzRBRL9Tw",
     "duration": 2010
   },
   {
+    "id": 1719,
     "title": "Fórmula de Taylor com resto de Lagrange de Funções de uma variável (Tópico 2, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/rzuY_L8ag2M",
     "duration": 1362
   },
   {
+    "id": 1720,
     "title": "Fórmula de Taylor com resto de Lagrange de Funções de uma variável (Tópico 2, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/nV0YeH4QaLo",
     "duration": 1832
   },
   {
+    "id": 1721,
     "title": "Fórmula de Taylor com resto de Lagrange de Funções de uma variável (Tópico 2, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/vRLzlgt01sk",
     "duration": 1507
   },
   {
+    "id": 1722,
     "title": "Curvas planas: equações paramétricas e vetor tangente (Tópico 3, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/A_PIIDItrBc",
     "duration": 1390
   },
   {
+    "id": 1723,
     "title": "Curvas planas: equações paramétricas e vetor tangente (Tópico 3, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/BMfK3zze7fA",
     "duration": 1306
   },
   {
+    "id": 1724,
     "title": "Curvas planas: equações paramétricas e vetor tangente (Tópico 3, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/ueNy2UgUX_o",
     "duration": 1894
   },
   {
+    "id": 1725,
     "title": "Funções de duas variáveis reais a valores reais: gráfico e curvas de nível (Tópico 4, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/2ddgsYYPaeg",
     "duration": 1516
   },
   {
+    "id": 1726,
     "title": "Funções de duas variáveis reais a valores reais: gráfico e curvas de nível (Tópico 4, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/OwQ2vSDCR6c",
     "duration": 1379
   },
   {
+    "id": 1727,
     "title": "Funções de duas variáveis reais a valores reais: gráfico e curvas de nível (Tópico 4, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/5OZ-IbICMGc",
     "duration": 1462
   },
   {
+    "id": 1728,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/nz-ssZWxz6w",
     "duration": 1437
   },
   {
+    "id": 1729,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/DNjMLOs2UC4",
     "duration": 1684
   },
   {
+    "id": 1730,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/nOPK6CubFtE",
     "duration": 1776
   },
   {
+    "id": 1731,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 4)",
     "embedUrl": "https://www.youtube.com/embed/DQ11oOm_s3E",
     "duration": 1616
   },
   {
+    "id": 1732,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 5)",
     "embedUrl": "https://www.youtube.com/embed/X_VfVMj9eik",
     "duration": 1300
   },
   {
+    "id": 1733,
     "title": "Cálculo de limites de funções de duas variáveis (Tópico 5, parte 6)",
     "embedUrl": "https://www.youtube.com/embed/TKSoYEC1ODo",
     "duration": 1409
   },
   {
+    "id": 1734,
     "title": "Resolução de problemas e exercícios da lista 1 (Tópico 6, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/c8F8-iAsy84",
     "duration": 2063
   },
   {
+    "id": 1735,
     "title": "Resolução de problemas e exercícios da lista 1 (Tópico 7, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/3lKDYhlABpc",
     "duration": 1680
   },
   {
+    "id": 1736,
     "title": "Resolução de problemas e exercícios da lista 1 II (Tópico 8, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/dfBszI2BSBE",
     "duration": 1524
   },
   {
+    "id": 1737,
     "title": "Resolução de problemas e exercícios da lista 1 II (Tópico 8, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/AwBt5LCOOTk",
     "duration": 1469
   },
   {
+    "id": 1738,
     "title": "Resolução de problemas e exercícios da lista 1 II (Tópico 8, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/pqc5RI2gniE",
     "duration": 1294
   },
   {
+    "id": 1739,
     "title": "Derivadas Parciais (Tópico 9, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/dPgt7dDoLhA",
     "duration": 1963
   },
   {
+    "id": 1740,
     "title": "Derivadas Parciais (Tópico 9, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/lCrBaypZJHk",
     "duration": 1431
   },
   {
+    "id": 1741,
     "title": "Derivadas Parciais (Tópico 9, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/kFQoEoUpyww",
     "duration": 1652
   },
   {
+    "id": 1742,
     "title": "Diferenciabilidade de funções de duas variáveis (Tópico 10, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/Zqd4PhUVtio",
     "duration": 1718
   },
   {
+    "id": 1743,
     "title": "Diferenciabilidade de funções de duas variáveis (Tópico 10, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/zMOfZLNyiT8",
     "duration": 1020
   },
   {
+    "id": 1744,
     "title": "Diferenciabilidade de funções de duas variáveis (Tópico 10, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/Qb8qSZOMyFw",
     "duration": 1320
   },
   {
+    "id": 1745,
     "title": "Condições suficientes para que uma função de duas variáveis seja diferenciável (Tópico 11, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/V3Abl3nTk4E",
     "duration": 2103
   },
   {
+    "id": 1746,
     "title": "Condições suficientes para que uma função de duas variáveis seja diferenciável (Tópico 11, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/-aEgqHlGKb4",
     "duration": 1353
   },
   {
+    "id": 1747,
     "title": "Regra da Cadeia Gradiente (Tópico 12, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/BWGvPBS2QOw",
     "duration": 1806
   },
   {
+    "id": 1748,
     "title": "Regra da Cadeia Gradiente (Tópico 12, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/_gvxJAudsWo",
     "duration": 1155
   },
   {
+    "id": 1749,
     "title": "Regra da Cadeia Gradiente (Tópico 12, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/4AddFcbXfqY",
     "duration": 1333
   },
   {
+    "id": 1750,
     "title": "Regra da Cadeia. Derivadas parciais de ordem superior (Tópico 13, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/4eFFW-mZmTU",
     "duration": 1729
   },
   {
+    "id": 1751,
     "title": "Regra da Cadeia Derivadas parciais de ordem superior (Tópico 13, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/hAGbHk8ucZo",
     "duration": 1543
   },
   {
+    "id": 1752,
     "title": "Regra da Cadeia Derivadas parciais de ordem superior (Tópico 13, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/cX5mKe9s460",
     "duration": 1092
   },
   {
+    "id": 1753,
     "title": "Vetor gradiente e derivada direcional de uma função de duas variáveis (Tópico 14, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/GOTY9Datrec",
     "duration": 1381
   },
   {
+    "id": 1754,
     "title": "Vetor gradiente e derivada direcional de uma função de duas variáveis (Tópico 14, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/E4VfHZZuUM4",
     "duration": 1440
   },
   {
+    "id": 1755,
     "title": "Vetor gradiente e derivada direcional de uma função de duas variáveis (Tópico 14, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/5A5grEuOaMM",
     "duration": 1739
   },
   {
+    "id": 1756,
     "title": "Exercícios: propriedades do gradiente e regra da cadeia (Tópico 15, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/z-0khGRb_AE",
     "duration": 1726
   },
   {
+    "id": 1757,
     "title": "Exercícios: propriedades do gradiente e regra da cadeia (Tópico 15, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/vDSg54obDGs",
     "duration": 1326
   },
   {
+    "id": 1758,
     "title": "Exercícios: propriedades do gradiente e regra da cadeia (Tópico 15, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/o4y63UCfYm8",
     "duration": 1466
   },
   {
+    "id": 1759,
     "title": "Exercícios (Tópico 16, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/1tDPIWG5qtc",
     "duration": 1815
   },
   {
+    "id": 1760,
     "title": "Exercícios (Tópico 16, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/KPip6L81FQg",
     "duration": 1834
   },
   {
+    "id": 1761,
     "title": "Funções de 3 variáveis e superfícies de nível (Tópico 17, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/Gksfr0uJzsA",
     "duration": 1558
   },
   {
+    "id": 1762,
     "title": "Funções de 3 variáveis e superfícies de nível (Tópico 17, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/BdG7ky8ilss",
     "duration": 1546
   },
   {
+    "id": 1763,
     "title": "Funções de 3 variáveis e superfícies de nível (Tópico 17, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/HnlPnqmNLD4",
     "duration": 1348
   },
   {
+    "id": 1764,
     "title": "Funções de 3 variáveis: superfícies de nível e vetor gradiente (Tópico 18, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/CH_MQ7vxIkA",
     "duration": 1621
   },
   {
+    "id": 1765,
     "title": "Funções de 3 variáveis: superfícies de nível e vetor gradiente (Tópico 18, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/xZEuC4vZOpo",
     "duration": 1404
   },
   {
+    "id": 1766,
     "title": "Funções de 3 variáveis: superfícies de nível e vetor gradiente (Tópico 18, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/qPwk0Oy9BWA",
     "duration": 1826
   },
   {
+    "id": 1767,
     "title": "Máximos e mínimos de funções de duas variáveis definidas em conjuntos (Tópico 19, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/J66K5FJBPOM",
     "duration": 1725
   },
   {
+    "id": 1768,
     "title": "Máximos e mínimos de funções de duas variáveis definidas em conjuntos (Tópico 19, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/HHe4tz4XX4s",
     "duration": 1612
   },
   {
+    "id": 1769,
     "title": "Máximos e mínimos de funções de duas variáveis definidas em conjuntos (Tópico 19, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/CoZcYDYW4E8",
     "duration": 1577
   },
   {
+    "id": 1770,
     "title": "Máximos e mínimos. Multiplicadores de Lagrange (Tópico 20, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/RCYBZw_5eBQ",
     "duration": 1816
   },
   {
+    "id": 1771,
     "title": "Máximos e mínimos. Multiplicadores de Lagrange (Tópico 20, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/Xl4Vgas5uJ4",
     "duration": 1761
   },
   {
+    "id": 1772,
     "title": "Máximos e mínimos. Multiplicadores de Lagrange (Tópico 20, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/XGrgI02NbgI",
     "duration": 1277
   },
   {
+    "id": 1773,
     "title": "Método dos Multiplicadores de Lagrange para 2 e 3 variáveis (Tópico 21, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/Py9PeEYvdn4",
     "duration": 1833
   },
   {
+    "id": 1774,
     "title": "Método dos Multiplicadores de Lagrange para 2 e 3 variáveis (Tópico 21, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/RLdDPpDi7SY",
     "duration": 1324
   },
   {
+    "id": 1775,
     "title": "Método dos Multiplicadores de Lagrange para 2 e 3 variáveis (Tópico 21, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/oC3jsXJKAIk",
     "duration": 1445
   },
   {
+    "id": 1776,
     "title": "Método dos Multiplicadores de Lagrange com duas restrições (Tópico 22, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/90oRabEXfU8",
     "duration": 1106
   },
   {
+    "id": 1777,
     "title": "Método dos Multiplicadores de Lagrange com duas restrições (Tópico 22, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/ukyPnwZIF-c",
     "duration": 1842
   },
   {
+    "id": 1778,
     "title": "Método dos Multiplicadores de Lagrange com duas restrições (Tópico 22, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/0XcNYPZwUhE",
     "duration": 1476
   },
   {
+    "id": 1779,
     "title": "Condições necessárias para um ponto ser de máximo ou de mínimo local (Tópico 23, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/e3InsGUTlEY",
     "duration": 1491
   },
   {
+    "id": 1780,
     "title": "Condição suficiente para um ponto crítico ser de máximo ou de mínimo local (Tópico 23, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/LH8Q_gjbIGY",
     "duration": 1885
   },
   {
+    "id": 1781,
     "title": "Condição suficiente para um ponto crítico ser de máximo ou de mínimo local (Tópico 23, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/GcMykB43_1M",
     "duration": 1499
   },
   {
+    "id": 1782,
     "title": "Exercícios (Tópico 24, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/MphHeFq-rBw",
     "duration": 1795
   },
   {
+    "id": 1783,
     "title": "Exercícios (Tópico 24, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/orhrMl55CsE",
     "duration": 1764
   },
   {
+    "id": 1784,
     "title": "Resolução de exercícios da lista 3 (Tópico 25, parte 1)",
     "embedUrl": "https://www.youtube.com/embed/jl0V_jFXuSE",
     "duration": 1404
   },
   {
+    "id": 1785,
     "title": "Resolução de exercícios da lista 3 (Tópico 25, parte 2)",
     "embedUrl": "https://www.youtube.com/embed/R2jjPMmOwzc",
     "duration": 1252
   },
   {
+    "id": 1786,
     "title": "Resolução de exercícios da lista 3 (Tópico 25, parte 3)",
     "embedUrl": "https://www.youtube.com/embed/pym3eQMm3n4",
     "duration": 1735
   },
   {
+    "id": 1787,
     "title": "Revisão do Teorema de Weierstrass e exercícios (Tópico 26)",
     "embedUrl": "https://www.youtube.com/embed/KI0t8BceVak",
     "duration": 1650

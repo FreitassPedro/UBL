@@ -1,125 +1,150 @@
 [
   {
+    "id": 1606,
     "title": "Apresentação da Disciplina (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/fjOiu6CD5pc",
     "duration": 4799
   },
   {
+    "id": 1607,
     "title": "Introdução, conceitos e definições Turma 01",
     "embedUrl": "https://www.youtube.com/embed/lBUPslIZX_w",
     "duration": 4382
   },
   {
+    "id": 1608,
     "title": "Introdução, conceitos e definições (Continuação) Turma 01",
     "embedUrl": "https://www.youtube.com/embed/zQQSpHsVrmk",
     "duration": 4215
   },
   {
+    "id": 1609,
     "title": "Subgrafos e Conectividade Turma 01",
     "embedUrl": "https://www.youtube.com/embed/vQV1eg0SXi0",
     "duration": 3034
   },
   {
+    "id": 1610,
     "title": "Trilha, Passeio, Caminho, Ciclo e Árvore (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/oYS7tmFO-qg",
     "duration": 3896
   },
   {
+    "id": 1611,
     "title": "Grafos Hamiltonianos e Eulerianos (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/xk2tUn-jTd0",
     "duration": 4392
   },
   {
+    "id": 1612,
     "title": "Clique, Conjunto Independente e Cobertura de Vértice (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/R9pvWpDkU7w",
     "duration": 4825
   },
   {
+    "id": 1613,
     "title": "Conjunto Dominante, Emparelhamento e Coloração (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/jO8IrUDCJCg",
     "duration": 5383
   },
   {
+    "id": 1614,
     "title": "Grafos Planares (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/qfBTH33umQs",
     "duration": 3578
   },
   {
+    "id": 1615,
     "title": "Correção da 1ª Avaliação (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/QufEjJ6MUm8",
     "duration": 2277
   },
   {
+    "id": 1616,
     "title": "Representação Computacional (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/xKWwY__KhRA",
     "duration": 4189
   },
   {
+    "id": 1617,
     "title": "Representação Computacional Codificação (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/JLtaPTcskAc",
     "duration": 2542
   },
   {
+    "id": 1618,
     "title": "Busca em profundidade (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/46Fle4eSUYE",
     "duration": 4577
   },
   {
+    "id": 1619,
     "title": "Busca em profundidade e nomenclatura das arestas (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/J763btsCJ0A",
     "duration": 4166
   },
   {
+    "id": 1620,
     "title": "Busca em profundidade - implementação (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/PXEcdAkqNlM",
     "duration": 1270
   },
   {
+    "id": 1621,
     "title": "Ordenação Topológica e Componentes Conexas (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/8WeIVOef2tU",
     "duration": 4451
   },
   {
+    "id": 1622,
     "title": "Busca em Largura - Turma 01",
     "embedUrl": "https://www.youtube.com/embed/2hPMnCKaiqE",
     "duration": 4058
   },
   {
+    "id": 1623,
     "title": "Busca em Largura - Implementação (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/SXS1eSl2wRc",
     "duration": 2206
   },
   {
+    "id": 1624,
     "title": "Caminho Mínimo - Algoritmo de Dijkstra (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/1ufKJYglAxU",
     "duration": 3784
   },
   {
+    "id": 1625,
     "title": "Caminho mínimo - algoritmo de Bellman-Ford (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/DuSxO9cX73s",
     "duration": 4124
   },
   {
+    "id": 1626,
     "title": "Árvore Geradora Mínima - Algoritmo de Prim (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/nMQId9eMOF8",
     "duration": 4172
   },
   {
+    "id": 1627,
     "title": "Árvore Geradora Mínima - Algoritmo de Kruskal (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/Rd8uBFYl07A",
     "duration": 3592
   },
   {
+    "id": 1628,
     "title": "Revisão para 2ª Avaliação (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/z-TVTUeYdvo",
     "duration": 1752
   },
   {
+    "id": 1629,
     "title": "Fluxo Máximo - Ford & Fulkerson (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/m-IRoh3xNIU",
     "duration": 4310
   },
   {
+    "id": 1630,
     "title": "Fluxo Máximo - Algoritmo Push-Relabel (Turma 01)",
     "embedUrl": "https://www.youtube.com/embed/fJMAzwjfQGk",
     "duration": 3110

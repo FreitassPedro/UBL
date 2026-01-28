@@ -1,20 +1,20 @@
-import curriculumCC  from "./data/curriculumCC.ts";
+import { join } from "path";
+import curriculumCC from "./data/curriculumCC.ts";
 import curriculumMath from "./data/curriculumMath.ts";
 import CurriculumService from "./services/curriculum.service.ts";
 import YouTubeService from "./services/youtube.service.ts";
 
 async function main() {
-  const youtubeApiKey: string = process.argv[2];
+  const [, , youtubeApiKey] = process.argv;
   if (!youtubeApiKey) {
-    console.error("Insira sua chave de API do YouTube como argumento do programa");
-    process.exit(1);
+    throw new Error("Use: node main.js <YOUTUBE_API_KEY>");
   }
 
+  const directory: string = join("output", "curriculums");
   const youtubeService: YouTubeService = new YouTubeService(youtubeApiKey);
   const curriculumService: CurriculumService = new CurriculumService(youtubeService);
   for (const curriculum of [curriculumMath, curriculumCC]) {
-    await curriculumService.saveCurriculum(curriculum);
-    await curriculumService.saveLessons(curriculum);
+    await curriculumService.generate(directory, curriculum);
   }
 }
 
