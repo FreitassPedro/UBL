@@ -31,6 +31,8 @@ export default class CurriculumService {
         const videos: Video[] = await this.youtubeService.getVideos(this.youtubeService.getPlaylistId(subject.url));
         const videoDurations: Map<string, string> = await this.youtubeService.getVideoDurations(videos.map(video => video.contentDetails.videoId));
         const lessons: Lesson[] = toLessons(videos, videoDurations);
+        subject.lessons = lessons.length;
+
         yield {
           stepIndex: stepIndex,
           subjectIndex: subjectIndex,

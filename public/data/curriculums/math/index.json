@@ -18,6 +18,7 @@
               "url": "extras/bibliography/01_calculo_basico.md"
             }
           ],
+          "lessons": 9,
           "duration": 30243
         },
         {
@@ -31,6 +32,7 @@
               "url": "extras/bibliography/02_teoria_conjuntos.md"
             }
           ],
+          "lessons": 14,
           "duration": 64546
         },
         {
@@ -44,6 +46,7 @@
               "url": "extras/bibliography/03_logica_discreta.md"
             }
           ],
+          "lessons": 28,
           "duration": 40237
         },
         {
@@ -57,6 +60,7 @@
               "url": "extras/bibliography/04_geometria_analitica.md"
             }
           ],
+          "lessons": 28,
           "duration": 37726
         },
         {
@@ -70,6 +74,7 @@
               "url": "extras/bibliography/05_algoritmos_python.md"
             }
           ],
+          "lessons": 149,
           "duration": 137542
         }
       ]
@@ -89,6 +94,7 @@
               "url": "extras/bibliography/06_calculo_i.md"
             }
           ],
+          "lessons": 55,
           "duration": 143654
         },
         {
@@ -104,6 +110,7 @@
               "url": "extras/bibliography/07_analise_algoritmos.md"
             }
           ],
+          "lessons": 15,
           "duration": 19477
         },
         {
@@ -117,6 +124,7 @@
               "url": "extras/bibliography/08_algebra_linear.md"
             }
           ],
+          "lessons": 15,
           "duration": 15249
         },
         {
@@ -130,6 +138,7 @@
               "url": "extras/bibliography/09_algebra_linear_avancada.md"
             }
           ],
+          "lessons": 20,
           "duration": 87815
         },
         {
@@ -143,6 +152,7 @@
               "url": "extras/bibliography/10_teoria_numeros.md"
             }
           ],
+          "lessons": 15,
           "duration": 10530
         }
       ]
@@ -164,6 +174,7 @@
               "url": "extras/bibliography/11_calculo_ii.md"
             }
           ],
+          "lessons": 70,
           "duration": 114362
         },
         {
@@ -179,6 +190,7 @@
               "url": "extras/bibliography/12_estruturas_algebraicas.md"
             }
           ],
+          "lessons": 50,
           "duration": 41242
         },
         {
@@ -192,6 +204,7 @@
               "url": "extras/bibliography/13_equacoes_diferenciais.md"
             }
           ],
+          "lessons": 23,
           "duration": 119834
         },
         {
@@ -205,6 +218,7 @@
               "url": "extras/bibliography/14_fisica_geral_i.md"
             }
           ],
+          "lessons": 26,
           "duration": 69963
         },
         {
@@ -218,6 +232,7 @@
               "url": "extras/bibliography/15_historia_matematica.md"
             }
           ],
+          "lessons": 20,
           "duration": 13196
         }
       ]
@@ -239,6 +254,7 @@
               "url": "extras/bibliography/16_calculo_iii.md"
             }
           ],
+          "lessons": 58,
           "duration": 146843
         },
         {
@@ -254,6 +270,7 @@
               "url": "extras/bibliography/17_fisica_geral_ii.md"
             }
           ],
+          "lessons": 25,
           "duration": 59952
         },
         {
@@ -267,6 +284,7 @@
               "url": "extras/bibliography/18_estatistica_probabilidade.md"
             }
           ],
+          "lessons": 15,
           "duration": 14386
         },
         {
@@ -282,6 +300,7 @@
               "url": "extras/bibliography/19_programacao_linear.md"
             }
           ],
+          "lessons": 46,
           "duration": 47319
         },
         {
@@ -295,6 +314,7 @@
               "url": "extras/bibliography/20_analise_reta.md"
             }
           ],
+          "lessons": 19,
           "duration": 98298
         }
       ]
@@ -316,6 +336,7 @@
               "url": "extras/bibliography/21_calculo_iv.md"
             }
           ],
+          "lessons": 84,
           "duration": 128702
         },
         {
@@ -329,6 +350,7 @@
               "url": "extras/bibliography/22_topologia_geral.md"
             }
           ],
+          "lessons": 15,
           "duration": 74655
         },
         {
@@ -344,6 +366,7 @@
               "url": "extras/bibliography/23_calculo_variavel_complexa.md"
             }
           ],
+          "lessons": 21,
           "duration": 73526
         },
         {
@@ -357,6 +380,7 @@
               "url": "extras/bibliography/24_teoria_grafos.md"
             }
           ],
+          "lessons": 20,
           "duration": 87753
         },
         {
@@ -372,6 +396,7 @@
               "url": "extras/bibliography/25_fisica_geral_iii.md"
             }
           ],
+          "lessons": 28,
           "duration": 74967
         }
       ]
@@ -393,6 +418,7 @@
               "url": "extras/bibliography/26_aneis.md"
             }
           ],
+          "lessons": 32,
           "duration": 110204
         },
         {
@@ -408,6 +434,7 @@
               "url": "extras/bibliography/27_fisica_moderna.md"
             }
           ],
+          "lessons": 35,
           "duration": 88609
         },
         {
@@ -423,6 +450,7 @@
               "url": "extras/bibliography/28_teoria_corpos.md"
             }
           ],
+          "lessons": 31,
           "duration": 124255
         },
         {
@@ -436,6 +464,7 @@
               "url": "extras/bibliography/29_analise_complexa.md"
             }
           ],
+          "lessons": 25,
           "duration": 107372
         },
         {
@@ -452,6 +481,7 @@
               "url": "extras/bibliography/30_equacoes_diferenciais_parciais.md"
             }
           ],
+          "lessons": 42,
           "duration": 83093
         }
       ]

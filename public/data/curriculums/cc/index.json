@@ -18,6 +18,7 @@
               "url": "extras/bibliography/01_digital_circuits.md"
             }
           ],
+          "lessons": 93,
           "duration": 109956
         },
         {
@@ -31,6 +32,7 @@
               "url": "extras/bibliography/02_discrete_mathematics.md"
             }
           ],
+          "lessons": 113,
           "duration": 123431
         },
         {
@@ -44,6 +46,7 @@
               "url": "extras/bibliography/03_programming_languages.md"
             }
           ],
+          "lessons": 13,
           "duration": 59220
         },
         {
@@ -57,6 +60,7 @@
               "url": "extras/bibliography/04_intro_python.md"
             }
           ],
+          "lessons": 58,
           "duration": 42830
         },
         {
@@ -70,6 +74,7 @@
               "url": "extras/bibliography/05_analytic_geometry.md"
             }
           ],
+          "lessons": 55,
           "duration": 57367
         }
       ]
@@ -91,6 +96,7 @@
               "url": "extras/bibliography/06_intro_calculus.md"
             }
           ],
+          "lessons": 102,
           "duration": 170531
         },
         {
@@ -106,6 +112,7 @@
               "url": "extras/bibliography/07_intro_linear_algebra.md"
             }
           ],
+          "lessons": 23,
           "duration": 124864
         },
         {
@@ -122,6 +129,7 @@
               "url": "extras/bibliography/08_data_structure.md"
             }
           ],
+          "lessons": 21,
           "duration": 83473
         },
         {
@@ -137,6 +145,7 @@
               "url": "extras/bibliography/09_python.md"
             }
           ],
+          "lessons": 58,
           "duration": 42830
         },
         {
@@ -152,6 +161,7 @@
               "url": "extras/bibliography/10_object_orientation.md"
             }
           ],
+          "lessons": 36,
           "duration": 41112
         }
       ]
@@ -173,6 +183,7 @@
               "url": "extras/bibliography/11_graph_algorithms.md"
             }
           ],
+          "lessons": 25,
           "duration": 93084
         },
         {
@@ -188,6 +199,7 @@
               "url": "extras/bibliography/12_computer_architecture.md"
             }
           ],
+          "lessons": 47,
           "duration": 46330
         },
         {
@@ -203,6 +215,7 @@
               "url": "extras/bibliography/13_statistics_probability.md"
             }
           ],
+          "lessons": 40,
           "duration": 75824
         },
         {
@@ -218,6 +231,7 @@
               "url": "extras/bibliography/14_advanced_calculus.md"
             }
           ],
+          "lessons": 70,
           "duration": 109427
         },
         {
@@ -231,6 +245,7 @@
               "url": "extras/bibliography/15_haskell.md"
             }
           ],
+          "lessons": 62,
           "duration": 84501
         }
       ]
@@ -252,6 +267,7 @@
               "url": "extras/bibliography/16_analysis_of_algorithms.md"
             }
           ],
+          "lessons": 74,
           "duration": 74981
         },
         {
@@ -268,6 +284,7 @@
               "url": "extras/bibliography/17_numeric_methods.md"
             }
           ],
+          "lessons": 24,
           "duration": 30233
         },
         {
@@ -281,6 +298,7 @@
               "url": "extras/bibliography/18_database.md"
             }
           ],
+          "lessons": 28,
           "duration": 39519
         },
         {
@@ -297,6 +315,7 @@
               "url": "extras/bibliography/19_computer_architecture_II.md"
             }
           ],
+          "lessons": 34,
           "duration": 35987
         },
         {
@@ -310,6 +329,7 @@
               "url": "extras/bibliography/20_logical_programming.md"
             }
           ],
+          "lessons": 11,
           "duration": 14513
         }
       ]
@@ -329,6 +349,7 @@
               "url": "extras/bibliography/21_computer_network.md"
             }
           ],
+          "lessons": 8,
           "duration": 118026
         },
         {
@@ -344,6 +365,7 @@
               "url": "extras/bibliography/22_software_engineering.md"
             }
           ],
+          "lessons": 18,
           "duration": 22803
         },
         {
@@ -359,6 +381,7 @@
               "url": "extras/bibliography/23_operating_system.md"
             }
           ],
+          "lessons": 23,
           "duration": 88597
         },
         {
@@ -374,6 +397,7 @@
               "url": "extras/bibliography/24_math_optimization.md"
             }
           ],
+          "lessons": 30,
           "duration": 89300
         },
         {
@@ -389,6 +413,7 @@
               "url": "extras/bibliography/25_fundamentals_computer_graphics.md"
             }
           ],
+          "lessons": 20,
           "duration": 30754
         }
       ]
@@ -410,6 +435,7 @@
               "url": "extras/bibliography/26_automata_theory.md"
             }
           ],
+          "lessons": 68,
           "duration": 75153
         },
         {
@@ -426,6 +452,7 @@
               "url": "extras/bibliography/27_artificial_intelligence.md"
             }
           ],
+          "lessons": 30,
           "duration": 55724
         },
         {
@@ -441,6 +468,7 @@
               "url": "extras/bibliography/28_distributed_computing.md"
             }
           ],
+          "lessons": 22,
           "duration": 34774
         },
         {
@@ -456,6 +484,7 @@
               "url": "extras/bibliography/29_graphs.md"
             }
           ],
+          "lessons": 20,
           "duration": 87753
         },
         {
@@ -471,6 +500,7 @@
               "url": "extras/bibliography/30_multivariable_calculus.md"
             }
           ],
+          "lessons": 90,
           "duration": 125146
         }
       ]
@@ -492,6 +522,7 @@
               "url": "extras/bibliography/31_theory_of_computation.md"
             }
           ],
+          "lessons": 35,
           "duration": 34861
         },
         {
@@ -507,6 +538,7 @@
               "url": "extras/bibliography/32_deep_learning.md"
             }
           ],
+          "lessons": 33,
           "duration": 87311
         },
         {
@@ -523,6 +555,7 @@
               "url": "extras/bibliography/33_compilers.md"
             }
           ],
+          "lessons": 27,
           "duration": 166283
         },
         {
@@ -539,6 +572,7 @@
               "url": "extras/bibliography/34_quantum_copmputing.md"
             }
           ],
+          "lessons": 21,
           "duration": 73653
         },
         {
@@ -552,6 +586,7 @@
               "url": "extras/bibliography/35_methodology.md"
             }
           ],
+          "lessons": 20,
           "duration": 80523
         }
       ]

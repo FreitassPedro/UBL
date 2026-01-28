@@ -11,6 +11,7 @@ export default interface Curriculum {
       url: string;
       prerequisites: string[];
       duration?: number;
+      lessons?: number;
       books: {
         name: string;
         url: string;
