@@ -7,10 +7,10 @@ import { GraduationCap, Network } from "lucide-react";
 import React, { useEffect } from "react";
 
 interface CurriculumProps {
-  selectedCourse: CurriculumType;
+  curriculum: CurriculumType;
 }
 
-export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
+export const Curriculum = ({ curriculum }: CurriculumProps) => {
   const [nodeView, setNodeView] = React.useState<boolean>(false);
   const sectionRef = React.useRef<HTMLElement>(null);
 
@@ -18,7 +18,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
     if (sectionRef.current) {
       sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  }, [selectedCourse]);
+  }, [curriculum]);
 
   return (
     <section className="w-full py-8" ref={sectionRef}>
@@ -27,7 +27,7 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
           <div className="flex items-center gap-4">
             <GraduationCap className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">
-              {selectedCourse.name}
+              {curriculum.name}
             </h2>
           </div>
           <Separator className="hidden md:block flex-1 bg-linear-to-r from-ubl-blue to-ubl-green rounded" />
@@ -45,12 +45,12 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
         <CurriculumGraphModal
           open={nodeView}
           onOpenChange={setNodeView}
-          grade={selectedCourse}
+          grade={curriculum}
         />
 
         {/* Etapas (Stages) */}
         <ul className="space-y-4">
-          {selectedCourse.steps.map((step) => {
+          {curriculum.steps.map((step) => {
             return <Step key={step.id} step={step} />;
           })}
         </ul>

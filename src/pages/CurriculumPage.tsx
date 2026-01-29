@@ -7,6 +7,8 @@ import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelecto
 import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
 import { useCurriculum } from "@/hooks/useCurriculum";
 import { cn } from "@/lib/utils";
+import CurriculumSkeleton from "@/pages/CurriculumSkeleton";
+import type { Curriculum as CurriculumType } from "@/types/curriculum";
 import React from "react";
 
 type CurriculumOption = CurriculumCourse & {
@@ -31,27 +33,21 @@ const courses: CurriculumOption[] = [
 ];
 
 const CurriculumPage = () => {
-  const [selectedCourseIndex, setSelectedCourseIndex] = React.useState<
-    number | undefined
-  >();
+  const [selectedCourseIndex, setSelectedCourseIndex] = React.useState<number | undefined>();
   const selectedCourse =
-    selectedCourseIndex !== undefined ? courses[selectedCourseIndex] : undefined;
-  const curriculumQuery = useCurriculum(
-    selectedCourse?.acronym ?? "",
-    Boolean(selectedCourse),
-  );
-  const selectedGrade = curriculumQuery.data;
+    selectedCourseIndex !== undefined
+      ? courses[selectedCourseIndex]
+      : undefined;
 
-  const handleCourseSelection = (index: number) => {
-    setSelectedCourseIndex(index);
-  };
+  const curriculumQuery = useCurriculum(selectedCourse?.acronym);
+  const curriculum: CurriculumType | undefined = curriculumQuery.data;
 
   return (
     <div className="min-h-screen bg-bg-body text-white">
       <main
         className={cn(
           "flex flex-col items-center space-y-4",
-          selectedGrade ? "" : "mb-10",
+          curriculum ? "" : "mb-10",
         )}
       >
         <CurriculumHero
@@ -62,16 +58,12 @@ const CurriculumPage = () => {
 
         <CurriculumSelector
           courses={courses}
-          onSelectCourse={handleCourseSelection}
+          onSelectCourse={setSelectedCourseIndex}
         />
 
         {/* Seção de Conteúdo da Grade Curricular */}
-        {curriculumQuery.isLoading && selectedCourse && (
-          <div className="w-full max-w-6xl px-6 sm:px-8 text-zinc-300">
-            Carregando grade curricular...
-          </div>
-        )}
-        {selectedGrade && <Curriculum selectedCourse={selectedGrade} />}
+        {curriculumQuery.isLoading && selectedCourse && <CurriculumSkeleton />}
+        {curriculum && <Curriculum curriculum={curriculum} />}
       </main>
     </div>
   );

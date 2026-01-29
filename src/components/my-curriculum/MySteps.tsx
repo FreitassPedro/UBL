@@ -1,6 +1,6 @@
-import { MyStep } from "@/components/my-course/MyStep";
-import { MyStepsHeader } from "@/components/my-course/MyStepsHeader";
-import MyStepsNavigation from "@/components/my-course/MyStepsNavigation";
+import { MyStep } from "@/components/my-curriculum/MyStep";
+import { MyStepsHeader } from "@/components/my-curriculum/MyStepsHeader";
+import MyStepsNavigation from "@/components/my-curriculum/MyStepsNavigation";
 import type MyCurriculum from "@/types/my-curriculum";
 import { useEffect, useState } from "react";
 
@@ -15,14 +15,14 @@ export const MySteps = ({
   currentStepId,
   getStepHref,
 }: MyStepsProps) => {
-  const fallbackStepId = myCurriculum.steps[0]?.id || 1;
+  const fallbackStepNumber = myCurriculum.steps[0]?.number || 1;
   const [activeStep, setActiveStep] = useState<number>(
-    currentStepId ?? fallbackStepId,
+    currentStepId ?? fallbackStepNumber,
   );
 
   useEffect(() => {
-    setActiveStep(currentStepId ?? fallbackStepId);
-  }, [currentStepId, fallbackStepId, myCurriculum.name]);
+    setActiveStep(currentStepId ?? fallbackStepNumber);
+  }, [currentStepId, fallbackStepNumber, myCurriculum.name]);
 
   return (
     <div className="flex flex-col w-full space-y-8 mb-10">
@@ -42,7 +42,7 @@ export const MySteps = ({
       {/* Conteúdo */}
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
         {myCurriculum.steps
-          .filter((gr) => gr.id === activeStep)
+          .filter((gr) => gr.number === activeStep)
           .map((step) => (
             <div key={step.id} className="space-y-6">
               <MyStepsHeader myStep={step} />

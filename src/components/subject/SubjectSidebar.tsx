@@ -1,14 +1,15 @@
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Skeleton } from "@/components/ui/skeleton";
 import { SubjectSidebarItem } from "./SubjectSidebarItem";
-import type { MyLessonProgress } from "@/types/my-lesson";
+import type { MyLesson } from "@/types/my-lesson";
 import type MySubject from "@/types/my-subject";
 
 interface SubjectSidebarProps {
   mySubject: MySubject;
-  lessons: MyLessonProgress[];
-  currentLesson?: MyLessonProgress;
-  onSelectLesson: (lesson: MyLessonProgress) => void;
+  lessons: MyLesson[];
+  currentLesson?: MyLesson;
+  onSelectLesson: (lesson: MyLesson) => void;
   onToggleCompletion: (lessonId: number) => void;
   isLoading?: boolean;
 }
@@ -22,7 +23,7 @@ export const SubjectSidebar = ({
   isLoading,
 }: SubjectSidebarProps) => {
   const totalLessons = lessons.length || subject.lessons || 0;
-  const completedLessons = lessons.filter((lesson) => lesson.completed).length;
+  const completedLessons = lessons.filter((lesson) => lesson.isCompleted).length;
   const completionValue =
     totalLessons > 0 ? (completedLessons / totalLessons) * 100 : 0;
 
@@ -31,27 +32,43 @@ export const SubjectSidebar = ({
       <div className="flex items-center justify-between pr-2">
         <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
         <span className="text-sm font-semibold">
-          {isLoading
-            ? "Carregando..."
-            : `${completedLessons} de ${totalLessons}`}
+          {isLoading ? (
+            <Skeleton className="h-4 w-20" />
+          ) : (
+            `${completedLessons} de ${totalLessons}`
+          )}
         </span>
       </div>
 
-      <Progress value={completionValue} />
+      {isLoading ? (
+        <Skeleton className="h-2 w-full rounded-full" />
+      ) : (
+        <Progress value={completionValue} />
+      )}
 
       <div className="flex min-h-0 flex-col flex-1">
         <ScrollArea className="h-72 sm:h-96 lg:h-full w-full overflow-hidden">
-          <ul className="space-y-2 pr-2">
-            {lessons.map((lesson) => (
-              <SubjectSidebarItem
-                key={lesson.id}
-                lesson={lesson}
-                isSelected={currentLesson?.id === lesson.id}
-                onSelect={onSelectLesson}
-                onToggleCompletion={onToggleCompletion}
-              />
-            ))}
-          </ul>
+          {isLoading ? (
+            <ul className="space-y-2 pr-2">
+              {Array.from({ length: 6 }).map((_, index) => (
+                <li key={`subject-lesson-skeleton-${index}`}>
+                  <Skeleton className="h-10 w-full" />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <ul className="space-y-2 pr-2">
+              {lessons.map((lesson) => (
+                <SubjectSidebarItem
+                  key={lesson.id}
+                  lesson={lesson}
+                  isSelected={currentLesson?.id === lesson.id}
+                  onSelect={onSelectLesson}
+                  onToggleCompletion={onToggleCompletion}
+                />
+              ))}
+            </ul>
+          )}
         </ScrollArea>
       </div>
     </aside>

@@ -4,11 +4,11 @@ import { ArrowRight, Binary, Sigma } from "lucide-react";
 import type { JSX } from "react";
 import { Link } from "react-router-dom";
 
-type MyCourseSelectorProps = {
-  onSelect?: (course: string) => void;
+type MyCurriculumSelectorProps = {
+  onSelect?: (curriculum: string) => void;
 };
 
-const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
+const MyCurriculumSelector = ({ onSelect }: MyCurriculumSelectorProps) => {
   const options: Array<{
     id: number;
     acronym: string;
@@ -123,4 +123,4 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
   );
 };
 
-export default MyCourseSelector;
+export default MyCurriculumSelector;

@@ -19,26 +19,52 @@ export const UserProgressProvider = ({ children }: { children: React.ReactNode }
         const curriculum = prev[curriculumAcronym] ?? {};
         const step = curriculum[stepNumber] ?? {};
         const lessons = step[subjectName] ?? [];
-        return {
-          ...prev,
-          [curriculumAcronym]: {
-            ...curriculum,
-            [stepNumber]: {
-              ...step,
-              [subjectName]: lessons.includes(lessonId)
-                ? lessons.filter((id) => id !== lessonId)
-                : [...lessons, lessonId],
+        const nextLessons = lessons.includes(lessonId)
+          ? lessons.filter((id) => id !== lessonId)
+          : [...lessons, lessonId];
+
+        if (nextLessons.length > 0) {
+          return {
+            ...prev,
+            [curriculumAcronym]: {
+              ...curriculum,
+              [stepNumber]: {
+                ...step,
+                [subjectName]: nextLessons,
+              },
             },
-          },
-        };
+          };
+        }
+
+        const { [subjectName]: _, ...nextStep } = step;
+        if (Object.keys(nextStep).length > 0) {
+          return {
+            ...prev,
+            [curriculumAcronym]: {
+              ...curriculum,
+              [stepNumber]: nextStep,
+            },
+          };
+        }
+
+        const { [stepNumber]: __, ...nextCurriculum } = curriculum;
+        if (Object.keys(nextCurriculum).length > 0) {
+          return {
+            ...prev,
+            [curriculumAcronym]: nextCurriculum,
+          };
+        }
+
+        const { [curriculumAcronym]: ___, ...nextProgress } = prev;
+        return nextProgress;
       });
     },
-    [setProgress]
+    [setProgress],
   );
 
   const context: UserProgressContextType = useMemo(
     () => ({ progress, toggleLessonCompletion }),
-    [progress, toggleLessonCompletion]
+    [progress, toggleLessonCompletion],
   );
 
   return (

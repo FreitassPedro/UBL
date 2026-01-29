@@ -61,7 +61,13 @@ export const Lesson = ({ mySubject, lesson, isLoading }: LessonProps) => {
             </div>
 
             <h2 className="text-2xl font-semibold leading-snug text-zinc-100">
-              {lesson?.title ?? "Carregando aula..."}
+              {lesson?.title ? (
+                lesson.title
+              ) : isLoading ? (
+                <Skeleton className="h-7 w-3/4" />
+              ) : (
+                "Aula indisponível"
+              )}
             </h2>
           </div>
         </>

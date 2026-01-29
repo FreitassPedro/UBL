@@ -1,67 +1,55 @@
 import { useCurriculums } from "@/hooks/useCurriculums";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import type MySubject from "@/types/my-subject";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 
-export const useMySubjects = () => {
+export const useMySubjects = (acronyms: string[]) => {
   const { progress } = useUserProgress();
-  const activeCurriculums = Object.keys(progress);
-  const curriculumQueries = useCurriculums(activeCurriculums);
-  const [orderBy, setOrderBy] = useState<string>("etapas");
+  const curriculumQueries = useCurriculums(acronyms);
+  const hasQueries: boolean = acronyms.length > 0;
+  const isLoading: boolean = hasQueries && curriculumQueries.some((query) => query.isLoading);
+  const isSuccess: boolean = hasQueries && curriculumQueries.every((query) => query.isSuccess);
 
   const mySubjects: MySubject[] = useMemo(() => {
-    const innerMySubjects: MySubject[] = [];
-    for (const curriculumQuery of curriculumQueries) {
-      const curriculum = curriculumQuery.data;
+    return curriculumQueries.flatMap(({ data: curriculum }) => {
       if (!curriculum) {
-        continue;
+        return [];
       }
 
       const curriculumProgress = progress[curriculum.acronym];
       if (!curriculumProgress) {
-        continue;
+        return [];
       }
 
-      for (const step of curriculum.steps) {
+      return curriculum.steps.flatMap((step) => {
         const stepProgress = curriculumProgress[step.number];
         if (!stepProgress) {
-          continue;
+          return [];
         }
 
-        for (const subject of step.subjects) {
+        return step.subjects.flatMap((subject) => {
           const subjectProgress = stepProgress[subject.name];
           if (!subjectProgress) {
-            continue;
+            return [];
           }
 
-          innerMySubjects.push({
-            ...subject,
-            curriculumAcronym: curriculum.acronym,
-            curriculumName: curriculum.name,
-            stepNumber: step.number,
-            completedLessons: subjectProgress.length,
-          });
-        }
-      }
-    }
-
-    return innerMySubjects.sort((a, b) => {
-      switch (orderBy) {
-        case "etapas":
-          return a.stepNumber - b.stepNumber;
-        case "progresso":
-          return b.completedLessons - a.completedLessons;
-        case "curso":
-          return a.curriculumName.localeCompare(b.curriculumName);
-        default:
-          return 0;
-      }
+          return [
+            {
+              ...subject,
+              curriculumAcronym: curriculum.acronym,
+              curriculumName: curriculum.name,
+              stepNumber: step.number,
+              completedLessons: subjectProgress.length,
+            },
+          ];
+        });
+      });
     });
-  }, [progress, curriculumQueries, orderBy]);
+  }, [progress, curriculumQueries]);
 
   return {
-    mySubjects,
-    orderBy,
-    setOrderBy,
+    mySubjects: mySubjects,
+    isLoading: isLoading,
+    isSuccess: isSuccess,
   };
 };

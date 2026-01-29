@@ -1,5 +1,5 @@
 import type { Lesson } from "@/types/lesson";
 
-export interface MyLessonProgress extends Lesson {
-  completed: boolean;
+export interface MyLesson extends Lesson {
+  isCompleted: boolean;
 }

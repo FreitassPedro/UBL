@@ -1,3 +1,4 @@
+import { HomeProgressSkeleton } from "@/components/home/HomeProgressSkeleton";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -21,11 +22,14 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { useMySubjects } from "@/hooks/useMySubjects";
+import { useMyActiveSubjects } from "@/hooks/useMyActiveSubjects";
 import { Link } from "react-router-dom";
 
 export const HomeProgress = () => {
-  const { mySubjects, orderBy, setOrderBy } = useMySubjects();
+  const { myActiveSubjects: mySubjects, orderBy, setOrderBy, isLoading } = useMyActiveSubjects();
+  if (isLoading) {
+    return <HomeProgressSkeleton />;
+  }
 
   return (
     <>
@@ -99,21 +103,25 @@ export const HomeProgress = () => {
 
                         return (
                           <>
-                      <div className="flex items-center justify-between text-gray-400 text-base">
-                        <span>Progresso</span>
-                            <span>{progressPercent}%</span>
-                      </div>
-                      <Progress
-                            value={progressPercent}
-                        className="my-2 bg-zinc-700"
-                      />
+                            <div className="flex items-center justify-between text-gray-400 text-base">
+                              <span>Progresso</span>
+                              <span>{progressPercent}%</span>
+                            </div>
+                            <Progress
+                              value={progressPercent}
+                              className="my-2 bg-zinc-700"
+                            />
                           </>
                         );
                       })()}
                     </CardContent>
                     <CardFooter className="p-0">
                       <Button asChild variant="secondary" className="w-full">
-                        <Link to={`/disciplinas/${subject.id}`}>Retomar</Link>
+                        <Link
+                          to={`/disciplinas/${subject.curriculumAcronym}/${subject.id}`}
+                        >
+                          Retomar
+                        </Link>
                       </Button>
                     </CardFooter>
                   </Card>

@@ -1,3 +1,4 @@
+import { Skeleton } from "@/components/ui/skeleton";
 import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -13,8 +14,8 @@ export const router = createBrowserRouter([
     errorElement: (
       <Suspense
         fallback={
-          <div className="flex min-h-[40vh] items-center justify-center text-zinc-200">
-            Carregando...
+          <div className="flex min-h-[40vh] items-center justify-center">
+            <Skeleton className="h-6 w-40" />
           </div>
         }
       >
@@ -29,37 +30,47 @@ export const router = createBrowserRouter([
         }),
       },
       {
-        path: "disciplinas/:id",
-        lazy: async () => ({
-          Component: (await import("@/pages/SubjectPage")).default,
-        }),
-      },
-      {
         path: "meu-curso",
         lazy: async () => {
-          const { MyCourseLayout } = await import("@/layouts/MyCourseLayout");
-          return { Component: MyCourseLayout };
+          const { MyCurriculumLayout: MyCurriculumLayout } = await import("@/layouts/MyCurriculumLayout");
+          return { Component: MyCurriculumLayout };
         },
         children: [
           {
             index: true,
             lazy: async () => ({
-              Component: (await import("@/pages/MyCoursePage")).default,
+              Component: (await import("@/pages/MyCurriculumPage")).default,
             }),
           },
           {
-            path: ":courseSlug",
-            lazy: async () => ({
-              Component: (await import("@/pages/MyCoursePage")).default,
-            }),
-          },
-          {
-            path: ":courseSlug/etapas/:stepId",
-            lazy: async () => ({
-              Component: (await import("@/pages/MyCoursePage")).default,
-            }),
+            path: ":curriculumSlug",
+            children: [
+              {
+                index: true,
+                lazy: async () => ({
+                  Component: (await import("@/pages/MyCurriculumPage")).default,
+                }),
+              },
+              {
+                path: "etapas/:stepId",
+                children: [
+                  {
+                    index: true,
+                    lazy: async () => ({
+                      Component: (await import("@/pages/MyCurriculumPage")).default,
+                    }),
+                  },
+                ],
+              },
+            ],
           },
         ],
+      },
+      {
+        path: "disciplinas/:curriculumSlug/:subjectId",
+        lazy: async () => ({
+          Component: (await import("@/pages/SubjectPage")).default,
+        }),
       },
       {
         path: "grade-curricular",

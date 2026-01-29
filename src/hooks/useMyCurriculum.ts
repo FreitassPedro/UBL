@@ -6,13 +6,15 @@ import type MyStep from "@/types/my-step";
 import type MySubject from "@/types/my-subject";
 import { useMemo } from "react";
 
-export const useMyCurriculum = (
-  curriculumAcronym: string,
-  enabled: boolean = true,
-) => {
-  const { mySubjects } = useMySubjects();
-  const curriculumQuery = useCurriculum(curriculumAcronym, enabled);
+export const useMyCurriculum = (curriculumAcronym?: string) => {
+  const acronyms = curriculumAcronym ? [curriculumAcronym] : [];
+  const {
+    mySubjects,
+    isLoading: isSubjectsLoading,
+    isSuccess: isSubjectsSuccess,
+  } = useMySubjects(acronyms);
 
+  const curriculumQuery = useCurriculum(curriculumAcronym);
   const mySubjectsMap: Map<number, MySubject> = useMemo(() => {
     return new Map(mySubjects.map((s) => [s.id, s]));
   }, [mySubjects]);
@@ -28,7 +30,10 @@ export const useMyCurriculum = (
       steps: curriculum.steps.map<MyStep>((step) => ({
         ...step,
         subjects: step.subjects.map<MySubject>((subject) => {
-          const mySubject: MySubject | undefined = mySubjectsMap.get(subject.id);
+          const mySubject: MySubject | undefined = mySubjectsMap.get(
+            subject.id,
+          );
+
           return {
             ...subject,
             curriculumAcronym: curriculum.acronym,
@@ -41,9 +46,14 @@ export const useMyCurriculum = (
     };
   }, [curriculumQuery.data, mySubjectsMap]);
 
+  const isLoading: boolean = curriculumQuery.isLoading || isSubjectsLoading;
+  const isSuccess: boolean =
+    curriculumQuery.isSuccess && (acronyms.length === 0 || isSubjectsSuccess);
   return {
     ...curriculumQuery,
     data: myCurriculum,
+    isLoading: isLoading,
+    isSuccess: isSuccess,
   };
 };
 

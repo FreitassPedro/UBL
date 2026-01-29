@@ -4,7 +4,7 @@ import { LayoutGrid } from "lucide-react";
 import { useContext } from "react";
 import { Outlet } from "react-router-dom";
 
-export const MyCourseLayout = () => {
+export const MyCurriculumLayout = () => {
   const { name } = useContext(UserContext);
   return (
     <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-8 px-5 py-6 sm:px-8 sm:py-8 lg:px-10 lg:py-10">

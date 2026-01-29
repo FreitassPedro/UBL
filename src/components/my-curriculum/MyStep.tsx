@@ -18,7 +18,10 @@ export const MyStep = ({ mySubject: subject }: MyStepProps) => {
   const theme = getProgressTheme(progressPercent);
 
   return (
-    <Link to={`/disciplinas/${subject.id}`} className="group block">
+    <Link
+      to={`/disciplinas/${subject.curriculumAcronym}/${subject.id}`}
+      className="group block"
+    >
       <Card
         className={cn(
           "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
