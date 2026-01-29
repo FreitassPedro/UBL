@@ -13,7 +13,7 @@ async function main() {
   const directory: string = join("output", "curriculums");
   const youtubeService: YouTubeService = new YouTubeService(youtubeApiKey);
   const curriculumService: CurriculumService = new CurriculumService(youtubeService);
-  for (const curriculum of [curriculumMath, curriculumCC]) {
+  for (const curriculum of [curriculumCC, curriculumMath]) {
     await curriculumService.generate(directory, curriculum);
   }
 }

@@ -1,120 +1,120 @@
 [
   {
-    "id": 2100,
+    "id": 1067,
     "title": "Aula 02: Fundamentos Matemáticos",
     "embedUrl": "https://www.youtube.com/embed/AVSAesOiKYY",
     "duration": 2726
   },
   {
-    "id": 2101,
+    "id": 1068,
     "title": "Aula 03: Rendering - Pipeline Gráfico",
     "embedUrl": "https://www.youtube.com/embed/bC4vTYlxxpY",
     "duration": 1704
   },
   {
-    "id": 2102,
+    "id": 1069,
     "title": "Aula 04: Modelagem Geométrica 3D",
     "embedUrl": "https://www.youtube.com/embed/wH9qoJ5iRzg",
     "duration": 1214
   },
   {
-    "id": 2103,
+    "id": 1070,
     "title": "Aula 05: Laboratório 1 - OpenGL",
     "embedUrl": "https://www.youtube.com/embed/pfuGQBVkb3M",
     "duration": 285
   },
   {
-    "id": 2104,
+    "id": 1071,
     "title": "Aula 06: Transformações Geométricas 2D",
     "embedUrl": "https://www.youtube.com/embed/h_8jQjdlQQE",
     "duration": 2218
   },
   {
-    "id": 2105,
+    "id": 1072,
     "title": "Aula 07: Transformações Geométricas 3D",
     "embedUrl": "https://www.youtube.com/embed/jdnPOs0ztyM",
     "duration": 2025
   },
   {
-    "id": 2106,
+    "id": 1073,
     "title": "Aula 08: Sistemas de Coordenadas",
     "embedUrl": "https://www.youtube.com/embed/6_AQD8fwN-o",
     "duration": 2482
   },
   {
-    "id": 2107,
+    "id": 1074,
     "title": "Aula 09: Projeções",
     "embedUrl": "https://www.youtube.com/embed/Cd-jmrEKW4k",
     "duration": 1878
   },
   {
-    "id": 2108,
+    "id": 1075,
     "title": "Aula 10: Laboratório 2 - Biblioteca GLM, Divisão por w",
     "embedUrl": "https://www.youtube.com/embed/uyYLdDXoVCI",
     "duration": 391
   },
   {
-    "id": 2109,
+    "id": 1076,
     "title": "Aula 11: Rasterizacao Linhas",
     "embedUrl": "https://www.youtube.com/embed/NuKhTpC3rLQ",
     "duration": 1575
   },
   {
-    "id": 2110,
+    "id": 1077,
     "title": "Aula 12: Rasterização de Triângulos",
     "embedUrl": "https://www.youtube.com/embed/0NOFJnn3IMk",
     "duration": 1539
   },
   {
-    "id": 2111,
+    "id": 1078,
     "title": "Aula 13: Clipping and Culling",
     "embedUrl": "https://www.youtube.com/embed/Wdm47oB0UKw",
     "duration": 2153
   },
   {
-    "id": 2112,
+    "id": 1079,
     "title": "Aula 16: Curvas e Superficies",
     "embedUrl": "https://www.youtube.com/embed/e1g_z696aG8",
     "duration": 1522
   },
   {
-    "id": 2113,
+    "id": 1080,
     "title": "Aula 17: Cor",
     "embedUrl": "https://www.youtube.com/embed/g7Byl6pWlzE",
     "duration": 549
   },
   {
-    "id": 2114,
+    "id": 1081,
     "title": "Aula 18: Modelos de Iluminação",
     "embedUrl": "https://www.youtube.com/embed/44cTddXlc2s",
     "duration": 1837
   },
   {
-    "id": 2115,
+    "id": 1082,
     "title": "Aula 20: Mapeamento de Texturas",
     "embedUrl": "https://www.youtube.com/embed/89TyBovmIZU",
     "duration": 1723
   },
   {
-    "id": 2116,
+    "id": 1083,
     "title": "Aula 21: Mapeamento de Texturas - Aplicações",
     "embedUrl": "https://www.youtube.com/embed/BsAOnFGJ2OA",
     "duration": 1056
   },
   {
-    "id": 2117,
+    "id": 1084,
     "title": "Aula 24: Animação",
     "embedUrl": "https://www.youtube.com/embed/GdbzqEFF3G4",
     "duration": 387
   },
   {
-    "id": 2118,
+    "id": 1085,
     "title": "Aula 25: Iluminação Global (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/4vhUoQs9Cwg",
     "duration": 1657
   },
   {
-    "id": 2119,
+    "id": 1086,
     "title": "Aula 26: Iluminação Global (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/82P0sHxxIrI",
     "duration": 1833

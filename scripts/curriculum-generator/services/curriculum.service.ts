@@ -6,6 +6,8 @@ import { toLessons } from "../mappers/lesson.mapper.ts";
 import { save } from "../utils/file.ts";
 import YoutubeService from "./youtube.service.ts";
 
+let lastSubjectId: number = 0;
+
 export default class CurriculumService {
   private readonly youtubeService: YoutubeService;
 
@@ -42,7 +44,6 @@ export default class CurriculumService {
   }
 
   public async generate(directory: string, curriculum: Curriculum): Promise<void> {
-    let lastSubjectId: number = 0;
     for await (const { stepIndex, subjectIndex, lessons } of this.iterateLessons(curriculum)) {
       const subject = curriculum.steps[stepIndex].subjects[subjectIndex];
       subject.duration = lessons.reduce((total, lesson) => total + (lesson.duration ?? 0), 0);

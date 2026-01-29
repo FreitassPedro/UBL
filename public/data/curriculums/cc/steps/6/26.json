@@ -1,408 +1,408 @@
 [
   {
-    "id": 2120,
+    "id": 1087,
     "title": "Conceitos centrais em linguagens formais e autômatos",
     "embedUrl": "https://www.youtube.com/embed/4zMwOozUt9U",
     "duration": 1587
   },
   {
-    "id": 2121,
+    "id": 1088,
     "title": "Autômatos finitos determinísticos - Definições",
     "embedUrl": "https://www.youtube.com/embed/0W_HK4MYKL8",
     "duration": 1342
   },
   {
-    "id": 2122,
+    "id": 1089,
     "title": "Demonstrando a linguagem de um AFD",
     "embedUrl": "https://www.youtube.com/embed/Jq5AIXV2h4c",
     "duration": 1794
   },
   {
-    "id": 2123,
+    "id": 1090,
     "title": "Linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/pqfYAgt2K_E",
     "duration": 647
   },
   {
-    "id": 2124,
+    "id": 1091,
     "title": "Projeto de autômatos finitos determinísticos",
     "embedUrl": "https://www.youtube.com/embed/7Do1FZTGD7I",
     "duration": 1279
   },
   {
-    "id": 2125,
+    "id": 1092,
     "title": "AFDs: exercícios",
     "embedUrl": "https://www.youtube.com/embed/eYllB2bQI4w",
     "duration": 3192
   },
   {
-    "id": 2126,
+    "id": 1093,
     "title": "Simulando um AFD",
     "embedUrl": "https://www.youtube.com/embed/G6Ypl9FbiRI",
     "duration": 474
   },
   {
-    "id": 2127,
+    "id": 1094,
     "title": "Autômatos finitos não determinísticos - Definição e ideia informal",
     "embedUrl": "https://www.youtube.com/embed/U3xswIkOu4Q",
     "duration": 970
   },
   {
-    "id": 2128,
+    "id": 1095,
     "title": "Autômatos finitos não determinísticos - Computação",
     "embedUrl": "https://www.youtube.com/embed/Dw3Z_TNo-pM",
     "duration": 1043
   },
   {
-    "id": 2129,
+    "id": 1096,
     "title": "Demonstrando a linguagem de um AFN",
     "embedUrl": "https://www.youtube.com/embed/sq7cZ52mknA",
     "duration": 937
   },
   {
-    "id": 2130,
+    "id": 1097,
     "title": "AFNs: mais exemplos",
     "embedUrl": "https://www.youtube.com/embed/mlaF5aT2rnE",
     "duration": 988
   },
   {
-    "id": 2131,
+    "id": 1098,
     "title": "AFDs vs AFNs",
     "embedUrl": "https://www.youtube.com/embed/oF4KiYZU0PY",
     "duration": 1369
   },
   {
-    "id": 2132,
+    "id": 1099,
     "title": "Convertendo AFNs em AFDs",
     "embedUrl": "https://www.youtube.com/embed/26A3H77EdEo",
     "duration": 380
   },
   {
-    "id": 2133,
+    "id": 1100,
     "title": "Simulando um AFN",
     "embedUrl": "https://www.youtube.com/embed/L6CM99jvBIY",
     "duration": 553
   },
   {
-    "id": 2134,
+    "id": 1101,
     "title": "Operações regulares",
     "embedUrl": "https://www.youtube.com/embed/PwkmIR-kCQE",
     "duration": 817
   },
   {
-    "id": 2135,
+    "id": 1102,
     "title": "União de linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/IDTVuqyNvNI",
     "duration": 1364
   },
   {
-    "id": 2136,
+    "id": 1103,
     "title": "União de linguagens regulares - Outra demonstração",
     "embedUrl": "https://www.youtube.com/embed/HUgfLNiDFYo",
     "duration": 382
   },
   {
-    "id": 2137,
+    "id": 1104,
     "title": "Concatenação de linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/zl6oi0ayBXg",
     "duration": 403
   },
   {
-    "id": 2138,
+    "id": 1105,
     "title": "Estrela de uma linguagem regular",
     "embedUrl": "https://www.youtube.com/embed/OEevDk1u-G4",
     "duration": 578
   },
   {
-    "id": 2139,
+    "id": 1106,
     "title": "Algoritmos para construção de autômatos por união, concatenação e estrela",
     "embedUrl": "https://www.youtube.com/embed/gLmt0O35Ohc",
     "duration": 470
   },
   {
-    "id": 2140,
+    "id": 1107,
     "title": "Expressões regulares",
     "embedUrl": "https://www.youtube.com/embed/7kqrQJB-rqU",
     "duration": 966
   },
   {
-    "id": 2141,
+    "id": 1108,
     "title": "Expressões regulares: mais exemplos",
     "embedUrl": "https://www.youtube.com/embed/DFbnZYts3NI",
     "duration": 281
   },
   {
-    "id": 2142,
+    "id": 1109,
     "title": "Projeto de expressões regulares",
     "embedUrl": "https://www.youtube.com/embed/CsGl3vtKuhM",
     "duration": 1078
   },
   {
-    "id": 2143,
+    "id": 1110,
     "title": "Toda expressão regular descreve uma linguagem regular",
     "embedUrl": "https://www.youtube.com/embed/xucVaM2FubQ",
     "duration": 471
   },
   {
-    "id": 2144,
+    "id": 1111,
     "title": "Transformando uma expressão regular em um AFN",
     "embedUrl": "https://www.youtube.com/embed/uypUSVRzyEQ",
     "duration": 519
   },
   {
-    "id": 2145,
+    "id": 1112,
     "title": "Toda linguagem regular é descrita por uma expressão regular",
     "embedUrl": "https://www.youtube.com/embed/G_wngjI8EWk",
     "duration": 1865
   },
   {
-    "id": 2146,
+    "id": 1113,
     "title": "Transformando um AFN em uma expressão regular",
     "embedUrl": "https://www.youtube.com/embed/gn2DlgSGkrU",
     "duration": 567
   },
   {
-    "id": 2147,
+    "id": 1114,
     "title": "Discussão sobre AFDs e o Princípio da Casa dos Pombos",
     "embedUrl": "https://www.youtube.com/embed/sTV3dN-KAq0",
     "duration": 1220
   },
   {
-    "id": 2148,
+    "id": 1115,
     "title": "Lema do bombeamento para linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/wVMmMtPSAFc",
     "duration": 579
   },
   {
-    "id": 2149,
+    "id": 1116,
     "title": "Usando o lema do bombeamento para linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/dpfYv39dZfY",
     "duration": 1843
   },
   {
-    "id": 2150,
+    "id": 1117,
     "title": "Erros ao usar o lema do bombeamento para linguagens regulares",
     "embedUrl": "https://www.youtube.com/embed/Cqk4LzrMs8g",
     "duration": 860
   },
   {
-    "id": 2151,
+    "id": 1118,
     "title": "Linguagens regulares: o fim!",
     "embedUrl": "https://www.youtube.com/embed/xP_J570j7pM",
     "duration": 477
   },
   {
-    "id": 2152,
+    "id": 1119,
     "title": "Gramáticas livres de contexto",
     "embedUrl": "https://www.youtube.com/embed/W88XbH2e4_w",
     "duration": 1507
   },
   {
-    "id": 2153,
+    "id": 1120,
     "title": "Demonstrando a linguagem de uma GLC",
     "embedUrl": "https://www.youtube.com/embed/JMh9wfZuiYE",
     "duration": 613
   },
   {
-    "id": 2154,
+    "id": 1121,
     "title": "Linguagens livres de contexto",
     "embedUrl": "https://www.youtube.com/embed/6G-da97ROw4",
     "duration": 852
   },
   {
-    "id": 2155,
+    "id": 1122,
     "title": "GLCs: mais exemplos (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/nFosAsJ1ymo",
     "duration": 2296
   },
   {
-    "id": 2156,
+    "id": 1123,
     "title": "GLCs: mais exemplos (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/egWpcPXe1ak",
     "duration": 1585
   },
   {
-    "id": 2157,
+    "id": 1124,
     "title": "Autômatos com pilha",
     "embedUrl": "https://www.youtube.com/embed/-rfslM7ouzY",
     "duration": 1832
   },
   {
-    "id": 2158,
+    "id": 1125,
     "title": "APs: mais exemplos",
     "embedUrl": "https://www.youtube.com/embed/wXtbxHn81mQ",
     "duration": 1292
   },
   {
-    "id": 2159,
+    "id": 1126,
     "title": "GLCs vs. APs",
     "embedUrl": "https://www.youtube.com/embed/bV7emJ2kDuc",
     "duration": 1155
   },
   {
-    "id": 2160,
+    "id": 1127,
     "title": "Simulando GLCs e APs",
     "embedUrl": "https://www.youtube.com/embed/3EqWy6rQAgE",
     "duration": 257
   },
   {
-    "id": 2161,
+    "id": 1128,
     "title": "Propriedades das linguagens livres de contexto",
     "embedUrl": "https://www.youtube.com/embed/kjlx1nnFGOM",
     "duration": 890
   },
   {
-    "id": 2162,
+    "id": 1129,
     "title": "Discussão sobre GLCs",
     "embedUrl": "https://www.youtube.com/embed/EtDUzu-ghy0",
     "duration": 925
   },
   {
-    "id": 2163,
+    "id": 1130,
     "title": "Lema do bombeamento para linguagens livres de contexto",
     "embedUrl": "https://www.youtube.com/embed/ByQcwPhSuI0",
     "duration": 658
   },
   {
-    "id": 2164,
+    "id": 1131,
     "title": "Usando o lema do bombeamento para linguagens livres de contexto",
     "embedUrl": "https://www.youtube.com/embed/NbORqnOM5k8",
     "duration": 1281
   },
   {
-    "id": 2165,
+    "id": 1132,
     "title": "Linguagens livres de contexto: o fim!",
     "embedUrl": "https://www.youtube.com/embed/7-ABbECfErM",
     "duration": 250
   },
   {
-    "id": 2166,
+    "id": 1133,
     "title": "Introdução a máquinas de Turing",
     "embedUrl": "https://www.youtube.com/embed/5ffHAXG0CE4",
     "duration": 1333
   },
   {
-    "id": 2167,
+    "id": 1134,
     "title": "Máquinas de Turing",
     "embedUrl": "https://www.youtube.com/embed/KDiDPHR0eEk",
     "duration": 1473
   },
   {
-    "id": 2168,
+    "id": 1135,
     "title": "Mais exemplos de máquinas de Turing",
     "embedUrl": "https://www.youtube.com/embed/wNBWJdh5WOY",
     "duration": 2826
   },
   {
-    "id": 2169,
+    "id": 1136,
     "title": "Variantes de máquinas de Turing",
     "embedUrl": "https://www.youtube.com/embed/pyVGeqcz8Bc",
     "duration": 937
   },
   {
-    "id": 2170,
+    "id": 1137,
     "title": "Descrevendo máquinas de Turing",
     "embedUrl": "https://www.youtube.com/embed/YA_B0HOTb6Q",
     "duration": 1221
   },
   {
-    "id": 2171,
+    "id": 1138,
     "title": "Tudo é cadeia",
     "embedUrl": "https://www.youtube.com/embed/q-eqDYic8kk",
     "duration": 688
   },
   {
-    "id": 2172,
+    "id": 1139,
     "title": "A tese Church-Turing",
     "embedUrl": "https://www.youtube.com/embed/FvBii2K7DtM",
     "duration": 796
   },
   {
-    "id": 2173,
+    "id": 1140,
     "title": "Máquinas de Turing e computadores",
     "embedUrl": "https://www.youtube.com/embed/HPpOOQuHcVU",
     "duration": 523
   },
   {
-    "id": 2174,
+    "id": 1141,
     "title": "Decidibilidade",
     "embedUrl": "https://www.youtube.com/embed/E5TIyO_nUF0",
     "duration": 1600
   },
   {
-    "id": 2175,
+    "id": 1142,
     "title": "O problema da parada",
     "embedUrl": "https://www.youtube.com/embed/SgzrgOMf5Ts",
     "duration": 833
   },
   {
-    "id": 2176,
+    "id": 1143,
     "title": "O método da diagonalização",
     "embedUrl": "https://www.youtube.com/embed/YsLNFs-Cr8U",
     "duration": 1711
   },
   {
-    "id": 2177,
+    "id": 1144,
     "title": "Os limites da computação",
     "embedUrl": "https://www.youtube.com/embed/hdRch9DQ19s",
     "duration": 1669
   },
   {
-    "id": 2178,
+    "id": 1145,
     "title": "Introdução à redutibilidade",
     "embedUrl": "https://www.youtube.com/embed/-TSInYiLUPQ",
     "duration": 1789
   },
   {
-    "id": 2179,
+    "id": 1146,
     "title": "Redução",
     "embedUrl": "https://www.youtube.com/embed/Xf7RnwOOGEc",
     "duration": 1159
   },
   {
-    "id": 2180,
+    "id": 1147,
     "title": "Exemplos de redução (indecidibilidade)",
     "embedUrl": "https://www.youtube.com/embed/6lY9buXaYtA",
     "duration": 1869
   },
   {
-    "id": 2181,
+    "id": 1148,
     "title": "Exemplos de redução (irreconhecibilidade)",
     "embedUrl": "https://www.youtube.com/embed/T5erQ1LsiuA",
     "duration": 724
   },
   {
-    "id": 2182,
+    "id": 1149,
     "title": "Tempo de execução",
     "embedUrl": "https://www.youtube.com/embed/huIXTpLSQ9o",
     "duration": 2034
   },
   {
-    "id": 2183,
+    "id": 1150,
     "title": "Notação assintótica",
     "embedUrl": "https://www.youtube.com/embed/U1e0cTZ17Do",
     "duration": 1008
   },
   {
-    "id": 2184,
+    "id": 1151,
     "title": "Tempos nos diferentes modelos de computação",
     "embedUrl": "https://www.youtube.com/embed/JAurTOiZZkM",
     "duration": 1059
   },
   {
-    "id": 2185,
+    "id": 1152,
     "title": "As classes P e NP",
     "embedUrl": "https://www.youtube.com/embed/jvaNawcnvdU",
     "duration": 1854
   },
   {
-    "id": 2186,
+    "id": 1153,
     "title": "Problemas NP-completos",
     "embedUrl": "https://www.youtube.com/embed/A78N4u0vHDc",
     "duration": 590
   },
   {
-    "id": 2187,
+    "id": 1154,
     "title": "Um problema NP-completo",
     "embedUrl": "https://www.youtube.com/embed/tMCWr3a-unk",
     "duration": 769
