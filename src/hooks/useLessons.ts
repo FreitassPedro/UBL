@@ -4,13 +4,13 @@ import { useQuery } from "@tanstack/react-query";
 
 export const useLessons = (
   curriculumAcronym: string,
-  stepId: number,
+  stepNumber: number,
   subjectId: number,
   enabled: boolean = true,
 ) => {
   return useQuery<Lesson[]>({
-    queryKey: ["lessons", curriculumAcronym, stepId, subjectId],
-    queryFn: () => getLessons(curriculumAcronym, stepId, subjectId),
+    queryKey: ["lessons", curriculumAcronym, stepNumber, subjectId],
+    queryFn: () => getLessons(curriculumAcronym, stepNumber, subjectId),
     staleTime: Infinity,
     enabled,
   });

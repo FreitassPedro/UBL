@@ -46,12 +46,17 @@ export const SubjectPage = () => {
     }
 
     return undefined;
-  }, [curriculumQueries, progress, subjectId]);
+  }, [
+    curriculumQueries,
+    subjectId,
+    progress,
+    ...curriculumQueries.map((query) => query.data),
+  ]);
 
   useTitlePage(subject ? `Disciplinas - ${subject.name}` : "Disciplinas");
 
-  const [selectedLesson, setSelectedLesson] = useState<
-    MyLessonProgress | undefined
+  const [selectedLessonId, setSelectedLessonId] = useState<
+    number | undefined
   >();
 
   const lessonsQuery = useLessons(
@@ -78,10 +83,34 @@ export const SubjectPage = () => {
   }, [lessonsQuery.data, progress, subject]);
 
   useEffect(() => {
-    if (lessonsWithProgress.length > 0) {
-      setSelectedLesson(lessonsWithProgress[0]);
+    if (lessonsWithProgress.length === 0) {
+      return;
     }
+
+    setSelectedLessonId((currentId) => {
+      if (currentId) {
+        const stillExists = lessonsWithProgress.some(
+          (lesson) => lesson.id === currentId,
+        );
+        if (stillExists) {
+          return currentId;
+        }
+      }
+
+      return lessonsWithProgress[0].id;
+    });
   }, [lessonsWithProgress]);
+
+  const selectedLesson = useMemo(() => {
+    if (lessonsWithProgress.length === 0) {
+      return undefined;
+    }
+
+    return (
+      lessonsWithProgress.find((lesson) => lesson.id === selectedLessonId) ??
+      lessonsWithProgress[0]
+    );
+  }, [lessonsWithProgress, selectedLessonId]);
 
   if (!subject && isCurriculumLoading) {
     return (
@@ -124,7 +153,7 @@ export const SubjectPage = () => {
           lessons={lessonsWithProgress}
           currentLesson={selectedLesson}
           onSelectLesson={(lesson: MyLessonProgress) =>
-            setSelectedLesson(lesson)
+            setSelectedLessonId(lesson.id)
           }
           onToggleCompletion={handleToggleCompletion}
           isLoading={lessonsQuery.isLoading}

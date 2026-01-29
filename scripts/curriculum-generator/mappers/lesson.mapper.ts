@@ -11,7 +11,7 @@ export function toLessons(videos: Video[], videoDurations: Map<string, string>):
     return {
       id: ++lastLessonId,
       title: video.snippet.title,
-      embedUrl: `https://www.youtube.com/embed/${video.contentDetails.videoId}`,
+      embedUrl: `https://www.youtube.com/embed/${video.snippet.resourceId.videoId}`,
       duration,
     };
   });

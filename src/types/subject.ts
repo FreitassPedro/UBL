@@ -1,6 +1,5 @@
 export interface Subject {
   id: number;
-  slug: string;
   name: string;
   prerequisites: string[];
   url: string;
