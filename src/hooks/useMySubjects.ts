@@ -6,41 +6,37 @@ import { useMemo } from "react";
 export const useMySubjects = (acronyms: string[]) => {
   const { progress } = useUserProgress();
   const curriculumQueries = useCurriculums(acronyms);
-  const hasQueries: boolean = acronyms.length > 0;
-  const isLoading: boolean =
-    hasQueries && curriculumQueries.some((query) => query.isLoading);
-  const isSuccess: boolean =
-    hasQueries && curriculumQueries.every((query) => query.isSuccess);
-
+  
   const mySubjects: MySubject[] = useMemo(() => {
     return curriculumQueries.flatMap(({ data: curriculum }) => {
       if (!curriculum) {
         return [];
       }
-
+      
       const curriculumProgress = progress[curriculum.acronym];
       if (!curriculumProgress) {
         return [];
       }
-
+      
       return curriculum.steps.flatMap((step) => {
         const stepProgress = curriculumProgress[step.number];
         if (!stepProgress) {
           return [];
         }
-
+        
         return step.subjects.flatMap((subject) => {
           const subjectProgress = stepProgress[subject.name];
           if (!subjectProgress) {
             return [];
           }
 
+          const totalLessons: number = subject.lessons ?? 0;
           const completedLessons: number = subjectProgress.length;
           const progress: number =
-            subject.lessons > 0
-              ? Math.round((subject.lessons / subjectProgress.length) * 100)
-              : 0;
-
+          totalLessons > 0
+          ? Math.round((completedLessons / totalLessons) * 100)
+          : 0;
+          
           return [
             {
               ...subject,
@@ -55,10 +51,11 @@ export const useMySubjects = (acronyms: string[]) => {
       });
     });
   }, [progress, curriculumQueries]);
-
+  
+  const hasQueries: boolean = acronyms.length > 0;
   return {
     mySubjects: mySubjects,
-    isLoading: isLoading,
-    isSuccess: isSuccess,
+    isLoading: hasQueries && curriculumQueries.some((query) => query.isLoading),
+    isSuccess: hasQueries && curriculumQueries.every((query) => query.isSuccess),
   };
 };
