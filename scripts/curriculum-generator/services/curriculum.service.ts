@@ -49,7 +49,7 @@ export default class CurriculumService {
 
       save(
         join(directory, curriculum.acronym.toLowerCase(), "steps", String(stepIndex + 1)),
-        `${toCamelCase(curriculum.steps[stepIndex].subjects[subjectIndex].name)}.json`,
+        `${subjectIndex + 1}.json`,
         lessons
       );
     }
