@@ -1,5 +1,5 @@
 import { UserProvider } from "@/contexts/UserContext";
-import { UserProgressProvider } from "@/contexts/MyCurriculumContext";
+import { UserProgressProvider } from "@/contexts/UserProgressContext";
 import "@/index.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider } from "react-router-dom";

@@ -1,7 +1,7 @@
 import { Lesson } from "@/components/subject/Lesson";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
 import SubjectPageSkeleton from "@/components/subject/SubjectSkeleton";
-import { UserProgressContext } from "@/contexts/MyCurriculumContext";
+import UserProgressContext from "@/contexts/UserProgressContext";
 import useMyCurriculum from "@/hooks/useMyCurriculum";
 import { useMyLessons } from "@/hooks/useMyLessons";
 import useTitlePage from "@/hooks/useTitlePage";

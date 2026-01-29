@@ -1,6 +1,6 @@
-import { UserProgressContext } from "@/contexts/MyCurriculumContext";
+import UserProgressContext from "@/contexts/UserProgressContext";
 import { useLessons } from "@/hooks/useLessons";
-import type { MyLesson as MyLesson } from "@/types/my-lesson";
+import type { MyLesson } from "@/types/my-lesson";
 import type MySubject from "@/types/my-subject";
 import { useContext, useMemo } from "react";
 
