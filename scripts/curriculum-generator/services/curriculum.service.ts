@@ -3,7 +3,6 @@ import type Curriculum from "../interfaces/curriculum.ts";
 import type Lesson from "../interfaces/lesson.ts";
 import type Video from "../interfaces/video.ts";
 import { toLessons } from "../mappers/lesson.mapper.ts";
-import { toCamelCase } from "../utils/case.ts";
 import { save } from "../utils/file.ts";
 import YoutubeService from "./youtube.service.ts";
 
@@ -43,13 +42,14 @@ export default class CurriculumService {
   }
 
   public async generate(directory: string, curriculum: Curriculum): Promise<void> {
+    let lastSubjectId: number = 0;
     for await (const { stepIndex, subjectIndex, lessons } of this.iterateLessons(curriculum)) {
       const subject = curriculum.steps[stepIndex].subjects[subjectIndex];
       subject.duration = lessons.reduce((total, lesson) => total + (lesson.duration ?? 0), 0);
 
       save(
         join(directory, curriculum.acronym.toLowerCase(), "steps", String(stepIndex + 1)),
-        `${subjectIndex + 1}.json`,
+        `${++lastSubjectId}.json`,
         lessons
       );
     }
