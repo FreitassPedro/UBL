@@ -1,3 +1,4 @@
+import { HomeProgressSkeleton } from "@/components/home/HomeProgressSkeleton";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -21,62 +22,23 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
-import { mapCurriculumToMyCurriculumProgress } from "@/mappers/curriculum.mapper";
-import type { MySubjectProgress } from "@/types/subject";
-import { useContext, useMemo, useState } from "react";
+import { useMyActiveSubjects } from "@/hooks/useMyActiveSubjects";
 import { Link } from "react-router-dom";
 
-export type WatchedSubject = MySubjectProgress & {
-  curriculumName: string;
-  stepName: string;
-  stepNumber: number;
-};
-
 export const HomeProgress = () => {
-  const { completedLessons } = useContext(ProgressContext);
-  const [sortBy, setSortBy] = useState("etapas");
-  const watchedSubjects = useMemo<WatchedSubject[]>(() => {
-    const progresses = [
-      mapCurriculumToMyCurriculumProgress(CurriculumCC, completedLessons),
-      mapCurriculumToMyCurriculumProgress(
-        CurriculumMath,
-        completedLessons,
-      ),
-    ];
-
-    const filteredProgresses = progresses.flatMap((curriculum) =>
-      curriculum.steps.flatMap((step) =>
-        step.subjects
-          .filter((subject) => subject.progress > 0)
-          .map((subject) => ({
-            ...subject,
-            curriculumName:
-              curriculum.name === "Matemática" ? "Matemática" : "Computação",
-            stepName: step.name,
-            stepNumber: step.number,
-          })),
-      ),
-    );
-
-    return [...filteredProgresses].sort((a, b) => {
-      switch (sortBy) {
-        case "etapas":
-          return a.stepNumber - b.stepNumber;
-        case "progresso":
-          return b.progress - a.progress;
-        case "curso":
-          return a.curriculumName.localeCompare(b.curriculumName);
-        default:
-          return 0;
-      }
-    });
-  }, [completedLessons, sortBy]);
+  const {
+    myActiveSubjects: mySubjects,
+    orderBy,
+    setOrderBy,
+    isLoading,
+  } = useMyActiveSubjects();
+  if (isLoading) {
+    return <HomeProgressSkeleton />;
+  }
 
   return (
     <>
-      {watchedSubjects.length !== 0 && (
+      {mySubjects.length !== 0 && (
         <div className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto mb-20 sm:mb-24">
           <Card className="w-full overflow-hidden border-0 bg-[#141414]">
             <CardHeader className="p-6 sm:p-8">
@@ -88,7 +50,7 @@ export const HomeProgress = () => {
                   <span className="uppercase text-xs text-zinc-400">
                     Ordenar por
                   </span>
-                  <Select value={sortBy} onValueChange={setSortBy}>
+                  <Select value={orderBy} onValueChange={setOrderBy}>
                     <SelectTrigger className="w-32 cursor-pointer">
                       <SelectValue placeholder="Ordenar por" />
                     </SelectTrigger>
@@ -113,39 +75,49 @@ export const HomeProgress = () => {
 
             <ScrollArea className="h-60">
               <div className="px-6 pb-6 sm:px-8 sm:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {watchedSubjects.map((course) => (
+                {mySubjects.map((subject) => (
                   <Card
-                    key={course.id}
+                    key={subject.id}
                     className="h-50 text-left hover:border-zinc-700/80"
                   >
                     <CardHeader className="p-0">
                       <CardDescription className="font-semibold text-gray-400">
-                        {course.curriculumName} - Etapa {course.stepNumber}
+                        {subject.curriculumName} - Etapa {subject.stepNumber}
                       </CardDescription>
                       <CardTitle>
                         <Tooltip>
                           <TooltipTrigger className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
-                            {course.name}
+                            {subject.name}
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p>{course.name}</p>
+                            <p>{subject.name}</p>
                           </TooltipContent>
                         </Tooltip>
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="p-0 my-2">
-                      <div className="flex items-center justify-between text-gray-400 text-base">
-                        <span>Progresso</span>
-                        <span>{course.progress}%</span>
-                      </div>
-                      <Progress
-                        value={course.progress}
-                        className="my-2 bg-zinc-700"
-                      />
+                      {(() => {
+                        return (
+                          <>
+                            <div className="flex items-center justify-between text-gray-400 text-base">
+                              <span>Progresso</span>
+                              <span>{subject.progress}%</span>
+                            </div>
+                            <Progress
+                              value={subject.progress}
+                              className="my-2 bg-zinc-700"
+                            />
+                          </>
+                        );
+                      })()}
                     </CardContent>
                     <CardFooter className="p-0">
                       <Button asChild variant="secondary" className="w-full">
-                        <Link to={`/disciplinas/${course.id}`}>Retomar</Link>
+                        <Link
+                          to={`/meu-curso/${subject.curriculumAcronym}/etapas/${subject.stepNumber}/disciplinas/${subject.id}`}
+                        >
+                          Retomar
+                        </Link>
                       </Button>
                     </CardFooter>
                   </Card>

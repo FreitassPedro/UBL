@@ -1,16 +1,21 @@
-import { ProgressProvider } from "@/contexts/ProgressContext";
 import { UserProvider } from "@/contexts/UserContext";
+import { UserProgressProvider } from "@/contexts/UserProgressContext";
 import "@/index.css";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 
+const queryClient = new QueryClient();
+
 export const App = () => {
   return (
-    <UserProvider>
-      <ProgressProvider>
-        <RouterProvider router={router} />
-      </ProgressProvider>
-    </UserProvider>
+    <QueryClientProvider client={queryClient}>
+      <UserProvider>
+        <UserProgressProvider>
+          <RouterProvider router={router} />
+        </UserProgressProvider>
+      </UserProvider>
+    </QueryClientProvider>
   );
 };
 

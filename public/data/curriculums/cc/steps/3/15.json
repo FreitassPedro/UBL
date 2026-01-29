@@ -1,0 +1,374 @@
+[
+  {
+    "id": 755,
+    "title": "0.3 - Programação Funcional em Haskell: Instalando o Windows Subsystem for Linux (WSL)",
+    "embedUrl": "https://www.youtube.com/embed/U7gdzYiFJKg",
+    "duration": 609
+  },
+  {
+    "id": 756,
+    "title": "0.4 - Programação Funcional em Haskell:  Emacs ♥ Haskell",
+    "embedUrl": "https://www.youtube.com/embed/VSTj9Qg2S8I",
+    "duration": 1022
+  },
+  {
+    "id": 757,
+    "title": "0.5 - Programação Funcional em Haskell: Vim ♥ Haskell",
+    "embedUrl": "https://www.youtube.com/embed/v0yExSZ6fzQ",
+    "duration": 1798
+  },
+  {
+    "id": 758,
+    "title": "1.1 - Programação Funcional em Haskell: Paradigmas de Programação",
+    "embedUrl": "https://www.youtube.com/embed/CzGSaXbPFRA",
+    "duration": 1619
+  },
+  {
+    "id": 759,
+    "title": "1.2 - Programação Funcional em Haskell: Paradigma de Programação Funcional",
+    "embedUrl": "https://www.youtube.com/embed/T980iXAlWAY",
+    "duration": 1729
+  },
+  {
+    "id": 760,
+    "title": "2.1 - Programação Funcional em Haskell: Cálculo λ - Parte 1 - Uma (Brevíssima) Introdução",
+    "embedUrl": "https://www.youtube.com/embed/AG0LtzDQrZ0",
+    "duration": 2708
+  },
+  {
+    "id": 761,
+    "title": "2.2 - Programação Funcional em Haskell: Cálculo λ - Parte 2 - Programando com Lambdas",
+    "embedUrl": "https://www.youtube.com/embed/a32y4ma10x4",
+    "duration": 2060
+  },
+  {
+    "id": 762,
+    "title": "2.3 - Programação Funcional em Haskell: Cálculo λ - Parte 3 - O combinador Y",
+    "embedUrl": "https://www.youtube.com/embed/yHDdRy2bWZE",
+    "duration": 1881
+  },
+  {
+    "id": 763,
+    "title": "3.1 - Programação Funcional em Haskell: Haskell Básico - Parte 1",
+    "embedUrl": "https://www.youtube.com/embed/rrBMYho3frs",
+    "duration": 1345
+  },
+  {
+    "id": 764,
+    "title": "3.2 - Programação Funcional em Haskell: Haskell Básico - Parte 2 - Tipos Básicos",
+    "embedUrl": "https://www.youtube.com/embed/WUGlBL9Fagw",
+    "duration": 1249
+  },
+  {
+    "id": 765,
+    "title": "4.1 - Programação Funcional em Haskell: Básico - Pt. 2 - Assinaturas de Funções e Cláusula Where",
+    "embedUrl": "https://www.youtube.com/embed/dS5qmvxI7Us",
+    "duration": 1275
+  },
+  {
+    "id": 766,
+    "title": "4.2 - Programação Funcional em Haskell: Básico - Pt. 2 - Condicionais, Guards e Pattern Matching",
+    "embedUrl": "https://www.youtube.com/embed/u5b75ENDpdY",
+    "duration": 1193
+  },
+  {
+    "id": 767,
+    "title": "4.3 - Programação Funcional em Haskell: Básico - Pt 2 - Listas",
+    "embedUrl": "https://www.youtube.com/embed/SNgTSnYjQHo",
+    "duration": 1074
+  },
+  {
+    "id": 768,
+    "title": "4.4 - Programação Funcional em Haskell: Básico - Pt 2 - Compreensão de Listas",
+    "embedUrl": "https://www.youtube.com/embed/B7OcmmL4ous",
+    "duration": 1079
+  },
+  {
+    "id": 769,
+    "title": "4.5 - Programação Funcional em Haskell: Básico - Pt 2 - Recursão simples e em listas",
+    "embedUrl": "https://www.youtube.com/embed/bJg0fkvGdNQ",
+    "duration": 717
+  },
+  {
+    "id": 770,
+    "title": "5.1 - Programação Funcional em Haskell: Testes de Propriedades - QuickCheck",
+    "embedUrl": "https://www.youtube.com/embed/w1N9ecrABBA",
+    "duration": 2318
+  },
+  {
+    "id": 771,
+    "title": "6.1 - Programação Funcional em Haskell: Funções de Alta Ordem",
+    "embedUrl": "https://www.youtube.com/embed/TqLtexmxdko",
+    "duration": 1905
+  },
+  {
+    "id": 772,
+    "title": "6.2 - Programação Funcional em Haskell: Dobrando sua lista: foldr, foldl, foldl'",
+    "embedUrl": "https://www.youtube.com/embed/tO-F4hYX7lg",
+    "duration": 1932
+  },
+  {
+    "id": 773,
+    "title": "6.3 - Programação Funcional em Haskell: Composição de Funçoes",
+    "embedUrl": "https://www.youtube.com/embed/nQoEbUpXIG4",
+    "duration": 451
+  },
+  {
+    "id": 774,
+    "title": "7.1 - Programação Funcional em Haskell: Criando apelidos de tipos com type",
+    "embedUrl": "https://www.youtube.com/embed/Ii5uQ74daQI",
+    "duration": 1228
+  },
+  {
+    "id": 775,
+    "title": "7.2 - Programação Funcional em Haskell: Tipos de Dados Algébricos",
+    "embedUrl": "https://www.youtube.com/embed/u3TRRMQKnf8",
+    "duration": 2382
+  },
+  {
+    "id": 776,
+    "title": "7.3 - Programação Funcional em Haskell: Tipos de Dados Recursivos",
+    "embedUrl": "https://www.youtube.com/embed/xADDRW7LPgY",
+    "duration": 899
+  },
+  {
+    "id": 777,
+    "title": "7.4 - Programação Funcional em Haskell: A Álgebra dos Tipos",
+    "embedUrl": "https://www.youtube.com/embed/uAaIoauk7Jk",
+    "duration": 2568
+  },
+  {
+    "id": 778,
+    "title": "7.5 - Programação Funcional em Haskell: Estrutura Zipper",
+    "embedUrl": "https://www.youtube.com/embed/ir_qrcjVXEU",
+    "duration": 2736
+  },
+  {
+    "id": 779,
+    "title": "7.6 - Programação Funcional em Haskell: Classe de Tipos",
+    "embedUrl": "https://www.youtube.com/embed/7HosJvLdeY0",
+    "duration": 1433
+  },
+  {
+    "id": 780,
+    "title": "8.1 - Programação Funcional em Haskell: Classe de Tipos Monoid",
+    "embedUrl": "https://www.youtube.com/embed/E_ng7pVl3SE",
+    "duration": 3171
+  },
+  {
+    "id": 781,
+    "title": "8.2 - Programação Funcional em Haskell: Tipo de Dado Fold",
+    "embedUrl": "https://www.youtube.com/embed/6e-C6ESOgg8",
+    "duration": 1900
+  },
+  {
+    "id": 782,
+    "title": "9.1 - Programação Funcional em Haskell: Classe Functor",
+    "embedUrl": "https://www.youtube.com/embed/7SuH3ymEG9M",
+    "duration": 1241
+  },
+  {
+    "id": 783,
+    "title": "9.2 - Programação Funcional em Haskell:  Receita para criar instâncias de Functor",
+    "embedUrl": "https://www.youtube.com/embed/HgQ8p4V-53U",
+    "duration": 798
+  },
+  {
+    "id": 784,
+    "title": "9.3 - Programação Funcional em Haskell: Estudo de caso: Functor SafeNum",
+    "embedUrl": "https://www.youtube.com/embed/nowE1MWZcu8",
+    "duration": 2044
+  },
+  {
+    "id": 785,
+    "title": "10.1 - Programação Funcional em Haskell: Classe Functor Applicative",
+    "embedUrl": "https://www.youtube.com/embed/DUmGOabTgnc",
+    "duration": 1285
+  },
+  {
+    "id": 786,
+    "title": "10.2 -  Programação Funcional em Haskell: Estudo de caso: Applicative SafeNum",
+    "embedUrl": "https://www.youtube.com/embed/Rq1TOaROXnA",
+    "duration": 299
+  },
+  {
+    "id": 787,
+    "title": "10.3 - Programação Funcional em Haskell: Classe Traversable",
+    "embedUrl": "https://www.youtube.com/embed/lqyaWEHBmiw",
+    "duration": 870
+  },
+  {
+    "id": 788,
+    "title": "10.4 - Programação Funcional em Haskell: Exemplo de uso do Traversable",
+    "embedUrl": "https://www.youtube.com/embed/H7CatTDfyO0",
+    "duration": 1244
+  },
+  {
+    "id": 789,
+    "title": "10.5 - Programação Funcional em Haskell: Instância de Applicative para a ADT Folds",
+    "embedUrl": "https://www.youtube.com/embed/3EneadBLko8",
+    "duration": 1096
+  },
+  {
+    "id": 790,
+    "title": "11.1 - Programação Funcional em Haskell: Classe Monad",
+    "embedUrl": "https://www.youtube.com/embed/GTWZbeuOwb8",
+    "duration": 1297
+  },
+  {
+    "id": 791,
+    "title": "11.2 - Programação Funcional em Haskell:  Estudo de Caso: Monad SafeNum",
+    "embedUrl": "https://www.youtube.com/embed/DTj0bFdo7Us",
+    "duration": 332
+  },
+  {
+    "id": 792,
+    "title": "11.3 - Programação Funcional em Haskell: Monad Lista",
+    "embedUrl": "https://www.youtube.com/embed/LUOvVPXvA9k",
+    "duration": 956
+  },
+  {
+    "id": 793,
+    "title": "11.4 - Programação Funcional em Haskell: Monad Either",
+    "embedUrl": "https://www.youtube.com/embed/3CRqf13q7p4",
+    "duration": 553
+  },
+  {
+    "id": 794,
+    "title": "11.5 - Programação Funcional em Haskell: Monad Reader",
+    "embedUrl": "https://www.youtube.com/embed/JGPz38LoOwQ",
+    "duration": 1498
+  },
+  {
+    "id": 795,
+    "title": "11.6 - Programação Funcional em Haskell: Monad Writer",
+    "embedUrl": "https://www.youtube.com/embed/rLkYB8Y2f-E",
+    "duration": 1060
+  },
+  {
+    "id": 796,
+    "title": "11.7 - Programação Funcional em Haskell: Monad State",
+    "embedUrl": "https://www.youtube.com/embed/_yKJ2ft9Lg4",
+    "duration": 1803
+  },
+  {
+    "id": 797,
+    "title": "11.8 - Programação Funcional em Haskell: Monad IO",
+    "embedUrl": "https://www.youtube.com/embed/zsOFMbNPryM",
+    "duration": 1073
+  },
+  {
+    "id": 798,
+    "title": "11.9 - Programação Funcional em Haskell: Funções de Alta Ordem para Monads",
+    "embedUrl": "https://www.youtube.com/embed/1KKehjj4D1w",
+    "duration": 963
+  },
+  {
+    "id": 799,
+    "title": "12.1 - Programação Funcional em Haskell: Laziness",
+    "embedUrl": "https://www.youtube.com/embed/YjeLCT9h4Rk",
+    "duration": 1248
+  },
+  {
+    "id": 800,
+    "title": "12.2 - Programação Funcional em Haskell: Primo Folgado",
+    "embedUrl": "https://www.youtube.com/embed/YS1VH4fB2lY",
+    "duration": 1081
+  },
+  {
+    "id": 801,
+    "title": "12.3 - Programação Funcional em Haskell: Fibonacci Preguiçoso",
+    "embedUrl": "https://www.youtube.com/embed/A_x_gtdS6f0",
+    "duration": 472
+  },
+  {
+    "id": 802,
+    "title": "13.1 Haskell Paralelo - Eval Monad",
+    "embedUrl": "https://www.youtube.com/embed/o_qGcTLE5lg",
+    "duration": 1486
+  },
+  {
+    "id": 803,
+    "title": "13.2 Haskell Paralelo - Estratégias de Avaliação",
+    "embedUrl": "https://www.youtube.com/embed/lT_1TcYglQM",
+    "duration": 836
+  },
+  {
+    "id": 804,
+    "title": "13.3 Haskell Paralelo - Threadscope",
+    "embedUrl": "https://www.youtube.com/embed/YbkJ5NBeBHs",
+    "duration": 1160
+  },
+  {
+    "id": 805,
+    "title": "14.1 Concorrência - Threads e forkIO",
+    "embedUrl": "https://www.youtube.com/embed/JTqXzLlNEow",
+    "duration": 911
+  },
+  {
+    "id": 806,
+    "title": "14.2 Concorrência - Comunicação entre Threads com MVars",
+    "embedUrl": "https://www.youtube.com/embed/RJvokKmFgMI",
+    "duration": 1385
+  },
+  {
+    "id": 807,
+    "title": "14.3 Concorrência - Async",
+    "embedUrl": "https://www.youtube.com/embed/hfqOYselemo",
+    "duration": 1429
+  },
+  {
+    "id": 808,
+    "title": "15.1 Estruturas de Dados Funcionais - Persistência",
+    "embedUrl": "https://www.youtube.com/embed/-69zlxzAe_4",
+    "duration": 613
+  },
+  {
+    "id": 809,
+    "title": "15.2 Estruturas de Dados Funcionais - Explorando Listas",
+    "embedUrl": "https://www.youtube.com/embed/SsbT6ER96fg",
+    "duration": 1701
+  },
+  {
+    "id": 810,
+    "title": "16.1 Estruturas de Dados Puramente Funcionais  - Árvores Binárias e Percursos",
+    "embedUrl": "https://www.youtube.com/embed/Q-ZJI5XSQ34",
+    "duration": 1165
+  },
+  {
+    "id": 811,
+    "title": "16.2 Estruturas de Dados Puramente Funcionais  - Árvores Binárias: Percurso em Largura",
+    "embedUrl": "https://www.youtube.com/embed/fqxHuihBA2I",
+    "duration": 3342
+  },
+  {
+    "id": 812,
+    "title": "16.3 Estruturas de Dados Puramente Funcionais  - Zippers para Árvores",
+    "embedUrl": "https://www.youtube.com/embed/DPFmz8vaqcg",
+    "duration": 1261
+  },
+  {
+    "id": 813,
+    "title": "16.4 Estruturas de Dados Puramente Funcionais  - Roseiras (Rose Trees)",
+    "embedUrl": "https://www.youtube.com/embed/3eDLL_VdWd4",
+    "duration": 1139
+  },
+  {
+    "id": 814,
+    "title": "16.5 Estruturas de Dados Puramente Funcionais  - Árvores Rubro-Negras: Introdução",
+    "embedUrl": "https://www.youtube.com/embed/jAzh3mkVhgY",
+    "duration": 584
+  },
+  {
+    "id": 815,
+    "title": "16.6 Estruturas de Dados Puramente Funcionais  - Árvores Rubro-Negras: Operações Básicas",
+    "embedUrl": "https://www.youtube.com/embed/W0WFVELrUm0",
+    "duration": 614
+  },
+  {
+    "id": 816,
+    "title": "16.7 Estruturas de Dados Puramente Funcionais  - Árvores Rubro-Negras: Inserção",
+    "embedUrl": "https://www.youtube.com/embed/F5V477CHH6A",
+    "duration": 1381
+  }
+]

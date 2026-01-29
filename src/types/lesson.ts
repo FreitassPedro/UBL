@@ -1,11 +1,6 @@
 export interface Lesson {
-  id: string;
+  id: number;
   title: string;
-  type: "video" | "text" | "exercise";
-  duration?: number; // Duração em segundos, opcional
-  url: string; // Video, Link, Livro
-}
-
-export interface MyLessonProgress extends Lesson {
-  isCompleted: boolean;
+  duration?: number;
+  embedUrl: string;
 }

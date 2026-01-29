@@ -7,7 +7,7 @@ const NotFoundPage = () => {
   useTitlePage("Página não encontrada");
 
   return (
-    <div className="flex w-full flex-1 items-center justify-center bg-background px-6 py-12 sm:px-8">
+    <div className="flex min-h-[calc(100vh-3.5rem)] w-full items-center justify-center bg-background px-6 py-12 sm:px-8">
       <Card className="w-full max-w-lg p-8 sm:p-10 shadow-lg">
         <CardHeader className="text-center space-y-6">
           <CardTitle className="text-4xl font-semibold tracking-tight">

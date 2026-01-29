@@ -1,74 +1,66 @@
-import bannerstudy from "@/assets/imgs/bannerstudy.jpeg";
+import bannerCCImg from "@/assets/bannerCC.png";
+import bannerMathImg from "@/assets/bannerMath.jpeg";
+import bannerStudyImg from "@/assets/bannerStudy.jpeg";
 import { Curriculum } from "@/components/curriculum/Curriculum";
 import { CurriculumHero } from "@/components/curriculum/CurriculumHero";
 import type { CurriculumCourse } from "@/components/curriculum/CurriculumSelector";
 import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
-import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
+import { useCurriculum } from "@/hooks/useCurriculum";
 import { cn } from "@/lib/utils";
-import type { Curriculum as CurriculumType } from "@/types/curriculum";
+import CurriculumSkeleton from "@/pages/CurriculumSkeleton";
 import React from "react";
 
-const courses: CurriculumCourse[] = [
+type CurriculumOption = CurriculumCourse & {
+  acronym: string;
+};
+
+const courses: CurriculumOption[] = [
   {
+    acronym: "math",
     course: "Matemática",
     description: "Um caminho para a educação autodidata em Matemática.",
-    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/ubl_mat.jpeg?raw=true",
+    img: bannerMathImg,
     color: "bg-gradient-to-r from-ubl-blue/90 via-blue-500/70 to-sky-400/70",
   },
   {
+    acronym: "cc",
     course: "Ciência da Computação",
     description: "Um caminho para a educação autodidata em Ciência da Computação",
-    img: "https://github.com/Universidade-Livre/imagens/blob/main/outras/placeholder.png?raw=true",
+    img: bannerCCImg,
     color: "bg-gradient-to-r from-ubl-green/95 via-emerald-500/85 to-green-400/80",
   },
 ];
 
 const CurriculumPage = () => {
-  const [selectedGrade, setSelectedGrade] = React.useState<
-    CurriculumType | undefined
-  >();
+  const [selectedCourseIndex, setSelectedCourseIndex] = React.useState<number | undefined>();
+  const selectedCourse =
+    selectedCourseIndex !== undefined
+      ? courses[selectedCourseIndex]
+      : undefined;
 
-  const [selectedCourseIndex, setSelectedCourseIndex] = React.useState<
-    number | undefined
-  >();
-
-  const handleCourseSelection = (index: number) => {
-    console.log(`Curso selecionado: ${index}`);
-    if (selectedCourseIndex === index) {
-      setSelectedCourseIndex(undefined);
-      setSelectedGrade(undefined);
-      return;
-    }
-
-    setSelectedCourseIndex(index);
-    if (index === 1) {
-      setSelectedGrade(CurriculumCC);
-    } else {
-      setSelectedGrade(CurriculumMath);
-    }
-  };
-
+  const { data: curriculum, isLoading: curriculumIsLoading } = useCurriculum(selectedCourse?.acronym);
   return (
     <div className="min-h-screen bg-bg-body text-white">
       <main
         className={cn(
           "flex flex-col items-center space-y-4",
-          selectedGrade || "mb-10",
+          curriculum ? "" : "mb-10",
         )}
       >
         <CurriculumHero
           title="Sua jornada começa aqui"
           description="Descubra a liberdade de aprender com nossos cursos online gratuitos, desenvolvidos para todos os níveis de conhecimento. Aprenda no seu ritmo, onde e quando quiser."
-          image={bannerstudy}
+          image={bannerStudyImg}
         />
 
         <CurriculumSelector
           courses={courses}
-          onSelectCourse={handleCourseSelection}
+          onSelectCourse={setSelectedCourseIndex}
         />
 
         {/* Seção de Conteúdo da Grade Curricular */}
-        {selectedGrade && <Curriculum selectedCourse={selectedGrade} />}
+        {curriculumIsLoading && selectedCourse && <CurriculumSkeleton />}
+        {curriculum && <Curriculum curriculum={curriculum} />}
       </main>
     </div>
   );

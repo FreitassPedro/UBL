@@ -30,7 +30,7 @@ export const Step = ({ step }: StepProps) => {
       >
         <CollapsibleTrigger asChild>
           <SubjectHeader
-            stage={step}
+            step={step}
             isActive={isActive}
             onToggle={() => setIsActive(!isActive)}
           />

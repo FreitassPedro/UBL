@@ -1,5 +1,5 @@
-import studyIllustration2 from "@/assets/imgs/studyIllustion2.png";
-import studyIllustration from "@/assets/imgs/studyIllustration.png";
+import sectionIllustrationImg from "@/assets/sectionIllustration.png";
+import sectionIllustrationAltImhg from "@/assets/sectionIllustrationAlt.png";
 import HomeHero from "@/components/home/HomeHero";
 import { HomeProgress } from "@/components/home/HomeProgress";
 import { HomeSection } from "@/components/home/HomeSection";
@@ -14,7 +14,7 @@ export const HomePage = () => {
       <HomeSection
         title="Customize sua trilha"
         description="Nós organizamos uma completa biblioteca de conteúdos bem avaliados, para então você escolher o jeito que mais combina com seu estilo de aprendizado."
-        imageSrc={studyIllustration}
+        imageSrc={sectionIllustrationAltImhg}
         imageAlt=""
         className="bg-zinc-900"
       />
@@ -22,7 +22,7 @@ export const HomePage = () => {
       <HomeSection
         title="Nossa comunidade pronta para ajudar"
         description="Una-se a outros estudantes e compartilhe suas dúvidas e conhecimentos no nosso Discord."
-        imageSrc={studyIllustration2}
+        imageSrc={sectionIllustrationImg}
         imageAlt=""
         imageReverse
         className="bg-[#141414]"

@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1352,
+    "title": "Deep Learning - L00 Apresentação do curso de Deep Learning",
+    "embedUrl": "https://www.youtube.com/embed/0VD_2t6EdS4",
+    "duration": 183
+  },
+  {
+    "id": 1353,
+    "title": "Deep Learning - L01 O que é aprendizado de máquina e aprendizado profundo? Uma visão geral part1",
+    "embedUrl": "https://www.youtube.com/embed/l3YXuNJREOk",
+    "duration": 2513
+  },
+  {
+    "id": 1354,
+    "title": "Deep Learning - L01 O que é aprendizado de máquina e aprendizado profundo? Uma visão geral part2",
+    "embedUrl": "https://www.youtube.com/embed/wTtpqCkuy28",
+    "duration": 3001
+  },
+  {
+    "id": 1355,
+    "title": "Deep Learning - L02 Um breve resumo da história das redes neurais e deep learning",
+    "embedUrl": "https://www.youtube.com/embed/_rxy25sl1YY",
+    "duration": 2470
+  },
+  {
+    "id": 1356,
+    "title": "Deep Learning - L03 O Perceptron, introdução às redes neurais de camada única part1",
+    "embedUrl": "https://www.youtube.com/embed/VkLUQWNhApk",
+    "duration": 2434
+  },
+  {
+    "id": 1357,
+    "title": "Deep Learning - L03 O Perceptron, introdução às redes neurais de camada única part2",
+    "embedUrl": "https://www.youtube.com/embed/yNA-aaZAkdQ",
+    "duration": 2783
+  },
+  {
+    "id": 1358,
+    "title": "Deep Learning - L04 Álgebra Linear para deep learning part1",
+    "embedUrl": "https://www.youtube.com/embed/1KRhtQOcORk",
+    "duration": 2540
+  },
+  {
+    "id": 1359,
+    "title": "Deep Learning - L04 Álgebra linear para deep learning part2",
+    "embedUrl": "https://www.youtube.com/embed/OmQn8aPpkO4",
+    "duration": 1523
+  },
+  {
+    "id": 1360,
+    "title": "Deep Learning - L05 Aprendizado com gradiente descendente part1",
+    "embedUrl": "https://www.youtube.com/embed/xI9LolOu0jo",
+    "duration": 2836
+  },
+  {
+    "id": 1361,
+    "title": "Deep Learning - L05 Aprendizado com gradiente descendente part2",
+    "embedUrl": "https://www.youtube.com/embed/FW3vf3TSGr0",
+    "duration": 2156
+  },
+  {
+    "id": 1362,
+    "title": "Deep Learning - L05 Aprendizado com gradiente descendente part3",
+    "embedUrl": "https://www.youtube.com/embed/mIKuWmJRApQ",
+    "duration": 1545
+  },
+  {
+    "id": 1363,
+    "title": "Deep Learning - L06 Diferenciação automática com Pytorch",
+    "embedUrl": "https://www.youtube.com/embed/1EQV6d8ArJo",
+    "duration": 2909
+  },
+  {
+    "id": 1364,
+    "title": "Deep Learning - L07 Regressão logística e classificação multiclasse part1",
+    "embedUrl": "https://www.youtube.com/embed/LMA081dvtf4",
+    "duration": 2796
+  },
+  {
+    "id": 1365,
+    "title": "Deep Learning - L07 Regressão logistica e classificação multiclasse part2",
+    "embedUrl": "https://www.youtube.com/embed/CDguod1rNvU",
+    "duration": 2016
+  },
+  {
+    "id": 1366,
+    "title": "Deep Learning - L07 Regressão logistica e classificação multiclasse part3",
+    "embedUrl": "https://www.youtube.com/embed/gSMYyUYA9Us",
+    "duration": 2840
+  },
+  {
+    "id": 1367,
+    "title": "Deep Learning - L08 Rede neural multilayer perceptron part1",
+    "embedUrl": "https://www.youtube.com/embed/VN8RTIyfJUs",
+    "duration": 2805
+  },
+  {
+    "id": 1368,
+    "title": "Deep Learning - L08 Rede neural multilayer perceptron part2",
+    "embedUrl": "https://www.youtube.com/embed/-YY1AIM3j88",
+    "duration": 3769
+  },
+  {
+    "id": 1369,
+    "title": "Deep Learning - L09 Regularização part1",
+    "embedUrl": "https://www.youtube.com/embed/pOVcv_XouUg",
+    "duration": 2970
+  },
+  {
+    "id": 1370,
+    "title": "Deep Learning - L09 Regularização part2",
+    "embedUrl": "https://www.youtube.com/embed/-vS_rk4ZDTA",
+    "duration": 2404
+  },
+  {
+    "id": 1371,
+    "title": "Deep Learning - L10 Normalização de características e inicialização de pesos part1",
+    "embedUrl": "https://www.youtube.com/embed/W4X2ZeEzreM",
+    "duration": 2960
+  },
+  {
+    "id": 1372,
+    "title": "Deep Learning - L10 Normalização de características e inicialização de pesos part2",
+    "embedUrl": "https://www.youtube.com/embed/6jWywZypNdI",
+    "duration": 2008
+  },
+  {
+    "id": 1373,
+    "title": "Deep Learning - L11 Algoritmos de otimização para Deep Learning",
+    "embedUrl": "https://www.youtube.com/embed/akgqZ6M9pQw",
+    "duration": 3640
+  },
+  {
+    "id": 1374,
+    "title": "Deep Learning - L12 Redes neurais convolucionais",
+    "embedUrl": "https://www.youtube.com/embed/OoYUL7lzznw",
+    "duration": 5063
+  },
+  {
+    "id": 1375,
+    "title": "Deep Learning - L13 Redes neurais convolucionais part1",
+    "embedUrl": "https://www.youtube.com/embed/_QbA4IOT1GM",
+    "duration": 2425
+  },
+  {
+    "id": 1376,
+    "title": "Deep Learning - L13 Redes neurais convolucionais part2",
+    "embedUrl": "https://www.youtube.com/embed/5MySLWCG6E0",
+    "duration": 3729
+  },
+  {
+    "id": 1377,
+    "title": "Deep Learning - L13 Redes neurais convolucionais part3",
+    "embedUrl": "https://www.youtube.com/embed/1inwL2FNy90",
+    "duration": 2390
+  },
+  {
+    "id": 1378,
+    "title": "Deep Learning - L13 Metric learning",
+    "embedUrl": "https://www.youtube.com/embed/jxqVnVYPndU",
+    "duration": 1661
+  },
+  {
+    "id": 1379,
+    "title": "Deep Learning - L14 Redes neurais recorrentes part1",
+    "embedUrl": "https://www.youtube.com/embed/n7jWzlMDT-0",
+    "duration": 3431
+  },
+  {
+    "id": 1380,
+    "title": "Deep Learning - L14 Redes neurais recorrentes part2",
+    "embedUrl": "https://www.youtube.com/embed/vrEMGdfDB7A",
+    "duration": 2292
+  },
+  {
+    "id": 1381,
+    "title": "Deep Learning - L15 Autoencoder part1",
+    "embedUrl": "https://www.youtube.com/embed/IKVuwKh1n1g",
+    "duration": 3344
+  },
+  {
+    "id": 1382,
+    "title": "Deep Learinig - L15 Autoencoder part2",
+    "embedUrl": "https://www.youtube.com/embed/VYXY5Z1jx78",
+    "duration": 2046
+  },
+  {
+    "id": 1383,
+    "title": "Deep Learning - L16 Generative Adversarial Networks part1",
+    "embedUrl": "https://www.youtube.com/embed/zAESjdU_QyE",
+    "duration": 3261
+  },
+  {
+    "id": 1384,
+    "title": "Deep Learning - L16 Generative Adversarial Networks part2",
+    "embedUrl": "https://www.youtube.com/embed/dzLDlWllKNU",
+    "duration": 2568
+  }
+]
