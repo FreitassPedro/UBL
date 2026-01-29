@@ -8,13 +8,9 @@ import { useMemo } from "react";
 
 export const useMyCurriculum = (curriculumAcronym?: string) => {
   const acronyms = curriculumAcronym ? [curriculumAcronym] : [];
-  const {
-    mySubjects,
-    isLoading: isSubjectsLoading,
-    isSuccess: isSubjectsSuccess,
-  } = useMySubjects(acronyms);
-
+  const { mySubjects, isLoading: isSubjectsLoading, isSuccess: isSubjectsSuccess } = useMySubjects(acronyms);
   const curriculumQuery = useCurriculum(curriculumAcronym);
+
   const mySubjectsMap: Map<number, MySubject> = useMemo(() => {
     return new Map(mySubjects.map((s) => [s.id, s]));
   }, [mySubjects]);
@@ -48,8 +44,7 @@ export const useMyCurriculum = (curriculumAcronym?: string) => {
   }, [curriculumQuery.data, mySubjectsMap]);
 
   const isLoading: boolean = curriculumQuery.isLoading || isSubjectsLoading;
-  const isSuccess: boolean =
-    curriculumQuery.isSuccess && (acronyms.length === 0 || isSubjectsSuccess);
+  const isSuccess: boolean = curriculumQuery.isSuccess && (acronyms.length === 0 || isSubjectsSuccess);
   return {
     ...curriculumQuery,
     data: myCurriculum,
