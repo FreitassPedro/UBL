@@ -1,13 +1,13 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { formatSecondsToMinutes } from "@/lib/time";
 import { cn } from "@/lib/utils";
-import type { MyLessonProgress } from "@/types/lesson";
+import type { MyLessonProgress } from "@/types/my-lesson";
 
 interface SubjectSidebarItemProps {
   lesson: MyLessonProgress;
   isSelected: boolean;
   onSelect: (lesson: MyLessonProgress) => void;
-  onToggleCompletion: (lessonId: string) => void;
+  onToggleCompletion: (lessonId: number) => void;
 }
 
 export const SubjectSidebarItem = ({
@@ -27,7 +27,7 @@ export const SubjectSidebarItem = ({
         )}
       >
         <Checkbox
-          checked={lesson.isCompleted}
+          checked={lesson.completed}
           onCheckedChange={() => onToggleCompletion(lesson.id)}
           onClick={(event) => event.stopPropagation()}
           className="

@@ -67,28 +67,6 @@ export const router = createBrowserRouter([
           Component: (await import("@/pages/CurriculumPage")).default,
         }),
       },
-      {
-        path: "teste",
-        children: [
-          {
-            index: true,
-            lazy: async () => ({
-              Component: (await import("@/pages/test/TestePage1")).default,
-            }),
-          },
-          {
-            path: "node",
-            lazy: async () => {
-              const [{ default: CurriculumGraph }, { CurriculumCC }] =
-                await Promise.all([
-                  import("@/components/node-graphs/CurriculumGraph"),
-                  import("@/data/Curriculum"),
-                ]);
-              return { element: <CurriculumGraph grade={CurriculumCC} /> };
-            },
-          },
-        ],
-      },
     ],
   },
 ]);

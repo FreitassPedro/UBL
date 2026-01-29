@@ -50,8 +50,8 @@ export const Curriculum = ({ selectedCourse }: CurriculumProps) => {
 
         {/* Etapas (Stages) */}
         <ul className="space-y-4">
-          {selectedCourse.steps.map((stage) => {
-            return <Step key={stage.id} step={stage} />;
+          {selectedCourse.steps.map((step) => {
+            return <Step key={step.id} step={step} />;
           })}
         </ul>
       </div>

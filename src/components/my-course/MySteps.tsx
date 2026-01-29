@@ -1,39 +1,39 @@
 import { MyStep } from "@/components/my-course/MyStep";
 import { MyStepsHeader } from "@/components/my-course/MyStepsHeader";
 import MyStepsNavigation from "@/components/my-course/MyStepsNavigation";
-import type { MyCurriculumProgress } from "@/types/curriculum";
+import type MyCurriculum from "@/types/my-curriculum";
 import { useEffect, useState } from "react";
 
 interface MyStepsProps {
-  courseProgress: MyCurriculumProgress;
-  activeStepId?: number | null;
+  myCurriculum: MyCurriculum;
+  currentStepId?: number | null;
   getStepHref?: (stepId: number) => string;
 }
 
 export const MySteps = ({
-  courseProgress,
-  activeStepId,
+  myCurriculum,
+  currentStepId,
   getStepHref,
 }: MyStepsProps) => {
-  const fallbackStepId = courseProgress.steps[0]?.id || 1;
+  const fallbackStepId = myCurriculum.steps[0]?.id || 1;
   const [activeStep, setActiveStep] = useState<number>(
-    activeStepId ?? fallbackStepId,
+    currentStepId ?? fallbackStepId,
   );
 
   useEffect(() => {
-    setActiveStep(activeStepId ?? fallbackStepId);
-  }, [activeStepId, fallbackStepId, courseProgress.name]);
+    setActiveStep(currentStepId ?? fallbackStepId);
+  }, [currentStepId, fallbackStepId, myCurriculum.name]);
 
   return (
     <div className="flex flex-col w-full space-y-8 mb-10">
       {/* Navegação por Abas (Tabs) */}
       <div className="flex flex-col w-full items-center space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center">
-          {courseProgress.name}
+          {myCurriculum.name}
         </h2>
         <MyStepsNavigation
-          steps={courseProgress.steps}
-          activeStep={activeStep}
+          mySteps={myCurriculum.steps}
+          currentStep={activeStep}
           getStepHref={getStepHref}
           onSelect={setActiveStep}
         />
@@ -41,14 +41,14 @@ export const MySteps = ({
 
       {/* Conteúdo */}
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
-        {courseProgress.steps
+        {myCurriculum.steps
           .filter((gr) => gr.id === activeStep)
           .map((step) => (
             <div key={step.id} className="space-y-6">
-              <MyStepsHeader step={step} />
+              <MyStepsHeader myStep={step} />
               <div className="grid grid-cols-1 gap-3">
-                {step.subjects.map((subject) => (
-                  <MyStep key={subject.id} subject={subject} />
+                {step.subjects.map((mySubject) => (
+                  <MyStep key={mySubject.id} mySubject={mySubject} />
                 ))}
               </div>
             </div>

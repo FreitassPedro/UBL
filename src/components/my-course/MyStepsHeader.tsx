@@ -1,16 +1,22 @@
 import { getTheme } from "@/lib/theme";
-import { formatStepToHours } from "@/lib/time";
+import { formatSecondsToHours } from "@/lib/time";
 import { cn } from "@/lib/utils";
-import type { MyStepProgress } from "@/types/step";
+import type MyStep from "@/types/my-step";
 import { BookOpen, Clock, Sparkles } from "lucide-react";
 
 interface MyStepsHeaderProps {
-  step: MyStepProgress;
+  myStep: MyStep;
 }
 
-export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
-  const theme = getTheme(step.id);
-  const totalDuration: string = formatStepToHours(step);
+export const MyStepsHeader = ({ myStep }: MyStepsHeaderProps) => {
+  const theme = getTheme(myStep.number);
+  const completedSubjects = myStep.subjects.filter(
+    (subject) =>
+      subject.lessons > 0 && subject.completedLessons >= subject.lessons,
+  ).length;
+  const totalDuration: string = formatSecondsToHours(
+    myStep.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
+  );
 
   return (
     <div className="flex flex-col space-y-6">
@@ -34,7 +40,7 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
               <span>Progresso da Etapa</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight">
-              {step.name}
+              Etapa {myStep.number}
             </h2>
           </div>
 
@@ -49,9 +55,9 @@ export const MyStepsHeader = ({ step }: MyStepsHeaderProps) => {
                   Cadeiras
                 </span>
                 <span className="text-zinc-200 font-medium">
-                  {step.totalCompleted}
+                  {completedSubjects}
                   <span className="text-zinc-600">/</span>{" "}
-                  {step.subjects.length}
+                  {myStep.subjects.length}
                 </span>
               </div>
             </div>

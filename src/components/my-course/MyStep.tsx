@@ -2,24 +2,28 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { getProgressTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
-import type { MySubjectProgress } from "@/types/subject";
+import type MySubject from "@/types/my-subject";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface MyStepProps {
-  subject: MySubjectProgress;
+  mySubject: MySubject;
 }
 
-export const MyStep = ({ subject }: MyStepProps) => {
-  const status = getProgressTheme(subject.progress);
+export const MyStep = ({ mySubject: subject }: MyStepProps) => {
+  const totalLessons = subject.lessons ?? 0;
+  const completedLessons = subject.completedLessons ?? 0;
+  const progressPercent =
+    totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
+  const theme = getProgressTheme(progressPercent);
 
   return (
     <Link to={`/disciplinas/${subject.id}`} className="group block">
       <Card
         className={cn(
           "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
-          status.border,
-          status.bg,
+          theme.border,
+          theme.bg,
         )}
       >
         {/* Ícone / Imagem */}
@@ -33,7 +37,7 @@ export const MyStep = ({ subject }: MyStepProps) => {
           </div>
           {/* Badge de Status flutuante (opcional, visual cleaner sem ele, mas útil para UX) */}
           <div className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800">
-            {<status.icon className={status.iconColor} />}
+            {<theme.icon className={theme.iconColor} />}
           </div>
         </div>
 
@@ -48,16 +52,16 @@ export const MyStep = ({ subject }: MyStepProps) => {
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium text-zinc-400 transition-colors border border-zinc-800 rounded-full px-3 py-1 bg-zinc-900/40 cursor-pointer",
-                subject.progress === 100
+                progressPercent === 100
                   ? "text-emerald-100/90 border-emerald-300/40 bg-emerald-500/10"
-                  : subject.progress > 0
+                  : progressPercent > 0
                     ? "text-blue-200/85 border-blue-400/35 bg-blue-950/30"
                     : "text-zinc-300/90 border-zinc-500/40 bg-zinc-800/30",
               )}
             >
-              {subject.progress === 100
+              {progressPercent === 100
                 ? "Revisar"
-                : subject.progress > 0
+                : progressPercent > 0
                   ? "Continuar"
                   : "Iniciar"}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -68,27 +72,26 @@ export const MyStep = ({ subject }: MyStepProps) => {
           <div className="space-y-1.5">
             <div className="flex items-center justify-between text-xs text-zinc-500">
               <span>
-                {subject.progress === 100
+                {progressPercent === 100
                   ? "Concluído"
-                  : subject.progress > 0
+                  : progressPercent > 0
                     ? "Progresso"
                     : "Comece a assistir"}
               </span>
-              <span className={status.color}>{subject.progress}%</span>
+              <span className={theme.color}>{progressPercent}%</span>
             </div>
 
             {/* Container da barra de progresso ajustada */}
-            {subject.progress > 0 && (
+            {progressPercent > 0 && (
               <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                 <div className="h-full w-full">
-                  <Progress value={subject.progress} />
+                  <Progress value={progressPercent} />
                 </div>
               </div>
             )}
 
             <div className="text-xs text-zinc-600 pt-0.5">
-              {subject.totalCompleted} de {subject.lessons.length} aulas
-              concluídas
+              {completedLessons} de {totalLessons} aulas concluídas
             </div>
           </div>
         </div>

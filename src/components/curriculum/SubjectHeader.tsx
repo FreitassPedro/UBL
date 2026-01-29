@@ -1,29 +1,31 @@
 import { CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { getTheme } from "@/lib/theme";
-import { formatStepToHours } from "@/lib/time";
+import { formatSecondsToHours } from "@/lib/time";
 import { cn } from "@/lib/utils";
 import type { Step } from "@/types/step";
 import { BookOpen, ChevronRight, Clock, Sparkles } from "lucide-react";
 
 interface SubjectHeaderProps {
-  stage: Step;
+  step: Step;
   isActive: boolean;
   onToggle: (gradeNumber: number) => void;
 }
 
 export const SubjectHeader = ({
-  stage,
+  step,
   isActive,
   onToggle,
 }: SubjectHeaderProps) => {
-  const theme = getTheme(stage.id);
-  const totalDuration: string = formatStepToHours(stage);
+  const theme = getTheme(step.number);
+  const totalDuration: string = formatSecondsToHours(
+    step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
+  );
 
   return (
     <CardHeader
       className={cn("border-0 p-0 gap-0", theme.border)}
-      onClick={() => onToggle(stage.number)}
+      onClick={() => onToggle(step.number)}
     >
       <div className="group overflow-hidden border-zinc-800 bg-zinc-900 p-4 sm:p-6 cursor-pointer">
         {/* Glow */}
@@ -47,7 +49,7 @@ export const SubjectHeader = ({
             </div>
 
             <CardTitle className="text-2xl sm:text-3xl font-light text-white tracking-tight">
-              Etapa {stage.number}
+              Etapa {step.number}
             </CardTitle>
           </div>
 
@@ -62,7 +64,7 @@ export const SubjectHeader = ({
                     Disciplinas
                   </span>
                   <span className="text-zinc-200 font-medium">
-                    {stage.subjects.length}
+                    {step.subjects.length}
                   </span>
                 </div>
               </div>

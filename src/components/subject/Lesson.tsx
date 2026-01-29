@@ -4,47 +4,50 @@ import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
-import type { MyLessonProgress } from "@/types/lesson";
-import type { MySubjectProgress } from "@/types/subject";
+import type { Lesson as LessonType } from "@/types/lesson";
+import type MySubject from "@/types/my-subject";
 import { useEffect, useState } from "react";
 
 interface LessonProps {
-  subject: MySubjectProgress;
-  lesson?: MyLessonProgress;
+  mySubject: MySubject;
+  lesson?: LessonType;
+  isLoading?: boolean;
 }
 
-export const Lesson = ({ subject, lesson }: LessonProps) => {
+export const Lesson = ({ mySubject, lesson, isLoading }: LessonProps) => {
   const [isLessonLoading, setIsLessonLoading] = useState(true);
 
   useEffect(() => {
-    if (lesson?.url) {
+    if (lesson?.embedUrl) {
       setIsLessonLoading(true);
     }
-  }, [lesson?.url]);
+  }, [lesson?.embedUrl]);
 
   return (
     <Card className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 bg-bg-card border border-zinc-800 rounded-xl shadow-2xl shadow-black/40 lg:col-span-4">
       <LessonBreadcrumb
-        subjectName={subject.name}
+        subjectName={mySubject.name}
         lessonTitle={lesson?.title}
       />
 
-      {lesson && (
+      {(lesson || isLoading) && (
         <>
           <div className="relative w-full aspect-video lg:aspect-auto lg:flex-1 lg:min-h-0">
-            <div
-              className={cn(
-                "h-full transition-opacity",
-                isLessonLoading ? "opacity-0" : "opacity-100",
-              )}
-            >
-              <VideoPlayer
-                videoId={lesson.url}
-                key={lesson.id}
-                onLoaded={() => setIsLessonLoading(false)}
-              />
-            </div>
-            {isLessonLoading && (
+            {lesson ? (
+              <div
+                className={cn(
+                  "h-full transition-opacity",
+                  isLessonLoading ? "opacity-0" : "opacity-100",
+                )}
+              >
+                <VideoPlayer
+                  key={lesson.id}
+                  url={lesson.embedUrl}
+                  onLoaded={() => setIsLessonLoading(false)}
+                />
+              </div>
+            ) : null}
+            {(isLessonLoading || isLoading) && (
               <Skeleton className="absolute inset-0 rounded-xl" />
             )}
           </div>
@@ -58,7 +61,7 @@ export const Lesson = ({ subject, lesson }: LessonProps) => {
             </div>
 
             <h2 className="text-2xl font-semibold leading-snug text-zinc-100">
-              {lesson.title}
+              {lesson?.title ?? "Carregando aula..."}
             </h2>
           </div>
         </>

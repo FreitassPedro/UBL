@@ -1,18 +1,17 @@
 import { Card } from "@/components/ui/card";
-import type { CourseOption } from "@/hooks/useMyCourseData";
-import { getCourseSlug } from "@/hooks/useMyCourseData";
 import { cn } from "@/lib/utils";
 import { ArrowRight, Binary, Sigma } from "lucide-react";
 import type { JSX } from "react";
 import { Link } from "react-router-dom";
 
 type MyCourseSelectorProps = {
-  onSelect?: (course: CourseOption) => void;
+  onSelect?: (course: string) => void;
 };
 
 const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
   const options: Array<{
-    id: CourseOption;
+    id: number;
+    acronym: string;
     title: string;
     description: string;
     icon: JSX.Element;
@@ -22,7 +21,8 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
     accentGlow: string;
   }> = [
     {
-      id: "Matematica",
+      id: 1,
+      acronym: "math",
       title: "Matemática",
       description: "Fundamentos e modelos para resolver problemas complexos.",
       icon: <Sigma className="h-6 w-6 text-ubl-blue" />,
@@ -32,7 +32,8 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
       accentGlow: "from-ubl-blue/25 via-transparent to-transparent",
     },
     {
-      id: "Computacao",
+      id: 2,
+      acronym: "cc",
       title: "Ciência da Computação",
       description: "Algoritmos, dados e sistemas para construir software.",
       icon: <Binary className="h-6 w-6 text-ubl-green" />,
@@ -64,8 +65,8 @@ const MyCourseSelector = ({ onSelect }: MyCourseSelectorProps) => {
           {options.map((option) => (
             <Link
               key={option.id}
-              to={`/meu-curso/${getCourseSlug(option.id)}`}
-              onClick={() => onSelect?.(option.id)}
+              to={`/meu-curso/${option.acronym}`}
+              onClick={() => onSelect?.(option.acronym)}
               className="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500 rounded-2xl"
             >
               <Card

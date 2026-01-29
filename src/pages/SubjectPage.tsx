@@ -1,55 +1,133 @@
 import { Lesson } from "@/components/subject/Lesson";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
-import { ProgressContext } from "@/contexts/ProgressContext";
-import { CurriculumCC, CurriculumMath } from "@/data/Curriculum";
+import { UserProgressContext } from "@/contexts/UserProgressContext";
+import { curriculumAcronyms } from "@/constants/curriculums";
+import { useLessons } from "@/hooks/useLessons";
+import { useCurriculums } from "@/hooks/useCurriculums";
 import useTitlePage from "@/hooks/useTitlePage";
-import { mapSubjectToMySubject } from "@/mappers/subject.mapper";
-import type { MyLessonProgress } from "@/types/lesson";
-import type { MySubjectProgress } from "@/types/subject";
+import type { MyLessonProgress } from "@/types/my-lesson";
 import { useContext, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
 export const SubjectPage = () => {
-  useTitlePage("Disciplinas");
   const { id } = useParams<{ id: string }>();
-  const { toggleCompletion, completedLessons } = useContext(ProgressContext);
+  const { progress, toggleLessonCompletion } = useContext(UserProgressContext);
+  const subjectId = Number(id);
+  const curriculumQueries = useCurriculums(curriculumAcronyms);
+  const isCurriculumLoading = curriculumQueries.some(
+    (query) => query.isLoading,
+  );
 
-  const subject: MySubjectProgress | undefined = useMemo(() => {
-    if (!id) return;
-    const found =
-      CurriculumCC.steps
-        .flatMap((etapa) => etapa.subjects)
-        .find((c) => c.id.toString() === id) ??
-      CurriculumMath.steps
-        .flatMap((etapa) => etapa.subjects)
-        .find((c) => c.id.toString() === id);
-    if (!found) return;
-    return mapSubjectToMySubject(found, completedLessons);
-  }, [completedLessons, id]);
+  const subject = useMemo(() => {
+    for (const curriculumQuery of curriculumQueries) {
+      const curriculum = curriculumQuery.data;
+      if (!curriculum) {
+        continue;
+      }
+
+      for (const step of curriculum.steps) {
+        for (const entry of step.subjects) {
+          if (entry.id !== subjectId) {
+            continue;
+          }
+
+          const completedLessonIds =
+            progress[curriculum.acronym]?.[step.number]?.[entry.name] ?? [];
+
+          return {
+            ...entry,
+            curriculumAcronym: curriculum.acronym,
+            curriculumName: curriculum.name,
+            stepNumber: step.number,
+            completedLessons: completedLessonIds.length,
+          };
+        }
+      }
+    }
+
+    return undefined;
+  }, [curriculumQueries, progress, subjectId]);
+
+  useTitlePage(subject ? `Disciplinas - ${subject.name}` : "Disciplinas");
 
   const [selectedLesson, setSelectedLesson] = useState<
     MyLessonProgress | undefined
   >();
 
-  useEffect(() => {
-    if (subject) {
-      setSelectedLesson(subject.lessons[0]);
-    }
-  }, [subject]);
+  const lessonsQuery = useLessons(
+    subject?.curriculumAcronym ?? "",
+    subject?.stepNumber ?? 0,
+    subject?.id ?? 0,
+    Boolean(subject),
+  );
 
-  if (!subject || subject.lessons.length === 0) {
+  const lessonsWithProgress: MyLessonProgress[] = useMemo(() => {
+    if (!subject || !lessonsQuery.data) {
+      return [];
+    }
+
+    const completedLessonIds =
+      progress[subject.curriculumAcronym]?.[subject.stepNumber]?.[
+        subject.name
+      ] ?? [];
+
+    return lessonsQuery.data.map((lesson) => ({
+      ...lesson,
+      completed: completedLessonIds.includes(lesson.id),
+    }));
+  }, [lessonsQuery.data, progress, subject]);
+
+  useEffect(() => {
+    if (lessonsWithProgress.length > 0) {
+      setSelectedLesson(lessonsWithProgress[0]);
+    }
+  }, [lessonsWithProgress]);
+
+  if (!subject && isCurriculumLoading) {
+    return (
+      <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter flex items-center justify-center">
+        Carregando...
+      </div>
+    );
+  }
+
+  if (
+    !subject ||
+    (lessonsQuery.isSuccess && lessonsWithProgress.length === 0)
+  ) {
     throw new Response("Not Found", { status: 404 });
   }
+
+  const handleToggleCompletion = (lessonId: number) => {
+    if (!subject) {
+      return;
+    }
+
+    toggleLessonCompletion(
+      subject.curriculumAcronym,
+      subject.stepNumber,
+      subject.name,
+      lessonId,
+    );
+  };
 
   return (
     <div className="h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden font-inter">
       <div className="w-full h-full min-h-0 py-6 px-4 sm:px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-4 items-stretch">
-        <Lesson subject={subject} lesson={selectedLesson} />
+        <Lesson
+          mySubject={subject}
+          lesson={selectedLesson}
+          isLoading={lessonsQuery.isLoading}
+        />
         <SubjectSidebar
-          subject={subject}
-          selectedLesson={selectedLesson}
-          onSelectLesson={(lesson: MyLessonProgress) => setSelectedLesson(lesson)}
-          onToggleCompletion={toggleCompletion}
+          mySubject={subject}
+          lessons={lessonsWithProgress}
+          currentLesson={selectedLesson}
+          onSelectLesson={(lesson: MyLessonProgress) =>
+            setSelectedLesson(lesson)
+          }
+          onToggleCompletion={handleToggleCompletion}
+          isLoading={lessonsQuery.isLoading}
         />
       </div>
     </div>

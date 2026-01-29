@@ -1,35 +1,30 @@
 import MyCourseSelector from "@/components/my-course/MyCourseSelector";
 import { MySteps } from "@/components/my-course/MySteps";
-import {
-  getCourseOptionFromSlug,
-  useMyCourseData,
-} from "@/hooks/useMyCourseData";
+import { useMyCurriculum } from "@/hooks/useMyCurriculum";
 import useTitlePage from "@/hooks/useTitlePage";
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 const MyCoursePage = () => {
-  const { getCourseProgress } = useMyCourseData();
   const { courseSlug, stepId } = useParams();
   const navigate = useNavigate();
 
-  const courseProgress = courseSlug
-    ? getCourseProgress(getCourseOptionFromSlug(courseSlug) ?? "")
-    : null;
+  const curriculumQuery = useMyCurriculum(courseSlug ?? "", Boolean(courseSlug));
+  const myCurriculum = curriculumQuery.data;
 
-  const fallbackStepId = courseProgress?.steps[0]?.id ?? 1;
+  const fallbackStepId = myCurriculum?.steps[0]?.id ?? 1;
   const activeStepId =
     Number.isFinite(Number(stepId)) &&
-    courseProgress?.steps.some((step) => step.id === Number(stepId))
+    myCurriculum?.steps.some((step) => step.id === Number(stepId))
       ? Number(stepId)
       : null;
 
   useTitlePage(
-    courseProgress ? `Meu Curso - ${courseProgress.name}` : "Meu Curso",
+    myCurriculum ? `Meu Curso - ${myCurriculum.name}` : "Meu Curso",
   );
 
   useEffect(() => {
-    if (!courseSlug || !courseProgress) {
+    if (!courseSlug || !myCurriculum) {
       return;
     }
 
@@ -38,7 +33,7 @@ const MyCoursePage = () => {
         replace: true,
       });
     }
-  }, [courseSlug, courseProgress, fallbackStepId, navigate, activeStepId]);
+  }, [courseSlug, myCurriculum, fallbackStepId, navigate, activeStepId]);
 
   if (!courseSlug) {
     return (
@@ -48,7 +43,15 @@ const MyCoursePage = () => {
     );
   }
 
-  if (!courseProgress) {
+  if (curriculumQuery.isLoading) {
+    return (
+      <div className="flex w-full flex-1 items-center justify-center text-zinc-300">
+        Carregando...
+      </div>
+    );
+  }
+
+  if (!myCurriculum) {
     throw new Response("Not Found", { status: 404 });
   }
 
@@ -58,8 +61,8 @@ const MyCoursePage = () => {
 
   return (
     <MySteps
-      courseProgress={courseProgress}
-      activeStepId={activeStepId}
+      myCurriculum={myCurriculum}
+      currentStepId={activeStepId}
       getStepHref={(step) => `/meu-curso/${courseSlug}/etapas/${step}`}
     />
   );
