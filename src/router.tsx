@@ -32,7 +32,8 @@ export const router = createBrowserRouter([
       {
         path: "meu-curso",
         lazy: async () => {
-          const { MyCurriculumLayout: MyCurriculumLayout } = await import("@/layouts/MyCurriculumLayout");
+          const { MyCurriculumLayout: MyCurriculumLayout } =
+            await import("@/layouts/MyCurriculumLayout");
           return { Component: MyCurriculumLayout };
         },
         children: [
@@ -57,7 +58,8 @@ export const router = createBrowserRouter([
                   {
                     index: true,
                     lazy: async () => ({
-                      Component: (await import("@/pages/MyCurriculumPage")).default,
+                      Component: (await import("@/pages/MyCurriculumPage"))
+                        .default,
                     }),
                   },
                 ],
@@ -67,7 +69,7 @@ export const router = createBrowserRouter([
         ],
       },
       {
-        path: "disciplinas/:curriculumSlug/:subjectId",
+        path: "meu-curso/:curriculumSlug/etapas/:stepId/disciplinas/:subjectId",
         lazy: async () => ({
           Component: (await import("@/pages/SubjectPage")).default,
         }),

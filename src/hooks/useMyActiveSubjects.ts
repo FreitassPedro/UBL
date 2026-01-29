@@ -13,7 +13,7 @@ export const useMyActiveSubjects = () => {
         case "etapas":
           return a.stepNumber - b.stepNumber;
         case "progresso":
-          return b.completedLessons - a.completedLessons;
+          return b.progress - a.progress;
         case "curso":
           return a.curriculumName.localeCompare(b.curriculumName);
         default:

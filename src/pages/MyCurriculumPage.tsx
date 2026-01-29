@@ -10,15 +10,13 @@ const MyCurriculumPage = () => {
   const { curriculumSlug, stepId } = useParams();
   const navigate = useNavigate();
 
-  const curriculumQuery = useMyCurriculum(curriculumSlug);
-  const myCurriculum = curriculumQuery.data;
-
-  const fallbackStepNumber = myCurriculum?.steps[0]?.number ?? 1;
-  const activeStepNumber =
+  const { data: myCurriculum, isLoading: myCurriculumIsLoading } = useMyCurriculum(curriculumSlug);
+  const fallbackStepNumber: number = myCurriculum?.steps[0]?.number ?? 1;
+  const activeStepNumber: number | undefined =
     Number.isFinite(Number(stepId)) &&
     myCurriculum?.steps.some((step) => step.number === Number(stepId))
       ? Number(stepId)
-      : null;
+      : undefined;
 
   useTitlePage(myCurriculum ? `Meu Curso - ${myCurriculum.name}` : "Meu Curso");
   useEffect(() => {
@@ -47,7 +45,7 @@ const MyCurriculumPage = () => {
     );
   }
 
-  if (curriculumQuery.isLoading) {
+  if (myCurriculumIsLoading) {
     return (
       <div className="flex w-full flex-1 items-center justify-center">
         <div className="w-full max-w-6xl px-6 sm:px-8">

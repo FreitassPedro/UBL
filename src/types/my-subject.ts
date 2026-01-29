@@ -5,4 +5,5 @@ export default interface MySubject extends Subject {
   curriculumName: string;
   stepNumber: number;
   completedLessons: number;
+  progress: number;
 }

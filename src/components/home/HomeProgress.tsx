@@ -26,7 +26,12 @@ import { useMyActiveSubjects } from "@/hooks/useMyActiveSubjects";
 import { Link } from "react-router-dom";
 
 export const HomeProgress = () => {
-  const { myActiveSubjects: mySubjects, orderBy, setOrderBy, isLoading } = useMyActiveSubjects();
+  const {
+    myActiveSubjects: mySubjects,
+    orderBy,
+    setOrderBy,
+    isLoading,
+  } = useMyActiveSubjects();
   if (isLoading) {
     return <HomeProgressSkeleton />;
   }
@@ -92,23 +97,14 @@ export const HomeProgress = () => {
                     </CardHeader>
                     <CardContent className="p-0 my-2">
                       {(() => {
-                        const totalLessons = subject.lessons ?? 0;
-                        const completedLessons = subject.completedLessons ?? 0;
-                        const progressPercent =
-                          totalLessons > 0
-                            ? Math.round(
-                                (completedLessons / totalLessons) * 100,
-                              )
-                            : 0;
-
                         return (
                           <>
                             <div className="flex items-center justify-between text-gray-400 text-base">
                               <span>Progresso</span>
-                              <span>{progressPercent}%</span>
+                              <span>{subject.progress}%</span>
                             </div>
                             <Progress
-                              value={progressPercent}
+                              value={subject.progress}
                               className="my-2 bg-zinc-700"
                             />
                           </>
@@ -118,7 +114,7 @@ export const HomeProgress = () => {
                     <CardFooter className="p-0">
                       <Button asChild variant="secondary" className="w-full">
                         <Link
-                          to={`/disciplinas/${subject.curriculumAcronym}/${subject.id}`}
+                          to={`/meu-curso/${subject.curriculumAcronym}/etapas/${subject.stepNumber}/disciplinas/${subject.id}`}
                         >
                           Retomar
                         </Link>

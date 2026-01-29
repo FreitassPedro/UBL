@@ -1,11 +1,10 @@
 import { Lesson } from "@/components/subject/Lesson";
 import { SubjectSidebar } from "@/components/subject/SubjectSidebar";
+import SubjectPageSkeleton from "@/components/subject/SubjectSkeleton";
 import { UserProgressContext } from "@/contexts/MyCurriculumContext";
 import useMyCurriculum from "@/hooks/useMyCurriculum";
 import { useMyLessons } from "@/hooks/useMyLessons";
 import useTitlePage from "@/hooks/useTitlePage";
-import SubjectPageSkeleton from "@/components/subject/SubjectSkeleton";
-import type MyCurriculum from "@/types/my-curriculum";
 import type { MyLesson } from "@/types/my-lesson";
 import type MySubject from "@/types/my-subject";
 import { useContext, useEffect, useMemo, useState } from "react";
@@ -15,66 +14,45 @@ export const SubjectPage = () => {
   const { curriculumSlug, stepId, subjectId } = useParams();
   const parsedStepNumber: number | undefined = stepId ? Number(stepId) : undefined;
   const parsedSubjectId: number | undefined = subjectId ? Number(subjectId) : undefined;
-
-  if (
-    !curriculumSlug ||
-    !Number.isFinite(parsedSubjectId) ||
-    (parsedStepNumber !== undefined && !Number.isFinite(parsedStepNumber))
-  ) {
+  if (!curriculumSlug || !Number.isFinite(parsedSubjectId) || !Number.isFinite(parsedStepNumber)) {
     throw new Response("Not Found", { status: 404 });
   }
 
   const { toggleLessonCompletion } = useContext(UserProgressContext);
-  const myCurriculumQuery = useMyCurriculum(curriculumSlug);
-  const myCurriculum: MyCurriculum | undefined = myCurriculumQuery.data;
+  const { data: myCurriculum, isLoading: myCurriculumIsLoading } = useMyCurriculum(curriculumSlug);
   const mySubject: MySubject | undefined = useMemo(() => {
-    if (!myCurriculum) {
-      return undefined;
-    }
-
-    if (parsedStepNumber !== undefined) {
-      return myCurriculum.steps
-        .find((step) => step.number === parsedStepNumber)
-        ?.subjects.find((subject) => subject.id === parsedSubjectId);
-    }
-
-    return myCurriculum.steps
-      .flatMap((step) => step.subjects)
-      .find((subject) => subject.id === parsedSubjectId);
+    return myCurriculum?.steps
+      .find((step) => step.number === parsedStepNumber)
+      ?.subjects.find((subject) => subject.id === parsedSubjectId);
   }, [myCurriculum, parsedStepNumber, parsedSubjectId]);
 
   useTitlePage(mySubject ? `Disciplinas - ${mySubject.name}` : "Disciplinas");
 
-  const [selectedLessonId, setSelectedLessonId] = useState<number | undefined>();
-  const { lessonsQuery, myLessons, isLoading: isLessonsLoading } = useMyLessons(mySubject);
+  const { myLessons, isLoading: isLessonsLoading, isSuccess: isLessonsSuccess } = useMyLessons(mySubject);
+  const [currentLesson, setCurrentLesson] = useState<MyLesson | undefined>();
 
   useEffect(() => {
     if (myLessons.length === 0) {
+      setCurrentLesson(undefined);
       return;
     }
 
-    setSelectedLessonId((currentId) => {
-      if (currentId) {
-        const stillExists = myLessons.some((lesson) => lesson.id === currentId);
-        if (stillExists) {
-          return currentId;
+    setCurrentLesson((current) => {
+      if (current) {
+        if (myLessons.some((lesson) => lesson.id === current.id)) {
+          return current;
         }
       }
 
-      return myLessons[0].id;
+      return myLessons[0];
     });
   }, [myLessons]);
 
-  const currentLesson = useMemo(() => {
-    if (myLessons.length === 0) return undefined;
-    return myLessons.find((lesson) => lesson.id === selectedLessonId) ?? myLessons[0];
-  }, [myLessons, selectedLessonId]);
-
-  if (myCurriculumQuery.isLoading) {
+  if (myCurriculumIsLoading) {
     return <SubjectPageSkeleton />;
   }
 
-  if (!mySubject || (lessonsQuery.isSuccess && myLessons.length === 0)) {
+  if (!mySubject || (isLessonsSuccess && myLessons.length === 0)) {
     throw new Response("Not Found", { status: 404 });
   }
 
@@ -103,7 +81,7 @@ export const SubjectPage = () => {
           mySubject={mySubject}
           lessons={myLessons}
           currentLesson={currentLesson}
-          onSelectLesson={(lesson: MyLesson) => setSelectedLessonId(lesson.id)}
+          onSelectLesson={setCurrentLesson}
           onToggleCompletion={handleToggleCompletion}
           isLoading={isLessonsLoading}
         />

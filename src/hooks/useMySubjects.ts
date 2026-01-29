@@ -7,8 +7,10 @@ export const useMySubjects = (acronyms: string[]) => {
   const { progress } = useUserProgress();
   const curriculumQueries = useCurriculums(acronyms);
   const hasQueries: boolean = acronyms.length > 0;
-  const isLoading: boolean = hasQueries && curriculumQueries.some((query) => query.isLoading);
-  const isSuccess: boolean = hasQueries && curriculumQueries.every((query) => query.isSuccess);
+  const isLoading: boolean =
+    hasQueries && curriculumQueries.some((query) => query.isLoading);
+  const isSuccess: boolean =
+    hasQueries && curriculumQueries.every((query) => query.isSuccess);
 
   const mySubjects: MySubject[] = useMemo(() => {
     return curriculumQueries.flatMap(({ data: curriculum }) => {
@@ -33,13 +35,20 @@ export const useMySubjects = (acronyms: string[]) => {
             return [];
           }
 
+          const completedLessons: number = subjectProgress.length;
+          const progress: number =
+            subject.lessons > 0
+              ? Math.round((subject.lessons / subjectProgress.length) * 100)
+              : 0;
+
           return [
             {
               ...subject,
               curriculumAcronym: curriculum.acronym,
               curriculumName: curriculum.name,
               stepNumber: step.number,
-              completedLessons: subjectProgress.length,
+              completedLessons: completedLessons,
+              progress: progress,
             },
           ];
         });

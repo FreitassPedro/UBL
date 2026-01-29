@@ -8,7 +8,6 @@ import { CurriculumSelector } from "@/components/curriculum/CurriculumSelector";
 import { useCurriculum } from "@/hooks/useCurriculum";
 import { cn } from "@/lib/utils";
 import CurriculumSkeleton from "@/pages/CurriculumSkeleton";
-import type { Curriculum as CurriculumType } from "@/types/curriculum";
 import React from "react";
 
 type CurriculumOption = CurriculumCourse & {
@@ -39,9 +38,7 @@ const CurriculumPage = () => {
       ? courses[selectedCourseIndex]
       : undefined;
 
-  const curriculumQuery = useCurriculum(selectedCourse?.acronym);
-  const curriculum: CurriculumType | undefined = curriculumQuery.data;
-
+  const { data: curriculum, isLoading: curriculumIsLoading } = useCurriculum(selectedCourse?.acronym);
   return (
     <div className="min-h-screen bg-bg-body text-white">
       <main
@@ -62,7 +59,7 @@ const CurriculumPage = () => {
         />
 
         {/* Seção de Conteúdo da Grade Curricular */}
-        {curriculumQuery.isLoading && selectedCourse && <CurriculumSkeleton />}
+        {curriculumIsLoading && selectedCourse && <CurriculumSkeleton />}
         {curriculum && <Curriculum curriculum={curriculum} />}
       </main>
     </div>

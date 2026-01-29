@@ -40,6 +40,7 @@ export const useMyCurriculum = (curriculumAcronym?: string) => {
             curriculumName: curriculum.name,
             stepNumber: step.number,
             completedLessons: mySubject?.completedLessons ?? 0,
+            progress: mySubject?.progress ?? 0,
           };
         }),
       })),
