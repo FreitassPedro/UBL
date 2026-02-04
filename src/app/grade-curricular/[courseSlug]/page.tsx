@@ -12,7 +12,7 @@ export const CoursePage = async ({ params }: { params: Promise<{ courseSlug: str
   const { courseSlug } = await params;
   const course: CourseType | undefined = await getCourse(courseSlug);
   if (!course) {
-    return notFound();
+    notFound();
   }
 
   return <Course course={course} />;

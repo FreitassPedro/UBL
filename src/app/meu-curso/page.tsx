@@ -1,7 +1,7 @@
 import MyCourseSelector from "@/components/my-courses/my-course-selector";
 import { Binary, Sigma } from "lucide-react";
 
-const courses = [
+export const courses = [
   {
     slug: "matematica",
     name: "Matemática",

@@ -15,12 +15,12 @@ export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
         </h2>
         <MyCourseNavigation course={course} stepNumber={stepNumber} />
       </div>
-      <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+      {/* <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
         {course.steps
           .filter((gr) => gr.number === stepNumber)
           .map((step) => (
             <div key={step.id} className="space-y-6">
-              <MyStepsHeader myStep={step} />
+              <MyStepHeader myStep={step} />
               <div className="grid grid-cols-1 gap-3">
                 {step.subjects.map((mySubject) => (
                   <MyStep key={mySubject.id} mySubject={mySubject} />
@@ -28,7 +28,7 @@ export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
               </div>
             </div>
           ))}
-      </div>
+      </div> */}
     </div>
   );
 };
