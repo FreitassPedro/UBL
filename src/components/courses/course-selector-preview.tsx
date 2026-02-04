@@ -1,4 +1,4 @@
-import CourseSelectorLink from "@/components/courses/course-selector-link";
+import RedirectLink from "@/components/layout/redirect-link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Image, { StaticImageData } from "next/image";
@@ -19,7 +19,7 @@ export const CourseSelectorPreview = ({ course }: CourseSelectorPreviewProps) =>
       key={course.slug}
       className="overflow-hidden rounded-lg border-0 bg-zinc-900 p-0 transition duration-300 ease-in-out hover:scale-102 hover:shadow-xl"
     >
-      <CourseSelectorLink slug={course.slug} className="block h-full">
+      <RedirectLink href="/grade-curricular" activeHref={`/grade-curricular/${course.slug}`} className="block h-full">
         <div className="h-64 sm:h-72 lg:h-80 overflow-hidden">
           <Image
             src={course.image}
@@ -36,7 +36,7 @@ export const CourseSelectorPreview = ({ course }: CourseSelectorPreviewProps) =>
             {course.description}
           </p>
         </CardContent>
-      </CourseSelectorLink>
+      </RedirectLink>
     </Card>
   );
 };

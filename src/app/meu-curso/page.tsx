@@ -1,4 +1,4 @@
-import MyCourseSelector from "@/components/my-course/my-course-selector";
+import MyCourseSelector from "@/components/my-courses/my-course-selector";
 import { Binary, Sigma } from "lucide-react";
 
 const courses = [
