@@ -1,6 +1,5 @@
 import { getCourse } from "@/services/course.service";
 import CourseType from "@/types/course";
-import MyCourseNavigation from "@/components/my-courses/my-course/my-course-navigation";
 import { notFound } from "next/navigation";
 
 export const MyCoursePage = async ({ params }: { params: Promise<{ courseSlug: string; stepNumber: string }> }) => {
@@ -10,11 +9,7 @@ export const MyCoursePage = async ({ params }: { params: Promise<{ courseSlug: s
     return notFound();
   }
 
-  return (
-    <>
-      <MyCourseNavigation course={course} currentStepNumber={stepNumber} />
-    </>
-  );
+  return <></>;
 };
 
 export default MyCoursePage;
