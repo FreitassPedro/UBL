@@ -1,59 +1,36 @@
-# Plataforma Cursos UBL (Universidade Brasileira Livre)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Este projeto é um portal de estudos open-source voltado para o curso de **Ciência da Computação**, inspirado na iniciativa da **Universidade Brasileira Livre (UBL)**. 
+## Getting Started
 
-O objetivo é centralizar conteúdos educacionais gratuitos, permitindo que estudantes acompanhem seu progresso, visualizem a grade curricular e assistam às aulas diretamente pela plataforma, sem distrações.
+First, run the development server:
 
-## Funcionalidades
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Grade Curricular Interativa**: Visualização das disciplinas divididas por etapas/semestres.
-- **Player de Vídeo Integrado**: Assista às aulas do YouTube diretamente na plataforma.
-- **Acompanhamento de Progresso**: Marque aulas como concluídas e visualize seu avanço no curso.
-- **Cursos Disponíveis**: Suporte inicial para Ciência da Computação e Matemática.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Tecnologias Utilizadas
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- React (TypeScript) e Vite;
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Instalação e Uso
+## Learn More
 
-Siga os passos abaixo para rodar o projeto localmente:
+To learn more about Next.js, take a look at the following resources:
 
-1. **Clone o repositório**
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2. **Instale as dependências**
-   ```npm install```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-3. **Execute o servidor de desenvolvimento**
-   ```npm run dev```
+## Deploy on Vercel
 
-4. **Acesse o projeto**
-   Abra seu navegador e acesse `http://localhost:5173` (ou a porta indicada no terminal).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🤝 Como contribuir?
-
-Siga os passos para contribuir com o projeto:
-
-1. Faça um **Fork** do projeto.
-2. Crie uma **Branch** para sua feature (`git branch -b feature/MinhaFeature`).
-3. Faça suas alterações e commit (`git commit -m 'Adiciona nova feature'`).
-4. Faça o **Push** para a branch (`git push origin feature/MinhaFeature`).
-5. Abra um **Pull Request**.
-6. Aguarde a aprovação.
-
-Leia mais em: [Guia de Contribuição Open Source](https://opensource.guide/pt/how-to-contribute/)
-
-## Lista de Tarefas (To-Do)
-
-Confira o que está planejado para o futuro do projeto:
-- Veja em [TODO.md](TODO.md).
-
-## ⚠️ Aviso Legal
-
-Este é um projeto **educacional** e **sem fins lucrativos**. O site utiliza ferramentas gratuitas de hospedagem e organiza conteúdos públicos disponíveis na internet. Nenhum conteúdo de vídeo é hospedado diretamente nos servidores deste projeto bem como seu conteúdo.
-
-
----
-
-**Referências:**
-[Universidade Brasileira Livre - Ciência da Computação](https://github.com/Universidade-Livre/ciencia-da-computacao)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

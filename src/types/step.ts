@@ -1,6 +1,6 @@
-import type { Subject } from "@/types/subject";
+import Subject from "@/types/subject";
 
-export interface Step {
+export default interface Step {
   id: number;
   number: number;
   subjects: Subject[];

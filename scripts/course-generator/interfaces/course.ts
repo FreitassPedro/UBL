@@ -1,0 +1,21 @@
+export default interface Course {
+  id: number;
+  slug: string;
+  name: string;
+  steps: {
+    id: number;
+    number: number,
+    subjects: {
+      id: number;
+      name: string;
+      url: string;
+      prerequisites: string[];
+      duration?: number;
+      lessons?: number;
+      books: {
+        name: string;
+        url: string;
+      }[];
+    }[];
+  }[];
+}

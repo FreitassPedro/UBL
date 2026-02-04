@@ -1,0 +1,41 @@
+import BackgroundGrid from "@/components/layout/background-grid";
+import Footer from "@/components/layout/footer";
+import Navbar from "@/components/layout/navbar/navbar";
+import { cn } from "@/lib/utils";
+import type { Metadata } from "next";
+import { Exo_2, Roboto } from "next/font/google";
+import "./globals.css";
+
+const exo2 = Exo_2({
+  subsets: ["latin"],
+  variable: "--font-exo2",
+  display: "swap",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Universidade Brasileira Livre",
+  description: "Uma plataforma sem fins lucrativos de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.",
+};
+
+export const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+  return (
+    <html lang="pt-BR" className={cn("dark", exo2.variable, roboto.variable)}>
+      <body className="min-h-screen">
+        <BackgroundGrid />
+        <div className="relative z-10 min-h-screen flex flex-col">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+      </body>
+    </html>
+  );
+};
+
+export default Layout;

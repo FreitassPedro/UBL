@@ -1,0 +1,21 @@
+import { courses } from "@/app/grade-curricular/page";
+import Course from "@/components/courses/course/course";
+import { getCourse } from "@/services/course.service";
+import CourseType from "@/types/course";
+import { notFound } from "next/navigation";
+
+export const generateStaticParams = async () => {
+  return courses.map((course) => ({ courseSlug: course.slug }));
+};
+
+export const CoursePage = async ({ params }: { params: Promise<{ courseSlug: string }> }) => {
+  const { courseSlug } = await params;
+  const course: CourseType | undefined = await getCourse(courseSlug);
+  if (!course) {
+    return notFound();
+  }
+
+  return <Course course={course} />;
+};
+
+export default CoursePage;
