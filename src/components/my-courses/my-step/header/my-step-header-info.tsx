@@ -1,5 +1,4 @@
-"use client";
-
+import MyStepHeaderCountInfo from "@/components/my-courses/my-step/header/my-step-header-count-info";
 import useMyCourse from "@/hooks/use-my-course";
 import { formatSeconds } from "@/lib/time";
 import Course from "@/types/course";
@@ -13,8 +12,7 @@ interface MyStepHeaderInfoProps {
 }
 
 export const MyStepHeaderInfo = ({ stepNumber, course }: MyStepHeaderInfoProps) => {
-  const myCourse: MyCourse = useMyCourse(course);
-  const step: Step = course.steps[stepNumber];
+  const step: Step = course.steps[stepNumber - 1];
   const stepDuration: string = formatSeconds(
     step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
   );
@@ -30,7 +28,7 @@ export const MyStepHeaderInfo = ({ stepNumber, course }: MyStepHeaderInfoProps) 
             Cadeiras
           </span>
           <span className="text-zinc-200 font-medium">
-            <span>{myCourse.steps[stepNumber].subjects.length}</span>
+            <MyStepHeaderCountInfo stepNumber={stepNumber} course={course} />
             <span className="text-zinc-600">/</span>
             <span>{step.subjects.length}</span>
           </span>

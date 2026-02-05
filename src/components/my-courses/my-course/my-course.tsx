@@ -1,5 +1,5 @@
 import MyCourseNavigation from "@/components/my-courses/my-course/my-course-navigation";
-import MyStepHeader from "@/components/my-courses/my-step/my-step-header";
+import MyStepHeader from "@/components/my-courses/my-step/header/my-step-header";
 import Course from "@/types/course";
 
 interface MyCourseProps {
@@ -8,10 +8,6 @@ interface MyCourseProps {
 }
 
 export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
-  const step = course.steps.find((courseStep) => courseStep.number === stepNumber);
-  if (!step) {
-    return null;
-  }
   return (
     <div className="flex flex-col w-full space-y-8 mb-10">
       <div className="flex flex-col w-full items-center space-y-4">

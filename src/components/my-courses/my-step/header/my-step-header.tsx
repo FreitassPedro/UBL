@@ -1,4 +1,4 @@
-import { MyStepHeaderInfo } from "@/components/my-courses/my-step/my-step-header-info";
+import { MyStepHeaderInfo } from "@/components/my-courses/my-step/header/my-step-header-info";
 import { getTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import Course from "@/types/course";
