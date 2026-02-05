@@ -1,162 +1,243 @@
 [
   {
     "id": 1385,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Apresentação do Curso | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/jgI711CrnnY",
     "duration": 4114
   },
   {
     "id": 1386,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 00 - Introdução | Aplicações | Fases de Compilação | Estrutura de um Compilador | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/Q5lLGCOSYIk",
     "duration": 4732
   },
   {
     "id": 1387,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 01 - Ambiente Linux | Histórico | Terminal | Shell | g++ | gdb | make | cmake | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/JJmf1wlNGeQ",
     "duration": 7211
   },
   {
     "id": 1388,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 02 - Ambiente VS Code | Visual Studio Code | C++ | Make | CMake | g++ | gdb | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/7WrTl_MaLk8",
     "duration": 5605
   },
   {
     "id": 1389,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 03 - Tradução Dirigida por Sintaxe | Árvore | Derivação | Ambiguidade | Esquema | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/6k2i710Agh8",
     "duration": 7040
   },
   {
     "id": 1390,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 04 - Análise Sintática | Descendente | Analisador Preditivo | Conjuntos FIRST | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/FE5QwYEADak",
     "duration": 5838
   },
   {
     "id": 1391,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 05 - Construção do Tradutor | Esquema de Tradução | Implementação | C++ | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/OOx6f8jD4_k",
     "duration": 4888
   },
   {
     "id": 1392,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 06 - Análise Léxica | Espaços | Constantes | Palavras-Chave | Identificadores | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/gzY-CTY4msg",
     "duration": 6572
   },
   {
     "id": 1393,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 07 - Expansão do Tradutor | Esquema de Tradução | Analisador Léxico | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/XzxafZl3dZo",
     "duration": 6842
   },
   {
     "id": 1394,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 08 - Tabela de Símbolos | Escopos | Blocos Aninhados | Implementação | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/k2jm1uplI5Y",
     "duration": 6694
   },
   {
     "id": 1395,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 09 - Exercícios e Revisão | Gramáticas | Operadores Lógicos | Relacionais | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/vEwI5_BZO1s",
     "duration": 6342
   },
   {
     "id": 1396,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 10 - Análise Semântica | Árvore Sintática | Verificação Sintática e de Tipos | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/msv_0QqXz7s",
     "duration": 7631
   },
   {
     "id": 1397,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 11 - Geração de Código Intermediário | Três Endereços | Árvore de Sintaxe | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/k43ROBQoTM4",
     "duration": 5861
   },
   {
     "id": 1398,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 12 - Expressões Regulares | Tokens | Padrões | Lexemas | Cadeias | Linguagens | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/zoEBnC9BXcU",
     "duration": 7014
   },
   {
     "id": 1399,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 13 - Reconhecimento de Tokens | Expressões Regulares | Diagramas de Transição | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/EBHc6hlrjRk",
     "duration": 6445
   },
   {
     "id": 1400,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 14 - Flex | Regras | Tradução | Exemplos | Lex | yylex | yytext | yyleng | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/7_TX7OtLWe8",
     "duration": 6099
   },
   {
     "id": 1401,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 15 - Aplicações do Flex | Lex | Estados | Contagem | Vários Arquivos | Números | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/WyQwPaLMvU4",
     "duration": 6335
   },
   {
     "id": 1402,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 16 - Autômatos Finitos | NFA e DFA | Conversão de Expressões Regulares | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/5fvRRCd7mNs",
     "duration": 6381
   },
   {
     "id": 1403,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 17 - Geração de Analisadores Léxicos | Autômato | DFA | Simulação | Minimização | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/DXEIuWUaJdg",
     "duration": 6476
   },
   {
     "id": 1404,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 18 - Exercícios e Revisão | RegExp | Diagramas de Transição | Analisador Léxico | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/CuMmRZGRnwE",
     "duration": 7240
   },
   {
     "id": 1405,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 19 - Gramáticas | Derivações | Árvores de Derivação | LL e LR | Ambiguidade | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/MLyFS7ClMf0",
     "duration": 5018
   },
   {
     "id": 1406,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 20 - Transformação de Gramáticas | Ambiguidade |  Recursão Esquerda | Fatoração | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/6wi_A-_1NaA",
     "duration": 6122
   },
   {
     "id": 1407,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 21 - Análise Descendente | Descida Recursiva | Conjuntos FIRST e FOLLOW | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/smoczWyJQsU",
     "duration": 4570
   },
   {
     "id": 1408,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 22 - Analisador Preditivo | Gramática LL | Tabela de Reconhecimento | Erros | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/8evMAwPF_vc",
     "duration": 6413
   },
   {
     "id": 1409,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 23 - Análise Ascendente | Shift | Reduce | Handle | Conflitos | Analisador LR | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/EEKkSsHEKyg",
     "duration": 5787
   },
   {
     "id": 1410,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 24 - Gerador de Analisador Sintático | Yacc | Bison | Flex | Gramáticas Ambíguas | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/Y8FkgaSlsHA",
     "duration": 6312
   },
   {
     "id": 1411,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 33,
     "title": "Aula 25 - Aplicações do Bison | Flex & Bison | Calculadora | Reconhecedor de Frases | Compiladores",
     "embedUrl": "https://www.youtube.com/embed/mGRN6WagUKM",
     "duration": 6701

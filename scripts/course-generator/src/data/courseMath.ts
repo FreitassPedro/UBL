@@ -1,4 +1,4 @@
-import type Course from "../interfaces/course.js";
+import type Course from "@/interfaces/course";
 
 export const courseMath: Course = {
   id: 2,

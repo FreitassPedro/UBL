@@ -1,102 +1,156 @@
 [
   {
     "id": 996,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Introdução à Engenharia de Software",
     "embedUrl": "https://www.youtube.com/embed/h_hEI1Kfm2U",
     "duration": 2772
   },
   {
     "id": 997,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/z8qKNnzLpq0"
   },
   {
     "id": 998,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Processos de Desenvolvimento de Software",
     "embedUrl": "https://www.youtube.com/embed/kZImAXvRjH8",
     "duration": 2676
   },
   {
     "id": 999,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Resolução da Segunda Lista de Exercícios",
     "embedUrl": "https://www.youtube.com/embed/r4q87TQppqU",
     "duration": 2344
   },
   {
     "id": 1000,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Gerenciamento de Projetos",
     "embedUrl": "https://www.youtube.com/embed/Y1jkAtxf2Rk",
     "duration": 2496
   },
   {
     "id": 1001,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/oU0cjcseadA"
   },
   {
     "id": 1002,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Requisitos de Software",
     "embedUrl": "https://www.youtube.com/embed/Keex8BJW0vY",
     "duration": 3746
   },
   {
     "id": 1003,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/E1_qn-7EV1o"
   },
   {
     "id": 1004,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Instruções para o projeto - Trello e Scrum",
     "embedUrl": "https://www.youtube.com/embed/zAsK1KyQUjU",
     "duration": 928
   },
   {
     "id": 1005,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Modelagem de Software",
     "embedUrl": "https://www.youtube.com/embed/4dWX9gMYC68",
     "duration": 2290
   },
   {
     "id": 1006,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/bveUf6Q9RP4"
   },
   {
     "id": 1007,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Princípios de Projeto",
     "embedUrl": "https://www.youtube.com/embed/LbdEbcR7FX0",
     "duration": 1389
   },
   {
     "id": 1008,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/_5wyVdgptww"
   },
   {
     "id": 1009,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Arquitetura de Software",
     "embedUrl": "https://www.youtube.com/embed/BhvwJfEPH0Y",
     "duration": 1322
   },
   {
     "id": 1010,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/tSzYNoD35ik"
   },
   {
     "id": 1011,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Testes de Software",
     "embedUrl": "https://www.youtube.com/embed/ixOwkMTA7bI",
     "duration": 1667
   },
   {
     "id": 1012,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Qualidade de Software",
     "embedUrl": "https://www.youtube.com/embed/ReyvbXyCoGw",
     "duration": 1173
   },
   {
     "id": 1013,
+    "courseId": 1,
+    "stepId": 5,
+    "subjectId": 22,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/NZY9EirCVLA"
   }

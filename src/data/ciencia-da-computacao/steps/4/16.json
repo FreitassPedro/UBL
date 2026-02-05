@@ -1,444 +1,666 @@
 [
   {
     "id": 817,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Introdução à análise de algoritmos",
     "embedUrl": "https://www.youtube.com/embed/_HBTCUNPxOg",
     "duration": 1407
   },
   {
     "id": 818,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Corretude de algoritmos (iterativos) - Invariante de laço",
     "embedUrl": "https://www.youtube.com/embed/AQ7A2Z0TdM4",
     "duration": 1467
   },
   {
     "id": 819,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Corretude por invariante - Busca binária",
     "embedUrl": "https://www.youtube.com/embed/_CNRkhN7Z2w",
     "duration": 1124
   },
   {
     "id": 820,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Tempo de execução",
     "embedUrl": "https://www.youtube.com/embed/JpbGKB6LF2g",
     "duration": 1371
   },
   {
     "id": 821,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Tempo de execução (análise de casos)",
     "embedUrl": "https://www.youtube.com/embed/JlHfhLQ2qrc",
     "duration": 729
   },
   {
     "id": 822,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Notação assintótica (O)",
     "embedUrl": "https://www.youtube.com/embed/gjw7AaOs9P8",
     "duration": 1118
   },
   {
     "id": 823,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Notação assintótica (Ω e Θ)",
     "embedUrl": "https://www.youtube.com/embed/t0MhdT7Z-_U",
     "duration": 798
   },
   {
     "id": 824,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Exemplos com notação assintótica",
     "embedUrl": "https://www.youtube.com/embed/vqVnHLett28",
     "duration": 1522
   },
   {
     "id": 825,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Tempo de execução com notação assintótica",
     "embedUrl": "https://www.youtube.com/embed/xRkq-wMRHqk",
     "duration": 1366
   },
   {
     "id": 826,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Insertion Sort",
     "embedUrl": "https://www.youtube.com/embed/pfCjJqTKvFY",
     "duration": 3204
   },
   {
     "id": 827,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Recursão e corretude (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/tOEP5wnnaBk",
     "duration": 1003
   },
   {
     "id": 828,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Recursão e corretude (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/L6BvI9M7UHU",
     "duration": 998
   },
   {
     "id": 829,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Recorrências",
     "embedUrl": "https://www.youtube.com/embed/RGXa85ZUAmY",
     "duration": 563
   },
   {
     "id": 830,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Mergesort",
     "embedUrl": "https://www.youtube.com/embed/RxDK2sgwWUk",
     "duration": 704
   },
   {
     "id": 831,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Mergesort (corretude e tempo)",
     "embedUrl": "https://www.youtube.com/embed/g63dqkcDOG4",
     "duration": 1424
   },
   {
     "id": 832,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Divisão e conquista",
     "embedUrl": "https://www.youtube.com/embed/BCNTkGtNfDw",
     "duration": 168
   },
   {
     "id": 833,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método da substituição (resolvendo recorrências)",
     "embedUrl": "https://www.youtube.com/embed/W4zD3LVPQyA",
     "duration": 1257
   },
   {
     "id": 834,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método da substituição (mais exemplos)",
     "embedUrl": "https://www.youtube.com/embed/vWh0C-jkNFI",
     "duration": 714
   },
   {
     "id": 835,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método da iteração (resolvendo recorrências)",
     "embedUrl": "https://www.youtube.com/embed/ctlpzZ5Gqyg",
     "duration": 1296
   },
   {
     "id": 836,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método da iteração (mais exemplos)",
     "embedUrl": "https://www.youtube.com/embed/5AVfVJxIpP0",
     "duration": 567
   },
   {
     "id": 837,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método da árvore de recursão (resolvendo recorrências)",
     "embedUrl": "https://www.youtube.com/embed/9IEiJ0sDtTE",
     "duration": 1160
   },
   {
     "id": 838,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método Mestre (resolvendo recorrências)",
     "embedUrl": "https://www.youtube.com/embed/6FcHxGcZnIQ",
     "duration": 1416
   },
   {
     "id": 839,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Método Mestre (demonstração)",
     "embedUrl": "https://www.youtube.com/embed/j1XWCLZ3-mU",
     "duration": 511
   },
   {
     "id": 840,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "SelectionSort",
     "embedUrl": "https://www.youtube.com/embed/FUlmg8HsF4k",
     "duration": 461
   },
   {
     "id": 841,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heap: conceitos iniciais",
     "embedUrl": "https://www.youtube.com/embed/m_H7bBNC35I",
     "duration": 919
   },
   {
     "id": 842,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heap: manutenção da propriedade (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/DtvOvTEINyE",
     "duration": 900
   },
   {
     "id": 843,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heap: manutenção da propriedade (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/hfJO-FnaXkA",
     "duration": 403
   },
   {
     "id": 844,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heap: alteração da estrutura (insere, remove e atualiza)",
     "embedUrl": "https://www.youtube.com/embed/v3xF3bKChnI",
     "duration": 608
   },
   {
     "id": 845,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heap: construção",
     "embedUrl": "https://www.youtube.com/embed/t8a7XQ9E1gM",
     "duration": 764
   },
   {
     "id": 846,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Heapsort",
     "embedUrl": "https://www.youtube.com/embed/MPfycf5Unj8",
     "duration": 724
   },
   {
     "id": 847,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Ordenação",
     "embedUrl": "https://www.youtube.com/embed/urgJPOXfTAA",
     "duration": 278
   },
   {
     "id": 848,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Grafos: motivação",
     "embedUrl": "https://www.youtube.com/embed/cTDolIbWrnc",
     "duration": 445
   },
   {
     "id": 849,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Grafos: definição formal e conceitos essenciais",
     "embedUrl": "https://www.youtube.com/embed/RqWbrsv58lg",
     "duration": 833
   },
   {
     "id": 850,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Representação de grafos",
     "embedUrl": "https://www.youtube.com/embed/6YP0VGElhR8",
     "duration": 830
   },
   {
     "id": 851,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Introdução a análise de algoritmos em grafos",
     "embedUrl": "https://www.youtube.com/embed/lLVDziVfbgQ",
     "duration": 433
   },
   {
     "id": 852,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Remoção de um vértice em grafos",
     "embedUrl": "https://www.youtube.com/embed/645q30mcz7w",
     "duration": 1374
   },
   {
     "id": 853,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Subgrafos, passeios, caminhos e ciclos",
     "embedUrl": "https://www.youtube.com/embed/E5XHLl2oVtA",
     "duration": 509
   },
   {
     "id": 854,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Conexidade em (di)grafos",
     "embedUrl": "https://www.youtube.com/embed/VHT844YrwWI",
     "duration": 476
   },
   {
     "id": 855,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Distância em (di)grafos",
     "embedUrl": "https://www.youtube.com/embed/KtNqatY4nMA",
     "duration": 552
   },
   {
     "id": 856,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Árvores (grafos)",
     "embedUrl": "https://www.youtube.com/embed/flyK0iVIHgI",
     "duration": 969
   },
   {
     "id": 857,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmos de busca em grafos",
     "embedUrl": "https://www.youtube.com/embed/E8yuPq6u-58",
     "duration": 994
   },
   {
     "id": 858,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Busca em largura",
     "embedUrl": "https://www.youtube.com/embed/lDvkB3s_Jnw",
     "duration": 889
   },
   {
     "id": 859,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Busca em profundidade",
     "embedUrl": "https://www.youtube.com/embed/e7eSEbY5wSE",
     "duration": 1029
   },
   {
     "id": 860,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Aplicações das buscas em largura e em profundidade",
     "embedUrl": "https://www.youtube.com/embed/KQoh-wPqrb4",
     "duration": 498
   },
   {
     "id": 861,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Busca em digrafos",
     "embedUrl": "https://www.youtube.com/embed/uCX-ldXlku4",
     "duration": 1148
   },
   {
     "id": 862,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Técnicas de projeto de algoritmos e problemas de otimização",
     "embedUrl": "https://www.youtube.com/embed/lvtCMZSZ5EE",
     "duration": 559
   },
   {
     "id": 863,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmos gulosos e Problema das Tarefas Compatíveis",
     "embedUrl": "https://www.youtube.com/embed/PCMcGPknMwk",
     "duration": 1801
   },
   {
     "id": 864,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema da mochila fracionária",
     "embedUrl": "https://www.youtube.com/embed/wuLAH-7qYDY",
     "duration": 1338
   },
   {
     "id": 865,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Mochila fracionária - Prova de otimalidade do algoritmo",
     "embedUrl": "https://www.youtube.com/embed/CRYjHV_29gU",
     "duration": 1006
   },
   {
     "id": 866,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema da árvore geradora mínima",
     "embedUrl": "https://www.youtube.com/embed/OUAf-RmK59g",
     "duration": 1589
   },
   {
     "id": 867,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Kruskal",
     "embedUrl": "https://www.youtube.com/embed/RXIiK_nvkoQ",
     "duration": 807
   },
   {
     "id": 868,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Kruskal - Tempo de execução (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/J5HDjZA53Os",
     "duration": 579
   },
   {
     "id": 869,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Union-Find",
     "embedUrl": "https://www.youtube.com/embed/OzFKSD2CA7E",
     "duration": 1278
   },
   {
     "id": 870,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Kruskal - Tempo de execução (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/IxVWTXisv2Q",
     "duration": 1061
   },
   {
     "id": 871,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problemas de caminhos mínimos",
     "embedUrl": "https://www.youtube.com/embed/k1kW1HWtD08",
     "duration": 427
   },
   {
     "id": 872,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Dijkstra",
     "embedUrl": "https://www.youtube.com/embed/_bzpo50PLyg",
     "duration": 1433
   },
   {
     "id": 873,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Dijkstra - Corretude",
     "embedUrl": "https://www.youtube.com/embed/578n2FCZ67k",
     "duration": 598
   },
   {
     "id": 874,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Dijkstra - Tempo de execução",
     "embedUrl": "https://www.youtube.com/embed/1RvlOqDOGYM",
     "duration": 929
   },
   {
     "id": 875,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Programação dinâmica e número de Fibonacci",
     "embedUrl": "https://www.youtube.com/embed/7ZI0U8nJ_8E",
     "duration": 1494
   },
   {
     "id": 876,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema do corte da barra de ferro",
     "embedUrl": "https://www.youtube.com/embed/_-zOuCUql0E",
     "duration": 3069
   },
   {
     "id": 877,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema da mochila (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/PhDi025n5Uw",
     "duration": 1525
   },
   {
     "id": 878,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema da mochila (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/aQOFxHoVT4I",
     "duration": 1346
   },
   {
     "id": 879,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problema do alinhamento de sequências",
     "embedUrl": "https://www.youtube.com/embed/kVHS3gWA5dQ",
     "duration": 1610
   },
   {
     "id": 880,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Floyd-Warshall (parte 1)",
     "embedUrl": "https://www.youtube.com/embed/zL51gTKF0o8",
     "duration": 1028
   },
   {
     "id": 881,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Algoritmo de Floyd-Warshall (parte 2)",
     "embedUrl": "https://www.youtube.com/embed/SslGFcvyQ8I",
     "duration": 895
   },
   {
     "id": 882,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Introdução à redução",
     "embedUrl": "https://www.youtube.com/embed/_NxAewEN4a8",
     "duration": 1759
   },
   {
     "id": 883,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problemas de decisão",
     "embedUrl": "https://www.youtube.com/embed/9NQNV0HVwcg",
     "duration": 856
   },
   {
     "id": 884,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Redução entre problemas",
     "embedUrl": "https://www.youtube.com/embed/nbrTYPXiUV8",
     "duration": 2677
   },
   {
     "id": 885,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "A importância da redução",
     "embedUrl": "https://www.youtube.com/embed/BghNkJH2Ybw",
     "duration": 379
   },
   {
     "id": 886,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "As classes P e NP",
     "embedUrl": "https://www.youtube.com/embed/z_hGP6EYgio",
     "duration": 544
   },
   {
     "id": 887,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Problemas NP-completos",
     "embedUrl": "https://www.youtube.com/embed/VJucgdXGHyE",
     "duration": 729
   },
   {
     "id": 888,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Um problema NP-completo",
     "embedUrl": "https://www.youtube.com/embed/tMCWr3a-unk",
     "duration": 769
   },
   {
     "id": 889,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Outros problemas NP-completos",
     "embedUrl": "https://www.youtube.com/embed/jFIciOBUd9U",
     "duration": 691
   },
   {
     "id": 890,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 16,
     "title": "Caminhos mínimos com ciclos negativos",
     "embedUrl": "https://www.youtube.com/embed/z4jJ9IyuCV8",
     "duration": 282

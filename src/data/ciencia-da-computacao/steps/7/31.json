@@ -1,198 +1,303 @@
 [
   {
     "id": 1317,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 1 - Introdução a problemas e algoritmos",
     "embedUrl": "https://www.youtube.com/embed/dWRxL30aoes",
     "duration": 941
   },
   {
     "id": 1318,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 2 - Máquinas de Turing - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/1xqWORZlRLo",
     "duration": 1612
   },
   {
     "id": 1319,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 3 - Máquinas de Turing - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/OBeDqMu12N0",
     "duration": 2292
   },
   {
     "id": 1320,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/Az_YmEKQHVc"
   },
   {
     "id": 1321,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 4 - Extensões de Máquina de Turing",
     "embedUrl": "https://www.youtube.com/embed/DI0Hf58YRDQ",
     "duration": 2023
   },
   {
     "id": 1322,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/Ix0_dqzmO60"
   },
   {
     "id": 1323,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 5 - Extensões de Máquina de Turing: não determinística",
     "embedUrl": "https://www.youtube.com/embed/KGEUeBkW5lA",
     "duration": 1421
   },
   {
     "id": 1324,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/ulwJJG13Hrs"
   },
   {
     "id": 1325,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 7 - Funções numéricas",
     "embedUrl": "https://www.youtube.com/embed/klNBTLIkLCs",
     "duration": 901
   },
   {
     "id": 1326,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 6 - Gramáticas",
     "embedUrl": "https://www.youtube.com/embed/aaPwq3fOKIw",
     "duration": 1408
   },
   {
     "id": 1327,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/unhoCuRygsc"
   },
   {
     "id": 1328,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 8 - Tese de Church",
     "embedUrl": "https://www.youtube.com/embed/-WEVYNxgOF0",
     "duration": 911
   },
   {
     "id": 1329,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 9 - Máquina de Turing Universal",
     "embedUrl": "https://www.youtube.com/embed/LoAzlZTQrNg",
     "duration": 1763
   },
   {
     "id": 1330,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Live tira dúvidas 4 - 15/01/2021",
     "embedUrl": "https://www.youtube.com/embed/-fYUt1U4lp4",
     "duration": 5147
   },
   {
     "id": 1331,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/wS5SW4isoQE"
   },
   {
     "id": 1332,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 10 - Problema da Parada",
     "embedUrl": "https://www.youtube.com/embed/uM0OceyiOPM",
     "duration": 1825
   },
   {
     "id": 1333,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/2fjGwjQTUg0"
   },
   {
     "id": 1334,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aulas 11 e 12 - Problemas indecidíveis com máquinas de Turing - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/bjQ3MF3bdZY",
     "duration": 413
   },
   {
     "id": 1335,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aulas 11 e 12 - Problemas indecidíveis com máquinas de Turing - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/P4kD6g-dYmM",
     "duration": 1079
   },
   {
     "id": 1336,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aulas 11 e 12 - Problemas indecidíveis com máquinas de Turing - Parte 3",
     "embedUrl": "https://www.youtube.com/embed/bxeY7Z4ei14",
     "duration": 747
   },
   {
     "id": 1337,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/-7WEiiBnCvg"
   },
   {
     "id": 1338,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 13 - Propriedades das linguagens recursivas",
     "embedUrl": "https://www.youtube.com/embed/W-q9CVOGFpY",
     "duration": 523
   },
   {
     "id": 1339,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/sHKx5N5x04E"
   },
   {
     "id": 1340,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/xQgy9fMA-oU"
   },
   {
     "id": 1341,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/a0I5T2P041Q"
   },
   {
     "id": 1342,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/sD4WirUJrrw"
   },
   {
     "id": 1343,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 14 - Classe de Complexidade P",
     "embedUrl": "https://www.youtube.com/embed/Q6g-sJD9xls",
     "duration": 671
   },
   {
     "id": 1344,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 15 - Classe NP",
     "embedUrl": "https://www.youtube.com/embed/viQsPJKNN3o",
     "duration": 762
   },
   {
     "id": 1345,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 16 - Classe NP-Completa",
     "embedUrl": "https://www.youtube.com/embed/YTWxvD1h_iM",
     "duration": 558
   },
   {
     "id": 1346,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 17 - Reduções",
     "embedUrl": "https://www.youtube.com/embed/f0AW00QI8A4",
     "duration": 594
   },
   {
     "id": 1347,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 18 - \"Primeira\" redução: 3-SAT é NP-Completo",
     "embedUrl": "https://www.youtube.com/embed/Al3y7cDZfvA",
     "duration": 1088
   },
   {
     "id": 1348,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 20 - Soma de subconjuntos é NP-Completo",
     "embedUrl": "https://www.youtube.com/embed/zOp4vKrvFDA",
     "duration": 1496
   },
   {
     "id": 1349,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Aula 21 - Classe Co-NP",
     "embedUrl": "https://www.youtube.com/embed/8pXVeCi_SzI",
     "duration": 1157
   },
   {
     "id": 1350,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Private video",
     "embedUrl": "https://www.youtube.com/embed/vCf-4LDaABk"
   },
   {
     "id": 1351,
+    "courseId": 1,
+    "stepId": 7,
+    "subjectId": 31,
     "title": "Revisão - 14/03/2024",
     "embedUrl": "https://www.youtube.com/embed/_KJ55spj2WM",
     "duration": 5529

@@ -1,210 +1,315 @@
 [
   {
     "id": 2353,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 01:  Introdução",
     "embedUrl": "https://www.youtube.com/embed/7G5FuiDZQx8",
     "duration": 2304
   },
   {
     "id": 2354,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 02: Relatividade",
     "embedUrl": "https://www.youtube.com/embed/eH915K-_1pw",
     "duration": 2387
   },
   {
     "id": 2355,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 03: Transformadas de Velocidade",
     "embedUrl": "https://www.youtube.com/embed/0cMA22r8oQY",
     "duration": 2888
   },
   {
     "id": 2356,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 04: Massa Relatívistica",
     "embedUrl": "https://www.youtube.com/embed/G8YTsxG9vII",
     "duration": 2171
   },
   {
     "id": 2357,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 05: Dinâmica Relatívistica",
     "embedUrl": "https://www.youtube.com/embed/pA9BxDIHqT8",
     "duration": 2207
   },
   {
     "id": 2358,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 06: Introdução a Atomística",
     "embedUrl": "https://www.youtube.com/embed/QO-W7O5kJrI",
     "duration": 2716
   },
   {
     "id": 2359,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 07: Teoria Cinética dos Gases",
     "embedUrl": "https://www.youtube.com/embed/6uqswKNduHk",
     "duration": 2255
   },
   {
     "id": 2360,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 08: Distribuição de Maxwell Boltzmann",
     "embedUrl": "https://www.youtube.com/embed/hGzDCefizFg",
     "duration": 2371
   },
   {
     "id": 2361,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 09: Interação entre os Átomos",
     "embedUrl": "https://www.youtube.com/embed/mudZyuhRjd4",
     "duration": 2348
   },
   {
     "id": 2362,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 10: Interação Radiação com o Átomo",
     "embedUrl": "https://www.youtube.com/embed/_KbekW4giNs",
     "duration": 2660
   },
   {
     "id": 2363,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 11: Não linearidade na Interação Radiação Átomo",
     "embedUrl": "https://www.youtube.com/embed/4eYUXNeo6wc",
     "duration": 2543
   },
   {
     "id": 2364,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 12: Força da Radiação",
     "embedUrl": "https://www.youtube.com/embed/Ey8tBPvUy0E",
     "duration": 2501
   },
   {
     "id": 2365,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 13: O Elétron Thompson",
     "embedUrl": "https://www.youtube.com/embed/bUgL6ZAzqGk",
     "duration": 2171
   },
   {
     "id": 2366,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 14: Espalhamento Rutherford",
     "embedUrl": "https://www.youtube.com/embed/v0VmRg2FzaA",
     "duration": 3641
   },
   {
     "id": 2367,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 15: Introdução a Radiação de Corpo Negro",
     "embedUrl": "https://www.youtube.com/embed/KyEvnfWbnzs",
     "duration": 3805
   },
   {
     "id": 2368,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 16: Radiação de Corpo Negro e Densidade Espectral",
     "embedUrl": "https://www.youtube.com/embed/jgCKMmioDOI",
     "duration": 3535
   },
   {
     "id": 2369,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 17: Radiação de Corpo Negro, Lei da Radiação de Planck",
     "embedUrl": "https://www.youtube.com/embed/I9FyckUlid0",
     "duration": 2557
   },
   {
     "id": 2370,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 18: Radiação de Corpo Negro, Lei da Radiação de Planck",
     "embedUrl": "https://www.youtube.com/embed/sihG0SJfQrQ",
     "duration": 2213
   },
   {
     "id": 2371,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 19: Efeito Fotoelétrico",
     "embedUrl": "https://www.youtube.com/embed/VGTPC_n3N-Q",
     "duration": 2568
   },
   {
     "id": 2372,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 20: Efeito Compton",
     "embedUrl": "https://www.youtube.com/embed/6G-aeb0XB1Q",
     "duration": 2130
   },
   {
     "id": 2373,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 21: Ondas de De Broglie",
     "embedUrl": "https://www.youtube.com/embed/U3_GasOnDLg",
     "duration": 2616
   },
   {
     "id": 2374,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 22: Ondas de matéria e o Princípio de Incerteza de Heisenberg",
     "embedUrl": "https://www.youtube.com/embed/sAnYq1t3iM0",
     "duration": 2647
   },
   {
     "id": 2375,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 23: Princípio de Incerteza de Heisenberg",
     "embedUrl": "https://www.youtube.com/embed/J57ebnjwj-0",
     "duration": 1764
   },
   {
     "id": 2376,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 24: Modelo Atômico de Bohr",
     "embedUrl": "https://www.youtube.com/embed/H0hZ1A1u4hg",
     "duration": 2694
   },
   {
     "id": 2377,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 25: Generalização da Quantização e Relação de Wilson e Sommerfeld",
     "embedUrl": "https://www.youtube.com/embed/ywLFSzJ3ohI",
     "duration": 1404
   },
   {
     "id": 2378,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 26: Introdução a Mecânica Quântica",
     "embedUrl": "https://www.youtube.com/embed/qjzl6o3MAbE",
     "duration": 3087
   },
   {
     "id": 2379,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 27: Equação de Schrödinger",
     "embedUrl": "https://www.youtube.com/embed/SWOeGsxZlfU",
     "duration": 2922
   },
   {
     "id": 2380,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 28: Aplicações e exemplos de Mecânica Quântica 1",
     "embedUrl": "https://www.youtube.com/embed/OW7iYykFYKc",
     "duration": 2282
   },
   {
     "id": 2381,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 28: Aplicações e exemplos de Mecânica Quântica 1",
     "embedUrl": "https://www.youtube.com/embed/_FOUqng0KTo",
     "duration": 2282
   },
   {
     "id": 2382,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 29: Aplicações e exemplos de Mecânica Quântica 2",
     "embedUrl": "https://www.youtube.com/embed/eaWyd6-n_V8",
     "duration": 1876
   },
   {
     "id": 2383,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 30: Aplicações e exemplos de Mecânica Quântica 3",
     "embedUrl": "https://www.youtube.com/embed/52tZ8i7xI_E",
     "duration": 2182
   },
   {
     "id": 2384,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 31: Introdução a Física Nuclear",
     "embedUrl": "https://www.youtube.com/embed/hxM6B_IxQs4",
     "duration": 2235
   },
   {
     "id": 2385,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 32: Introdução a Física Nuclear 2",
     "embedUrl": "https://www.youtube.com/embed/Fp8rot0jInU",
     "duration": 1811
   },
   {
     "id": 2386,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Aula 33: Introdução a Física Nuclear 3",
     "embedUrl": "https://www.youtube.com/embed/-mZoRnExBkI",
     "duration": 2727
   },
   {
     "id": 2387,
+    "courseId": 2,
+    "stepId": 13,
+    "subjectId": 62,
     "title": "Física Moderna - Conceito de Difusão e  Lei de Fick - Prof. Dr. Vanderlei S. Bagnato",
     "embedUrl": "https://www.youtube.com/embed/soXtjs6zR9I",
     "duration": 4109

@@ -1,144 +1,216 @@
 [
   {
     "id": 891,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade0 Parte1 AulaApresentaMetodos1",
     "embedUrl": "https://www.youtube.com/embed/a6nNQ6qKgiY",
     "duration": 250
   },
   {
     "id": 892,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade0 Parte2 AulaVisaoGeralMetodos1",
     "embedUrl": "https://www.youtube.com/embed/SdiiMm5fMJM",
     "duration": 766
   },
   {
     "id": 893,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade1 Parte1 AulaIntroErrosNumericos",
     "embedUrl": "https://www.youtube.com/embed/KzITgwgbj6A",
     "duration": 840
   },
   {
     "id": 894,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade1 Parte2 AulaAritmeticaPtoFlutua",
     "embedUrl": "https://www.youtube.com/embed/sbow-Gqr3yM",
     "duration": 684
   },
   {
     "id": 895,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade1 Parte3 AulaTiposErrosNumericos",
     "embedUrl": "https://www.youtube.com/embed/aVTTzSOpODA",
     "duration": 1149
   },
   {
     "id": 896,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade1 Parte4 AulaPropaErrosNumericos",
     "embedUrl": "https://www.youtube.com/embed/sHmuCDgLCq0",
     "duration": 952
   },
   {
     "id": 897,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte1 AulaIntroRaizesEquacoes",
     "embedUrl": "https://www.youtube.com/embed/LodUyDzrXx4",
     "duration": 1586
   },
   {
     "id": 898,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte2 AulaMetodoDaBisseccao",
     "embedUrl": "https://www.youtube.com/embed/-MfDyYzYrGs",
     "duration": 1006
   },
   {
     "id": 899,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte3 AulaMetodoPosicaoFalsa",
     "embedUrl": "https://www.youtube.com/embed/9X9GdZtt93E",
     "duration": 704
   },
   {
     "id": 900,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte4 AulaMetodoDoPontoFixo",
     "embedUrl": "https://www.youtube.com/embed/kq0TU6DB_A4",
     "duration": 1567
   },
   {
     "id": 901,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte5 AulaMetodoNewtonSect",
     "embedUrl": "https://www.youtube.com/embed/gFYLER6npLk",
     "duration": 1269
   },
   {
     "id": 902,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade2 Parte6 AulaRaizesDePolinomios",
     "embedUrl": "https://www.youtube.com/embed/xh_7VTYy9KE",
     "duration": 2073
   },
   {
     "id": 903,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte1 AulaIntroSistemaEquacao",
     "embedUrl": "https://www.youtube.com/embed/DSh0PLTdrI4",
     "duration": 1410
   },
   {
     "id": 904,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte2 AulaTipoSolucaoNumerica",
     "embedUrl": "https://www.youtube.com/embed/B0FvzbK1Wp4",
     "duration": 1295
   },
   {
     "id": 905,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte3 AulaMetodoEliminaGauss",
     "embedUrl": "https://www.youtube.com/embed/uANgK_u-_9c",
     "duration": 1970
   },
   {
     "id": 906,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte4 AulaMetodoGaussPivotar",
     "embedUrl": "https://www.youtube.com/embed/sRzZEUkQHV0",
     "duration": 1290
   },
   {
     "id": 907,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte5 AulaMetodoGaussJordan",
     "embedUrl": "https://www.youtube.com/embed/I6ROKLwwd2Y",
     "duration": 899
   },
   {
     "id": 908,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte6 AulaMetodoFatoracaoLU",
     "embedUrl": "https://www.youtube.com/embed/HXh173LO1WQ",
     "duration": 1877
   },
   {
     "id": 909,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte7 AulaMetodoGaussJacobi",
     "embedUrl": "https://www.youtube.com/embed/pf4l8gv_dCM",
     "duration": 1566
   },
   {
     "id": 910,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade3 Parte8 AulaMetodoGaussSeidel",
     "embedUrl": "https://www.youtube.com/embed/rb83M5hgZdk",
     "duration": 1432
   },
   {
     "id": 911,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade4 Parte1 AulaIntroduzInterpolacao",
     "embedUrl": "https://www.youtube.com/embed/UnCsaTPvjGo",
     "duration": 1341
   },
   {
     "id": 912,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade4 Parte4 AulaInterpolacaoInversa",
     "embedUrl": "https://www.youtube.com/embed/KcUKDBRDbmo",
     "duration": 1127
   },
   {
     "id": 913,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade4 Parte2 AulaInterpolacaoLagrange",
     "embedUrl": "https://www.youtube.com/embed/usZhTClvjnA",
     "duration": 986
   },
   {
     "id": 914,
+    "courseId": 1,
+    "stepId": 4,
+    "subjectId": 17,
     "title": "UFC Bento MN1 Unidade4 Parte3 AulaInterpolacaoNewton",
     "embedUrl": "https://www.youtube.com/embed/lnwllxHb3q8",
     "duration": 2194

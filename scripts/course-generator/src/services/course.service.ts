@@ -1,10 +1,10 @@
 import { join } from "path";
-import type Course from "../interfaces/course.js";
-import type Lesson from "../interfaces/lesson.js";
-import type Video from "../interfaces/video.js";
-import { toLessons } from "../mappers/lesson.mapper.js";
-import { save } from "../utils/file.js";
-import YoutubeService from "./youtube.service.js";
+import type Course from "@/interfaces/course";
+import type Lesson from "@/interfaces/lesson";
+import type Video from "@/interfaces/video";
+import { toLessons } from "@/mappers/lesson.mapper";
+import { save } from "@/utils/file";
+import YoutubeService from "@/services/youtube.service";
 
 let lastSubjectId: number = 0;
 
@@ -31,7 +31,7 @@ export default class CourseService {
 
         const videos: Video[] = await this.youtubeService.getVideos(this.youtubeService.getPlaylistId(subject.url));
         const videoDurations: Map<string, string> = await this.youtubeService.getVideoDurations(videos.map(video => video.contentDetails.videoId));
-        const lessons: Lesson[] = toLessons(videos, videoDurations);
+        const lessons: Lesson[] = toLessons(course.id, step.id, subject.id, videos, videoDurations);
         subject.lessons = lessons.length;
 
         yield {

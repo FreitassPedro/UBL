@@ -1,4 +1,4 @@
-import type Video from "../interfaces/video.js";
+import type Video from "@/interfaces/video";
 
 export default class YoutubeService {
   private readonly apiKey: string;
