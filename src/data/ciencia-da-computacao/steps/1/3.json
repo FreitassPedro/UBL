@@ -1,117 +1,78 @@
 [
   {
     "id": 207,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #01 - Discussão sobre os Critérios para Avaliação de LPs |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/xfDdxqbkiSQ",
     "duration": 4361
   },
   {
     "id": 208,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #02 - Discussão sobre Nomes e Vinculações |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/sCbRKDqxJZw",
     "duration": 6040
   },
   {
     "id": 209,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #03 - Discussão sobre Escopo Estático e Dinâmico |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/2ZnIanX1P0I",
     "duration": 3060
   },
   {
     "id": 210,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #04 - Discussão sobre História das Linguagens de Programação |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/32sZ82fnKzY",
     "duration": 2211
   },
   {
     "id": 211,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #05 - Discussão sobre Tipo de Dados - Parte I |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/hDRP3LZsIBk",
     "duration": 6445
   },
   {
     "id": 212,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #06 - Discussão sobre Tipo de Dados - Parte II |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/tXFByMlfARY",
     "duration": 4861
   },
   {
     "id": 213,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #07 - Discussão sobre Expressões e Sentença de Atribuição |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/gQRr23V7ze8",
     "duration": 3866
   },
   {
     "id": 214,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #08 - Discussão sobre Estruturas de Controle no Nível de Sentença |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/jK_vpphZn3A",
     "duration": 3941
   },
   {
     "id": 215,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #09 - Discussão sobre Subprogramas |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/SHTw2SuGTHM",
     "duration": 5440
   },
   {
     "id": 216,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #10 - Discussão sobre Implementando Subprogramas |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/K-qvhDJe5n8",
     "duration": 5125
   },
   {
     "id": 217,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #11 - Discussão sobre Tipos Abstratos de Dados |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/fvKcffZexWA",
     "duration": 4490
   },
   {
     "id": 218,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #12 - Discussão sobre Suporte a Programação Orientada a Objeto |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/rCclQcyfaMc",
     "duration": 5190
   },
   {
     "id": 219,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 3,
     "title": "Aula #03 - Discussão sobre Escopo Estático e Dinâmico |  Linguagens de Programação",
     "embedUrl": "https://www.youtube.com/embed/eukk6HeTpUQ",
     "duration": 4190

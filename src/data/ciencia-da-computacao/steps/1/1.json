@@ -1,837 +1,558 @@
 [
   {
     "id": 1,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 01 - Introdução aos Circuitos Digitais",
     "embedUrl": "https://www.youtube.com/embed/1lsU6RoU9Ko",
     "duration": 1012
   },
   {
     "id": 2,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 02 - Sistemas de Numeração (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/RuXmtYdmQKY",
     "duration": 1966
   },
   {
     "id": 3,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 03 - Sistemas de Numeração (Parte 2)",
     "embedUrl": "https://www.youtube.com/embed/MhaGPACGIEs",
     "duration": 1176
   },
   {
     "id": 4,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 04 - Sistemas de Numeração - Exercícios",
     "embedUrl": "https://www.youtube.com/embed/Pg2tvTNfBzQ",
     "duration": 841
   },
   {
     "id": 5,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 05 - Códigos Binários",
     "embedUrl": "https://www.youtube.com/embed/ZQkNfdwaG2c",
     "duration": 1419
   },
   {
     "id": 6,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 06 - Aritmética Binária",
     "embedUrl": "https://www.youtube.com/embed/gBsNWWscIcg",
     "duration": 1293
   },
   {
     "id": 7,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 07 - Representação de Números Binários Inteiros com Sinal",
     "embedUrl": "https://www.youtube.com/embed/PceEtFggO_Q",
     "duration": 1307
   },
   {
     "id": 8,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 08 - Aritmética de Números BCD",
     "embedUrl": "https://www.youtube.com/embed/i48FGijMVO0",
     "duration": 755
   },
   {
     "id": 9,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 09 - Ferramentas de Descrição de Circuitos Digitais",
     "embedUrl": "https://www.youtube.com/embed/jzR0kYsay2U",
     "duration": 974
   },
   {
     "id": 10,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 10 - Funções e Portas Lógicas",
     "embedUrl": "https://www.youtube.com/embed/-4b58LvY6NI",
     "duration": 1766
   },
   {
     "id": 11,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 11 - Propriedades da Álgebra Booleana",
     "embedUrl": "https://www.youtube.com/embed/Px3W4QHfrHc",
     "duration": 1571
   },
   {
     "id": 12,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 12 - Análise de Expressões Lógicas",
     "embedUrl": "https://www.youtube.com/embed/XoWag-f1UTY",
     "duration": 1661
   },
   {
     "id": 13,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 13 - Análise de Circuitos Combinacionais",
     "embedUrl": "https://www.youtube.com/embed/u7FJAOnWS08",
     "duration": 1040
   },
   {
     "id": 14,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 14 - Elaboração de Diagrama de Circuito Lógico",
     "embedUrl": "https://www.youtube.com/embed/xzCpDBYKCTA",
     "duration": 1376
   },
   {
     "id": 15,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 15 - Utilização do Logisim",
     "embedUrl": "https://www.youtube.com/embed/32ritDV6XxU",
     "duration": 834
   },
   {
     "id": 16,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 16 - Formas Canônicas para Expressões Lógicas",
     "embedUrl": "https://www.youtube.com/embed/Q2s6ZFX3de8",
     "duration": 1265
   },
   {
     "id": 17,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 17 - Síntese de Circuitos Combinacionais",
     "embedUrl": "https://www.youtube.com/embed/lGIVvVAiR6U",
     "duration": 996
   },
   {
     "id": 18,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 18 - Simplificação Algébrica",
     "embedUrl": "https://www.youtube.com/embed/mOBy3LJV5sM",
     "duration": 1044
   },
   {
     "id": 19,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 19 - Mapas de Karnaugh (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/8_Ip6PzYqrs",
     "duration": 1455
   },
   {
     "id": 20,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 20 - Mapas de Karnaugh (Parte 2)",
     "embedUrl": "https://www.youtube.com/embed/AVb_9sXqfSk",
     "duration": 1349
   },
   {
     "id": 21,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 21 - Mapas de Karnaugh (Parte 3)",
     "embedUrl": "https://www.youtube.com/embed/rv2r_hSLRN0",
     "duration": 1053
   },
   {
     "id": 22,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 22 - Mapas de Karnaugh (Parte 4)",
     "embedUrl": "https://www.youtube.com/embed/qNXLHeHurpk",
     "duration": 956
   },
   {
     "id": 23,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 23 - Exemplo de Projeto de Circuito Combinacional",
     "embedUrl": "https://www.youtube.com/embed/ttoNkYJ38zQ",
     "duration": 819
   },
   {
     "id": 24,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 24 - Universalidade das Portas NAND e NOR",
     "embedUrl": "https://www.youtube.com/embed/qXEx7nFvMh4",
     "duration": 887
   },
   {
     "id": 25,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 25 - Circuitos Somadores (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/r_DpiGT0YmA",
     "duration": 1193
   },
   {
     "id": 26,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 26 - Circuitos Somadores (Parte 2)",
     "embedUrl": "https://www.youtube.com/embed/rhZ0QmX6Gf0",
     "duration": 704
   },
   {
     "id": 27,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 27 - Somadores no Logisim",
     "embedUrl": "https://www.youtube.com/embed/6sBkmAlJlvs",
     "duration": 1623
   },
   {
     "id": 28,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 28 - Circuitos Subtradores",
     "embedUrl": "https://www.youtube.com/embed/TQfRSFsRDAU",
     "duration": 1202
   },
   {
     "id": 29,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 29 - Circuito Somador/Subtrador Compartilhado no Logisim",
     "embedUrl": "https://www.youtube.com/embed/iiTMiSu_xbU",
     "duration": 552
   },
   {
     "id": 30,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 30 - Incrementadores e Decrementadores",
     "embedUrl": "https://www.youtube.com/embed/XAGm1k_H49w",
     "duration": 318
   },
   {
     "id": 31,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 31 - Somadores BCD",
     "embedUrl": "https://www.youtube.com/embed/fLZRFkFWQ4c",
     "duration": 667
   },
   {
     "id": 32,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 32 - Multiplicadores em Array",
     "embedUrl": "https://www.youtube.com/embed/6mf8qFEBxEU",
     "duration": 1011
   },
   {
     "id": 33,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 33 - Comparadores de Magnitude",
     "embedUrl": "https://www.youtube.com/embed/tVgocuuisjA",
     "duration": 813
   },
   {
     "id": 34,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 34 - Somadores Carry Look-a-Head",
     "embedUrl": "https://www.youtube.com/embed/l56a1Rp-LNs",
     "duration": 1421
   },
   {
     "id": 35,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 35 - Geradores e Verificadores de Paridade",
     "embedUrl": "https://www.youtube.com/embed/z0qUmHXd8ZA",
     "duration": 1012
   },
   {
     "id": 36,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 36 - Conversores de Código Binário (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/h0vnz4ebT08",
     "duration": 739
   },
   {
     "id": 37,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 37 - Conversores de Código Binário (Parte 2)",
     "embedUrl": "https://www.youtube.com/embed/RCbCm9TyZ9w",
     "duration": 948
   },
   {
     "id": 38,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 38 - Decodificadores para Display de 7 Segmentos",
     "embedUrl": "https://www.youtube.com/embed/NJwesHY5nPQ",
     "duration": 959
   },
   {
     "id": 39,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 39 - Decodificadores",
     "embedUrl": "https://www.youtube.com/embed/C8Y8ST2hnqA",
     "duration": 1406
   },
   {
     "id": 40,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 40 - Projeto Combinacional Utilizando Decodificadores",
     "embedUrl": "https://www.youtube.com/embed/y-Ni9BIpS8c",
     "duration": 728
   },
   {
     "id": 41,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 41 - Codificadores",
     "embedUrl": "https://www.youtube.com/embed/_2RRcq8YIKk",
     "duration": 1051
   },
   {
     "id": 42,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 42 - Codificadores de Prioridade",
     "embedUrl": "https://www.youtube.com/embed/qfqoSlvIkiA",
     "duration": 1496
   },
   {
     "id": 43,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 43 - Multiplexadores",
     "embedUrl": "https://www.youtube.com/embed/e70pe-Cdtfc",
     "duration": 1641
   },
   {
     "id": 44,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 44 - Associação de Multiplexadores",
     "embedUrl": "https://www.youtube.com/embed/X8lHW9yfr30",
     "duration": 844
   },
   {
     "id": 45,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 45 - Implementação de Funções Combinacionais com Multiplexadores (Parte 1)",
     "embedUrl": "https://www.youtube.com/embed/_uBk4xDi-8c",
     "duration": 1095
   },
   {
     "id": 46,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 46 - Implementação de Funções Combinacionais com Multiplexadores (Parte 2)",
     "embedUrl": "https://www.youtube.com/embed/wypiacFZFww",
     "duration": 1240
   },
   {
     "id": 47,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 47 - Teorema da Expansão de Shannon",
     "embedUrl": "https://www.youtube.com/embed/Kjtvyf6e-9U",
     "duration": 1044
   },
   {
     "id": 48,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 48 - Demultiplexadores",
     "embedUrl": "https://www.youtube.com/embed/Jmw4OiI0O3A",
     "duration": 1136
   },
   {
     "id": 49,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 49 - Associação de Demultiplexadores",
     "embedUrl": "https://www.youtube.com/embed/FWk2a7oTpxc",
     "duration": 622
   },
   {
     "id": 50,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 50 - Deslocadores",
     "embedUrl": "https://www.youtube.com/embed/EBrHRwnVMsU",
     "duration": 1498
   },
   {
     "id": 51,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 51 - Unidade Lógico-Aritmética",
     "embedUrl": "https://www.youtube.com/embed/SemyzwoLxDo",
     "duration": 860
   },
   {
     "id": 52,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 52 - Aplicações de Circuitos Combinacionais #1",
     "embedUrl": "https://www.youtube.com/embed/3uXHong2PvQ",
     "duration": 1129
   },
   {
     "id": 53,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 53 - Aplicações de Circuitos Combinacionais #2",
     "embedUrl": "https://www.youtube.com/embed/mcAnKpiPO-c",
     "duration": 555
   },
   {
     "id": 54,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 54 - Fundamentos de Circuitos Sequenciais",
     "embedUrl": "https://www.youtube.com/embed/Q0hxfNu0EGw",
     "duration": 494
   },
   {
     "id": 55,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 55 - Máquinas de Estados Finitos",
     "embedUrl": "https://www.youtube.com/embed/rkfQKM_jQK8",
     "duration": 771
   },
   {
     "id": 56,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 56 - Modelos para Máquinas de Estados",
     "embedUrl": "https://www.youtube.com/embed/6sVrWGekNX4",
     "duration": 931
   },
   {
     "id": 57,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 57 - Tabela de Transição de Estados",
     "embedUrl": "https://www.youtube.com/embed/qFXXLbwvWsg",
     "duration": 858
   },
   {
     "id": 58,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 58 - Diagrama de Transição de Estados",
     "embedUrl": "https://www.youtube.com/embed/Q0QNvjRt_pk",
     "duration": 562
   },
   {
     "id": 59,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 59 - Latch SR",
     "embedUrl": "https://www.youtube.com/embed/YHEvh3PoPcE",
     "duration": 1547
   },
   {
     "id": 60,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 60 - Latches SR Controlado",
     "embedUrl": "https://www.youtube.com/embed/MaelrWb21QI",
     "duration": 614
   },
   {
     "id": 61,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 61 - Latch D (Transparente)",
     "embedUrl": "https://www.youtube.com/embed/XZ5I9mJdg0w",
     "duration": 635
   },
   {
     "id": 62,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 62 - Latches com Portas NAND",
     "embedUrl": "https://www.youtube.com/embed/XQe4qElLDWI",
     "duration": 252
   },
   {
     "id": 63,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 63 - Latches no Logisim",
     "embedUrl": "https://www.youtube.com/embed/wYTRa2r3fjM",
     "duration": 637
   },
   {
     "id": 64,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 64 - Flip-Flop D",
     "embedUrl": "https://www.youtube.com/embed/E12RmfvaIf8",
     "duration": 1639
   },
   {
     "id": 65,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 65 - Flip-Flop JK e Flip-Flop T",
     "embedUrl": "https://www.youtube.com/embed/zQj0oDimU2I",
     "duration": 645
   },
   {
     "id": 66,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 66 - Entradas Assíncronas em Flip-Flops",
     "embedUrl": "https://www.youtube.com/embed/2qOUSXgKUbc",
     "duration": 308
   },
   {
     "id": 67,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 67 - Flip-Flops no Logisim",
     "embedUrl": "https://www.youtube.com/embed/6fEfOZJTQcQ",
     "duration": 448
   },
   {
     "id": 68,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 68 - Análise de Circuitos Sequenciais (Exemplo 1)",
     "embedUrl": "https://www.youtube.com/embed/f9L2vdplWgM",
     "duration": 1660
   },
   {
     "id": 69,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 69 - Análise de Circuitos Sequenciais (Exemplo 2)",
     "embedUrl": "https://www.youtube.com/embed/h_Mx1DL14yE",
     "duration": 1171
   },
   {
     "id": 70,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 70 - Análise de Circuitos Sequenciais (Exemplo 3)",
     "embedUrl": "https://www.youtube.com/embed/4Mx_cYvoZKY",
     "duration": 1487
   },
   {
     "id": 71,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 71 - Análise de Circuitos Sequenciais (Exemplo 4)",
     "embedUrl": "https://www.youtube.com/embed/__57NZcf52A",
     "duration": 886
   },
   {
     "id": 72,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 72 - Projeto de Circuitos Sequenciais (Exemplo 1)",
     "embedUrl": "https://www.youtube.com/embed/3LXF2p2LSQU",
     "duration": 2105
   },
   {
     "id": 73,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 73 - Projeto de Circuitos Sequenciais (Exemplo 2)",
     "embedUrl": "https://www.youtube.com/embed/EUvxMNTFN4s",
     "duration": 1349
   },
   {
     "id": 74,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 74 - Projeto de Circuitos Sequenciais (Exemplo 3)",
     "embedUrl": "https://www.youtube.com/embed/7Y0oWahVWUw",
     "duration": 1652
   },
   {
     "id": 75,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 75 - Projeto de Circuitos Sequenciais (Exemplo 4)",
     "embedUrl": "https://www.youtube.com/embed/zctwOD5i9mQ",
     "duration": 1733
   },
   {
     "id": 76,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 76 - Projeto de Circuitos Sequenciais (Exemplo 5)",
     "embedUrl": "https://www.youtube.com/embed/QZQeMbeXnoQ",
     "duration": 1711
   },
   {
     "id": 77,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 77 - Projeto de Circuitos Sequenciais (Exemplo 6)",
     "embedUrl": "https://www.youtube.com/embed/Ez3nIadMiR8",
     "duration": 1776
   },
   {
     "id": 78,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 78 - Projeto de Circuitos Sequenciais (Exemplo 7)",
     "embedUrl": "https://www.youtube.com/embed/BQC1pypMw1c",
     "duration": 1187
   },
   {
     "id": 79,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 79 - Projeto de Circuitos Sequenciais (Exemplo 8)",
     "embedUrl": "https://www.youtube.com/embed/eW3VQYW-sTw",
     "duration": 1310
   },
   {
     "id": 80,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 80 - Projeto de Circuitos Sequenciais (Exemplo 9)",
     "embedUrl": "https://www.youtube.com/embed/WzW6nU7NUus",
     "duration": 1620
   },
   {
     "id": 81,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 81 - Projeto de Circuitos Sequenciais (Exemplo 10)",
     "embedUrl": "https://www.youtube.com/embed/ta-esYaoz4E",
     "duration": 1132
   },
   {
     "id": 82,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 82 - Projeto de Circuitos Sequenciais (Exemplo 11)",
     "embedUrl": "https://www.youtube.com/embed/5Ya0o-pGumA",
     "duration": 1582
   },
   {
     "id": 83,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 83 - Projeto de Circuitos Sequenciais (Exemplo 12)",
     "embedUrl": "https://www.youtube.com/embed/seZk9pKNYaA",
     "duration": 1607
   },
   {
     "id": 84,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 84 - Projeto de Circuitos Sequenciais (Exemplo 13)",
     "embedUrl": "https://www.youtube.com/embed/29rFIM-izEc",
     "duration": 2280
   },
   {
     "id": 85,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 85 - Projeto de Circuitos Sequenciais (Projeto com Multiplexadores)",
     "embedUrl": "https://www.youtube.com/embed/aYaEqsyxRP0",
     "duration": 3436
   },
   {
     "id": 86,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 86 - Projeto de Circuitos Sequenciais (Máquina Moore vs. Máquina Mealy)",
     "embedUrl": "https://www.youtube.com/embed/AfWMnhgDO4k",
     "duration": 2545
   },
   {
     "id": 87,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 87 - Minimização de Máquinas de Estados",
     "embedUrl": "https://www.youtube.com/embed/AJj8DpeW_yY",
     "duration": 711
   },
   {
     "id": 88,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 88 - Tabela de Implicação",
     "embedUrl": "https://www.youtube.com/embed/9PCN3yNe4JU",
     "duration": 2085
   },
   {
     "id": 89,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 89 - Particionamento Sucessivo",
     "embedUrl": "https://www.youtube.com/embed/Z1hZhMn29WY",
     "duration": 1824
   },
   {
     "id": 90,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 90 - Relação de Máquinas Moore vs. Mealy",
     "embedUrl": "https://www.youtube.com/embed/NXjf7GWlA6A",
     "duration": 1048
   },
   {
     "id": 91,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 91 - Estado Inicial de uma Máquina de Estados",
     "embedUrl": "https://www.youtube.com/embed/gpObH7mDB-I",
     "duration": 579
   },
   {
     "id": 92,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "[CIRCUITOS DIGITAIS] Aula 92 - Condições de Temporização em Máquinas de Estados",
     "embedUrl": "https://www.youtube.com/embed/Kib0DmQCLjQ",
     "duration": 334
   },
   {
     "id": 93,
-    "courseId": 1,
-    "stepId": 1,
-    "subjectId": 1,
     "title": "CIRCUITOS DIGITAIS - Aula 93 - Codificação dos Estados",
     "embedUrl": "https://www.youtube.com/embed/XYAXzeIpNXw",
     "duration": 2483

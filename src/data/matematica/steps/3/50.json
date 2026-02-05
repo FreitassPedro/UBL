@@ -1,180 +1,120 @@
 [
   {
     "id": 1970,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Origem dos Sistemas de Numeração: Sistema de Numeração Babilônico e Egípcio",
     "embedUrl": "https://www.youtube.com/embed/gbwDHqoufeA",
     "duration": 604
   },
   {
     "id": 1971,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Outros sistemas de numeração e os algarismos indo-arábicos",
     "embedUrl": "https://www.youtube.com/embed/DrwzKXvDxhA",
     "duration": 448
   },
   {
     "id": 1972,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - História da Geometria antes dos Gregos: Egito, Mesopotâmia e China",
     "embedUrl": "https://www.youtube.com/embed/4p1vPIjdBYA",
     "duration": 733
   },
   {
     "id": 1973,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Os primórdios da matemática grega: A geometria dos números",
     "embedUrl": "https://www.youtube.com/embed/UTSuRMs2hzE",
     "duration": 653
   },
   {
     "id": 1974,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Os problemas clássicos da matemática grega",
     "embedUrl": "https://www.youtube.com/embed/SaF6qVCujTU",
     "duration": 659
   },
   {
     "id": 1975,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Os elementos de Euclides e o método axiomático",
     "embedUrl": "https://www.youtube.com/embed/5KXlOCBB2lo",
     "duration": 775
   },
   {
     "id": 1976,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - A Teoria das Proporções de Eudoxo e os Incomensuráveis",
     "embedUrl": "https://www.youtube.com/embed/lxiLq4DQwyg",
     "duration": 595
   },
   {
     "id": 1977,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Arquimedes e a Geometria",
     "embedUrl": "https://www.youtube.com/embed/YawzJ2ENuJg",
     "duration": 446
   },
   {
     "id": 1978,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Apolônio e as Seções Cônicas",
     "embedUrl": "https://www.youtube.com/embed/JYUBNxZOlxI",
     "duration": 339
   },
   {
     "id": 1979,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Capítulos finais da Matemática Grega: Diofanto e a Álgebra Grega",
     "embedUrl": "https://www.youtube.com/embed/b2YUcjeABmU",
     "duration": 804
   },
   {
     "id": 1980,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Episódios da Álgebra Islâmica Medieval",
     "embedUrl": "https://www.youtube.com/embed/Ti90fc2eYpw",
     "duration": 706
   },
   {
     "id": 1981,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Episódios da Álgebra no Renascimento: o caso das equações",
     "embedUrl": "https://www.youtube.com/embed/n-tv3X_2jco",
     "duration": 838
   },
   {
     "id": 1982,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Fibonacci: Herdeiro direto dos trabalhos islâmicos",
     "embedUrl": "https://www.youtube.com/embed/z0OBgxWwWZk",
     "duration": 754
   },
   {
     "id": 1983,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Métodos matemáticos no Renascimento: Astronomia e Trigonometria",
     "embedUrl": "https://www.youtube.com/embed/1896EX7jeU8",
     "duration": 624
   },
   {
     "id": 1984,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Uma nova ferramenta de cálculos: Logaritmos - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/3i_SXYtCXbo",
     "duration": 664
   },
   {
     "id": 1985,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Uma nova ferramenta de cálculos: Logaritmos - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/HcmzWkG4mm8",
     "duration": 361
   },
   {
     "id": 1986,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Algumas ideias sobre a elaboração dos métodos infinitesimais no cálculo",
     "embedUrl": "https://www.youtube.com/embed/xovwsA-z-7U",
     "duration": 764
   },
   {
     "id": 1987,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - Fermat, Descartes, Newton e Leibniz: do desenvolvimento da geometria...",
     "embedUrl": "https://www.youtube.com/embed/fFohrLDU4S8",
     "duration": 1089
   },
   {
     "id": 1988,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática - A Formação do Conceito de Função - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/gfNUMA4x6NY",
     "duration": 903
   },
   {
     "id": 1989,
-    "courseId": 2,
-    "stepId": 10,
-    "subjectId": 50,
     "title": "História da Matemática -  A Formação do Conceito de Função - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/B9odqX6xPxs",
     "duration": 437

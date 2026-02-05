@@ -1,522 +1,348 @@
 [
   {
     "id": 479,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "A quem se destina este curso",
     "embedUrl": "https://www.youtube.com/embed/WT_zCgSHSTQ",
     "duration": 234
   },
   {
     "id": 480,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "01 - O que é ciência da computação",
     "embedUrl": "https://www.youtube.com/embed/rh65Lh5V7S0",
     "duration": 744
   },
   {
     "id": 481,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Instalando o Python3 e o IDLE no Windows",
     "embedUrl": "https://www.youtube.com/embed/1aUuW0aA7l0",
     "duration": 226
   },
   {
     "id": 482,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Instalação do python e IDLE no Linux (ubuntu)",
     "embedUrl": "https://www.youtube.com/embed/SqLhPI6pPy4",
     "duration": 197
   },
   {
     "id": 483,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Consertando a configuração do Python3 no Windows",
     "embedUrl": "https://www.youtube.com/embed/0SrKE9lVPTk",
     "duration": 107
   },
   {
     "id": 484,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "02 - Primeiras linhas em Python",
     "embedUrl": "https://www.youtube.com/embed/LN8ejPwSzkU",
     "duration": 454
   },
   {
     "id": 485,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "03 - Variáveis e scripts (programas) em Python",
     "embedUrl": "https://www.youtube.com/embed/tqF0MjcOqcI",
     "duration": 633
   },
   {
     "id": 486,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Executando programas em python (Nelson Lago)",
     "embedUrl": "https://www.youtube.com/embed/r8CSesZpFjo",
     "duration": 272
   },
   {
     "id": 487,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "04 - Valores e tipos em Python",
     "embedUrl": "https://www.youtube.com/embed/UZ7_oudJ150",
     "duration": 578
   },
   {
     "id": 488,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "O que é Software Livre? (Nelson Lago)",
     "embedUrl": "https://www.youtube.com/embed/sZg9nrUTgJE",
     "duration": 809
   },
   {
     "id": 489,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "05 - Entrada de dados",
     "embedUrl": "https://www.youtube.com/embed/ECFj-bWzU8I",
     "duration": 1003
   },
   {
     "id": 490,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "06 - Tipos booleanos e precedência de operadores",
     "embedUrl": "https://www.youtube.com/embed/sgfmuFRZuWs",
     "duration": 881
   },
   {
     "id": 491,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "07 - Condicionais",
     "embedUrl": "https://www.youtube.com/embed/ngeVlLJ250s",
     "duration": 833
   },
   {
     "id": 492,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "08 - Exercício resolvido (Bhaskara)",
     "embedUrl": "https://www.youtube.com/embed/v_QoUdfahng",
     "duration": 582
   },
   {
     "id": 493,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "09 - Repetições (laços) com while",
     "embedUrl": "https://www.youtube.com/embed/TllYO06DpUk",
     "duration": 1213
   },
   {
     "id": 494,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "10 - Indicadores de passagem",
     "embedUrl": "https://www.youtube.com/embed/RBjrLgdMaMI",
     "duration": 1042
   },
   {
     "id": 495,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "11 - Depuração",
     "embedUrl": "https://www.youtube.com/embed/Aa8-39qwbUU",
     "duration": 432
   },
   {
     "id": 496,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "12 - Funções",
     "embedUrl": "https://www.youtube.com/embed/AMUxtcJ8yfc",
     "duration": 1028
   },
   {
     "id": 497,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "13 - Exercício resolvido (coeficiente binomial) e testes",
     "embedUrl": "https://www.youtube.com/embed/se9JcK05PGw",
     "duration": 1045
   },
   {
     "id": 498,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "14 - Testes automatizados",
     "embedUrl": "https://www.youtube.com/embed/c_5UByqX6kE",
     "duration": 1096
   },
   {
     "id": 499,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Melô do Teste Automatizado + Entrevista Testes em Startups de Software",
     "embedUrl": "https://www.youtube.com/embed/eGH9--FcDxY",
     "duration": 401
   },
   {
     "id": 500,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "15 - Exercício Resolvido - Refatoração (Fórmula de Bhaskara)",
     "embedUrl": "https://www.youtube.com/embed/GhWEOe81bJw",
     "duration": 768
   },
   {
     "id": 501,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "16 - Depuração com funções",
     "embedUrl": "https://www.youtube.com/embed/pYgAX8BuJN8",
     "duration": 423
   },
   {
     "id": 502,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "17 - Repetições encaixadas",
     "embedUrl": "https://www.youtube.com/embed/dRCDOH1lugs",
     "duration": 671
   },
   {
     "id": 503,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "18 - Exercício resolvido (fatorial)",
     "embedUrl": "https://www.youtube.com/embed/pbzea8fXj98",
     "duration": 509
   },
   {
     "id": 504,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "19 - Exercicio resolvido (fatoração)",
     "embedUrl": "https://www.youtube.com/embed/9AUu2xjOACI",
     "duration": 615
   },
   {
     "id": 505,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "20 - Exercício resolvido (verificação de primos)",
     "embedUrl": "https://www.youtube.com/embed/Wcug8mjU8Sg",
     "duration": 740
   },
   {
     "id": 506,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "21 - Coleções (listas, vetores)",
     "embedUrl": "https://www.youtube.com/embed/krVca97F13I",
     "duration": 1214
   },
   {
     "id": 507,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "22 - Repetições com \"for\"",
     "embedUrl": "https://www.youtube.com/embed/ctmPwp52b7w",
     "duration": 931
   },
   {
     "id": 508,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "23 - Manipulação de listas",
     "embedUrl": "https://www.youtube.com/embed/LrXapVI66so",
     "duration": 1504
   },
   {
     "id": 509,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "24 - Objetos na memória",
     "embedUrl": "https://www.youtube.com/embed/4TN8IdsJ78k",
     "duration": 620
   },
   {
     "id": 510,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "25 - Matrizes",
     "embedUrl": "https://www.youtube.com/embed/c9yjwWNiNQw",
     "duration": 1191
   },
   {
     "id": 511,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "26 - Exercício resolvido (máxima e mínima)",
     "embedUrl": "https://www.youtube.com/embed/EpvCXjuHifg",
     "duration": 1453
   },
   {
     "id": 512,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "27 - Strings",
     "embedUrl": "https://www.youtube.com/embed/DdhNltkI_hE",
     "duration": 953
   },
   {
     "id": 513,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "28 - Comparação de strings",
     "embedUrl": "https://www.youtube.com/embed/EWQTdbtCtKw",
     "duration": 516
   },
   {
     "id": 514,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "29 - 4 Pequenos conceitos úteis",
     "embedUrl": "https://www.youtube.com/embed/eH5kd48NfM0",
     "duration": 739
   },
   {
     "id": 515,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "30 - Módulo em Python",
     "embedUrl": "https://www.youtube.com/embed/6rSUPRZJFRM",
     "duration": 861
   },
   {
     "id": 516,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "31 - Manipulação de matrizes (soma)",
     "embedUrl": "https://www.youtube.com/embed/x_hNj2C-kVs",
     "duration": 582
   },
   {
     "id": 517,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "32 - Exercício resolvido (multiplicação de matrizes)",
     "embedUrl": "https://www.youtube.com/embed/gCKza8cYdJY",
     "duration": 670
   },
   {
     "id": 518,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "33 - Programação Orientada a Objetos - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/frtaUi3B6Sc",
     "duration": 899
   },
   {
     "id": 519,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "34 - Programação Orientada a Objetos - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/LsbakVX54RY",
     "duration": 842
   },
   {
     "id": 520,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "35 - Códigos testáveis",
     "embedUrl": "https://www.youtube.com/embed/RYpV10216pw",
     "duration": 1465
   },
   {
     "id": 521,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "36 - Busca Sequencial",
     "embedUrl": "https://www.youtube.com/embed/bsFhgaaHeV4",
     "duration": 729
   },
   {
     "id": 522,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "37 - Complexidade computacional",
     "embedUrl": "https://www.youtube.com/embed/a06rEkp7rNw",
     "duration": 435
   },
   {
     "id": 523,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "38 - Algoritmos de Ordenação - Seleção Direta",
     "embedUrl": "https://www.youtube.com/embed/JggjFK5PkMs",
     "duration": 698
   },
   {
     "id": 524,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "39 - Algoritmos de Ordenação da Bolha",
     "embedUrl": "https://www.youtube.com/embed/tN-PwzkKcsk",
     "duration": 510
   },
   {
     "id": 525,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "40 - Comparação de Desempenho",
     "embedUrl": "https://www.youtube.com/embed/gW6PUkzkIUw",
     "duration": 768
   },
   {
     "id": 526,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "41 - Melhoria no algoritmo da Bolha",
     "embedUrl": "https://www.youtube.com/embed/NDUbLp1Ro2Q",
     "duration": 738
   },
   {
     "id": 527,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "42 - Testes automatizados em algoritmos de ordenação",
     "embedUrl": "https://www.youtube.com/embed/kh3pKfh8TYU",
     "duration": 671
   },
   {
     "id": 528,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "43 - Busca Binária",
     "embedUrl": "https://www.youtube.com/embed/NxriUYWxoEU",
     "duration": 778
   },
   {
     "id": 529,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "44 - Recursão - Parte 1",
     "embedUrl": "https://www.youtube.com/embed/AyPJx1RIDuY",
     "duration": 718
   },
   {
     "id": 530,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "45 - Recursão - Parte 2",
     "embedUrl": "https://www.youtube.com/embed/386wQ0bP9vw",
     "duration": 1554
   },
   {
     "id": 531,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Scrapy 1 (Felipe Besson)",
     "embedUrl": "https://www.youtube.com/embed/rj8Sqsgh5TM",
     "duration": 628
   },
   {
     "id": 532,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Scrapy 2 (Felipe Besson)",
     "embedUrl": "https://www.youtube.com/embed/DRfEY-qzyvk",
     "duration": 581
   },
   {
     "id": 533,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Inspeção de elementos de uma página Web - Scrapy 3 (Felipe Besson)",
     "embedUrl": "https://www.youtube.com/embed/SXA58yKo9IY",
     "duration": 84
   },
   {
     "id": 534,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Jogos (Alfredo Goldman)",
     "embedUrl": "https://www.youtube.com/embed/HQ2q8-EmUCs",
     "duration": 378
   },
   {
     "id": 535,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Dicas finais para o exercício COH-PIAH",
     "embedUrl": "https://www.youtube.com/embed/6Z2wLXGdPCM",
     "duration": 417
   },
   {
     "id": 536,
-    "courseId": 1,
-    "stepId": 2,
-    "subjectId": 9,
     "title": "Impactos da Computação na Sociedade - Software livre no mundo e no Brasil",
     "embedUrl": "https://www.youtube.com/embed/E8a6avKhZgA",
     "duration": 1167

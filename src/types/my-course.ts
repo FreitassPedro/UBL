@@ -1,6 +1,8 @@
-import Course from "@/types/course";
-import MyStep from "@/types/my-step";
-
-export default interface MyCourse extends Course {
-  steps: MyStep[];
+export default interface MyCourse {
+  steps: {
+    subjects: {
+      progress: number;
+      lessons: number[];
+    }[];
+  }[];
 }

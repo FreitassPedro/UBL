@@ -4,21 +4,12 @@ import { toSeconds } from "@/utils/time";
 
 let lastLessonId: number = 0;
 
-export function toLessons(
-  courseId: number,
-  stepId: number,
-  subjectId: number,
-  videos: Video[],
-  videoDurations: Map<string, string>,
-): Lesson[] {
+export function toLessons(videos: Video[], videoDurations: Map<string, string>): Lesson[] {
   return videos.map((video) => {
     const durationISO: string | undefined = videoDurations.get(video.contentDetails.videoId);
     const duration: number | undefined = durationISO ? toSeconds(durationISO) : undefined;
     return {
       id: ++lastLessonId,
-      courseId: courseId,
-      stepId: stepId,
-      subjectId: subjectId,
       title: video.snippet.title,
       embedUrl: `https://www.youtube.com/embed/${video.snippet.resourceId.videoId}`,
       duration,

@@ -1,10 +1,12 @@
-import UserProgress from "@/types/user-progress";
+"use client";
+
+import MyRawCourse from "@/types/my-raw-course";
 import { useEffect, useState } from "react";
 
 const KEY: string = "user-progress";
 
-export const useUserProgress = () => {
-  const [progress, setProgress] = useState<UserProgress>(() => {
+export const useMyProgress = () => {
+  const [progress, setProgress] = useState<MyRawCourse>(() => {
     if (typeof window === "undefined") {
       return {};
     }
@@ -34,3 +36,5 @@ export const useUserProgress = () => {
     setProgress
   };
 };
+
+export default useMyProgress;

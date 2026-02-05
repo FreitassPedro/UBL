@@ -23,7 +23,7 @@ export const MyCourseNavigation = ({ stepNumber, course }: MyCourseNavigationPro
                     isActive ? "bg-zinc-800/70 text-white" : "text-zinc-200"
                   }`}
                 >
-                  Etapa {step.number}
+                  <span>Etapa {step.number}</span>
                   {isActive && (
                     <span className="absolute -bottom-px left-1/2 -translate-x-1/2 w-1/3 h-0.5 bg-blue-500 rounded-full opacity-70" />
                   )}

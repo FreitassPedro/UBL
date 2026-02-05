@@ -18,7 +18,7 @@ export default class CourseService {
   public async *iterateLessons(course: Course): AsyncGenerator<{
     stepIndex: number;
     subjectIndex: number;
-    lessons:Lesson[];
+    lessons: Lesson[];
   }> {
     console.log(`Grade curricular: ${course.name.toUpperCase()}`);
     for (let stepIndex = 0; stepIndex < course.steps.length; stepIndex++) {
@@ -31,7 +31,7 @@ export default class CourseService {
 
         const videos: Video[] = await this.youtubeService.getVideos(this.youtubeService.getPlaylistId(subject.url));
         const videoDurations: Map<string, string> = await this.youtubeService.getVideoDurations(videos.map(video => video.contentDetails.videoId));
-        const lessons: Lesson[] = toLessons(course.id, step.id, subject.id, videos, videoDurations);
+        const lessons: Lesson[] = toLessons(videos, videoDurations);
         subject.lessons = lessons.length;
 
         yield {
@@ -45,11 +45,12 @@ export default class CourseService {
 
   public async generate(directory: string, course: Course): Promise<void> {
     for await (const { stepIndex, subjectIndex, lessons } of this.iterateLessons(course)) {
-      const subject = course.steps[stepIndex].subjects[subjectIndex];
+      const step = course.steps[stepIndex];
+      const subject = step.subjects[subjectIndex];
       subject.duration = lessons.reduce((total, lesson) => total + (lesson.duration ?? 0), 0);
 
       save(
-        join(directory, course.slug.toLowerCase(), "steps", String(stepIndex + 1)),
+        join(directory, course.slug.toLowerCase(), "steps", String(step.number)),
         `${++lastSubjectId}.json`,
         lessons
       );

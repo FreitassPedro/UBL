@@ -1,180 +1,120 @@
 [
   {
     "id": 1433,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "O Método Científico (Módulo 1/20)",
     "embedUrl": "https://www.youtube.com/embed/wfb3QmYWVVg",
     "duration": 3138
   },
   {
     "id": 1434,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Pesquisa como Resolução de Problemas (Módulo 2/20)",
     "embedUrl": "https://www.youtube.com/embed/W0kcg-lHmis",
     "duration": 3811
   },
   {
     "id": 1435,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Design de Pesquisas (Módulo 3/20)",
     "embedUrl": "https://www.youtube.com/embed/ZZ53FvZ7YYE",
     "duration": 3910
   },
   {
     "id": 1436,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Design de Experimentos (Módulo 4/20)",
     "embedUrl": "https://www.youtube.com/embed/WpJ1skhVKkg",
     "duration": 5516
   },
   {
     "id": 1437,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Ética, diversidade e responsabilidade na pesquisa (Módulo 5/20)",
     "embedUrl": "https://www.youtube.com/embed/kK7tOsITmOk",
     "duration": 3955
   },
   {
     "id": 1438,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Revisão Sistemática da Literatura (Módulo 6/20)",
     "embedUrl": "https://www.youtube.com/embed/XFRmnjh7Ph0",
     "duration": 4125
   },
   {
     "id": 1439,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Como ler um artigo científico? (Módulo 7/20)",
     "embedUrl": "https://www.youtube.com/embed/eadVmuwEuAI",
     "duration": 4146
   },
   {
     "id": 1440,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Avaliação de Algoritmos, Prototipação e Simulação (Módulo 8/20)",
     "embedUrl": "https://www.youtube.com/embed/Qvrvic7_zGk",
     "duration": 4143
   },
   {
     "id": 1441,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Estudos de Caso (Módulo 9/20)",
     "embedUrl": "https://www.youtube.com/embed/mkNjeqobt9Y",
     "duration": 3965
   },
   {
     "id": 1442,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Instrumentos de Coleta de Dados (Módulo 10/20)",
     "embedUrl": "https://www.youtube.com/embed/WnIgO7vbaKY",
     "duration": 4051
   },
   {
     "id": 1443,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Métodos Quantitativos - Parte I (Módulo 11/20)",
     "embedUrl": "https://www.youtube.com/embed/8QVtn-3EdKc",
     "duration": 3736
   },
   {
     "id": 1444,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Métodos Quantitativos - Parte II (Módulo 12/20)",
     "embedUrl": "https://www.youtube.com/embed/MSd7cx3dmDI",
     "duration": 3743
   },
   {
     "id": 1445,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Análise Qualitativa I (Módulo 13/20)",
     "embedUrl": "https://www.youtube.com/embed/1feCpvpb4ns",
     "duration": 4249
   },
   {
     "id": 1446,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Análise Qualitativa II (Módulo 14/20)",
     "embedUrl": "https://www.youtube.com/embed/aK4Npnkimhg",
     "duration": 4117
   },
   {
     "id": 1447,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Análise de Dados com Grounded Theory (Módulo 15/20)",
     "embedUrl": "https://www.youtube.com/embed/E4BQhy34u1g",
     "duration": 3709
   },
   {
     "id": 1448,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Boas Práticas para Compartilhamento de Dados de Pesquisas (Módulo 16/20)",
     "embedUrl": "https://www.youtube.com/embed/57A6-2xUxjo",
     "duration": 3929
   },
   {
     "id": 1449,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "A Escrita Acadêmica (Módulo 17/20)",
     "embedUrl": "https://www.youtube.com/embed/qAprWJ0DRZQ",
     "duration": 4165
   },
   {
     "id": 1450,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Publicação e divulgação científica (Módulo 18/20)",
     "embedUrl": "https://www.youtube.com/embed/6lXf4HzNOfU",
     "duration": 4125
   },
   {
     "id": 1451,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Como apresentar um artigo (Módulo 19/20)",
     "embedUrl": "https://www.youtube.com/embed/8XpO2LLOhDw",
     "duration": 4131
   },
   {
     "id": 1452,
-    "courseId": 1,
-    "stepId": 7,
-    "subjectId": 35,
     "title": "Ciência Aberta (Módulo 20/20)",
     "embedUrl": "https://www.youtube.com/embed/KjiL-xeJZV0",
     "duration": 3859
