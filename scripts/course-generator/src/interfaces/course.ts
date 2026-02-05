@@ -7,6 +7,7 @@ export default interface Course {
     number: number,
     subjects: {
       id: number;
+      number: number;
       name: string;
       url: string;
       prerequisites: string[];

@@ -12,6 +12,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 36,
+          number: 1,
           name: "Ingredientes básicos para o Cálculo",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W698VTHptmp7ZNvcKqlyHO",
           prerequisites: [],
@@ -24,6 +25,7 @@ export const courseMath: Course = {
         },
         {
           id: 37,
+          number: 2,
           name: "Teoria dos Conjuntos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81X2Cp3FClIjRE9sG_Vq6sZ_",
           prerequisites: [],
@@ -36,6 +38,7 @@ export const courseMath: Course = {
         },
         {
           id: 38,
+          number: 3,
           name: "Lógica e Matemática Discreta",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHf6oB0nf8FwLhqSOcBLqOxH",
           prerequisites: [],
@@ -48,6 +51,7 @@ export const courseMath: Course = {
         },
         {
           id: 39,
+          number: 4,
           name: "Geometria Analítica",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcSZv2BBUJAfGsXx0D0hn-2",
           prerequisites: [],
@@ -60,6 +64,7 @@ export const courseMath: Course = {
         },
         {
           id: 40,
+          number: 5,
           name: "Algoritmos e Programação em Python",
           url: "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0",
           prerequisites: [],
@@ -79,6 +84,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 41,
+          number: 1,
           name: "Cálculo I",
           url: "https://www.youtube.com/playlist?list=PL2D9B691A704C6F7B",
           prerequisites: [],
@@ -91,6 +97,7 @@ export const courseMath: Course = {
         },
         {
           id: 42,
+          number: 2,
           name: "Projeto e Análise de Algoritmos",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdNN5fpKWRF8bbLG-2P-0LW",
           prerequisites: ["Programação (Python)"],
@@ -103,6 +110,7 @@ export const courseMath: Course = {
         },
         {
           id: 43,
+          number: 3,
           name: "Álgebra Linear",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdUtWDKtTA9AmuICNyX9EIr",
           prerequisites: [],
@@ -115,6 +123,7 @@ export const courseMath: Course = {
         },
         {
           id: 44,
+          number: 4,
           name: "Álgebra Linear (avançada)",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81WXIutzWJDQ7E78riZqJClA",
           prerequisites: [],
@@ -127,6 +136,7 @@ export const courseMath: Course = {
         },
         {
           id: 45,
+          number: 5,
           name: "Teoria dos Números",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcfxDjfTmU-t7XC1w2GVwc_",
           prerequisites: [],
@@ -146,6 +156,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 46,
+          number: 1,
           name: "Cálculo II",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeZfF4HwiVmv4D6n3acKLER",
           prerequisites: ["Cálculo I"],
@@ -158,6 +169,7 @@ export const courseMath: Course = {
         },
         {
           id: 47,
+          number: 2,
           name: "Estruturas Algébricas",
           url: "https://www.youtube.com/playlist?list=PL6eyvTm7LSBsdkBBKzEDcyYbdujN_6TmL",
           prerequisites: ["Teoria dos Números"],
@@ -170,6 +182,7 @@ export const courseMath: Course = {
         },
         {
           id: 48,
+          number: 3,
           name: "Equações Diferenciais Ordinárias",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTR9q44hqm2w3NWtvyP_ZoiP",
           prerequisites: [],
@@ -182,6 +195,7 @@ export const courseMath: Course = {
         },
         {
           id: 49,
+          number: 4,
           name: "Física Geral I",
           url: "https://www.youtube.com/playlist?list=PL7581C21F8ADD6C8E",
           prerequisites: [],
@@ -194,6 +208,7 @@ export const courseMath: Course = {
         },
         {
           id: 50,
+          number: 5,
           name: "História da Matemática",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdOIYVPQPS6oUPBk8mb1CVU",
           prerequisites: [],
@@ -213,6 +228,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 51,
+          number: 1,
           name: "Cálculo III",
           url: "https://www.youtube.com/playlist?list=PLFBA21F349930F92F",
           prerequisites: ["Cálculo II"],
@@ -225,6 +241,7 @@ export const courseMath: Course = {
         },
         {
           id: 52,
+          number: 2,
           name: "Física Geral II",
           url: "https://www.youtube.com/playlist?list=PL516F59E9AE8F5BF7",
           prerequisites: ["Física Geral I"],
@@ -237,6 +254,7 @@ export const courseMath: Course = {
         },
         {
           id: 53,
+          number: 3,
           name: "Estatística e Probabilidade",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
           prerequisites: [],
@@ -249,6 +267,7 @@ export const courseMath: Course = {
         },
         {
           id: 54,
+          number: 4,
           name: "Programação Linear",
           url: "https://youtube.com/playlist?list=PLRJ_PBuYGr64QKVnwx3kx0qLeG5WQY_Hl&si=2SlZOlDfYH70f0ak",
           prerequisites: ["Projeto e Análise de Algoritmos"],
@@ -261,6 +280,7 @@ export const courseMath: Course = {
         },
         {
           id: 55,
+          number: 5,
           name: "Análise na Reta",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81UTkjNN2WQM8knGQJpu1j_z",
           prerequisites: [],
@@ -280,6 +300,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 56,
+          number: 1,
           name: "Cálculo IV (Métodos Matemáticos)",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
           prerequisites: ["Cálculo III"],
@@ -292,6 +313,7 @@ export const courseMath: Course = {
         },
         {
           id: 57,
+          number: 2,
           name: "Introdução a Topologia Geral",
           url: "https://www.youtube.com/playlist?list=PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
           prerequisites: [],
@@ -304,6 +326,7 @@ export const courseMath: Course = {
         },
         {
           id: 58,
+          number: 3,
           name: "Cálculo com variável complexa",
           url: "https://www.youtube.com/playlist?list=PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
           prerequisites: ["Cálculo IV"],
@@ -316,6 +339,7 @@ export const courseMath: Course = {
         },
         {
           id: 59,
+          number: 4,
           name: "Teoria dos Grafos",
           url: "https://www.youtube.com/playlist?list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX",
           prerequisites: [],
@@ -328,6 +352,7 @@ export const courseMath: Course = {
         },
         {
           id: 60,
+          number: 5,
           name: "Física Geral III",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdG8tw2QofrU02IuAEVyGlL",
           prerequisites: ["Física Geral II"],
@@ -347,6 +372,7 @@ export const courseMath: Course = {
       subjects: [
         {
           id: 61,
+          number: 1,
           name: "Alfabetização em anéis",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81XSiyT7czJX8q7I7kNmc8Bk",
           prerequisites: ["Estruturas Algébricas"],
@@ -359,6 +385,7 @@ export const courseMath: Course = {
         },
         {
           id: 62,
+          number: 2,
           name: "Física Moderna",
           url: "https://www.youtube.com/playlist?list=PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
           prerequisites: ["Física Geral III"],
@@ -371,6 +398,7 @@ export const courseMath: Course = {
         },
         {
           id: 63,
+          number: 3,
           name: "Teoria de Corpos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W0HbBtma7QQMeyVllJMk0m",
           prerequisites: ["Estruturas Algébricas"],
@@ -383,6 +411,7 @@ export const courseMath: Course = {
         },
         {
           id: 64,
+          number: 4,
           name: "Análise Complexa",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTRQ07QOEFl0x6mvyTl2hlRn",
           prerequisites: [],
@@ -395,6 +424,7 @@ export const courseMath: Course = {
         },
         {
           id: 65,
+          number: 5,
           name: "Equações Diferenciais Parciais",
           url: "https://www.youtube.com/playlist?list=PLpB72X90N5xST4NmvjQicgfRgpt-9rgw-",
           prerequisites: ["Cálculo IV", "Análise Complexa"],
