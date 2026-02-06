@@ -1,218 +1,218 @@
 [
   {
     "id": 537,
-    "title": "Bem vindo aos cursos de Orientação a Objetos Avançada",
-    "embedUrl": "https://www.youtube.com/embed/lSx_1SSUaoE",
-    "duration": 96
+    "name": "Bem vindo aos cursos de Orientação a Objetos Avançada",
+    "duration": 96,
+    "embedUrl": "https://www.youtube.com/embed/lSx_1SSUaoE"
   },
   {
     "id": 538,
-    "title": "Introdução ao Laboratório de Programação Orientada a Objetos",
-    "embedUrl": "https://www.youtube.com/embed/qqF3okCnONk",
-    "duration": 370
+    "name": "Introdução ao Laboratório de Programação Orientada a Objetos",
+    "duration": 370,
+    "embedUrl": "https://www.youtube.com/embed/qqF3okCnONk"
   },
   {
     "id": 539,
-    "title": "Recapitulação dos conceitos básicos de OO",
-    "embedUrl": "https://www.youtube.com/embed/IfWZRrgMWnc",
-    "duration": 738
+    "name": "Recapitulação dos conceitos básicos de OO",
+    "duration": 738,
+    "embedUrl": "https://www.youtube.com/embed/IfWZRrgMWnc"
   },
   {
     "id": 540,
-    "title": "Sistemas de Objetos",
-    "embedUrl": "https://www.youtube.com/embed/9wxsdhNVLqE",
-    "duration": 273
+    "name": "Sistemas de Objetos",
+    "duration": 273,
+    "embedUrl": "https://www.youtube.com/embed/9wxsdhNVLqE"
   },
   {
     "id": 541,
-    "title": "Variáveis de classe vs.  variáveis de instância",
-    "embedUrl": "https://www.youtube.com/embed/SDFbmyRGkN8",
-    "duration": 353
+    "name": "Variáveis de classe vs.  variáveis de instância",
+    "duration": 353,
+    "embedUrl": "https://www.youtube.com/embed/SDFbmyRGkN8"
   },
   {
     "id": 542,
-    "title": "Pacotes-acesso-final-static",
-    "embedUrl": "https://www.youtube.com/embed/XZ2-1Qd4XJ0",
-    "duration": 1166
+    "name": "Pacotes-acesso-final-static",
+    "duration": 1166,
+    "embedUrl": "https://www.youtube.com/embed/XZ2-1Qd4XJ0"
   },
   {
     "id": 543,
-    "title": "Resolução do exercício Biblioteca De Músicas",
-    "embedUrl": "https://www.youtube.com/embed/RiYpWM74BmY",
-    "duration": 979
+    "name": "Resolução do exercício Biblioteca De Músicas",
+    "duration": 979,
+    "embedUrl": "https://www.youtube.com/embed/RiYpWM74BmY"
   },
   {
     "id": 544,
-    "title": "Classes Abstratas e Interfaces",
-    "embedUrl": "https://www.youtube.com/embed/PxWTMQg3ggU",
-    "duration": 1468
+    "name": "Classes Abstratas e Interfaces",
+    "duration": 1468,
+    "embedUrl": "https://www.youtube.com/embed/PxWTMQg3ggU"
   },
   {
     "id": 545,
-    "title": "Coleções em Java",
-    "embedUrl": "https://www.youtube.com/embed/54ot7oF40vA",
-    "duration": 1219
+    "name": "Coleções em Java",
+    "duration": 1219,
+    "embedUrl": "https://www.youtube.com/embed/54ot7oF40vA"
   },
   {
     "id": 546,
-    "title": "Linguagens interpretadas vs. compiladas",
-    "embedUrl": "https://www.youtube.com/embed/bVZ_hh8-G6o",
-    "duration": 959
+    "name": "Linguagens interpretadas vs. compiladas",
+    "duration": 959,
+    "embedUrl": "https://www.youtube.com/embed/bVZ_hh8-G6o"
   },
   {
     "id": 547,
-    "title": "Polimorfismo (exemplos em Java)",
-    "embedUrl": "https://www.youtube.com/embed/lXSdxd2vipw",
-    "duration": 1808
+    "name": "Polimorfismo (exemplos em Java)",
+    "duration": 1808,
+    "embedUrl": "https://www.youtube.com/embed/lXSdxd2vipw"
   },
   {
     "id": 548,
-    "title": "Depurando código no Eclipse",
-    "embedUrl": "https://www.youtube.com/embed/xSKOXV2bNtw",
-    "duration": 818
+    "name": "Depurando código no Eclipse",
+    "duration": 818,
+    "embedUrl": "https://www.youtube.com/embed/xSKOXV2bNtw"
   },
   {
     "id": 549,
-    "title": "Tratamento de Exceções",
-    "embedUrl": "https://www.youtube.com/embed/IhwGgY0FZgY",
-    "duration": 1626
+    "name": "Tratamento de Exceções",
+    "duration": 1626,
+    "embedUrl": "https://www.youtube.com/embed/IhwGgY0FZgY"
   },
   {
     "id": 550,
-    "title": "Java I/O Streams",
-    "embedUrl": "https://www.youtube.com/embed/2IfQ9-W6SDs",
-    "duration": 799
+    "name": "Java I/O Streams",
+    "duration": 799,
+    "embedUrl": "https://www.youtube.com/embed/2IfQ9-W6SDs"
   },
   {
     "id": 551,
-    "title": "Java Network Streams demo",
-    "embedUrl": "https://www.youtube.com/embed/05KcMNiEzgk",
-    "duration": 814
+    "name": "Java Network Streams demo",
+    "duration": 814,
+    "embedUrl": "https://www.youtube.com/embed/05KcMNiEzgk"
   },
   {
     "id": 552,
-    "title": "Padrões de Projeto / Padrão Strategy",
-    "embedUrl": "https://www.youtube.com/embed/gO5pvSOLpZk",
-    "duration": 1951
+    "name": "Padrões de Projeto / Padrão Strategy",
+    "duration": 1951,
+    "embedUrl": "https://www.youtube.com/embed/gO5pvSOLpZk"
   },
   {
     "id": 553,
-    "title": "Padrão de Projeto: Adapter",
-    "embedUrl": "https://www.youtube.com/embed/nF91m1sSkW8",
-    "duration": 966
+    "name": "Padrão de Projeto: Adapter",
+    "duration": 966,
+    "embedUrl": "https://www.youtube.com/embed/nF91m1sSkW8"
   },
   {
     "id": 554,
-    "title": "Padrão de projeto: Singleton",
-    "embedUrl": "https://www.youtube.com/embed/glRKfsJStPY",
-    "duration": 955
+    "name": "Padrão de projeto: Singleton",
+    "duration": 955,
+    "embedUrl": "https://www.youtube.com/embed/glRKfsJStPY"
   },
   {
     "id": 555,
-    "title": "Os Padrões Método Fábrica e Fábrica Abstrata (Parte 1 - Factory Method)",
-    "embedUrl": "https://www.youtube.com/embed/vY6r2s4rZyk",
-    "duration": 590
+    "name": "Os Padrões Método Fábrica e Fábrica Abstrata (Parte 1 - Factory Method)",
+    "duration": 590,
+    "embedUrl": "https://www.youtube.com/embed/vY6r2s4rZyk"
   },
   {
     "id": 556,
-    "title": "O padrão Fábrica Abstrata (Abstract Factory)",
-    "embedUrl": "https://www.youtube.com/embed/75nZ8IUfMPE",
-    "duration": 1232
+    "name": "O padrão Fábrica Abstrata (Abstract Factory)",
+    "duration": 1232,
+    "embedUrl": "https://www.youtube.com/embed/75nZ8IUfMPE"
   },
   {
     "id": 557,
-    "title": "O padrão Protótipo (Prototype)",
-    "embedUrl": "https://www.youtube.com/embed/qTYj8au-SOs",
-    "duration": 681
+    "name": "O padrão Protótipo (Prototype)",
+    "duration": 681,
+    "embedUrl": "https://www.youtube.com/embed/qTYj8au-SOs"
   },
   {
     "id": 558,
-    "title": "O padrão de Projeto State",
-    "embedUrl": "https://www.youtube.com/embed/Z93dSsQzuCI",
-    "duration": 861
+    "name": "O padrão de Projeto State",
+    "duration": 861,
+    "embedUrl": "https://www.youtube.com/embed/Z93dSsQzuCI"
   },
   {
     "id": 559,
-    "title": "Padrão MVC - Model-View-Controller",
-    "embedUrl": "https://www.youtube.com/embed/Q6tz2RFbnN0",
-    "duration": 1104
+    "name": "Padrão MVC - Model-View-Controller",
+    "duration": 1104,
+    "embedUrl": "https://www.youtube.com/embed/Q6tz2RFbnN0"
   },
   {
     "id": 560,
-    "title": "Injeção de Dependências e Spring",
-    "embedUrl": "https://www.youtube.com/embed/7FjYfFp2llw",
-    "duration": 5500
+    "name": "Injeção de Dependências e Spring",
+    "duration": 5500,
+    "embedUrl": "https://www.youtube.com/embed/7FjYfFp2llw"
   },
   {
     "id": 561,
-    "title": "O padrão de projeto Decorator",
-    "embedUrl": "https://www.youtube.com/embed/Rc_3oxrR0Xc",
-    "duration": 629
+    "name": "O padrão de projeto Decorator",
+    "duration": 629,
+    "embedUrl": "https://www.youtube.com/embed/Rc_3oxrR0Xc"
   },
   {
     "id": 562,
-    "title": "O padrão de Projeto Template Method",
-    "embedUrl": "https://www.youtube.com/embed/SpWtH03rBfE",
-    "duration": 686
+    "name": "O padrão de Projeto Template Method",
+    "duration": 686,
+    "embedUrl": "https://www.youtube.com/embed/SpWtH03rBfE"
   },
   {
     "id": 563,
-    "title": "O padrão Façade",
-    "embedUrl": "https://www.youtube.com/embed/q66ecXk1Mgc",
-    "duration": 744
+    "name": "O padrão Façade",
+    "duration": 744,
+    "embedUrl": "https://www.youtube.com/embed/q66ecXk1Mgc"
   },
   {
     "id": 564,
-    "title": "O Padrão Mediator",
-    "embedUrl": "https://www.youtube.com/embed/SfKqm0QGxkw",
-    "duration": 470
+    "name": "O Padrão Mediator",
+    "duration": 470,
+    "embedUrl": "https://www.youtube.com/embed/SfKqm0QGxkw"
   },
   {
     "id": 565,
-    "title": "Orientação a Objetos e Padrões no SERPRO",
-    "embedUrl": "https://www.youtube.com/embed/MXA3aI7Er74",
-    "duration": 4473
+    "name": "Orientação a Objetos e Padrões no SERPRO",
+    "duration": 4473,
+    "embedUrl": "https://www.youtube.com/embed/MXA3aI7Er74"
   },
   {
     "id": 566,
-    "title": "O Problema com Software - Motivação para SOLID",
-    "embedUrl": "https://www.youtube.com/embed/kBkAkfOghIE",
-    "duration": 590
+    "name": "O Problema com Software - Motivação para SOLID",
+    "duration": 590,
+    "embedUrl": "https://www.youtube.com/embed/kBkAkfOghIE"
   },
   {
     "id": 567,
-    "title": "Princípios SOLID de bom projeto orientado a objetos",
-    "embedUrl": "https://www.youtube.com/embed/cFlpzS8hkXg",
-    "duration": 1406
+    "name": "Princípios SOLID de bom projeto orientado a objetos",
+    "duration": 1406,
+    "embedUrl": "https://www.youtube.com/embed/cFlpzS8hkXg"
   },
   {
     "id": 568,
-    "title": "Sólido (Song for the SOLID Principles of OO design)",
-    "embedUrl": "https://www.youtube.com/embed/t1NO3gsYY9M",
-    "duration": 118
+    "name": "Sólido (Song for the SOLID Principles of OO design)",
+    "duration": 118,
+    "embedUrl": "https://www.youtube.com/embed/t1NO3gsYY9M"
   },
   {
     "id": 569,
-    "title": "Arcabouços (Frameworks) Orientados a Objetos",
-    "embedUrl": "https://www.youtube.com/embed/m_hnj1wcd_8",
-    "duration": 1584
+    "name": "Arcabouços (Frameworks) Orientados a Objetos",
+    "duration": 1584,
+    "embedUrl": "https://www.youtube.com/embed/m_hnj1wcd_8"
   },
   {
     "id": 570,
-    "title": "10 Livros que você PRECISA ler para se tornar um excelente desenvolvedor de software",
-    "embedUrl": "https://www.youtube.com/embed/uVDJYFDA9us",
-    "duration": 956
+    "name": "10 Livros que você PRECISA ler para se tornar um excelente desenvolvedor de software",
+    "duration": 956,
+    "embedUrl": "https://www.youtube.com/embed/uVDJYFDA9us"
   },
   {
     "id": 571,
-    "title": "Thelonious Monk's 25 Tips for Musicians",
-    "embedUrl": "https://www.youtube.com/embed/tBxjacxRshE",
-    "duration": 810
+    "name": "Thelonious Monk's 25 Tips for Musicians",
+    "duration": 810,
+    "embedUrl": "https://www.youtube.com/embed/tBxjacxRshE"
   },
   {
     "id": 572,
-    "title": "Boas Práticas de Programação Orientada a Objetos",
-    "embedUrl": "https://www.youtube.com/embed/Wg7b5I7Q2Ng",
-    "duration": 1320
+    "name": "Boas Práticas de Programação Orientada a Objetos",
+    "duration": 1320,
+    "embedUrl": "https://www.youtube.com/embed/Wg7b5I7Q2Ng"
   }
 ]

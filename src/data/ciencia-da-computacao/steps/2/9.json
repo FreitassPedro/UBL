@@ -1,350 +1,350 @@
 [
   {
     "id": 479,
-    "title": "A quem se destina este curso",
-    "embedUrl": "https://www.youtube.com/embed/WT_zCgSHSTQ",
-    "duration": 234
+    "name": "A quem se destina este curso",
+    "duration": 234,
+    "embedUrl": "https://www.youtube.com/embed/WT_zCgSHSTQ"
   },
   {
     "id": 480,
-    "title": "01 - O que é ciência da computação",
-    "embedUrl": "https://www.youtube.com/embed/rh65Lh5V7S0",
-    "duration": 744
+    "name": "01 - O que é ciência da computação",
+    "duration": 744,
+    "embedUrl": "https://www.youtube.com/embed/rh65Lh5V7S0"
   },
   {
     "id": 481,
-    "title": "Instalando o Python3 e o IDLE no Windows",
-    "embedUrl": "https://www.youtube.com/embed/1aUuW0aA7l0",
-    "duration": 226
+    "name": "Instalando o Python3 e o IDLE no Windows",
+    "duration": 226,
+    "embedUrl": "https://www.youtube.com/embed/1aUuW0aA7l0"
   },
   {
     "id": 482,
-    "title": "Instalação do python e IDLE no Linux (ubuntu)",
-    "embedUrl": "https://www.youtube.com/embed/SqLhPI6pPy4",
-    "duration": 197
+    "name": "Instalação do python e IDLE no Linux (ubuntu)",
+    "duration": 197,
+    "embedUrl": "https://www.youtube.com/embed/SqLhPI6pPy4"
   },
   {
     "id": 483,
-    "title": "Consertando a configuração do Python3 no Windows",
-    "embedUrl": "https://www.youtube.com/embed/0SrKE9lVPTk",
-    "duration": 107
+    "name": "Consertando a configuração do Python3 no Windows",
+    "duration": 107,
+    "embedUrl": "https://www.youtube.com/embed/0SrKE9lVPTk"
   },
   {
     "id": 484,
-    "title": "02 - Primeiras linhas em Python",
-    "embedUrl": "https://www.youtube.com/embed/LN8ejPwSzkU",
-    "duration": 454
+    "name": "02 - Primeiras linhas em Python",
+    "duration": 454,
+    "embedUrl": "https://www.youtube.com/embed/LN8ejPwSzkU"
   },
   {
     "id": 485,
-    "title": "03 - Variáveis e scripts (programas) em Python",
-    "embedUrl": "https://www.youtube.com/embed/tqF0MjcOqcI",
-    "duration": 633
+    "name": "03 - Variáveis e scripts (programas) em Python",
+    "duration": 633,
+    "embedUrl": "https://www.youtube.com/embed/tqF0MjcOqcI"
   },
   {
     "id": 486,
-    "title": "Executando programas em python (Nelson Lago)",
-    "embedUrl": "https://www.youtube.com/embed/r8CSesZpFjo",
-    "duration": 272
+    "name": "Executando programas em python (Nelson Lago)",
+    "duration": 272,
+    "embedUrl": "https://www.youtube.com/embed/r8CSesZpFjo"
   },
   {
     "id": 487,
-    "title": "04 - Valores e tipos em Python",
-    "embedUrl": "https://www.youtube.com/embed/UZ7_oudJ150",
-    "duration": 578
+    "name": "04 - Valores e tipos em Python",
+    "duration": 578,
+    "embedUrl": "https://www.youtube.com/embed/UZ7_oudJ150"
   },
   {
     "id": 488,
-    "title": "O que é Software Livre? (Nelson Lago)",
-    "embedUrl": "https://www.youtube.com/embed/sZg9nrUTgJE",
-    "duration": 809
+    "name": "O que é Software Livre? (Nelson Lago)",
+    "duration": 809,
+    "embedUrl": "https://www.youtube.com/embed/sZg9nrUTgJE"
   },
   {
     "id": 489,
-    "title": "05 - Entrada de dados",
-    "embedUrl": "https://www.youtube.com/embed/ECFj-bWzU8I",
-    "duration": 1003
+    "name": "05 - Entrada de dados",
+    "duration": 1003,
+    "embedUrl": "https://www.youtube.com/embed/ECFj-bWzU8I"
   },
   {
     "id": 490,
-    "title": "06 - Tipos booleanos e precedência de operadores",
-    "embedUrl": "https://www.youtube.com/embed/sgfmuFRZuWs",
-    "duration": 881
+    "name": "06 - Tipos booleanos e precedência de operadores",
+    "duration": 881,
+    "embedUrl": "https://www.youtube.com/embed/sgfmuFRZuWs"
   },
   {
     "id": 491,
-    "title": "07 - Condicionais",
-    "embedUrl": "https://www.youtube.com/embed/ngeVlLJ250s",
-    "duration": 833
+    "name": "07 - Condicionais",
+    "duration": 833,
+    "embedUrl": "https://www.youtube.com/embed/ngeVlLJ250s"
   },
   {
     "id": 492,
-    "title": "08 - Exercício resolvido (Bhaskara)",
-    "embedUrl": "https://www.youtube.com/embed/v_QoUdfahng",
-    "duration": 582
+    "name": "08 - Exercício resolvido (Bhaskara)",
+    "duration": 582,
+    "embedUrl": "https://www.youtube.com/embed/v_QoUdfahng"
   },
   {
     "id": 493,
-    "title": "09 - Repetições (laços) com while",
-    "embedUrl": "https://www.youtube.com/embed/TllYO06DpUk",
-    "duration": 1213
+    "name": "09 - Repetições (laços) com while",
+    "duration": 1213,
+    "embedUrl": "https://www.youtube.com/embed/TllYO06DpUk"
   },
   {
     "id": 494,
-    "title": "10 - Indicadores de passagem",
-    "embedUrl": "https://www.youtube.com/embed/RBjrLgdMaMI",
-    "duration": 1042
+    "name": "10 - Indicadores de passagem",
+    "duration": 1042,
+    "embedUrl": "https://www.youtube.com/embed/RBjrLgdMaMI"
   },
   {
     "id": 495,
-    "title": "11 - Depuração",
-    "embedUrl": "https://www.youtube.com/embed/Aa8-39qwbUU",
-    "duration": 432
+    "name": "11 - Depuração",
+    "duration": 432,
+    "embedUrl": "https://www.youtube.com/embed/Aa8-39qwbUU"
   },
   {
     "id": 496,
-    "title": "12 - Funções",
-    "embedUrl": "https://www.youtube.com/embed/AMUxtcJ8yfc",
-    "duration": 1028
+    "name": "12 - Funções",
+    "duration": 1028,
+    "embedUrl": "https://www.youtube.com/embed/AMUxtcJ8yfc"
   },
   {
     "id": 497,
-    "title": "13 - Exercício resolvido (coeficiente binomial) e testes",
-    "embedUrl": "https://www.youtube.com/embed/se9JcK05PGw",
-    "duration": 1045
+    "name": "13 - Exercício resolvido (coeficiente binomial) e testes",
+    "duration": 1045,
+    "embedUrl": "https://www.youtube.com/embed/se9JcK05PGw"
   },
   {
     "id": 498,
-    "title": "14 - Testes automatizados",
-    "embedUrl": "https://www.youtube.com/embed/c_5UByqX6kE",
-    "duration": 1096
+    "name": "14 - Testes automatizados",
+    "duration": 1096,
+    "embedUrl": "https://www.youtube.com/embed/c_5UByqX6kE"
   },
   {
     "id": 499,
-    "title": "Melô do Teste Automatizado + Entrevista Testes em Startups de Software",
-    "embedUrl": "https://www.youtube.com/embed/eGH9--FcDxY",
-    "duration": 401
+    "name": "Melô do Teste Automatizado + Entrevista Testes em Startups de Software",
+    "duration": 401,
+    "embedUrl": "https://www.youtube.com/embed/eGH9--FcDxY"
   },
   {
     "id": 500,
-    "title": "15 - Exercício Resolvido - Refatoração (Fórmula de Bhaskara)",
-    "embedUrl": "https://www.youtube.com/embed/GhWEOe81bJw",
-    "duration": 768
+    "name": "15 - Exercício Resolvido - Refatoração (Fórmula de Bhaskara)",
+    "duration": 768,
+    "embedUrl": "https://www.youtube.com/embed/GhWEOe81bJw"
   },
   {
     "id": 501,
-    "title": "16 - Depuração com funções",
-    "embedUrl": "https://www.youtube.com/embed/pYgAX8BuJN8",
-    "duration": 423
+    "name": "16 - Depuração com funções",
+    "duration": 423,
+    "embedUrl": "https://www.youtube.com/embed/pYgAX8BuJN8"
   },
   {
     "id": 502,
-    "title": "17 - Repetições encaixadas",
-    "embedUrl": "https://www.youtube.com/embed/dRCDOH1lugs",
-    "duration": 671
+    "name": "17 - Repetições encaixadas",
+    "duration": 671,
+    "embedUrl": "https://www.youtube.com/embed/dRCDOH1lugs"
   },
   {
     "id": 503,
-    "title": "18 - Exercício resolvido (fatorial)",
-    "embedUrl": "https://www.youtube.com/embed/pbzea8fXj98",
-    "duration": 509
+    "name": "18 - Exercício resolvido (fatorial)",
+    "duration": 509,
+    "embedUrl": "https://www.youtube.com/embed/pbzea8fXj98"
   },
   {
     "id": 504,
-    "title": "19 - Exercicio resolvido (fatoração)",
-    "embedUrl": "https://www.youtube.com/embed/9AUu2xjOACI",
-    "duration": 615
+    "name": "19 - Exercicio resolvido (fatoração)",
+    "duration": 615,
+    "embedUrl": "https://www.youtube.com/embed/9AUu2xjOACI"
   },
   {
     "id": 505,
-    "title": "20 - Exercício resolvido (verificação de primos)",
-    "embedUrl": "https://www.youtube.com/embed/Wcug8mjU8Sg",
-    "duration": 740
+    "name": "20 - Exercício resolvido (verificação de primos)",
+    "duration": 740,
+    "embedUrl": "https://www.youtube.com/embed/Wcug8mjU8Sg"
   },
   {
     "id": 506,
-    "title": "21 - Coleções (listas, vetores)",
-    "embedUrl": "https://www.youtube.com/embed/krVca97F13I",
-    "duration": 1214
+    "name": "21 - Coleções (listas, vetores)",
+    "duration": 1214,
+    "embedUrl": "https://www.youtube.com/embed/krVca97F13I"
   },
   {
     "id": 507,
-    "title": "22 - Repetições com \"for\"",
-    "embedUrl": "https://www.youtube.com/embed/ctmPwp52b7w",
-    "duration": 931
+    "name": "22 - Repetições com \"for\"",
+    "duration": 931,
+    "embedUrl": "https://www.youtube.com/embed/ctmPwp52b7w"
   },
   {
     "id": 508,
-    "title": "23 - Manipulação de listas",
-    "embedUrl": "https://www.youtube.com/embed/LrXapVI66so",
-    "duration": 1504
+    "name": "23 - Manipulação de listas",
+    "duration": 1504,
+    "embedUrl": "https://www.youtube.com/embed/LrXapVI66so"
   },
   {
     "id": 509,
-    "title": "24 - Objetos na memória",
-    "embedUrl": "https://www.youtube.com/embed/4TN8IdsJ78k",
-    "duration": 620
+    "name": "24 - Objetos na memória",
+    "duration": 620,
+    "embedUrl": "https://www.youtube.com/embed/4TN8IdsJ78k"
   },
   {
     "id": 510,
-    "title": "25 - Matrizes",
-    "embedUrl": "https://www.youtube.com/embed/c9yjwWNiNQw",
-    "duration": 1191
+    "name": "25 - Matrizes",
+    "duration": 1191,
+    "embedUrl": "https://www.youtube.com/embed/c9yjwWNiNQw"
   },
   {
     "id": 511,
-    "title": "26 - Exercício resolvido (máxima e mínima)",
-    "embedUrl": "https://www.youtube.com/embed/EpvCXjuHifg",
-    "duration": 1453
+    "name": "26 - Exercício resolvido (máxima e mínima)",
+    "duration": 1453,
+    "embedUrl": "https://www.youtube.com/embed/EpvCXjuHifg"
   },
   {
     "id": 512,
-    "title": "27 - Strings",
-    "embedUrl": "https://www.youtube.com/embed/DdhNltkI_hE",
-    "duration": 953
+    "name": "27 - Strings",
+    "duration": 953,
+    "embedUrl": "https://www.youtube.com/embed/DdhNltkI_hE"
   },
   {
     "id": 513,
-    "title": "28 - Comparação de strings",
-    "embedUrl": "https://www.youtube.com/embed/EWQTdbtCtKw",
-    "duration": 516
+    "name": "28 - Comparação de strings",
+    "duration": 516,
+    "embedUrl": "https://www.youtube.com/embed/EWQTdbtCtKw"
   },
   {
     "id": 514,
-    "title": "29 - 4 Pequenos conceitos úteis",
-    "embedUrl": "https://www.youtube.com/embed/eH5kd48NfM0",
-    "duration": 739
+    "name": "29 - 4 Pequenos conceitos úteis",
+    "duration": 739,
+    "embedUrl": "https://www.youtube.com/embed/eH5kd48NfM0"
   },
   {
     "id": 515,
-    "title": "30 - Módulo em Python",
-    "embedUrl": "https://www.youtube.com/embed/6rSUPRZJFRM",
-    "duration": 861
+    "name": "30 - Módulo em Python",
+    "duration": 861,
+    "embedUrl": "https://www.youtube.com/embed/6rSUPRZJFRM"
   },
   {
     "id": 516,
-    "title": "31 - Manipulação de matrizes (soma)",
-    "embedUrl": "https://www.youtube.com/embed/x_hNj2C-kVs",
-    "duration": 582
+    "name": "31 - Manipulação de matrizes (soma)",
+    "duration": 582,
+    "embedUrl": "https://www.youtube.com/embed/x_hNj2C-kVs"
   },
   {
     "id": 517,
-    "title": "32 - Exercício resolvido (multiplicação de matrizes)",
-    "embedUrl": "https://www.youtube.com/embed/gCKza8cYdJY",
-    "duration": 670
+    "name": "32 - Exercício resolvido (multiplicação de matrizes)",
+    "duration": 670,
+    "embedUrl": "https://www.youtube.com/embed/gCKza8cYdJY"
   },
   {
     "id": 518,
-    "title": "33 - Programação Orientada a Objetos - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/frtaUi3B6Sc",
-    "duration": 899
+    "name": "33 - Programação Orientada a Objetos - Parte 1",
+    "duration": 899,
+    "embedUrl": "https://www.youtube.com/embed/frtaUi3B6Sc"
   },
   {
     "id": 519,
-    "title": "34 - Programação Orientada a Objetos - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/LsbakVX54RY",
-    "duration": 842
+    "name": "34 - Programação Orientada a Objetos - Parte 2",
+    "duration": 842,
+    "embedUrl": "https://www.youtube.com/embed/LsbakVX54RY"
   },
   {
     "id": 520,
-    "title": "35 - Códigos testáveis",
-    "embedUrl": "https://www.youtube.com/embed/RYpV10216pw",
-    "duration": 1465
+    "name": "35 - Códigos testáveis",
+    "duration": 1465,
+    "embedUrl": "https://www.youtube.com/embed/RYpV10216pw"
   },
   {
     "id": 521,
-    "title": "36 - Busca Sequencial",
-    "embedUrl": "https://www.youtube.com/embed/bsFhgaaHeV4",
-    "duration": 729
+    "name": "36 - Busca Sequencial",
+    "duration": 729,
+    "embedUrl": "https://www.youtube.com/embed/bsFhgaaHeV4"
   },
   {
     "id": 522,
-    "title": "37 - Complexidade computacional",
-    "embedUrl": "https://www.youtube.com/embed/a06rEkp7rNw",
-    "duration": 435
+    "name": "37 - Complexidade computacional",
+    "duration": 435,
+    "embedUrl": "https://www.youtube.com/embed/a06rEkp7rNw"
   },
   {
     "id": 523,
-    "title": "38 - Algoritmos de Ordenação - Seleção Direta",
-    "embedUrl": "https://www.youtube.com/embed/JggjFK5PkMs",
-    "duration": 698
+    "name": "38 - Algoritmos de Ordenação - Seleção Direta",
+    "duration": 698,
+    "embedUrl": "https://www.youtube.com/embed/JggjFK5PkMs"
   },
   {
     "id": 524,
-    "title": "39 - Algoritmos de Ordenação da Bolha",
-    "embedUrl": "https://www.youtube.com/embed/tN-PwzkKcsk",
-    "duration": 510
+    "name": "39 - Algoritmos de Ordenação da Bolha",
+    "duration": 510,
+    "embedUrl": "https://www.youtube.com/embed/tN-PwzkKcsk"
   },
   {
     "id": 525,
-    "title": "40 - Comparação de Desempenho",
-    "embedUrl": "https://www.youtube.com/embed/gW6PUkzkIUw",
-    "duration": 768
+    "name": "40 - Comparação de Desempenho",
+    "duration": 768,
+    "embedUrl": "https://www.youtube.com/embed/gW6PUkzkIUw"
   },
   {
     "id": 526,
-    "title": "41 - Melhoria no algoritmo da Bolha",
-    "embedUrl": "https://www.youtube.com/embed/NDUbLp1Ro2Q",
-    "duration": 738
+    "name": "41 - Melhoria no algoritmo da Bolha",
+    "duration": 738,
+    "embedUrl": "https://www.youtube.com/embed/NDUbLp1Ro2Q"
   },
   {
     "id": 527,
-    "title": "42 - Testes automatizados em algoritmos de ordenação",
-    "embedUrl": "https://www.youtube.com/embed/kh3pKfh8TYU",
-    "duration": 671
+    "name": "42 - Testes automatizados em algoritmos de ordenação",
+    "duration": 671,
+    "embedUrl": "https://www.youtube.com/embed/kh3pKfh8TYU"
   },
   {
     "id": 528,
-    "title": "43 - Busca Binária",
-    "embedUrl": "https://www.youtube.com/embed/NxriUYWxoEU",
-    "duration": 778
+    "name": "43 - Busca Binária",
+    "duration": 778,
+    "embedUrl": "https://www.youtube.com/embed/NxriUYWxoEU"
   },
   {
     "id": 529,
-    "title": "44 - Recursão - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/AyPJx1RIDuY",
-    "duration": 718
+    "name": "44 - Recursão - Parte 1",
+    "duration": 718,
+    "embedUrl": "https://www.youtube.com/embed/AyPJx1RIDuY"
   },
   {
     "id": 530,
-    "title": "45 - Recursão - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/386wQ0bP9vw",
-    "duration": 1554
+    "name": "45 - Recursão - Parte 2",
+    "duration": 1554,
+    "embedUrl": "https://www.youtube.com/embed/386wQ0bP9vw"
   },
   {
     "id": 531,
-    "title": "Scrapy 1 (Felipe Besson)",
-    "embedUrl": "https://www.youtube.com/embed/rj8Sqsgh5TM",
-    "duration": 628
+    "name": "Scrapy 1 (Felipe Besson)",
+    "duration": 628,
+    "embedUrl": "https://www.youtube.com/embed/rj8Sqsgh5TM"
   },
   {
     "id": 532,
-    "title": "Scrapy 2 (Felipe Besson)",
-    "embedUrl": "https://www.youtube.com/embed/DRfEY-qzyvk",
-    "duration": 581
+    "name": "Scrapy 2 (Felipe Besson)",
+    "duration": 581,
+    "embedUrl": "https://www.youtube.com/embed/DRfEY-qzyvk"
   },
   {
     "id": 533,
-    "title": "Inspeção de elementos de uma página Web - Scrapy 3 (Felipe Besson)",
-    "embedUrl": "https://www.youtube.com/embed/SXA58yKo9IY",
-    "duration": 84
+    "name": "Inspeção de elementos de uma página Web - Scrapy 3 (Felipe Besson)",
+    "duration": 84,
+    "embedUrl": "https://www.youtube.com/embed/SXA58yKo9IY"
   },
   {
     "id": 534,
-    "title": "Jogos (Alfredo Goldman)",
-    "embedUrl": "https://www.youtube.com/embed/HQ2q8-EmUCs",
-    "duration": 378
+    "name": "Jogos (Alfredo Goldman)",
+    "duration": 378,
+    "embedUrl": "https://www.youtube.com/embed/HQ2q8-EmUCs"
   },
   {
     "id": 535,
-    "title": "Dicas finais para o exercício COH-PIAH",
-    "embedUrl": "https://www.youtube.com/embed/6Z2wLXGdPCM",
-    "duration": 417
+    "name": "Dicas finais para o exercício COH-PIAH",
+    "duration": 417,
+    "embedUrl": "https://www.youtube.com/embed/6Z2wLXGdPCM"
   },
   {
     "id": 536,
-    "title": "Impactos da Computação na Sociedade - Software livre no mundo e no Brasil",
-    "embedUrl": "https://www.youtube.com/embed/E8a6avKhZgA",
-    "duration": 1167
+    "name": "Impactos da Computação na Sociedade - Software livre no mundo e no Brasil",
+    "duration": 1167,
+    "embedUrl": "https://www.youtube.com/embed/E8a6avKhZgA"
   }
 ]

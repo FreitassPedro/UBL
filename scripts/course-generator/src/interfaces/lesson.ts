@@ -1,6 +1,6 @@
 export default interface Lesson {
   id: number;
-  title: string;
+  name: string;
   duration?: number;
   embedUrl: string;
 }

@@ -1,446 +1,446 @@
 [
   {
     "id": 817,
-    "title": "Introdução à análise de algoritmos",
-    "embedUrl": "https://www.youtube.com/embed/_HBTCUNPxOg",
-    "duration": 1407
+    "name": "Introdução à análise de algoritmos",
+    "duration": 1407,
+    "embedUrl": "https://www.youtube.com/embed/_HBTCUNPxOg"
   },
   {
     "id": 818,
-    "title": "Corretude de algoritmos (iterativos) - Invariante de laço",
-    "embedUrl": "https://www.youtube.com/embed/AQ7A2Z0TdM4",
-    "duration": 1467
+    "name": "Corretude de algoritmos (iterativos) - Invariante de laço",
+    "duration": 1467,
+    "embedUrl": "https://www.youtube.com/embed/AQ7A2Z0TdM4"
   },
   {
     "id": 819,
-    "title": "Corretude por invariante - Busca binária",
-    "embedUrl": "https://www.youtube.com/embed/_CNRkhN7Z2w",
-    "duration": 1124
+    "name": "Corretude por invariante - Busca binária",
+    "duration": 1124,
+    "embedUrl": "https://www.youtube.com/embed/_CNRkhN7Z2w"
   },
   {
     "id": 820,
-    "title": "Tempo de execução",
-    "embedUrl": "https://www.youtube.com/embed/JpbGKB6LF2g",
-    "duration": 1371
+    "name": "Tempo de execução",
+    "duration": 1371,
+    "embedUrl": "https://www.youtube.com/embed/JpbGKB6LF2g"
   },
   {
     "id": 821,
-    "title": "Tempo de execução (análise de casos)",
-    "embedUrl": "https://www.youtube.com/embed/JlHfhLQ2qrc",
-    "duration": 729
+    "name": "Tempo de execução (análise de casos)",
+    "duration": 729,
+    "embedUrl": "https://www.youtube.com/embed/JlHfhLQ2qrc"
   },
   {
     "id": 822,
-    "title": "Notação assintótica (O)",
-    "embedUrl": "https://www.youtube.com/embed/gjw7AaOs9P8",
-    "duration": 1118
+    "name": "Notação assintótica (O)",
+    "duration": 1118,
+    "embedUrl": "https://www.youtube.com/embed/gjw7AaOs9P8"
   },
   {
     "id": 823,
-    "title": "Notação assintótica (Ω e Θ)",
-    "embedUrl": "https://www.youtube.com/embed/t0MhdT7Z-_U",
-    "duration": 798
+    "name": "Notação assintótica (Ω e Θ)",
+    "duration": 798,
+    "embedUrl": "https://www.youtube.com/embed/t0MhdT7Z-_U"
   },
   {
     "id": 824,
-    "title": "Exemplos com notação assintótica",
-    "embedUrl": "https://www.youtube.com/embed/vqVnHLett28",
-    "duration": 1522
+    "name": "Exemplos com notação assintótica",
+    "duration": 1522,
+    "embedUrl": "https://www.youtube.com/embed/vqVnHLett28"
   },
   {
     "id": 825,
-    "title": "Tempo de execução com notação assintótica",
-    "embedUrl": "https://www.youtube.com/embed/xRkq-wMRHqk",
-    "duration": 1366
+    "name": "Tempo de execução com notação assintótica",
+    "duration": 1366,
+    "embedUrl": "https://www.youtube.com/embed/xRkq-wMRHqk"
   },
   {
     "id": 826,
-    "title": "Insertion Sort",
-    "embedUrl": "https://www.youtube.com/embed/pfCjJqTKvFY",
-    "duration": 3204
+    "name": "Insertion Sort",
+    "duration": 3204,
+    "embedUrl": "https://www.youtube.com/embed/pfCjJqTKvFY"
   },
   {
     "id": 827,
-    "title": "Recursão e corretude (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/tOEP5wnnaBk",
-    "duration": 1003
+    "name": "Recursão e corretude (parte 1)",
+    "duration": 1003,
+    "embedUrl": "https://www.youtube.com/embed/tOEP5wnnaBk"
   },
   {
     "id": 828,
-    "title": "Recursão e corretude (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/L6BvI9M7UHU",
-    "duration": 998
+    "name": "Recursão e corretude (parte 2)",
+    "duration": 998,
+    "embedUrl": "https://www.youtube.com/embed/L6BvI9M7UHU"
   },
   {
     "id": 829,
-    "title": "Recorrências",
-    "embedUrl": "https://www.youtube.com/embed/RGXa85ZUAmY",
-    "duration": 563
+    "name": "Recorrências",
+    "duration": 563,
+    "embedUrl": "https://www.youtube.com/embed/RGXa85ZUAmY"
   },
   {
     "id": 830,
-    "title": "Mergesort",
-    "embedUrl": "https://www.youtube.com/embed/RxDK2sgwWUk",
-    "duration": 704
+    "name": "Mergesort",
+    "duration": 704,
+    "embedUrl": "https://www.youtube.com/embed/RxDK2sgwWUk"
   },
   {
     "id": 831,
-    "title": "Mergesort (corretude e tempo)",
-    "embedUrl": "https://www.youtube.com/embed/g63dqkcDOG4",
-    "duration": 1424
+    "name": "Mergesort (corretude e tempo)",
+    "duration": 1424,
+    "embedUrl": "https://www.youtube.com/embed/g63dqkcDOG4"
   },
   {
     "id": 832,
-    "title": "Divisão e conquista",
-    "embedUrl": "https://www.youtube.com/embed/BCNTkGtNfDw",
-    "duration": 168
+    "name": "Divisão e conquista",
+    "duration": 168,
+    "embedUrl": "https://www.youtube.com/embed/BCNTkGtNfDw"
   },
   {
     "id": 833,
-    "title": "Método da substituição (resolvendo recorrências)",
-    "embedUrl": "https://www.youtube.com/embed/W4zD3LVPQyA",
-    "duration": 1257
+    "name": "Método da substituição (resolvendo recorrências)",
+    "duration": 1257,
+    "embedUrl": "https://www.youtube.com/embed/W4zD3LVPQyA"
   },
   {
     "id": 834,
-    "title": "Método da substituição (mais exemplos)",
-    "embedUrl": "https://www.youtube.com/embed/vWh0C-jkNFI",
-    "duration": 714
+    "name": "Método da substituição (mais exemplos)",
+    "duration": 714,
+    "embedUrl": "https://www.youtube.com/embed/vWh0C-jkNFI"
   },
   {
     "id": 835,
-    "title": "Método da iteração (resolvendo recorrências)",
-    "embedUrl": "https://www.youtube.com/embed/ctlpzZ5Gqyg",
-    "duration": 1296
+    "name": "Método da iteração (resolvendo recorrências)",
+    "duration": 1296,
+    "embedUrl": "https://www.youtube.com/embed/ctlpzZ5Gqyg"
   },
   {
     "id": 836,
-    "title": "Método da iteração (mais exemplos)",
-    "embedUrl": "https://www.youtube.com/embed/5AVfVJxIpP0",
-    "duration": 567
+    "name": "Método da iteração (mais exemplos)",
+    "duration": 567,
+    "embedUrl": "https://www.youtube.com/embed/5AVfVJxIpP0"
   },
   {
     "id": 837,
-    "title": "Método da árvore de recursão (resolvendo recorrências)",
-    "embedUrl": "https://www.youtube.com/embed/9IEiJ0sDtTE",
-    "duration": 1160
+    "name": "Método da árvore de recursão (resolvendo recorrências)",
+    "duration": 1160,
+    "embedUrl": "https://www.youtube.com/embed/9IEiJ0sDtTE"
   },
   {
     "id": 838,
-    "title": "Método Mestre (resolvendo recorrências)",
-    "embedUrl": "https://www.youtube.com/embed/6FcHxGcZnIQ",
-    "duration": 1416
+    "name": "Método Mestre (resolvendo recorrências)",
+    "duration": 1416,
+    "embedUrl": "https://www.youtube.com/embed/6FcHxGcZnIQ"
   },
   {
     "id": 839,
-    "title": "Método Mestre (demonstração)",
-    "embedUrl": "https://www.youtube.com/embed/j1XWCLZ3-mU",
-    "duration": 511
+    "name": "Método Mestre (demonstração)",
+    "duration": 511,
+    "embedUrl": "https://www.youtube.com/embed/j1XWCLZ3-mU"
   },
   {
     "id": 840,
-    "title": "SelectionSort",
-    "embedUrl": "https://www.youtube.com/embed/FUlmg8HsF4k",
-    "duration": 461
+    "name": "SelectionSort",
+    "duration": 461,
+    "embedUrl": "https://www.youtube.com/embed/FUlmg8HsF4k"
   },
   {
     "id": 841,
-    "title": "Heap: conceitos iniciais",
-    "embedUrl": "https://www.youtube.com/embed/m_H7bBNC35I",
-    "duration": 919
+    "name": "Heap: conceitos iniciais",
+    "duration": 919,
+    "embedUrl": "https://www.youtube.com/embed/m_H7bBNC35I"
   },
   {
     "id": 842,
-    "title": "Heap: manutenção da propriedade (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/DtvOvTEINyE",
-    "duration": 900
+    "name": "Heap: manutenção da propriedade (parte 1)",
+    "duration": 900,
+    "embedUrl": "https://www.youtube.com/embed/DtvOvTEINyE"
   },
   {
     "id": 843,
-    "title": "Heap: manutenção da propriedade (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/hfJO-FnaXkA",
-    "duration": 403
+    "name": "Heap: manutenção da propriedade (parte 2)",
+    "duration": 403,
+    "embedUrl": "https://www.youtube.com/embed/hfJO-FnaXkA"
   },
   {
     "id": 844,
-    "title": "Heap: alteração da estrutura (insere, remove e atualiza)",
-    "embedUrl": "https://www.youtube.com/embed/v3xF3bKChnI",
-    "duration": 608
+    "name": "Heap: alteração da estrutura (insere, remove e atualiza)",
+    "duration": 608,
+    "embedUrl": "https://www.youtube.com/embed/v3xF3bKChnI"
   },
   {
     "id": 845,
-    "title": "Heap: construção",
-    "embedUrl": "https://www.youtube.com/embed/t8a7XQ9E1gM",
-    "duration": 764
+    "name": "Heap: construção",
+    "duration": 764,
+    "embedUrl": "https://www.youtube.com/embed/t8a7XQ9E1gM"
   },
   {
     "id": 846,
-    "title": "Heapsort",
-    "embedUrl": "https://www.youtube.com/embed/MPfycf5Unj8",
-    "duration": 724
+    "name": "Heapsort",
+    "duration": 724,
+    "embedUrl": "https://www.youtube.com/embed/MPfycf5Unj8"
   },
   {
     "id": 847,
-    "title": "Ordenação",
-    "embedUrl": "https://www.youtube.com/embed/urgJPOXfTAA",
-    "duration": 278
+    "name": "Ordenação",
+    "duration": 278,
+    "embedUrl": "https://www.youtube.com/embed/urgJPOXfTAA"
   },
   {
     "id": 848,
-    "title": "Grafos: motivação",
-    "embedUrl": "https://www.youtube.com/embed/cTDolIbWrnc",
-    "duration": 445
+    "name": "Grafos: motivação",
+    "duration": 445,
+    "embedUrl": "https://www.youtube.com/embed/cTDolIbWrnc"
   },
   {
     "id": 849,
-    "title": "Grafos: definição formal e conceitos essenciais",
-    "embedUrl": "https://www.youtube.com/embed/RqWbrsv58lg",
-    "duration": 833
+    "name": "Grafos: definição formal e conceitos essenciais",
+    "duration": 833,
+    "embedUrl": "https://www.youtube.com/embed/RqWbrsv58lg"
   },
   {
     "id": 850,
-    "title": "Representação de grafos",
-    "embedUrl": "https://www.youtube.com/embed/6YP0VGElhR8",
-    "duration": 830
+    "name": "Representação de grafos",
+    "duration": 830,
+    "embedUrl": "https://www.youtube.com/embed/6YP0VGElhR8"
   },
   {
     "id": 851,
-    "title": "Introdução a análise de algoritmos em grafos",
-    "embedUrl": "https://www.youtube.com/embed/lLVDziVfbgQ",
-    "duration": 433
+    "name": "Introdução a análise de algoritmos em grafos",
+    "duration": 433,
+    "embedUrl": "https://www.youtube.com/embed/lLVDziVfbgQ"
   },
   {
     "id": 852,
-    "title": "Remoção de um vértice em grafos",
-    "embedUrl": "https://www.youtube.com/embed/645q30mcz7w",
-    "duration": 1374
+    "name": "Remoção de um vértice em grafos",
+    "duration": 1374,
+    "embedUrl": "https://www.youtube.com/embed/645q30mcz7w"
   },
   {
     "id": 853,
-    "title": "Subgrafos, passeios, caminhos e ciclos",
-    "embedUrl": "https://www.youtube.com/embed/E5XHLl2oVtA",
-    "duration": 509
+    "name": "Subgrafos, passeios, caminhos e ciclos",
+    "duration": 509,
+    "embedUrl": "https://www.youtube.com/embed/E5XHLl2oVtA"
   },
   {
     "id": 854,
-    "title": "Conexidade em (di)grafos",
-    "embedUrl": "https://www.youtube.com/embed/VHT844YrwWI",
-    "duration": 476
+    "name": "Conexidade em (di)grafos",
+    "duration": 476,
+    "embedUrl": "https://www.youtube.com/embed/VHT844YrwWI"
   },
   {
     "id": 855,
-    "title": "Distância em (di)grafos",
-    "embedUrl": "https://www.youtube.com/embed/KtNqatY4nMA",
-    "duration": 552
+    "name": "Distância em (di)grafos",
+    "duration": 552,
+    "embedUrl": "https://www.youtube.com/embed/KtNqatY4nMA"
   },
   {
     "id": 856,
-    "title": "Árvores (grafos)",
-    "embedUrl": "https://www.youtube.com/embed/flyK0iVIHgI",
-    "duration": 969
+    "name": "Árvores (grafos)",
+    "duration": 969,
+    "embedUrl": "https://www.youtube.com/embed/flyK0iVIHgI"
   },
   {
     "id": 857,
-    "title": "Algoritmos de busca em grafos",
-    "embedUrl": "https://www.youtube.com/embed/E8yuPq6u-58",
-    "duration": 994
+    "name": "Algoritmos de busca em grafos",
+    "duration": 994,
+    "embedUrl": "https://www.youtube.com/embed/E8yuPq6u-58"
   },
   {
     "id": 858,
-    "title": "Busca em largura",
-    "embedUrl": "https://www.youtube.com/embed/lDvkB3s_Jnw",
-    "duration": 889
+    "name": "Busca em largura",
+    "duration": 889,
+    "embedUrl": "https://www.youtube.com/embed/lDvkB3s_Jnw"
   },
   {
     "id": 859,
-    "title": "Busca em profundidade",
-    "embedUrl": "https://www.youtube.com/embed/e7eSEbY5wSE",
-    "duration": 1029
+    "name": "Busca em profundidade",
+    "duration": 1029,
+    "embedUrl": "https://www.youtube.com/embed/e7eSEbY5wSE"
   },
   {
     "id": 860,
-    "title": "Aplicações das buscas em largura e em profundidade",
-    "embedUrl": "https://www.youtube.com/embed/KQoh-wPqrb4",
-    "duration": 498
+    "name": "Aplicações das buscas em largura e em profundidade",
+    "duration": 498,
+    "embedUrl": "https://www.youtube.com/embed/KQoh-wPqrb4"
   },
   {
     "id": 861,
-    "title": "Busca em digrafos",
-    "embedUrl": "https://www.youtube.com/embed/uCX-ldXlku4",
-    "duration": 1148
+    "name": "Busca em digrafos",
+    "duration": 1148,
+    "embedUrl": "https://www.youtube.com/embed/uCX-ldXlku4"
   },
   {
     "id": 862,
-    "title": "Técnicas de projeto de algoritmos e problemas de otimização",
-    "embedUrl": "https://www.youtube.com/embed/lvtCMZSZ5EE",
-    "duration": 559
+    "name": "Técnicas de projeto de algoritmos e problemas de otimização",
+    "duration": 559,
+    "embedUrl": "https://www.youtube.com/embed/lvtCMZSZ5EE"
   },
   {
     "id": 863,
-    "title": "Algoritmos gulosos e Problema das Tarefas Compatíveis",
-    "embedUrl": "https://www.youtube.com/embed/PCMcGPknMwk",
-    "duration": 1801
+    "name": "Algoritmos gulosos e Problema das Tarefas Compatíveis",
+    "duration": 1801,
+    "embedUrl": "https://www.youtube.com/embed/PCMcGPknMwk"
   },
   {
     "id": 864,
-    "title": "Problema da mochila fracionária",
-    "embedUrl": "https://www.youtube.com/embed/wuLAH-7qYDY",
-    "duration": 1338
+    "name": "Problema da mochila fracionária",
+    "duration": 1338,
+    "embedUrl": "https://www.youtube.com/embed/wuLAH-7qYDY"
   },
   {
     "id": 865,
-    "title": "Mochila fracionária - Prova de otimalidade do algoritmo",
-    "embedUrl": "https://www.youtube.com/embed/CRYjHV_29gU",
-    "duration": 1006
+    "name": "Mochila fracionária - Prova de otimalidade do algoritmo",
+    "duration": 1006,
+    "embedUrl": "https://www.youtube.com/embed/CRYjHV_29gU"
   },
   {
     "id": 866,
-    "title": "Problema da árvore geradora mínima",
-    "embedUrl": "https://www.youtube.com/embed/OUAf-RmK59g",
-    "duration": 1589
+    "name": "Problema da árvore geradora mínima",
+    "duration": 1589,
+    "embedUrl": "https://www.youtube.com/embed/OUAf-RmK59g"
   },
   {
     "id": 867,
-    "title": "Algoritmo de Kruskal",
-    "embedUrl": "https://www.youtube.com/embed/RXIiK_nvkoQ",
-    "duration": 807
+    "name": "Algoritmo de Kruskal",
+    "duration": 807,
+    "embedUrl": "https://www.youtube.com/embed/RXIiK_nvkoQ"
   },
   {
     "id": 868,
-    "title": "Algoritmo de Kruskal - Tempo de execução (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/J5HDjZA53Os",
-    "duration": 579
+    "name": "Algoritmo de Kruskal - Tempo de execução (parte 1)",
+    "duration": 579,
+    "embedUrl": "https://www.youtube.com/embed/J5HDjZA53Os"
   },
   {
     "id": 869,
-    "title": "Union-Find",
-    "embedUrl": "https://www.youtube.com/embed/OzFKSD2CA7E",
-    "duration": 1278
+    "name": "Union-Find",
+    "duration": 1278,
+    "embedUrl": "https://www.youtube.com/embed/OzFKSD2CA7E"
   },
   {
     "id": 870,
-    "title": "Algoritmo de Kruskal - Tempo de execução (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/IxVWTXisv2Q",
-    "duration": 1061
+    "name": "Algoritmo de Kruskal - Tempo de execução (parte 2)",
+    "duration": 1061,
+    "embedUrl": "https://www.youtube.com/embed/IxVWTXisv2Q"
   },
   {
     "id": 871,
-    "title": "Problemas de caminhos mínimos",
-    "embedUrl": "https://www.youtube.com/embed/k1kW1HWtD08",
-    "duration": 427
+    "name": "Problemas de caminhos mínimos",
+    "duration": 427,
+    "embedUrl": "https://www.youtube.com/embed/k1kW1HWtD08"
   },
   {
     "id": 872,
-    "title": "Algoritmo de Dijkstra",
-    "embedUrl": "https://www.youtube.com/embed/_bzpo50PLyg",
-    "duration": 1433
+    "name": "Algoritmo de Dijkstra",
+    "duration": 1433,
+    "embedUrl": "https://www.youtube.com/embed/_bzpo50PLyg"
   },
   {
     "id": 873,
-    "title": "Algoritmo de Dijkstra - Corretude",
-    "embedUrl": "https://www.youtube.com/embed/578n2FCZ67k",
-    "duration": 598
+    "name": "Algoritmo de Dijkstra - Corretude",
+    "duration": 598,
+    "embedUrl": "https://www.youtube.com/embed/578n2FCZ67k"
   },
   {
     "id": 874,
-    "title": "Algoritmo de Dijkstra - Tempo de execução",
-    "embedUrl": "https://www.youtube.com/embed/1RvlOqDOGYM",
-    "duration": 929
+    "name": "Algoritmo de Dijkstra - Tempo de execução",
+    "duration": 929,
+    "embedUrl": "https://www.youtube.com/embed/1RvlOqDOGYM"
   },
   {
     "id": 875,
-    "title": "Programação dinâmica e número de Fibonacci",
-    "embedUrl": "https://www.youtube.com/embed/7ZI0U8nJ_8E",
-    "duration": 1494
+    "name": "Programação dinâmica e número de Fibonacci",
+    "duration": 1494,
+    "embedUrl": "https://www.youtube.com/embed/7ZI0U8nJ_8E"
   },
   {
     "id": 876,
-    "title": "Problema do corte da barra de ferro",
-    "embedUrl": "https://www.youtube.com/embed/_-zOuCUql0E",
-    "duration": 3069
+    "name": "Problema do corte da barra de ferro",
+    "duration": 3069,
+    "embedUrl": "https://www.youtube.com/embed/_-zOuCUql0E"
   },
   {
     "id": 877,
-    "title": "Problema da mochila (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/PhDi025n5Uw",
-    "duration": 1525
+    "name": "Problema da mochila (parte 1)",
+    "duration": 1525,
+    "embedUrl": "https://www.youtube.com/embed/PhDi025n5Uw"
   },
   {
     "id": 878,
-    "title": "Problema da mochila (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/aQOFxHoVT4I",
-    "duration": 1346
+    "name": "Problema da mochila (parte 2)",
+    "duration": 1346,
+    "embedUrl": "https://www.youtube.com/embed/aQOFxHoVT4I"
   },
   {
     "id": 879,
-    "title": "Problema do alinhamento de sequências",
-    "embedUrl": "https://www.youtube.com/embed/kVHS3gWA5dQ",
-    "duration": 1610
+    "name": "Problema do alinhamento de sequências",
+    "duration": 1610,
+    "embedUrl": "https://www.youtube.com/embed/kVHS3gWA5dQ"
   },
   {
     "id": 880,
-    "title": "Algoritmo de Floyd-Warshall (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/zL51gTKF0o8",
-    "duration": 1028
+    "name": "Algoritmo de Floyd-Warshall (parte 1)",
+    "duration": 1028,
+    "embedUrl": "https://www.youtube.com/embed/zL51gTKF0o8"
   },
   {
     "id": 881,
-    "title": "Algoritmo de Floyd-Warshall (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/SslGFcvyQ8I",
-    "duration": 895
+    "name": "Algoritmo de Floyd-Warshall (parte 2)",
+    "duration": 895,
+    "embedUrl": "https://www.youtube.com/embed/SslGFcvyQ8I"
   },
   {
     "id": 882,
-    "title": "Introdução à redução",
-    "embedUrl": "https://www.youtube.com/embed/_NxAewEN4a8",
-    "duration": 1759
+    "name": "Introdução à redução",
+    "duration": 1759,
+    "embedUrl": "https://www.youtube.com/embed/_NxAewEN4a8"
   },
   {
     "id": 883,
-    "title": "Problemas de decisão",
-    "embedUrl": "https://www.youtube.com/embed/9NQNV0HVwcg",
-    "duration": 856
+    "name": "Problemas de decisão",
+    "duration": 856,
+    "embedUrl": "https://www.youtube.com/embed/9NQNV0HVwcg"
   },
   {
     "id": 884,
-    "title": "Redução entre problemas",
-    "embedUrl": "https://www.youtube.com/embed/nbrTYPXiUV8",
-    "duration": 2677
+    "name": "Redução entre problemas",
+    "duration": 2677,
+    "embedUrl": "https://www.youtube.com/embed/nbrTYPXiUV8"
   },
   {
     "id": 885,
-    "title": "A importância da redução",
-    "embedUrl": "https://www.youtube.com/embed/BghNkJH2Ybw",
-    "duration": 379
+    "name": "A importância da redução",
+    "duration": 379,
+    "embedUrl": "https://www.youtube.com/embed/BghNkJH2Ybw"
   },
   {
     "id": 886,
-    "title": "As classes P e NP",
-    "embedUrl": "https://www.youtube.com/embed/z_hGP6EYgio",
-    "duration": 544
+    "name": "As classes P e NP",
+    "duration": 544,
+    "embedUrl": "https://www.youtube.com/embed/z_hGP6EYgio"
   },
   {
     "id": 887,
-    "title": "Problemas NP-completos",
-    "embedUrl": "https://www.youtube.com/embed/VJucgdXGHyE",
-    "duration": 729
+    "name": "Problemas NP-completos",
+    "duration": 729,
+    "embedUrl": "https://www.youtube.com/embed/VJucgdXGHyE"
   },
   {
     "id": 888,
-    "title": "Um problema NP-completo",
-    "embedUrl": "https://www.youtube.com/embed/tMCWr3a-unk",
-    "duration": 769
+    "name": "Um problema NP-completo",
+    "duration": 769,
+    "embedUrl": "https://www.youtube.com/embed/tMCWr3a-unk"
   },
   {
     "id": 889,
-    "title": "Outros problemas NP-completos",
-    "embedUrl": "https://www.youtube.com/embed/jFIciOBUd9U",
-    "duration": 691
+    "name": "Outros problemas NP-completos",
+    "duration": 691,
+    "embedUrl": "https://www.youtube.com/embed/jFIciOBUd9U"
   },
   {
     "id": 890,
-    "title": "Caminhos mínimos com ciclos negativos",
-    "embedUrl": "https://www.youtube.com/embed/z4jJ9IyuCV8",
-    "duration": 282
+    "name": "Caminhos mínimos com ciclos negativos",
+    "duration": 282,
+    "embedUrl": "https://www.youtube.com/embed/z4jJ9IyuCV8"
   }
 ]

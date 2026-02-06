@@ -1,170 +1,170 @@
 [
   {
     "id": 2293,
-    "title": "Física Geral III: Aula 1 - Carga Elétrica - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/lfNvbJbYxFQ",
-    "duration": 1800
+    "name": "Física Geral III: Aula 1 - Carga Elétrica - Parte 1",
+    "duration": 1800,
+    "embedUrl": "https://www.youtube.com/embed/lfNvbJbYxFQ"
   },
   {
     "id": 2294,
-    "title": "Física Geral III - Aula 1 - Carga Elétrica - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/4SWzemMEY4w",
-    "duration": 2515
+    "name": "Física Geral III - Aula 1 - Carga Elétrica - Parte 2",
+    "duration": 2515,
+    "embedUrl": "https://www.youtube.com/embed/4SWzemMEY4w"
   },
   {
     "id": 2295,
-    "title": "Física Geral III - Aula 2 - Campo Elétrico - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/njsGDadL09g",
-    "duration": 2749
+    "name": "Física Geral III - Aula 2 - Campo Elétrico - Parte 1",
+    "duration": 2749,
+    "embedUrl": "https://www.youtube.com/embed/njsGDadL09g"
   },
   {
     "id": 2296,
-    "title": "Física Geral III - Aula 2 - Campo Elétrico - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/A01u84pUGVI",
-    "duration": 2343
+    "name": "Física Geral III - Aula 2 - Campo Elétrico - Parte 2",
+    "duration": 2343,
+    "embedUrl": "https://www.youtube.com/embed/A01u84pUGVI"
   },
   {
     "id": 2297,
-    "title": "Física Geral III - Aula 3 - Lei de Gauss - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/C2Tl8twv1_Q",
-    "duration": 2919
+    "name": "Física Geral III - Aula 3 - Lei de Gauss - Parte 1",
+    "duration": 2919,
+    "embedUrl": "https://www.youtube.com/embed/C2Tl8twv1_Q"
   },
   {
     "id": 2298,
-    "title": "Física Geral III - Aula 3 - Lei de Gauss - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/8ZShQQahhJc",
-    "duration": 2687
+    "name": "Física Geral III - Aula 3 - Lei de Gauss - Parte 2",
+    "duration": 2687,
+    "embedUrl": "https://www.youtube.com/embed/8ZShQQahhJc"
   },
   {
     "id": 2299,
-    "title": "Física Geral III - Aula 4 - Potencial Elétrico - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/g5BhOVeT6JM",
-    "duration": 2775
+    "name": "Física Geral III - Aula 4 - Potencial Elétrico - Parte 1",
+    "duration": 2775,
+    "embedUrl": "https://www.youtube.com/embed/g5BhOVeT6JM"
   },
   {
     "id": 2300,
-    "title": "Física Geral III - Aula 4 - Potencial Elétrico - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/81m2JfIdL5k",
-    "duration": 2714
+    "name": "Física Geral III - Aula 4 - Potencial Elétrico - Parte 2",
+    "duration": 2714,
+    "embedUrl": "https://www.youtube.com/embed/81m2JfIdL5k"
   },
   {
     "id": 2301,
-    "title": "Física Geral III - Aula 5 - Capacitores e Dielétricos - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/08B6k_8RMxg",
-    "duration": 2665
+    "name": "Física Geral III - Aula 5 - Capacitores e Dielétricos - Parte 1",
+    "duration": 2665,
+    "embedUrl": "https://www.youtube.com/embed/08B6k_8RMxg"
   },
   {
     "id": 2302,
-    "title": "Física Geral III - Aula 5 - Capacitores e Dielétricos - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/BLRMUltW5h8",
-    "duration": 2683
+    "name": "Física Geral III - Aula 5 - Capacitores e Dielétricos - Parte 2",
+    "duration": 2683,
+    "embedUrl": "https://www.youtube.com/embed/BLRMUltW5h8"
   },
   {
     "id": 2303,
-    "title": "Física Geral III - Aula 6 - Resistência - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/kQb6T5MiRLM",
-    "duration": 2750
+    "name": "Física Geral III - Aula 6 - Resistência - Parte 1",
+    "duration": 2750,
+    "embedUrl": "https://www.youtube.com/embed/kQb6T5MiRLM"
   },
   {
     "id": 2304,
-    "title": "Física Geral III - Aula 6 - Resistência - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/8uH2NGL3NHc",
-    "duration": 2421
+    "name": "Física Geral III - Aula 6 - Resistência - Parte 2",
+    "duration": 2421,
+    "embedUrl": "https://www.youtube.com/embed/8uH2NGL3NHc"
   },
   {
     "id": 2305,
-    "title": "Física Geral III - Aula 7 - Circuitos - parte 1",
-    "embedUrl": "https://www.youtube.com/embed/P-gnSiahFaA",
-    "duration": 2618
+    "name": "Física Geral III - Aula 7 - Circuitos - parte 1",
+    "duration": 2618,
+    "embedUrl": "https://www.youtube.com/embed/P-gnSiahFaA"
   },
   {
     "id": 2306,
-    "title": "Física Geral III - Aula 7 - Circuitos - parte 2",
-    "embedUrl": "https://www.youtube.com/embed/nYYFrOzv2vQ",
-    "duration": 2549
+    "name": "Física Geral III - Aula 7 - Circuitos - parte 2",
+    "duration": 2549,
+    "embedUrl": "https://www.youtube.com/embed/nYYFrOzv2vQ"
   },
   {
     "id": 2307,
-    "title": "Física Geral III - Aula 8 - Campo Magnético - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/mRIxLpyh_xo",
-    "duration": 2816
+    "name": "Física Geral III - Aula 8 - Campo Magnético - Parte 1",
+    "duration": 2816,
+    "embedUrl": "https://www.youtube.com/embed/mRIxLpyh_xo"
   },
   {
     "id": 2308,
-    "title": "Física Geral III - Aula 8 - Campo Magnético - parte 2",
-    "embedUrl": "https://www.youtube.com/embed/Jsa6ixez3bc",
-    "duration": 2765
+    "name": "Física Geral III - Aula 8 - Campo Magnético - parte 2",
+    "duration": 2765,
+    "embedUrl": "https://www.youtube.com/embed/Jsa6ixez3bc"
   },
   {
     "id": 2309,
-    "title": "Física Geral III - Aula 9 - Campos Magnéticos Produzidos por Correntes - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/FcisdpsqoJE",
-    "duration": 2730
+    "name": "Física Geral III - Aula 9 - Campos Magnéticos Produzidos por Correntes - Parte 1",
+    "duration": 2730,
+    "embedUrl": "https://www.youtube.com/embed/FcisdpsqoJE"
   },
   {
     "id": 2310,
-    "title": "Física Geral III - Aula 9 - Campos Magnéticos Produzidos por Correntes - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/qtxUAEoYGiM",
-    "duration": 2836
+    "name": "Física Geral III - Aula 9 - Campos Magnéticos Produzidos por Correntes - Parte 2",
+    "duration": 2836,
+    "embedUrl": "https://www.youtube.com/embed/qtxUAEoYGiM"
   },
   {
     "id": 2311,
-    "title": "Física Geral III - Aula 10 - Lei de Faraday da Indução - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/sX68xgzgzB8",
-    "duration": 2547
+    "name": "Física Geral III - Aula 10 - Lei de Faraday da Indução - Parte 1",
+    "duration": 2547,
+    "embedUrl": "https://www.youtube.com/embed/sX68xgzgzB8"
   },
   {
     "id": 2312,
-    "title": "Física Geral III - Aula 10 - Lei de Faraday da Indução - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/VocDVWgygHQ",
-    "duration": 2720
+    "name": "Física Geral III - Aula 10 - Lei de Faraday da Indução - Parte 2",
+    "duration": 2720,
+    "embedUrl": "https://www.youtube.com/embed/VocDVWgygHQ"
   },
   {
     "id": 2313,
-    "title": "Física Geral III - Aula 11 - Indução - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/msh4bFgKsws",
-    "duration": 2931
+    "name": "Física Geral III - Aula 11 - Indução - Parte 1",
+    "duration": 2931,
+    "embedUrl": "https://www.youtube.com/embed/msh4bFgKsws"
   },
   {
     "id": 2314,
-    "title": "Física Geral III - Aula 11 - Indução - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/zk8Y0XdPUJ0",
-    "duration": 2750
+    "name": "Física Geral III - Aula 11 - Indução - Parte 2",
+    "duration": 2750,
+    "embedUrl": "https://www.youtube.com/embed/zk8Y0XdPUJ0"
   },
   {
     "id": 2315,
-    "title": "Física Geral III - Aula 12 - Oscilações Eletromagnéticas - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/tmC0pTww988",
-    "duration": 2732
+    "name": "Física Geral III - Aula 12 - Oscilações Eletromagnéticas - Parte 1",
+    "duration": 2732,
+    "embedUrl": "https://www.youtube.com/embed/tmC0pTww988"
   },
   {
     "id": 2316,
-    "title": "Física Geral III - Aula 12 - Oscilações Eletromagnéticas - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/mJcVQi6FPBo",
-    "duration": 2817
+    "name": "Física Geral III - Aula 12 - Oscilações Eletromagnéticas - Parte 2",
+    "duration": 2817,
+    "embedUrl": "https://www.youtube.com/embed/mJcVQi6FPBo"
   },
   {
     "id": 2317,
-    "title": "Física Geral III - Aula 13 - Correntes Alternadas - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/cG-6uy-hbbc",
-    "duration": 2766
+    "name": "Física Geral III - Aula 13 - Correntes Alternadas - Parte 1",
+    "duration": 2766,
+    "embedUrl": "https://www.youtube.com/embed/cG-6uy-hbbc"
   },
   {
     "id": 2318,
-    "title": "Física Geral III - Aula 13 - Correntes Alternadas - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/UlACnG24z14",
-    "duration": 2794
+    "name": "Física Geral III - Aula 13 - Correntes Alternadas - Parte 2",
+    "duration": 2794,
+    "embedUrl": "https://www.youtube.com/embed/UlACnG24z14"
   },
   {
     "id": 2319,
-    "title": "Física Geral III - aula 14 - Magnetismo - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/3CgGG7AHPJs",
-    "duration": 2567
+    "name": "Física Geral III - aula 14 - Magnetismo - Parte 1",
+    "duration": 2567,
+    "embedUrl": "https://www.youtube.com/embed/3CgGG7AHPJs"
   },
   {
     "id": 2320,
-    "title": "Física Geral III - Aula 14 - Magnetismo - Parte 2",
-    "embedUrl": "https://www.youtube.com/embed/WoZ8kCGQZEE",
-    "duration": 3008
+    "name": "Física Geral III - Aula 14 - Magnetismo - Parte 2",
+    "duration": 3008,
+    "embedUrl": "https://www.youtube.com/embed/WoZ8kCGQZEE"
   }
 ]

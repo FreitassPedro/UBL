@@ -1,103 +1,103 @@
 [
   {
     "id": 996,
-    "title": "Introdução à Engenharia de Software",
-    "embedUrl": "https://www.youtube.com/embed/h_hEI1Kfm2U",
-    "duration": 2772
+    "name": "Introdução à Engenharia de Software",
+    "duration": 2772,
+    "embedUrl": "https://www.youtube.com/embed/h_hEI1Kfm2U"
   },
   {
     "id": 997,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/z8qKNnzLpq0"
   },
   {
     "id": 998,
-    "title": "Processos de Desenvolvimento de Software",
-    "embedUrl": "https://www.youtube.com/embed/kZImAXvRjH8",
-    "duration": 2676
+    "name": "Processos de Desenvolvimento de Software",
+    "duration": 2676,
+    "embedUrl": "https://www.youtube.com/embed/kZImAXvRjH8"
   },
   {
     "id": 999,
-    "title": "Resolução da Segunda Lista de Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/r4q87TQppqU",
-    "duration": 2344
+    "name": "Resolução da Segunda Lista de Exercícios",
+    "duration": 2344,
+    "embedUrl": "https://www.youtube.com/embed/r4q87TQppqU"
   },
   {
     "id": 1000,
-    "title": "Gerenciamento de Projetos",
-    "embedUrl": "https://www.youtube.com/embed/Y1jkAtxf2Rk",
-    "duration": 2496
+    "name": "Gerenciamento de Projetos",
+    "duration": 2496,
+    "embedUrl": "https://www.youtube.com/embed/Y1jkAtxf2Rk"
   },
   {
     "id": 1001,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/oU0cjcseadA"
   },
   {
     "id": 1002,
-    "title": "Requisitos de Software",
-    "embedUrl": "https://www.youtube.com/embed/Keex8BJW0vY",
-    "duration": 3746
+    "name": "Requisitos de Software",
+    "duration": 3746,
+    "embedUrl": "https://www.youtube.com/embed/Keex8BJW0vY"
   },
   {
     "id": 1003,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/E1_qn-7EV1o"
   },
   {
     "id": 1004,
-    "title": "Instruções para o projeto - Trello e Scrum",
-    "embedUrl": "https://www.youtube.com/embed/zAsK1KyQUjU",
-    "duration": 928
+    "name": "Instruções para o projeto - Trello e Scrum",
+    "duration": 928,
+    "embedUrl": "https://www.youtube.com/embed/zAsK1KyQUjU"
   },
   {
     "id": 1005,
-    "title": "Modelagem de Software",
-    "embedUrl": "https://www.youtube.com/embed/4dWX9gMYC68",
-    "duration": 2290
+    "name": "Modelagem de Software",
+    "duration": 2290,
+    "embedUrl": "https://www.youtube.com/embed/4dWX9gMYC68"
   },
   {
     "id": 1006,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/bveUf6Q9RP4"
   },
   {
     "id": 1007,
-    "title": "Princípios de Projeto",
-    "embedUrl": "https://www.youtube.com/embed/LbdEbcR7FX0",
-    "duration": 1389
+    "name": "Princípios de Projeto",
+    "duration": 1389,
+    "embedUrl": "https://www.youtube.com/embed/LbdEbcR7FX0"
   },
   {
     "id": 1008,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/_5wyVdgptww"
   },
   {
     "id": 1009,
-    "title": "Arquitetura de Software",
-    "embedUrl": "https://www.youtube.com/embed/BhvwJfEPH0Y",
-    "duration": 1322
+    "name": "Arquitetura de Software",
+    "duration": 1322,
+    "embedUrl": "https://www.youtube.com/embed/BhvwJfEPH0Y"
   },
   {
     "id": 1010,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/tSzYNoD35ik"
   },
   {
     "id": 1011,
-    "title": "Testes de Software",
-    "embedUrl": "https://www.youtube.com/embed/ixOwkMTA7bI",
-    "duration": 1667
+    "name": "Testes de Software",
+    "duration": 1667,
+    "embedUrl": "https://www.youtube.com/embed/ixOwkMTA7bI"
   },
   {
     "id": 1012,
-    "title": "Qualidade de Software",
-    "embedUrl": "https://www.youtube.com/embed/ReyvbXyCoGw",
-    "duration": 1173
+    "name": "Qualidade de Software",
+    "duration": 1173,
+    "embedUrl": "https://www.youtube.com/embed/ReyvbXyCoGw"
   },
   {
     "id": 1013,
-    "title": "Private video",
+    "name": "Private video",
     "embedUrl": "https://www.youtube.com/embed/NZY9EirCVLA"
   }
 ]

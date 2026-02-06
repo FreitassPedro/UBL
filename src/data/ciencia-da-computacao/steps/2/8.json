@@ -1,128 +1,128 @@
 [
   {
     "id": 458,
-    "title": "Estruturas de Dados: 01 Introdução",
-    "embedUrl": "https://www.youtube.com/embed/0hT3EKGhbpI",
-    "duration": 5734
+    "name": "Estruturas de Dados: 01 Introdução",
+    "duration": 5734,
+    "embedUrl": "https://www.youtube.com/embed/0hT3EKGhbpI"
   },
   {
     "id": 459,
-    "title": "Estruturas de Dados: 02 Análise de Algoritmos",
-    "embedUrl": "https://www.youtube.com/embed/YC620GsN1CM",
-    "duration": 4210
+    "name": "Estruturas de Dados: 02 Análise de Algoritmos",
+    "duration": 4210,
+    "embedUrl": "https://www.youtube.com/embed/YC620GsN1CM"
   },
   {
     "id": 460,
-    "title": "Estruturas de Dados: 03 Notação Assintótica",
-    "embedUrl": "https://www.youtube.com/embed/YR-gykNwQi8",
-    "duration": 4166
+    "name": "Estruturas de Dados: 03 Notação Assintótica",
+    "duration": 4166,
+    "embedUrl": "https://www.youtube.com/embed/YR-gykNwQi8"
   },
   {
     "id": 461,
-    "title": "Estruturas de Dados: 04 Vetores",
-    "embedUrl": "https://www.youtube.com/embed/VWSqqTeVE0s",
-    "duration": 4811
+    "name": "Estruturas de Dados: 04 Vetores",
+    "duration": 4811,
+    "embedUrl": "https://www.youtube.com/embed/VWSqqTeVE0s"
   },
   {
     "id": 462,
-    "title": "Estruturas de Dados: 05 Merge Sort",
-    "embedUrl": "https://www.youtube.com/embed/OFQpmKltwXg",
-    "duration": 5594
+    "name": "Estruturas de Dados: 05 Merge Sort",
+    "duration": 5594,
+    "embedUrl": "https://www.youtube.com/embed/OFQpmKltwXg"
   },
   {
     "id": 463,
-    "title": "Estruturas de Dados: 06 Pilhas e Filas",
-    "embedUrl": "https://www.youtube.com/embed/1fQjnt4kRcI",
-    "duration": 4099
+    "name": "Estruturas de Dados: 06 Pilhas e Filas",
+    "duration": 4099,
+    "embedUrl": "https://www.youtube.com/embed/1fQjnt4kRcI"
   },
   {
     "id": 464,
-    "title": "Estruturas de Dados: 07 Lista Encadeada",
-    "embedUrl": "https://www.youtube.com/embed/NDTEIPjNsdA",
-    "duration": 5735
+    "name": "Estruturas de Dados: 07 Lista Encadeada",
+    "duration": 5735,
+    "embedUrl": "https://www.youtube.com/embed/NDTEIPjNsdA"
   },
   {
     "id": 465,
-    "title": "Estruturas de Dados: 08 Implementando Ponteiros e Objetos",
-    "embedUrl": "https://www.youtube.com/embed/0lXpLZEvjHs",
-    "duration": 2486
+    "name": "Estruturas de Dados: 08 Implementando Ponteiros e Objetos",
+    "duration": 2486,
+    "embedUrl": "https://www.youtube.com/embed/0lXpLZEvjHs"
   },
   {
     "id": 466,
-    "title": "Estruturas de Dados: 09 Árvores Enraizadas",
-    "embedUrl": "https://www.youtube.com/embed/4ziQFHHW40Q",
-    "duration": 5744
+    "name": "Estruturas de Dados: 09 Árvores Enraizadas",
+    "duration": 5744,
+    "embedUrl": "https://www.youtube.com/embed/4ziQFHHW40Q"
   },
   {
     "id": 467,
-    "title": "Estruturas de Dados: 10 Percursos em Árvores",
-    "embedUrl": "https://www.youtube.com/embed/4kxDL9Wh8lQ",
-    "duration": 5135
+    "name": "Estruturas de Dados: 10 Percursos em Árvores",
+    "duration": 5135,
+    "embedUrl": "https://www.youtube.com/embed/4kxDL9Wh8lQ"
   },
   {
     "id": 468,
-    "title": "Estruturas de Dados: 11 Árvore Binária de Busca",
-    "embedUrl": "https://www.youtube.com/embed/f7sIuYI5M2Y",
-    "duration": 3801
+    "name": "Estruturas de Dados: 11 Árvore Binária de Busca",
+    "duration": 3801,
+    "embedUrl": "https://www.youtube.com/embed/f7sIuYI5M2Y"
   },
   {
     "id": 469,
-    "title": "Estruturas de Dados: 12 Inclusão e Remoção em Árvores Binárias de Busca",
-    "embedUrl": "https://www.youtube.com/embed/QA2wFn9nQU4",
-    "duration": 2597
+    "name": "Estruturas de Dados: 12 Inclusão e Remoção em Árvores Binárias de Busca",
+    "duration": 2597,
+    "embedUrl": "https://www.youtube.com/embed/QA2wFn9nQU4"
   },
   {
     "id": 470,
-    "title": "Estruturas de Dados: 13 Árvore Rubro-Negra",
-    "embedUrl": "https://www.youtube.com/embed/grWW36M8Qvw",
-    "duration": 2775
+    "name": "Estruturas de Dados: 13 Árvore Rubro-Negra",
+    "duration": 2775,
+    "embedUrl": "https://www.youtube.com/embed/grWW36M8Qvw"
   },
   {
     "id": 471,
-    "title": "Estruturas de Dados: 14 Inclusão em Árvore Rubro-Negra",
-    "embedUrl": "https://www.youtube.com/embed/NxF3xIBEAbE",
-    "duration": 4115
+    "name": "Estruturas de Dados: 14 Inclusão em Árvore Rubro-Negra",
+    "duration": 4115,
+    "embedUrl": "https://www.youtube.com/embed/NxF3xIBEAbE"
   },
   {
     "id": 472,
-    "title": "Estruturas de Dados: 15 Remoção em Árvore Rubro-Negra",
-    "embedUrl": "https://www.youtube.com/embed/wYD-DhVtLOQ",
-    "duration": 3738
+    "name": "Estruturas de Dados: 15 Remoção em Árvore Rubro-Negra",
+    "duration": 3738,
+    "embedUrl": "https://www.youtube.com/embed/wYD-DhVtLOQ"
   },
   {
     "id": 473,
-    "title": "Estruturas de Dados: 16 Árvore B",
-    "embedUrl": "https://www.youtube.com/embed/cNWVQ_3L6Ho",
-    "duration": 3398
+    "name": "Estruturas de Dados: 16 Árvore B",
+    "duration": 3398,
+    "embedUrl": "https://www.youtube.com/embed/cNWVQ_3L6Ho"
   },
   {
     "id": 474,
-    "title": "Estruturas de Dados: 17 Inclusão e Remoção em Árvore B",
-    "embedUrl": "https://www.youtube.com/embed/zR03qJOA_Tw",
-    "duration": 1795
+    "name": "Estruturas de Dados: 17 Inclusão e Remoção em Árvore B",
+    "duration": 1795,
+    "embedUrl": "https://www.youtube.com/embed/zR03qJOA_Tw"
   },
   {
     "id": 475,
-    "title": "Estruturas de Dados: 18 Dicionário",
-    "embedUrl": "https://www.youtube.com/embed/FH7hdrOpUhM",
-    "duration": 4758
+    "name": "Estruturas de Dados: 18 Dicionário",
+    "duration": 4758,
+    "embedUrl": "https://www.youtube.com/embed/FH7hdrOpUhM"
   },
   {
     "id": 476,
-    "title": "Estruturas de Dados: 19 Análise Amortizada",
-    "embedUrl": "https://www.youtube.com/embed/xfC5h3-9i_M",
-    "duration": 3910
+    "name": "Estruturas de Dados: 19 Análise Amortizada",
+    "duration": 3910,
+    "embedUrl": "https://www.youtube.com/embed/xfC5h3-9i_M"
   },
   {
     "id": 477,
-    "title": "Estruturas de Dados: 20 Lista de Prioridades",
-    "embedUrl": "https://www.youtube.com/embed/nQ1IEVFPJko",
-    "duration": 3418
+    "name": "Estruturas de Dados: 20 Lista de Prioridades",
+    "duration": 3418,
+    "embedUrl": "https://www.youtube.com/embed/nQ1IEVFPJko"
   },
   {
     "id": 478,
-    "title": "Estruturas de Dados: 21 Heaps e HeapSort",
-    "embedUrl": "https://www.youtube.com/embed/H2YQ3wGqdiM",
-    "duration": 1454
+    "name": "Estruturas de Dados: 21 Heaps e HeapSort",
+    "duration": 1454,
+    "embedUrl": "https://www.youtube.com/embed/H2YQ3wGqdiM"
   }
 ]

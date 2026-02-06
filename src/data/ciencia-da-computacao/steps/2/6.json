@@ -1,614 +1,614 @@
 [
   {
     "id": 333,
-    "title": "Cálculo I - Aula 1 (1/3) - Panorama do Cálculo Diferencial e Integral",
-    "embedUrl": "https://www.youtube.com/embed/WgHUHPlJETs",
-    "duration": 1595
+    "name": "Cálculo I - Aula 1 (1/3) - Panorama do Cálculo Diferencial e Integral",
+    "duration": 1595,
+    "embedUrl": "https://www.youtube.com/embed/WgHUHPlJETs"
   },
   {
     "id": 334,
-    "title": "Cálculo I - Aula 1 (2/3) - Panorama do Cálculo Diferencial e Integral",
-    "embedUrl": "https://www.youtube.com/embed/nKua7iJK2WQ",
-    "duration": 1669
+    "name": "Cálculo I - Aula 1 (2/3) - Panorama do Cálculo Diferencial e Integral",
+    "duration": 1669,
+    "embedUrl": "https://www.youtube.com/embed/nKua7iJK2WQ"
   },
   {
     "id": 335,
-    "title": "Cálculo I - Aula 1 (3/3) Panorama do Cálculo Diferencial e Integral",
-    "embedUrl": "https://www.youtube.com/embed/aQSoCjHVNKc",
-    "duration": 1493
+    "name": "Cálculo I - Aula 1 (3/3) Panorama do Cálculo Diferencial e Integral",
+    "duration": 1493,
+    "embedUrl": "https://www.youtube.com/embed/aQSoCjHVNKc"
   },
   {
     "id": 336,
-    "title": "Cálculo I - Aula 2 (1/3) Continuidade e Limites I: Mais intuição que formalismo",
-    "embedUrl": "https://www.youtube.com/embed/ilZC6iMNM-I",
-    "duration": 1381
+    "name": "Cálculo I - Aula 2 (1/3) Continuidade e Limites I: Mais intuição que formalismo",
+    "duration": 1381,
+    "embedUrl": "https://www.youtube.com/embed/ilZC6iMNM-I"
   },
   {
     "id": 337,
-    "title": "Cálculo I - Aula 2 (2/3) Continuidade e Limites I: Mais intuição que formalismo",
-    "embedUrl": "https://www.youtube.com/embed/0QA1FPiN-XU",
-    "duration": 1476
+    "name": "Cálculo I - Aula 2 (2/3) Continuidade e Limites I: Mais intuição que formalismo",
+    "duration": 1476,
+    "embedUrl": "https://www.youtube.com/embed/0QA1FPiN-XU"
   },
   {
     "id": 338,
-    "title": "Cálculo I - Aula 2 (3/3) Continuidade e Limites I: Mais intuição que formalismo",
-    "embedUrl": "https://www.youtube.com/embed/kCRJyiZoXSg",
-    "duration": 2178
+    "name": "Cálculo I - Aula 2 (3/3) Continuidade e Limites I: Mais intuição que formalismo",
+    "duration": 2178,
+    "embedUrl": "https://www.youtube.com/embed/kCRJyiZoXSg"
   },
   {
     "id": 339,
-    "title": "Cálculo I - Aula 3 (1/3) - Continuidade e Limites II: Alguns resultados importantes",
-    "embedUrl": "https://www.youtube.com/embed/KrWmmvayDOY",
-    "duration": 1588
+    "name": "Cálculo I - Aula 3 (1/3) - Continuidade e Limites II: Alguns resultados importantes",
+    "duration": 1588,
+    "embedUrl": "https://www.youtube.com/embed/KrWmmvayDOY"
   },
   {
     "id": 340,
-    "title": "Cálculo I - Aula 3 (2/3) - Continuidade e Limites II: Alguns resultados importantes",
-    "embedUrl": "https://www.youtube.com/embed/fbrIsCCowUg",
-    "duration": 2291
+    "name": "Cálculo I - Aula 3 (2/3) - Continuidade e Limites II: Alguns resultados importantes",
+    "duration": 2291,
+    "embedUrl": "https://www.youtube.com/embed/fbrIsCCowUg"
   },
   {
     "id": 341,
-    "title": "Cálculo I - Aula 3 (3/3) Continuidade e Limites II: Alguns resultados importantes",
-    "embedUrl": "https://www.youtube.com/embed/kLj-u2xEDG0",
-    "duration": 1382
+    "name": "Cálculo I - Aula 3 (3/3) Continuidade e Limites II: Alguns resultados importantes",
+    "duration": 1382,
+    "embedUrl": "https://www.youtube.com/embed/kLj-u2xEDG0"
   },
   {
     "id": 342,
-    "title": "Cálculo I - Aula 4 (1/3) Cálculo de Limites e Propriedades",
-    "embedUrl": "https://www.youtube.com/embed/oxfFtzDsLy4",
-    "duration": 1513
+    "name": "Cálculo I - Aula 4 (1/3) Cálculo de Limites e Propriedades",
+    "duration": 1513,
+    "embedUrl": "https://www.youtube.com/embed/oxfFtzDsLy4"
   },
   {
     "id": 343,
-    "title": "Cálculo I - Aula 4 (2/3) : Limites  Laterais",
-    "embedUrl": "https://www.youtube.com/embed/jkIkvkmlJ54",
-    "duration": 1440
+    "name": "Cálculo I - Aula 4 (2/3) : Limites  Laterais",
+    "duration": 1440,
+    "embedUrl": "https://www.youtube.com/embed/jkIkvkmlJ54"
   },
   {
     "id": 344,
-    "title": "Cálculo I - Aula 4 (3/3)  Limites no Infinito",
-    "embedUrl": "https://www.youtube.com/embed/iE6zC3bT2vo",
-    "duration": 1565
+    "name": "Cálculo I - Aula 4 (3/3)  Limites no Infinito",
+    "duration": 1565,
+    "embedUrl": "https://www.youtube.com/embed/iE6zC3bT2vo"
   },
   {
     "id": 345,
-    "title": "Cálculo I - Aula 5 (1/3) Limites Infinitos, Propriedades e Exemplos",
-    "embedUrl": "https://www.youtube.com/embed/uRsEH6FEoqI",
-    "duration": 1532
+    "name": "Cálculo I - Aula 5 (1/3) Limites Infinitos, Propriedades e Exemplos",
+    "duration": 1532,
+    "embedUrl": "https://www.youtube.com/embed/uRsEH6FEoqI"
   },
   {
     "id": 346,
-    "title": "Cálculo I - Aula 5 (2/3)  Limites: Teorema do Confronto e Consequências",
-    "embedUrl": "https://www.youtube.com/embed/gLdYM1mtdKU",
-    "duration": 2050
+    "name": "Cálculo I - Aula 5 (2/3)  Limites: Teorema do Confronto e Consequências",
+    "duration": 2050,
+    "embedUrl": "https://www.youtube.com/embed/gLdYM1mtdKU"
   },
   {
     "id": 347,
-    "title": "Cálculo I - Aula 5 (3/3) Limites - Teorema do Confronto e Consequências",
-    "embedUrl": "https://www.youtube.com/embed/dOMtlkKtCzQ",
-    "duration": 1971
+    "name": "Cálculo I - Aula 5 (3/3) Limites - Teorema do Confronto e Consequências",
+    "duration": 1971,
+    "embedUrl": "https://www.youtube.com/embed/dOMtlkKtCzQ"
   },
   {
     "id": 348,
-    "title": "Cálculo I - Aula 6 (1/3) Continuidade das funções trigonométricas",
-    "embedUrl": "https://www.youtube.com/embed/G6wCnibmY9M",
-    "duration": 1962
+    "name": "Cálculo I - Aula 6 (1/3) Continuidade das funções trigonométricas",
+    "duration": 1962,
+    "embedUrl": "https://www.youtube.com/embed/G6wCnibmY9M"
   },
   {
     "id": 349,
-    "title": "Cálculo I - Aula 6 (2/3)  Limite Trigonométrico Fundamental e Aplicações",
-    "embedUrl": "https://www.youtube.com/embed/XfzlgM845Qc",
-    "duration": 1449
+    "name": "Cálculo I - Aula 6 (2/3)  Limite Trigonométrico Fundamental e Aplicações",
+    "duration": 1449,
+    "embedUrl": "https://www.youtube.com/embed/XfzlgM845Qc"
   },
   {
     "id": 350,
-    "title": "Cálculo I - Aula 6 (3/3) Derivadas: definição, propriedades e alguns primeiros exemplos.\"",
-    "embedUrl": "https://www.youtube.com/embed/8t5IE7BGKUU",
-    "duration": 1481
+    "name": "Cálculo I - Aula 6 (3/3) Derivadas: definição, propriedades e alguns primeiros exemplos.\"",
+    "duration": 1481,
+    "embedUrl": "https://www.youtube.com/embed/8t5IE7BGKUU"
   },
   {
     "id": 351,
-    "title": "Cálculo I - Aula 7 (1/3) Aproximação da função por sua reta tangente em um ponto",
-    "embedUrl": "https://www.youtube.com/embed/B2fJry2Ih2Y",
-    "duration": 1923
+    "name": "Cálculo I - Aula 7 (1/3) Aproximação da função por sua reta tangente em um ponto",
+    "duration": 1923,
+    "embedUrl": "https://www.youtube.com/embed/B2fJry2Ih2Y"
   },
   {
     "id": 352,
-    "title": "Cálculo I - Aula 7 (2/3) Regras de derivação e exemplos",
-    "embedUrl": "https://www.youtube.com/embed/hTQxTA7fqtw",
-    "duration": 1755
+    "name": "Cálculo I - Aula 7 (2/3) Regras de derivação e exemplos",
+    "duration": 1755,
+    "embedUrl": "https://www.youtube.com/embed/hTQxTA7fqtw"
   },
   {
     "id": 353,
-    "title": "Cálculo I - Aula 7 (3/3) Regras de Derivação e Exemplos",
-    "embedUrl": "https://www.youtube.com/embed/k0eUDfTakIE",
-    "duration": 1776
+    "name": "Cálculo I - Aula 7 (3/3) Regras de Derivação e Exemplos",
+    "duration": 1776,
+    "embedUrl": "https://www.youtube.com/embed/k0eUDfTakIE"
   },
   {
     "id": 354,
-    "title": "Cálculo I - Aula 8 (1/3) Derivadas de funções inversas",
-    "embedUrl": "https://www.youtube.com/embed/XbUSK49mOEQ",
-    "duration": 1872
+    "name": "Cálculo I - Aula 8 (1/3) Derivadas de funções inversas",
+    "duration": 1872,
+    "embedUrl": "https://www.youtube.com/embed/XbUSK49mOEQ"
   },
   {
     "id": 355,
-    "title": "Cálculo I - Aula 8 (2/3) Derivadas de funções inversas e funções dadas implicitamente",
-    "embedUrl": "https://www.youtube.com/embed/8wItjvqynC4",
-    "duration": 1875
+    "name": "Cálculo I - Aula 8 (2/3) Derivadas de funções inversas e funções dadas implicitamente",
+    "duration": 1875,
+    "embedUrl": "https://www.youtube.com/embed/8wItjvqynC4"
   },
   {
     "id": 356,
-    "title": "Cálculo I - Aula 8 (3/3) Notações e Derivadas de ordem superior",
-    "embedUrl": "https://www.youtube.com/embed/7PV_FLPYUeQ",
-    "duration": 1579
+    "name": "Cálculo I - Aula 8 (3/3) Notações e Derivadas de ordem superior",
+    "duration": 1579,
+    "embedUrl": "https://www.youtube.com/embed/7PV_FLPYUeQ"
   },
   {
     "id": 357,
-    "title": "Cálculo I - Aula 9 (1/3) Funções inversas",
-    "embedUrl": "https://www.youtube.com/embed/Gop_dmZu7bo",
-    "duration": 1811
+    "name": "Cálculo I - Aula 9 (1/3) Funções inversas",
+    "duration": 1811,
+    "embedUrl": "https://www.youtube.com/embed/Gop_dmZu7bo"
   },
   {
     "id": 358,
-    "title": "Cálculo I - Aula 9 (2/3) Taxas Relacionadas",
-    "embedUrl": "https://www.youtube.com/embed/eHs5EbGwShY",
-    "duration": 1956
+    "name": "Cálculo I - Aula 9 (2/3) Taxas Relacionadas",
+    "duration": 1956,
+    "embedUrl": "https://www.youtube.com/embed/eHs5EbGwShY"
   },
   {
     "id": 359,
-    "title": "Cálculo I - Aula 9 (3/3) Taxas Relacionadas: mais exemplos",
-    "embedUrl": "https://www.youtube.com/embed/Beqg0JLePew",
-    "duration": 1602
+    "name": "Cálculo I - Aula 9 (3/3) Taxas Relacionadas: mais exemplos",
+    "duration": 1602,
+    "embedUrl": "https://www.youtube.com/embed/Beqg0JLePew"
   },
   {
     "id": 360,
-    "title": "Cálculo I - Aula 10 (1/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/Xdat6VRMuIE",
-    "duration": 1450
+    "name": "Cálculo I - Aula 10 (1/3) Limites e Derivadas: Exercícios",
+    "duration": 1450,
+    "embedUrl": "https://www.youtube.com/embed/Xdat6VRMuIE"
   },
   {
     "id": 361,
-    "title": "Cálculo I - Aula 10 (2/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/KYuqbUPUB1A",
-    "duration": 2082
+    "name": "Cálculo I - Aula 10 (2/3) Limites e Derivadas: Exercícios",
+    "duration": 2082,
+    "embedUrl": "https://www.youtube.com/embed/KYuqbUPUB1A"
   },
   {
     "id": 362,
-    "title": "Cálculo I - Aula 10 (3/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/1KceV6dSy94",
-    "duration": 1393
+    "name": "Cálculo I - Aula 10 (3/3) Limites e Derivadas: Exercícios",
+    "duration": 1393,
+    "embedUrl": "https://www.youtube.com/embed/1KceV6dSy94"
   },
   {
     "id": 363,
-    "title": "Cálculo I - Aula 11 (1/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/rlyacFHR-PY",
-    "duration": 1986
+    "name": "Cálculo I - Aula 11 (1/3) Limites e Derivadas: Exercícios",
+    "duration": 1986,
+    "embedUrl": "https://www.youtube.com/embed/rlyacFHR-PY"
   },
   {
     "id": 364,
-    "title": "Cálculo I - Aula 11 (2/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/YqzUrlRgKgM",
-    "duration": 1576
+    "name": "Cálculo I - Aula 11 (2/3) Limites e Derivadas: Exercícios",
+    "duration": 1576,
+    "embedUrl": "https://www.youtube.com/embed/YqzUrlRgKgM"
   },
   {
     "id": 365,
-    "title": "Cálculo I - Aula 11 (3/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/3-5BQSo3ZeI",
-    "duration": 1193
+    "name": "Cálculo I - Aula 11 (3/3) Limites e Derivadas: Exercícios",
+    "duration": 1193,
+    "embedUrl": "https://www.youtube.com/embed/3-5BQSo3ZeI"
   },
   {
     "id": 366,
-    "title": "Cálculo I - Aula 12 (1/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/OWEiX0EFipI",
-    "duration": 1780
+    "name": "Cálculo I - Aula 12 (1/3) Limites e Derivadas: Exercícios",
+    "duration": 1780,
+    "embedUrl": "https://www.youtube.com/embed/OWEiX0EFipI"
   },
   {
     "id": 367,
-    "title": "Cálculo I - Aula 12 (2/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/SJjbkHraC5w",
-    "duration": 1931
+    "name": "Cálculo I - Aula 12 (2/3) Limites e Derivadas: Exercícios",
+    "duration": 1931,
+    "embedUrl": "https://www.youtube.com/embed/SJjbkHraC5w"
   },
   {
     "id": 368,
-    "title": "Cálculo I - Aula 12  (3/3) Limites e Derivadas: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/72doxLO8tf4",
-    "duration": 954
+    "name": "Cálculo I - Aula 12  (3/3) Limites e Derivadas: Exercícios",
+    "duration": 954,
+    "embedUrl": "https://www.youtube.com/embed/72doxLO8tf4"
   },
   {
     "id": 369,
-    "title": "Cálculo I - Aula 13 (1/3) Funções exponenciais e logarítmicas; o número e",
-    "embedUrl": "https://www.youtube.com/embed/52Wb_huJ0Pc",
-    "duration": 2167
+    "name": "Cálculo I - Aula 13 (1/3) Funções exponenciais e logarítmicas; o número e",
+    "duration": 2167,
+    "embedUrl": "https://www.youtube.com/embed/52Wb_huJ0Pc"
   },
   {
     "id": 370,
-    "title": "Cálculo I - Aula 13 (2/3) Derivadas das funções exponenciais e logarítmicas; sequências.",
-    "embedUrl": "https://www.youtube.com/embed/Ax53USQv_cM",
-    "duration": 1424
+    "name": "Cálculo I - Aula 13 (2/3) Derivadas das funções exponenciais e logarítmicas; sequências.",
+    "duration": 1424,
+    "embedUrl": "https://www.youtube.com/embed/Ax53USQv_cM"
   },
   {
     "id": 371,
-    "title": "Cálculo I - Aula 13 (3/3) Mais sequências e a existência de e",
-    "embedUrl": "https://www.youtube.com/embed/ls67oSbVqOA",
-    "duration": 1795
+    "name": "Cálculo I - Aula 13 (3/3) Mais sequências e a existência de e",
+    "duration": 1795,
+    "embedUrl": "https://www.youtube.com/embed/ls67oSbVqOA"
   },
   {
     "id": 372,
-    "title": "Cálculo I - Aula 14 (1/3) Existência de e; derivada de f(x)^g(x)",
-    "embedUrl": "https://www.youtube.com/embed/69kI4OJYbUk",
-    "duration": 1928
+    "name": "Cálculo I - Aula 14 (1/3) Existência de e; derivada de f(x)^g(x)",
+    "duration": 1928,
+    "embedUrl": "https://www.youtube.com/embed/69kI4OJYbUk"
   },
   {
     "id": 373,
-    "title": "Cálculo I - Aula 14 (2/3) Teorema do Valor Intermediário",
-    "embedUrl": "https://www.youtube.com/embed/RLqMZPyeVZI",
-    "duration": 2351
+    "name": "Cálculo I - Aula 14 (2/3) Teorema do Valor Intermediário",
+    "duration": 2351,
+    "embedUrl": "https://www.youtube.com/embed/RLqMZPyeVZI"
   },
   {
     "id": 374,
-    "title": "Cálculo I - Aula 14 (3/3) \"Máximos e mínimos: teorema de Weierstrass\"",
-    "embedUrl": "https://www.youtube.com/embed/TrjbOGW76os",
-    "duration": 1241
+    "name": "Cálculo I - Aula 14 (3/3) \"Máximos e mínimos: teorema de Weierstrass\"",
+    "duration": 1241,
+    "embedUrl": "https://www.youtube.com/embed/TrjbOGW76os"
   },
   {
     "id": 375,
-    "title": "Cálculo I - Aula 15 (1/3) Teoremas do Valor Intermediário, Weierstrass e Fermat: interações",
-    "embedUrl": "https://www.youtube.com/embed/yFP6ENUPi-s",
-    "duration": 2236
+    "name": "Cálculo I - Aula 15 (1/3) Teoremas do Valor Intermediário, Weierstrass e Fermat: interações",
+    "duration": 2236,
+    "embedUrl": "https://www.youtube.com/embed/yFP6ENUPi-s"
   },
   {
     "id": 376,
-    "title": "Cálculo I - Aula 15 (2/3) Teorema de Fermat e Exemplos",
-    "embedUrl": "https://www.youtube.com/embed/VE7gSDBzjGc",
-    "duration": 1426
+    "name": "Cálculo I - Aula 15 (2/3) Teorema de Fermat e Exemplos",
+    "duration": 1426,
+    "embedUrl": "https://www.youtube.com/embed/VE7gSDBzjGc"
   },
   {
     "id": 377,
-    "title": "Cálculo I - Aula 15 (3/3) Teoremas de Rolle e do Valor Médio: enunciados e interpretações",
-    "embedUrl": "https://www.youtube.com/embed/uJwwgyJZ4FM",
-    "duration": 1026
+    "name": "Cálculo I - Aula 15 (3/3) Teoremas de Rolle e do Valor Médio: enunciados e interpretações",
+    "duration": 1026,
+    "embedUrl": "https://www.youtube.com/embed/uJwwgyJZ4FM"
   },
   {
     "id": 378,
-    "title": "Cálculo I - Aula 16 (1/3) Teorema do Valor Médio: consequências e aplicações",
-    "embedUrl": "https://www.youtube.com/embed/2_Wac3faA7c",
-    "duration": 2007
+    "name": "Cálculo I - Aula 16 (1/3) Teorema do Valor Médio: consequências e aplicações",
+    "duration": 2007,
+    "embedUrl": "https://www.youtube.com/embed/2_Wac3faA7c"
   },
   {
     "id": 379,
-    "title": "Cálculo I - Aula 16 (2/3) Teorema do Valor Médio: crescimento de funções",
-    "embedUrl": "https://www.youtube.com/embed/auxoggKAk5Y",
-    "duration": 1569
+    "name": "Cálculo I - Aula 16 (2/3) Teorema do Valor Médio: crescimento de funções",
+    "duration": 1569,
+    "embedUrl": "https://www.youtube.com/embed/auxoggKAk5Y"
   },
   {
     "id": 380,
-    "title": "Cálculo I - Aula 16 (3/3) Teorema do Valor Médio: crescimento de funções",
-    "embedUrl": "https://www.youtube.com/embed/R92lpPw28qw",
-    "duration": 1276
+    "name": "Cálculo I - Aula 16 (3/3) Teorema do Valor Médio: crescimento de funções",
+    "duration": 1276,
+    "embedUrl": "https://www.youtube.com/embed/R92lpPw28qw"
   },
   {
     "id": 381,
-    "title": "Cálculo I - Aula 17 (1/3) Concavidade e inflexão: segunda derivada",
-    "embedUrl": "https://www.youtube.com/embed/u_G7ZX3TSMo",
-    "duration": 1879
+    "name": "Cálculo I - Aula 17 (1/3) Concavidade e inflexão: segunda derivada",
+    "duration": 1879,
+    "embedUrl": "https://www.youtube.com/embed/u_G7ZX3TSMo"
   },
   {
     "id": 382,
-    "title": "Cálculo I - Aula 17 (2/3) Concavidade e inflexão: exemplos",
-    "embedUrl": "https://www.youtube.com/embed/4IkP9t7erV0",
-    "duration": 1506
+    "name": "Cálculo I - Aula 17 (2/3) Concavidade e inflexão: exemplos",
+    "duration": 1506,
+    "embedUrl": "https://www.youtube.com/embed/4IkP9t7erV0"
   },
   {
     "id": 383,
-    "title": "Cálculo I - Aula 17 (3/3) Regras de L'Hospital: conceito, cuidados e exemplos",
-    "embedUrl": "https://www.youtube.com/embed/6t77dhmaIBk",
-    "duration": 2182
+    "name": "Cálculo I - Aula 17 (3/3) Regras de L'Hospital: conceito, cuidados e exemplos",
+    "duration": 2182,
+    "embedUrl": "https://www.youtube.com/embed/6t77dhmaIBk"
   },
   {
     "id": 384,
-    "title": "Cálculo I - Aula 18 (1/3) Regras de L'Hospital: exemplos",
-    "embedUrl": "https://www.youtube.com/embed/bVLWSs5kq3o",
-    "duration": 1897
+    "name": "Cálculo I - Aula 18 (1/3) Regras de L'Hospital: exemplos",
+    "duration": 1897,
+    "embedUrl": "https://www.youtube.com/embed/bVLWSs5kq3o"
   },
   {
     "id": 385,
-    "title": "Cálculo I - Aula 18 (2/3) Esboço de gráficos",
-    "embedUrl": "https://www.youtube.com/embed/V-W392JPn9g",
-    "duration": 1355
+    "name": "Cálculo I - Aula 18 (2/3) Esboço de gráficos",
+    "duration": 1355,
+    "embedUrl": "https://www.youtube.com/embed/V-W392JPn9g"
   },
   {
     "id": 386,
-    "title": "Cálculo I - Aula 18 (3/3) Esboço de gráficos: exemplos e assíntotas",
-    "embedUrl": "https://www.youtube.com/embed/iIUj8AhG-UE",
-    "duration": 1314
+    "name": "Cálculo I - Aula 18 (3/3) Esboço de gráficos: exemplos e assíntotas",
+    "duration": 1314,
+    "embedUrl": "https://www.youtube.com/embed/iIUj8AhG-UE"
   },
   {
     "id": 387,
-    "title": "Cálculo I - Aula 19 (1/3) Assíntotas: um exemplo",
-    "embedUrl": "https://www.youtube.com/embed/NSPWxvrpJL4",
-    "duration": 1713
+    "name": "Cálculo I - Aula 19 (1/3) Assíntotas: um exemplo",
+    "duration": 1713,
+    "embedUrl": "https://www.youtube.com/embed/NSPWxvrpJL4"
   },
   {
     "id": 388,
-    "title": "Cálculo I - Aula 19 (2/3) Assíntotas: outro exemplo",
-    "embedUrl": "https://www.youtube.com/embed/qSfFJQVlYeE",
-    "duration": 1562
+    "name": "Cálculo I - Aula 19 (2/3) Assíntotas: outro exemplo",
+    "duration": 1562,
+    "embedUrl": "https://www.youtube.com/embed/qSfFJQVlYeE"
   },
   {
     "id": 389,
-    "title": "Cálculo I - Aula 19 (3/3) O retorno dos máximos e mínimos",
-    "embedUrl": "https://www.youtube.com/embed/Uy0vxqJ6SXs",
-    "duration": 1915
+    "name": "Cálculo I - Aula 19 (3/3) O retorno dos máximos e mínimos",
+    "duration": 1915,
+    "embedUrl": "https://www.youtube.com/embed/Uy0vxqJ6SXs"
   },
   {
     "id": 390,
-    "title": "Cálculo I - Aula 20 (1/3) Problemas de otimização",
-    "embedUrl": "https://www.youtube.com/embed/2myFQaIiMac",
-    "duration": 1919
+    "name": "Cálculo I - Aula 20 (1/3) Problemas de otimização",
+    "duration": 1919,
+    "embedUrl": "https://www.youtube.com/embed/2myFQaIiMac"
   },
   {
     "id": 391,
-    "title": "Cálculo I - Aula 20 (2/3) Polinômios de Taylor: Preliminares",
-    "embedUrl": "https://www.youtube.com/embed/kUcfj46eKfo",
-    "duration": 1653
+    "name": "Cálculo I - Aula 20 (2/3) Polinômios de Taylor: Preliminares",
+    "duration": 1653,
+    "embedUrl": "https://www.youtube.com/embed/kUcfj46eKfo"
   },
   {
     "id": 392,
-    "title": "Cálculo I - Aula 20 (3/3) Polinômios de Taylor de ordem 1",
-    "embedUrl": "https://www.youtube.com/embed/8eDuxoRJW9s",
-    "duration": 1366
+    "name": "Cálculo I - Aula 20 (3/3) Polinômios de Taylor de ordem 1",
+    "duration": 1366,
+    "embedUrl": "https://www.youtube.com/embed/8eDuxoRJW9s"
   },
   {
     "id": 393,
-    "title": "Cálculo I - Aula 21 (1/3) Polinômios de Taylor de ordem 2",
-    "embedUrl": "https://www.youtube.com/embed/dnGnL87OtNI",
-    "duration": 1485
+    "name": "Cálculo I - Aula 21 (1/3) Polinômios de Taylor de ordem 2",
+    "duration": 1485,
+    "embedUrl": "https://www.youtube.com/embed/dnGnL87OtNI"
   },
   {
     "id": 394,
-    "title": "Cálculo I - Aula 21 (2/3) Polinômios de Taylor de ordem n",
-    "embedUrl": "https://www.youtube.com/embed/zRsmdkc2vXA",
-    "duration": 1733
+    "name": "Cálculo I - Aula 21 (2/3) Polinômios de Taylor de ordem n",
+    "duration": 1733,
+    "embedUrl": "https://www.youtube.com/embed/zRsmdkc2vXA"
   },
   {
     "id": 395,
-    "title": "Cálculo I - Aula 21 (3/3) Polinômios (quase séries) de Taylor",
-    "embedUrl": "https://www.youtube.com/embed/pn0NmHnSO0M",
-    "duration": 1769
+    "name": "Cálculo I - Aula 21 (3/3) Polinômios (quase séries) de Taylor",
+    "duration": 1769,
+    "embedUrl": "https://www.youtube.com/embed/pn0NmHnSO0M"
   },
   {
     "id": 396,
-    "title": "Cálculo I - Aula 22 (1/3) Unicidade do polinômio de Taylor; Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/eVgxj-ZMzdM",
-    "duration": 1854
+    "name": "Cálculo I - Aula 22 (1/3) Unicidade do polinômio de Taylor; Exercícios",
+    "duration": 1854,
+    "embedUrl": "https://www.youtube.com/embed/eVgxj-ZMzdM"
   },
   {
     "id": 397,
-    "title": "Cálculo I - Aula 22 (2/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/3K30K2tMTW4",
-    "duration": 1432
+    "name": "Cálculo I - Aula 22 (2/3) Derivadas e aplicações: exercícios",
+    "duration": 1432,
+    "embedUrl": "https://www.youtube.com/embed/3K30K2tMTW4"
   },
   {
     "id": 398,
-    "title": "Cálculo I - Aula 22 (3/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/ZV4ttYGVcL8",
-    "duration": 1764
+    "name": "Cálculo I - Aula 22 (3/3) Derivadas e aplicações: exercícios",
+    "duration": 1764,
+    "embedUrl": "https://www.youtube.com/embed/ZV4ttYGVcL8"
   },
   {
     "id": 399,
-    "title": "Cálculo I - Aula 23 (1/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/fWn6BEYaS3k",
-    "duration": 1511
+    "name": "Cálculo I - Aula 23 (1/3) Derivadas e aplicações: exercícios",
+    "duration": 1511,
+    "embedUrl": "https://www.youtube.com/embed/fWn6BEYaS3k"
   },
   {
     "id": 400,
-    "title": "Cálculo I - Aula 23 (2/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/DJwhtCWQRpY",
-    "duration": 1347
+    "name": "Cálculo I - Aula 23 (2/3) Derivadas e aplicações: exercícios",
+    "duration": 1347,
+    "embedUrl": "https://www.youtube.com/embed/DJwhtCWQRpY"
   },
   {
     "id": 401,
-    "title": "Cálculo I - Aula 23 (3/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/_FQWywPdJvU",
-    "duration": 1491
+    "name": "Cálculo I - Aula 23 (3/3) Derivadas e aplicações: exercícios",
+    "duration": 1491,
+    "embedUrl": "https://www.youtube.com/embed/_FQWywPdJvU"
   },
   {
     "id": 402,
-    "title": "Cálculo I - Aula 24 (1/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/KlH_drg-LNk",
-    "duration": 1217
+    "name": "Cálculo I - Aula 24 (1/3) Derivadas e aplicações: exercícios",
+    "duration": 1217,
+    "embedUrl": "https://www.youtube.com/embed/KlH_drg-LNk"
   },
   {
     "id": 403,
-    "title": "Cálculo I - Aula 24 (2/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/dE6IZL_EaYY",
-    "duration": 1792
+    "name": "Cálculo I - Aula 24 (2/3) Derivadas e aplicações: exercícios",
+    "duration": 1792,
+    "embedUrl": "https://www.youtube.com/embed/dE6IZL_EaYY"
   },
   {
     "id": 404,
-    "title": "Cálculo I - Aula 24 (3/3) Derivadas e aplicações: exercícios",
-    "embedUrl": "https://www.youtube.com/embed/ZXhXQIbnrAo",
-    "duration": 2060
+    "name": "Cálculo I - Aula 24 (3/3) Derivadas e aplicações: exercícios",
+    "duration": 2060,
+    "embedUrl": "https://www.youtube.com/embed/ZXhXQIbnrAo"
   },
   {
     "id": 405,
-    "title": "Cálculo I - Aula 25 (1/3) Integral de Riemann: construção do conceito",
-    "embedUrl": "https://www.youtube.com/embed/5T3XUtRtsX8",
-    "duration": 1732
+    "name": "Cálculo I - Aula 25 (1/3) Integral de Riemann: construção do conceito",
+    "duration": 1732,
+    "embedUrl": "https://www.youtube.com/embed/5T3XUtRtsX8"
   },
   {
     "id": 406,
-    "title": "Cálculo I - Aula 25 (2/3) Integral de Riemann: propriedades e áreas",
-    "embedUrl": "https://www.youtube.com/embed/9W49euBM0KE",
-    "duration": 1881
+    "name": "Cálculo I - Aula 25 (2/3) Integral de Riemann: propriedades e áreas",
+    "duration": 1881,
+    "embedUrl": "https://www.youtube.com/embed/9W49euBM0KE"
   },
   {
     "id": 407,
-    "title": "Cálculo I - Aula 25 (3/3) Integral de Riemann: o Teorema Fundamental do Cálculo",
-    "embedUrl": "https://www.youtube.com/embed/kbo0Co6oMVM",
-    "duration": 1551
+    "name": "Cálculo I - Aula 25 (3/3) Integral de Riemann: o Teorema Fundamental do Cálculo",
+    "duration": 1551,
+    "embedUrl": "https://www.youtube.com/embed/kbo0Co6oMVM"
   },
   {
     "id": 408,
-    "title": "Cálculo I - Aula 26 (1/3) Teorema Fundamental do Cálculo: exemplos; Existência de primitivas",
-    "embedUrl": "https://www.youtube.com/embed/045rSkkHGvU",
-    "duration": 2026
+    "name": "Cálculo I - Aula 26 (1/3) Teorema Fundamental do Cálculo: exemplos; Existência de primitivas",
+    "duration": 2026,
+    "embedUrl": "https://www.youtube.com/embed/045rSkkHGvU"
   },
   {
     "id": 409,
-    "title": "Cálculo I - Aula 26 (2/3) Método da substituição/mudança de variável",
-    "embedUrl": "https://www.youtube.com/embed/PA9Z9cWnZ_o",
-    "duration": 1414
+    "name": "Cálculo I - Aula 26 (2/3) Método da substituição/mudança de variável",
+    "duration": 1414,
+    "embedUrl": "https://www.youtube.com/embed/PA9Z9cWnZ_o"
   },
   {
     "id": 410,
-    "title": "Cálculo I - Aula 26 (3/3) Exemplos de substituição",
-    "embedUrl": "https://www.youtube.com/embed/R2FC55Gtu54",
-    "duration": 1691
+    "name": "Cálculo I - Aula 26 (3/3) Exemplos de substituição",
+    "duration": 1691,
+    "embedUrl": "https://www.youtube.com/embed/R2FC55Gtu54"
   },
   {
     "id": 411,
-    "title": "Cálculo I - Aula 27 (1/3) Integração por partes",
-    "embedUrl": "https://www.youtube.com/embed/w47sIdDh6rk",
-    "duration": 1230
+    "name": "Cálculo I - Aula 27 (1/3) Integração por partes",
+    "duration": 1230,
+    "embedUrl": "https://www.youtube.com/embed/w47sIdDh6rk"
   },
   {
     "id": 412,
-    "title": "Cálculo I - Aula 27 (2/3) Exemplos de integração por partes",
-    "embedUrl": "https://www.youtube.com/embed/3iy_T8FDup4",
-    "duration": 1629
+    "name": "Cálculo I - Aula 27 (2/3) Exemplos de integração por partes",
+    "duration": 1629,
+    "embedUrl": "https://www.youtube.com/embed/3iy_T8FDup4"
   },
   {
     "id": 413,
-    "title": "Cálculo I - Aula 27 (3/3) Mais exemplos e potências de senos com cossenos",
-    "embedUrl": "https://www.youtube.com/embed/m-4zC9ZbP-4",
-    "duration": 1832
+    "name": "Cálculo I - Aula 27 (3/3) Mais exemplos e potências de senos com cossenos",
+    "duration": 1832,
+    "embedUrl": "https://www.youtube.com/embed/m-4zC9ZbP-4"
   },
   {
     "id": 414,
-    "title": "Cálculo I - Aula 28 (1/3) Mais produtos trigonométricos e frações parciais",
-    "embedUrl": "https://www.youtube.com/embed/Aj4B8aslG2I",
-    "duration": 1871
+    "name": "Cálculo I - Aula 28 (1/3) Mais produtos trigonométricos e frações parciais",
+    "duration": 1871,
+    "embedUrl": "https://www.youtube.com/embed/Aj4B8aslG2I"
   },
   {
     "id": 415,
-    "title": "Cálculo I - Aula 28 (2/3) Exemplos com frações parciais",
-    "embedUrl": "https://www.youtube.com/embed/hvjGb9vtc7Q",
-    "duration": 1459
+    "name": "Cálculo I - Aula 28 (2/3) Exemplos com frações parciais",
+    "duration": 1459,
+    "embedUrl": "https://www.youtube.com/embed/hvjGb9vtc7Q"
   },
   {
     "id": 416,
-    "title": "Cálculo I - Aula 28 (3/3) Exemplo com frações parciais; Volumes",
-    "embedUrl": "https://www.youtube.com/embed/0da_2CNS3Hs",
-    "duration": 2029
+    "name": "Cálculo I - Aula 28 (3/3) Exemplo com frações parciais; Volumes",
+    "duration": 2029,
+    "embedUrl": "https://www.youtube.com/embed/0da_2CNS3Hs"
   },
   {
     "id": 417,
-    "title": "Cálculo I - Aula 29 (1/3) Sólidos de Rotação: volumes e um pouco de áreas",
-    "embedUrl": "https://www.youtube.com/embed/JblKT8hmqdg",
-    "duration": 1536
+    "name": "Cálculo I - Aula 29 (1/3) Sólidos de Rotação: volumes e um pouco de áreas",
+    "duration": 1536,
+    "embedUrl": "https://www.youtube.com/embed/JblKT8hmqdg"
   },
   {
     "id": 418,
-    "title": "Cálculo I - Aula 29 (2/3) Sólidos de Rotação: áreas",
-    "embedUrl": "https://www.youtube.com/embed/jeSF7BOL2tA",
-    "duration": 1673
+    "name": "Cálculo I - Aula 29 (2/3) Sólidos de Rotação: áreas",
+    "duration": 1673,
+    "embedUrl": "https://www.youtube.com/embed/jeSF7BOL2tA"
   },
   {
     "id": 419,
-    "title": "Cálculo I - Aula 29 (3/3) Comentários gerais e comprimento de gráficos",
-    "embedUrl": "https://www.youtube.com/embed/Pa1JhQdDALc",
-    "duration": 1529
+    "name": "Cálculo I - Aula 29 (3/3) Comentários gerais e comprimento de gráficos",
+    "duration": 1529,
+    "embedUrl": "https://www.youtube.com/embed/Pa1JhQdDALc"
   },
   {
     "id": 420,
-    "title": "Cálculo I - Aula 30 (1/3) Cálculo de algumas primitivas",
-    "embedUrl": "https://www.youtube.com/embed/eDuc5JrLh5Q",
-    "duration": 1983
+    "name": "Cálculo I - Aula 30 (1/3) Cálculo de algumas primitivas",
+    "duration": 1983,
+    "embedUrl": "https://www.youtube.com/embed/eDuc5JrLh5Q"
   },
   {
     "id": 421,
-    "title": "Cálculo I - Aula 30 (2/3) Mais primitivas (mudança u=tg(x/2)) e funções dadas por integrais",
-    "embedUrl": "https://www.youtube.com/embed/0hEhQoIWPiY",
-    "duration": 1852
+    "name": "Cálculo I - Aula 30 (2/3) Mais primitivas (mudança u=tg(x/2)) e funções dadas por integrais",
+    "duration": 1852,
+    "embedUrl": "https://www.youtube.com/embed/0hEhQoIWPiY"
   },
   {
     "id": 422,
-    "title": "Cálculo I - Aula 30 (3/3) Funções dadas por integrais",
-    "embedUrl": "https://www.youtube.com/embed/jGH6G9A7XbA",
-    "duration": 1604
+    "name": "Cálculo I - Aula 30 (3/3) Funções dadas por integrais",
+    "duration": 1604,
+    "embedUrl": "https://www.youtube.com/embed/jGH6G9A7XbA"
   },
   {
     "id": 423,
-    "title": "Cálculo I - Aula 31 (1/3) Derivando funções dadas por integrais",
-    "embedUrl": "https://www.youtube.com/embed/XQkG62lHi4M",
-    "duration": 1744
+    "name": "Cálculo I - Aula 31 (1/3) Derivando funções dadas por integrais",
+    "duration": 1744,
+    "embedUrl": "https://www.youtube.com/embed/XQkG62lHi4M"
   },
   {
     "id": 424,
-    "title": "Cálculo I - Aula 31 (2/3) Volumes por fatiamento",
-    "embedUrl": "https://www.youtube.com/embed/-CqvvjMIVTI",
-    "duration": 1699
+    "name": "Cálculo I - Aula 31 (2/3) Volumes por fatiamento",
+    "duration": 1699,
+    "embedUrl": "https://www.youtube.com/embed/-CqvvjMIVTI"
   },
   {
     "id": 425,
-    "title": "Cálculo I - Aula 31 (3/3) Integrais impróprias: intervalos ilimitados",
-    "embedUrl": "https://www.youtube.com/embed/jbcbVCNsXyc",
-    "duration": 1502
+    "name": "Cálculo I - Aula 31 (3/3) Integrais impróprias: intervalos ilimitados",
+    "duration": 1502,
+    "embedUrl": "https://www.youtube.com/embed/jbcbVCNsXyc"
   },
   {
     "id": 426,
-    "title": "Cálculo I - Aula 32 (1/3) Funções dadas por integrais impróprias",
-    "embedUrl": "https://www.youtube.com/embed/HcnTc_e1wXE",
-    "duration": 1655
+    "name": "Cálculo I - Aula 32 (1/3) Funções dadas por integrais impróprias",
+    "duration": 1655,
+    "embedUrl": "https://www.youtube.com/embed/HcnTc_e1wXE"
   },
   {
     "id": 427,
-    "title": "Cálculo I - Aula 32 (2/3) Integrais impróprias: intervalos ilimitados; Convergência",
-    "embedUrl": "https://www.youtube.com/embed/zUgAQD2TCsI",
-    "duration": 1386
+    "name": "Cálculo I - Aula 32 (2/3) Integrais impróprias: intervalos ilimitados; Convergência",
+    "duration": 1386,
+    "embedUrl": "https://www.youtube.com/embed/zUgAQD2TCsI"
   },
   {
     "id": 428,
-    "title": "Cálculo I - Aula 32 (3/3) Convergência de integrais impróprias; aproximação de integrais",
-    "embedUrl": "https://www.youtube.com/embed/95_meqsk3vg",
-    "duration": 1810
+    "name": "Cálculo I - Aula 32 (3/3) Convergência de integrais impróprias; aproximação de integrais",
+    "duration": 1810,
+    "embedUrl": "https://www.youtube.com/embed/95_meqsk3vg"
   },
   {
     "id": 429,
-    "title": "Cálculo I - Aula 33 (1/3) Polinômios de Taylor através de progressões geométricas",
-    "embedUrl": "https://www.youtube.com/embed/Z8B4d_2qOSg",
-    "duration": 1136
+    "name": "Cálculo I - Aula 33 (1/3) Polinômios de Taylor através de progressões geométricas",
+    "duration": 1136,
+    "embedUrl": "https://www.youtube.com/embed/Z8B4d_2qOSg"
   },
   {
     "id": 430,
-    "title": "Cálculo I - Aula 33 (2/3) Integração: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/ukprTbUITHo",
-    "duration": 1776
+    "name": "Cálculo I - Aula 33 (2/3) Integração: Exercícios",
+    "duration": 1776,
+    "embedUrl": "https://www.youtube.com/embed/ukprTbUITHo"
   },
   {
     "id": 431,
-    "title": "Cálculo I - Aula 33 (3/3) Integração: Exercícios",
-    "embedUrl": "https://www.youtube.com/embed/9ez3Q15_puE",
-    "duration": 1489
+    "name": "Cálculo I - Aula 33 (3/3) Integração: Exercícios",
+    "duration": 1489,
+    "embedUrl": "https://www.youtube.com/embed/9ez3Q15_puE"
   },
   {
     "id": 432,
-    "title": "Cálculo I - Aula 34 (1/3) ) Integração - o volume do toro",
-    "embedUrl": "https://www.youtube.com/embed/Qa16IeGJZiQ",
-    "duration": 1437
+    "name": "Cálculo I - Aula 34 (1/3) ) Integração - o volume do toro",
+    "duration": 1437,
+    "embedUrl": "https://www.youtube.com/embed/Qa16IeGJZiQ"
   },
   {
     "id": 433,
-    "title": "Cálculo I - Aula 34 (2/3) Integração - mais exercícios",
-    "embedUrl": "https://www.youtube.com/embed/gs-0iLnO50s",
-    "duration": 1878
+    "name": "Cálculo I - Aula 34 (2/3) Integração - mais exercícios",
+    "duration": 1878,
+    "embedUrl": "https://www.youtube.com/embed/gs-0iLnO50s"
   },
   {
     "id": 434,
-    "title": "Cálculo I - Aula 34 (3/3) Integração - mais exercícios",
-    "embedUrl": "https://www.youtube.com/embed/jbCa26K80iY",
-    "duration": 1825
+    "name": "Cálculo I - Aula 34 (3/3) Integração - mais exercícios",
+    "duration": 1825,
+    "embedUrl": "https://www.youtube.com/embed/jbCa26K80iY"
   }
 ]

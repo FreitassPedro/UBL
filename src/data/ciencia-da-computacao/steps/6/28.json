@@ -1,134 +1,134 @@
 [
   {
     "id": 1185,
-    "title": "Sistemas Distribuídos - Aula 0",
-    "embedUrl": "https://www.youtube.com/embed/TEEy5f46h_Q",
-    "duration": 643
+    "name": "Sistemas Distribuídos - Aula 0",
+    "duration": 643,
+    "embedUrl": "https://www.youtube.com/embed/TEEy5f46h_Q"
   },
   {
     "id": 1186,
-    "title": "Sistemas Distribuídos - Aula 1",
-    "embedUrl": "https://www.youtube.com/embed/hHwRMwgUTgg",
-    "duration": 1136
+    "name": "Sistemas Distribuídos - Aula 1",
+    "duration": 1136,
+    "embedUrl": "https://www.youtube.com/embed/hHwRMwgUTgg"
   },
   {
     "id": 1187,
-    "title": "Sistemas Distribuídos - Aula 2",
-    "embedUrl": "https://www.youtube.com/embed/O8SIeW7fi5o",
-    "duration": 1703
+    "name": "Sistemas Distribuídos - Aula 2",
+    "duration": 1703,
+    "embedUrl": "https://www.youtube.com/embed/O8SIeW7fi5o"
   },
   {
     "id": 1188,
-    "title": "Sistemas Distribuídos - Aula 3",
-    "embedUrl": "https://www.youtube.com/embed/VEOEXJ38QT0",
-    "duration": 1486
+    "name": "Sistemas Distribuídos - Aula 3",
+    "duration": 1486,
+    "embedUrl": "https://www.youtube.com/embed/VEOEXJ38QT0"
   },
   {
     "id": 1189,
-    "title": "Sistemas Distribuídos - Aula 4",
-    "embedUrl": "https://www.youtube.com/embed/YuC886aCMX0",
-    "duration": 1798
+    "name": "Sistemas Distribuídos - Aula 4",
+    "duration": 1798,
+    "embedUrl": "https://www.youtube.com/embed/YuC886aCMX0"
   },
   {
     "id": 1190,
-    "title": "Sistemas Distribuídos - Aula 5",
-    "embedUrl": "https://www.youtube.com/embed/p5k2DTWGo3I",
-    "duration": 2192
+    "name": "Sistemas Distribuídos - Aula 5",
+    "duration": 2192,
+    "embedUrl": "https://www.youtube.com/embed/p5k2DTWGo3I"
   },
   {
     "id": 1191,
-    "title": "Sistemas Distribuídos - Aula 6",
-    "embedUrl": "https://www.youtube.com/embed/4Cw8uijD338",
-    "duration": 1390
+    "name": "Sistemas Distribuídos - Aula 6",
+    "duration": 1390,
+    "embedUrl": "https://www.youtube.com/embed/4Cw8uijD338"
   },
   {
     "id": 1192,
-    "title": "Sistemas Distribuídos - Aula 7",
-    "embedUrl": "https://www.youtube.com/embed/9nJo9K4UH6M",
-    "duration": 1283
+    "name": "Sistemas Distribuídos - Aula 7",
+    "duration": 1283,
+    "embedUrl": "https://www.youtube.com/embed/9nJo9K4UH6M"
   },
   {
     "id": 1193,
-    "title": "Sistemas Distribuídos - Aula 8",
-    "embedUrl": "https://www.youtube.com/embed/IjuRTiwqvh0",
-    "duration": 1943
+    "name": "Sistemas Distribuídos - Aula 8",
+    "duration": 1943,
+    "embedUrl": "https://www.youtube.com/embed/IjuRTiwqvh0"
   },
   {
     "id": 1194,
-    "title": "Sistemas Distribuídos - Aula 9",
-    "embedUrl": "https://www.youtube.com/embed/eaCZBeWKqNk",
-    "duration": 1876
+    "name": "Sistemas Distribuídos - Aula 9",
+    "duration": 1876,
+    "embedUrl": "https://www.youtube.com/embed/eaCZBeWKqNk"
   },
   {
     "id": 1195,
-    "title": "Sistemas Distribuídos - Aula 10",
-    "embedUrl": "https://www.youtube.com/embed/BvttaCSf_2c",
-    "duration": 1919
+    "name": "Sistemas Distribuídos - Aula 10",
+    "duration": 1919,
+    "embedUrl": "https://www.youtube.com/embed/BvttaCSf_2c"
   },
   {
     "id": 1196,
-    "title": "Sistemas Distribuídos - Aula 11",
-    "embedUrl": "https://www.youtube.com/embed/WDimwYFau1I",
-    "duration": 1957
+    "name": "Sistemas Distribuídos - Aula 11",
+    "duration": 1957,
+    "embedUrl": "https://www.youtube.com/embed/WDimwYFau1I"
   },
   {
     "id": 1197,
-    "title": "Sistemas Distribuídos - Aula 12",
-    "embedUrl": "https://www.youtube.com/embed/tIMgjWgs-jE",
-    "duration": 1556
+    "name": "Sistemas Distribuídos - Aula 12",
+    "duration": 1556,
+    "embedUrl": "https://www.youtube.com/embed/tIMgjWgs-jE"
   },
   {
     "id": 1198,
-    "title": "Sistemas Distribuídos - Aula 13",
-    "embedUrl": "https://www.youtube.com/embed/ABjVwE88S9w",
-    "duration": 1629
+    "name": "Sistemas Distribuídos - Aula 13",
+    "duration": 1629,
+    "embedUrl": "https://www.youtube.com/embed/ABjVwE88S9w"
   },
   {
     "id": 1199,
-    "title": "Sistemas Distribuídos - Aula 14",
-    "embedUrl": "https://www.youtube.com/embed/i-J_5Svbz9I",
-    "duration": 1438
+    "name": "Sistemas Distribuídos - Aula 14",
+    "duration": 1438,
+    "embedUrl": "https://www.youtube.com/embed/i-J_5Svbz9I"
   },
   {
     "id": 1200,
-    "title": "Sistemas Distribuídos - Aula 15",
-    "embedUrl": "https://www.youtube.com/embed/3UDFaa_6Ahs",
-    "duration": 1249
+    "name": "Sistemas Distribuídos - Aula 15",
+    "duration": 1249,
+    "embedUrl": "https://www.youtube.com/embed/3UDFaa_6Ahs"
   },
   {
     "id": 1201,
-    "title": "Sistemas Distribuídos - Aula 16",
-    "embedUrl": "https://www.youtube.com/embed/ww5RYU6Eroo",
-    "duration": 1905
+    "name": "Sistemas Distribuídos - Aula 16",
+    "duration": 1905,
+    "embedUrl": "https://www.youtube.com/embed/ww5RYU6Eroo"
   },
   {
     "id": 1202,
-    "title": "Sistemas Distribuídos - Aula 17",
-    "embedUrl": "https://www.youtube.com/embed/u9NRJ1ALWDU",
-    "duration": 1635
+    "name": "Sistemas Distribuídos - Aula 17",
+    "duration": 1635,
+    "embedUrl": "https://www.youtube.com/embed/u9NRJ1ALWDU"
   },
   {
     "id": 1203,
-    "title": "Sistemas Distribuídos - Aula 18",
-    "embedUrl": "https://www.youtube.com/embed/Fa91LVW_5QI",
-    "duration": 1787
+    "name": "Sistemas Distribuídos - Aula 18",
+    "duration": 1787,
+    "embedUrl": "https://www.youtube.com/embed/Fa91LVW_5QI"
   },
   {
     "id": 1204,
-    "title": "Sistemas Distribuídos - Aula 19",
-    "embedUrl": "https://www.youtube.com/embed/LcalT2mXHNc",
-    "duration": 1715
+    "name": "Sistemas Distribuídos - Aula 19",
+    "duration": 1715,
+    "embedUrl": "https://www.youtube.com/embed/LcalT2mXHNc"
   },
   {
     "id": 1205,
-    "title": "Sistemas Distribuídos - Aula 20",
-    "embedUrl": "https://www.youtube.com/embed/y9AH4gczjto",
-    "duration": 1748
+    "name": "Sistemas Distribuídos - Aula 20",
+    "duration": 1748,
+    "embedUrl": "https://www.youtube.com/embed/y9AH4gczjto"
   },
   {
     "id": 1206,
-    "title": "Sistemas Distribuídos - Aula 21",
-    "embedUrl": "https://www.youtube.com/embed/goxNE1nRXhw",
-    "duration": 786
+    "name": "Sistemas Distribuídos - Aula 21",
+    "duration": 786,
+    "embedUrl": "https://www.youtube.com/embed/goxNE1nRXhw"
   }
 ]

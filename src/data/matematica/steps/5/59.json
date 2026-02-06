@@ -1,122 +1,122 @@
 [
   {
     "id": 2273,
-    "title": "Teoria das Grafos: 01 Grafos como modelos",
-    "embedUrl": "https://www.youtube.com/embed/kfHqZLYHfHU",
-    "duration": 1769
+    "name": "Teoria das Grafos: 01 Grafos como modelos",
+    "duration": 1769,
+    "embedUrl": "https://www.youtube.com/embed/kfHqZLYHfHU"
   },
   {
     "id": 2274,
-    "title": "Teoria das Grafos  02 Isomorfismo, Decomposição e Petersen",
-    "embedUrl": "https://www.youtube.com/embed/MSBZD6iMzcU",
-    "duration": 3227
+    "name": "Teoria das Grafos  02 Isomorfismo, Decomposição e Petersen",
+    "duration": 3227,
+    "embedUrl": "https://www.youtube.com/embed/MSBZD6iMzcU"
   },
   {
     "id": 2275,
-    "title": "Teoria das Grafos: 03 Caminhos",
-    "embedUrl": "https://www.youtube.com/embed/xfV1lRWHG8w",
-    "duration": 5050
+    "name": "Teoria das Grafos: 03 Caminhos",
+    "duration": 5050,
+    "embedUrl": "https://www.youtube.com/embed/xfV1lRWHG8w"
   },
   {
     "id": 2276,
-    "title": "Teoria das Grafos: 04 Grafos Bipartidos",
-    "embedUrl": "https://www.youtube.com/embed/eh0-yaat5uA",
-    "duration": 4743
+    "name": "Teoria das Grafos: 04 Grafos Bipartidos",
+    "duration": 4743,
+    "embedUrl": "https://www.youtube.com/embed/eh0-yaat5uA"
   },
   {
     "id": 2277,
-    "title": "Teoria dos Grafos: 05 Circuitos Eulerianos",
-    "embedUrl": "https://www.youtube.com/embed/Hxud9h7oU_Y",
-    "duration": 4833
+    "name": "Teoria dos Grafos: 05 Circuitos Eulerianos",
+    "duration": 4833,
+    "embedUrl": "https://www.youtube.com/embed/Hxud9h7oU_Y"
   },
   {
     "id": 2278,
-    "title": "Teoria dos Grafos: 06 Contagem",
-    "embedUrl": "https://www.youtube.com/embed/BTdB-l_B6bY",
-    "duration": 4801
+    "name": "Teoria dos Grafos: 06 Contagem",
+    "duration": 4801,
+    "embedUrl": "https://www.youtube.com/embed/BTdB-l_B6bY"
   },
   {
     "id": 2279,
-    "title": "Teoria dos Grafos: 07 Problemas Extremais",
-    "embedUrl": "https://www.youtube.com/embed/zrb-uyP9btw",
-    "duration": 2069
+    "name": "Teoria dos Grafos: 07 Problemas Extremais",
+    "duration": 2069,
+    "embedUrl": "https://www.youtube.com/embed/zrb-uyP9btw"
   },
   {
     "id": 2280,
-    "title": "Teoria dos Grafos: 08 Grafos Direcionados",
-    "embedUrl": "https://www.youtube.com/embed/yMe8iih9F-0",
-    "duration": 3054
+    "name": "Teoria dos Grafos: 08 Grafos Direcionados",
+    "duration": 3054,
+    "embedUrl": "https://www.youtube.com/embed/yMe8iih9F-0"
   },
   {
     "id": 2281,
-    "title": "Teoria dos Grafos: 09 Árvores",
-    "embedUrl": "https://www.youtube.com/embed/rnf77nX5DLk",
-    "duration": 4656
+    "name": "Teoria dos Grafos: 09 Árvores",
+    "duration": 4656,
+    "embedUrl": "https://www.youtube.com/embed/rnf77nX5DLk"
   },
   {
     "id": 2282,
-    "title": "Teoria dos Grafos: 10 Distâncias",
-    "embedUrl": "https://www.youtube.com/embed/rQgRnsUJn7g",
-    "duration": 5138
+    "name": "Teoria dos Grafos: 10 Distâncias",
+    "duration": 5138,
+    "embedUrl": "https://www.youtube.com/embed/rQgRnsUJn7g"
   },
   {
     "id": 2283,
-    "title": "Teoria dos Grafos: 11 Emparelhamentos",
-    "embedUrl": "https://www.youtube.com/embed/hquYJqE8Fks",
-    "duration": 5180
+    "name": "Teoria dos Grafos: 11 Emparelhamentos",
+    "duration": 5180,
+    "embedUrl": "https://www.youtube.com/embed/hquYJqE8Fks"
   },
   {
     "id": 2284,
-    "title": "Teoria dos Grafos: 12 Emparelhamentos, Coberturas e Conjuntos Independentes",
-    "embedUrl": "https://www.youtube.com/embed/aE1myOftLzU",
-    "duration": 3726
+    "name": "Teoria dos Grafos: 12 Emparelhamentos, Coberturas e Conjuntos Independentes",
+    "duration": 3726,
+    "embedUrl": "https://www.youtube.com/embed/aE1myOftLzU"
   },
   {
     "id": 2285,
-    "title": "Teoria dos Grafos: 13 Conectividade",
-    "embedUrl": "https://www.youtube.com/embed/AFgnr9m5ebs",
-    "duration": 4754
+    "name": "Teoria dos Grafos: 13 Conectividade",
+    "duration": 4754,
+    "embedUrl": "https://www.youtube.com/embed/AFgnr9m5ebs"
   },
   {
     "id": 2286,
-    "title": "Teoria dos Grafos: 14 Conectividade em arestas",
-    "embedUrl": "https://www.youtube.com/embed/O5Gsn4627nA",
-    "duration": 5387
+    "name": "Teoria dos Grafos: 14 Conectividade em arestas",
+    "duration": 5387,
+    "embedUrl": "https://www.youtube.com/embed/O5Gsn4627nA"
   },
   {
     "id": 2287,
-    "title": "Teoria dos Grafos: 15 Blocos",
-    "embedUrl": "https://www.youtube.com/embed/n4CXSFH-Hzk",
-    "duration": 3350
+    "name": "Teoria dos Grafos: 15 Blocos",
+    "duration": 3350,
+    "embedUrl": "https://www.youtube.com/embed/n4CXSFH-Hzk"
   },
   {
     "id": 2288,
-    "title": "Teoria dos Grafos: 16 Grafos k-conexos",
-    "embedUrl": "https://www.youtube.com/embed/z0gZvl0OS2s",
-    "duration": 5354
+    "name": "Teoria dos Grafos: 16 Grafos k-conexos",
+    "duration": 5354,
+    "embedUrl": "https://www.youtube.com/embed/z0gZvl0OS2s"
   },
   {
     "id": 2289,
-    "title": "Teoria dos Grafos: 17 Coloração",
-    "embedUrl": "https://www.youtube.com/embed/alh-cDkLCMY",
-    "duration": 6009
+    "name": "Teoria dos Grafos: 17 Coloração",
+    "duration": 6009,
+    "embedUrl": "https://www.youtube.com/embed/alh-cDkLCMY"
   },
   {
     "id": 2290,
-    "title": "Teoria dos Grafos: 18 Coloração: Distância a Limitantes Superior e Inferior",
-    "embedUrl": "https://www.youtube.com/embed/G-g_OrwTLLE",
-    "duration": 4855
+    "name": "Teoria dos Grafos: 18 Coloração: Distância a Limitantes Superior e Inferior",
+    "duration": 4855,
+    "embedUrl": "https://www.youtube.com/embed/G-g_OrwTLLE"
   },
   {
     "id": 2291,
-    "title": "Teoria dos Grafos: 19 Grafos Planares",
-    "embedUrl": "https://www.youtube.com/embed/r5-W1vfvvlo",
-    "duration": 4858
+    "name": "Teoria dos Grafos: 19 Grafos Planares",
+    "duration": 4858,
+    "embedUrl": "https://www.youtube.com/embed/r5-W1vfvvlo"
   },
   {
     "id": 2292,
-    "title": "Teoria dos Grafos: 20 Fórmula de Euler",
-    "embedUrl": "https://www.youtube.com/embed/KugIBFi6E9s",
-    "duration": 4940
+    "name": "Teoria dos Grafos: 20 Fórmula de Euler",
+    "duration": 4940,
+    "embedUrl": "https://www.youtube.com/embed/KugIBFi6E9s"
   }
 ]

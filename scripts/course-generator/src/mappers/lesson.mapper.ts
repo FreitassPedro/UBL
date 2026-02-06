@@ -10,9 +10,9 @@ export function toLessons(videos: Video[], videoDurations: Map<string, string>):
     const duration: number | undefined = durationISO ? toSeconds(durationISO) : undefined;
     return {
       id: ++lastLessonId,
-      title: video.snippet.title,
+      name: video.snippet.title,
+      duration: duration,
       embedUrl: `https://www.youtube.com/embed/${video.snippet.resourceId.videoId}`,
-      duration,
     };
   });
 }

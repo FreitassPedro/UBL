@@ -1,182 +1,182 @@
 [
   {
     "id": 1037,
-    "title": "Programação Matemática/Métodos de Otimização -- A01V01",
-    "embedUrl": "https://www.youtube.com/embed/8rrgnFCL9LM",
-    "duration": 1800
+    "name": "Programação Matemática/Métodos de Otimização -- A01V01",
+    "duration": 1800,
+    "embedUrl": "https://www.youtube.com/embed/8rrgnFCL9LM"
   },
   {
     "id": 1038,
-    "title": "Programação Matemática/Métodos de Otimização -- A01V02",
-    "embedUrl": "https://www.youtube.com/embed/Un0p9Y4s-AE",
-    "duration": 2204
+    "name": "Programação Matemática/Métodos de Otimização -- A01V02",
+    "duration": 2204,
+    "embedUrl": "https://www.youtube.com/embed/Un0p9Y4s-AE"
   },
   {
     "id": 1039,
-    "title": "Programação Matemática/Métodos de Otimização -- A01V03",
-    "embedUrl": "https://www.youtube.com/embed/vM3GZ8qUAOk",
-    "duration": 2006
+    "name": "Programação Matemática/Métodos de Otimização -- A01V03",
+    "duration": 2006,
+    "embedUrl": "https://www.youtube.com/embed/vM3GZ8qUAOk"
   },
   {
     "id": 1040,
-    "title": "Programação Matemática/Métodos de Otimização -- A02V01",
-    "embedUrl": "https://www.youtube.com/embed/GXw3uW0wYKI",
-    "duration": 1918
+    "name": "Programação Matemática/Métodos de Otimização -- A02V01",
+    "duration": 1918,
+    "embedUrl": "https://www.youtube.com/embed/GXw3uW0wYKI"
   },
   {
     "id": 1041,
-    "title": "Programação Matemática/Métodos de Otimização -- A02V02",
-    "embedUrl": "https://www.youtube.com/embed/Jovd1TNapxg",
-    "duration": 1546
+    "name": "Programação Matemática/Métodos de Otimização -- A02V02",
+    "duration": 1546,
+    "embedUrl": "https://www.youtube.com/embed/Jovd1TNapxg"
   },
   {
     "id": 1042,
-    "title": "Programação Matemática/Métodos de Otimização -- A02V03",
-    "embedUrl": "https://www.youtube.com/embed/XbTzgLZXhlE",
-    "duration": 1907
+    "name": "Programação Matemática/Métodos de Otimização -- A02V03",
+    "duration": 1907,
+    "embedUrl": "https://www.youtube.com/embed/XbTzgLZXhlE"
   },
   {
     "id": 1043,
-    "title": "Programação Matemática/Métodos de Otimização -- A02V04",
-    "embedUrl": "https://www.youtube.com/embed/fsbt439hkCE",
-    "duration": 2866
+    "name": "Programação Matemática/Métodos de Otimização -- A02V04",
+    "duration": 2866,
+    "embedUrl": "https://www.youtube.com/embed/fsbt439hkCE"
   },
   {
     "id": 1044,
-    "title": "PM21 - Atendimento 17/09",
-    "embedUrl": "https://www.youtube.com/embed/ix9n8WrvhU0",
-    "duration": 4806
+    "name": "PM21 - Atendimento 17/09",
+    "duration": 4806,
+    "embedUrl": "https://www.youtube.com/embed/ix9n8WrvhU0"
   },
   {
     "id": 1045,
-    "title": "PM21 - S02P1 - Revisão de Algebra Linear I",
-    "embedUrl": "https://www.youtube.com/embed/SBK9ae59MZU",
-    "duration": 5202
+    "name": "PM21 - S02P1 - Revisão de Algebra Linear I",
+    "duration": 5202,
+    "embedUrl": "https://www.youtube.com/embed/SBK9ae59MZU"
   },
   {
     "id": 1046,
-    "title": "PM21 - Atendimento 24/09",
-    "embedUrl": "https://www.youtube.com/embed/JtzPXRNaeUc",
-    "duration": 4183
+    "name": "PM21 - Atendimento 24/09",
+    "duration": 4183,
+    "embedUrl": "https://www.youtube.com/embed/JtzPXRNaeUc"
   },
   {
     "id": 1047,
-    "title": "PM21 - S02P2 - Revisão de Álgebra Linear II",
-    "embedUrl": "https://www.youtube.com/embed/_DuX6o67yiA",
-    "duration": 4431
+    "name": "PM21 - S02P2 - Revisão de Álgebra Linear II",
+    "duration": 4431,
+    "embedUrl": "https://www.youtube.com/embed/_DuX6o67yiA"
   },
   {
     "id": 1048,
-    "title": "PM21 - S03P1 - Geometria e Estrutura I",
-    "embedUrl": "https://www.youtube.com/embed/OQNvc2lQlH4",
-    "duration": 3210
+    "name": "PM21 - S03P1 - Geometria e Estrutura I",
+    "duration": 3210,
+    "embedUrl": "https://www.youtube.com/embed/OQNvc2lQlH4"
   },
   {
     "id": 1049,
-    "title": "PM21 - S03P2 - Geometria e Estrutura II",
-    "embedUrl": "https://www.youtube.com/embed/60GukVHfnHo",
-    "duration": 2362
+    "name": "PM21 - S03P2 - Geometria e Estrutura II",
+    "duration": 2362,
+    "embedUrl": "https://www.youtube.com/embed/60GukVHfnHo"
   },
   {
     "id": 1050,
-    "title": "PM21 - Atendimento 01/10",
-    "embedUrl": "https://www.youtube.com/embed/Pe2OBRwui28",
-    "duration": 2412
+    "name": "PM21 - Atendimento 01/10",
+    "duration": 2412,
+    "embedUrl": "https://www.youtube.com/embed/Pe2OBRwui28"
   },
   {
     "id": 1051,
-    "title": "PM21 - S03P3 - Geometria e Estrutura III",
-    "embedUrl": "https://www.youtube.com/embed/PRQn8dWVtPI",
-    "duration": 4042
+    "name": "PM21 - S03P3 - Geometria e Estrutura III",
+    "duration": 4042,
+    "embedUrl": "https://www.youtube.com/embed/PRQn8dWVtPI"
   },
   {
     "id": 1052,
-    "title": "PM21 - S03P4 - Geometria e Estrutura IV",
-    "embedUrl": "https://www.youtube.com/embed/QajkykCRYFk",
-    "duration": 3682
+    "name": "PM21 - S03P4 - Geometria e Estrutura IV",
+    "duration": 3682,
+    "embedUrl": "https://www.youtube.com/embed/QajkykCRYFk"
   },
   {
     "id": 1053,
-    "title": "PM21 - S04P1 - Geometria e Estrutura V",
-    "embedUrl": "https://www.youtube.com/embed/yVdET4_kLJA",
-    "duration": 5167
+    "name": "PM21 - S04P1 - Geometria e Estrutura V",
+    "duration": 5167,
+    "embedUrl": "https://www.youtube.com/embed/yVdET4_kLJA"
   },
   {
     "id": 1054,
-    "title": "PM21 - S04P2 - Geometria e Estrutura VI",
-    "embedUrl": "https://www.youtube.com/embed/rzOUkFYEnfM",
-    "duration": 1518
+    "name": "PM21 - S04P2 - Geometria e Estrutura VI",
+    "duration": 1518,
+    "embedUrl": "https://www.youtube.com/embed/rzOUkFYEnfM"
   },
   {
     "id": 1055,
-    "title": "PM21 - S04P3 - Geometria e Estrutura VII",
-    "embedUrl": "https://www.youtube.com/embed/7z6xLq5wV8c",
-    "duration": 2148
+    "name": "PM21 - S04P3 - Geometria e Estrutura VII",
+    "duration": 2148,
+    "embedUrl": "https://www.youtube.com/embed/7z6xLq5wV8c"
   },
   {
     "id": 1056,
-    "title": "PM21 - S04P4 - Geometria e Estrutura VIII",
-    "embedUrl": "https://www.youtube.com/embed/0IcQjnOMKdg",
-    "duration": 1121
+    "name": "PM21 - S04P4 - Geometria e Estrutura VIII",
+    "duration": 1121,
+    "embedUrl": "https://www.youtube.com/embed/0IcQjnOMKdg"
   },
   {
     "id": 1057,
-    "title": "PM21 - S04P5 - Geometria e Estrutura IX",
-    "embedUrl": "https://www.youtube.com/embed/9U1fHtJSdBg",
-    "duration": 2629
+    "name": "PM21 - S04P5 - Geometria e Estrutura IX",
+    "duration": 2629,
+    "embedUrl": "https://www.youtube.com/embed/9U1fHtJSdBg"
   },
   {
     "id": 1058,
-    "title": "PM21 - S05P1 - Geometria e Estrutura X",
-    "embedUrl": "https://www.youtube.com/embed/62bqx_VQers",
-    "duration": 2911
+    "name": "PM21 - S05P1 - Geometria e Estrutura X",
+    "duration": 2911,
+    "embedUrl": "https://www.youtube.com/embed/62bqx_VQers"
   },
   {
     "id": 1059,
-    "title": "PM21 - S05P2 - Geometria e Estrutura XI",
-    "embedUrl": "https://www.youtube.com/embed/e8yDEBG8lMQ",
-    "duration": 3834
+    "name": "PM21 - S05P2 - Geometria e Estrutura XI",
+    "duration": 3834,
+    "embedUrl": "https://www.youtube.com/embed/e8yDEBG8lMQ"
   },
   {
     "id": 1060,
-    "title": "PM21 - S06P1 - Total Unimodularidade I",
-    "embedUrl": "https://www.youtube.com/embed/lVxNTHhaZK4",
-    "duration": 2413
+    "name": "PM21 - S06P1 - Total Unimodularidade I",
+    "duration": 2413,
+    "embedUrl": "https://www.youtube.com/embed/lVxNTHhaZK4"
   },
   {
     "id": 1061,
-    "title": "PM21 - S06P2 - Total Unimodularidade II",
-    "embedUrl": "https://www.youtube.com/embed/SAONVzG5Dnk",
-    "duration": 3064
+    "name": "PM21 - S06P2 - Total Unimodularidade II",
+    "duration": 3064,
+    "embedUrl": "https://www.youtube.com/embed/SAONVzG5Dnk"
   },
   {
     "id": 1062,
-    "title": "PM21 - S06P3 - Total Unimodularidade III",
-    "embedUrl": "https://www.youtube.com/embed/PHjeQhqYRto",
-    "duration": 2925
+    "name": "PM21 - S06P3 - Total Unimodularidade III",
+    "duration": 2925,
+    "embedUrl": "https://www.youtube.com/embed/PHjeQhqYRto"
   },
   {
     "id": 1063,
-    "title": "PM21 - S07P1 - Método Simplex I",
-    "embedUrl": "https://www.youtube.com/embed/xpWZo5FW0ns",
-    "duration": 3420
+    "name": "PM21 - S07P1 - Método Simplex I",
+    "duration": 3420,
+    "embedUrl": "https://www.youtube.com/embed/xpWZo5FW0ns"
   },
   {
     "id": 1064,
-    "title": "PM21 - S07P2 - Método Simplex II",
-    "embedUrl": "https://www.youtube.com/embed/GNj7mi6U18s",
-    "duration": 2733
+    "name": "PM21 - S07P2 - Método Simplex II",
+    "duration": 2733,
+    "embedUrl": "https://www.youtube.com/embed/GNj7mi6U18s"
   },
   {
     "id": 1065,
-    "title": "PM21 - S07P3 - Método Simplex III",
-    "embedUrl": "https://www.youtube.com/embed/tt_XlYDVqBc",
-    "duration": 2572
+    "name": "PM21 - S07P3 - Método Simplex III",
+    "duration": 2572,
+    "embedUrl": "https://www.youtube.com/embed/tt_XlYDVqBc"
   },
   {
     "id": 1066,
-    "title": "PM21 - Atendimento 24/11",
-    "embedUrl": "https://www.youtube.com/embed/aFctEL9q3lQ",
-    "duration": 4268
+    "name": "PM21 - Atendimento 24/11",
+    "duration": 4268,
+    "embedUrl": "https://www.youtube.com/embed/aFctEL9q3lQ"
   }
 ]

@@ -1,170 +1,170 @@
 [
   {
     "id": 1504,
-    "title": "Geometria Analítica - Aula 01 - Apresentação da Disciplina",
-    "embedUrl": "https://www.youtube.com/embed/t9dAl4imiO4",
-    "duration": 1230
+    "name": "Geometria Analítica - Aula 01 - Apresentação da Disciplina",
+    "duration": 1230,
+    "embedUrl": "https://www.youtube.com/embed/t9dAl4imiO4"
   },
   {
     "id": 1505,
-    "title": "Geometria Analítica - Aula 02 - Coordenadas Cartesianas no Plano 𝑹^𝟐",
-    "embedUrl": "https://www.youtube.com/embed/WhcTfvX9vJk",
-    "duration": 1713
+    "name": "Geometria Analítica - Aula 02 - Coordenadas Cartesianas no Plano 𝑹^𝟐",
+    "duration": 1713,
+    "embedUrl": "https://www.youtube.com/embed/WhcTfvX9vJk"
   },
   {
     "id": 1506,
-    "title": "Geometria Analítica - Aula 03 - Equação da Circunferência",
-    "embedUrl": "https://www.youtube.com/embed/hyGia7VREcU",
-    "duration": 1511
+    "name": "Geometria Analítica - Aula 03 - Equação da Circunferência",
+    "duration": 1511,
+    "embedUrl": "https://www.youtube.com/embed/hyGia7VREcU"
   },
   {
     "id": 1507,
-    "title": "Geometria Analítica - Aula 04 - Coordenadas Polares",
-    "embedUrl": "https://www.youtube.com/embed/hYLSxAg0U18",
-    "duration": 1517
+    "name": "Geometria Analítica - Aula 04 - Coordenadas Polares",
+    "duration": 1517,
+    "embedUrl": "https://www.youtube.com/embed/hYLSxAg0U18"
   },
   {
     "id": 1508,
-    "title": "Geometria Analítica - Aula 05 - Vetores no Plano 𝑹^𝟐",
-    "embedUrl": "https://www.youtube.com/embed/1C43Zlwe9h4",
-    "duration": 1470
+    "name": "Geometria Analítica - Aula 05 - Vetores no Plano 𝑹^𝟐",
+    "duration": 1470,
+    "embedUrl": "https://www.youtube.com/embed/1C43Zlwe9h4"
   },
   {
     "id": 1509,
-    "title": "Geometria Analítica - Aula 06 - Dependência linear",
-    "embedUrl": "https://www.youtube.com/embed/_Vi9S62Aipw",
-    "duration": 1274
+    "name": "Geometria Analítica - Aula 06 - Dependência linear",
+    "duration": 1274,
+    "embedUrl": "https://www.youtube.com/embed/_Vi9S62Aipw"
   },
   {
     "id": 1510,
-    "title": "Geometria Analítica - Aula 07 - Produto Escalar",
-    "embedUrl": "https://www.youtube.com/embed/E_wm77isckY",
-    "duration": 1576
+    "name": "Geometria Analítica - Aula 07 - Produto Escalar",
+    "duration": 1576,
+    "embedUrl": "https://www.youtube.com/embed/E_wm77isckY"
   },
   {
     "id": 1511,
-    "title": "Geometria Analítica - Aula 08 - Equação de reta - Parte 1",
-    "embedUrl": "https://www.youtube.com/embed/M064Cv7DK3o",
-    "duration": 1245
+    "name": "Geometria Analítica - Aula 08 - Equação de reta - Parte 1",
+    "duration": 1245,
+    "embedUrl": "https://www.youtube.com/embed/M064Cv7DK3o"
   },
   {
     "id": 1512,
-    "title": "Geometria Analítica - Aula 09 - Equação da reta (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/SIssYpYEUX4",
-    "duration": 1215
+    "name": "Geometria Analítica - Aula 09 - Equação da reta (parte 2)",
+    "duration": 1215,
+    "embedUrl": "https://www.youtube.com/embed/SIssYpYEUX4"
   },
   {
     "id": 1513,
-    "title": "Geometria Analítica - Aula 10 - Cônicas (parte1)",
-    "embedUrl": "https://www.youtube.com/embed/bD-RMSP1db4",
-    "duration": 1338
+    "name": "Geometria Analítica - Aula 10 - Cônicas (parte1)",
+    "duration": 1338,
+    "embedUrl": "https://www.youtube.com/embed/bD-RMSP1db4"
   },
   {
     "id": 1514,
-    "title": "Geometria Analítica - Aula 11 - Cônicas (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/NdWjwExnQWg",
-    "duration": 1275
+    "name": "Geometria Analítica - Aula 11 - Cônicas (parte 2)",
+    "duration": 1275,
+    "embedUrl": "https://www.youtube.com/embed/NdWjwExnQWg"
   },
   {
     "id": 1515,
-    "title": "Geometria Analítica - Aula 12 - Mudança de Coordenadas",
-    "embedUrl": "https://www.youtube.com/embed/uQPMW44RDpk",
-    "duration": 1363
+    "name": "Geometria Analítica - Aula 12 - Mudança de Coordenadas",
+    "duration": 1363,
+    "embedUrl": "https://www.youtube.com/embed/uQPMW44RDpk"
   },
   {
     "id": 1516,
-    "title": "Geometria Analítica - Aula 13 - Coordenadas Cartesianas no R³",
-    "embedUrl": "https://www.youtube.com/embed/OE6MJLQZAlY",
-    "duration": 1230
+    "name": "Geometria Analítica - Aula 13 - Coordenadas Cartesianas no R³",
+    "duration": 1230,
+    "embedUrl": "https://www.youtube.com/embed/OE6MJLQZAlY"
   },
   {
     "id": 1517,
-    "title": "Geometria Analítica - Aula 14 - Vetor no espaço R³",
-    "embedUrl": "https://www.youtube.com/embed/iAn65WYDWb8",
-    "duration": 1145
+    "name": "Geometria Analítica - Aula 14 - Vetor no espaço R³",
+    "duration": 1145,
+    "embedUrl": "https://www.youtube.com/embed/iAn65WYDWb8"
   },
   {
     "id": 1518,
-    "title": "Geometria Analítica - Aula 15 - Dependência Linear no R³",
-    "embedUrl": "https://www.youtube.com/embed/V1n9bG8vovo",
-    "duration": 1259
+    "name": "Geometria Analítica - Aula 15 - Dependência Linear no R³",
+    "duration": 1259,
+    "embedUrl": "https://www.youtube.com/embed/V1n9bG8vovo"
   },
   {
     "id": 1519,
-    "title": "Geometria Analítica - Aula 16 - Produto escalar e produto vetorial",
-    "embedUrl": "https://www.youtube.com/embed/wDIvgP91DsU",
-    "duration": 1388
+    "name": "Geometria Analítica - Aula 16 - Produto escalar e produto vetorial",
+    "duration": 1388,
+    "embedUrl": "https://www.youtube.com/embed/wDIvgP91DsU"
   },
   {
     "id": 1520,
-    "title": "Geometria Analítica - Aula 17 - Produto Misto",
-    "embedUrl": "https://www.youtube.com/embed/BXsx2CcH1kk",
-    "duration": 1327
+    "name": "Geometria Analítica - Aula 17 - Produto Misto",
+    "duration": 1327,
+    "embedUrl": "https://www.youtube.com/embed/BXsx2CcH1kk"
   },
   {
     "id": 1521,
-    "title": "Geometria Analítica - Aula 18 - Estudo da reta e do plano (Parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/aRSxKV1HUbo",
-    "duration": 1345
+    "name": "Geometria Analítica - Aula 18 - Estudo da reta e do plano (Parte 1)",
+    "duration": 1345,
+    "embedUrl": "https://www.youtube.com/embed/aRSxKV1HUbo"
   },
   {
     "id": 1522,
-    "title": "Geometria Analítica - Aula 19 - Estudo da reta e do plano (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/6pMZbxbqm0g",
-    "duration": 1293
+    "name": "Geometria Analítica - Aula 19 - Estudo da reta e do plano (parte 2)",
+    "duration": 1293,
+    "embedUrl": "https://www.youtube.com/embed/6pMZbxbqm0g"
   },
   {
     "id": 1523,
-    "title": "Geometria Analítica - Aula 20 - Ortogonalidade",
-    "embedUrl": "https://www.youtube.com/embed/egIXadtpVnc",
-    "duration": 1550
+    "name": "Geometria Analítica - Aula 20 - Ortogonalidade",
+    "duration": 1550,
+    "embedUrl": "https://www.youtube.com/embed/egIXadtpVnc"
   },
   {
     "id": 1524,
-    "title": "Geometria Analítica - Aula 21 -  Posições relativas (parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/xPDi8RjCEfg",
-    "duration": 1184
+    "name": "Geometria Analítica - Aula 21 -  Posições relativas (parte 1)",
+    "duration": 1184,
+    "embedUrl": "https://www.youtube.com/embed/xPDi8RjCEfg"
   },
   {
     "id": 1525,
-    "title": "Geometria Analítica - Aula 22 -  Posições relativas (parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/XnbAKv6IqxA",
-    "duration": 1333
+    "name": "Geometria Analítica - Aula 22 -  Posições relativas (parte 2)",
+    "duration": 1333,
+    "embedUrl": "https://www.youtube.com/embed/XnbAKv6IqxA"
   },
   {
     "id": 1526,
-    "title": "Geometria Analítica - Aula 23 - Distâncias (Parte 1)",
-    "embedUrl": "https://www.youtube.com/embed/F4LEHjXnvlU",
-    "duration": 1340
+    "name": "Geometria Analítica - Aula 23 - Distâncias (Parte 1)",
+    "duration": 1340,
+    "embedUrl": "https://www.youtube.com/embed/F4LEHjXnvlU"
   },
   {
     "id": 1527,
-    "title": "Geometria Analítica - Aula 24 - Distâncias (Parte 2)",
-    "embedUrl": "https://www.youtube.com/embed/hgu4pprFEhI",
-    "duration": 1189
+    "name": "Geometria Analítica - Aula 24 - Distâncias (Parte 2)",
+    "duration": 1189,
+    "embedUrl": "https://www.youtube.com/embed/hgu4pprFEhI"
   },
   {
     "id": 1528,
-    "title": "Geometria Analítica - Aula 25 - Exercícios no Plano R²",
-    "embedUrl": "https://www.youtube.com/embed/QUTiiEJtaQo",
-    "duration": 1536
+    "name": "Geometria Analítica - Aula 25 - Exercícios no Plano R²",
+    "duration": 1536,
+    "embedUrl": "https://www.youtube.com/embed/QUTiiEJtaQo"
   },
   {
     "id": 1529,
-    "title": "Geometria Analítica - Aula 26 - Exercícios de Vetores no R³",
-    "embedUrl": "https://www.youtube.com/embed/6x7UwrJD4z8",
-    "duration": 1325
+    "name": "Geometria Analítica - Aula 26 - Exercícios de Vetores no R³",
+    "duration": 1325,
+    "embedUrl": "https://www.youtube.com/embed/6x7UwrJD4z8"
   },
   {
     "id": 1530,
-    "title": "Geometria Analítica - Aula 27 - Retas e planos",
-    "embedUrl": "https://www.youtube.com/embed/-sEmXHPkJHc",
-    "duration": 1396
+    "name": "Geometria Analítica - Aula 27 - Retas e planos",
+    "duration": 1396,
+    "embedUrl": "https://www.youtube.com/embed/-sEmXHPkJHc"
   },
   {
     "id": 1531,
-    "title": "Geometria Analítica - Aula 28 - Distâncias",
-    "embedUrl": "https://www.youtube.com/embed/g2Xl5MR_PHU",
-    "duration": 1159
+    "name": "Geometria Analítica - Aula 28 - Distâncias",
+    "duration": 1159,
+    "embedUrl": "https://www.youtube.com/embed/g2Xl5MR_PHU"
   }
 ]
