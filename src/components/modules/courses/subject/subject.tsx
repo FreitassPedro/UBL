@@ -1,6 +1,6 @@
-import SubjectBooks from "@/components/courses/subject/subject-books";
-import SubjectBooksToggle from "@/components/courses/subject/subject-books-toggle";
-import SubjectPrerequisites from "@/components/courses/subject/subject-prerequisites";
+import SubjectBooks from "@/components/modules/courses/subject/subject-books";
+import SubjectBooksToggle from "@/components/modules/courses/subject/subject-books-toggle";
+import SubjectPrerequisites from "@/components/modules/courses/subject/subject-prerequisites";
 import { cn } from "@/lib/utils";
 
 interface SubjectProps {

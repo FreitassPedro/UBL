@@ -1,4 +1,4 @@
-import MyCourse from "@/components/my-courses/my-course/my-course";
+import MyCourse from "@/components/modules/my-courses/my-course/my-course";
 import { getCourse } from "@/services/course.service";
 import CourseType from "@/types/course";
 import { notFound } from "next/navigation";

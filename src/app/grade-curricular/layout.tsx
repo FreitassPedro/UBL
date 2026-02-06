@@ -1,6 +1,6 @@
 import { courses } from "@/app/grade-curricular/page";
-import CourseSelector from "@/components/courses/course-selector";
-import CoursesHero from "@/components/courses/courses-hero";
+import CourseSelector from "@/components/modules/courses/course-selector";
+import CoursesHero from "@/components/modules/courses/courses-hero";
 
 export const Layout = async ({ children }: { children: React.ReactNode }) => {
   return (

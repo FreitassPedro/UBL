@@ -1,6 +1,6 @@
 "use client";
 
-import CourseGraph from "@/components/courses/course/node-graphs/course-graph";
+import CourseGraph from "@/components/modules/courses/course/node-graphs/course-graph";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,

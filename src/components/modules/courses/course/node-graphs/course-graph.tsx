@@ -12,7 +12,7 @@ import {
 import React from "react";
 import "@xyflow/react/dist/style.css";
 import Course from "@/types/course";
-import CourseNode from "@/components/courses/course/node-graphs/course-node";
+import CourseNode from "@/components/modules/courses/course/node-graphs/course-node";
 
 interface CourseGraphNode extends Node {
   data: {

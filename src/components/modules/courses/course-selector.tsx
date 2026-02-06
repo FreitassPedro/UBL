@@ -1,4 +1,4 @@
-import CourseSelectorPreview from "@/components/courses/course-selector-preview";
+import CourseSelectorPreview from "@/components/modules/courses/course-selector-preview";
 import { StaticImageData } from "next/image";
 
 interface CourseSelectorProps {

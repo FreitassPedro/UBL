@@ -1,5 +1,5 @@
-import StepHeader from "@/components/courses/step/step-header";
-import Subject from "@/components/courses/subject/subject";
+import StepHeader from "@/components/modules/courses/step/step-header";
+import Subject from "@/components/modules/courses/subject/subject";
 import { cn } from "@/lib/utils";
 import StepType from "@/types/step";
 

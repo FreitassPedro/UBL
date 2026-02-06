@@ -1,4 +1,4 @@
-import MyStepCountInfo from "@/components/my-courses/my-step/my-step-count-info";
+import MyStepCountInfo from "@/components/modules/my-courses/my-step/my-step-count-info";
 import { formatSeconds } from "@/lib/time";
 import Course from "@/types/course";
 import Step from "@/types/step";

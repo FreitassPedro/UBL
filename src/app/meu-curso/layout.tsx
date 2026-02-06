@@ -1,4 +1,4 @@
-import UserAvatar from "@/components/user/user-avatar";
+import UserAvatar from "@/components/shared/user/user-avatar";
 import { LayoutGrid } from "lucide-react";
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {

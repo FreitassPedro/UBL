@@ -1,4 +1,4 @@
-import CourseGraphDialog from "@/components/courses/course/node-graphs/course-graph-dialog";
+import CourseGraphDialog from "@/components/modules/courses/course/node-graphs/course-graph-dialog";
 import { Separator } from "@/components/ui/separator";
 import Course from "@/types/course";
 import { GraduationCap } from "lucide-react";

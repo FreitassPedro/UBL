@@ -1,4 +1,4 @@
-import MyCourseSelectorPreview from "@/components/my-courses/my-course-selector-preview";
+import MyCourseSelectorPreview from "@/components/modules/my-courses/my-course-selector-preview";
 import { LucideIcon } from "lucide-react";
 
 interface MyCourseSelectorProps {

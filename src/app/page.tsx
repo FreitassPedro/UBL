@@ -1,7 +1,7 @@
 import sectionIllustrationImg from "@/assets/sectionIllustration.png";
 import sectionIllustrationAltImg from "@/assets/sectionIllustrationAlt.png";
-import HomeHero from "@/components/home/home-hero";
-import { HomeSection } from "@/components/home/home-section";
+import HomeHero from "@/components/modules/home/home-hero";
+import { HomeSection } from "@/components/modules/home/home-section";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessagesSquare } from "lucide-react";
 

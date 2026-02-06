@@ -1,4 +1,4 @@
-import { MyStepInfo } from "@/components/my-courses/my-step/my-step-info";
+import { MyStepInfo } from "@/components/modules/my-courses/my-step/my-step-info";
 import { getTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import Course from "@/types/course";

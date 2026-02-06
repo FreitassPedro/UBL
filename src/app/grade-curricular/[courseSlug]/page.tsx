@@ -1,5 +1,5 @@
 import { courses } from "@/app/grade-curricular/page";
-import Course from "@/components/courses/course/course";
+import Course from "@/components/modules/courses/course/course";
 import { getCourse } from "@/services/course.service";
 import CourseType from "@/types/course";
 import { notFound } from "next/navigation";
