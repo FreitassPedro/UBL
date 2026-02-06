@@ -11,7 +11,15 @@ interface MyStepCountInfoProps {
 
 export const MyStepCountInfo = ({ stepNumber, course }: MyStepCountInfoProps) => {
   const myCourse: MyCourse = useMyCourse(course);
-  return <span>{myCourse.steps[stepNumber].subjects.length}</span>;
+  return (
+    <span>
+      {
+        myCourse.steps[stepNumber].subjects.filter(
+          (subject) => subject.progress === 100,
+        ).length
+      }
+    </span>
+  );
 };
 
 export default MyStepCountInfo;
