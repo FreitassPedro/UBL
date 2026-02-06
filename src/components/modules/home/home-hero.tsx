@@ -8,7 +8,7 @@ import Link from "next/link";
 export const HomeHero = () => {
   return (
     <main className="mx-auto flex min-h-[calc(100svh-3.5rem)] w-full max-w-7xl flex-col items-center justify-center gap-10 px-6 sm:gap-12 sm:px-10 md:flex-row md:gap-16 lg:px-14">
-      <div className="flex order-last flex-1 flex-col items-center text-center md:order-none md:items-start md:text-left">
+      <div className="flex order-last flex-1 flex-col items-center text-center md:order-0 md:items-start md:text-left">
         <h1 className="mb-6 sm:mb-7 text-[3rem] sm:text-5xl md:text-[5.1rem] lg:text-[5.6rem] font-semibold leading-none sm:leading-[0.95] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-ubl-green to-ubl-blue">
           Universidade{" "}
           <span className="whitespace-nowrap">Brasileira Livre</span>
@@ -79,7 +79,7 @@ export const HomeHero = () => {
         </div>
       </div>
 
-      <div className="flex order-first w-full flex-1 items-center justify-center md:order-none">
+      <div className="flex order-first w-full flex-1 items-center justify-center md:order-0">
         <Image
           src={bannerSimpleImg}
           alt="Banner UBL"
