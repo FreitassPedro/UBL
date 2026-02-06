@@ -10,10 +10,11 @@ export const MyCourseRedirectPage = async ({ params }: { params: Promise<{ cours
   }
 
   if (course.steps.length === 0) {
-    throw new Error(`Invalid course configuration: no steps found for course "${courseSlug}".`,);
+    throw new Error(`Invalid course configuration: no steps found for course "${courseSlug}".`);
   }
 
-  redirect(`/meu-curso/${courseSlug}/etapas/1`);
+  const firstStepNumber = Math.min(...course.steps.map((step) => step.number));
+  redirect(`/meu-curso/${courseSlug}/etapas/${firstStepNumber}`);
 };
 
 export default MyCourseRedirectPage;
