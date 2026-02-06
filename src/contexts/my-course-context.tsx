@@ -6,7 +6,7 @@ import { createContext, useCallback, useMemo } from "react";
 
 export interface MyCourseContextType {
   progress: MyRawCourse;
-  toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectId: number, lessonId: number) => void;
+  toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number) => void;
 }
 
 export const MyCourseContext = createContext<MyCourseContextType>(
@@ -16,11 +16,11 @@ export const MyCourseContext = createContext<MyCourseContextType>(
 export const MyCourseProvider = ({ children }: { children: React.ReactNode }) => {
   const { progress, setProgress } = useMyProgress();
   const toggleLessonCompletion = useCallback(
-    (courseSlug: string, stepNumber: number, subjectId: number, lessonId: number): void => {
+    (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
       setProgress((prev) => {
         const course = prev[courseSlug] ?? {};
-        const step = course[stepNumber] ?? {};
-        const lessons = step[subjectId] ?? [];
+        const step = course[stepNumber - 1] ?? {};
+        const lessons = step[subjectNumber - 1] ?? [];
         const nextLessons = lessons.includes(lessonId)
           ? lessons.filter((id) => id !== lessonId)
           : [...lessons, lessonId];
@@ -32,13 +32,13 @@ export const MyCourseProvider = ({ children }: { children: React.ReactNode }) =>
               ...course,
               [stepNumber]: {
                 ...step,
-                [subjectId]: nextLessons,
+                [subjectNumber]: nextLessons,
               },
             },
           };
         }
 
-        const { [subjectId]: _, ...nextStep } = step;
+        const { [subjectNumber]: _, ...nextStep } = step;
         if (Object.keys(nextStep).length > 0) {
           return {
             ...prev,

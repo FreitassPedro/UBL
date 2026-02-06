@@ -1,5 +1,6 @@
 import MyCourseNavigation from "@/components/my-courses/my-course/my-course-navigation";
 import MyStepHeader from "@/components/my-courses/my-step/header/my-step-header";
+import MyStep from "@/components/my-courses/my-step/my-step";
 import Course from "@/types/course";
 
 interface MyCourseProps {
@@ -19,11 +20,11 @@ export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
         <div className="space-y-6">
           <MyStepHeader stepNumber={stepNumber} course={course} />
-          {/* <div className="grid grid-cols-1 gap-3">
-            {step.subjects.map((mySubject) => (
-              <MyStep key={mySubject.id} mySubject={mySubject} />
+          <div className="grid grid-cols-1 gap-3">
+            {course.steps[stepNumber - 1].subjects.map((subject) => (
+              <MyStep key={subject.id} stepNumber={stepNumber} subjectNumber={subject.number} course={course} />
             ))}
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

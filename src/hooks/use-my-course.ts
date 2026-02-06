@@ -12,11 +12,11 @@ export const useMyCourse = (course: Course) => {
     return {
       ...course,
       steps: course.steps.map((step) => {
-        const stepProgress = courseProgress?.[step.id] ?? {};
+        const stepProgress = courseProgress?.[step.number - 1] ?? {};
         return {
           ...step,
           subjects: step.subjects.map((subject) => {
-            const subjectProgress = stepProgress?.[subject.id] ?? [];
+            const subjectProgress = stepProgress?.[subject.number - 1] ?? [];
             return {
               lessons: subjectProgress,
               progress: subject.lessons
