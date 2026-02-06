@@ -35,7 +35,7 @@ export const MyStep = ({ stepNumber, subjectNumber, course }: MyStepProps) => {
         )}
       >
         <div className="relative shrink-0">
-          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-lg border border-zinc-800 bg-zinc-900 shadow-inner text-2xl sm:text-3xl font-semibold leading-none tracking-tight text-zinc-400">
+          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-lg border border-zinc-800 bg-card shadow-inner text-2xl sm:text-3xl font-semibold leading-none tracking-tight text-zinc-400">
             {subject.name.substring(0, 2).toUpperCase()}
           </div>
           <div className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800">

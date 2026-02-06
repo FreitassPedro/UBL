@@ -75,6 +75,7 @@ export function getProgressTheme(progress: number) {
       color: "text-zinc-400",
       iconColor: "text-zinc-500",
       border: "group-hover:border-zinc-500/70 border-zinc-700/70",
+      bg: "bg-zinc-900",
       icon: Circle,
     };
 }
