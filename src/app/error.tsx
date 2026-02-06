@@ -1,6 +1,6 @@
 "use client";
 
-import Error from "@/components/modules/error/error";
+import Error from "@/components/shared/error";
 
 export const ErrorPage = () => {
   return <Error />;

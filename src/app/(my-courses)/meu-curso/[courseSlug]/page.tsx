@@ -1,4 +1,4 @@
-import { courses } from "@/app/grade-curricular/page";
+import { courses } from "@/app/(courses)/grade-curricular/page";
 import { getCourse } from "@/services/course.service";
 import Course from "@/types/course";
 import { notFound, redirect } from "next/navigation";
@@ -18,7 +18,7 @@ export const MyCourseRedirectPage = async ({ params }: { params: Promise<{ cours
     throw new Error(`Invalid course configuration: no steps found for course "${courseSlug}".`);
   }
 
-  const firstStepNumber = Math.min(...course.steps.map((step) => step.number));
+  const firstStepNumber: number = Math.min(...course.steps.map((step) => step.number));
   redirect(`/meu-curso/${courseSlug}/etapas/${firstStepNumber}`);
 };
 
