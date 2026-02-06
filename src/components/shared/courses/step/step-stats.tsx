@@ -1,16 +1,18 @@
-import MyStepCountInfo from "@/components/modules/my-courses/my-step/my-step-count-info";
+import StepStatsProgress from "@/components/shared/courses/step/step-stats-progress";
 import { formatSeconds } from "@/lib/time";
 import Course from "@/types/course";
 import Step from "@/types/step";
 import { BookOpen, Clock } from "lucide-react";
 
-interface MyStepInfoProps {
-  stepNumber: number;
-  course: Course;
-}
+type StepStatsPropsFromStep = { step: Step };
+type StepStatsPropsFromCourse = { stepNumber: number; course: Course; showProgress?: boolean };
+type StepStatsProps = StepStatsPropsFromStep | StepStatsPropsFromCourse;
 
-export const MyStepInfo = ({ stepNumber, course }: MyStepInfoProps) => {
-  const step: Step = course.steps[stepNumber - 1];
+export const StepStats = (props: StepStatsProps) => {
+  const step: Step = "step" in props
+    ? props.step
+    : props.course.steps[props.stepNumber - 1];
+
   const stepDuration: string = formatSeconds(
     step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
   );
@@ -26,9 +28,18 @@ export const MyStepInfo = ({ stepNumber, course }: MyStepInfoProps) => {
             Disciplinas
           </span>
           <span className="text-zinc-200 font-medium">
-            <MyStepCountInfo stepNumber={stepNumber} course={course} />
-            <span className="text-zinc-600">/</span>
-            <span>{step.subjects.length}</span>
+            {"course" in props && props.showProgress ? (
+              <>
+                <StepStatsProgress
+                  stepNumber={step.number}
+                  course={props.course}
+                />
+                <span className="text-zinc-600">/</span>
+                <span>{step.subjects.length}</span>
+              </>
+            ) : (
+              <>{step.subjects.length}</>
+            )}
           </span>
         </div>
       </div>
@@ -41,9 +52,7 @@ export const MyStepInfo = ({ stepNumber, course }: MyStepInfoProps) => {
           <span className="text-xs text-zinc-500 uppercase font-bold">
             Tempo
           </span>
-          <span className="text-zinc-200 font-medium">
-            {stepDuration}
-          </span>
+          <span className="text-zinc-200 font-medium">{stepDuration}</span>
         </div>
       </div>
     </div>

@@ -4,12 +4,12 @@ import useMyCourse from "@/hooks/use-my-course";
 import Course from "@/types/course";
 import MyCourse from "@/types/my-course";
 
-interface MyStepCountInfoProps {
+interface StepStatsProgressProps {
   stepNumber: number;
   course: Course;
 }
 
-export const MyStepCountInfo = ({ stepNumber, course }: MyStepCountInfoProps) => {
+export const StepStatsProgress = ({ stepNumber, course }: StepStatsProgressProps) => {
   const myCourse: MyCourse = useMyCourse(course);
   return (
     <span>
@@ -22,4 +22,4 @@ export const MyStepCountInfo = ({ stepNumber, course }: MyStepCountInfoProps) =>
   );
 };
 
-export default MyStepCountInfo;
+export default StepStatsProgress;

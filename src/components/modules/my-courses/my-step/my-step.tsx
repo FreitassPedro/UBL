@@ -1,4 +1,4 @@
-import { MyStepInfo } from "@/components/modules/my-courses/my-step/my-step-info";
+import { StepStats } from "@/components/shared/courses/step/step-stats";
 import { getTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import Course from "@/types/course";
@@ -35,7 +35,7 @@ export const MyStep = ({ stepNumber, course }: MyStepProps) => {
               Etapa {stepNumber}
             </h2>
           </div>
-          <MyStepInfo stepNumber={stepNumber} course={course} />
+          <StepStats stepNumber={stepNumber} course={course} />
         </div>
       </div>
     </div>
