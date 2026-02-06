@@ -40,9 +40,9 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
   }, [toggleLessonCompletion, courseSlug, stepNumber, subjectNumber]);
 
   return (
-    <aside className="flex h-auto lg:h-full min-h-0 flex-col gap-3 p-4 sm:p-6 bg-card border border-zinc-800 rounded-xl lg:col-span-2">
+    <aside className="flex h-full min-h-0 flex-col gap-4 p-5 sm:p-6 bg-transparent border-0 shadow-none">
       <div className="flex items-center justify-between pr-2">
-        <h3 className="text-lg font-semibold">Playlist de Aulas</h3>
+        <h3 className="text-lg font-semibold text-zinc-100">Playlist de Aulas</h3>
         <span className="text-sm font-semibold">
           {completedLessons.length} de {lessons.length}
         </span>
@@ -50,7 +50,7 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
 
       <Progress value={completedLessonsProgress} />
       <div className="flex min-h-0 flex-col flex-1">
-        <ScrollArea className="h-72 sm:h-96 lg:h-full w-full overflow-hidden">
+        <ScrollArea className="h-[55vh] sm:h-[60vh] lg:h-full w-full overflow-hidden">
           <ul className="space-y-2 pr-2">
             {lessons.map((lesson) => (
               <MySubjectSidebarItem
