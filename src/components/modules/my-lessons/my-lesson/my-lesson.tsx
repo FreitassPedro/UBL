@@ -12,7 +12,7 @@ interface MyLessonProps {
 
 export const MyLesson = ({ subject, lesson }: MyLessonProps) => {
   return (
-    <Card className="flex h-full min-h-0 flex-col gap-4 p-5 sm:p-6 bg-transparent border-0 shadow-none">
+    <Card className="flex min-h-0 flex-col gap-3 p-4 pb-2 sm:gap-4 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
       <MyLessonBreadcrumb subjectName={subject.name} lessonName={lesson.name} />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
         <div className="h-full rounded-lg overflow-hidden transition-opacity">

@@ -40,7 +40,7 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
   }, [toggleLessonCompletion, courseSlug, stepNumber, subjectNumber]);
 
   return (
-    <aside className="flex h-full min-h-0 flex-col gap-4 p-5 sm:p-6 bg-transparent border-0 shadow-none">
+    <aside className="flex min-h-0 flex-col gap-4 p-4 pt-2 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
       <div className="flex items-center justify-between pr-2">
         <h3 className="text-lg font-semibold text-zinc-100">Playlist de Aulas</h3>
         <span className="text-sm font-semibold">
