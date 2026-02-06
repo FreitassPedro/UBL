@@ -5,10 +5,13 @@ import { notFound } from "next/navigation";
 
 export const MyCoursePage = async ({ params }: { params: Promise<{ courseSlug: string; stepNumber: string }> }) => {
   const { courseSlug, stepNumber } = await params;
-  const course: Course | undefined = await getCourse(courseSlug);
-
   const parsedStepNumber: number = Number(stepNumber);
-  if (!course || !Number.isInteger(parsedStepNumber)) {
+  if (!Number.isInteger(parsedStepNumber)) {
+    notFound();
+  }
+
+  const course: Course | undefined = await getCourse(courseSlug);
+  if (!course || !course.steps.map((step) => step.number).includes(parsedStepNumber)) {
     notFound();
   }
 

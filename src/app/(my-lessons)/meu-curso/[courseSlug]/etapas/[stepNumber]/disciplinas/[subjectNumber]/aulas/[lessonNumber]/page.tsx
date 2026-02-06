@@ -44,7 +44,7 @@ export const LessonPage = async ({
     notFound();
   }
 
-  return <MySubject subject={subject} lesson={lesson} />;
+  return <MySubject subject={subject} lessons={lessons} currentLesson={lesson} />;
 };
 
 export default LessonPage;

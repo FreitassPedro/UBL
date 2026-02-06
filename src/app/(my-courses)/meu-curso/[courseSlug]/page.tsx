@@ -10,12 +10,8 @@ export const generateStaticParams = async () => {
 export const MyCourseRedirectPage = async ({ params }: { params: Promise<{ courseSlug: string }> }) => {
   const { courseSlug } = await params;
   const course: Course | undefined = await getCourse(courseSlug);
-  if (!course) {
+  if (!course || !course.steps.length) {
     notFound();
-  }
-
-  if (course.steps.length === 0) {
-    throw new Error(`Invalid course configuration: no steps found for course "${courseSlug}".`);
   }
 
   const firstStepNumber: number = Math.min(...course.steps.map((step) => step.number));

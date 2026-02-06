@@ -1,3 +1,4 @@
+import Providers from "@/app/providers";
 import BackgroundGrid from "@/components/layout/background-grid";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar/navbar";
@@ -27,12 +28,14 @@ export const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) =>
   return (
     <html lang="pt-BR" className={cn("dark", exo2.variable, roboto.variable)}>
       <body className="min-h-screen">
-        <BackgroundGrid />
-        <div className="relative z-10 min-h-screen flex flex-col">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <Providers>
+          <BackgroundGrid />
+          <div className="relative z-10 min-h-screen flex flex-col">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </Providers>
       </body>
     </html>
   );

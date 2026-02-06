@@ -30,26 +30,26 @@ export const MyCourseProvider = ({ children }: { children: React.ReactNode }) =>
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber]: {
+              [stepNumber - 1]: {
                 ...step,
-                [subjectNumber]: nextLessons,
+                [subjectNumber - 1]: nextLessons,
               },
             },
           };
         }
 
-        const { [subjectNumber]: _, ...nextStep } = step;
+        const { [subjectNumber - 1]: _, ...nextStep } = step;
         if (Object.keys(nextStep).length > 0) {
           return {
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber]: nextStep,
+              [stepNumber - 1]: nextStep,
             },
           };
         }
 
-        const { [stepNumber]: __, ...nextCurriculum } = course;
+        const { [stepNumber - 1]: __, ...nextCurriculum } = course;
         if (Object.keys(nextCurriculum).length > 0) {
           return {
             ...prev,
