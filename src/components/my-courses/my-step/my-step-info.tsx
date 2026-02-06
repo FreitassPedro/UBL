@@ -1,17 +1,15 @@
-import MyStepHeaderCountInfo from "@/components/my-courses/my-step/header/my-step-header-count-info";
-import useMyCourse from "@/hooks/use-my-course";
+import MyStepCountInfo from "@/components/my-courses/my-step/my-step-count-info";
 import { formatSeconds } from "@/lib/time";
 import Course from "@/types/course";
-import MyCourse from "@/types/my-course";
 import Step from "@/types/step";
 import { BookOpen, Clock } from "lucide-react";
 
-interface MyStepHeaderInfoProps {
+interface MyStepInfoProps {
   stepNumber: number;
   course: Course;
 }
 
-export const MyStepHeaderInfo = ({ stepNumber, course }: MyStepHeaderInfoProps) => {
+export const MyStepInfo = ({ stepNumber, course }: MyStepInfoProps) => {
   const step: Step = course.steps[stepNumber - 1];
   const stepDuration: string = formatSeconds(
     step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
@@ -28,7 +26,7 @@ export const MyStepHeaderInfo = ({ stepNumber, course }: MyStepHeaderInfoProps) 
             Disciplinas
           </span>
           <span className="text-zinc-200 font-medium">
-            <MyStepHeaderCountInfo stepNumber={stepNumber} course={course} />
+            <MyStepCountInfo stepNumber={stepNumber} course={course} />
             <span className="text-zinc-600">/</span>
             <span>{step.subjects.length}</span>
           </span>

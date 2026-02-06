@@ -1,99 +1,44 @@
-"use client";
-
-import { Card } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import useMyCourse from "@/hooks/use-my-course";
-import { getProgressTheme } from "@/lib/theme";
+import { MyStepInfo } from "@/components/my-courses/my-step/my-step-info";
+import { getTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import Course from "@/types/course";
-import MyCourse from "@/types/my-course";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
+import { Sparkles } from "lucide-react";
 
 interface MyStepProps {
   stepNumber: number;
-  subjectNumber: number;
   course: Course;
 }
 
-export const MyStep = ({ stepNumber, subjectNumber, course }: MyStepProps) => {
-  const myCourse: MyCourse = useMyCourse(course);
-  const mySubject = myCourse.steps[stepNumber - 1].subjects[subjectNumber - 1];
-  const subject = course.steps[stepNumber - 1].subjects[subjectNumber - 1];
-  const theme = getProgressTheme(mySubject.progress);
-
+export const MyStep = ({ stepNumber, course }: MyStepProps) => {
+  const theme = getTheme(stepNumber);
   return (
-    <Link
-      href={`/meu-curso/${course.slug}/etapas/${stepNumber}/disciplinas/${subjectNumber}`}
-      className="group block"
-    >
-      <Card
-        className={cn(
-          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
-          theme.border,
-          theme.bg,
-        )}
-      >
-        <div className="relative shrink-0">
-          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-lg border border-zinc-800 bg-card shadow-inner text-2xl sm:text-3xl font-semibold leading-none tracking-tight text-zinc-400">
-            {subject.name.substring(0, 2).toUpperCase()}
-          </div>
-          <div className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800">
-            {<theme.icon className={theme.iconColor} />}
-          </div>
-        </div>
-
-        <div className="flex-1 min-w-0 space-y-2 w-full">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-            <h3 className="text-base sm:text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
-              {subject.name}
-            </h3>
+    <div className="flex flex-col space-y-6">
+      <div className="relative overflow-hidden rounded-2xl border bg-zinc-900/80 p-5 sm:p-6 md:p-8 border-zinc-800">
+        <div
+          className={cn(
+            "absolute inset-0 bg-linear-to-br to-transparent opacity-50 pointer-events-none",
+            theme.glow,
+          )}
+        />
+        <div className="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div className="space-y-2">
             <div
               className={cn(
-                "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                mySubject.progress === 100
-                  ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                  : mySubject.progress > 0
-                    ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
-                    : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
+                "flex items-center gap-2 text-xs font-semibold uppercase tracking-wider",
+                theme.text,
               )}
             >
-              {mySubject.progress === 100
-                ? "Revisar"
-                : mySubject.progress > 0
-                  ? "Continuar"
-                  : "Iniciar"}
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              <Sparkles className="w-3 h-3" />
+              <span>Progresso da Etapa</span>
             </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-white tracking-tight">
+              Etapa {stepNumber}
+            </h2>
           </div>
-
-          <div className="space-y-1.5 text-xs">
-            <div className="flex items-center justify-between text-zinc-500">
-              <span>
-                {mySubject.progress === 100
-                  ? "Concluído"
-                  : mySubject.progress > 0
-                    ? "Progresso"
-                    : "Comece a assistir"}
-              </span>
-            </div>
-
-            {mySubject.progress > 0 && (
-              <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
-                <Progress value={mySubject.progress} />
-              </div>
-            )}
-
-            <div className="flex items-center justify-between text-zinc-600 pt-0.5">
-              <span>
-                {mySubject.lessons.length} de {subject.lessons} aulas concluídas
-              </span>
-              <span className={theme.color}>{mySubject.progress}%</span>
-            </div>
-          </div>
+          <MyStepInfo stepNumber={stepNumber} course={course} />
         </div>
-      </Card>
-    </Link>
+      </div>
+    </div>
   );
 };
 
