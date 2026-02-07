@@ -1,7 +1,7 @@
 import MyCourseNavigation from "@/components/modules/my-courses/my-course/my-course-navigation";
 import MyStep from "@/components/modules/my-courses/my-step/my-step";
 import MySubject from "@/components/modules/my-courses/my-subject/my-subject";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 
 interface MyCourseProps {
   stepNumber: number;

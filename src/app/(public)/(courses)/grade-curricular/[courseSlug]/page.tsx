@@ -1,7 +1,7 @@
 import { courses } from "@/app/(courses)/grade-curricular/page";
 import Course from "@/components/modules/courses/course/course";
 import { getCourse } from "@/services/course.service";
-import CourseType from "@/types/course";
+import CourseType from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 
 export const generateStaticParams = async () => {

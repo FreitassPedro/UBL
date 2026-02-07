@@ -1,7 +1,7 @@
 import StepCard from "@/components/shared/courses/step/step-card";
 import { StepStats } from "@/components/shared/courses/step/step-stats";
 import { cn } from "@/lib/utils";
-import Step from "@/types/step";
+import Step from "@/types/course/step.interface";
 import { ChevronRight } from "lucide-react";
 
 interface StepHeaderProps {

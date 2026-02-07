@@ -1,6 +1,6 @@
 import MyCourse from "@/components/modules/my-courses/my-course/my-course";
 import { getCourse } from "@/services/course.service";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 
 export const MyCoursePage = async ({ params }: { params: Promise<{ courseSlug: string; stepNumber: string }> }) => {

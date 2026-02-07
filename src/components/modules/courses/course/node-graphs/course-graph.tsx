@@ -11,7 +11,7 @@ import {
 } from "@xyflow/react";
 import React from "react";
 import "@xyflow/react/dist/style.css";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 import CourseNode from "@/components/modules/courses/course/node-graphs/course-node";
 
 interface CourseGraphNode extends Node {

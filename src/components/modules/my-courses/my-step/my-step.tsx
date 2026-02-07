@@ -1,6 +1,6 @@
 import StepCard from "@/components/shared/courses/step/step-card";
 import { StepStats } from "@/components/shared/courses/step/step-stats";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 
 interface MyStepProps {
   stepNumber: number;

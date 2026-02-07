@@ -1,23 +1,23 @@
 "use client";
 
-import useMyProgress from "@/hooks/use-my-raw-course";
-import MyRawCourse from "@/types/my-raw-course";
+import useCourseProgressStore from "@/hooks/use-course-progress-store";
+import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import { createContext, useCallback, useMemo } from "react";
 
-export interface MyCourseContextType {
-  progress: MyRawCourse;
+export interface MyCourseProgressContextType {
+  progresses: CourseProgressStore;
   toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number) => void;
 }
 
-export const MyCourseContext = createContext<MyCourseContextType>(
-  {} as MyCourseContextType,
+export const MyCourseProgressContext = createContext<MyCourseProgressContextType>(
+  {} as MyCourseProgressContextType,
 );
 
-export const MyCourseProvider = ({ children }: { children: React.ReactNode }) => {
-  const { progress, setProgress } = useMyProgress();
+export const MyCourseProgressProvider = ({ children }: { children: React.ReactNode }) => {
+  const { progressStore: progresses, setProgressStore: setProgresses } = useCourseProgressStore();
   const toggleLessonCompletion = useCallback(
     (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
-      setProgress((prev) => {
+      setProgresses((prev) => {
         const course = prev[courseSlug] ?? {};
         const step = course[stepNumber - 1] ?? {};
         const lessons = step[subjectNumber - 1] ?? [];
@@ -61,19 +61,19 @@ export const MyCourseProvider = ({ children }: { children: React.ReactNode }) =>
         return nextProgress;
       });
     },
-    [setProgress],
+    [setProgresses],
   );
 
-  const context: MyCourseContextType = useMemo(
-    () => ({ progress, toggleLessonCompletion }),
-    [progress, toggleLessonCompletion],
+  const context: MyCourseProgressContextType = useMemo(
+    () => ({ progresses, toggleLessonCompletion }),
+    [progresses, toggleLessonCompletion],
   );
 
   return (
-    <MyCourseContext value={context}>
+    <MyCourseProgressContext value={context}>
       {children}
-    </MyCourseContext>
+    </MyCourseProgressContext>
   );
 };
 
-export default MyCourseContext;
+export default MyCourseProgressContext;

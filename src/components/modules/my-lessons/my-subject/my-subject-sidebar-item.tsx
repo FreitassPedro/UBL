@@ -1,7 +1,7 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { formatSeconds } from "@/lib/time";
 import { cn } from "@/lib/utils";
-import Lesson from "@/types/lesson";
+import Lesson from "@/types/course/lesson.interface";
 
 interface MySubjectSidebarItemProps {
   lesson: Lesson;

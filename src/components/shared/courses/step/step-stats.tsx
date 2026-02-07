@@ -1,7 +1,7 @@
 import StepStatsProgress from "@/components/shared/courses/step/step-stats-progress";
 import { formatSeconds } from "@/lib/time";
-import Course from "@/types/course";
-import Step from "@/types/step";
+import Course from "@/types/course/course.interface";
+import Step from "@/types/course/step.interface";
 import { BookOpen, Clock } from "lucide-react";
 
 type StepStatsPropsFromStep = { step: Step };

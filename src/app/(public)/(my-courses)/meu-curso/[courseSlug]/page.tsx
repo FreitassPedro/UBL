@@ -1,6 +1,6 @@
 import { courses } from "@/app/(courses)/grade-curricular/page";
 import { getCourse } from "@/services/course.service";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 import { notFound, redirect } from "next/navigation";
 
 export const generateStaticParams = async () => {

@@ -1,5 +1,5 @@
 import { getCourse } from "@/services/course.service";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 import { NextResponse } from "next/server";
 
 export async function GET(

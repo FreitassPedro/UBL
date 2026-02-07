@@ -1,8 +1,8 @@
 import MyLesson from "@/components/modules/my-lessons/my-lesson/my-lesson";
 import MySubjectSidebar from "@/components/modules/my-lessons/my-subject/my-subject-sidebar";
 import { Separator } from "@/components/ui/separator";
-import Lesson from "@/types/lesson";
-import Subject from "@/types/subject";
+import Lesson from "@/types/course/lesson.interface";
+import Subject from "@/types/course/subject.interface";
 
 interface MySubjectProps {
   subject: Subject;

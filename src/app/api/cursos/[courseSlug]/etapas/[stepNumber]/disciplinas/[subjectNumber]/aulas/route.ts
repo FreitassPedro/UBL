@@ -1,8 +1,8 @@
 import { getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
-import Course from "@/types/course";
-import Lesson from "@/types/lesson";
-import Subject from "@/types/subject";
+import Course from "@/types/course/course.interface";
+import Lesson from "@/types/course/lesson.interface";
+import Subject from "@/types/course/subject.interface";
 import { NextResponse } from "next/server";
 
 export async function GET(

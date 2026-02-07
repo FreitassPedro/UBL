@@ -1,4 +1,4 @@
-import Step from "@/types/step";
+import Step from "@/types/course/step.interface";
 
 export default interface Course {
   id: number;

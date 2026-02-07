@@ -2,8 +2,8 @@
 
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import MyCourseContext from "@/contexts/my-course-context";
-import Lesson from "@/types/lesson";
+import MyCourseProgressContext from "@/contexts/course-progress-context";
+import Lesson from "@/types/course/lesson.interface";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useContext, useMemo } from "react";
 import MySubjectSidebarItem from "./my-subject-sidebar-item";
@@ -20,10 +20,10 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
   const stepNumber: number = Number(params.stepNumber);
   const subjectNumber: number = Number(params.subjectNumber);
 
-  const { progress, toggleLessonCompletion } = useContext(MyCourseContext);
+  const { progresses, toggleLessonCompletion } = useContext(MyCourseProgressContext);
   const completedLessons: number[] = useMemo(
-    () => progress?.[courseSlug]?.[stepNumber - 1]?.[subjectNumber - 1] ?? [],
-    [progress, courseSlug, stepNumber, subjectNumber],
+    () => progresses?.[courseSlug]?.[stepNumber - 1]?.[subjectNumber - 1] ?? [],
+    [progresses, courseSlug, stepNumber, subjectNumber],
   );
 
   const completedLessonsProgress: number = useMemo(() => {

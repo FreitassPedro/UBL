@@ -1,7 +1,7 @@
 import CourseHeader from "@/components/modules/courses/course/course-header";
 import { Step } from "@/components/modules/courses/step/step";
 import ViewportAnchor from "@/components/shared/viewport-anchor";
-import CourseType from "@/types/course";
+import CourseType from "@/types/course/course.interface";
 
 interface CourseProps {
   course: CourseType;

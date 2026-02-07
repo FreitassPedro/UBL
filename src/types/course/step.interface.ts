@@ -1,4 +1,4 @@
-import Subject from "@/types/subject";
+import Subject from "@/types/course/subject.interface";
 
 export default interface Step {
   id: number;

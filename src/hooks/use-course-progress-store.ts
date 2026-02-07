@@ -1,20 +1,20 @@
 "use client";
 
-import MyRawCourse from "@/types/my-raw-course";
+import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import { useEffect, useState } from "react";
 
 const KEY: string = "user-progress";
 
-export const useMyProgress = () => {
-  const [progress, setProgress] = useState<MyRawCourse>(() => {
+export const useCourseProgressStore = () => {
+  const [progressStore, setProgressStore] = useState<CourseProgressStore>(() => {
     if (typeof window === "undefined") {
       return {};
     }
 
     try {
-      const rawProgress = localStorage.getItem(KEY);
-      if (!rawProgress) return {};
-      return JSON.parse(rawProgress);
+      const progress = localStorage.getItem(KEY);
+      if (!progress) return {};
+      return JSON.parse(progress);
     } catch (error) {
       console.error("Failed to parse completedLessons to localStorage:", error);
       return {};
@@ -24,17 +24,17 @@ export const useMyProgress = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
-        localStorage.setItem(KEY, JSON.stringify(progress));
+        localStorage.setItem(KEY, JSON.stringify(progressStore));
       } catch (error) {
         console.error("Failed to write completedLessons to localStorage:", error);
       }
     }
-  }, [progress]);
+  }, [progressStore]);
 
   return {
-    progress,
-    setProgress
+    progressStore,
+    setProgressStore
   };
 };
 
-export default useMyProgress;
+export default useCourseProgressStore;

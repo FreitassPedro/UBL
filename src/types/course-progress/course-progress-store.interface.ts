@@ -1,4 +1,4 @@
-export default interface MyRawCourse {
+export default interface CourseProgressStore {
   [courseSlug: string]: {
     [stepNumber: number]: {
       [subjectNumber: number]: number[];

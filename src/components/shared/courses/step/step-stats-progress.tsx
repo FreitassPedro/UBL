@@ -1,8 +1,8 @@
 "use client";
 
-import useMyCourse from "@/hooks/use-my-course";
-import Course from "@/types/course";
-import MyCourse from "@/types/my-course";
+import useCourseProgress from "@/hooks/use-course-progress";
+import Course from "@/types/course/course.interface";
+import CourseProgress from "@/types/course-progress/course-progress.interface";
 
 interface StepStatsProgressProps {
   stepNumber: number;
@@ -10,11 +10,11 @@ interface StepStatsProgressProps {
 }
 
 export const StepStatsProgress = ({ stepNumber, course }: StepStatsProgressProps) => {
-  const myCourse: MyCourse = useMyCourse(course);
+  const courseProgress: CourseProgress = useCourseProgress(course);
   return (
     <span>
       {
-        myCourse.steps[stepNumber].subjects.filter(
+        courseProgress.steps[stepNumber].subjects.filter(
           (subject) => subject.progress === 100,
         ).length
       }

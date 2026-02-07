@@ -2,8 +2,8 @@ import MyLessonBreadcrumb from "@/components/modules/my-lessons/my-lesson/my-les
 import { VideoPlayer } from "@/components/shared/video-player";
 import { Card } from "@/components/ui/card";
 import { formatSeconds } from "@/lib/time";
-import Lesson from "@/types/lesson";
-import Subject from "@/types/subject";
+import Lesson from "@/types/course/lesson.interface";
+import Subject from "@/types/course/subject.interface";
 
 interface MyLessonProps {
   subject: Subject;

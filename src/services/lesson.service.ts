@@ -1,6 +1,6 @@
 import "server-only";
 
-import Lesson from "@/types/lesson";
+import Lesson from "@/types/course/lesson.interface";
 import { unstable_cache } from "next/cache";
 import { readFile } from "node:fs/promises";
 import path from "node:path";

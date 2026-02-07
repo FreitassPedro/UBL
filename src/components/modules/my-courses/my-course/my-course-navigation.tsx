@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { ScrollBar } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
-import Course from "@/types/course";
+import Course from "@/types/course/course.interface";
 import { ScrollArea as ScrollAreaPrimitive } from "radix-ui";
 import Link from "next/link";
 

@@ -1,7 +1,7 @@
 import { getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
-import Course from "@/types/course";
-import Lesson from "@/types/lesson";
+import Course from "@/types/course/course.interface";
+import Lesson from "@/types/course/lesson.interface";
 import { notFound, redirect } from "next/navigation";
 
 export const SubjectPage = async ({

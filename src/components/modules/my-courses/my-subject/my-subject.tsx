@@ -2,11 +2,11 @@
 
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import useMyCourse from "@/hooks/use-my-course";
+import useCourseProgress from "@/hooks/use-course-progress";
 import { getProgressTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
-import Course from "@/types/course";
-import MyCourse from "@/types/my-course";
+import Course from "@/types/course/course.interface";
+import CourseProgress from "@/types/course-progress/course-progress.interface";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -17,10 +17,10 @@ interface MySubjectProps {
 }
 
 export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps) => {
-  const myCourse: MyCourse = useMyCourse(course);
-  const mySubject = myCourse.steps[stepNumber - 1].subjects[subjectNumber - 1];
+  const courseProgress: CourseProgress = useCourseProgress(course);
+  const stepProgress = courseProgress.steps[stepNumber - 1].subjects[subjectNumber - 1];
   const subject = course.steps[stepNumber - 1].subjects[subjectNumber - 1];
-  const theme = getProgressTheme(mySubject.progress);
+  const theme = getProgressTheme(stepProgress.progress);
 
   return (
     <Link
@@ -51,16 +51,16 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                mySubject.progress === 100
+                stepProgress.progress === 100
                   ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                  : mySubject.progress > 0
+                  : stepProgress.progress > 0
                     ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
                     : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
               )}
             >
-              {mySubject.progress === 100
+              {stepProgress.progress === 100
                 ? "Revisar"
-                : mySubject.progress > 0
+                : stepProgress.progress > 0
                   ? "Continuar"
                   : "Iniciar"}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -70,25 +70,25 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-500">
               <span>
-                {mySubject.progress === 100
+                {stepProgress.progress === 100
                   ? "Concluído"
-                  : mySubject.progress > 0
+                  : stepProgress.progress > 0
                     ? "Progresso"
                     : "Comece a assistir"}
               </span>
-              <span className={theme.color}>{mySubject.progress}%</span>
+              <span className={theme.color}>{stepProgress.progress}%</span>
             </div>
 
-            {mySubject.progress > 0 && (
+            {stepProgress.progress > 0 && (
               <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                 <div className="h-full w-full">
-                  <Progress value={mySubject.progress} />
+                  <Progress value={stepProgress.progress} />
                 </div>
               </div>
             )}
 
             <div className="text-xs text-zinc-600 pt-0.5">
-              {mySubject.lessons.length} de {subject.lessons} aulas concluídas
+              {stepProgress.lessons.length} de {subject.lessons} aulas concluídas
             </div>
           </div>
         </div>
