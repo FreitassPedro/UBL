@@ -11,7 +11,7 @@ import { useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
   Progress = "progresso",
-  Step = "etapa",
+  Step = "etapas",
   Course = "curso",
 }
 

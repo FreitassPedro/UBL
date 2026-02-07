@@ -28,7 +28,7 @@ export const HomeProgress = () => {
 
   return (
     <div className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto mb-20 sm:mb-24">
-      <Card className="w-full border-0 bg-card p-10 sm:p-14">
+      <Card className="w-full border-0 bg-card p-10 sm:p-14 pb-6 sm:pb-8">
         <CardHeader className="p-0 pb-2">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <CardTitle className="text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">
@@ -43,7 +43,7 @@ export const HomeProgress = () => {
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
                 <SelectContent>
-                  {["etapas", "progresso", "curso"].map((option) => (
+                  {Object.values(SubjectWithProgressOrder).map((option) => (
                     <SelectItem
                       key={option}
                       value={option}
@@ -56,23 +56,23 @@ export const HomeProgress = () => {
               </Select>
             </div>
           </div>
-          <CardDescription className="mt-2 text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
+          <CardDescription className="mt-3 text-base sm:text-lg text-zinc-200/90 font-light leading-relaxed">
             Retome rapidamente os cursos em andamento.
           </CardDescription>
         </CardHeader>
 
         <ScrollArea className="h-60">
-          <div className="pt-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
             {subjects.map((subject) => (
               <Card
                 key={subject.id}
-                className="h-50 text-left hover:border-zinc-700/80 p-5 flex flex-col gap-3"
+                className="text-left hover:border-zinc-700/80 p-6 flex flex-col gap-3"
               >
-                <CardHeader className="p-0 space-y-0">
-                  <CardDescription className="font-semibold text-gray-400">
+                <CardHeader className="p-0 space-y-1">
+                  <CardDescription className="font-semibold text-gray-400 leading-tight line-clamp-2 sm:min-h-10 lg:min-h-0">
                     {subject.courseAlternativeName} - Etapa {subject.stepNumber}
                   </CardDescription>
-                  <CardTitle className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
+                  <CardTitle className="p-0 text-left text-xl text-white font-semibold leading-tight line-clamp-1">
                     {subject.name}
                   </CardTitle>
                 </CardHeader>
