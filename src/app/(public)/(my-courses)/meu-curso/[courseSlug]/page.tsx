@@ -1,4 +1,4 @@
-import { courses } from "@/app/(courses)/grade-curricular/page";
+import { courses } from "@/app/(public)/(my-courses)/meu-curso/page";
 import { getCourse } from "@/services/course.service";
 import Course from "@/types/course/course.interface";
 import { notFound, redirect } from "next/navigation";

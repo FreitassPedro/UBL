@@ -1,4 +1,4 @@
-import { courses } from "@/app/(courses)/grade-curricular/page";
+import { courses } from "@/app/(public)/(my-courses)/meu-curso/page";
 import Course from "@/components/modules/courses/course/course";
 import { getCourse } from "@/services/course.service";
 import CourseType from "@/types/course/course.interface";

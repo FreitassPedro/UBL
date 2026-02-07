@@ -2,11 +2,11 @@ import CourseProgress from "@/types/course-progress/course-progress.interface";
 import Course from "@/types/course/course.interface";
 import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 
-export function toProgress(
+export function toCourseProgress(
   course: Course,
-  progressesStore: CourseProgressStore,
+  progressStore: CourseProgressStore,
 ): CourseProgress {
-  const courseProgress = progressesStore?.[course.slug] ?? {};
+  const courseProgress = progressStore?.[course.slug] ?? {};
   return {
     slug: course.slug,
     steps: course.steps.map((step) => {
