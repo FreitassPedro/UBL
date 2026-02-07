@@ -1,6 +1,7 @@
 import sectionIllustrationImg from "@/assets/sectionIllustration.png";
 import sectionIllustrationAltImg from "@/assets/sectionIllustrationAlt.png";
 import HomeHero from "@/components/modules/home/home-hero";
+import HomeProgress from "@/components/modules/home/home-progress";
 import { HomeSection } from "@/components/modules/home/home-section";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessagesSquare } from "lucide-react";
@@ -9,6 +10,7 @@ export const HomePage = () => {
   return (
     <div className="min-h-full h-full bg-transparent text-zinc-100 font-sans">
       <HomeHero />
+      <HomeProgress />
       <HomeSection
         title="Customize sua trilha"
         description="Nós organizamos uma completa biblioteca de conteúdos bem avaliados, para então você escolher o jeito que mais combina com seu estilo de aprendizado."
@@ -29,7 +31,7 @@ export const HomePage = () => {
           asChild
           size="lg"
           variant="secondary"
-          className="cursor-pointer mt-6 mb-6 h-12 bg-white text-zinc-900 hover:bg-zinc-100 sm:mb-0"
+          className="cursor-pointer mt-6 mb-6 h-12 bg-zinc-200 text-zinc-900 hover:bg-zinc-300 sm:mb-0"
         >
           <a
             href="https://discord.com/invite/eXUBTY6HAu"

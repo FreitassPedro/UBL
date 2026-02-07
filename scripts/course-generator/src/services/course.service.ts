@@ -1,7 +1,7 @@
 import { join } from "path";
-import type Course from "@/interfaces/course";
-import type Lesson from "@/interfaces/lesson";
-import type Video from "@/interfaces/video";
+import type Course from "@/types/course.interface";
+import type Lesson from "@/types/lesson.interface";
+import type Video from "@/types/video.interface";
 import { toLessons } from "@/mappers/lesson.mapper";
 import { save } from "@/utils/file";
 import YoutubeService from "@/services/youtube.service";

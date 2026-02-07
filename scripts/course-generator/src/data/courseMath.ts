@@ -1,9 +1,10 @@
-import type Course from "@/interfaces/course";
+import type Course from "@/types/course.interface";
 
 export const courseMath: Course = {
   id: 2,
   slug: "matematica",
   name: "Matemática",
+  alternativeName: "Matemática",
   steps: [
     {
       // Etapa 1

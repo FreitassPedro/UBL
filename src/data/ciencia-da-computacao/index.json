@@ -2,6 +2,7 @@
   "id": 1,
   "slug": "ciencia-da-computacao",
   "name": "Ciência da Computação",
+  "alternativeName": "Computação",
   "steps": [
     {
       "id": 1,

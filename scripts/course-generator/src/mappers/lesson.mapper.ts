@@ -1,5 +1,5 @@
-import type Lesson from "@/interfaces/lesson";
-import type Video from "@/interfaces/video";
+import type Lesson from "@/types/lesson.interface";
+import type Video from "@/types/video.interface";
 import { toSeconds } from "@/utils/time";
 
 let lastLessonId: number = 0;

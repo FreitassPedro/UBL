@@ -10,9 +10,9 @@ import { useQueries } from "@tanstack/react-query";
 import { useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
-  Course = "curso",
-  Step = "etapa",
   Progress = "progresso",
+  Step = "etapa",
+  Course = "curso",
 }
 
 export const useSubjectsWithProgress = () => {
@@ -46,12 +46,12 @@ export const useSubjectsWithProgress = () => {
   const orderedSubjectsWithProgress: SubjectWithProgress[] = useMemo<SubjectWithProgress[]>(() => {
     return [...unorderedSubjectsWithProgress].sort((a, b) => {
       switch (orderBy) {
-        case SubjectWithProgressOrder.Course:
-          return a.courseName.localeCompare(b.courseName);
         case SubjectWithProgressOrder.Step:
           return a.stepNumber - b.stepNumber;
         case SubjectWithProgressOrder.Progress:
           return a.progress - b.progress;
+        case SubjectWithProgressOrder.Course:
+          return a.courseName.localeCompare(b.courseName);
         default:
           return 0;
       }

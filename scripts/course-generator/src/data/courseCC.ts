@@ -1,9 +1,10 @@
-import type Course from "@/interfaces/course";
+import type Course from "@/types/course.interface";
 
 export const courseCC: Course = {
   id: 1,
   slug: "ciencia-da-computacao",
   name: "Ciência da Computação",
+  alternativeName: "Computação",
   steps: [
     {
       // Etapa 1

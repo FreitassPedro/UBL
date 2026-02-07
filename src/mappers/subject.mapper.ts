@@ -19,7 +19,7 @@ export function toSubjectsWithProgress(courses: Course[], progresses: CourseProg
       }
 
       for (const subjectProgress of stepProgress.subjects) {
-        if (!subjectProgress.lessons) {
+        if (!subjectProgress.progress) {
           continue;
         }
 
@@ -32,6 +32,7 @@ export function toSubjectsWithProgress(courses: Course[], progresses: CourseProg
           ...subject,
           courseSlug: course.slug,
           courseName: course.name,
+          courseAlternativeName: course.alternativeName,
           stepNumber: step.number,
           progress: subjectProgress.progress,
         });

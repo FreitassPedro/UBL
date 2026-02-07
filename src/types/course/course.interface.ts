@@ -4,5 +4,6 @@ export default interface Course {
   id: number;
   slug: string;
   name: string;
+  alternativeName: string;
   steps: Step[];
 }
