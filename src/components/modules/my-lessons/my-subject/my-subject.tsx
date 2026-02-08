@@ -12,7 +12,7 @@ interface MySubjectProps {
 
 export const MySubject = ({ subject, lessons, currentLesson }: MySubjectProps) => {
   return (
-    <div className="min-h-[calc(100dvh-3.5rem)] h-auto lg:h-[calc(100vh-3.5rem)] text-text-main overflow-x-hidden overflow-y-auto lg:overflow-y-hidden font-inter">
+    <div className="min-h-[calc(100dvh-3.5rem)] h-auto lg:h-[calc(100vh-3.5rem)] overflow-x-hidden overflow-y-auto lg:overflow-y-hidden">
       <div className="w-full min-h-0 py-6 px-4 sm:px-6 max-w-360 mx-auto h-auto lg:h-full">
         <div className="min-h-0 bg-card border border-zinc-800/80 rounded-xl shadow-2xl shadow-black/45 ring-1 ring-zinc-700/40 lg:h-full">
           <div className="min-h-0 grid grid-cols-1 lg:grid-cols-[minmax(0,5fr)_1px_minmax(0,2fr)] gap-0 items-stretch lg:h-full">
