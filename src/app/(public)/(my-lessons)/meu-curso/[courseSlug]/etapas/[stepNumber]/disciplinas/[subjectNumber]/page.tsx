@@ -45,7 +45,7 @@ export const SubjectPage = async ({ params: rawParams }: { params: Promise<z.inp
   }
 
   const lessons: Lesson[] | undefined = await getLessons(courseSlug, stepNumber, subject.id);
-  if (!lessons) {
+  if (!lessons || lessons.length === 0) {
     notFound();
   }
 

@@ -22,7 +22,7 @@ export const MyCourseRedirectPage = async ({ params: rawParams }: { params: Prom
 
   const { courseSlug } = params.data;
   const course: Course | undefined = await getCourse(courseSlug);
-  if (!course || !course.steps.length) {
+  if (!course || course.steps.length === 0) {
     notFound();
   }
 
