@@ -2,6 +2,7 @@ import { getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
+import Step from "@/types/course/step.interface";
 import Subject from "@/types/course/subject.interface";
 import { NextResponse } from "next/server";
 
@@ -27,7 +28,8 @@ export async function GET(
     );
   }
 
-  const subject: Subject | undefined = course.steps?.[parsedStepNumber - 1]?.subjects?.[parsedSubjectNumber - 1];
+  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === parsedStepNumber);
+  const subject: Subject | undefined = step?.subjects.find((stepSubject) => stepSubject.number === parsedSubjectNumber);
   if (!subject) {
     return NextResponse.json(
       { error: "Disciplina não encontrada." },

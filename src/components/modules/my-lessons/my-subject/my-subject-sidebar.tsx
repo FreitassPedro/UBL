@@ -31,7 +31,10 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
     totalLessons: lessons.length,
   });
 
-  const subjectProgress: SubjectProgress = courseProgress.steps[0]?.subjects[0];
+  const subjectProgress: SubjectProgress | undefined = courseProgress.steps
+    .find((step) => step.number === stepNumber)
+    ?.subjects.find((subject) => subject.number === subjectNumber);
+
   const completedLessons: number[] = subjectProgress?.lessons ?? [];
   const completedLessonsProgress: number = subjectProgress?.progress ?? 0;
 

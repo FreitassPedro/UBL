@@ -21,8 +21,8 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
     try {
       const rawProgressStore = localStorage.getItem(KEY);
       if (rawProgressStore) {
-        setProgressStore(JSON.parse(rawProgressStore));
-      };
+        setProgressStore(JSON.parse(rawProgressStore) as CourseProgressStore);
+      }
     } catch (error) {
       console.error("Failed to parse completedLessons to localStorage:", error);
     }
@@ -42,8 +42,8 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
     (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
       setProgressStore((prev) => {
         const course = prev[courseSlug] ?? {};
-        const step = course[stepNumber - 1] ?? {};
-        const lessons = step[subjectNumber - 1] ?? [];
+        const step = course[stepNumber] ?? {};
+        const lessons = step[subjectNumber] ?? [];
         const nextLessons = lessons.includes(lessonId)
           ? lessons.filter((id) => id !== lessonId)
           : [...lessons, lessonId];
@@ -53,26 +53,26 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber - 1]: {
+              [stepNumber]: {
                 ...step,
-                [subjectNumber - 1]: nextLessons,
+                [subjectNumber]: nextLessons,
               },
             },
           };
         }
 
-        const { [subjectNumber - 1]: _, ...nextStep } = step;
+        const { [subjectNumber]: _removedSubject, ...nextStep } = step;
         if (Object.keys(nextStep).length > 0) {
           return {
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber - 1]: nextStep,
+              [stepNumber]: nextStep,
             },
           };
         }
 
-        const { [stepNumber - 1]: __, ...nextCourse } = course;
+        const { [stepNumber]: _removedStep, ...nextCourse } = course;
         if (Object.keys(nextCourse).length > 0) {
           return {
             ...prev,
@@ -80,7 +80,7 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
           };
         }
 
-        const { [courseSlug]: ___, ...nextProgress } = prev;
+        const { [courseSlug]: _removedCourse, ...nextProgress } = prev;
         return nextProgress;
       });
     },

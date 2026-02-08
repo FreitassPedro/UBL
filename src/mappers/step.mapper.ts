@@ -9,7 +9,7 @@ export function toStepProgress(
   return {
     number: step.number,
     subjects: step.subjects.map((subject) => {
-      const subjectProgress = stepProgressStore?.[subject.number - 1] ?? [];
+      const subjectProgress = stepProgressStore?.[subject.number] ?? [];
       return toSubjectProgress(subject, subjectProgress);
     }),
   };

@@ -3,6 +3,7 @@ import { getAllCourses, getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
+import Step from "@/types/course/step.interface";
 import Subject from "@/types/course/subject.interface";
 import { notFound } from "next/navigation";
 
@@ -54,7 +55,8 @@ export const LessonPage = async ({
     notFound();
   }
 
-  const subject: Subject = course.steps?.[parsedStepNumber - 1].subjects?.[parsedSubjectNumber - 1];
+  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === parsedStepNumber);
+  const subject: Subject | undefined = step?.subjects.find((stepSubject) => stepSubject.number === parsedSubjectNumber);
   if (!subject) {
     notFound();
   }
@@ -64,7 +66,7 @@ export const LessonPage = async ({
     notFound();
   }
 
-  const lesson: Lesson | undefined = lessons[parsedLessonNumber - 1];
+  const lesson: Lesson | undefined = lessons.find((currentLesson) => currentLesson.number === parsedLessonNumber);
   if (!lesson) {
     notFound();
   }

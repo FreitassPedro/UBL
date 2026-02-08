@@ -1,4 +1,4 @@
-export function formatSeconds(seconds: number) {
+export function formatSeconds(seconds: number): string {
   const totalMinutes: number = Math.max(0, Math.round(seconds / 60));
   const hours: number = Math.floor(totalMinutes / 60);
   const minutes: number = totalMinutes % 60;

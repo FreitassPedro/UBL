@@ -2,6 +2,8 @@ import { getAllCourses, getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
+import Step from "@/types/course/step.interface";
+import Subject from "@/types/course/subject.interface";
 import { notFound, redirect } from "next/navigation";
 
 export const generateStaticParams = async () => {
@@ -42,7 +44,8 @@ export const SubjectPage = async ({
     notFound();
   }
 
-  const subject = course.steps?.[parsedStepNumber - 1]?.subjects?.[parsedSubjectNumber - 1];
+  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === parsedStepNumber);
+  const subject: Subject | undefined = step?.subjects.find((stepSubject) => stepSubject.number === parsedSubjectNumber);
   if (!subject) {
     notFound();
   }

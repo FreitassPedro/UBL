@@ -13,7 +13,7 @@ export function toCourseProgress(
   return {
     slug: course.slug,
     steps: course.steps.map((step) => {
-      const stepProgress = courseProgress?.[step.number - 1] ?? {};
+      const stepProgress = courseProgress?.[step.number] ?? {};
       return toStepProgress(step, stepProgress);
     }),
   };
@@ -26,7 +26,7 @@ export function toCourseProgressFromSubjectParams(
   totalLessons: number,
   progressStore: CourseProgressStore,
 ): CourseProgress {
-  const completedLessons: number[] = progressStore?.[courseSlug]?.[stepNumber - 1]?.[subjectNumber - 1] ?? [];
+  const completedLessons: number[] = progressStore?.[courseSlug]?.[stepNumber]?.[subjectNumber] ?? [];
   const subjectProgress: SubjectProgress = toSubjectProgress(
     { number: subjectNumber, lessons: totalLessons },
     completedLessons,
