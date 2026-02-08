@@ -33,7 +33,9 @@ export const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
           <BackgroundGrid />
           <div className="relative z-10 min-h-screen flex flex-col">
             <Navbar />
-            {children}
+            <main className="flex-1">
+              {children}
+            </main>
             <Footer />
           </div>
         </Providers>
