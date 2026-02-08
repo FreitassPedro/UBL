@@ -21,7 +21,7 @@ export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center">
           {course.name}
         </h2>
-        <MyCourseNavigation stepNumber={stepNumber} course={course} />
+        <MyCourseNavigation activeStepNumber={stepNumber} course={course} />
       </div>
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
         <div className="space-y-6">
