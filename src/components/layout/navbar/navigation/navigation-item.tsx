@@ -6,10 +6,11 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ReactNode } from "react";
 
 interface NavigationItem {
   href: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export const NavigationItem = ({

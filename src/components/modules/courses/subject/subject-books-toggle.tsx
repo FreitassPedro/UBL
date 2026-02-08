@@ -2,10 +2,10 @@
 
 import { Button } from "@/components/ui/button";
 import { BookOpen, ChevronDown, ChevronUp } from "lucide-react";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
 interface SubjectBooksToggleProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export const SubjectBooksToggle = ({ children }: SubjectBooksToggleProps) => {

@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/navbar/navbar";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Exo_2, Roboto } from "next/font/google";
+import { ReactNode } from "react";
 import "./globals.css";
 
 const exo2 = Exo_2({
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
   description: "Uma plataforma sem fins lucrativos de apoio de estudantes e conhecimentos em torno de diferentes currículos de código aberto.",
 };
 
-export const Layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+export const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="pt-BR" className={cn("dark", exo2.variable, roboto.variable)}>
       <body className="min-h-screen">

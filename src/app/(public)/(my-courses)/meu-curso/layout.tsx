@@ -1,7 +1,8 @@
 import UserAvatar from "@/components/shared/user/user-avatar";
 import { LayoutGrid } from "lucide-react";
+import { ReactNode } from "react";
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
+export const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-8 px-5 py-6 sm:px-8 sm:py-8 lg:px-10 lg:py-10">
       <header className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">

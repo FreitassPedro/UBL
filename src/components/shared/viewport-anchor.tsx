@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 
 interface ViewportAnchorProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
 }
 

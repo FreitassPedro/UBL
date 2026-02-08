@@ -1,13 +1,13 @@
 "use client";
 
-import useCourseProgressStore from "@/hooks/use-course-progress-store";
+import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import { toCourseProgress } from "@/mappers/course.mapper";
 import { toSubjectsWithProgress } from "@/mappers/subject.mapper";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Course from "@/types/course/course.interface";
 import { useQueries } from "@tanstack/react-query";
-import { useMemo, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
   Progress = "progresso",
@@ -16,8 +16,9 @@ export enum SubjectWithProgressOrder {
 }
 
 export const useSubjectsWithProgress = () => {
+  const { progressStore } = useContext(MyCourseProgressStoreContext);
   const [orderBy, setOrderBy] = useState<SubjectWithProgressOrder>(SubjectWithProgressOrder.Progress);
-  const { progressStore } = useCourseProgressStore();
+
   const courseQueries = useQueries({
     queries: Object.keys(progressStore).map((courseSlug) => ({
       queryKey: ["course", courseSlug],

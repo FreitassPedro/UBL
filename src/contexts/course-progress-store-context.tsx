@@ -1,8 +1,9 @@
 "use client";
 
-import useCourseProgressStore from "@/hooks/use-course-progress-store";
 import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
-import { createContext, useCallback, useMemo } from "react";
+import { createContext, ReactNode, useCallback, useEffect, useMemo, useState } from "react";
+
+const KEY: string = "user-progress";
 
 export interface MyCourseProgressStoreContextType {
   progressStore: CourseProgressStore;
@@ -13,8 +14,30 @@ export const MyCourseProgressStoreContext = createContext<MyCourseProgressStoreC
   {} as MyCourseProgressStoreContextType,
 );
 
-export const MyCourseProgressStoreProvider = ({ children }: { children: React.ReactNode }) => {
-  const { progressStore, setProgressStore } = useCourseProgressStore();
+export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNode }) => {
+  const [progressStore, setProgressStore] = useState<CourseProgressStore>({});
+
+  useEffect(() => {
+    try {
+      const rawProgressStore = localStorage.getItem(KEY);
+      if (rawProgressStore) {
+        setProgressStore(JSON.parse(rawProgressStore));
+      };
+    } catch (error) {
+      console.error("Failed to parse completedLessons to localStorage:", error);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.setItem(KEY, JSON.stringify(progressStore));
+      } catch (error) {
+        console.error("Failed to write completedLessons to localStorage:", error);
+      }
+    }
+  }, [progressStore]);
+
   const toggleLessonCompletion = useCallback(
     (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
       setProgressStore((prev) => {
@@ -64,7 +87,7 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: React.Re
     [setProgressStore],
   );
 
-  const context: MyCourseProgressStoreContextType = useMemo(
+  const context = useMemo<MyCourseProgressStoreContextType>(
     () => ({ progressStore, toggleLessonCompletion }),
     [progressStore, toggleLessonCompletion],
   );

@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ReactNode } from "react";
 
 interface RedirectLinkProps {
   href: string;
   activeHref?: string;
   className?: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const RedirectLink = ({
