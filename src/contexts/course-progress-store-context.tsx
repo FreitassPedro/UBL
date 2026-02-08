@@ -4,20 +4,20 @@ import useCourseProgressStore from "@/hooks/use-course-progress-store";
 import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import { createContext, useCallback, useMemo } from "react";
 
-export interface MyCourseProgressContextType {
+export interface MyCourseProgressStoreContextType {
   progresses: CourseProgressStore;
   toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number) => void;
 }
 
-export const MyCourseProgressContext = createContext<MyCourseProgressContextType>(
-  {} as MyCourseProgressContextType,
+export const MyCourseProgressStoreContext = createContext<MyCourseProgressStoreContextType>(
+  {} as MyCourseProgressStoreContextType,
 );
 
-export const MyCourseProgressProvider = ({ children }: { children: React.ReactNode }) => {
-  const { progressStore: progresses, setProgressStore: setProgresses } = useCourseProgressStore();
+export const MyCourseProgressStoreProvider = ({ children }: { children: React.ReactNode }) => {
+  const { progressStore, setProgressStore } = useCourseProgressStore();
   const toggleLessonCompletion = useCallback(
     (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
-      setProgresses((prev) => {
+      setProgressStore((prev) => {
         const course = prev[courseSlug] ?? {};
         const step = course[stepNumber - 1] ?? {};
         const lessons = step[subjectNumber - 1] ?? [];
@@ -61,19 +61,19 @@ export const MyCourseProgressProvider = ({ children }: { children: React.ReactNo
         return nextProgress;
       });
     },
-    [setProgresses],
+    [setProgressStore],
   );
 
-  const context: MyCourseProgressContextType = useMemo(
-    () => ({ progresses, toggleLessonCompletion }),
-    [progresses, toggleLessonCompletion],
+  const context: MyCourseProgressStoreContextType = useMemo(
+    () => ({ progresses: progressStore, toggleLessonCompletion }),
+    [progressStore, toggleLessonCompletion],
   );
 
   return (
-    <MyCourseProgressContext value={context}>
+    <MyCourseProgressStoreContext value={context}>
       {children}
-    </MyCourseProgressContext>
+    </MyCourseProgressStoreContext>
   );
 };
 
-export default MyCourseProgressContext;
+export default MyCourseProgressStoreContext;
