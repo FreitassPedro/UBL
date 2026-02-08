@@ -7,7 +7,7 @@ export const CoursesHero = () => {
       <div className="absolute inset-0">
         <Image
           src={bannerStudyImg}
-          alt=""
+          alt="Estudantes estudando em sala de aula"
           priority
           className="w-full h-full object-cover"
         />
