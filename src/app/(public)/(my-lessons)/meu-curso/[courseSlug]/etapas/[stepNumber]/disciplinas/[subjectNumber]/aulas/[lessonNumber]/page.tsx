@@ -1,10 +1,35 @@
 import MySubject from "@/components/modules/my-lessons/my-subject/my-subject";
-import { getCourse } from "@/services/course.service";
+import { getAllCourses, getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
 import Subject from "@/types/course/subject.interface";
 import { notFound } from "next/navigation";
+
+export const generateStaticParams = async () => {
+  const courses: Course[] = await getAllCourses();
+  const params = await Promise.all(
+    courses.flatMap((course) =>
+      course.steps.flatMap((step) =>
+        step.subjects.map(async (subject) => {
+          const lessons: Lesson[] | undefined = await getLessons(course.slug, step.number, subject.id);
+          if (!lessons || lessons.length === 0) {
+            return [];
+          }
+
+          return lessons.map((lesson) => ({
+            courseSlug: course.slug,
+            stepNumber: String(step.number),
+            subjectNumber: String(lesson.number),
+            lessonNumber: String(lesson.number),
+          }));
+        }),
+      ),
+    ),
+  );
+
+  return params.flat();
+};
 
 export const LessonPage = async ({
   params,

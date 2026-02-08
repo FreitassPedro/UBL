@@ -1,10 +1,12 @@
-import { courses } from "@/app/(public)/(my-courses)/meu-curso/page";
-import { getCourse } from "@/services/course.service";
+import { getAllCourses, getCourse } from "@/services/course.service";
 import Course from "@/types/course/course.interface";
 import { notFound, redirect } from "next/navigation";
 
 export const generateStaticParams = async () => {
-  return courses.map((course) => ({ courseSlug: course.slug }));
+  const courses: Course[] = await getAllCourses();
+  return courses.map((course) => ({
+    courseSlug: course.slug,
+  }));
 };
 
 export const MyCourseRedirectPage = async ({ params }: { params: Promise<{ courseSlug: string }> }) => {

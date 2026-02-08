@@ -19,7 +19,7 @@ export function toCourseProgress(
   };
 }
 
-export function toCourseProgressFromSubjectRef(
+export function toCourseProgressFromSubjectParams(
   courseSlug: string,
   stepNumber: number,
   subjectNumber: number,

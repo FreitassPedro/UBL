@@ -1,8 +1,25 @@
-import { getCourse } from "@/services/course.service";
+import { getAllCourses, getCourse } from "@/services/course.service";
 import { getLessons } from "@/services/lesson.service";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
 import { notFound, redirect } from "next/navigation";
+
+export const generateStaticParams = async () => {
+  const courses: Course[] = await getAllCourses();
+  const params = await Promise.all(
+    courses.flatMap((course) =>
+      course.steps.flatMap((step) =>
+        step.subjects.map(async (subject) => ({
+          courseSlug: course.slug,
+          stepNumber: String(step.number),
+          subjectNumber: String(subject.number),
+        })),
+      ),
+    ),
+  );
+
+  return params.flat();
+};
 
 export const SubjectPage = async ({
   params,

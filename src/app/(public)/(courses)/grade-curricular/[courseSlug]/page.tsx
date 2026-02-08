@@ -1,11 +1,13 @@
-import { courses } from "@/app/(public)/(my-courses)/meu-curso/page";
 import Course from "@/components/modules/courses/course/course";
-import { getCourse } from "@/services/course.service";
+import { getAllCourses, getCourse } from "@/services/course.service";
 import CourseType from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 
 export const generateStaticParams = async () => {
-  return courses.map((course) => ({ courseSlug: course.slug }));
+  const courses: CourseType[] = await getAllCourses();
+  return courses.map((course) => ({
+    courseSlug: course.slug,
+  }));
 };
 
 export const CoursePage = async ({ params }: { params: Promise<{ courseSlug: string }> }) => {
