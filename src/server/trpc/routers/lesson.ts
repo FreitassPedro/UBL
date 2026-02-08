@@ -12,9 +12,9 @@ export const lessonRouter = createTRPCRouter({
   bySubject: publicProcedure
     .input(
       z.object({
-        courseSlug: z.string(),
-        stepNumber: z.number().int(),
-        subjectNumber: z.number().int(),
+        courseSlug: z.string().min(1),
+        stepNumber: z.number().int().positive(),
+        subjectNumber: z.number().int().positive(),
       }),
     )
     .query(async ({ input }): Promise<Lesson[]> => {

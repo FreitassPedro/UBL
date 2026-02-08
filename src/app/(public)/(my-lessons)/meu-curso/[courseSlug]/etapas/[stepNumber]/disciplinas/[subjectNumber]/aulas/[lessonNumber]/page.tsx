@@ -6,6 +6,14 @@ import Lesson from "@/types/course/lesson.interface";
 import Step from "@/types/course/step.interface";
 import Subject from "@/types/course/subject.interface";
 import { notFound } from "next/navigation";
+import { z } from "zod";
+
+const paramsSchema = z.object({
+  courseSlug: z.string().min(1),
+  stepNumber: z.coerce.number().int().positive(),
+  subjectNumber: z.coerce.number().int().positive(),
+  lessonNumber: z.coerce.number().int().positive(),
+});
 
 export const generateStaticParams = async () => {
   const courses: Course[] = await getAllCourses();
@@ -32,42 +40,23 @@ export const generateStaticParams = async () => {
   return params.flat();
 };
 
-export const LessonPage = async ({
-  params,
-}: {
-  params: Promise<{
-    courseSlug: string;
-    stepNumber: string;
-    subjectNumber: string;
-    lessonNumber: string;
-  }>;
-}) => {
-  const { courseSlug, stepNumber, subjectNumber, lessonNumber } = await params;
-  const parsedStepNumber: number = Number(stepNumber);
-  const parsedSubjectNumber: number = Number(subjectNumber);
-  const parsedLessonNumber: number = Number(lessonNumber);
-  if (!Number.isInteger(parsedStepNumber) || !Number.isInteger(parsedSubjectNumber) || !Number.isInteger(parsedLessonNumber)) {
+export const LessonPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
+  const params = paramsSchema.safeParse(await rawParams);
+  if (!params.success) {
     notFound();
   }
 
+  const { courseSlug, stepNumber, subjectNumber, lessonNumber } = params.data;
   const course: Course | undefined = await getCourse(courseSlug);
-  if (!course) {
-    notFound();
-  }
-
-  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === parsedStepNumber);
-  const subject: Subject | undefined = step?.subjects.find((stepSubject) => stepSubject.number === parsedSubjectNumber);
+  const step: Step | undefined = course?.steps.find((step) => step.number === stepNumber);
+  const subject: Subject | undefined = step?.subjects.find((subject) => subject.number === subjectNumber);
   if (!subject) {
     notFound();
   }
 
-  const lessons: Lesson[] | undefined = await getLessons(courseSlug, parsedStepNumber, subject.id);
-  if (!lessons) {
-    notFound();
-  }
-
-  const lesson: Lesson | undefined = lessons.find((currentLesson) => currentLesson.number === parsedLessonNumber);
-  if (!lesson) {
+  const lessons: Lesson[] | undefined = await getLessons(courseSlug, stepNumber, subject.id);
+  const lesson: Lesson | undefined = lessons?.find((currentLesson) => currentLesson.number === lessonNumber);
+  if (!lessons || !lesson) {
     notFound();
   }
 

@@ -6,7 +6,7 @@ import { z } from "zod";
 
 export const courseRouter = createTRPCRouter({
   bySlug: publicProcedure
-    .input(z.object({ courseSlug: z.string() }))
+    .input(z.object({ courseSlug: z.string().min(1) }))
     .query(async ({ input }): Promise<Course> => {
       const course: Course | undefined = await getCourse(input.courseSlug);
       if (!course) {
