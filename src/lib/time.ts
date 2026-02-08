@@ -1,9 +1,19 @@
-export function formatSeconds(seconds: number): string {
-  const totalMinutes: number = Math.max(0, Math.round(seconds / 60));
-  const hours: number = Math.floor(totalMinutes / 60);
-  const minutes: number = totalMinutes % 60;
+import humanizeDuration from "humanize-duration";
 
-  if (hours === 0) return `${minutes}min`;
-  if (minutes === 0) return `${hours}h`;
-  return `${hours}h ${minutes}min`;
+const humanizer = humanizeDuration.humanizer({
+  language: "pt",
+  units: ["h", "m"],
+  round: true,
+  spacer: "",
+  delimiter: " ",
+  languages: {
+    pt: {
+      h: () => "h",
+      m: () => "min",
+    },
+  },
+});
+
+export function formatDuration(seconds: number): string {
+  return humanizer(seconds * 1000);
 }

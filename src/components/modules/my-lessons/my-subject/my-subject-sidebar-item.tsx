@@ -1,5 +1,5 @@
 import { Checkbox } from "@/components/ui/checkbox";
-import { formatSeconds } from "@/lib/time";
+import { formatDuration } from "@/lib/time";
 import { cn } from "@/lib/utils";
 import Lesson from "@/types/course/lesson.interface";
 
@@ -48,7 +48,7 @@ export const MySubjectSidebarItem = ({
           </span>
           {lesson.duration && (
             <span className="text-xs text-muted-foreground">
-              {formatSeconds(lesson.duration)}
+              {formatDuration(lesson.duration)}
             </span>
           )}
         </div>

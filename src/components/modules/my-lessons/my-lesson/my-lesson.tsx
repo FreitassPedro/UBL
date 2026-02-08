@@ -1,7 +1,7 @@
 import MyLessonBreadcrumb from "@/components/modules/my-lessons/my-lesson/my-lesson-breadcrumb";
 import { VideoPlayer } from "@/components/shared/video-player";
 import { Card } from "@/components/ui/card";
-import { formatSeconds } from "@/lib/time";
+import { formatDuration } from "@/lib/time";
 import Lesson from "@/types/course/lesson.interface";
 import Subject from "@/types/course/subject.interface";
 
@@ -28,7 +28,7 @@ export const MyLesson = ({ subject, lesson }: MyLessonProps) => {
                 <span className="inline-flex items-center gap-2 text-zinc-400">
                   <span className="h-1 w-1 rounded-full bg-zinc-600" />
                   <span className="font-medium text-zinc-200">
-                    {formatSeconds(lesson.duration)}
+                    {formatDuration(lesson.duration)}
                   </span>
                 </span>
               )}
