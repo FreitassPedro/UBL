@@ -1,0 +1,31 @@
+import MyCourse from "@/components/modules/my-courses/my-course/my-course";
+import { getAllCourses, getCourse } from "@/services/course.service";
+import Course from "@/types/course/course.interface";
+import { notFound } from "next/navigation";
+
+export const generateStaticParams = async () => {
+  const courses: Course[] = await getAllCourses();
+  return courses.flatMap((course) =>
+    course.steps.map((step) => ({
+      courseSlug: course.slug,
+      stepNumber: String(step.number),
+    })),
+  );
+};
+
+export const MyCoursePage = async ({ params }: { params: Promise<{ courseSlug: string; stepNumber: string }> }) => {
+  const { courseSlug, stepNumber } = await params;
+  const parsedStepNumber: number = Number(stepNumber);
+  if (!Number.isInteger(parsedStepNumber)) {
+    notFound();
+  }
+
+  const course: Course | undefined = await getCourse(courseSlug);
+  if (!course || !course.steps.map((step) => step.number).includes(parsedStepNumber)) {
+    notFound();
+  }
+
+  return <MyCourse stepNumber={parsedStepNumber} course={course} />;
+};
+
+export default MyCoursePage;

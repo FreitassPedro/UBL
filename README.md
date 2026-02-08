@@ -13,7 +13,7 @@ O objetivo é centralizar conteúdos educacionais gratuitos, permitindo que estu
 
 ## Tecnologias Utilizadas
 
-- React (TypeScript) e Vite;
+- React (TypeScript) e Next.js;
 
 ## Instalação e Uso
 
@@ -28,7 +28,7 @@ Siga os passos abaixo para rodar o projeto localmente:
    ```npm run dev```
 
 4. **Acesse o projeto**
-   Abra seu navegador e acesse `http://localhost:5173` (ou a porta indicada no terminal).
+   Abra seu navegador e acesse `http://localhost:3000` (ou a porta indicada no terminal).
 
 ## 🤝 Como contribuir?
 
@@ -36,7 +36,7 @@ Siga os passos para contribuir com o projeto:
 
 1. Faça um **Fork** do projeto.
 2. Crie uma **Branch** para sua feature (`git branch -b feature/MinhaFeature`).
-3. Faça suas alterações e commit (`git commit -m 'Adiciona nova feature'`).
+3. Faça suas alterações e commit (`git commit -b 'Adiciona nova feature'`).
 4. Faça o **Push** para a branch (`git push origin feature/MinhaFeature`).
 5. Abra um **Pull Request**.
 6. Aguarde a aprovação.

@@ -1,0 +1,65 @@
+import { join } from "path";
+import type Course from "@/types/course.interface";
+import type Lesson from "@/types/lesson.interface";
+import type Video from "@/types/video.interface";
+import { toLessons } from "@/mappers/lesson.mapper";
+import { save } from "@/utils/file";
+import YoutubeService from "@/services/youtube.service";
+
+let lastSubjectId: number = 0;
+
+export default class CourseService {
+  private readonly youtubeService: YoutubeService;
+
+  constructor(youtubeService: YoutubeService) {
+    this.youtubeService = youtubeService;
+  }
+
+  public async *iterateLessons(course: Course): AsyncGenerator<{
+    stepIndex: number;
+    subjectIndex: number;
+    lessons: Lesson[];
+  }> {
+    console.log(`Grade curricular: ${course.name.toUpperCase()}`);
+    for (let stepIndex = 0; stepIndex < course.steps.length; stepIndex++) {
+      const step = course.steps[stepIndex];
+      console.log(`> Etapa ${stepIndex + 1} (Total: ${step.subjects.length} playlists)`);
+
+      for (let subjectIndex = 0; subjectIndex < step.subjects.length; subjectIndex++) {
+        const subject = step.subjects[subjectIndex];
+        console.log(`>> Disciplina ${subjectIndex + 1}: ${subject.url} (Nome: ${subject.name})`);
+
+        const videos: Video[] = await this.youtubeService.getVideos(this.youtubeService.getPlaylistId(subject.url));
+        const videoDurations: Map<string, string> = await this.youtubeService.getVideoDurations(videos.map(video => video.contentDetails.videoId));
+        const lessons: Lesson[] = toLessons(videos, videoDurations);
+        subject.lessons = lessons.length;
+
+        yield {
+          stepIndex: stepIndex,
+          subjectIndex: subjectIndex,
+          lessons: lessons
+        };
+      }
+    }
+  }
+
+  public async generate(directory: string, course: Course): Promise<void> {
+    for await (const { stepIndex, subjectIndex, lessons } of this.iterateLessons(course)) {
+      const step = course.steps[stepIndex];
+      const subject = step.subjects[subjectIndex];
+      subject.duration = lessons.reduce((total, lesson) => total + (lesson.duration ?? 0), 0);
+
+      save(
+        join(directory, course.slug.toLowerCase(), "steps", String(step.number)),
+        `${++lastSubjectId}.json`,
+        lessons
+      );
+    }
+
+    save(
+      join(directory, course.slug.toLowerCase()),
+      "index.json",
+      course
+    );
+  }
+}

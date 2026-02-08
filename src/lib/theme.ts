@@ -75,27 +75,7 @@ export function getProgressTheme(progress: number) {
       color: "text-zinc-400",
       iconColor: "text-zinc-500",
       border: "group-hover:border-zinc-500/70 border-zinc-700/70",
+      bg: "bg-zinc-900",
       icon: Circle,
     };
-}
-
-export function getNodeTheme(number: number) {
-  switch (number) {
-    case 1:
-      return "bg-blue-200";
-    case 2:
-      return "bg-green-200";
-    case 3:
-      return "bg-yellow-200";
-    case 4:
-      return "bg-red-200";
-    case 5:
-      return "bg-purple-200";
-    case 6:
-      return "bg-pink-200";
-    case 7:
-      return "bg-indigo-200";
-    default:
-      return "bg-gray-200";
-  }
 }
