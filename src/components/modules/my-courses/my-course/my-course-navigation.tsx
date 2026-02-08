@@ -13,10 +13,7 @@ interface MyCourseNavigationProps {
   course: Course;
 }
 
-export const MyCourseNavigation = ({
-  activeStepNumber,
-  course,
-}: MyCourseNavigationProps) => {
+export const MyCourseNavigation = ({ activeStepNumber, course }: MyCourseNavigationProps) => {
   const steps: Step[] = [...course.steps].sort((a, b) => a.number - b.number);
   return (
     <ScrollAreaPrimitive.Root className="w-full">
