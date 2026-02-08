@@ -3,10 +3,13 @@
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
+import useCourseProgress from "@/hooks/use-course-progress";
 import Lesson from "@/types/course/lesson.interface";
 import { useParams, useRouter } from "next/navigation";
-import { useCallback, useContext, useMemo } from "react";
+import { useContext, useMemo } from "react";
 import MySubjectSidebarItem from "./my-subject-sidebar-item";
+import CourseProgress from "@/types/course-progress/course-progress.interface";
+import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 
 interface MySubjectSidebarProps {
   lessons: Lesson[];
@@ -20,34 +23,28 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
   const stepNumber: number = Number(params.stepNumber);
   const subjectNumber: number = Number(params.subjectNumber);
 
-  const { progresses, toggleLessonCompletion } = useContext(MyCourseProgressStoreContext);
-  const completedLessons: number[] = useMemo(
-    () => progresses?.[courseSlug]?.[stepNumber - 1]?.[subjectNumber - 1] ?? [],
-    [progresses, courseSlug, stepNumber, subjectNumber],
-  );
+  const { toggleLessonCompletion } = useContext(MyCourseProgressStoreContext);
+  const courseProgress: CourseProgress = useCourseProgress({
+    courseSlug,
+    stepNumber,
+    subjectNumber,
+    totalLessons: lessons.length,
+  });
 
-  const completedLessonsProgress: number = useMemo(() => {
-    if (lessons.length === 0) return 0;
-    return Math.round((completedLessons.length / lessons.length) * 100);
-  }, [completedLessons.length, lessons.length]);
-
-  const handleSelectLesson = useCallback((nextLesson: Lesson) => {
-    router.push(`/meu-curso/${courseSlug}/etapas/${stepNumber}/disciplinas/${subjectNumber}/aulas/${nextLesson.number}`);
-  }, [router, courseSlug, stepNumber, subjectNumber]);
-
-  const handleToggleCompletion = useCallback((lessonId: number) => {
-    toggleLessonCompletion(courseSlug, stepNumber, subjectNumber, lessonId);
-  }, [toggleLessonCompletion, courseSlug, stepNumber, subjectNumber]);
+  const subjectProgress: SubjectProgress = courseProgress.steps[0]?.subjects[0];
+  const completedLessons: number[] = subjectProgress?.lessons ?? [];
+  const completedLessonsProgress: number = subjectProgress?.progress ?? 0;
 
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 pt-2 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
       <div className="flex items-center justify-between pr-2">
-        <h3 className="text-lg font-semibold text-zinc-100">Playlist de Aulas</h3>
+        <h3 className="text-lg font-semibold text-zinc-100">
+          Playlist de Aulas
+        </h3>
         <span className="text-sm font-semibold">
           {completedLessons.length} de {lessons.length}
         </span>
       </div>
-
       <Progress value={completedLessonsProgress} />
       <div className="flex min-h-0 flex-col flex-1">
         <ScrollArea className="h-[55vh] sm:h-[60vh] lg:h-full w-full overflow-hidden">
@@ -58,8 +55,19 @@ export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarPro
                 lesson={lesson}
                 isSelected={currentLesson?.id === lesson.id}
                 isCompleted={completedLessons.includes(lesson.id)}
-                onSelect={handleSelectLesson}
-                onToggleCompletion={handleToggleCompletion}
+                onSelect={(nextLesson) => {
+                  router.push(
+                    `/meu-curso/${courseSlug}/etapas/${stepNumber}/disciplinas/${subjectNumber}/aulas/${nextLesson.number}`,
+                  );
+                }}
+                onToggleCompletion={(lessonId) => {
+                  toggleLessonCompletion(
+                    courseSlug,
+                    stepNumber,
+                    subjectNumber,
+                    lessonId,
+                  );
+                }}
               />
             ))}
           </ul>

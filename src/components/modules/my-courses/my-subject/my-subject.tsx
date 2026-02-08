@@ -17,7 +17,7 @@ interface MySubjectProps {
 }
 
 export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps) => {
-  const courseProgress: CourseProgress = useCourseProgress(course);
+  const courseProgress: CourseProgress = useCourseProgress({ course });
   const stepProgress = courseProgress.steps[stepNumber - 1].subjects[subjectNumber - 1];
   const subject = course.steps[stepNumber - 1].subjects[subjectNumber - 1];
   const theme = getProgressTheme(stepProgress.progress);

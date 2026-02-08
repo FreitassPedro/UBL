@@ -10,7 +10,7 @@ interface StepStatsProgressProps {
 }
 
 export const StepStatsProgress = ({ stepNumber, course }: StepStatsProgressProps) => {
-  const courseProgress: CourseProgress = useCourseProgress(course);
+  const courseProgress: CourseProgress = useCourseProgress({ course });
   return (
     <span>
       {

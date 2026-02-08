@@ -1,7 +1,7 @@
 "use client";
 
 import useCourseProgressStore from "@/hooks/use-course-progress-store";
-import { toCourseProgress } from "@/mappers/course.mapper";
+import { toCourseProgressFromCourse } from "@/mappers/course.mapper";
 import { toSubjectsWithProgress } from "@/mappers/subject.mapper";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
@@ -39,7 +39,7 @@ export const useSubjectsWithProgress = () => {
       .map((query) => query.data)
       .filter((course): course is Course => course !== undefined);
 
-    const progresses: CourseProgress[] = courses.map((course) => toCourseProgress(course, progressStore));
+    const progresses: CourseProgress[] = courses.map((course) => toCourseProgressFromCourse(course, progressStore));
     return toSubjectsWithProgress(courses, progresses);
   }, [courseQueries, progressStore]);
 

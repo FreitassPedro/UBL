@@ -5,7 +5,7 @@ import CourseProgressStore from "@/types/course-progress/course-progress-store.i
 import { createContext, useCallback, useMemo } from "react";
 
 export interface MyCourseProgressStoreContextType {
-  progresses: CourseProgressStore;
+  progressStore: CourseProgressStore;
   toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number) => void;
 }
 
@@ -65,7 +65,7 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: React.Re
   );
 
   const context: MyCourseProgressStoreContextType = useMemo(
-    () => ({ progresses: progressStore, toggleLessonCompletion }),
+    () => ({ progressStore, toggleLessonCompletion }),
     [progressStore, toggleLessonCompletion],
   );
 
