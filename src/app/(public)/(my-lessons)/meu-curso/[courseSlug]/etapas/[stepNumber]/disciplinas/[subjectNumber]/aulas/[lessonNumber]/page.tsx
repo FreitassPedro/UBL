@@ -50,7 +50,7 @@ export const LessonPage = async ({ params: rawParams }: { params: Promise<z.inpu
   const course: Course | undefined = await getCourse(courseSlug);
   const step: Step | undefined = course?.steps.find((step) => step.number === stepNumber);
   const subject: Subject | undefined = step?.subjects.find((subject) => subject.number === subjectNumber);
-  if (!subject) {
+  if (!course || !step || !subject) {
     notFound();
   }
 
@@ -60,7 +60,14 @@ export const LessonPage = async ({ params: rawParams }: { params: Promise<z.inpu
     notFound();
   }
 
-  return <MySubject subject={subject} lessons={lessons} currentLesson={lesson} />;
+  return (
+    <MySubject
+      course={course}
+      subject={subject}
+      lessons={lessons}
+      currentLesson={lesson}
+    />
+  );
 };
 
 export default LessonPage;

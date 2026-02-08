@@ -2,18 +2,20 @@ import MyLessonBreadcrumb from "@/components/modules/my-lessons/my-lesson/my-les
 import { VideoPlayer } from "@/components/shared/video-player";
 import { Card } from "@/components/ui/card";
 import { formatDuration } from "@/lib/time";
+import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
 import Subject from "@/types/course/subject.interface";
 
 interface MyLessonProps {
+  course: Course;
   subject: Subject;
   lesson: Lesson;
 }
 
-export const MyLesson = ({ subject, lesson }: MyLessonProps) => {
+export const MyLesson = ({ course, subject, lesson }: MyLessonProps) => {
   return (
     <Card className="flex min-h-0 flex-col gap-3 p-4 pb-2 sm:gap-4 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
-      <MyLessonBreadcrumb subjectName={subject.name} lessonName={lesson.name} />
+      <MyLessonBreadcrumb courseName={course.name} subjectName={subject.name} lessonName={lesson.name} />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
         <div className="h-full rounded-lg overflow-hidden transition-opacity">
           <VideoPlayer key={lesson.id} url={lesson.embedUrl} />

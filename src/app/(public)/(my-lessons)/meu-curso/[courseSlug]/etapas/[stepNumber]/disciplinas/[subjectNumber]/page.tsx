@@ -40,7 +40,7 @@ export const SubjectPage = async ({ params: rawParams }: { params: Promise<z.inp
   const course: Course | undefined = await getCourse(courseSlug);
   const step: Step | undefined = course?.steps.find((step) => step.number === stepNumber);
   const subject: Subject | undefined = step?.subjects.find((subject) => subject.number === subjectNumber);
-  if (!subject) {
+  if (!course || !step || !subject) {
     notFound();
   }
 

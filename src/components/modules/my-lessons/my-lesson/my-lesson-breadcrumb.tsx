@@ -10,11 +10,12 @@ import { ChevronRight, HomeIcon } from "lucide-react";
 import Link from "next/link";
 
 interface LessonBreadcrumbProps {
+  courseName: string;
   subjectName: string;
   lessonName: string;
 }
 
-export const MyLessonBreadcrumb = ({ subjectName, lessonName }: LessonBreadcrumbProps) => {
+export const MyLessonBreadcrumb = ({ courseName, subjectName, lessonName }: LessonBreadcrumbProps) => {
   return (
     <Breadcrumb className="shrink-0">
       <BreadcrumbList className="text-sm text-gray-400 flex-nowrap overflow-hidden min-w-0">
@@ -32,8 +33,8 @@ export const MyLessonBreadcrumb = ({ subjectName, lessonName }: LessonBreadcrumb
 
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
-            <Link href="/meu-curso" className="hover:text-gray-200">
-              Disciplina
+            <Link href="../../.." className="hover:text-gray-200">
+              {courseName}
             </Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
@@ -45,7 +46,7 @@ export const MyLessonBreadcrumb = ({ subjectName, lessonName }: LessonBreadcrumb
         <BreadcrumbItem className="min-w-0">
           <BreadcrumbLink asChild>
             <Link
-              href="/meu-curso"
+              href=".."
               className="hover:text-gray-200 block truncate"
             >
               {subjectName}
