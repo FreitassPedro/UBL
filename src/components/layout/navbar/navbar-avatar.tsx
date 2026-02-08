@@ -20,16 +20,16 @@ export const NavbarAvatar = () => {
       <DropdownMenuContent align="end" className="w-48">
         <DropdownMenuItem className="cursor-pointer">
           <User size={16} />
-          <button>Perfil</button>
+          <span>Perfil</span>
         </DropdownMenuItem>
         <DropdownMenuItem className="cursor-pointer">
           <Settings size={16} />
-          <button>Configurações</button>
+          <span>Configurações</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem className="cursor-pointer">
           <LogOut size={16} />
-          <button>Sair</button>
+          <span>Sair</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
