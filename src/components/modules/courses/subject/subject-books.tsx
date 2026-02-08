@@ -20,7 +20,7 @@ export const SubjectBooks = ({ subject }: SubjectBooksProps) => {
           {subject.books.map((book, bookIndex) => (
             <a
               key={bookIndex}
-              href={`https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/${book.url}`}
+              href={book.url}
               target="_blank"
               rel="noopener noreferrer"
               className="group/book flex flex-col gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition-all duration-300 hover:border-white/20 hover:bg-white/10 sm:flex-row sm:items-center"
