@@ -1,8 +1,22 @@
 import CourseProgress from "@/types/course-progress/course-progress.interface";
+import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Course from "@/types/course/course.interface";
 import Step from "@/types/course/step.interface";
 import Subject from "@/types/course/subject.interface";
+
+export function toSubjectProgress(
+  subject: Pick<Subject, "number" | "lessons">,
+  subjectProgress: number[],
+): SubjectProgress {
+  return {
+    number: subject.number,
+    lessons: subjectProgress,
+    progress: subject.lessons
+      ? Math.round((subjectProgress.length / subject.lessons) * 100)
+      : 0,
+  };
+}
 
 export function toSubjectsWithProgress(courses: Course[], progresses: CourseProgress[]): SubjectWithProgress[] {
   const result: SubjectWithProgress[] = [];

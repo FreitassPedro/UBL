@@ -4,12 +4,12 @@ import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import useCourseProgress from "@/hooks/use-course-progress";
-import Lesson from "@/types/course/lesson.interface";
-import { useParams, useRouter } from "next/navigation";
-import { useContext, useMemo } from "react";
-import MySubjectSidebarItem from "./my-subject-sidebar-item";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
+import Lesson from "@/types/course/lesson.interface";
+import { useParams, useRouter } from "next/navigation";
+import { useContext } from "react";
+import MySubjectSidebarItem from "./my-subject-sidebar-item";
 
 interface MySubjectSidebarProps {
   lessons: Lesson[];
