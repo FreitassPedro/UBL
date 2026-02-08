@@ -19,7 +19,7 @@ export const MyLesson = ({ subject, lesson }: MyLessonProps) => {
           <VideoPlayer key={lesson.id} url={lesson.embedUrl} />
         </div>
       </div>
-      <div className="shrink-0 rounded-xl border border-border/60 bg-card/80 p-4 sm:p-5 shadow-[0_18px_55px_-45px_rgba(0,0,0,0.75)]">
+      <div className="shrink-0 rounded-xl border border-border/60 bg-card/80 p-4 sm:p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex flex-col gap-2">
             <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-400">
