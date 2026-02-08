@@ -13,8 +13,8 @@ interface CourseSelectorProps {
 
 export const CourseSelector = ({ courses }: CourseSelectorProps) => {
   return (
-    <section className="mx-auto mt-4 mb-12 flex w-full max-w-6xl flex-col items-center px-6 sm:px-8">
-      <div className="mb-5 text-center">
+    <section className="mx-auto mt-4 mb-20 flex w-full max-w-6xl flex-col items-center px-6 sm:px-8">
+      <div className="mb-8 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">
           Catálogo de Cursos
         </h2>

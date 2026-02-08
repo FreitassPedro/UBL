@@ -1,14 +1,12 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import HomeProgressItem from "@/components/modules/home/home-progress-item";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
-  CardTitle
+  CardTitle,
 } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Select,
@@ -17,12 +15,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useSubjectsWithProgress, { SubjectWithProgressOrder } from "@/hooks/use-subjects-with-progress";
-import Link from "next/link";
+import useSubjectsWithProgress, {
+  SubjectWithProgressOrder,
+} from "@/hooks/use-subjects-with-progress";
 
 export const HomeProgress = () => {
-  const { subjectsWithProgress: subjects, orderBy, setOrderBy, isLoading, isError } = useSubjectsWithProgress();
-  if (!subjects || subjects.length === 0 || isLoading || isError) {
+  const { subjectsWithProgress, orderBy, setOrderBy, isLoading, isError } = useSubjectsWithProgress();
+  if (!subjectsWithProgress || subjectsWithProgress.length === 0 || isLoading || isError) {
     return null;
   }
 
@@ -38,7 +37,12 @@ export const HomeProgress = () => {
               <span className="uppercase text-xs text-zinc-400">
                 Ordenar por
               </span>
-              <Select value={orderBy} onValueChange={(value) => setOrderBy(value as SubjectWithProgressOrder)}>
+              <Select
+                value={orderBy}
+                onValueChange={(value) =>
+                  setOrderBy(value as SubjectWithProgressOrder)
+                }
+              >
                 <SelectTrigger className="w-32 cursor-pointer">
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
@@ -63,43 +67,11 @@ export const HomeProgress = () => {
 
         <ScrollArea className="h-60">
           <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-            {subjects.map((subject) => (
-              <Card
-                key={subject.id}
-                className="text-left hover:border-zinc-700/80 p-6 flex flex-col gap-3"
-              >
-                <CardHeader className="p-0 space-y-1">
-                  <CardDescription className="font-semibold text-gray-400 leading-tight line-clamp-2 sm:min-h-10 lg:min-h-0">
-                    {subject.courseAlternativeName} - Etapa {subject.stepNumber}
-                  </CardDescription>
-                  <CardTitle className="p-0 text-left text-xl text-white font-semibold leading-tight line-clamp-1">
-                    {subject.name}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-0 flex flex-col gap-1">
-                  <div className="flex items-center justify-between text-gray-400 text-base">
-                    <span>Progresso</span>
-                    <span className="font-medium text-gray-300">
-                      {subject.progress}%
-                    </span>
-                  </div>
-                  <Progress
-                    value={subject.progress}
-                    className="bg-zinc-700 h-2 mb-3"
-                  />
-                  <Button
-                    asChild
-                    variant="secondary"
-                    className="w-full h-10 bg-zinc-200 text-zinc-900 hover:bg-zinc-300"
-                  >
-                    <Link
-                      href={`/meu-curso/${subject.courseSlug}/etapas/${subject.stepNumber}/disciplinas/${subject.number}`}
-                    >
-                      Retomar
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
+            {subjectsWithProgress.map((subjectWithProgress) => (
+              <HomeProgressItem
+                key={subjectWithProgress.id}
+                subjectWithProgress={subjectWithProgress}
+              />
             ))}
           </div>
         </ScrollArea>

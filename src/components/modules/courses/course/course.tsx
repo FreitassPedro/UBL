@@ -9,7 +9,7 @@ interface CourseProps {
 
 export const Course = ({ course }: CourseProps) => {
   return (
-    <ViewportAnchor className="w-full max-w-6xl px-6 sm:px-8 mb-12 mx-auto container">
+    <ViewportAnchor className="w-full max-w-6xl px-6 sm:px-8 mb-20 mx-auto container">
       <CourseHeader course={course} />
       <ul className="space-y-4">
         {course.steps.map((step) => {
