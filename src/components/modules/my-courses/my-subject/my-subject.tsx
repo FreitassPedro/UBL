@@ -5,8 +5,11 @@ import { Progress } from "@/components/ui/progress";
 import useCourseProgress from "@/hooks/use-course-progress";
 import { getProgressTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
-import Course from "@/types/course/course.interface";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
+import StepProgress from "@/types/course-progress/step-progress.interface";
+import SubjectProgress from "@/types/course-progress/subject-progress.interface";
+import Course from "@/types/course/course.interface";
+import Subject from "@/types/course/subject.interface";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -18,10 +21,21 @@ interface MySubjectProps {
 
 export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps) => {
   const courseProgress: CourseProgress = useCourseProgress({ course });
-  const stepProgress = courseProgress.steps[stepNumber - 1].subjects[subjectNumber - 1];
-  const subject = course.steps[stepNumber - 1].subjects[subjectNumber - 1];
-  const theme = getProgressTheme(stepProgress.progress);
+  const stepProgress: StepProgress | undefined = courseProgress.steps.find((step) => step.number === stepNumber);
+  const subject: Subject | undefined = course.steps
+    .find((step) => step.number === stepNumber)
+    ?.subjects.find((stepSubject) => stepSubject.number === subjectNumber);
 
+  if (!stepProgress || !subject) {
+    return null;
+  }
+
+  const subjectProgress: SubjectProgress | undefined = stepProgress.subjects.find((stepSubject) => stepSubject.number === subjectNumber);
+  if (!subjectProgress) {
+    return null;
+  }
+
+  const theme = getProgressTheme(subjectProgress.progress);
   return (
     <Link
       href={`/meu-curso/${course.slug}/etapas/${stepNumber}/disciplinas/${subjectNumber}`}
@@ -51,16 +65,16 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                stepProgress.progress === 100
+                subjectProgress.progress === 100
                   ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                  : stepProgress.progress > 0
+                  : subjectProgress.progress > 0
                     ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
                     : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
               )}
             >
-              {stepProgress.progress === 100
+              {subjectProgress.progress === 100
                 ? "Revisar"
-                : stepProgress.progress > 0
+                : subjectProgress.progress > 0
                   ? "Continuar"
                   : "Iniciar"}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -70,25 +84,25 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-500">
               <span>
-                {stepProgress.progress === 100
+                {subjectProgress.progress === 100
                   ? "Concluído"
-                  : stepProgress.progress > 0
+                  : subjectProgress.progress > 0
                     ? "Progresso"
                     : "Comece a assistir"}
               </span>
-              <span className={theme.color}>{stepProgress.progress}%</span>
+              <span className={theme.color}>{subjectProgress.progress}%</span>
             </div>
 
-            {stepProgress.progress > 0 && (
+            {subjectProgress.progress > 0 && (
               <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
                 <div className="h-full w-full">
-                  <Progress value={stepProgress.progress} />
+                  <Progress value={subjectProgress.progress} />
                 </div>
               </div>
             )}
 
             <div className="text-xs text-zinc-600 pt-0.5">
-              {stepProgress.lessons.length} de {subject.lessons} aulas concluídas
+              {subjectProgress.lessons.length} de {subject.lessons} aulas concluídas
             </div>
           </div>
         </div>

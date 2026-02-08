@@ -2,6 +2,7 @@ import MyCourseNavigation from "@/components/modules/my-courses/my-course/my-cou
 import MyStep from "@/components/modules/my-courses/my-step/my-step";
 import MySubject from "@/components/modules/my-courses/my-subject/my-subject";
 import Course from "@/types/course/course.interface";
+import Step from "@/types/course/step.interface";
 
 interface MyCourseProps {
   stepNumber: number;
@@ -9,6 +10,11 @@ interface MyCourseProps {
 }
 
 export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
+  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === stepNumber);
+  if (!step) {
+    return null;
+  }
+
   return (
     <div className="flex flex-col w-full space-y-8 mb-10">
       <div className="flex flex-col w-full items-center space-y-4">
@@ -21,7 +27,7 @@ export const MyCourse = ({ stepNumber, course }: MyCourseProps) => {
         <div className="space-y-6">
           <MyStep stepNumber={stepNumber} course={course} />
           <div className="grid grid-cols-1 gap-3">
-            {course.steps[stepNumber - 1].subjects.map((subject) => (
+            {step.subjects.map((subject) => (
               <MySubject
                 key={subject.id}
                 stepNumber={stepNumber}

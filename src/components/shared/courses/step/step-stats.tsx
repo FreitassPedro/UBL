@@ -9,9 +9,13 @@ type StepStatsPropsFromCourse = { stepNumber: number; course: Course; showProgre
 type StepStatsProps = StepStatsPropsFromStep | StepStatsPropsFromCourse;
 
 export const StepStats = (props: StepStatsProps) => {
-  const step: Step = "step" in props
+  const step: Step | undefined = "step" in props
     ? props.step
-    : props.course.steps[props.stepNumber - 1];
+    : props.course.steps.find((courseStep) => courseStep.number === props.stepNumber);
+
+  if (!step) {
+    return null;
+  }
 
   const stepDuration: string = formatSeconds(
     step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),

@@ -37,6 +37,6 @@ export const getCourse = unstable_cache(
       return undefined;
     }
   },
-  ["course-by-slug"],
+  ["course"],
   { revalidate: false },
 );
