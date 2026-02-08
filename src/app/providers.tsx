@@ -1,16 +1,27 @@
 "use client";
 
 import { MyCourseProgressStoreProvider } from "@/contexts/course-progress-store-context";
+import { trpc } from "@/lib/trpc";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactNode } from "react";
-
-const queryClient: QueryClient = new QueryClient();
+import { httpBatchLink } from "@trpc/client";
+import { ReactNode, useState } from "react";
 
 export const Providers = ({ children }: { children: ReactNode }) => {
+  const [queryClient] = useState<QueryClient>(() => new QueryClient());
+  const [trpcClient] = useState(() =>
+    trpc.createClient({
+      links: [httpBatchLink({ url: "/api/trpc" })],
+    }),
+  );
+
   return (
-    <QueryClientProvider client={queryClient}>
-      <MyCourseProgressStoreProvider>{children}</MyCourseProgressStoreProvider>
-    </QueryClientProvider>
+    <trpc.Provider client={trpcClient} queryClient={queryClient}>
+      <QueryClientProvider client={queryClient}>
+        <MyCourseProgressStoreProvider>
+          {children}
+        </MyCourseProgressStoreProvider>
+      </QueryClientProvider>
+    </trpc.Provider>
   );
 };
 
