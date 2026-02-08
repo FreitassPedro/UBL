@@ -1,5 +1,6 @@
 "use client";
 
+import { courseProgressStoreSchema } from "@/schemas/course-progress/course-progress-store.schema";
 import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import { createContext, ReactNode, useCallback, useEffect, useMemo, useState } from "react";
 
@@ -21,7 +22,12 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
     try {
       const rawProgressStore = localStorage.getItem(KEY);
       if (rawProgressStore) {
-        setProgressStore(JSON.parse(rawProgressStore) as CourseProgressStore);
+        const parsedProgressStore = courseProgressStoreSchema.safeParse(JSON.parse(rawProgressStore) as unknown);
+        if (parsedProgressStore.success) {
+          setProgressStore(parsedProgressStore.data);
+        } else {
+          console.error("Invalid completedLessons shape in localStorage:", parsedProgressStore.error);
+        }
       }
     } catch (error) {
       console.error("Failed to parse completedLessons to localStorage:", error);
@@ -31,7 +37,13 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
-        localStorage.setItem(KEY, JSON.stringify(progressStore));
+        const parsedProgressStore = courseProgressStoreSchema.safeParse(progressStore);
+        if (!parsedProgressStore.success) {
+          console.error("Invalid completedLessons shape before persisting:", parsedProgressStore.error);
+          return;
+        }
+
+        localStorage.setItem(KEY, JSON.stringify(parsedProgressStore.data));
       } catch (error) {
         console.error("Failed to write completedLessons to localStorage:", error);
       }
