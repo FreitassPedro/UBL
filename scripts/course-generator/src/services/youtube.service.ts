@@ -16,8 +16,8 @@ export default class YoutubeService {
       return [];
     }
 
-    let videos: Video[] = [];
     let pageToken: string | undefined;
+    const videos: Video[] = [];
     do {
       const params = new URLSearchParams({
         part: "snippet,contentDetails",

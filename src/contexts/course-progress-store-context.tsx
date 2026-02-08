@@ -72,11 +72,11 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
           };
         }
 
-        const { [stepNumber - 1]: __, ...nextCurriculum } = course;
-        if (Object.keys(nextCurriculum).length > 0) {
+        const { [stepNumber - 1]: __, ...nextCourse } = course;
+        if (Object.keys(nextCourse).length > 0) {
           return {
             ...prev,
-            [courseSlug]: nextCurriculum,
+            [courseSlug]: nextCourse,
           };
         }
 

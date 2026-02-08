@@ -20,7 +20,7 @@ export const generateStaticParams = async () => {
           return lessons.map((lesson) => ({
             courseSlug: course.slug,
             stepNumber: String(step.number),
-            subjectNumber: String(lesson.number),
+            subjectNumber: String(subject.number),
             lessonNumber: String(lesson.number),
           }));
         }),
