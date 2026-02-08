@@ -1,12 +1,12 @@
 "use client";
 
 import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
+import { trpc } from "@/lib/trpc";
 import { toCourseProgress } from "@/mappers/course.mapper";
 import { toSubjectsWithProgress } from "@/mappers/subject.mapper";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Course from "@/types/course/course.interface";
-import { useQueries } from "@tanstack/react-query";
 import { useContext, useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
@@ -19,21 +19,20 @@ export const useSubjectsWithProgress = () => {
   const { progressStore } = useContext(MyCourseProgressStoreContext);
   const [orderBy, setOrderBy] = useState<SubjectWithProgressOrder>(SubjectWithProgressOrder.Progress);
 
-  const courseQueries = useQueries({
-    queries: Object.keys(progressStore).map((courseSlug) => ({
-      queryKey: ["course", courseSlug],
-      queryFn: async () => {
-        const res = await fetch(`/api/cursos/${courseSlug}`);
-        if (!res.ok) throw new Error("Curso não encontrado.");
-        return res.json() as Promise<Course>;
-      },
-      staleTime: Infinity,
-      gcTime: Infinity,
-      refetchOnMount: false,
-      refetchOnReconnect: false,
-      refetchOnWindowFocus: false,
-    })),
-  });
+  const courseQueries = trpc.useQueries((t) =>
+    Object.keys(progressStore).map((courseSlug) =>
+      t.course.bySlug(
+        { courseSlug },
+        {
+          staleTime: Infinity,
+          gcTime: Infinity,
+          refetchOnMount: false,
+          refetchOnReconnect: false,
+          refetchOnWindowFocus: false,
+        },
+      ),
+    ),
+  );
 
   const unorderedSubjectsWithProgress = useMemo<SubjectWithProgress[]>(() => {
     const courses: Course[] = courseQueries

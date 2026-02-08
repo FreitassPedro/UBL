@@ -1,5 +1,6 @@
 import "server-only";
 
+import { lessonArraySchema } from "@/schemas/course/lesson.schema";
 import Lesson from "@/types/course/lesson.interface";
 import { unstable_cache } from "next/cache";
 import { readFile } from "node:fs/promises";
@@ -9,8 +10,16 @@ export const getLessons = unstable_cache(
   async (courseSlug: string, stepNumber: number, subjectNumber: number): Promise<Lesson[] | undefined> => {
     try {
       const subjectPath: string = path.join(process.cwd(), "src", "data", courseSlug, "steps", String(stepNumber), `${subjectNumber}.json`);
-      return JSON.parse(await readFile(subjectPath, "utf8")) as Lesson[];
-    } catch {
+      const lessonsJson: unknown = JSON.parse(await readFile(subjectPath, "utf8"));
+      const lessons = lessonArraySchema.safeParse(lessonsJson);
+      if (!lessons.success) {
+        console.error(`Invalid lessons JSON for "${courseSlug}" (step ${stepNumber}, subject ${subjectNumber}).`, lessons.error);
+        return undefined;
+      }
+
+      return lessons.data;
+    } catch (error) {
+      console.error(`Failed to load lessons for "${courseSlug}" (step ${stepNumber}, subject ${subjectNumber}).`, error);
       return undefined;
     }
   },

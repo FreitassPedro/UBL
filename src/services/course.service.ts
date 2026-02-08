@@ -1,5 +1,6 @@
 import "server-only";
 
+import { courseSchema } from "@/schemas/course/course.schema";
 import Course from "@/types/course/course.interface";
 import { unstable_cache } from "next/cache";
 import { Dirent } from "node:fs";
@@ -32,8 +33,16 @@ export const getCourse = unstable_cache(
   async (courseSlug: string): Promise<Course | undefined> => {
     try {
       const coursePath: string = path.join(process.cwd(), "src", "data", courseSlug, "index.json");
-      return JSON.parse(await readFile(coursePath, "utf8")) as Course;
-    } catch {
+      const courseJson: unknown = JSON.parse(await readFile(coursePath, "utf8"));
+      const course = courseSchema.safeParse(courseJson);
+      if (!course.success) {
+        console.error(`Invalid course JSON for "${courseSlug}".`, course.error);
+        return undefined;
+      }
+
+      return course.data;
+    } catch (error) {
+      console.error(`Failed to load course "${courseSlug}".`, error);
       return undefined;
     }
   },
