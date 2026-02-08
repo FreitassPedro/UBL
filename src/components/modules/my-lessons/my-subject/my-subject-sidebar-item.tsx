@@ -1,5 +1,5 @@
 import { Checkbox } from "@/components/ui/checkbox";
-import { formatSeconds } from "@/lib/time";
+import { formatDuration } from "@/lib/time";
 import { cn } from "@/lib/utils";
 import Lesson from "@/types/course/lesson.interface";
 
@@ -22,9 +22,17 @@ export const MySubjectSidebarItem = ({
     <li>
       <div
         role="button"
+        tabIndex={0}
+        aria-pressed={isSelected}
         onClick={() => onSelect(lesson)}
+        onKeyDown={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            onSelect(lesson);
+          }
+        }}
         className={cn(
-          "w-full flex items-start gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors hover:bg-accent/50",
+          "w-full flex items-start gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors hover:bg-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
           isSelected && "bg-accent text-accent-foreground",
         )}
       >
@@ -48,7 +56,7 @@ export const MySubjectSidebarItem = ({
           </span>
           {lesson.duration && (
             <span className="text-xs text-muted-foreground">
-              {formatSeconds(lesson.duration)}
+              {formatDuration(lesson.duration)}
             </span>
           )}
         </div>

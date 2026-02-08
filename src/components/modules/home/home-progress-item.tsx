@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Link from "next/link";
 
@@ -26,7 +27,14 @@ export const HomeProgressItem = ({ subjectWithProgress }: HomeProgressItemProps)
           {subjectWithProgress.stepNumber}
         </CardDescription>
         <CardTitle className="p-0 text-left text-xl text-white font-semibold leading-tight line-clamp-1">
-          {subjectWithProgress.name}
+          <Tooltip>
+            <TooltipTrigger className="p-0 text-left text-xl text-white font-semibold line-clamp-1">
+              {subjectWithProgress.name}
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>{subjectWithProgress.name}</p>
+            </TooltipContent>
+          </Tooltip>
         </CardTitle>
       </CardHeader>
       <CardContent className="p-0 flex flex-col gap-1">

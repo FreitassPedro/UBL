@@ -1,5 +1,5 @@
 import StepStatsProgress from "@/components/shared/courses/step/step-stats-progress";
-import { formatSeconds } from "@/lib/time";
+import { formatDuration } from "@/lib/time";
 import Course from "@/types/course/course.interface";
 import Step from "@/types/course/step.interface";
 import { BookOpen, Clock } from "lucide-react";
@@ -17,7 +17,7 @@ export const StepStats = (props: StepStatsProps) => {
     return null;
   }
 
-  const stepDuration: string = formatSeconds(
+  const stepDuration: string = formatDuration(
     step.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
   );
 

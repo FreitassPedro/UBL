@@ -3,14 +3,12 @@
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import useCourseProgress from "@/hooks/use-course-progress";
-import { getProgressTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
-import StepProgress from "@/types/course-progress/step-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 import Course from "@/types/course/course.interface";
 import Subject from "@/types/course/subject.interface";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
 interface MySubjectProps {
@@ -19,23 +17,48 @@ interface MySubjectProps {
   course: Course;
 }
 
+export const getTheme = (progress: number) => {
+  if (progress === 100)
+    return {
+      color: "text-emerald-300",
+      iconColor: "text-emerald-400",
+      border: "group-hover:border-emerald-500/30 border-emerald-400/40",
+      background: "bg-linear-to-r from-emerald-900/10 to-emerald-700/35",
+      icon: CheckCircle2,
+    };
+  else if (progress > 0)
+    return {
+      color: "text-blue-100/85",
+      iconColor: "text-amber-500",
+      border: "group-hover:border-blue-600/45 border-blue-500/45",
+      background: "bg-linear-to-r from-blue-950/35 to-blue-900/40",
+      icon: CheckCircle2,
+    };
+  else
+    return {
+      color: "text-zinc-400",
+      iconColor: "text-zinc-500",
+      border: "group-hover:border-zinc-500/70 border-zinc-700/70",
+      background: "bg-zinc-900",
+      icon: Circle,
+    };
+};
+
 export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps) => {
   const courseProgress: CourseProgress = useCourseProgress({ course });
-  const stepProgress: StepProgress | undefined = courseProgress.steps.find((step) => step.number === stepNumber);
+  const subjectProgress: SubjectProgress | undefined = courseProgress.steps
+    .find((step) => step.number === stepNumber)
+    ?.subjects.find((subject) => subject.number === subjectNumber);
+
   const subject: Subject | undefined = course.steps
     .find((step) => step.number === stepNumber)
-    ?.subjects.find((stepSubject) => stepSubject.number === subjectNumber);
+    ?.subjects.find((subject) => subject.number === subjectNumber);
 
-  if (!stepProgress || !subject) {
+  if (!subjectProgress || !subject) {
     return null;
   }
 
-  const subjectProgress: SubjectProgress | undefined = stepProgress.subjects.find((stepSubject) => stepSubject.number === subjectNumber);
-  if (!subjectProgress) {
-    return null;
-  }
-
-  const theme = getProgressTheme(subjectProgress.progress);
+  const theme = getTheme(subjectProgress.progress);
   return (
     <Link
       href={`/meu-curso/${course.slug}/etapas/${stepNumber}/disciplinas/${subjectNumber}`}
@@ -45,7 +68,7 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
         className={cn(
           "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
           theme.border,
-          theme.bg,
+          theme.background,
         )}
       >
         <div className="relative shrink-0">
@@ -102,7 +125,8 @@ export const MySubject = ({ stepNumber, subjectNumber, course }: MySubjectProps)
             )}
 
             <div className="text-xs text-zinc-600 pt-0.5">
-              {subjectProgress.lessons.length} de {subject.lessons} aulas concluídas
+              {subjectProgress.lessons.length} de {subject.lessons} aulas
+              concluídas
             </div>
           </div>
         </div>

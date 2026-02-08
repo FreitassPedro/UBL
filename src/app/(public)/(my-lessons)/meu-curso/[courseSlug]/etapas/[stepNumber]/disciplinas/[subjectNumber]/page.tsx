@@ -5,6 +5,13 @@ import Lesson from "@/types/course/lesson.interface";
 import Step from "@/types/course/step.interface";
 import Subject from "@/types/course/subject.interface";
 import { notFound, redirect } from "next/navigation";
+import { z } from "zod";
+
+const paramsSchema = z.object({
+  courseSlug: z.string().min(1),
+  stepNumber: z.coerce.number().int().positive(),
+  subjectNumber: z.coerce.number().int().positive(),
+});
 
 export const generateStaticParams = async () => {
   const courses: Course[] = await getAllCourses();
@@ -23,40 +30,27 @@ export const generateStaticParams = async () => {
   return params.flat();
 };
 
-export const SubjectPage = async ({
-  params,
-}: {
-  params: Promise<{
-    courseSlug: string;
-    stepNumber: string;
-    subjectNumber: string;
-  }>;
-}) => {
-  const { courseSlug, stepNumber, subjectNumber } = await params;
-  const parsedStepNumber: number = Number(stepNumber);
-  const parsedSubjectNumber: number = Number(subjectNumber);
-  if (!Number.isInteger(parsedStepNumber) || !Number.isInteger(parsedSubjectNumber)) {
+export const SubjectPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
+  const params = paramsSchema.safeParse(await rawParams);
+  if (!params.success) {
     notFound();
   }
 
+  const { courseSlug, stepNumber, subjectNumber } = params.data;
   const course: Course | undefined = await getCourse(courseSlug);
-  if (!course) {
+  const step: Step | undefined = course?.steps.find((step) => step.number === stepNumber);
+  const subject: Subject | undefined = step?.subjects.find((subject) => subject.number === subjectNumber);
+  if (!course || !step || !subject) {
     notFound();
   }
 
-  const step: Step | undefined = course.steps.find((courseStep) => courseStep.number === parsedStepNumber);
-  const subject: Subject | undefined = step?.subjects.find((stepSubject) => stepSubject.number === parsedSubjectNumber);
-  if (!subject) {
-    notFound();
-  }
-
-  const lessons: Lesson[] | undefined = await getLessons(courseSlug, parsedStepNumber, subject.id);
-  if (!lessons) {
+  const lessons: Lesson[] | undefined = await getLessons(courseSlug, stepNumber, subject.id);
+  if (!lessons || lessons.length === 0) {
     notFound();
   }
 
   const firstLessonNumber: number = Math.min(...lessons.map((lesson) => lesson.number));
-  redirect(`/meu-curso/${courseSlug}/etapas/${parsedStepNumber}/disciplinas/${parsedSubjectNumber}/aulas/${firstLessonNumber}`);
+  redirect(`/meu-curso/${courseSlug}/etapas/${stepNumber}/disciplinas/${subjectNumber}/aulas/${firstLessonNumber}`);
 };
 
 export default SubjectPage;

@@ -1,6 +1,11 @@
 import { getAllCourses, getCourse } from "@/services/course.service";
 import Course from "@/types/course/course.interface";
 import { notFound, redirect } from "next/navigation";
+import { z } from "zod";
+
+const paramsSchema = z.object({
+  courseSlug: z.string().min(1),
+});
 
 export const generateStaticParams = async () => {
   const courses: Course[] = await getAllCourses();
@@ -9,10 +14,15 @@ export const generateStaticParams = async () => {
   }));
 };
 
-export const MyCourseRedirectPage = async ({ params }: { params: Promise<{ courseSlug: string }> }) => {
-  const { courseSlug } = await params;
+export const MyCourseRedirectPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
+  const params = paramsSchema.safeParse(await rawParams);
+  if (!params.success) {
+    notFound();
+  }
+
+  const { courseSlug } = params.data;
   const course: Course | undefined = await getCourse(courseSlug);
-  if (!course || !course.steps.length) {
+  if (!course || course.steps.length === 0) {
     notFound();
   }
 

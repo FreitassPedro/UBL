@@ -1,4 +1,3 @@
-import { getTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import { Sparkles } from "lucide-react";
 import { ReactNode } from "react";
@@ -10,14 +9,61 @@ interface StepCardProps {
   children?: ReactNode;
 }
 
-export const StepCard = ({
-  stepNumber,
-  label,
-  className,
-  children,
-}: StepCardProps) => {
-  const theme = getTheme(stepNumber);
+export const getTheme = (number: number) => {
+  switch (number) {
+    case 1:
+      return {
+        text: "text-blue-400",
+        border: "border-blue-400",
+        glow: "from-blue-500/10 via-transparent",
+      };
+    case 2:
+      return {
+        text: "text-emerald-400",
+        border: "border-emerald-400",
+        glow: "from-emerald-500/10 via-transparent",
+      };
+    case 3:
+      return {
+        text: "text-violet-400",
+        border: "border-violet-400",
+        glow: "from-violet-500/10 via-transparent",
+      };
+    case 4:
+      return {
+        text: "text-rose-400",
+        border: "border-rose-400",
+        glow: "from-rose-500/10 via-transparent",
+      };
+    case 5:
+      return {
+        text: "text-amber-400",
+        border: "border-amber-400",
+        glow: "from-amber-500/10 via-transparent",
+      };
+    case 6:
+      return {
+        text: "text-cyan-400",
+        border: "border-cyan-400",
+        glow: "from-cyan-500/10 via-transparent",
+      };
+    case 7:
+      return {
+        text: "text-indigo-400",
+        border: "border-indigo-400",
+        glow: "from-indigo-500/10 via-transparent",
+      };
+    default:
+      return {
+        text: "text-zinc-400",
+        border: "border-zinc-400",
+        glow: "from-zinc-500/10 via-transparent",
+      };
+  }
+};
 
+export const StepCard = ({ stepNumber, label, className, children }: StepCardProps) => {
+  const theme = getTheme(stepNumber);
   return (
     <div
       className={cn(

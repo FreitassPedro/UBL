@@ -1,4 +1,4 @@
-import { getTheme } from "@/lib/theme";
+import { getTheme } from "@/components/shared/courses/step/step-card";
 import { cn } from "@/lib/utils";
 import { Handle, Position } from "@xyflow/react";
 
@@ -14,7 +14,6 @@ interface CourseNodeProps {
 
 const CourseNode = ({ data }: CourseNodeProps) => {
   const theme = getTheme(data.step);
-
   return (
     <div
       className={cn(
@@ -36,7 +35,12 @@ const CourseNode = ({ data }: CourseNodeProps) => {
         <div className="line-clamp-2 text-lg font-light leading-tight text-white tracking-tight">
           {data.name}
         </div>
-        <div className={cn("flex items-center gap-2 text-sm font-semibold tracking-normal", theme.text)}>
+        <div
+          className={cn(
+            "flex items-center gap-2 text-sm font-semibold tracking-normal",
+            theme.text,
+          )}
+        >
           <span className="h-2.5 w-2.5 rounded-full bg-current" />
           <span>Etapa {data.step}</span>
         </div>
@@ -45,13 +49,13 @@ const CourseNode = ({ data }: CourseNodeProps) => {
       <Handle
         type="target"
         position={Position.Top}
-        className="h-1.5 w-10 rounded-full border border-ubl-green/60 bg-ubl-green/80 shadow-[0_6px_14px_-8px_rgba(34,197,94,0.8)]"
+        className="h-1.5 w-10 rounded-full border border-ubl-green/60 bg-ubl-green/80"
       />
 
       <Handle
         type="source"
         position={Position.Bottom}
-        className="h-1.5 w-10 rounded-full border border-ubl-green/60 bg-ubl-green/80 shadow-[0_6px_14px_-8px_rgba(34,197,94,0.8)]"
+        className="h-1.5 w-10 rounded-full border border-ubl-green/60 bg-ubl-green/80"
       />
     </div>
   );

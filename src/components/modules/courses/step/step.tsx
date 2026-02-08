@@ -12,7 +12,7 @@ export const Step = ({ step }: StepProps) => {
     <li id={`${step.id}`}>
       <details
         className={cn(
-          "group relative rounded-xl overflow-hidden shadow-lg shadow-black duration-400 transition-all ease-in-out hover:bg-zinc-800/80 hover:translate-x-2 flex flex-col bg-bg-card",
+          "group relative rounded-xl overflow-hidden shadow-lg shadow-black duration-400 transition-all ease-in-out hover:bg-zinc-800/80 hover:translate-x-2 flex flex-col bg-card",
         )}
       >
         <summary className="list-none cursor-pointer focus-visible:outline-none">

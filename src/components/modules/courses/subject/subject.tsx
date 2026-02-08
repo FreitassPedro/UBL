@@ -25,7 +25,7 @@ export const Subject = ({ subject, index }: SubjectProps) => {
         <div className="flex-1">
           <div className="flex items-center gap-3">
             <div className="h-3 w-3 animate-pulse rounded-full bg-linear-to-r from-ubl-blue to-ubl-green" />
-            <h3 className="font-md text-lg text-white tracking-tight sm:text-xl">
+            <h3 className="font-medium text-lg text-white tracking-tight sm:text-xl">
               {subject.name}
             </h3>
           </div>

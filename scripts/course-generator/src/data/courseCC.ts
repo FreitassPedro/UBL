@@ -20,7 +20,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Circuitos Digitais",
-              url: "extras/bibliography/01_digital_circuits.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/01_digital_circuits.md",
             },
           ],
         },
@@ -33,7 +33,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Matemática Discreta",
-              url: "extras/bibliography/02_discrete_mathematics.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/02_discrete_mathematics.md",
             },
           ],
         },
@@ -46,7 +46,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Linguagens de Programação",
-              url: "extras/bibliography/03_programming_languages.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/03_programming_languages.md",
             },
           ],
         },
@@ -59,7 +59,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Introdução a CC",
-              url: "extras/bibliography/04_intro_python.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/04_intro_python.md",
             },
           ],
         },
@@ -72,7 +72,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Geometria Analítica",
-              url: "extras/bibliography/05_analytic_geometry.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/05_analytic_geometry.md",
             },
           ],
         },
@@ -92,7 +92,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros de Cálculo I",
-              url: "extras/bibliography/06_intro_calculus.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/06_intro_calculus.md",
             },
           ],
         },
@@ -105,7 +105,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros de Álgebra Linear",
-              url: "extras/bibliography/07_intro_linear_algebra.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/07_intro_linear_algebra.md",
             },
           ],
         },
@@ -121,7 +121,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros de Estruturas de Dados",
-              url: "extras/bibliography/08_data_structure.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/08_data_structure.md",
             },
           ],
         },
@@ -134,7 +134,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros de Introdução a Programação",
-              url: "extras/bibliography/09_python.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/09_python.md",
             },
           ],
         },
@@ -147,7 +147,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Orientação a Objetos",
-              url: "extras/bibliography/10_object_orientation.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/10_object_orientation.md",
             },
           ],
         },
@@ -167,7 +167,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Algoritmos em Grafos",
-              url: "extras/bibliography/11_graph_algorithms.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/11_graph_algorithms.md",
             },
           ],
         },
@@ -180,7 +180,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Arquitetura de Computadores I",
-              url: "extras/bibliography/12_computer_architecture.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/12_computer_architecture.md",
             },
           ],
         },
@@ -193,7 +193,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Probabilidade e Estatística",
-              url: "extras/bibliography/13_statistics_probability.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/13_statistics_probability.md",
             },
           ],
         },
@@ -206,7 +206,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Cálculo II",
-              url: "extras/bibliography/14_advanced_calculus.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/14_advanced_calculus.md",
             },
           ],
         },
@@ -219,7 +219,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Programação Funcional",
-              url: "extras/bibliography/15_haskell.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/15_haskell.md",
             },
           ],
         },
@@ -239,7 +239,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Análise de Algoritmos",
-              url: "extras/bibliography/16_analysis_of_algorithms.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/16_analysis_of_algorithms.md",
             },
           ],
         },
@@ -255,7 +255,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Métodos Numéricos",
-              url: "extras/bibliography/17_numeric_methods.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/17_numeric_methods.md",
             },
           ],
         },
@@ -268,7 +268,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Bancos de Dados",
-              url: "extras/bibliography/18_database.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/18_database.md",
             },
           ],
         },
@@ -284,7 +284,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Arquitetura de Computadores",
-              url: "extras/bibliography/19_computer_architecture_II.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/19_computer_architecture_II.md",
             },
           ],
         },
@@ -297,7 +297,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Programação Lógica",
-              url: "extras/bibliography/20_logical_programming.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/20_logical_programming.md",
             },
           ],
         },
@@ -317,7 +317,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Redes de Computadores",
-              url: "extras/bibliography/21_computer_network.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/21_computer_network.md",
             },
           ],
         },
@@ -330,7 +330,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Engenharia de Software",
-              url: "extras/bibliography/22_software_engineering.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/22_software_engineering.md",
             },
           ],
         },
@@ -343,7 +343,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Sistemas Operacionais",
-              url: "extras/bibliography/23_operating_system.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/23_operating_system.md",
             },
           ],
         },
@@ -356,7 +356,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Programação Matemática/Pesquisa Operacional",
-              url: "extras/bibliography/24_math_optimization.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/24_math_optimization.md",
             },
           ],
         },
@@ -369,7 +369,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Computação Gráfica",
-              url: "extras/bibliography/25_fundamentals_computer_graphics.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/25_fundamentals_computer_graphics.md",
             },
           ],
         },
@@ -389,7 +389,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Linguagens Formais e Autômatos",
-              url: "extras/bibliography/26_automata_theory.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/26_automata_theory.md",
             },
           ],
         },
@@ -402,7 +402,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Inteligência Artificial",
-              url: "extras/bibliography/27_artificial_intelligence.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/27_artificial_intelligence.md",
             },
           ],
         },
@@ -415,7 +415,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Sistemas Distríbuidos",
-              url: "extras/bibliography/28_distributed_computing.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/28_distributed_computing.md",
             },
           ],
         },
@@ -428,7 +428,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Teoria dos Grafos",
-              url: "extras/bibliography/29_graphs.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/29_graphs.md",
             },
           ],
         },
@@ -441,7 +441,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Cálculo III",
-              url: "extras/bibliography/30_multivariable_calculus.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/30_multivariable_calculus.md",
             },
           ],
         },
@@ -461,7 +461,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Teoria da Computação",
-              url: "extras/bibliography/31_theory_of_computation.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/31_theory_of_computation.md",
             },
           ],
         },
@@ -474,7 +474,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Deep Learning",
-              url: "extras/bibliography/32_deep_learning.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/32_deep_learning.md",
             },
           ],
         },
@@ -487,7 +487,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Compiladores",
-              url: "extras/bibliography/33_compilers.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/33_compilers.md",
             },
           ],
         },
@@ -500,7 +500,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Computação Quântica",
-              url: "extras/bibliography/34_quantum_copmputing.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/34_quantum_copmputing.md",
             },
           ],
         },
@@ -513,7 +513,7 @@ export const courseCC: Course = {
           books: [
             {
               name: "Livros sobre Metodologia de Pesquisa",
-              url: "extras/bibliography/35_methodology.md",
+              url: "https://github.com/Universidade-Livre/ciencia-da-computacao/blob/main/extras/bibliography/35_methodology.md",
             },
           ],
         },
