@@ -11,7 +11,7 @@ export function toSubjectProgress(
 ): SubjectProgress {
   return {
     number: subject.number,
-    lessons: subjectProgress,
+    lessons: subjectProgress.map((lessonNumber) => ({ number: lessonNumber })),
     progress: subject.lessons
       ? Math.round((subjectProgress.length / subject.lessons) * 100)
       : 0,

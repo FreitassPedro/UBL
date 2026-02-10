@@ -1,13 +1,13 @@
 "use client";
 
-import CourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import { trpc } from "@/lib/trpc";
 import { toCourseProgress } from "@/mappers/course.mapper";
 import { toSubjectsWithProgress } from "@/mappers/subject.mapper";
+import useCourseProgressStore from "@/stores/course-progress-store";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Course from "@/types/course/course.interface";
-import { useContext, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
   Progress = "progresso",
@@ -16,7 +16,7 @@ export enum SubjectWithProgressOrder {
 }
 
 export const useSubjectsWithProgress = () => {
-  const { progressStore } = useContext(CourseProgressStoreContext);
+  const progressStore = useCourseProgressStore((state) => state.progress);
   const [orderBy, setOrderBy] = useState<SubjectWithProgressOrder>(SubjectWithProgressOrder.Progress);
 
   const courseQueries = trpc.useQueries((t) =>
@@ -46,10 +46,10 @@ export const useSubjectsWithProgress = () => {
   const orderedSubjectsWithProgress: SubjectWithProgress[] = useMemo<SubjectWithProgress[]>(() => {
     return [...unorderedSubjectsWithProgress].sort((a, b) => {
       switch (orderBy) {
-        case SubjectWithProgressOrder.Semester:
-          return a.semesterNumber - b.semesterNumber;
         case SubjectWithProgressOrder.Progress:
           return a.progress - b.progress;
+        case SubjectWithProgressOrder.Semester:
+          return a.semesterNumber - b.semesterNumber;
         case SubjectWithProgressOrder.Course:
           return a.courseName.localeCompare(b.courseName);
         default:

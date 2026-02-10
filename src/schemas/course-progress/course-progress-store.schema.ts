@@ -1,4 +1,4 @@
-import type CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
+import type CourseProgressStore from "@/types/course-progress/store/course-progress-store.interface";
 import { z } from "zod";
 
 const numericKeySchema = z.string().regex(/^\d+$/);

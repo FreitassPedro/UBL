@@ -2,28 +2,28 @@
 
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import CourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import useCourseProgress from "@/hooks/use-course-progress";
+import useCourseProgressStore from "@/stores/course-progress-store";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
+import LessonProgress from "@/types/course-progress/lesson-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 import Lesson from "@/types/course/lesson.interface";
 import { useParams, useRouter } from "next/navigation";
-import { useContext } from "react";
 import SubjectProgressSidebarItem from "./subject-progress-sidebar-item";
 
 interface SubjectProgressSidebarProps {
-  lessons: Lesson[];
   currentLesson?: Lesson;
+  lessons: Lesson[];
 }
 
-export const SubjectProgressSidebar = ({ lessons, currentLesson }: SubjectProgressSidebarProps) => {
+export const SubjectProgressSidebar = ({ currentLesson, lessons}: SubjectProgressSidebarProps) => {
   const router = useRouter();
   const params = useParams();
   const courseSlug: string = params.courseSlug as string;
-  const semesterNumber: number = Number(params.stepNumber);
+  const semesterNumber: number = Number(params.semesterNumber);
   const subjectNumber: number = Number(params.subjectNumber);
 
-  const { toggleLessonCompletion } = useContext(CourseProgressStoreContext);
+  const toggleLessonCompletion = useCourseProgressStore((state) => state.toggleLessonCompletion);
   const courseProgress: CourseProgress = useCourseProgress({
     courseSlug,
     semesterNumber,
@@ -35,7 +35,7 @@ export const SubjectProgressSidebar = ({ lessons, currentLesson }: SubjectProgre
     .find((semester) => semester.number === semesterNumber)
     ?.subjects.find((subject) => subject.number === subjectNumber);
 
-  const completedLessons: number[] = subjectProgress?.lessons ?? [];
+  const completedLessons: LessonProgress[] = subjectProgress?.lessons ?? [];
   const completedLessonsProgress: number = subjectProgress?.progress ?? 0;
 
   return (
@@ -56,19 +56,21 @@ export const SubjectProgressSidebar = ({ lessons, currentLesson }: SubjectProgre
               <SubjectProgressSidebarItem
                 key={lesson.id}
                 lesson={lesson}
-                isSelected={currentLesson?.id === lesson.id}
-                isCompleted={completedLessons.includes(lesson.id)}
+                isSelected={currentLesson?.number === lesson.number}
+                isCompleted={completedLessons
+                  .map((lesson) => lesson.number)
+                  .includes(lesson.number)}
                 onSelect={(nextLesson) => {
                   router.push(
                     `/meu-curso/${courseSlug}/etapas/${semesterNumber}/disciplinas/${subjectNumber}/aulas/${nextLesson.number}`,
                   );
                 }}
-                onToggleCompletion={(lessonId) => {
+                onToggleCompletion={(lessonNumber) => {
                   toggleLessonCompletion(
                     courseSlug,
                     semesterNumber,
                     subjectNumber,
-                    lessonId,
+                    lessonNumber,
                   );
                 }}
               />

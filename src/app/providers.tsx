@@ -1,7 +1,6 @@
 "use client";
 
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { CourseProgressStoreProvider } from "@/contexts/course-progress-store-context";
 import { trpc } from "@/lib/trpc";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { httpBatchLink } from "@trpc/client";
@@ -18,9 +17,7 @@ export const Providers = ({ children }: { children: ReactNode }) => {
   return (
     <trpc.Provider client={trpcClient} queryClient={queryClient}>
       <QueryClientProvider client={queryClient}>
-        <CourseProgressStoreProvider>
-          <TooltipProvider>{children}</TooltipProvider>
-        </CourseProgressStoreProvider>
+        <TooltipProvider>{children}</TooltipProvider>
       </QueryClientProvider>
     </trpc.Provider>
   );

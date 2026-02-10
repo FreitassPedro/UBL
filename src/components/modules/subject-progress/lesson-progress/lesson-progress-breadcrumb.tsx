@@ -15,11 +15,7 @@ interface LessonProgressBreadcrumbProps {
   lessonName: string;
 }
 
-export const LessonProgressBreadcrumb = ({
-  courseName,
-  subjectName,
-  lessonName,
-}: LessonProgressBreadcrumbProps) => {
+export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }: LessonProgressBreadcrumbProps) => {
   return (
     <Breadcrumb className="shrink-0">
       <BreadcrumbList className="text-sm text-gray-400 flex-nowrap overflow-hidden min-w-0">

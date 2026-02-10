@@ -28,8 +28,8 @@ export const SubjectProgress = ({ course, subject, lessons, currentLesson }: Sub
               orientation="vertical"
             />
             <SubjectProgressSidebar
-              lessons={lessons}
               currentLesson={currentLesson}
+              lessons={lessons}
             />
           </div>
         </div>
