@@ -11,7 +11,6 @@ interface CourseProgressSelectorPreviewProps {
     accentText: string;
     accentBorder: string;
     accentBackground: string;
-    accentGlow: string;
   };
 }
 
@@ -20,42 +19,46 @@ export const CourseProgressSelectorPreview = ({ course }: CourseProgressSelector
     <Link
       href={`/meu-curso/${course.slug}`}
       className={cn(
-        "group relative flex h-full flex-col gap-4 overflow-hidden rounded-xl border bg-zinc-900 p-5 transition-transform duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500 group-hover:scale-[1.02]",
-        course.accentBorder
+        "group relative flex h-full min-h-60 flex-col overflow-hidden rounded-xl border border-zinc-700 bg-zinc-900 p-5 shadow-lg shadow-black/35 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-zinc-500/70 hover:shadow-xl hover:shadow-black/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 sm:p-6",
       )}
     >
-      <div
-        className={cn(
-          "pointer-events-none absolute inset-0 bg-linear-to-br opacity-60 transition-opacity duration-300 group-hover:opacity-80",
-          course.accentGlow
-        )}
-      />
-
-      <div className="relative flex items-start justify-between gap-4">
-        <div className="space-y-2">
-          <h2 className="text-lg font-semibold text-zinc-100 md:text-xl">
-            {course.name}
-          </h2>
-          <p className="text-sm leading-relaxed text-zinc-400 md:text-base">
-            {course.description}
-          </p>
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-transparent via-transparent to-zinc-950/30" />
+      <div className="relative z-10 mt-2 flex flex-1 flex-col items-center justify-center text-center">
+        <div className="relative mb-5">
+          <div
+            className={cn(
+              "pointer-events-none absolute -inset-4 rounded-full opacity-90 blur-xl transition-opacity duration-200 group-hover:opacity-100",
+              course.accentBackground,
+            )}
+          />
+          <div
+            className={cn(
+              "relative grid h-24 w-24 place-items-center rounded-full border-2 shadow-lg ring-1 ring-white/12 transition-transform duration-200 group-hover:scale-[1.03]",
+              course.accentBorder,
+              course.accentBackground,
+            )}
+          >
+            <course.icon className={cn("h-10 w-10", course.accentText)} />
+          </div>
         </div>
 
-        <div
-          className={cn(
-            "shrink-0 rounded-lg border p-3",
-            course.accentBorder,
-            course.accentBackground
-          )}
-        >
-          <course.icon className={cn("h-6 w-6", course.accentText)} />
-        </div>
+        <h2 className="text-[1.3rem] leading-tight font-semibold tracking-tight text-zinc-100 md:text-[1.45rem]">
+          {course.name}
+        </h2>
+        <p className="mt-2 max-w-[30ch] text-sm leading-6 text-zinc-300 md:text-[0.98rem]">
+          {course.description}
+        </p>
       </div>
 
-      <div className="relative mt-auto flex items-center justify-end text-xs font-medium text-zinc-500">
-        <span className={cn("inline-flex items-center gap-2", course.accentText)}>
+      <div className="relative z-10 mt-auto flex items-center justify-end pt-4">
+        <span
+          className={cn(
+            "inline-flex items-center gap-2 text-sm font-semibold tracking-wide",
+            course.accentText,
+          )}
+        >
           <span>Selecionar</span>
-          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+          <ArrowRight className={course.accentText} />
         </span>
       </div>
     </Link>
