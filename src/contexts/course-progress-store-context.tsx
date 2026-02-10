@@ -6,16 +6,16 @@ import { createContext, ReactNode, useCallback, useEffect, useMemo, useState } f
 
 const KEY: string = "user-progress";
 
-export interface MyCourseProgressStoreContextType {
+export interface CourseProgressStoreContextType {
   progressStore: CourseProgressStore;
-  toggleLessonCompletion: (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number) => void;
+  toggleLessonCompletion: (courseSlug: string, semesterNumber: number, subjectNumber: number, lessonId: number) => void;
 }
 
-export const MyCourseProgressStoreContext = createContext<MyCourseProgressStoreContextType>(
-  {} as MyCourseProgressStoreContextType,
+export const CourseProgressStoreContext = createContext<CourseProgressStoreContextType>(
+  {} as CourseProgressStoreContextType,
 );
 
-export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNode }) => {
+export const CourseProgressStoreProvider = ({ children }: { children: ReactNode }) => {
   const [progressStore, setProgressStore] = useState<CourseProgressStore>({});
 
   useEffect(() => {
@@ -51,11 +51,11 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
   }, [progressStore]);
 
   const toggleLessonCompletion = useCallback(
-    (courseSlug: string, stepNumber: number, subjectNumber: number, lessonId: number): void => {
+    (courseSlug: string, semesterNumber: number, subjectNumber: number, lessonId: number): void => {
       setProgressStore((prev) => {
         const course = prev[courseSlug] ?? {};
-        const step = course[stepNumber] ?? {};
-        const lessons = step[subjectNumber] ?? [];
+        const semester = course[semesterNumber] ?? {};
+        const lessons = semester[subjectNumber] ?? [];
         const nextLessons = lessons.includes(lessonId)
           ? lessons.filter((id) => id !== lessonId)
           : [...lessons, lessonId];
@@ -65,26 +65,26 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber]: {
-                ...step,
+              [semesterNumber]: {
+                ...semester,
                 [subjectNumber]: nextLessons,
               },
             },
           };
         }
 
-        const { [subjectNumber]: _removedSubject, ...nextStep } = step;
-        if (Object.keys(nextStep).length > 0) {
+        const { [subjectNumber]: _removedSubject, ...nextSemester } = semester;
+        if (Object.keys(nextSemester).length > 0) {
           return {
             ...prev,
             [courseSlug]: {
               ...course,
-              [stepNumber]: nextStep,
+              [semesterNumber]: nextSemester,
             },
           };
         }
 
-        const { [stepNumber]: _removedStep, ...nextCourse } = course;
+        const { [semesterNumber]: _removedSemester, ...nextCourse } = course;
         if (Object.keys(nextCourse).length > 0) {
           return {
             ...prev,
@@ -99,16 +99,16 @@ export const MyCourseProgressStoreProvider = ({ children }: { children: ReactNod
     [setProgressStore],
   );
 
-  const context = useMemo<MyCourseProgressStoreContextType>(
+  const context = useMemo<CourseProgressStoreContextType>(
     () => ({ progressStore, toggleLessonCompletion }),
     [progressStore, toggleLessonCompletion],
   );
 
   return (
-    <MyCourseProgressStoreContext value={context}>
+    <CourseProgressStoreContext value={context}>
       {children}
-    </MyCourseProgressStoreContext>
+    </CourseProgressStoreContext>
   );
 };
 
-export default MyCourseProgressStoreContext;
+export default CourseProgressStoreContext;

@@ -1,6 +1,6 @@
 "use client";
 
-import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
+import CourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import { trpc } from "@/lib/trpc";
 import { toCourseProgress } from "@/mappers/course.mapper";
 import { toSubjectsWithProgress } from "@/mappers/subject.mapper";
@@ -11,12 +11,12 @@ import { useContext, useMemo, useState } from "react";
 
 export enum SubjectWithProgressOrder {
   Progress = "progresso",
-  Step = "etapa",
+  Semester = "etapa",
   Course = "curso",
 }
 
 export const useSubjectsWithProgress = () => {
-  const { progressStore } = useContext(MyCourseProgressStoreContext);
+  const { progressStore } = useContext(CourseProgressStoreContext);
   const [orderBy, setOrderBy] = useState<SubjectWithProgressOrder>(SubjectWithProgressOrder.Progress);
 
   const courseQueries = trpc.useQueries((t) =>
@@ -39,15 +39,15 @@ export const useSubjectsWithProgress = () => {
       .map((query) => query.data)
       .filter((course): course is Course => course !== undefined);
 
-    const progresses: CourseProgress[] = courses.map((course) => toCourseProgress(course, progressStore));
-    return toSubjectsWithProgress(courses, progresses);
+    const coursesProgress: CourseProgress[] = courses.map((course) => toCourseProgress(course, progressStore));
+    return toSubjectsWithProgress(courses, coursesProgress);
   }, [courseQueries, progressStore]);
 
   const orderedSubjectsWithProgress: SubjectWithProgress[] = useMemo<SubjectWithProgress[]>(() => {
     return [...unorderedSubjectsWithProgress].sort((a, b) => {
       switch (orderBy) {
-        case SubjectWithProgressOrder.Step:
-          return a.stepNumber - b.stepNumber;
+        case SubjectWithProgressOrder.Semester:
+          return a.semesterNumber - b.semesterNumber;
         case SubjectWithProgressOrder.Progress:
           return a.progress - b.progress;
         case SubjectWithProgressOrder.Course:

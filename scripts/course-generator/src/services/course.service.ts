@@ -16,17 +16,17 @@ export default class CourseService {
   }
 
   public async *iterateLessons(course: Course): AsyncGenerator<{
-    stepIndex: number;
+    semesterIndex: number;
     subjectIndex: number;
     lessons: Lesson[];
   }> {
     console.log(`Grade curricular: ${course.name.toUpperCase()}`);
-    for (let stepIndex = 0; stepIndex < course.steps.length; stepIndex++) {
-      const step = course.steps[stepIndex];
-      console.log(`> Etapa ${stepIndex + 1} (Total: ${step.subjects.length} playlists)`);
+    for (let semesterIndex = 0; semesterIndex < course.semesters.length; semesterIndex++) {
+      const semester = course.semesters[semesterIndex];
+      console.log(`> Etapa ${semesterIndex + 1} (Total: ${semester.subjects.length} playlists)`);
 
-      for (let subjectIndex = 0; subjectIndex < step.subjects.length; subjectIndex++) {
-        const subject = step.subjects[subjectIndex];
+      for (let subjectIndex = 0; subjectIndex < semester.subjects.length; subjectIndex++) {
+        const subject = semester.subjects[subjectIndex];
         console.log(`>> Disciplina ${subjectIndex + 1}: ${subject.url} (Nome: ${subject.name})`);
 
         const videos: Video[] = await this.youtubeService.getVideos(this.youtubeService.getPlaylistId(subject.url));
@@ -35,7 +35,7 @@ export default class CourseService {
         subject.lessons = lessons.length;
 
         yield {
-          stepIndex: stepIndex,
+          semesterIndex: semesterIndex,
           subjectIndex: subjectIndex,
           lessons: lessons
         };
@@ -44,13 +44,13 @@ export default class CourseService {
   }
 
   public async generate(directory: string, course: Course): Promise<void> {
-    for await (const { stepIndex, subjectIndex, lessons } of this.iterateLessons(course)) {
-      const step = course.steps[stepIndex];
-      const subject = step.subjects[subjectIndex];
+    for await (const { semesterIndex, subjectIndex, lessons } of this.iterateLessons(course)) {
+      const semester = course.semesters[semesterIndex];
+      const subject = semester.subjects[subjectIndex];
       subject.duration = lessons.reduce((total, lesson) => total + (lesson.duration ?? 0), 0);
 
       save(
-        join(directory, course.slug.toLowerCase(), "steps", String(step.number)),
+        join(directory, course.slug.toLowerCase(), "semesters", String(semester.number)),
         `${++lastSubjectId}.json`,
         lessons
       );

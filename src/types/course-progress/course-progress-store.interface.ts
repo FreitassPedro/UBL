@@ -1,6 +1,6 @@
 export default interface CourseProgressStore {
   [courseSlug: string]: {
-    [stepNumber: number]: {
+    [semesterNumber: number]: {
       [subjectNumber: number]: number[];
     };
   };

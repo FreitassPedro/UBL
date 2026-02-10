@@ -1,4 +1,4 @@
-import Error from "@/components/shared/error";
+import Error from "@/components/common/error";
 
 export const NotFoundPage = () => {
   return (

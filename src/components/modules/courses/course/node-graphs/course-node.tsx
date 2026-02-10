@@ -1,11 +1,11 @@
-import { getTheme } from "@/components/shared/courses/step/step-card";
+import { getTheme } from "@/components/common/courses/semester/semester-card";
 import { cn } from "@/lib/utils";
 import { Handle, Position } from "@xyflow/react";
 
 interface CourseNodeProps {
   data: {
     name: string;
-    step: number;
+    semester: number;
     isSelected?: boolean;
     isClicked?: boolean;
     hasActiveSelection?: boolean;
@@ -13,7 +13,7 @@ interface CourseNodeProps {
 }
 
 const CourseNode = ({ data }: CourseNodeProps) => {
-  const theme = getTheme(data.step);
+  const theme = getTheme(data.semester);
   return (
     <div
       className={cn(
@@ -42,7 +42,7 @@ const CourseNode = ({ data }: CourseNodeProps) => {
           )}
         >
           <span className="h-2.5 w-2.5 rounded-full bg-current" />
-          <span>Etapa {data.step}</span>
+          <span>Etapa {data.semester}</span>
         </div>
       </div>
 

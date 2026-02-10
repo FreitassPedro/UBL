@@ -1,9 +1,9 @@
-import Step from "@/types/course/step.interface";
+import Semester from "@/types/course/semester.interface";
 
 export default interface Course {
   id: number;
   slug: string;
   name: string;
   alternativeName: string;
-  steps: Step[];
+  semesters: Semester[];
 }

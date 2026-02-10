@@ -4,7 +4,7 @@ import CourseType from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 import { z } from "zod";
 
-const coursePageParamsSchema = z.object({
+const paramsSchema = z.object({
   courseSlug: z.string().min(1),
 });
 
@@ -15,8 +15,8 @@ export const generateStaticParams = async () => {
   }));
 };
 
-export const CoursePage = async ({ params: rawParams }: { params: Promise<z.input<typeof coursePageParamsSchema>> }) => {
-  const params = coursePageParamsSchema.safeParse(await rawParams);
+export const CoursePage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
+  const params = paramsSchema.safeParse(await rawParams);
   if (!params.success) {
     notFound();
   }

@@ -4,6 +4,6 @@ export default interface SubjectWithProgress extends Subject {
   courseSlug: string;
   courseName: string;
   courseAlternativeName: string;
-  stepNumber: number;
+  semesterNumber: number;
   progress: number;
 }

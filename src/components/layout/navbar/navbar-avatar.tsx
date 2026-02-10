@@ -5,7 +5,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import UserAvatar from "@/components/shared/user/user-avatar";
+import UserAvatar from "@/components/common/user/user-avatar";
 import { ChevronDown, LogOut, Settings, User } from "lucide-react";
 
 export const NavbarAvatar = () => {

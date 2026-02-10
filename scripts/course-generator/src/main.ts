@@ -10,7 +10,7 @@ async function main() {
     throw new Error("Use: node main.ts <YOUTUBE_API_KEY>");
   }
 
-  const directory: string = join("output", "courses");
+  const directory: string = join("output");
   const youtubeService: YoutubeService = new YoutubeService(youtubeApiKey);
   const courseService: CourseService = new CourseService(youtubeService);
   for (const course of [courseCC, courseMath]) {
