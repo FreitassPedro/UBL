@@ -3,10 +3,10 @@ import BackgroundGrid from "@/components/layout/background-grid";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar/navbar";
 import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Exo_2, Roboto } from "next/font/google";
 import { ReactNode } from "react";
-import "./globals.css";
 
 const exo2 = Exo_2({
   subsets: ["latin"],

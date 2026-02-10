@@ -10,18 +10,55 @@ import Lesson from "@/types/course/lesson.interface";
 import { useParams, useRouter } from "next/navigation";
 import { useContext } from "react";
 import MySubjectSidebarItem from "./my-subject-sidebar-item";
+import { z } from "zod";
 
 interface MySubjectSidebarProps {
   lessons: Lesson[];
   currentLesson?: Lesson;
 }
 
+const pathSchema = z.union([
+  z.tuple([
+    z.literal("etapas"),
+    z.coerce.number().int().positive(),
+    z.literal("disciplinas"),
+    z.coerce.number().int().positive(),
+  ]),
+  z.tuple([
+    z.literal("etapas"),
+    z.coerce.number().int().positive(),
+    z.literal("disciplinas"),
+    z.coerce.number().int().positive(),
+    z.literal("aulas"),
+    z.coerce.number().int().positive(),
+  ]),
+]);
+
+const parseMyLessonsPath = (path: string[] | string | undefined) => {
+  const segments = Array.isArray(path) ? path : path ? [path] : [];
+  const parsed = pathSchema.safeParse(segments);
+  if (!parsed.success) {
+    return null;
+  }
+
+  const [, stepNumber, , subjectNumber, , lessonNumber] = parsed.data;
+  return {
+    stepNumber,
+    subjectNumber,
+    lessonNumber,
+  };
+};
+
 export const MySubjectSidebar = ({ lessons, currentLesson }: MySubjectSidebarProps) => {
   const router = useRouter();
   const params = useParams();
   const courseSlug: string = params.courseSlug as string;
-  const stepNumber: number = Number(params.stepNumber);
-  const subjectNumber: number = Number(params.subjectNumber);
+  const parsedPath = parseMyLessonsPath(params.path as string[] | string | undefined);
+  if (!parsedPath) {
+    return null;
+  }
+
+  const { stepNumber, subjectNumber } = parsedPath;
 
   const { toggleLessonCompletion } = useContext(MyCourseProgressStoreContext);
   const courseProgress: CourseProgress = useCourseProgress({
