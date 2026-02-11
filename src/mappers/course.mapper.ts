@@ -1,6 +1,6 @@
 import { toSemesterProgress } from "@/mappers/semester.mapper";
 import { toSubjectProgress } from "@/mappers/subject.mapper";
-import CourseProgressStore from "@/types/course-progress/store/course-progress-store.interface";
+import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 import Course from "@/types/course/course.interface";
