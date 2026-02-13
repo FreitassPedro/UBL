@@ -32,8 +32,8 @@ export const SubjectProgressSidebarItem = ({
           }
         }}
         className={cn(
-          "w-full flex items-start gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors hover:bg-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-          isSelected && "bg-accent text-accent-foreground",
+          "w-full flex items-start gap-3 rounded-md border border-zinc-700/80 bg-zinc-900 px-3 py-2 shadow-sm shadow-black/20 cursor-pointer transition-colors duration-150 hover:border-zinc-500 hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300/50",
+          isSelected && "border-blue-400/70 bg-blue-500/15 text-zinc-50 hover:border-blue-300/80 hover:bg-blue-500/20",
         )}
       >
         <Checkbox
@@ -51,11 +51,11 @@ export const SubjectProgressSidebarItem = ({
           "
         />
         <div className="flex flex-col items-start gap-0.5">
-          <span className="text-sm font-medium leading-tight">
+          <span className="text-sm font-medium leading-tight text-zinc-100">
             {lesson.name}
           </span>
           {lesson.duration && (
-            <span className="text-xs text-muted-foreground">
+            <span className="text-xs text-zinc-300">
               {formatDuration(lesson.duration)}
             </span>
           )}

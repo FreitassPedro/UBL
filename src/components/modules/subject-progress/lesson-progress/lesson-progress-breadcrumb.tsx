@@ -10,18 +10,18 @@ import { ChevronRight, HomeIcon } from "lucide-react";
 import Link from "next/link";
 
 interface LessonProgressBreadcrumbProps {
-  courseName: string;
+  courseAlternativeName: string;
   subjectName: string;
   lessonName: string;
 }
 
-export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }: LessonProgressBreadcrumbProps) => {
+export const LessonProgressBreadcrumb = ({ courseAlternativeName, subjectName, lessonName }: LessonProgressBreadcrumbProps) => {
   return (
     <Breadcrumb className="shrink-0">
-      <BreadcrumbList className="text-sm text-gray-400 flex-nowrap overflow-hidden min-w-0">
+      <BreadcrumbList className="min-w-0 flex-nowrap text-sm text-zinc-400">
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
-            <Link href="/" className="hover:text-gray-200">
+            <Link href="/" className="hover:text-zinc-200">
               <HomeIcon size={14} />
             </Link>
           </BreadcrumbLink>
@@ -33,8 +33,8 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
 
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
-            <Link href="../../.." className="hover:text-gray-200">
-              {courseName}
+            <Link href="../../.." className="hover:text-zinc-200">
+              {courseAlternativeName}
             </Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
@@ -45,7 +45,7 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
 
         <BreadcrumbItem className="min-w-0">
           <BreadcrumbLink asChild>
-            <Link href=".." className="hover:text-gray-200 block truncate">
+            <Link href=".." className="block truncate hover:text-zinc-200">
               {subjectName}
             </Link>
           </BreadcrumbLink>
@@ -56,7 +56,7 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
         </BreadcrumbSeparator>
 
         <BreadcrumbItem className="min-w-0 flex-1">
-          <BreadcrumbPage className="text-muted-foreground font-medium block truncate">
+          <BreadcrumbPage className="block truncate font-normal text-zinc-400">
             {lessonName}
           </BreadcrumbPage>
         </BreadcrumbItem>

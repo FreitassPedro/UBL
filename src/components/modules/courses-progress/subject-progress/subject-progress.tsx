@@ -36,10 +36,10 @@ export const getTheme = (progress: number) => {
     };
   else
     return {
-      color: "text-zinc-400",
-      iconColor: "text-zinc-500",
-      border: "group-hover:border-zinc-500/70 border-zinc-700/70",
-      background: "bg-zinc-900",
+      color: "text-zinc-300",
+      iconColor: "text-zinc-300",
+      border: "group-hover:border-zinc-400/80 border-zinc-600/75",
+      background: "bg-zinc-900/70",
       icon: Circle,
     };
 };
@@ -66,16 +66,16 @@ export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: Subje
     >
       <Card
         className={cn(
-          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/80 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
+          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/75 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
           theme.border,
           theme.background,
         )}
       >
         <div className="relative shrink-0">
-          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-lg border border-zinc-800 bg-card shadow-inner text-2xl sm:text-3xl font-semibold leading-none tracking-tight text-zinc-400">
+          <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-lg border border-zinc-600/70 bg-zinc-900/80 shadow-inner text-2xl sm:text-3xl font-semibold leading-none tracking-tight text-zinc-200">
             {subject.name.substring(0, 2).toUpperCase()}
           </div>
-          <div className="absolute -bottom-1 -right-1 bg-zinc-900 rounded-full p-0.5 border border-zinc-800">
+          <div className="absolute -bottom-1 -right-1 rounded-full border border-zinc-600/70 bg-zinc-900 p-0.5">
             {<theme.icon className={theme.iconColor} />}
           </div>
         </div>
@@ -105,7 +105,7 @@ export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: Subje
           </div>
 
           <div className="space-y-1.5 text-xs">
-            <div className="flex items-center justify-between text-zinc-500">
+            <div className="flex items-center justify-between text-zinc-300">
               <span>
                 {subjectProgress.progress === 100
                   ? "Concluído"
@@ -117,14 +117,14 @@ export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: Subje
             </div>
 
             {subjectProgress.progress > 0 && (
-              <div className="h-1.5 w-full bg-zinc-950 rounded-full overflow-hidden border border-zinc-800/50">
+              <div className="h-1.5 w-full overflow-hidden rounded-full border border-zinc-600/60 bg-zinc-900/80">
                 <div className="h-full w-full">
                   <Progress value={subjectProgress.progress} />
                 </div>
               </div>
             )}
 
-            <div className="text-xs text-zinc-600 pt-0.5">
+            <div className="pt-0.5 text-xs text-zinc-400">
               {subjectProgress.lessons.length} de {subject.lessons} aulas
               concluídas
             </div>

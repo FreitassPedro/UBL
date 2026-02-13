@@ -39,19 +39,19 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons}: SubjectProgres
   const completedLessonsProgress: number = subjectProgress?.progress ?? 0;
 
   return (
-    <aside className="flex min-h-0 flex-col gap-4 p-4 pt-2 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
+    <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
       <div className="flex items-center justify-between pr-2">
         <h3 className="text-lg font-semibold text-zinc-100">
           Playlist de Aulas
         </h3>
-        <span className="text-sm font-semibold">
+        <span className="text-sm font-semibold text-zinc-200">
           {completedLessons.length} de {lessons.length}
         </span>
       </div>
       <Progress value={completedLessonsProgress} />
-      <div className="flex min-h-0 flex-col flex-1">
-        <ScrollArea className="h-[55vh] sm:h-[60vh] lg:h-full w-full overflow-hidden">
-          <ul className="space-y-2 pr-2">
+      <div className="flex min-h-0 flex-1 flex-col">
+        <ScrollArea type="always" className="h-[55vh] sm:h-[60vh] lg:h-full w-full overflow-hidden">
+          <ul className="space-y-2 pr-4">
             {lessons.map((lesson) => (
               <SubjectProgressSidebarItem
                 key={lesson.id}

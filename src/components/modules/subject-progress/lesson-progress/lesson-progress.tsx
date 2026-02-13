@@ -5,6 +5,7 @@ import { formatDuration } from "@/lib/time";
 import Course from "@/types/course/course.interface";
 import Lesson from "@/types/course/lesson.interface";
 import Subject from "@/types/course/subject.interface";
+import { Clock3, ListVideo } from "lucide-react";
 
 interface LessonProgressProps {
   course: Course;
@@ -14,24 +15,29 @@ interface LessonProgressProps {
 
 export const LessonProgress = ({ course, subject, lesson }: LessonProgressProps) => {
   return (
-    <Card className="flex min-h-0 flex-col gap-3 p-4 pb-2 sm:gap-4 sm:p-6 bg-transparent border-0 shadow-none lg:h-full">
-      <LessonProgressBreadcrumb courseName={course.name} subjectName={subject.name} lessonName={lesson.name} />
+    <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent p-4 shadow-none sm:gap-4 sm:p-6 lg:h-full">
+      <LessonProgressBreadcrumb
+        courseAlternativeName={course.alternativeName}
+        subjectName={subject.name}
+        lessonName={lesson.name}
+      />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
-        <div className="h-full rounded-lg overflow-hidden transition-opacity">
+        <div className="h-full rounded-md overflow-hidden transition-opacity">
           <VideoPlayer key={lesson.id} url={lesson.embedUrl} />
         </div>
       </div>
-      <div className="shrink-0 rounded-xl border border-border/60 bg-card/80 p-4 sm:p-5">
+      <div className="shrink-0">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex flex-col gap-2">
             <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-400">
-              <span className="font-medium text-zinc-200">Aula {lesson.number}</span>
+              <span className="inline-flex items-center gap-1.5 font-medium text-zinc-300">
+                <ListVideo className="h-3.5 w-3.5 text-zinc-400" />
+                <span>Aula {lesson.number}</span>
+              </span>
               {lesson.duration && (
-                <span className="inline-flex items-center gap-2 text-zinc-400">
-                  <span className="h-1 w-1 rounded-full bg-zinc-600" />
-                  <span className="font-medium text-zinc-200">
-                    {formatDuration(lesson.duration)}
-                  </span>
+                <span className="inline-flex items-center gap-1.5 border-l border-zinc-600/70 pl-2 text-zinc-300">
+                  <Clock3 className="h-3.5 w-3.5 text-zinc-400" />
+                  <span className="font-medium">{formatDuration(lesson.duration)}</span>
                 </span>
               )}
             </div>
@@ -39,7 +45,7 @@ export const LessonProgress = ({ course, subject, lesson }: LessonProgressProps)
               {lesson.name}
             </h2>
             <p className="text-sm text-zinc-400">
-              Disciplina: <span className="text-zinc-200">{subject.name}</span>
+              Disciplina: <span className="text-zinc-400">{subject.name}</span>
             </p>
           </div>
         </div>
