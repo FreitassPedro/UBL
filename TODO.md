@@ -12,4 +12,3 @@
   - [ ] Mover dados do LocalStorage para DB    
 ## Features
 - [ ] Sistema de Login
-
