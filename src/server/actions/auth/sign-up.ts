@@ -1,7 +1,6 @@
 "use server";
 
 import { auth } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
@@ -34,28 +33,22 @@ export async function signUpAction(
   }
 
   const { name, email, password } = data.data;
-  const existingUser: { id: string } | null = await prisma.user.findUnique({
-    where: { email },
-    select: { id: true },
+  const response = await auth.api.signUpEmail({
+    body: { name, email, password },
+    headers: await headers(),
+    asResponse: true,
   });
 
-  if (existingUser) {
-    return { errorMessages: ["Já existe uma conta com esse e-mail."] };
+  if (response.status === 422) {
+    return {
+      errorMessages: ["Já existe uma conta cadastrada com esse e-mail."],
+    };
   }
 
-  try {
-    await auth.api.signUpEmail({
-      body: {
-        name,
-        email,
-        password,
-      },
-      headers: await headers(),
-    });
-  } catch {
+  if (!response.ok) {
     return {
       errorMessages: [
-        "Ocorreu um erro inesperado ao criar sua conta. Tente novamente mais tarde.",
+        "Ocorreu um erro inesperado ao cadastrar sua conta. Tente novamente mais tarde.",
       ],
     };
   }

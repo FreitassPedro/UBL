@@ -1,11 +1,11 @@
 "use client";
 
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { AuthFormErrorAlert } from "@/components/modules/auth/forms/auth-form-error-alert";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { signUpAction } from "@/server/actions/auth/sign-up";
-import { AlertCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useActionState } from "react";
 
 export const SignUpForm = () => {
@@ -15,19 +15,11 @@ export const SignUpForm = () => {
 
   return (
     <form action={formAction} className="space-y-4">
-      {state.errorMessages.length > 0 ? (
-        <Alert variant="destructive" className="border-destructive/50">
-          <AlertCircle />
-          <AlertTitle>Não foi possível criar sua conta</AlertTitle>
-          <AlertDescription>
-            <ul className="list-disc space-y-1 pl-5">
-              {state.errorMessages.map((message, index) => (
-                <li key={`${index}-${message}`}>{message}</li>
-              ))}
-            </ul>
-          </AlertDescription>
-        </Alert>
-      ) : null}
+      <AuthFormErrorAlert
+        title="Não foi possível cadastrar sua conta."
+        messages={state.errorMessages}
+        className="-mt-4"
+      />
 
       <div className="space-y-2">
         <Label htmlFor="name" className="text-sm font-medium text-zinc-200">
@@ -99,7 +91,7 @@ export const SignUpForm = () => {
       <Button
         type="submit"
         disabled={isPending}
-        className="mt-4 h-11 w-full cursor-pointer bg-zinc-100 text-zinc-900 hover:bg-zinc-200"
+        className="h-11 w-full cursor-pointer bg-zinc-100 text-zinc-900 hover:bg-zinc-200"
       >
         {isPending ? "Criando conta..." : "Criar conta"}
         <ArrowRight className="h-4 w-4" />

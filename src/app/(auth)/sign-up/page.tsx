@@ -1,8 +1,8 @@
+import { SignUpForm } from "@/components/modules/auth/forms/sign-up/sign-up-form";
 import { AuthCard } from "@/components/modules/auth/auth-card";
 import { AuthFooter } from "@/components/modules/auth/auth-footer";
 import { AuthHighlight } from "@/components/modules/auth/auth-highlight";
 import { AuthHighlightContent } from "@/components/modules/auth/auth-highlight-content";
-import { SignUpForm } from "@/components/modules/auth/sign-up/sign-up-form";
 import { CheckCircle2 } from "lucide-react";
 
 const highlightItems = [

@@ -1,8 +1,8 @@
+import { LoginForm } from "@/components/modules/auth/forms/login/login-form";
 import { AuthCard } from "@/components/modules/auth/auth-card";
 import { AuthFooter } from "@/components/modules/auth/auth-footer";
 import { AuthHighlight } from "@/components/modules/auth/auth-highlight";
 import { AuthHighlightContent } from "@/components/modules/auth/auth-highlight-content";
-import { LoginForm } from "@/components/modules/auth/login/login-form";
 import { BookOpenCheck } from "lucide-react";
 
 const highlightItems = [
