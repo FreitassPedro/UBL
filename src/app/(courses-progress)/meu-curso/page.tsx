@@ -8,8 +8,8 @@ export const courses = [
     description: "Fundamentos e modelos para resolver problemas complexos.",
     icon: Calculator,
     accentText: "text-blue-300",
-    accentBorder: "border-ubl-blue/50",
-    accentBackground: "bg-ubl-blue/20",
+    accentBorder: "border-blue-400/50",
+    accentBackground: "bg-blue-400/10",
   },
   {
     slug: "ciencia-da-computacao",
@@ -17,8 +17,8 @@ export const courses = [
     description: "Algoritmos, dados e sistemas para construir software.",
     icon: Binary,
     accentText: "text-emerald-300",
-    accentBorder: "border-ubl-green/50",
-    accentBackground: "bg-ubl-green/20",
+    accentBorder: "border-emerald-400/50",
+    accentBackground: "bg-emerald-400/10",
   },
 ];
 

@@ -27,18 +27,18 @@ export const CourseProgressSelectorPreview = ({ course }: CourseProgressSelector
         <div className="relative mb-5">
           <div
             className={cn(
-              "pointer-events-none absolute -inset-4 rounded-full opacity-90 blur-xl transition-opacity duration-200 group-hover:opacity-100",
+              "pointer-events-none absolute -inset-3 rounded-full opacity-90 blur-lg transition-opacity duration-200 group-hover:opacity-100",
               course.accentBackground,
             )}
           />
           <div
             className={cn(
-              "relative grid h-24 w-24 place-items-center rounded-full border-2 shadow-lg ring-1 ring-white/12 transition-transform duration-200 group-hover:scale-[1.03]",
+              "relative grid h-20 w-20 place-items-center rounded-full border-2 shadow-lg ring-1 ring-white/12 transition-transform duration-200 group-hover:scale-[1.03]",
               course.accentBorder,
               course.accentBackground,
             )}
           >
-            <course.icon className={cn("h-10 w-10", course.accentText)} />
+            <course.icon className={cn("h-8 w-8", course.accentText)} />
           </div>
         </div>
 
