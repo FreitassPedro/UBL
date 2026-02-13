@@ -11,10 +11,10 @@ const formSchema = z.object({
   rememberMe: z.preprocess((value) => value === "true", z.boolean()),
 });
 
-export async function loginAction(
+export const loginAction = async (
   _prevState: { errorMessages: string[] },
   formData: FormData,
-): Promise<{ errorMessages: string[] }> {
+): Promise<{ errorMessages: string[] }> => {
   const data = formSchema.safeParse(Object.fromEntries(formData));
   if (!data.success) {
     const messages: string[] = Array.from(

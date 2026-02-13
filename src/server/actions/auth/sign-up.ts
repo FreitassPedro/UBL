@@ -17,10 +17,10 @@ const formSchema = z
     path: ["confirmPassword"],
   });
 
-export async function signUpAction(
+export const signUpAction = async (
   _prevState: { errorMessages: string[] },
   formData: FormData,
-): Promise<{ errorMessages: string[] }> {
+): Promise<{ errorMessages: string[] }> => {
   const data = formSchema.safeParse(Object.fromEntries(formData));
   if (!data.success) {
     const messages: string[] = Array.from(
