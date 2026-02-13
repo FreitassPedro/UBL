@@ -40,7 +40,7 @@ export const NavbarAccount = async () => {
     );
   }
 
-  const name: string = user?.name?.trim() || "Usuário";
+  const name: string = user?.name?.trim() || "Estudante";
   const email: string = user?.email?.trim() || "";
   return (
     <DropdownMenu>
