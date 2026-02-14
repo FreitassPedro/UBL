@@ -13,6 +13,8 @@ jobs:
       packages: write
     env:
       REGISTRY: ghcr.io
+      NAMESPACE: ${{ github.repository_owner }}
+      REPO: ${{ github.event.repository.name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,8 +34,8 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ github.repository }}:latest
-            ${{ env.REGISTRY }}/${{ github.repository }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/${{ env.REPO }}:latest
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/${{ env.REPO }}:${{ github.sha }}
 
   deploy:
     needs: build
