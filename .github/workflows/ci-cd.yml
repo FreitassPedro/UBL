@@ -77,7 +77,9 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          envs: POSTGRES_DB,POSTGRES_USER,POSTGRES_PASSWORD,BETTER_AUTH_URL,BETTER_AUTH_SECRET
+          envs: REPO,SHA,POSTGRES_DB,POSTGRES_USER,POSTGRES_PASSWORD,BETTER_AUTH_URL,BETTER_AUTH_SECRET
           script: |
-            curl -sSL https://raw.githubusercontent.com/$REPO/$SHA/docker-compose.prod.yml | docker compose -p ubl -f - up -d --pull always
+            set -euo pipefail
+            curl -fsSL https://raw.githubusercontent.com/$REPO/$SHA/docker-compose.prod.yml \
+              | docker compose -p ubl -f - up -d --pull always
             docker image prune -af
