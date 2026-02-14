@@ -26,8 +26,8 @@ export const HomeProgress = () => {
   }
 
   return (
-    <div className="max-w-7xl px-6 sm:px-10 lg:px-14 mx-auto mb-20 sm:mb-24">
-      <Card className="w-full border-0 bg-card p-10 sm:p-14 pb-6 sm:pb-8">
+    <div className="mx-auto mb-8 max-w-7xl px-6 sm:mb-10 sm:px-10 md:mb-16 lg:mb-20 lg:px-14">
+      <Card className="w-full border-0 bg-card p-10 sm:p-14">
         <CardHeader className="p-0 pb-2">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <CardTitle className="text-4xl sm:text-5xl md:text-[3.5rem] font-semibold leading-[1.05] tracking-[-0.03em] bg-clip-text text-transparent bg-linear-to-br from-zinc-100 via-zinc-300 to-zinc-400">

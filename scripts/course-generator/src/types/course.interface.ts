@@ -3,7 +3,7 @@ export default interface Course {
   slug: string;
   name: string;
   alternativeName: string;
-  steps: {
+  semesters: {
     id: number;
     number: number,
     subjects: {

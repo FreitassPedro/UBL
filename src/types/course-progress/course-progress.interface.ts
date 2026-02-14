@@ -1,6 +1,6 @@
-import StepProgress from "@/types/course-progress/step-progress.interface";
+import SemesterProgress from "@/types/course-progress/semester-progress.interface";
 
 export default interface CourseProgress {
   slug: string;
-  steps: StepProgress[];
+  semesters: SemesterProgress[];
 }

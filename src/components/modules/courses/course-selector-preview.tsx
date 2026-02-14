@@ -1,4 +1,4 @@
-import RedirectLink from "@/components/shared/redirect-link";
+import RedirectLink from "@/components/common/redirect-link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Image, { StaticImageData } from "next/image";

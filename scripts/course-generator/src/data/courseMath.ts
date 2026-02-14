@@ -5,7 +5,7 @@ export const courseMath: Course = {
   slug: "matematica",
   name: "Matemática",
   alternativeName: "Matemática",
-  steps: [
+  semesters: [
     {
       // Etapa 1
       id: 8,

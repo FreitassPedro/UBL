@@ -1,9 +1,9 @@
-import CourseProgress from "@/types/course-progress/course-progress.interface";
-import Course from "@/types/course/course.interface";
-import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
-import { toStepProgress } from "@/mappers/step.mapper";
+import { toSemesterProgress } from "@/mappers/semester.mapper";
 import { toSubjectProgress } from "@/mappers/subject.mapper";
+import CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
+import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
+import Course from "@/types/course/course.interface";
 
 export function toCourseProgress(
   course: Course,
@@ -12,21 +12,21 @@ export function toCourseProgress(
   const courseProgress = progressStore?.[course.slug] ?? {};
   return {
     slug: course.slug,
-    steps: course.steps.map((step) => {
-      const stepProgress = courseProgress?.[step.number] ?? {};
-      return toStepProgress(step, stepProgress);
+    semesters: course.semesters.map((semester) => {
+      const semesterProgress = courseProgress?.[semester.number] ?? {};
+      return toSemesterProgress(semester, semesterProgress);
     }),
   };
 }
 
 export function toCourseProgressFromSubjectParams(
   courseSlug: string,
-  stepNumber: number,
+  semesterNumber: number,
   subjectNumber: number,
   totalLessons: number,
   progressStore: CourseProgressStore,
 ): CourseProgress {
-  const completedLessons: number[] = progressStore?.[courseSlug]?.[stepNumber]?.[subjectNumber] ?? [];
+  const completedLessons: number[] = progressStore?.[courseSlug]?.[semesterNumber]?.[subjectNumber] ?? [];
   const subjectProgress: SubjectProgress = toSubjectProgress(
     { number: subjectNumber, lessons: totalLessons },
     completedLessons,
@@ -34,9 +34,9 @@ export function toCourseProgressFromSubjectParams(
 
   return {
     slug: courseSlug,
-    steps: [
+    semesters: [
       {
-        number: stepNumber,
+        number: semesterNumber,
         subjects: [subjectProgress],
       },
     ],
