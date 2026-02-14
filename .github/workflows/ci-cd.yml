@@ -13,8 +13,7 @@ jobs:
       packages: write
     env:
       REGISTRY: ghcr.io
-      NAMESPACE: ${{ github.repository_owner }}
-      REPO: ${{ github.event.repository.name }}
+      REPO: ${{ github.repository }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,13 +28,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Normalize image name
+        run: echo "REPO=$(echo '${{ env.REPO }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
       - name: Build and Push
         uses: docker/build-push-action@v6
         with:
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/${{ env.REPO }}:latest
-            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/${{ env.REPO }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ env.REPO }}:latest
+            ${{ env.REGISTRY }}/${{ env.REPO }}:${{ github.sha }}
 
   deploy:
     needs: build
