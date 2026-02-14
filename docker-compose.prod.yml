@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    init: true
     container_name: ubl-nextjs
     ports:
       - "3000:3000"
