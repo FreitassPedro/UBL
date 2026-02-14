@@ -3,7 +3,7 @@
   "slug": "matematica",
   "name": "Matemática",
   "alternativeName": "Matemática",
-  "steps": [
+  "semesters": [
     {
       "id": 8,
       "number": 1,

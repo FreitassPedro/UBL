@@ -5,7 +5,7 @@ export const courseCC: Course = {
   slug: "ciencia-da-computacao",
   name: "Ciência da Computação",
   alternativeName: "Computação",
-  steps: [
+  semesters: [
     {
       // Etapa 1
       id: 1,

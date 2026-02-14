@@ -18,7 +18,7 @@ interface CourseGraphNode extends Node {
   data: {
     name: string;
     preReq: string[];
-    step: number;
+    semester: number;
     isSelected?: boolean;
     isClicked?: boolean;
     hasActiveSelection?: boolean;
@@ -35,8 +35,8 @@ const buildCourseGraph = (course: Course) => {
   const nodes: CourseGraphNode[] = [];
   const edges: Edge[] = [];
 
-  course.steps.forEach((step) => {
-    step.subjects.forEach((subject, subjectIndex) => {
+  course.semesters.forEach((semester) => {
+    semester.subjects.forEach((subject, subjectIndex) => {
       const nodeId = subject.name;
       nodes.push({
         id: nodeId,
@@ -44,18 +44,18 @@ const buildCourseGraph = (course: Course) => {
         data: {
           name: subject.name,
           preReq: subject.prerequisites,
-          step: step.number,
+          semester: semester.number,
         },
         position: {
-          x: (step.number - 1) * 300,
+          x: (semester.number - 1) * 300,
           y: 170 * subjectIndex,
         },
       });
     });
   });
 
-  course.steps.forEach((step) => {
-    step.subjects.forEach((subject) => {
+  course.semesters.forEach((semester) => {
+    semester.subjects.forEach((subject) => {
       if (subject.prerequisites && subject.prerequisites.length > 0) {
         subject.prerequisites.forEach((preReq) => {
           const sourceExist = nodes.find((node) => node.id === preReq);

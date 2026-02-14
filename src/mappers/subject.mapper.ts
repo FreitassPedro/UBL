@@ -2,7 +2,7 @@ import CourseProgress from "@/types/course-progress/course-progress.interface";
 import SubjectProgress from "@/types/course-progress/subject-progress.interface";
 import SubjectWithProgress from "@/types/course-with-progress/subject-with-progress.interface";
 import Course from "@/types/course/course.interface";
-import Step from "@/types/course/step.interface";
+import Semester from "@/types/course/semester.interface";
 import Subject from "@/types/course/subject.interface";
 
 export function toSubjectProgress(
@@ -11,33 +11,33 @@ export function toSubjectProgress(
 ): SubjectProgress {
   return {
     number: subject.number,
-    lessons: subjectProgress,
+    lessons: subjectProgress.map((lessonNumber) => ({ number: lessonNumber })),
     progress: subject.lessons
       ? Math.round((subjectProgress.length / subject.lessons) * 100)
       : 0,
   };
 }
 
-export function toSubjectsWithProgress(courses: Course[], progresses: CourseProgress[]): SubjectWithProgress[] {
+export function toSubjectsWithProgress(courses: Course[], coursesProgress: CourseProgress[]): SubjectWithProgress[] {
   const result: SubjectWithProgress[] = [];
-  for (const courseProgress of progresses) {
+  for (const courseProgress of coursesProgress) {
     const course: Course | undefined = courses.find((course) => course.slug === courseProgress.slug);
     if (!course) {
       continue;
     }
 
-    for (const stepProgress of courseProgress.steps) {
-      const step: Step | undefined = course.steps.find((step) => step.number === stepProgress.number);
-      if (!step) {
+    for (const semesterProgress of courseProgress.semesters) {
+      const semester: Semester | undefined = course.semesters.find((semester) => semester.number === semesterProgress.number);
+      if (!semester) {
         continue;
       }
 
-      for (const subjectProgress of stepProgress.subjects) {
+      for (const subjectProgress of semesterProgress.subjects) {
         if (!subjectProgress.progress) {
           continue;
         }
 
-        const subject: Subject | undefined = step.subjects.find((subject) => subject.number === subjectProgress.number);
+        const subject: Subject | undefined = semester.subjects.find((subject) => subject.number === subjectProgress.number);
         if (!subject) {
           continue;
         }
@@ -47,7 +47,7 @@ export function toSubjectsWithProgress(courses: Course[], progresses: CourseProg
           courseSlug: course.slug,
           courseName: course.name,
           courseAlternativeName: course.alternativeName,
-          stepNumber: step.number,
+          semesterNumber: semester.number,
           progress: subjectProgress.progress,
         });
       }

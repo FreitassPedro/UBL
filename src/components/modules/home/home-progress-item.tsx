@@ -24,7 +24,7 @@ export const HomeProgressItem = ({ subjectWithProgress }: HomeProgressItemProps)
       <CardHeader className="p-0 space-y-1">
         <CardDescription className="font-semibold text-gray-400 leading-tight line-clamp-2 sm:min-h-10 lg:min-h-0">
           {subjectWithProgress.courseAlternativeName} - Etapa{" "}
-          {subjectWithProgress.stepNumber}
+          {subjectWithProgress.semesterNumber}
         </CardDescription>
         <CardTitle className="p-0 text-left text-xl text-white font-semibold leading-tight line-clamp-1">
           <Tooltip>
@@ -54,7 +54,7 @@ export const HomeProgressItem = ({ subjectWithProgress }: HomeProgressItemProps)
           className="w-full h-10 bg-zinc-200 text-zinc-900 hover:bg-zinc-300"
         >
           <Link
-            href={`/meu-curso/${subjectWithProgress.courseSlug}/etapas/${subjectWithProgress.stepNumber}/disciplinas/${subjectWithProgress.number}`}
+            href={`/meu-curso/${subjectWithProgress.courseSlug}/etapas/${subjectWithProgress.semesterNumber}/disciplinas/${subjectWithProgress.number}`}
           >
             Retomar
           </Link>

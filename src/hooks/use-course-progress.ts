@@ -1,17 +1,17 @@
 "use client";
 
-import MyCourseProgressStoreContext from "@/contexts/course-progress-store-context";
 import { toCourseProgress, toCourseProgressFromSubjectParams } from "@/mappers/course.mapper";
+import useCourseProgressStore from "@/stores/course-progress-store";
 import CourseProgress from "@/types/course-progress/course-progress.interface";
 import Course from "@/types/course/course.interface";
-import { useContext, useMemo } from "react";
+import { useMemo } from "react";
 
 type UseCourseProgressParams =
   | { course: Course }
-  | { courseSlug: string; stepNumber: number; subjectNumber: number; totalLessons: number };
+  | { courseSlug: string; semesterNumber: number; subjectNumber: number; totalLessons: number };
 
 export const useCourseProgress = (params: UseCourseProgressParams) => {
-  const { progressStore } = useContext(MyCourseProgressStoreContext);
+  const progressStore = useCourseProgressStore((state) => state.progress);
   const progress: CourseProgress = useMemo<CourseProgress>(() => {
     if ("course" in params) {
       return toCourseProgress(params.course, progressStore);
@@ -19,7 +19,7 @@ export const useCourseProgress = (params: UseCourseProgressParams) => {
 
     return toCourseProgressFromSubjectParams(
       params.courseSlug,
-      params.stepNumber,
+      params.semesterNumber,
       params.subjectNumber,
       params.totalLessons,
       progressStore,

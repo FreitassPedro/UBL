@@ -1,6 +1,6 @@
+import ViewportAnchor from "@/components/common/viewport-anchor";
 import CourseHeader from "@/components/modules/courses/course/course-header";
-import { Step } from "@/components/modules/courses/step/step";
-import ViewportAnchor from "@/components/shared/viewport-anchor";
+import { Semester } from "@/components/modules/courses/semester/semester";
 import CourseType from "@/types/course/course.interface";
 
 interface CourseProps {
@@ -12,8 +12,8 @@ export const Course = ({ course }: CourseProps) => {
     <ViewportAnchor className="w-full max-w-6xl px-6 sm:px-8 mb-20 mx-auto container">
       <CourseHeader course={course} />
       <ul className="space-y-4">
-        {course.steps.map((step) => {
-          return <Step key={step.id} step={step} />;
+        {course.semesters.map((semester) => {
+          return <Semester key={semester.id} semester={semester} />;
         })}
       </ul>
     </ViewportAnchor>

@@ -1,14 +1,12 @@
 import type CourseProgressStore from "@/types/course-progress/course-progress-store.interface";
 import { z } from "zod";
 
-const numericKeySchema = z.string().regex(/^\d+$/);
-
 export const courseProgressStoreSchema: z.ZodType<CourseProgressStore> = z.record(
   z.string().min(1),
   z.record(
-    numericKeySchema,
+    z.string().regex(/^\d+$/),
     z.record(
-      numericKeySchema,
+      z.string().regex(/^\d+$/),
       z.array(z.number().int().nonnegative()),
     ),
   ),
