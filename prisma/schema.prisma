@@ -75,3 +75,64 @@ model Verification {
   @@index([identifier])
   @@map("verification")
 }
+
+model Course {
+  id              String     @id @default(cuid())
+  slug            String     @unique
+  name            String
+  alternativeName String
+  semesters       Semester[]
+
+  @@index([slug])
+}
+
+model Semester {
+  id       String    @id @default(cuid())
+  number   Int
+  courseId String
+  course   Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  subjects Subject[]
+
+  @@unique([courseId, number])
+}
+
+model Subject {
+  id                String         @id @default(cuid())
+  number            Int
+  name              String
+
+  prerequisites     Subject[]     @relation("SubjectPrerequisites")
+  dependentSubjects Subject[]     @relation("SubjectPrerequisites")
+
+  url               String
+  duration          Int?
+  lessons           Lesson[]
+  books             SubjectBook[]
+
+  semesterId        String
+  semester          Semester      @relation(fields: [semesterId], references: [id], onDelete: Cascade)
+
+  @@unique([semesterId, number])
+}
+
+model SubjectBook {
+  id        String  @id @default(cuid())
+  name      String
+  url       String
+
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+}
+
+model Lesson {
+  id        String   @id @default(cuid())
+  number    Int
+  name      String
+  duration  Int?
+  embedUrl  String
+
+  subjectId String
+  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([subjectId, number])
+}
