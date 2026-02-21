@@ -2,19 +2,16 @@
 
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import useCourseProgress from "@/hooks/use-course-progress";
+import { Skeleton } from "@/components/ui/skeleton";
+import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { cn } from "@/lib/utils";
-import CourseProgress from "@/types/course-progress/course-progress.interface";
-import SubjectProgressType from "@/types/course-progress/subject-progress.interface";
-import Course from "@/types/course/course.interface";
-import Subject from "@/types/course/subject.interface";
+import { Subject } from "@/types/course/subject.interface";
+import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
 interface SubjectProgressProps {
-  semesterNumber: number;
-  subjectNumber: number;
-  course: Course;
+  subject: Subject;
 }
 
 export const getTheme = (progress: number) => {
@@ -44,24 +41,19 @@ export const getTheme = (progress: number) => {
     };
 };
 
-export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: SubjectProgressProps) => {
-  const courseProgress: CourseProgress = useCourseProgress({ course });
-  const subjectProgress: SubjectProgressType | undefined = courseProgress.semesters
-    .find((semester) => semester.number === semesterNumber)
-    ?.subjects.find((subject) => subject.number === subjectNumber);
+export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
+  const { getSubjectLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
 
-  const subject: Subject | undefined = course.semesters
-    .find((semester) => semester.number === semesterNumber)
-    ?.subjects.find((subject) => subject.number === subjectNumber);
-
-  if (!subjectProgress || !subject) {
-    return null;
+  if (isError) {
+    throw new Error("Não foi possível carregar o progresso da disciplina.");
   }
 
-  const theme = getTheme(subjectProgress.progress);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
+  const theme = getTheme(subjectProgress.percentage);
+
   return (
     <Link
-      href={`/meu-curso/${course.slug}/etapas/${semesterNumber}/disciplinas/${subjectNumber}`}
+      href={`/meu-curso/${subject.info.course.slug}/etapas/${subject.info.semester.number}/disciplinas/${subject.number}`}
       className="group block"
     >
       <Card
@@ -85,48 +77,68 @@ export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: Subje
             <h3 className="text-base sm:text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
               {subject.name}
             </h3>
-            <div
-              className={cn(
-                "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                subjectProgress.progress === 100
-                  ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                  : subjectProgress.progress > 0
-                    ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
-                    : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
-              )}
-            >
-              {subjectProgress.progress === 100
-                ? "Revisar"
-                : subjectProgress.progress > 0
-                  ? "Continuar"
-                  : "Iniciar"}
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </div>
+            {isLoading ? (
+              <Skeleton className="hidden h-7 w-26 rounded-full bg-zinc-300/25 sm:flex" />
+            ) : (
+              <div
+                className={cn(
+                  "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
+                  subjectProgress.percentage === 100
+                    ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
+                    : subjectProgress.percentage > 0
+                      ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
+                      : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
+                )}
+              >
+                {subjectProgress.percentage === 100
+                  ? "Revisar"
+                  : subjectProgress.percentage > 0
+                    ? "Continuar"
+                    : "Iniciar"}
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </div>
+            )}
           </div>
 
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-300">
-              <span>
-                {subjectProgress.progress === 100
-                  ? "Concluído"
-                  : subjectProgress.progress > 0
-                    ? "Progresso"
-                    : "Comece a assistir"}
-              </span>
-              <span className={theme.color}>{subjectProgress.progress}%</span>
+              {isLoading ? (
+                <>
+                  <Skeleton className="h-3.5 w-24 bg-zinc-300/25" />
+                  <Skeleton className="h-3.5 w-10 bg-zinc-300/25" />
+                </>
+              ) : (
+                <>
+                  <span>
+                    {subjectProgress.percentage === 100
+                      ? "Concluído"
+                      : subjectProgress.percentage > 0
+                        ? "Progresso"
+                        : "Comece a assistir"}
+                  </span>
+                  <span
+                    className={theme.color}
+                  >{`${subjectProgress.percentage}%`}</span>
+                </>
+              )}
             </div>
 
-            {subjectProgress.progress > 0 && (
+            {isLoading ? (
+              <Skeleton className="h-1.5 w-full rounded-full bg-zinc-700/70" />
+            ) : subjectProgress.percentage > 0 ? (
               <div className="h-1.5 w-full overflow-hidden rounded-full border border-zinc-600/60 bg-zinc-900/80">
                 <div className="h-full w-full">
-                  <Progress value={subjectProgress.progress} />
+                  <Progress value={subjectProgress.percentage} />
                 </div>
               </div>
-            )}
+            ) : null}
 
             <div className="pt-0.5 text-xs text-zinc-400">
-              {subjectProgress.lessons.length} de {subject.lessons} aulas
-              concluídas
+              {isLoading ? (
+                <Skeleton className="h-3.5 w-44 bg-zinc-300/20" />
+              ) : (
+                `${subjectProgress.completed} de ${subjectProgress.total} aulas concluídas`
+              )}
             </div>
           </div>
         </div>

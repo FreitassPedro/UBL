@@ -1,13 +1,17 @@
-export default interface Subject {
-  id: number;
-  number: number;
+import { CourseInfo } from "@/types/course-info/course-info.interface";
+import { SemesterInfo } from "@/types/course-info/semester-info.interface";
+import { SubjectBook } from "@/types/course/subject-book.interface";
+
+export interface Subject {
+  id: string;
   name: string;
-  prerequisites: string[];
-  url: string;
-  duration?: number;
+  number: number;
   lessons: number;
-  books: {
-    name: string;
-    url: string;
-  }[];
+  lessonsDurationSeconds: number;
+  books: SubjectBook[];
+  prerequisites: Array<Pick<Subject, "id" | "name" | "number">>;
+  info: {
+    course: CourseInfo;
+    semester: SemesterInfo;
+  };
 }

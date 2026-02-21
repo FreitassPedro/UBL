@@ -1,22 +1,24 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { formatDuration } from "@/lib/time";
 import { cn } from "@/lib/utils";
-import Lesson from "@/types/course/lesson.interface";
+import { Lesson } from "@/types/course/lesson.interface";
 
 interface SubjectProgressSidebarItemProps {
   lesson: Lesson;
   isSelected: boolean;
   isCompleted: boolean;
+  isToggleDisabled?: boolean;
   onSelect: (lesson: Lesson) => void;
-  onToggleCompletion: (lessonNumber: number) => void;
+  onToggleUserLessonProgress: (lessonId: string) => void;
 }
 
 export const SubjectProgressSidebarItem = ({
   lesson,
   isSelected,
   isCompleted,
+  isToggleDisabled = false,
   onSelect,
-  onToggleCompletion,
+  onToggleUserLessonProgress,
 }: SubjectProgressSidebarItemProps) => {
   return (
     <li>
@@ -38,7 +40,8 @@ export const SubjectProgressSidebarItem = ({
       >
         <Checkbox
           checked={isCompleted}
-          onCheckedChange={() => onToggleCompletion(lesson.number)}
+          disabled={isToggleDisabled}
+          onCheckedChange={() => onToggleUserLessonProgress(lesson.id)}
           onClick={(event) => {
             event.stopPropagation();
           }}
@@ -54,9 +57,9 @@ export const SubjectProgressSidebarItem = ({
           <span className="text-sm font-medium leading-tight text-zinc-100">
             {lesson.name}
           </span>
-          {lesson.duration && (
+          {lesson.durationSeconds && (
             <span className="text-xs text-zinc-300">
-              {formatDuration(lesson.duration)}
+              {formatDuration(lesson.durationSeconds)}
             </span>
           )}
         </div>

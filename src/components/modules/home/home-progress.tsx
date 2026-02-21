@@ -1,6 +1,7 @@
 "use client";
 
 import HomeProgressItem from "@/components/modules/home/home-progress-item";
+import HomeProgressSkeleton from "@/components/modules/home/home-progress-skeleton";
 import {
   Card,
   CardDescription,
@@ -15,13 +16,22 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useSubjectsWithProgress, {
-  SubjectWithProgressOrder,
-} from "@/hooks/use-subjects-with-progress";
+import useUserSubjectLessonProgress, {
+  UserSubjectLessonProgressOrder,
+} from "@/hooks/use-user-subject-lesson-progress";
 
 export const HomeProgress = () => {
-  const { subjectsWithProgress, orderBy, setOrderBy, isLoading, isError } = useSubjectsWithProgress();
-  if (!subjectsWithProgress || subjectsWithProgress.length === 0 || isLoading || isError) {
+  const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
+
+  if (isLoading) {
+    return <HomeProgressSkeleton />;
+  }
+
+  if (isError) {
+    throw new Error("Erro ao carregar o progresso das disciplinas.");
+  }
+
+  if (!subjects || subjects.length === 0) {
     return null;
   }
 
@@ -40,22 +50,24 @@ export const HomeProgress = () => {
               <Select
                 value={orderBy}
                 onValueChange={(value) =>
-                  setOrderBy(value as SubjectWithProgressOrder)
+                  setOrderBy(value as UserSubjectLessonProgressOrder)
                 }
               >
                 <SelectTrigger className="w-32 cursor-pointer">
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Object.values(SubjectWithProgressOrder).map((option) => (
-                    <SelectItem
-                      key={option}
-                      value={option}
-                      className="cursor-pointer"
-                    >
-                      {option.charAt(0).toUpperCase() + option.slice(1)}
-                    </SelectItem>
-                  ))}
+                  {Object.values(UserSubjectLessonProgressOrder).map(
+                    (option) => (
+                      <SelectItem
+                        key={option}
+                        value={option}
+                        className="cursor-pointer"
+                      >
+                        {option.charAt(0).toUpperCase() + option.slice(1)}
+                      </SelectItem>
+                    ),
+                  )}
                 </SelectContent>
               </Select>
             </div>
@@ -67,10 +79,11 @@ export const HomeProgress = () => {
 
         <ScrollArea className="h-60">
           <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-            {subjectsWithProgress.map((subjectWithProgress) => (
+            {subjects.map((subject) => (
               <HomeProgressItem
-                key={subjectWithProgress.id}
-                subjectWithProgress={subjectWithProgress}
+                key={subject.id}
+                subject={subject}
+                subjectProgress={getSubjectLessonProgress(subject.id)}
               />
             ))}
           </div>

@@ -20,11 +20,13 @@ FROM base AS runtime
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
 
 WORKDIR /app
-COPY --from=deps --chown=nextjs:nodejs /opt/prisma /opt/prisma
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone .
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static .next/static
 COPY --from=builder --chown=nextjs:nodejs /app/public public
 COPY --from=builder --chown=nextjs:nodejs /app/prisma prisma
+COPY --from=builder --chown=nextjs:nodejs /app/prisma.config.ts .
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules/dotenv node_modules/dotenv
+COPY --from=deps --chown=nextjs:nodejs /opt/prisma /opt/prisma
 
 USER nextjs
 EXPOSE 3000 5555
@@ -34,4 +36,4 @@ ENV NODE_ENV=production \
     PATH=/opt/prisma/bin:${PATH} \
     CHECKPOINT_DISABLE=1
 
-CMD ["sh", "-c", "prisma migrate deploy && (prisma studio --hostname 0.0.0.0 --port 5555 &) && node server.js"]
+CMD ["sh", "-c", "prisma migrate deploy && (prisma studio --port 5555 --browser none &) && node server.js"]

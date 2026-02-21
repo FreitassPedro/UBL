@@ -1,19 +1,12 @@
 import Course from "@/components/modules/courses/course/course";
-import { getAllCourses, getCourse } from "@/services/course.service";
-import CourseType from "@/types/course/course.interface";
+import { getCourseBySlug } from "@/server/services/course.service";
+import { Course as CourseType } from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 import { z } from "zod";
 
 const paramsSchema = z.object({
   courseSlug: z.string().min(1),
 });
-
-export const generateStaticParams = async () => {
-  const courses: CourseType[] = await getAllCourses();
-  return courses.map((course) => ({
-    courseSlug: course.slug,
-  }));
-};
 
 export const CoursePage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
   const params = paramsSchema.safeParse(await rawParams);
@@ -22,7 +15,7 @@ export const CoursePage = async ({ params: rawParams }: { params: Promise<z.inpu
   }
 
   const { courseSlug } = params.data;
-  const course: CourseType | undefined = await getCourse(courseSlug);
+  const course: CourseType | null = await getCourseBySlug(courseSlug);
   if (!course) {
     notFound();
   }
