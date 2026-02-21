@@ -1,16 +1,19 @@
-import type { Step } from "@/types/step";
+import humanizeDuration from "humanize-duration";
 
-export function formatSecondsToMinutes(seconds: number): string {
-  const minutes = Math.floor(seconds / 60);
-  return `${minutes}min`;
-}
+const humanizer = humanizeDuration.humanizer({
+  language: "pt",
+  units: ["h", "m"],
+  round: true,
+  spacer: "",
+  delimiter: " ",
+  languages: {
+    pt: {
+      h: () => "h",
+      m: () => "min",
+    },
+  },
+});
 
-export function formatStepToHours(step: Step): string {
-  const hours = Math.round(
-    step.subjects
-      .flatMap((subject) => subject.lessons)
-      .reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0) / 3600,
-  );
-
-  return `${hours}h`;
+export function formatDuration(seconds: number): string {
+  return humanizer(seconds * 1000);
 }
